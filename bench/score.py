@@ -31,7 +31,7 @@ def match(model_name, admissible):
     if not m: return False
     for a in admissible:
         a = norm(a)
-        if a and (a == m or (len(a) > 4 and (a in m or m in a))): return True
+        if a and (a == m or (len(a) > 4 and (a in m or m in a)) or (len(a) <= 4 and a in m.split())): return True
     return False
 
 

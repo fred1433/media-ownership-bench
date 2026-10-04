@@ -6,7 +6,7 @@
    "cases_all_runs_complete": 3,
    "cases": 8,
    "complete_supported_outputs": 11,
-   "outputs_with_asserted_error": 3,
+   "outputs_with_asserted_error": 2,
    "unsupported_fields": 6,
    "unverifiable_fields": 4,
    "abstain_justified_fields": 3,
@@ -15,7 +15,7 @@
    "per_case": {
     "espn": {
      "complete": "1/3",
-     "errors": 1,
+     "errors": 0,
      "usd": 0.63
     },
     "kfrc": {
@@ -672,12 +672,32 @@
      ]
     },
     "ultimate_parent": {
-     "verdict": "error",
+     "verdict": "correct_supported",
      "status": "multiple",
      "names": [
       "The Walt Disney Company \u2014 majority-owner branch",
       "The Hearst Family Trust \u2014 Hearst minority-owner branch",
       "The NFL's 32 member clubs collectively \u2014 NFL minority-owner branch"
+     ],
+     "citations": [
+      {
+       "url": "https://support.espn.com/hc/en-us/articles/360039139792-What-does-ESPN-stand-for",
+       "fetched": true,
+       "passage_found": true,
+       "names_entity": true
+      },
+      {
+       "url": "https://www.sec.gov/Archives/edgar/data/2010499/000114036125019057/xslSCHEDULE_13G_X01/primary_doc.xml",
+       "fetched": false,
+       "passage_found": false,
+       "names_entity": false
+      },
+      {
+       "url": "https://s27.q4cdn.com/552951210/files/doc_financials/2025/ar/GENI-20-F-FY25_vF.pdf",
+       "fetched": true,
+       "passage_found": false,
+       "names_entity": true
+      }
      ]
     },
     "controlling_person": {
@@ -702,7 +722,7 @@
     }
    },
    "complete_supported": false,
-   "asserted_error": true,
+   "asserted_error": false,
    "unsupported": 0,
    "unverifiable": 0,
    "abstain_justified": 0,
