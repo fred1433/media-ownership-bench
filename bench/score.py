@@ -36,6 +36,7 @@ def match(model_name, admissible):
 
 
 SUFFIX = {"jr", "sr", "ii", "iii", "iv"}
+GENERIC = {"broadcasting", "media", "licensing", "license", "licenses", "family", "trust", "foundation", "network", "networks", "communications", "television", "radio", "stations", "national", "capital", "company", "operations", "system", "fund", "policy", "reform", "spanish"}
 def person_match(model_name, admissible):
     m = [x for x in norm(model_name).split() if x not in SUFFIX]
     for a in admissible:
@@ -48,6 +49,15 @@ def source_text(url):
     if url in cache: return cache[url]
     if not FETCH: return None
     txt = None
+    try:  # direct fetch first (HTML only), then Exa /contents
+        r = httpx.get(url, timeout=40, follow_redirects=True, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 Chrome/126 Safari/537.36"})
+        if r.status_code == 200 and "html" in r.headers.get("content-type", ""):
+            t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", r.text, flags=re.S)
+            t = re.sub(r"<[^>]+>", " ", t); t = re.sub(r"&nbsp;|&#160;", " ", t); t = re.sub(r"&amp;", "&", t)
+            if len(t.strip()) > 500: txt = t
+    except Exception:
+        pass
+    if txt: cache[url] = txt; return txt
     try:
         LEDGER.guard(0.01)
         r = httpx.post("https://api.exa.ai/contents", timeout=90, headers={"x-api-key": os.environ["EXA_API_KEY"]},
@@ -82,7 +92,8 @@ def cite_ok(citations, entity_names):
     for c in citations:
         txt = source_text(c["url"])
         found = located(c["quote"], txt)
-        names = any(any(tok in norm(c["quote"]).split() for tok in norm(n).split() if len(tok) > 3) for n in entity_names)
+        q = norm(c["quote"]); qt = set(q.split())
+        names = (not entity_names) or any(norm(n) and (norm(n) in q or any(t in qt for t in norm(n).split() if len(t) >= 4 and t not in GENERIC)) for n in entity_names)
         detail.append({"url": c["url"], "fetched": txt is not None, "passage_found": found, "names_entity": names})
     return any(d["passage_found"] and d["names_entity"] for d in detail), detail
 
@@ -139,7 +150,10 @@ def field_verdict(case, field, ans):
         return {"verdict": "error", "status": ms, "names": names}
     if ms in ("none", "not_applicable") and rs in ("none", "not_applicable"):
         return {"verdict": "correct_supported", "status": ms, "names": names, "cite": "not required"}
-    good, detail = cite_ok(cites, names or adm)
+    good, detail = cite_ok(cites, ([] if ms == "none" and not names else names + adm))
+    if not good and detail and not any(d["fetched"] for d in detail):
+        return {"verdict": "correct_unverifiable", "status": ms, "names": names, "citations": detail,
+                "note": "every cited source refused automated fetching"}
     return {"verdict": "correct_supported" if good else "correct_unsupported", "status": ms, "names": names, "citations": detail}
 
 
@@ -158,6 +172,7 @@ def score_output(case, path):
     out["complete_supported"] = all(x in ("correct_supported", "abstain_justified") for x in v)
     out["asserted_error"] = "error" in v
     out["unsupported"] = sum(x in ("unsupported", "correct_unsupported") for x in v)
+    out["unverifiable"] = v.count("correct_unverifiable")
     out["abstain_justified"] = v.count("abstain_justified"); out["abstain_avoidable"] = v.count("abstain_avoidable")
     out["answer"] = {k: ans[k] for k in ("legal_owner", "operator", "ultimate_parent", "controlling_person", "leader", "transactions", "uncertainty")}
     return out
@@ -166,13 +181,13 @@ def score_output(case, path):
 def main():
     cases = {c["id"]: c for c in load_cases()}
     rows = []
-    for arm in ["A", "B", "C", "bare"]:
+    for arm in ["A", "B", "C", "B2", "C2", "bare"]:
         for p in sorted((RUNS / arm).glob("*.json")):
             cid = p.stem.rsplit("_r", 1)[0]
             if cid in cases: rows.append(score_output(cases[cid], p))
     CACHE.write_text(json.dumps(cache))
     agg = {}
-    for arm in ["A", "B", "C", "bare"]:
+    for arm in ["A", "B", "C", "B2", "C2", "bare"]:
         r = [x for x in rows if x["arm"] == arm]
         if not r: continue
         per_case = {}
@@ -187,6 +202,7 @@ def main():
             "complete_supported_outputs": complete,
             "outputs_with_asserted_error": sum(x["asserted_error"] for x in r),
             "unsupported_fields": sum(x.get("unsupported", 0) for x in r),
+            "unverifiable_fields": sum(x.get("unverifiable", 0) for x in r),
             "abstain_justified_fields": sum(x.get("abstain_justified", 0) for x in r),
             "abstain_avoidable_fields": sum(x.get("abstain_avoidable", 0) for x in r),
             "format_valid": sum(x["format_valid"] for x in r),

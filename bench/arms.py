@@ -110,13 +110,23 @@ Direction: 'X licensee_of STATION', 'X owns Y', 'Y subsidiary_of X', 'Y controll
 Only claims about the outlet in question, its owners, parents, operators, controlling persons, executives and transactions. Do not infer; skip anything not stated."""
 
 
+# Intervention tested after the first measurement (diagnosis: the facts were in the documents, the extractor
+# kept only claims about the outlet itself, so links above the first owner never reached the solver).
+EXTRACT_SYS_V2 = EXTRACT_SYS.replace(
+    "Only claims about the outlet in question, its owners, parents, operators, controlling persons, executives and transactions.",
+    "Follow the chain upward: keep claims about the outlet AND about every entity named as its owner, licensee, operator, parent "
+    "or controller, then about their own parents, controlling persons, chief executives and transactions, at every level. "
+    "A link between two upper entities (for example 'Company X subsidiary_of Holding Y' or 'Holding Y controlled_by Person Z') "
+    "is wanted even if the outlet is not named in that sentence.")
+
+
 def doc_block(docs, chars=3500):
     return "\n\n".join(f"[{d['id']}] {d['url']}\nTitle: {d.get('title')}\nPublished: {d.get('published')}\n{d['text'][:chars]}" for d in docs)
 
 
-def extract(case, docs, run, tag="extract"):
+def extract(case, docs, run, tag="extract", sys_prompt=None, arm="B"):
     fmt = {"format": {"type": "json_schema", "name": "claims", "schema": CLAIMS_SCHEMA, "strict": True}}
-    out = call_openai("B", case["id"], run, EXTRACT_SYS, f"Outlet: {case['media']['name']}\n\n{doc_block(docs)}",
+    out = call_openai(arm, case["id"], run, sys_prompt or EXTRACT_SYS, f"Outlet: {case['media']['name']}\n\n{doc_block(docs)}",
                       fmt=fmt, tag=tag, reserve=0.6)
     claims = json.loads(out["text"])["claims"]
     url = {d["id"]: d["url"] for d in docs}
@@ -153,10 +163,10 @@ def evidence_state(case, claims):
     return flags
 
 
-def arm_b(case, run, max_extra_queries=2):
+def arm_b(case, run, max_extra_queries=2, sys_prompt=None, arm="B"):
     """B: explicit search and extraction, recorded dossier, conditional extra search, defined stop."""
     docs = collect(case)
-    claims, ex = extract(case, docs, run)
+    claims, ex = extract(case, docs, run, sys_prompt=sys_prompt, arm=arm)
     steps = [{"step": "extract", "usd": ex["usd"], "latency_s": ex["latency_s"], "model_returned": ex["model_returned"]}]
     flags = evidence_state(case, claims)
     extra = []
@@ -176,14 +186,14 @@ def arm_b(case, run, max_extra_queries=2):
                 d["id"] = f"E{i+1}"; d["sha256"] = hashlib.sha256(d["text"].encode()).hexdigest()[:16]
             p.write_text(json.dumps(extra, indent=1))
         if extra:
-            c2, ex2 = extract(case, extra, run, tag="extract_extra")
+            c2, ex2 = extract(case, extra, run, tag="extract_extra", sys_prompt=sys_prompt, arm=arm)
             claims += c2
             steps.append({"step": "extract_extra", "usd": ex2["usd"], "latency_s": ex2["latency_s"]})
         flags = evidence_state(case, claims)
     conflict = any(f[0] == "conflict" for f in flags)
     effort = "high" if conflict else EFFORT
     dossier = solver_input(case, claims, flags)
-    out = call_openai("B", case["id"], run, SYSTEM, dossier, effort=effort, reserve=0.6)
+    out = call_openai(arm, case["id"], run, SYSTEM, dossier, effort=effort, reserve=0.6)
     steps.append({"step": "solve", "effort": effort, "usd": out["usd"], "latency_s": out["latency_s"]})
     out.update({"dossier": dossier, "claims": claims, "flags": flags, "steps": steps,
                 "usd_total": sum(s["usd"] for s in steps), "latency_total_s": round(sum(s["latency_s"] for s in steps), 1),
@@ -203,7 +213,7 @@ def solver_input(case, claims, flags):
     return "\n".join(lines)
 
 
-def arm_c(case, run, dossier):
+def arm_c(case, run, dossier, arm="C"):
     """C: the exact dossier given to B's final solver, handed to another model without tools."""
     LEDGER.guard(0.2)
     t0 = time.time(); retries = 0
@@ -218,7 +228,7 @@ def arm_c(case, run, dossier):
             time.sleep(5)
     usage = r.usage_metadata.model_dump() if r.usage_metadata else {}
     usd = gemini_cost(usage)
-    LEDGER.add(provider="gemini", arm="C", case=case["id"], run=run, step="solve", model_requested=GEMINI_MODEL,
+    LEDGER.add(provider="gemini", arm=arm, case=case["id"], run=run, step="solve", model_requested=GEMINI_MODEL,
                model_returned=r.model_version, usage={k: v for k, v in usage.items() if isinstance(v, int)}, usd=usd)
     return {"text": r.text, "usage": {k: v for k, v in usage.items() if isinstance(v, int)}, "usd": usd,
             "latency_s": round(time.time() - t0, 1), "model_returned": r.model_version, "retries": retries,

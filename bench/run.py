@@ -24,6 +24,11 @@ def work(case, runs, armset, start=1):
                 if "C" in armset and not done("C", case, run):
                     b = json.loads((RUNS / "B" / f"{case['id']}_r{run}.json").read_text())
                     save("C", case, run, arms.arm_c(case, run, b["dossier"]))
+            if "B2" in armset or "C2" in armset:
+                if not done("B2", case, run): save("B2", case, run, arms.arm_b(case, run, sys_prompt=arms.EXTRACT_SYS_V2, arm="B2"))
+                if "C2" in armset and not done("C2", case, run):
+                    b = json.loads((RUNS / "B2" / f"{case['id']}_r{run}.json").read_text())
+                    save("C2", case, run, arms.arm_c(case, run, b["dossier"], arm="C2"))
             if "bare" in armset and run == 1 and not done("bare", case, run): save("bare", case, run, arms.arm_bare(case, run))
         except Exception as e:
             err = {"case": case["id"], "run": run, "error": repr(e), "trace": traceback.format_exc()[-1500:]}
@@ -38,7 +43,7 @@ if __name__ == "__main__":
     cases = load_cases(include_dev=True)
     cases = [c for c in cases if c.get("dev")] if a.dev else [c for c in cases if not c.get("dev")]
     if a.cases: cases = [c for c in load_cases(True) if c["id"] in a.cases.split(",")]
-    (RUNS / "config.json").write_text(json.dumps({"openai_model_requested": OPENAI_MODEL, "gemini_model_requested": GEMINI_MODEL,
+    if not set(a.arms.split(",")) <= {"B2", "C2"}: (RUNS / "config.json").write_text(json.dumps({"openai_model_requested": OPENAI_MODEL, "gemini_model_requested": GEMINI_MODEL,
         "endpoints": {"A,B,bare": "OpenAI Responses API", "C": "Gemini Developer API generateContent", "B search": "Exa /search"},
         "sdk": SDK, "reasoning_effort": EFFORT, "B_escalation_effort": "high", "gemini_thinking": "model default",
         "tools": {"A": "web_search (OpenAI native)", "B": "none in-model; Exa search by fixed templates", "C": "none", "bare": "none"},

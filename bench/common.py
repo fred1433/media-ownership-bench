@@ -118,7 +118,8 @@ def gemini_cost(usage):
     return inp * p["in"] / 1e6 + out * p["out"] / 1e6
 
 def norm(s):
-    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+    s = re.sub(r"['\u2019\u2018`]", "", s or "")
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"[^a-z0-9 ]+", " ", s)
     s = re.sub(r"\b(inc|llc|l l c|corp|corporation|co|company|the|ltd|lp|l p|holdings?|group)\b", " ", s)
     return re.sub(r"\s+", " ", s).strip()
