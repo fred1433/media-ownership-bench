@@ -1,0 +1,1250 @@
+[
+ {
+  "arm": "B",
+  "case": "espn",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "espn",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "espn",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kfrc",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "B",
+  "case": "kfrc",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kfrc",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "kfrc",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "B",
+  "case": "kfrc",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kfrc",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "kfrc",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "B",
+  "case": "kfrc",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kfrc",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "kpfa",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kpfa",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kpfa",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kpfa",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kpfa",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kpfa",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kpix",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kpix",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "kpix",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "kpix",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kpix",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "kpix",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "kpix",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "kpix",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "kpix",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "krzz",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "krzz",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "krzz",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "krzz",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "krzz",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "krzz",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "wapo",
+  "run": 1,
+  "field": "legal_owner",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "wapo",
+  "run": 2,
+  "field": "legal_owner",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "wapo",
+  "run": 3,
+  "field": "legal_owner",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "wfxp_mission",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "wfxp_mission",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "wfxp_mission",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "wfxp_mission",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B",
+  "case": "wfxp_mission",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B",
+  "case": "wfxp_mission",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "espn",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "espn",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "espn",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "kfrc",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "C",
+  "case": "kfrc",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "kfrc",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "kfrc",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "C",
+  "case": "kfrc",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "kfrc",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "kfrc",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "C",
+  "case": "kfrc",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "kfrc",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "kpfa",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "kpfa",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "kpix",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "kpix",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "kpix",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "kpix",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "kpix",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "kpix",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "kpix",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "krzz",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "krzz",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "krzz",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "krzz",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "krzz",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "krzz",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "wapo",
+  "run": 1,
+  "field": "legal_owner",
+  "verdict": "error",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "wapo",
+  "run": 2,
+  "field": "legal_owner",
+  "verdict": "error",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "wapo",
+  "run": 3,
+  "field": "legal_owner",
+  "verdict": "error",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "wfxp_mission",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "wfxp_mission",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "wfxp_mission",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "wfxp_mission",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C",
+  "case": "wfxp_mission",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C",
+  "case": "wfxp_mission",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "espn",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "espn",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "espn",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kfrc",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "B2",
+  "case": "kfrc",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kfrc",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "kfrc",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "B2",
+  "case": "kfrc",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kfrc",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "kfrc",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "B2",
+  "case": "kfrc",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kfrc",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "kpfa",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kpfa",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kpfa",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kpfa",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kpfa",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kpfa",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kpix",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kpix",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "kpix",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "kpix",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kpix",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "kpix",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "kpix",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "kpix",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "kpix",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "krzz",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "krzz",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "krzz",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "krzz",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "krzz",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "krzz",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "wapo",
+  "run": 1,
+  "field": "legal_owner",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "wapo",
+  "run": 2,
+  "field": "legal_owner",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "wapo",
+  "run": 3,
+  "field": "legal_owner",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "wfxp_mission",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "wfxp_mission",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "wfxp_mission",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "wfxp_mission",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "B2",
+  "case": "wfxp_mission",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "B2",
+  "case": "wfxp_mission",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "espn",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "espn",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "espn",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "kfrc",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "C2",
+  "case": "kfrc",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "kfrc",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "kfrc",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "C2",
+  "case": "kfrc",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "kfrc",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "kfrc",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "extraction"
+ },
+ {
+  "arm": "C2",
+  "case": "kfrc",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "kfrc",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "kpfa",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "kpix",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "kpix",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "kpix",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "kpix",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "kpix",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "kpix",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "kpix",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "kpix",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "krzz",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "krzz",
+  "run": 1,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "krzz",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "krzz",
+  "run": 2,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "krzz",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "krzz",
+  "run": 3,
+  "field": "leader",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "wapo",
+  "run": 1,
+  "field": "legal_owner",
+  "verdict": "error",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "wapo",
+  "run": 2,
+  "field": "legal_owner",
+  "verdict": "error",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "wapo",
+  "run": 3,
+  "field": "legal_owner",
+  "verdict": "error",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "wfxp_mission",
+  "run": 1,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "wfxp_mission",
+  "run": 1,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "wfxp_mission",
+  "run": 2,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "wfxp_mission",
+  "run": 2,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ },
+ {
+  "arm": "C2",
+  "case": "wfxp_mission",
+  "run": 3,
+  "field": "ultimate_parent",
+  "verdict": "abstain_avoidable",
+  "stage": "solving"
+ },
+ {
+  "arm": "C2",
+  "case": "wfxp_mission",
+  "run": 3,
+  "field": "controlling_person",
+  "verdict": "abstain_avoidable",
+  "stage": "retrieval"
+ }
+]

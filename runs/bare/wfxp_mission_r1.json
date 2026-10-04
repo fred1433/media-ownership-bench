@@ -1,0 +1,29 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"operator\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": null,\n    \"citations\": []\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"I cannot access live FCC records or company sources in this session, so I cannot verify these facts as of October 4, 2026 or supply the required verbatim source quotations. Your question identifies Mission Broadcasting, Inc. as the licensee, but that premise alone does not establish its current status, ownership chain, controlling person, or president. Verification requires the current FCC LMS license and ownership filings for facility 19707, any current operating agreement, and current Mission corporate leadership documentation. The not_established statuses indicate an evidence limitation in this answer\u2014not that WFXP lacks an owner or operator. The empty transactions array likewise does not establish that no ownership-related deals occurred.\"\n}",
+ "usage": {
+  "input_tokens": 928,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 0
+  },
+  "output_tokens": 980,
+  "output_tokens_details": {
+   "reasoning_tokens": 663
+  },
+  "total_tokens": 1908
+ },
+ "usd": 0.011656,
+ "latency_s": 33.8,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "actions": [],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "bare",
+ "case": "wfxp_mission",
+ "run": 1,
+ "saved": "2026-10-04T19:26:35-0300"
+}

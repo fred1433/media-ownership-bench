@@ -1,0 +1,1292 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"CBS Broadcasting Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/tv-profile/kpix-tv\",\n        \"quote\": \"Licensee: CBS BROADCASTING INC.\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"CBS Broadcasting Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.cbsnews.com/amp/news/cbs-tv-stations-affiliates/\",\n        \"quote\": \"CBS Owned-and-Operated (O&O) Stations\"\n      },\n      {\n        \"url\": \"https://www.cbsnews.com/amp/news/cbs-tv-stations-affiliates/\",\n        \"quote\": \"California \u2014 San Francisco \u2014 KPIX\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"CBS Broadcasting Inc.\",\n      \"parent\": \"Paramount Global\",\n      \"relation\": \"Wholly owned subsidiary.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.rcfp.org/wp-content/uploads/2026/04/2026-04-13-RCFP-amicus-brief-in-Tincher-v.-Mullin.pdf\",\n          \"quote\": \"CBS Broadcasting Inc. is a wholly owned subsidiary of Paramount Global.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Paramount Global\",\n      \"parent\": \"Paramount Skydance Corporation\",\n      \"relation\": \"Wholly owned subsidiary following the August 7, 2025 closing.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.rcfp.org/wp-content/uploads/2026/04/2026-04-13-RCFP-amicus-brief-in-Tincher-v.-Mullin.pdf\",\n          \"quote\": \"Paramount Global is a wholly owned subsidiary of Paramount Skydance Corporation\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Paramount Skydance Corporation\",\n      \"parent\": \"Harbor Lights Entertainment, Inc. (formerly National Amusements, Inc.)\",\n      \"relation\": \"Controlling voting shareholder: Harbor Lights and its subsidiaries collectively hold 100% of Class A voting stock; this is not 100% ownership of total equity.\",\n      \"citations\": [\n        {\n          \"url\": \"https://ir.paramount.com/static-files/a3510fef-59f6-4615-9a07-96387c979495\",\n          \"quote\": \"and its subsidiaries held 100.0% of the Paramount Skydance Corporation Class A Common Stock.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Harbor Lights Entertainment, Inc.\",\n      \"parent\": \"Ellison family (Lawrence J. Ellison and David Ellison), through its investment entities\",\n      \"relation\": \"Aggregate indirect controlling ownership of approximately 77.5%, through Pinnacle Media Ventures, LLC, Pinnacle Media Ventures II, LLC and Pinnacle Media Ventures III, LLC. The remaining approximately 22.5% is held by RB Tentpole Holdings LP, a RedBird investment vehicle.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/2041610/000204161026000033/R8.htm\",\n          \"quote\": \"their collective approximate 77.5% ownership interest in Harbor Lights Entertainment, Inc.\"\n        },\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/2041610/000164117225023057/xslF345X03/ownership.xml\",\n          \"quote\": \"RB Tentpole Holdings LP owns approximately 22.5% of the common stock of Harbor Lights Entertainment, Inc.\"\n        },\n        {\n          \"url\": \"https://ir.paramount.com/static-files/ca2c9d22-f9d4-4aa3-b288-c91550cceca8\",\n          \"quote\": \"Pinnacle Media Ventures, LLC, Pinnacle Media Ventures II, LLC and Pinnacle Media Ventures III, LLC\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"multiple\",\n    \"names\": [\n      \"Lawrence J. Ellison\",\n      \"David Ellison\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://ir.paramount.com/static-files/0bf0b1a5-014c-4dd5-9b64-da40d598d969\",\n        \"quote\": \"the Ellison Family is the controlling stockholder and ultimate parent\"\n      },\n      {\n        \"url\": \"https://ir.paramount.com/static-files/0bf0b1a5-014c-4dd5-9b64-da40d598d969\",\n        \"quote\": \"Lawrence J. Ellison and David Ellison\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"Ellison family (Lawrence J. Ellison and David Ellison); David Ellison holds majority voting control within the family's controlling entities\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/FCC-25-43A1.pdf\",\n        \"quote\": \"David Ellison, New Paramount\u2019s Chairman and CEO, is the sole manager of, and holds 64.5% of the voting interests\"\n      },\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-1001A1.pdf\",\n        \"quote\": \"David Ellison retains an approximately 64.5 percent interest.\"\n      },\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-411A1.pdf\",\n        \"quote\": \"Ellison family will retain a majority of the voting interests and control of Paramount.\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"David Ellison\",\n    \"role\": \"Chairman and Chief Executive Officer\",\n    \"entity\": \"Paramount Skydance Corporation\",\n    \"citations\": [\n      {\n        \"url\": \"https://ir.paramount.com/news-releases/news-release-details/chairman-and-ceo-david-ellison-announces-ynon-kreiz-co-ceo/\",\n        \"quote\": \"Upon closing, Ellison will remain Chairman and CEO of the newly combined company\"\n      },\n      {\n        \"url\": \"https://www.sec.gov/Archives/edgar/data/2041610/000110465926112829/tm2626659d2_8k.htm\",\n        \"quote\": \"David Ellison will remain the sole principal executive officer of the Company following the Commencement Date.\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Skydance\u2013Paramount combination and acquisition of National Amusements closed, placing Paramount Global under Paramount Skydance Corporation and transferring ultimate control to the Ellison family.\",\n      \"status\": \"closed\",\n      \"date\": \"2025-08-07\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/2041610/000204161026000026/psky-20260331.htm\",\n          \"quote\": \"Also on August 7, 2025\"\n        },\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/2041610/000204161026000026/psky-20260331.htm\",\n          \"quote\": \"Paramount Global and Skydance became wholly-owned subsidiaries of Paramount Skydance Corporation\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Paramount's proposed Warner Bros. Discovery acquisition remained unclosed as of October 4, 2026. The companies announced an anticipated closing on October 6, 2026, subject to customary closing conditions.\",\n      \"status\": \"announced\",\n      \"date\": \"2026-09-30\",\n      \"citations\": [\n        {\n          \"url\": \"https://ir.corporate.discovery.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx\",\n          \"quote\": \"is expected to close on October 6, 2026\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"Answer is as of October 4, 2026. Paramount Skydance Corporation is the highest publicly traded operating parent; its filings expressly identify the Ellison family as the ultimate parent. The upstream shareholder links above are aggregate indirect links, not a claim that every investment intermediary has been enumerated. Harbor Lights holds voting shares partly through subsidiaries. Economic ownership and voting control differ: FCC evidence identifies David Ellison's 64.5% family voting interest, with the remaining 35.5% assigned to Sayonara, ultimately controlled by Lawrence J. Ellison. Ynon Kreiz's appointment as co-CEO was not yet effective on the requested date: the October 1, 2026 SEC filing specifies October 5, 2026. Likewise, the planned change to Skydance Corporation was expected to become effective October 6, 2026, not October 4.\"\n}",
+ "raw": {
+  "id": "resp_0b4f8b158855d1b9006ac2d31453c487d1b751eddf675dd8c2",
+  "access_programs": null,
+  "created_at": 1791152916.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": "You are a media ownership researcher. Today's date is 2026-10-04; answer as of that date, not as of your training data.\nFields:\n- legal_owner: the entity that legally holds the outlet (for a broadcast station, the FCC licensee).\n- operator: the entity that runs it day to day if different (for example under a shared services or joint sales agreement); otherwise status same_as_owner.\n- chain: each ownership link from the legal owner upward, one link per item, each with its own citation.\n- ultimate_parent: the top of the chain. It may be several entities (joint venture), none (a nonprofit with no owner), or not_established.\n- controlling_person: a natural person or family that controls the ultimate parent, if documented.\n- leader: only the person matching the leader definition given in the question.\n- transactions: deals affecting ownership; keep announced, approved and closed apart.\nRules: every established field must cite at least one source URL with a short verbatim quote copied from that source that supports it. If the evidence does not establish a field, mark it not_established rather than guessing. A name appearing in a filing is not by itself an owner or officer.\nUse web search to find current evidence.",
+  "metadata": {},
+  "model": "gpt-6.1-sol",
+  "object": "response",
+  "output": [
+   {
+    "id": "ws_0b4f8b158855d1b9006ac2d3158fd887d187580293c8e6c674",
+    "action": {
+     "type": "search",
+     "queries": [
+      "KPIX TV 25452 CBS Broadcasting Inc licensee FCC",
+      "Paramount Skydance corporation 2026 David Ellison CEO controlling shareholder ownership Larry Ellison"
+     ],
+     "query": "KPIX TV 25452 CBS Broadcasting Inc licensee FCC",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/f30a8a9a4d26393177bc1af5bff1e990"
+      },
+      {
+       "type": "url",
+       "url": "https://www.axios.com/2026/10/02/paramount-skydance-warner-bros-new-name"
+      },
+      {
+       "type": "url",
+       "url": "https://www.axios.com/2026/09/30/david-ellison-paramount-wbd-ynon-kreiz"
+      },
+      {
+       "type": "url",
+       "url": "https://publicfiles.fcc.gov/tv-profile/kpix-tv"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000033/R8.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-25-43A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-402379A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000026/psky-20260331.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000033/R14.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000026/R8.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f918f81e30b018f82320b5f0248"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000033/psky-20260513.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KPIX-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/lm/authorization/25076ff3848dd5470184e2383af2313f"
+      },
+      {
+       "type": "url",
+       "url": "https://www.cbsnews.com/sanfrancisco/fcc-applications/"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/LMS/0000084847"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProFacLookup.php?sCurrentService=TV&sFacilityID=25452&tabSearchType=Facility+ID+Search"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProULSLookup.php?tabSearchType=UMIB&tabTextBox1=2535349"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=25076ff3865228d901869ec361303cab&sCurrentService=TV&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://ebs.publicnow.com/view/4135D6ADAF394A2853001E27B34C93DC4209F78A"
+      },
+      {
+       "type": "url",
+       "url": "https://fortune.com/company-assets/1835/quartr/quarterly-report-10-q-291dd-2026-05-04-21-12-18.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://cdn2.imagearchive.com/quadraphonicquad/data/attach/107/107153-KPIX-TV-SAN-FRANCISCO-CA.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Paramount_Skydance"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/David_Ellison"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KPYX"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Skydance_Media"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/CBS_News_and_Stations"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/datalounge/comments/1wvyihk/david_ellison_has_shown_an_official_graphic_of/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/wbdstock/comments/1wx0y57/investors_money_managers_are_tying_oracles_160b/"
+      },
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/d8172aef73431968412ec33f2f0a78ce"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1wwi3y0/removed/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.youtube.com/watch?v=MGzskfaBysU"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/ParamountGlobal2/comments/1nlp3hh"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1wwi9ol/skydance_insiders_on_david_ellison_promoting_his/"
+      },
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/361fa669019e0053cf6d4513e6e275e3"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/BlackberryAI/comments/1rh2gb9/control_of_data/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1ohynx7/the_ellisons_warnerdiscovery_plans_has_paramount/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/ParamountGlobal2/comments/1o2q88j"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/business/comments/1ww49bg/david_ellison_says_combined_paramount_and_warner/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/ParamountGlobal2/comments/1wwi6c9/as_david_ellisons_skydance_era_starts_his_senior/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.lemonde.fr/economie/article/2024/09/06/paramount-skydance-l-influence-et-la-cohesion-familiale-n-ont-manifestement-pas-de-prix_6305507_3234.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.thedailybeast.com/cnn-boss-mark-thompson-grilled-by-staffers-over-maga-curious-takeover-by-david-ellisons-paramount-skydance/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1nloov2"
+      },
+      {
+       "type": "url",
+       "url": "https://www.lemonde.fr/en/economy/article/2026/09/22/paramount-skydance-bluff-or-not-relocation-blackmail-always-works_6757811_19.html"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_0b4f8b158855d1b9006ac2d31ab63c87d18aa27af2afc5a633",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000026/psky-20260331.htm"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0b4f8b158855d1b9006ac2d31d449c87d1a5be406921a087ce",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNi7-vmDWCaoh9H6-S2E7XyR7nZBN-vgB0EmiAOMNhi6QsgKueqe9h2M2Dz426gI7L6ycstLRf97N3OVNKUp8tKQpj5olZGEKofeaH8dD-0XCWSIo7xQew8zkzNr-LUPvp6cyHyHTWMnbIG5_6Lum3BQcAKoZpKCQyR2Rshz6fqazZYrp-JD_z1H6M6qFAARyhwH_haMMkSe1dTcXHYcIbnold7NOnCA3fWdLccvMgLsa7YsfCvjbiVzkXwGohYd_8oBL2APAdeip7Mn4ZApXegbzxLx5B-jmB69RrURk0m5RBU_OVlfvthZ2BJ3pQsDdmmCFzepz1OA4rIiF9_TPqX-VBb8TFJOEIUTYhpqdRof_6rJsl5viUNzhaCWQxK7rdzq92mAGC9vpkJCIeg1MTRkofCyVKm2uVt-8LBNzh1_JiiBCwk9st9di_w-iFxDMKNKDIqIXdJnEI3yOUVbabrahSJF_0gRv2PSJB8wetWVRCTMvV_G6lgRZeJXFLCf0iBRyITvzw853KHZYhCg3tP94iq271aJXwqY1JPYBn-FIPlC61G5YCNzSUPYZWioCeBdjOVs_1AGQ35gQzZu4VnCQyLXl25RCebvmCstpfCQdkj2Iji16Lvhl_ssFQmwwGnT4RKD--lzXpIDK0aNz-IMgGwO5cfwd6tFo0KrimgWF9sRbK5W59omrJtqy6qG98wQmfwJZ6j5RXxg4vh7IV49-uqxfHKfFbyFf0PCIyyN98R0AgqLfZNXmNkoLK35T-7kd9xY9YmU-zrGYtNcbRXj6nKglGzLxV5l6yNDTK0c-M3M-y0sbtwpF-m-jdTgoSsy3gOIyTn9370EgOi3pcLCEowp1CsDsXIWTHpDAXDGGmFTbxncjU32VHTbose1KL5PRRvcFrEm-YcIv-pkC3pgR5CQvLQb6stqS-QIMjGUA6AiJ_i2z5GlHZX8q3m9qSXGu0Z8OoCtgY9PrdR8Ho9BXWfkp_NR1z7P36NU6nLS0bnKjQyagtlMeudywy0UWPLSbfkVm1DznwfIpB03Vgz-HuwAty84gACAMQVulgPFdB1ZX86Pj1_mLAM_pN-jK4rn9QgjZxoojSWNBxY-eds8wdZWUbfYpT4Mfu4CrN8iO6nTmmn3P7EN350519r5ELKg2tVTUPXdwIHpUMc_nlHs-DyVd90EKUNFCJhIEWQE_-B2QuxrVs7NOBbPQsAlQFXiKr__oGw1hY_rdmmiD2B3eDss39wxZr66kWL9Zf5MUbvfPHsVhf6WyqnrBIY2ZDXJ4Hmpu9mHcl5tL0jfRnJRLNTqIbfE9svrMCqSmPbAc2UCd1IEAXKHMqnlPPEmhJsddbRhrB0AbuaBV5YkXf77bPVDbStadumQQHNxyaNQ6vdsSXRWHkZ2j_F-KTdFquVPITtOSLiItOnm_KmaS9BdNFtnSmOSBsYCqzuoQxiGB8L1MuVAlJmv1fKd9GO4XgFAgprRquJ_mf-FtaE1KaceoY_L_M09kwV44Jmy5new2k=",
+    "status": null
+   },
+   {
+    "id": "ws_0b4f8b158855d1b9006ac2d31ea13087d1a8b5c94dcc2955b3",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"CBS Broadcasting Inc.\" \"Paramount Global\" \"100\" ownership",
+      "\"CBS Broadcasting Inc.\" \"CBS Entertainment\" ownership",
+      "\"Paramount\" \"Ynon Kreiz\" \"September 30, 2026\"",
+      "\"KPIX\" \"ownership\" \"2025\" \"Paramount\" \"CBS Broadcasting\""
+     ],
+     "query": "\"CBS Broadcasting Inc.\" \"Paramount Global\" \"100\" ownership",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.axios.com/2026/10/02/paramount-skydance-warner-bros-new-name"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/news-releases/news-release-details/chairman-and-ceo-david-ellison-announces-ynon-kreiz-co-ceo/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000110465926112829/tm2626659d2_8k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/CBS"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/node/73356/pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.paramount.com/news?page=1&reflex_cache_bust=ebf27db034754f758e974bc38f506c1b"
+      },
+      {
+       "type": "url",
+       "url": "https://www.icc.illinois.gov/downloads/public/filing/2/15/16/349608.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://ktvz.com/money/cnn-business-consumer/2026/09/30/who-is-ynon-kreiz-the-new-co-ceo-of-the-combined-paramount-warner-bro-company/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.icc.illinois.gov/downloads/public/filing/2/27/32/348773.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://ca.finance.yahoo.com/news/paramount-poaches-mattel-ceo-to-be-co-ceo-of-new-company-merged-with-warner-bros-discovery-125254597.html"
+      },
+      {
+       "type": "url",
+       "url": "https://finance.yahoo.com/video/paramount-taps-outgoing-mattel-ceo-204418280.html"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/static-files/7f33eb4b-c504-4945-a102-2330d3f66453"
+      },
+      {
+       "type": "url",
+       "url": "https://www.icc.illinois.gov/downloads/public/filing/2/15/16/341586.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://finance.yahoo.com/media-advertising/articles/david-ellison-names-ynon-kreiz-214112704.html"
+      },
+      {
+       "type": "url",
+       "url": "https://finance.yahoo.com/media-advertising/articles/paramount-skydance-appoints-ynon-kreiz-204908707.html"
+      },
+      {
+       "type": "url",
+       "url": "https://finance.yahoo.com/media-advertising/articles/mattel-chief-tapped-co-ceo-172519891.html"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_programs_broadcast_by_CBS"
+      },
+      {
+       "type": "url",
+       "url": "https://investorshub.advfn.com/Paramount-Skydance-Corp-PSKY-49980"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/static-files/90a6c874-8513-4eaa-9279-723b394c3eb2"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KPIX-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://showbiz.com/ex-mattel-ceo-ynon-kreiz-in-line-for-high-level-paramount-exec-post/"
+      },
+      {
+       "type": "url",
+       "url": "https://ourinsaneblogs.com/2026/09/30/ex-mattel-ceo-ynon-kreiz-in-line-for-high-level-paramount-exec-post/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/MediaMergers/comments/1wug52o/ynon_kreiz_officially_named_coceo_of_warnermount/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/MediaMergers/comments/1wuf153/paramountwbd_merger_set_to_close_after_judge/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1wugehe/ynon_kreiz_anointed_coceo_of_newly_minted/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/DCU_/comments/1wugmej/former_mattel_ceo_ynon_kreiz_will_serve_as_coceo/"
+      },
+      {
+       "type": "url",
+       "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B8-%D0%B1%D0%B8-%D1%8D%D1%81"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1wuj2ck/breaking_us_federal_judge_araceli_mart%C3%ADnezolgu%C3%ADn/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/SnyderCut/comments/1wuig5y/paramountwarner_bros_merger_set_to_close_next/"
+      },
+      {
+       "type": "url",
+       "url": "https://pt.wikipedia.org/wiki/CBS"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Cinema_Center_Films"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.corporate.discovery.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/node/73386/html"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_0b4f8b158855d1b9006ac2d325360487d19daaacdd7cd06e64",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"CBS Broadcasting Inc.\" \"wholly owned\" \"Paramount\"",
+      "\"CBS Broadcasting Inc.\" \"direct\" \"Paramount Global\"",
+      "\"CBS Broadcasting Inc.\" \"ownership\" \"2026\" FCC",
+      "\"Paramount Skydance\" \"ownership structure\" \"Harbor\" FCC"
+     ],
+     "query": "\"CBS Broadcasting Inc.\" \"wholly owned\" \"Paramount\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000026/psky-20260331.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000033/psky-20260513.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.rcfp.org/wp-content/uploads/2026/04/2026-04-13-RCFP-amicus-brief-in-Tincher-v.-Mullin.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.eff.org/files/filenode/studios_v_cablevision/cablevision_petition_with_appendix.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.rcfp.org/wp-content/uploads/2025/10/2025-10-06-RCFP-amicus-brief-in-AP-v.-Budowich.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://medialaw.org/wp-content/uploads/2023/09/09.07.23mediacoalition.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://storage.googleapis.com/msgsndr/kmtE6bFzcQ8Vo7NsjjVc/media/688a28eb3eaeef04548acd39.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/static-files/4b289e5a-f718-4652-974f-95ffa99bf726"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/IBFS/SES-RWL-20260512-01304"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/12024574518"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/CBS"
+      },
+      {
+       "type": "url",
+       "url": "https://www.minichart.com.sg/2026/06/29/paramount-skydance-corporation-announces-2026-annual-meeting-of-stockholders-and-key-leadership-changes/"
+      },
+      {
+       "type": "url",
+       "url": "https://wikipedia.bennettdavid.com/content/wikipedia_en_top_maxi_2026-06/CBS"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/node/51821/html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/12024574602"
+      },
+      {
+       "type": "url",
+       "url": "https://financialfilings.com/filings/paramount-skydance-corp/annual-report/2026/32901258/"
+      },
+      {
+       "type": "url",
+       "url": "https://wiki.nsacct.org/article/who-owns-cbs-network-ownership-explained-204"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-wcco-cbs-for-tv-audacy-for-radio/"
+      },
+      {
+       "type": "url",
+       "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001380936/000182126826000124/gug90007gof.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://globalmediaownership.com/paramount-skydance-corporation/"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.corporate.discovery.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/node/73386/html"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0b4f8b158855d1b9006ac2d32a3b1c87d1a168b64c432df31e",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNiZwIVGrbk-OVBnEJ7o-lXqsFN8VcwJgYFMnlM9LZAedsCWRbJ57hvZH7Uoad4rhTY0pudmevZLbzifelviPE6AYx30i-waNJInVt0GuJwuXmkRXwfnfLi9vKeh0Dt6ihRrsxcZwuqcpaJKQWX8T_5cluCYxDK1Y1tbGgy3FbEbFrzvTUyMNuGbh2lsBFiVwtv-iAiXHQtdQEbJYnzLPXu_Edoi65bcdnJjIIaM-zGsbYHhB6fFADFSWqJoQJuz_eQ1BPBPUd_XCvdBMZttXEk7l7EdFeHKFi5DeeRgYg6mf6n0hPz12Ev_rpUuKorDb7-5ZT_7dHfnZwHvY_Hh55h9dHlFi8Cr77HlLEKSPRA1XrVDP2YNYbODxq8GhFMfmwZve1Z6timu8MZWY-lHQ6xKvo6DJHHzI4pqRn_DPo44j2jthAJ0Bj-T6-hB8yXOSnVUI7pFJ-Jbds9Of8fAY_EXs0_Fc2WtzxcjHPuqcXbMXyN8BH7EFUydM7anRVonp3XViQxQarvSli2OouFbJoJ5CEu6e5043ePG9dVxzb7XNk1Dlu8w-TP2cJMPIbQWqMbgs9d4YJGauXAlgQ9fLrY8EM-fJQeHPSD4Zhq-dQG29MA1SpDYcSdBQFzre9E2PFSdZUExPUDeHUkbpntwGqA3Hl2mjbuvm7_3JxKKvmGf74VtTs1twsvhfb1VMqOVOE5mniQ2Cga4LqfAIttN0oXcL2sdKC9FKoLGww-710QiwM9EKNkN6axltuPr2C0LHADY4KfQkxSlPbJNl2wWk7-XcaoXqgqmZYdOm4tJU_5vYPAAJ3PNOdEJ2XSXAutKxEhnxqC4ySSkWVH9OVbulgqeOVqWh21q9K6-Gwj6XARO51xyE8X_p4CKl1dLGCF8-H6h4S7jDFWEfovdbWCScEfKMh1Ep8Yr6A5KfyL_-MSMFQVQpJRGOdC-flBvrj4mPLlTpA74_pFSoCKDa9dQVwntRsDjCquyoKuJxumtzPE-l9UddlxF3c9h6i1MJrwJZrBw7Lp8_79xqaWx6EFnN9YdNa9XxLmH2o8djI68hNMM4MSAH0zfWo024_E9ur42K3d9L_0qRQ5dy3GOj4-eO_0p9NhqXwgRdlMhuR8WhrFuHOP2-_5Ym2HwCQf98IDVJmckcdFYg6ZgwHameLF-9Or1RfTZ0zybdU4juYh-bs4cZUChHEariTfxeguOUUbzChRZNRCiUPxdPutZYbFb9EKxo17tEYt5l5T-_7_61wgWDBI4Ja_qj63-q6XJMrjFCIGfXgeEruuh_fRyIF3YXWps0RecdGZMAl-Wh3jsh7harVA-RH1EU20s8exMvuKzk62xdQkMcaigCu730Bnw5IY5aH-NShbhVo2R7xsH6xN4BCni_vSo1ggEcb1feeP4HVZ3nSuSkD1mb0vzhGsXHMfVLRgCXbjnXWQAD4nFgGuXwVDo9iDrazAw1Arr6fU6_UzO5ZAO5ru99TEP6tPFB2RDw==",
+    "status": null
+   },
+   {
+    "id": "ws_0b4f8b158855d1b9006ac2d32adf6c87d193f2c1c2ba6b7dd2",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"Harbor Lights Entertainment\" \"Harbor Lights L.P.\"",
+      "\"Harbor Lights Entertainment\" \"parent\" \"2026\"",
+      "\"Paramount Skydance\" \"Summer\" \"77.5\"",
+      "\"KPIX\" \"owned and operated\" \"CBS\" site:cbsnews.com"
+     ],
+     "query": "\"Harbor Lights Entertainment\" \"Harbor Lights L.P.\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.rcfp.org/wp-content/uploads/2026/04/2026-04-13-RCFP-amicus-brief-in-Tincher-v.-Mullin.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/static-files/ca2c9d22-f9d4-4aa3-b288-c91550cceca8"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/static-files/a3510fef-59f6-4615-9a07-96387c979495"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/static-files/0bf0b1a5-014c-4dd5-9b64-da40d598d969"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/static-files/4e0df515-5a32-42ac-8e31-2355fea13dd7"
+      },
+      {
+       "type": "url",
+       "url": "https://dockets.justia.com/docket/louisiana/laedce/2%3A2025cv02205/275216"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000164117225023057/xslF345X03/ownership.xml"
+      },
+      {
+       "type": "url",
+       "url": "https://br.advfn.com/noticias/EDGAR2/2026/artigo/99025446"
+      },
+      {
+       "type": "url",
+       "url": "https://barcodepedia.com/company/harbor-lights-entertainment"
+      },
+      {
+       "type": "url",
+       "url": "https://www.cbsnews.com/amp/news/cbs-tv-stations-affiliates/"
+      },
+      {
+       "type": "url",
+       "url": "https://dockets.justia.com/docket/new-york/nysdce/1%3A2026cv02727/661080"
+      },
+      {
+       "type": "url",
+       "url": "https://www.cbsnews.com/sanfrancisco/kpixplus/about-us/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.cbsnews.com/sanfrancisco/news/roberta-discovers-treasure-islands-hidden-gems/"
+      },
+      {
+       "type": "url",
+       "url": "https://adsmanager.paramount.com/insights/ctv-advertising-budget-2026"
+      },
+      {
+       "type": "url",
+       "url": "https://app.marvin-labs.com/agent-result/psky-wbd-investment-primer/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.lw.com/en/people/meghan-mcduff"
+      },
+      {
+       "type": "url",
+       "url": "https://www.cbsnews.com/sanfrancisco/news/career-opportunities-executive-producer/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/wallstreetbets/comments/1nedg0a/the_larry_play_paramount_skydance_psky/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1jqz5ry"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000033/R8.htm"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0b4f8b158855d1b9006ac2d32f219c87d1807b4ee65ed54492",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNigfXHeN47sJT0oOmUvlAHcHYK9gGO1RsH-TCmtepRMAWVDOPyF6smop-mkxGLt0lNc1jHu7vWHZgICOlJJEtX1tiBeplHOKBJY9_9Y6VSe-a9QX0cl3BWcSSt73BiO9CO80lqPj7bRgtZDvzjJwhY6_fjWd4CAbTzcKlCXnDfsJOh1Mv6skFw2cFn8mbnOOaDbggaDCcHctZ6RPGgOC7givuiUnCfBvl0Ma05dfCGpW-IZSVi7SVVWcPAo1_iOWLFy_EFv3zRLIlKfpna-fgTQfoX7Axr1SCy8PvKOUvlbaiSM5-_1YmtCBj1H2gFvQAPaqdwUmKp8F2CZSGV0quvM4EIulStfBPR7VidWzwaIF3kBWezPW3_GnDiJm49vV-GJJ8zfy-Pu33qVsN4kb10ZR8r0NuJ7HCRKUoA2a0W4gkZHRXjrsocbU_Wj0PuZR4Mggy2GS_uKamBRhMjQTv45fNPRwB9znt9nGscXBTfpWLjkL0UCmOyhSXQYKoOIrij0nMYW9XLGLNpYb92QehrZpkfbFqeDZnJGr0cRGUDe4oEckAVLlIAr0pbuiy2W_rbYI9aBeWbwVZjtkyRJQeAfirVIQsaRJkP4giHTRFnbkOerCdYo74g6OAQpav8hG5Jt9YTpSkOUUgY0pK5ooCM-U2dMXJqNbAsFvuWzsVgjuRkckUrXcFLqjkepAb9FHeORrPBlBYVgHn3D2Co0hjqSnEGnnpUlP5-KZnZVEv-r3S-IWuYzw8HVOCa_kb6MSoSFiYEAAzIl-aOBNu4LNSYuxSpej4lFIL1aZ13qcB_rB5MxGcKkiVJbElCFtAcx4YjdaABuXL_21GmRfSi8mt3J6_tqMZFPqLJO1tdMPL1qmDyoQVvBTnePPhoOkutS0dL9HVwnzNmyEUbwzntGvEb6GqIa9OxUDpz3QeuJgJ8yw_MmmVcWYE9J7aSeNLmIQxiNT-w5uH04hFqxAjEJ42YhNvE7fg6iP1MNDElEcnXFUgK5wRNIo7ubMgTVUh7-cK3yMnXTSncqphVYm2PNCX9JyKdipFspNZ8RbVR_hMkWlhxPiLxxSY-xGz3EUFh5LNSclxj8TVavMFZsJrmsXjaXMX-m92SxMlVY-lGGP4bNAJ8NHRYY4f0QU05e86jgc-6AvFMdahiAAbz64CbXHERTDU9_Bd3mWtLhWApwAftjvCH3_aG7tOjNbYKKQJJhHw5B32I_qA76WYmUpXzjD61KcZYDkr02MuTJekkJevbobCpAWz-_byx6L6yphYCn8EzLYD3SfKK0BlaPcAQb_6r-bGDOMoJNEBd9BjxPs-TRC2q7XZuytM-cCtryrxNJF0bBcoZBYMpGhYc-Cvmu4RtTiqnq_OEPXC9H107g45ZPOfOyOdWrLc61CUwHRXCJRLZsgX9RasfXTm5y_43RhWix6_uL3eoRLKcgupwga-OAf0nONhWtHzPPeM0usqiioxjSvXkGmkZJXh8h_XhdwqpHOEgMlVgSjyu8HdB9czt7zkNfGdzwzkda08zajgSRMYKZpN8u_OMisj24LS-i_WDXU4JDz_Y2AB2AfGOUBmJuhyxHBIBebgkwXVho86vyEPi4n69i2rZ456H5Sz-HcvP58DHbapX5F_KHdvqCsyG6IidLpLLey5zOhWyOeLJRrhAoPzaB3oH4OwCzdl-xnU1PRFBCaM9A5Nvk7Jzx0wGDcM2xAt6EQEjj8-BN-S8SlJ88zZAHrzOjfI1i_DXWSn0uVolaxnyp_KQvLTGxI8f6TPEuDswG8h7V_GpbR8bgC4RBJMu_PIELa-axeJUnpVjlkecK--YAKFu4xYCP148S3XS7g419_Luhg9dIO8EatcRoVx4qloiQtu4H-hqqAeudQ==",
+    "status": null
+   },
+   {
+    "id": "ws_0b4f8b158855d1b9006ac2d3304b4c87d19f632176ed4fb6b9",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"Paramount Skydance\" \"Pinnacle\" \"ownership\" \"FCC\"",
+      "\"CBS Broadcasting\" \"Paramount Global\" \"100%\" FCC"
+     ],
+     "query": "\"Paramount Skydance\" \"Pinnacle\" \"ownership\" \"FCC\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/static-files/a3510fef-59f6-4615-9a07-96387c979495"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-25-43A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000011/psky-20251231.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No11/pdf/GPO-FCC-Rcd-V39No11.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-25-43A1_Rcd.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/node/71606/html"
+      },
+      {
+       "type": "url",
+       "url": "https://regmedia.co.uk/2024/09/06/skydance_paramount_filing.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=25076ff394cc109f0194d5f6ac5c1042&sCurrentService=TV&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000119312525025303/d813356ds4a.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-paramount-after-the-skydance-merger/"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-skydance-after-the-paramount-merger/"
+      },
+      {
+       "type": "url",
+       "url": "https://finance.yahoo.com/news/david-ellison-hold-full-control-211832325.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000119312525310708/d92876dex99a1a.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.streetinsider.com/SEC%2BFilings/Form%2BPRER14A%2BParamount%2BSkydance%2BCorp/25972728.html"
+      },
+      {
+       "type": "url",
+       "url": "https://senalnews.com/en/content/david-ellison-to-control-100-of-the-new-combined-skydance-paramount"
+      },
+      {
+       "type": "url",
+       "url": "https://www.2oceansvibe.com/2025/07/31/how-larry-ellison-and-his-son-pulled-of-the-8-billion-paramount-deal/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1437107/000110465926012462/tm2533570-54_prrn14a.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/CBS"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/television/comments/1f9yofj/larry_ellison_will_control_paramount_after/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/movies/comments/1f9ynuz/larry_ellison_will_control_paramount_after/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/ParamountPlus/comments/1f9yo58"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/static-files/ca2c9d22-f9d4-4aa3-b288-c91550cceca8"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000110465926112829/tm2626659d2_8k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.cbsnews.com/amp/news/cbs-tv-stations-affiliates/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0b4f8b158855d1b9006ac2d337434487d199dd21b81a504c65",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNiKwPCrlQc2I1pOrkhAa7tXT0EHzw9wYfFJD71C8s_nIGoHVqLmgN5paXN5Sh0pA6mA2r8Vv-vzntobzA0oSe6wM6jGE7vlw6jOEAREAYkBZ86bVnO6i2Sv3SpGG6GvwSupDZ2Nsz4TZujIPw2HgwSXLMyyCKc61JbEachlO1sz13aZlKLL_RLMUHfalYNgF058XOByQxY1dJhP4nWkFK_F2U4WIEfhe9CQ2MLbmpnKwD0YCtMVD4Ytcki7g1FdCCTc3Zg0MY9OiSGPEH3vfm1toMpkyyJHTEY2irx7mC46peecMQOAWDgEpJwEleuShLqSpeWHQ623BSXthpWc0nBJ_OBXj8BI1-bvjB-KwITRqqOXuiEOKANzE9gKZFcTXE5yYbr-vkGo5iEO1eNQu4zZPkXtoEFJpFEy0Tjlr2EqtUr2KALXNDa7KZiCfmlhY3m0aBiFtfbV86xj7LVlsIPmStWwo3uN0VqBlFkSDyDwT20UcMGmtCsY1t2aaMHg8EiPl3FhY5uwj-fvXdp_KpBxw_O04wDDUGcLxzfgOEyBEso9L1x584l000BPeZ46cpfYIUr2VVST6yh0ClAfGjSbvMSTSLBhLoVOFk-HnvN99f3QQY0FLcOrAHAGibL3imSHdGD71h17VFRIUUvWAjZHRj4SWtD2RH0z7BLhrc9Ay6f_-GZsYZWzteqYgZXTHkAJTiJsQgBWH_4_agK9SqKirpYzvydYMYWJ33pl8KnUIbqNOVJmnIoq61XtMi48IW_dNa7CL5NVDyD800YQ3EfN6iq2bfSIQMu1fCaOTpeyX5G_8VWjYSEjWl1dMl-GZhxPXqO2bJhIJ_yiPoKi6DD3Viw2JeQEIC7unxYWrFGF64xM3R6qf2OrPuc-vGXoOs4WoCkmisnv4hPDUDjy9aQopy3CNg9PVs2G6_i__Zvzf7HjmNOl2vOKakoPP-DcEKJvJ5e319c1oAp3T0IFmzIKnG10NmQlke_4ryKW9lAjzkpY8-fxElBlONcexU4hsnz4eA1JF3iOS5zvEF6E69bEihpppEm6SpH2UYWtPjrQ2kLBoSOiU-2n2KBNqQwgymhkcDd1tHz9zincSgC9827a2yJLQ1brpjh0XpLgdTZkoKLR00G8kLHZcwH57cv1LQFCK0mnR0kl4-G8yLXFeFwAAluCHp8LplhjptHindXRPur9VRPQzI5SH2su3PHjBPTVsHsQH3MnOD-pZ_3eW_0M08fBvIbLqhMMo4vuChLS2bmiI3wo5NGsqhn_o2Uveb3",
+    "status": null
+   },
+   {
+    "id": "ws_0b4f8b158855d1b9006ac2d337632487d1a4e002402f8ec137",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"David Ellison\" \"100%\" \"voting\" \"Pinnacle\" \"2026\"",
+      "\"David Ellison\" \"control\" \"Pinnacle\" site:docs.fcc.gov/public/attachments/FCC-25-43A1*"
+     ],
+     "query": "\"David Ellison\" \"100%\" \"voting\" \"Pinnacle\" \"2026\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-25-43A1_Rcd.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-25-43A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-1001A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-411A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://ir.paramount.com/static-files/4b289e5a-f718-4652-974f-95ffa99bf726"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/2041610/000114036126016758/ef20071103_10ka.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://financialfilings.com/filings/paramount-skydance-corp/annual-report/2026/36280315/"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-viacom-now-skydance-and-the-ellisons/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.mahersaham.com/stocks/nasdaq/psky"
+      },
+      {
+       "type": "url",
+       "url": "https://br.advfn.com/noticias/EDGAR2/2026/artigo/99383009"
+      },
+      {
+       "type": "url",
+       "url": "https://www.mahersaham.com/en/stocks/nasdaq/psky"
+      },
+      {
+       "type": "url",
+       "url": "https://mahersaham.com/en/stocks/nasdaq/psky"
+      },
+      {
+       "type": "url",
+       "url": "https://edgar-mirror.sec-api.io/2041610/000204161026000011/psky-20251231.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-paramount-after-the-skydance-merger/"
+      },
+      {
+       "type": "url",
+       "url": "https://financialfilings.com/filings/paramount-skydance-corp/annual-report/2026/32901258/"
+      },
+      {
+       "type": "url",
+       "url": "https://theindustry.co/p/approved"
+      },
+      {
+       "type": "url",
+       "url": "https://br.advfn.com/noticias/EDGAR2/2026/artigo/99025446"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0b4f8b158855d1b9006ac2d33c5c2c87d1b0bec8b87fe547b0",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNiQuzjJbT-NVc_mh7n5f9XcIp7iHIe4_Bx3QhAvRJQ575gtBBZALHKgYaj6XFLM3meX2mSOcOZmpP3kJklBrdulZCnZEo54ZXl7SyqO2_WrEFTB-HAOYWDuFA9BWzOq_OAvB9Yylj8XqLE2WebdOWOo7TWAirXOqawpOG590tfcFfpL4AWVScrPO0dlQOmJaDgSenbBVYasLPrA_q5JCiWZi7QhNnVaC7ShL72oyFbTJwU7z-qZbLlns5bT68TQlWbwQbIW7xrXtXL8D1SrgrMQa9yBAHiK7DL-xdwRh31IPCXnc42UorotViOhwHj0eQDjXyiXlmX7YhiDZz9rMUm0QSAs4CXxCK2O_5uXSj7F5m8DYDEfdOZBJcfMRym-pnODB3zPkO8s2QIzBTfaxSOcU2ug7DwGv9T_YP2klD01FQ0EHB-317DGb3tmv_hnuasY7lSNDkGd2GeHqkUj5LwH358gsDH1NVZ6nwa1fVhAHUDL4o5A1-sM8-9oCaLSuYDIAVDxdVs3mYhBYzsN7myHZ8G9xVc1XvtYh4ADaHpujGDtxPSV_IbJcgEaL8VGU9K6rYIR62cjSRzbUmazca2g5zPCua6YBIilFwedKzFWelrQ4r1YeJM0HgF4NM6_TsgDOYzChNRexm_sKR5QlNv8XRaBNwdnT0i8rXleZhvc47VE9sVBZWb_4pt3PPGBVol_8m_Vya4qKfCFxTeMqIJJ8sEKRyCdok3e9xu-ktY5OGDYGO9E-Qq63qdPABxpDp5v9VTEr3KhmFIC79kFeCo9svpx3iGK4sxGUJbhg9rchFjb0liPmUwyxTHCar82OiCmDoGzr2frW650m6yBigi3eFC5haNx4hU_gK6gxsny_j2X9HpMFGcVPaEA6kUjgUx9lWJb5tdx7vWvsJPMSIjYnSKqL7guCsmjqKIX3NFBifDCDTsczpkQS9989Bj22CicD0kPEEzymIHekclFD4gUypHH0hLAkOvCFUAsjsRp0_noGu9WyFzJXXbcwL7TWD9hKsPbTQ1ATSaNuFD7ujnfn3M83Egn8l4PXQQKqQMs9MJipLG-PtY_OPMIKhnPXTZhnLNx1gcaM3i5PKjxcRSIM8AVgVXjpPMUqUatsIVyTUGsUq3bJBPJbYsYq7f-sI-vjcWJorvERhdfCM5MU76joyiJS2X6aIwLO7QALo7u5QPyklNi-gATklzuQAFshj7OBfnLWxEJ5LJ7n0AIZiTaaK-HjoZ_7iBZq_b27cmt_-o1nIFBvZJYPLCxENEQItjECXd7xJ31LsJMdxdaZlo91OL5xygxUjLxRvqQL2Senrrhc3-beFNemYfNHcAiLkftIz7vQY0KK4iXiJtPy11-1mxpkjio7hoT5F74V9f02I6Lc36r9f-fCPAG_Tzljs7YfUONmLy5izMPwIPOfO4GStkyeWwhfjwQApD4fHRcofghUK1u0ovg5_CZsfR1ForpgYVpuqJWQHDtUA1I3NnjLClZNgnT1-RpGr8KBG-kHBJK5QBKD1GuiXOPjBaKjoCoWmx5DX7wcdLOR6FHnEomJYDmPnqa4_YXPhVmQ49ATdwjeNIu30oNwaBmJtbqxjiI87SVcV9rO-wVR_pNTJH9oEwzZqKx2sq37Ci__K8pzRbbfC2T5fcqRSZhtgez4eT4jBEo0PxgBq6LA7bulX2sSdQrJpv6-JpihN5GNw4uAsnnB4POboEGgHa-_f0D5wb1i-45kIdAhmZ6P43CjTjHl33kEFSsgi8lsJLmbH7vgeaGfZlpmEVIsEuLjctQgg5VQnsHI5RyAhEN5qmFiS6Q-7qr149yokvP7YkKn4LvPCnV2ManpjGJzCBunAXLM8SmWZ-YpzIe40tVjqmV8be3KoUbxXlC4l9SllvhZGPGoENmTjYttTI7w4BphRU3d_0PP7r3ILWF30rz1ypT-gtpcDPBRROkU5BEe16QrBHqLsd-yOV-wfSsFEjuZPRqOnEPgsO4K5oxgyFGiL8cEXvDEEiHdy8lqxdnB3MQByWexFVYWSPAXP3zOUi7VuNC-rA8EUFC7_Pz76dwBVHCMaiXm1cOZPRRzjae2sKOkvf-aCMt0QY1hzrqRDAyC3YHfh4dXu3CZAlap1J5VHKMkxxY-tamVwkv2CWmsCOQUwlW9uQ0WakI1L39Luikq8bq7GLj5vPy5vDegclKOWnkxje17qXNMbqqGw58iSUkkj-OyQOYJHoqNH-zCe2M6Ktm1YQsfvv71k84eBjbDuCiTab4g-rhj7-Ol7bEVvmGPm-TS7lp7IqQ9VOCfbZp248ZByl-Ra9SSj_Cn6xEf4AIGMDESVbOgYOEA7CImfYPEVFbh8LhBXpt5adEEd57Yi65Q4YVeyFXaRU2hNCIrTuNOhv6Ak3XmflqTZEHwHvHXYAWhToPBI3x_2h-G2SxABOn2UTW0um8D0Xmdnq0aebS0PHSSEobEPxw4yPlMSp2drpxypu0KWl4zJdWWNHtWUYDMORUmmd9lTBkr8PnF6ktL7B0ITPOvU4ASh3t9XIpR9Yz7DTmkBzELnaS90pY6IK--2OwJ2tJZVGwH4GP9qlaftZlVcF6v0Q3RxMsgPBYVL9JmQmvEf-JWaVENA5aQbalzR_2E4tEbPdZYm7atCHJXPxZk9-9r1LjkRANf-gnvhwWZF_Tl6B3asmcdmpZkOlXnju87VlL6ls8eqfHOHiQTGENj8zZIZEPRpZ688T8rHULgnTTzgd1HjQCpsPBo3OtMRC-bxCbUZVGU6dfRcfFyL7fgcwyhD325j1AKNI9AQoka15I6SqHFBHU46-OW07XPU9T29xM-KYW2Q_V7GLovk8qNAmBc-Zcq54Dct5MM92wGn7utljDyWag-hkuM5xfIy_sgI4LrmJRNcKt69yuZurdg2ZtOrj4EKt6l01O7OdzBldOEWcKuD1VASAl_kXB6c8pZ1E-x3cwcR1YK4KETDsBN2_pPD_DU-ewnLtMlTpLxladtG6aY9UmW0J5D_yRN6wugi3M_sh4rTZxZTYvTEacLKXLOoUGQ_G1ahv1NzpyLofBhf4KvtUNjvWiY6qx8pnJ1Zc92t37iTgqb8spnP6a-j8bEpHupepy5FtQUDLCqgcQ0xzVvXvFiqo7n2q8mNHhesrulhZ0EF5iKQJIpbFGKArKtG8f--zmBpK46PxMu_ejh0khnRksUF1iROFFlBIPMrsNt-4ityHj8Yo5oQJ8iJTWJrvBH4yeYgP_VbcnNleufPpzUvkEIn1sxMV_tPJcu2drjOVVJcfwAccYk496FREutRjxxe92UEAqjdtTXQW-PlX0vD5cErfh1HsqF7leomfQIJb0pUkHmqWZzcitCLQjVpt4Y5L_zV8U1Wd4u2jMuFtb4F0dZEigFyY8uLk5izXj630yMRCzlfAcQs1Y_YyhyOafuDmL1zEzzeliFniQk1uyrjD955XCaDNqGi4wCIRqLACHA49x-87Cb8hL9GU4FfFFmfKxmaOUe3Eo5VxT0tyGPltHVnu4Obi4zkOFBVoyxmN-bE1ax7E1rn8CpS-Cm0ar6y8Y4Fr15ah_J_3NRy7o5sTs8DDup2lbn0bhnZi1vejZh0TtGvBHSIzgG8Pz2bAzRwJIcV9vJ2nLszSQrAmB_YAkzz1ws6d2Ts7LyDNf7HVo39-C1qCvdYbffPsM8yjVh_UD61sqRBsi4cXt-65TaxEWOuaE-vgTClRGvgCHeAqfAukvM6-5JxoYOtC7MaidgyC8hc3Q9EBEmuWPM_H4zuF5_as1xv-2dWW_MoE3CWNs-WlpIG0b8prgJmRL42lAocGVR8gJ6DVZ3hBckwWTe77R98KQc6G5_CSk5hc3ys_1MVMntselA_HBR8-WGCCAcdn4B22IYZDZYwLRDDztC34a6gBZE6N15VfIQubmleHSJQU8Ri8JsjrSQ8HPGNil-o5y5_wqdnNusHLtWwMNVZI2lRePGSouXCDWga7TerBWkE5yoowRsaZJIfdDi28uTozmem2yRE1qgDrYqMh4s036DQmZWfc_yz0QBsU3zEfFwX7fR7rEZiwzOwn_u36VpTBPAtfb-Wb75qq7tJ6pXqNoARfi1khhohlHm_Tyb-CYqMxfxz8mVg7YLwWZAgHWrLMwp0akipybz7fDqPtAe2dYhp6ZUy7mObtVB81SwRQMGUrP0u9QH1VtGuQbW-beTPchK4EwkT-vD3Ty_82bSdEvAeKfrY9dVzy6FYmq1orrBVNnvsy9-hEJEa1Rg-nvLhZ8vpjSRPmKuTzO2-60NUsR_mTSDaFB0t7pCCZuTyAKVk7JE1aCORO1EIbCUKsoGDL0fP-7-mhFRVXEhHIVk6Bt7oGGxDCNxnrxErBPoU-mQh5cdQtDPtQwYAfGCDmg1Xzc3jlcj0MM8Qe8UHx_sPNnvNwtx24mn4MCnfS9qNlRRHETgTUCDam_dfLOjFFabqUiVamJY6H1YVxQycrCuADQGLcA1jDX_pTzZRavI_Q41T2yauKrke4oUSVq5-Y8NybAv4VekA3ZfcTxflibswPY6EkJ4Bs5275P9FbFG_nyELsmnNO8DRynPIwfKpFUilNdQvyNFs7-UxGkYMo36fjLa7kuAHtVtAOG12nqgcZTM9i63cFJ4RpdAPLt0-pb5R2QMJWd10wh935jxlgg5mXRI1XTuz-6DoN",
+    "status": null
+   },
+   {
+    "id": "msg_0b4f8b158855d1b9006ac2d347dd8887d1825d465c82af7da2",
+    "content": [
+     {
+      "annotations": [],
+      "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"CBS Broadcasting Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/tv-profile/kpix-tv\",\n        \"quote\": \"Licensee: CBS BROADCASTING INC.\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"CBS Broadcasting Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.cbsnews.com/amp/news/cbs-tv-stations-affiliates/\",\n        \"quote\": \"CBS Owned-and-Operated (O&O) Stations\"\n      },\n      {\n        \"url\": \"https://www.cbsnews.com/amp/news/cbs-tv-stations-affiliates/\",\n        \"quote\": \"California \u2014 San Francisco \u2014 KPIX\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"CBS Broadcasting Inc.\",\n      \"parent\": \"Paramount Global\",\n      \"relation\": \"Wholly owned subsidiary.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.rcfp.org/wp-content/uploads/2026/04/2026-04-13-RCFP-amicus-brief-in-Tincher-v.-Mullin.pdf\",\n          \"quote\": \"CBS Broadcasting Inc. is a wholly owned subsidiary of Paramount Global.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Paramount Global\",\n      \"parent\": \"Paramount Skydance Corporation\",\n      \"relation\": \"Wholly owned subsidiary following the August 7, 2025 closing.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.rcfp.org/wp-content/uploads/2026/04/2026-04-13-RCFP-amicus-brief-in-Tincher-v.-Mullin.pdf\",\n          \"quote\": \"Paramount Global is a wholly owned subsidiary of Paramount Skydance Corporation\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Paramount Skydance Corporation\",\n      \"parent\": \"Harbor Lights Entertainment, Inc. (formerly National Amusements, Inc.)\",\n      \"relation\": \"Controlling voting shareholder: Harbor Lights and its subsidiaries collectively hold 100% of Class A voting stock; this is not 100% ownership of total equity.\",\n      \"citations\": [\n        {\n          \"url\": \"https://ir.paramount.com/static-files/a3510fef-59f6-4615-9a07-96387c979495\",\n          \"quote\": \"and its subsidiaries held 100.0% of the Paramount Skydance Corporation Class A Common Stock.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Harbor Lights Entertainment, Inc.\",\n      \"parent\": \"Ellison family (Lawrence J. Ellison and David Ellison), through its investment entities\",\n      \"relation\": \"Aggregate indirect controlling ownership of approximately 77.5%, through Pinnacle Media Ventures, LLC, Pinnacle Media Ventures II, LLC and Pinnacle Media Ventures III, LLC. The remaining approximately 22.5% is held by RB Tentpole Holdings LP, a RedBird investment vehicle.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/2041610/000204161026000033/R8.htm\",\n          \"quote\": \"their collective approximate 77.5% ownership interest in Harbor Lights Entertainment, Inc.\"\n        },\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/2041610/000164117225023057/xslF345X03/ownership.xml\",\n          \"quote\": \"RB Tentpole Holdings LP owns approximately 22.5% of the common stock of Harbor Lights Entertainment, Inc.\"\n        },\n        {\n          \"url\": \"https://ir.paramount.com/static-files/ca2c9d22-f9d4-4aa3-b288-c91550cceca8\",\n          \"quote\": \"Pinnacle Media Ventures, LLC, Pinnacle Media Ventures II, LLC and Pinnacle Media Ventures III, LLC\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"multiple\",\n    \"names\": [\n      \"Lawrence J. Ellison\",\n      \"David Ellison\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://ir.paramount.com/static-files/0bf0b1a5-014c-4dd5-9b64-da40d598d969\",\n        \"quote\": \"the Ellison Family is the controlling stockholder and ultimate parent\"\n      },\n      {\n        \"url\": \"https://ir.paramount.com/static-files/0bf0b1a5-014c-4dd5-9b64-da40d598d969\",\n        \"quote\": \"Lawrence J. Ellison and David Ellison\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"Ellison family (Lawrence J. Ellison and David Ellison); David Ellison holds majority voting control within the family's controlling entities\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/FCC-25-43A1.pdf\",\n        \"quote\": \"David Ellison, New Paramount\u2019s Chairman and CEO, is the sole manager of, and holds 64.5% of the voting interests\"\n      },\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-1001A1.pdf\",\n        \"quote\": \"David Ellison retains an approximately 64.5 percent interest.\"\n      },\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-411A1.pdf\",\n        \"quote\": \"Ellison family will retain a majority of the voting interests and control of Paramount.\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"David Ellison\",\n    \"role\": \"Chairman and Chief Executive Officer\",\n    \"entity\": \"Paramount Skydance Corporation\",\n    \"citations\": [\n      {\n        \"url\": \"https://ir.paramount.com/news-releases/news-release-details/chairman-and-ceo-david-ellison-announces-ynon-kreiz-co-ceo/\",\n        \"quote\": \"Upon closing, Ellison will remain Chairman and CEO of the newly combined company\"\n      },\n      {\n        \"url\": \"https://www.sec.gov/Archives/edgar/data/2041610/000110465926112829/tm2626659d2_8k.htm\",\n        \"quote\": \"David Ellison will remain the sole principal executive officer of the Company following the Commencement Date.\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Skydance\u2013Paramount combination and acquisition of National Amusements closed, placing Paramount Global under Paramount Skydance Corporation and transferring ultimate control to the Ellison family.\",\n      \"status\": \"closed\",\n      \"date\": \"2025-08-07\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/2041610/000204161026000026/psky-20260331.htm\",\n          \"quote\": \"Also on August 7, 2025\"\n        },\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/2041610/000204161026000026/psky-20260331.htm\",\n          \"quote\": \"Paramount Global and Skydance became wholly-owned subsidiaries of Paramount Skydance Corporation\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Paramount's proposed Warner Bros. Discovery acquisition remained unclosed as of October 4, 2026. The companies announced an anticipated closing on October 6, 2026, subject to customary closing conditions.\",\n      \"status\": \"announced\",\n      \"date\": \"2026-09-30\",\n      \"citations\": [\n        {\n          \"url\": \"https://ir.corporate.discovery.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx\",\n          \"quote\": \"is expected to close on October 6, 2026\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"Answer is as of October 4, 2026. Paramount Skydance Corporation is the highest publicly traded operating parent; its filings expressly identify the Ellison family as the ultimate parent. The upstream shareholder links above are aggregate indirect links, not a claim that every investment intermediary has been enumerated. Harbor Lights holds voting shares partly through subsidiaries. Economic ownership and voting control differ: FCC evidence identifies David Ellison's 64.5% family voting interest, with the remaining 35.5% assigned to Sayonara, ultimately controlled by Lawrence J. Ellison. Ynon Kreiz's appointment as co-CEO was not yet effective on the requested date: the October 1, 2026 SEC filing specifies October 5, 2026. Likewise, the planned change to Skydance Corporation was expected to become effective October 6, 2026, not October 4.\"\n}",
+      "type": "output_text",
+      "logprobs": []
+     }
+    ],
+    "role": "assistant",
+    "status": "completed",
+    "type": "message",
+    "phase": "final_answer"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+   {
+    "type": "web_search",
+    "external_web_access": null,
+    "filters": null,
+    "search_context_size": "medium",
+    "user_location": {
+     "city": null,
+     "country": "US",
+     "region": null,
+     "timezone": null,
+     "type": "approximate"
+    },
+    "return_token_budget": "default",
+    "search_content_types": [
+     "text"
+    ]
+   }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1791152994.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "generate_summary": null,
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+   "format": {
+    "name": "ownership_answer",
+    "schema_": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "legal_owner",
+      "operator",
+      "chain",
+      "ultimate_parent",
+      "controlling_person",
+      "leader",
+      "transactions",
+      "uncertainty"
+     ],
+     "properties": {
+      "legal_owner": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "operator": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "same_as_owner",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "chain": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "child",
+         "parent",
+         "relation",
+         "citations"
+        ],
+        "properties": {
+         "child": {
+          "type": "string"
+         },
+         "parent": {
+          "type": "string"
+         },
+         "relation": {
+          "type": "string"
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "ultimate_parent": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "single",
+          "multiple",
+          "none",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "controlling_person": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "none",
+          "not_established",
+          "not_applicable"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "leader": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "name",
+        "role",
+        "entity",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "name": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "role": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "entity": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "transactions": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "description",
+         "status",
+         "date",
+         "citations"
+        ],
+        "properties": {
+         "description": {
+          "type": "string"
+         },
+         "status": {
+          "type": "string",
+          "enum": [
+           "announced",
+           "approved",
+           "closed",
+           "abandoned",
+           "unknown"
+          ]
+         },
+         "date": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "uncertainty": {
+       "type": "string"
+      }
+     }
+    },
+    "type": "json_schema",
+    "description": null,
+    "strict": true
+   },
+   "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 58480,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 5304
+   },
+   "output_tokens": 3484,
+   "output_tokens_details": {
+    "reasoning_tokens": 1468
+   },
+   "total_tokens": 61964
+  },
+  "user": null,
+  "billing": {
+   "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 6
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 58480,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 5304
+  },
+  "output_tokens": 3484,
+  "output_tokens_details": {
+   "reasoning_tokens": 1468
+  },
+  "total_tokens": 61964
+ },
+ "usd": 0.2117224,
+ "latency_s": 79.8,
+ "web_search": {
+  "tool_enabled": true,
+  "calls_executed": 7,
+  "actions": [
+   "search",
+   "open_page",
+   "search",
+   "search",
+   "search",
+   "search",
+   "search"
+  ],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "A",
+ "case": "kpix",
+ "run": 2,
+ "saved": "2026-10-04T19:29:55-0300"
+}

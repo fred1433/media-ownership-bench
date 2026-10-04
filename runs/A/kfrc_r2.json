@@ -1,0 +1,1179 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Audacy License, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=b55d5c9f6cc24bd0b2a1c1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl\",\n        \"quote\": \"KFRC-FM Licensee Information\"\n      },\n      {\n        \"url\": \"https://www.fccinfo.com/CMDProFacLookup.php?order=3%7CD%7CA&sLicensee=Audacy+License%2C+LLC&tabSearchType=Licensee\",\n        \"quote\": \"Audacy License, LLC | KFRC-FM | 106.9 MHz\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [\n    {\n      \"child\": \"Audacy License, LLC\",\n      \"parent\": \"Audacy Operations, LLC\",\n      \"relation\": \"Wholly owned and directly controlled subsidiary; FCC 24-94, paragraph 5.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n          \"quote\": \"wholly own and directly control\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Audacy Operations, LLC\",\n      \"parent\": \"Audacy Capital, LLC\",\n      \"relation\": \"Wholly owned subsidiary. The FCC-approved structure is corroborated by the Florida corporate record, including its April 7, 2026 annual report.\",\n      \"citations\": [\n        {\n          \"url\": \"https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=forl-m24000015904-54e4b1b2-de52-4548-9735-f5ee3127aebf&directionType=Initial&inquirytype=EntityName&listNameOrder=AUDACITYENTERPRISE+L210001836950&searchNameOrder=AUDACYOPERATIONS+M240000159040&searchTerm=AUDACITY+ENTERPRISE+LLC\",\n          \"quote\": \"Title Member\\nAUDACY CAPITAL LLC\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Audacy Capital, LLC\",\n      \"parent\": \"Audacy, Inc.\",\n      \"relation\": \"Wholly owned and directly controlled subsidiary; FCC 24-94, paragraph 5.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n          \"quote\": \"wholly own and directly control\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Audacy, Inc.\",\n      \"parent\": \"Laurel Tree Opportunities Corporation\",\n      \"relation\": \"Controlling voting shareholder under the completed 2024 reorganization. The FCC approved an expected holding of 57% or greater of Class A common stock; that is not a verified October 2026 percentage.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n          \"quote\": \"controlling, attributable interest\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Laurel Tree Opportunities Corporation\",\n      \"parent\": \"FPR Capital Holdings LLC\",\n      \"relation\": \"Sole voting shareholder. This is the voting-control link, not ownership of all economic equity.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n          \"quote\": \"sole voting shareholder\"\n        }\n      ]\n    },\n    {\n      \"child\": \"FPR Capital Holdings LLC\",\n      \"parent\": \"Fund for Policy Reform\",\n      \"relation\": \"Sole member and manager; holds 100% of FPR Capital's voting and equity interests.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n          \"quote\": \"sole member and manager\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\"Fund for Policy Reform\"],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n        \"quote\": \"not-for-profit charitable trust\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"none\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://www.radioworld.com/wp-content/uploads/2024/03/Audacy_-_FCC_-_Long-Form_Comprehensive_Exhibit.pdf\",\n        \"quote\": \"no entity or individual possessing the right to appoint or remove any trustee\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Kelli Turner\",\n    \"role\": \"President and Chief Executive Officer\",\n    \"entity\": \"Audacy, Inc.\",\n    \"citations\": [\n      {\n        \"url\": \"https://audacyinc.com/leadership/\",\n        \"quote\": \"Kelli Turner\\n\\nPresident and Chief Executive Officer\"\n      },\n      {\n        \"url\": \"https://audacyinc.com/press/audacy-announces-executive-leadership-update/\",\n        \"quote\": \"Kelli Turner has agreed to take on the permanent President and CEO role\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"FCC approval of Audacy's bankruptcy-related license assignments and transfer of control. Adopted September 18, 2024; released September 30, 2024. Approval was distinct from consummation.\",\n      \"status\": \"approved\",\n      \"date\": \"2024-09-18\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1.pdf\",\n          \"quote\": \"Adopted: September 18, 2024\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Audacy completed its financial restructuring and emerged from bankruptcy, replacing the former ownership structure with the reorganized creditor-owned structure.\",\n      \"status\": \"closed\",\n      \"date\": \"2024-09-30\",\n      \"citations\": [\n        {\n          \"url\": \"https://audacyinc.com/press/audacy-successfully-completes-financial-restructuring-emerges-as-a-growing-scaled-multi-platform-audio-leader-with-the-industrys-strongest-balance-sheet/\",\n          \"quote\": \"September 30, 2024\"\n        },\n        {\n          \"url\": \"https://audacyinc.com/press/audacy-successfully-completes-financial-restructuring-emerges-as-a-growing-scaled-multi-platform-audio-leader-with-the-industrys-strongest-balance-sheet/\",\n          \"quote\": \"successfully completed its financial restructuring\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"Answer as of October 4, 2026, using the latest evidence located. No later ownership-changing transaction was established. The chain shown is the FCC-approved voting-control chain, not an exhaustive list of minority or non-voting investors. The final FCC order eliminated the intervening Audacy Corp./Audacy, LLC entity contemplated in the original March 2024 exhibit, so it is not included. Fund for Policy Reform is governed by a self-perpetuating board rather than a documented individual controller; a Soros family member's trusteeship does not by itself establish personal or family control. Exact October 2026 share percentages and any separate day-to-day operating entity were not established. Kelli Turner's permanent CEO appointment was announced March 17, 2025, and Audacy's current leadership page continues to identify her as CEO.\"\n}",
+ "raw": {
+  "id": "resp_06267a78f6e11835006ac2d313e37887d185e4b6f0206166a8",
+  "access_programs": null,
+  "created_at": 1791152915.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": "You are a media ownership researcher. Today's date is 2026-10-04; answer as of that date, not as of your training data.\nFields:\n- legal_owner: the entity that legally holds the outlet (for a broadcast station, the FCC licensee).\n- operator: the entity that runs it day to day if different (for example under a shared services or joint sales agreement); otherwise status same_as_owner.\n- chain: each ownership link from the legal owner upward, one link per item, each with its own citation.\n- ultimate_parent: the top of the chain. It may be several entities (joint venture), none (a nonprofit with no owner), or not_established.\n- controlling_person: a natural person or family that controls the ultimate parent, if documented.\n- leader: only the person matching the leader definition given in the question.\n- transactions: deals affecting ownership; keep announced, approved and closed apart.\nRules: every established field must cite at least one source URL with a short verbatim quote copied from that source that supports it. If the evidence does not establish a field, mark it not_established rather than guessing. A name appearing in a filing is not by itself an owner or officer.\nUse web search to find current evidence.",
+  "metadata": {},
+  "model": "gpt-6.1-sol",
+  "object": "response",
+  "output": [
+   {
+    "id": "ws_06267a78f6e11835006ac2d315c4f487d188b808aa8eb5b00a",
+    "action": {
+     "type": "search",
+     "queries": [
+      "KFRC-FM 20897 licensee Audacy License LLC",
+      "Audacy CEO 2026 Kelli Turner",
+      "Audacy ownership Laurel Tree Opportunities 2025 2026 Soros"
+     ],
+     "query": "KFRC-FM 20897 licensee Audacy License LLC",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KFRC-FM"
+      },
+      {
+       "type": "url",
+       "url": "https://audacyinc.com/leadership/"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-audacy-new-private-ownership-after-bankruptcy/"
+      },
+      {
+       "type": "url",
+       "url": "https://fccinfo.com/CMDProULSLookup.php?sBASService=Microwave&tabSearchType=Licensee&tabTextBox1=Audacy+License%2C+LLC"
+      },
+      {
+       "type": "url",
+       "url": "https://aflegal.org/wp-content/uploads/2024/09/FCC-Radio-FOIA-FILED.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProFacLookup.php?order=3%7CD%7CA&sLicensee=Audacy+License%2C+LLC&tabSearchType=Licensee"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-400499A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.radioworld.com/wp-content/uploads/2024/03/Audacy_-_FCC_-_Long-Form_Comprehensive_Exhibit.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://audacyinc.com/press/audacy-announces-ceo-transition/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/LMS/0000213065"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No12/pdf/GPO-FCC-Rcd-V39No12.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://audacyinc.com/wp-content/uploads/2025/05/Kelli-Turner-Bio.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/Public-Files/am/9637"
+      },
+      {
+       "type": "url",
+       "url": "https://www.linkedin.com/posts/kelli-turner-51337015_two-weeks-ago-i-was-officially-named-president-activity-7313935440842002433-7HJM"
+      },
+      {
+       "type": "url",
+       "url": "https://www.influencewatch.org/non-profit/fund-for-policy-reform-trust/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.inquirer.com/business/audacy-private-bankruptcy-financial-restructuring-fcc-20241001.html"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/LMS/0000300687"
+      },
+      {
+       "type": "url",
+       "url": "https://www.lacera.gov/sites/default/files/assets/documents/general/public_markets_holdings_report_2025.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.washingtonexaminer.com/in_focus/3190140/george-soros-audacy-radio-deal-fcc-gop-uproar/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Audacy%2C_Inc."
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Audacy"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_radio_stations_owned_by_Audacy%2C_Inc."
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KRBQ"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KCBS-FM"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/radio/comments/1p30j25/license/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_06267a78f6e11835006ac2d319b60087d19033fba787484dd4",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site:audacyinc.com \"Turner\" \"March\" \"2025\" CEO",
+      "\"Audacy License, LLC\" \"Audacy Operations\" \"2025\"",
+      "\"Audacy\" \"Fund for Policy Reform\" \"2026\" ownership"
+     ],
+     "query": "site:audacyinc.com \"Turner\" \"March\" \"2025\" CEO",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-25-960A2.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://audacyinc.com/press/audacy-announces-executive-leadership-update/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f9195eca9020195f335b5f602c8&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-413302A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=25076ff3949de7150194b4a2f6e6116a&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=25076ff3949de7150194b45e98040fcc&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=25076ff394938b9701949ad7d0db0ae0&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=25076ff3949de7150194b46db5ad1058&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f919b26d9d4019b2aa2e8c802ca&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-409589A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f919ae657a9019af61efba5087f&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-wcco-cbs-for-tv-audacy-for-radio/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1067837/000119312524003834/d676036dex101.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.influencewatch.org/non-profit/fund-for-policy-reform-trust/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProULSLookup.php?tabSearchType=ULMB&tabTextBox1=3410059"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KDKA-FM"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WQAM"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WMJX"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KMOX-FM"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WXSS"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KHMX"
+      },
+      {
+       "type": "url",
+       "url": "https://www.viasat.com/content/dam/us-site/corporate/documents/SpaceX_Response_Gen2.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.radioworld.com/wp-content/uploads/2024/03/Audacy_-_FCC_-_Long-Form_Comprehensive_Exhibit.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://audacyinc.com/leadership/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_06267a78f6e11835006ac2d31daab087d1bf03b7a0f69f0b52",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNnoqCqcnxnUFjr97VV7e0o-fdSJ2Nn-4CPieNYvMviIk4ohPiM37wx7In7PeCCyW5DKbmSXKIxG_4H7UoFkg6XNNDs7xfnvLTAj5kiob9OMHOVruh7oCZsFOJI0qKeFQ_DasQksqsFiMYV8klBb_XT1OjVeeZKSlLdsOtHGf1qnHwLu1JIFe-SGrRl2J8JdOdO3qByWrxt6PCTMc3IAXHQiq5clc8v-uInliRuH2FWTrISgtpiusXRpHQzor-KGsq12l_g04kM1VsVLQP0loCRR_ePdj9cAskoxlO9rL9_WGK4WURGdAX2E6950IubEtJaVb8xAsB6wXchQ875JqmZlRjjC57B3AKhTbLSzJGE4zqMtsJ6bIX2IpYKqwMjUmlr5KseLRKw1iX8hohkrqMs9EGiEFJB_Oop7QS997CTDUxXkcNx4uvPEHxPkQ-9Vtg_BZj324q2bpZSW7sCvtHri-K2TeDa-LbhRqLGjbGCVFCWdXkMpU2wGOtyVmxQArj1jLXAKn5HDYfu0NIDFputM1bK3IFL-jmsDULInizjjjsVAsPNyLqKAPxF2PENR3HFsZ43_weps7JEokf-Hr03_803gmY0zmGtiNPGxXi2w2jOMKwVcE7gffHaZ9zHmxF4JW8nmHsOjXrCV4RZOd6QYg9bLFWncabyp3NbGcvviAjsiwB8t5JDPh7MGMlegs86Hd-qT5ZJ2Bvaqfa6ksk0ScL36cd-QpFXNOzJTZo4Hz7lSdQ4hK5C3VGK9ecz0SFPvmZXPkbmwM-qpEefrL9YNNT56YpRX2DADslqIuVagkrA-KzKxF8AptZ585OBMNhLf5xU7PObAmJsTBi26TqyDYVRPjVTvdba-GWgxjdxEdPW-4NiBTMJ-Ml5YQDvWKndK5mhQJty-mefuqvIwiI_HQ1BBOB-6EjzEQERtJ7ORUCTk_EbLj646XRESx3HGForh9JEYoqAc9tq5SAP5lxppI0xZ_CdS599p0fwNT-lJAZM6nFmagyKk4PHGFHOBc3s5v5QU5xOSZE53RFD74rTQ1kLbvpBOhueVcJfEJbmgDBQUB0ddDbciNAOAWVU-Eg6jIGUqubKHdftHODb_kTXP-jqm233alRwWKQhTrijf0113hrdUY6B2vEk5QEHegg3W-T9SZxBoWXHkyiEnc_C9USjXbXirvYg0ozAqxkvG7jSS-yi5S8jTdCihSrc6ryWsCPLKBInFLLcWIgheGBMrg==",
+    "status": null
+   },
+   {
+    "id": "ws_06267a78f6e11835006ac2d31dc02487d1bed67f0688b3faf0",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site:audacyinc.com \"September 30, 2024\" \"restructuring\"",
+      "Audacy Laurel Tree ownership change 2026 2025 FCC Fund Policy Reform"
+     ],
+     "query": "site:audacyinc.com \"September 30, 2024\" \"restructuring\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-24-94A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://media.aflegal.org/wp-content/uploads/2025/04/22104958/241007-Exhibit-B-1-Application-File-Bates.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://audacyinc.com/press/audacy-successfully-completes-financial-restructuring-emerges-as-a-growing-scaled-multi-platform-audio-leader-with-the-industrys-strongest-balance-sheet/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.radioworld.com/wp-content/uploads/2024/03/Audacy_-_FCC_-_Long-Form_Comprehensive_Exhibit.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-wcco-cbs-for-tv-audacy-for-radio/"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-audacy-new-private-ownership-after-bankruptcy/"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-24-94A3.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.inquirer.com/business/audacy-private-bankruptcy-financial-restructuring-fcc-20241001.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.influencewatch.org/non-profit/fund-for-policy-reform-trust/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.influencewatch.org/non-profit/foundation-to-promote-open-society/"
+      },
+      {
+       "type": "url",
+       "url": "https://nrb.org/fcc-approves-soros-shortcut-on-audacy-takeover/"
+      },
+      {
+       "type": "url",
+       "url": "https://radioink.com/2024/03/18/audacy-restructure-ends-fcc-grandfathering-forces-divestment/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.washingtonexaminer.com/in_focus/3190140/george-soros-audacy-radio-deal-fcc-gop-uproar/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1974395/000197439526000006/fcc-20251231.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://radioink.com/2024/09/30/fcc-approves-audacys-bankruptcy-reorganization-plan/"
+      },
+      {
+       "type": "url",
+       "url": "https://nwbroadcasters.com/2024/10/01/audacy-completes-financial-restructuring-and-will-now-go-private/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Audacy%2C_Inc."
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Audacy"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_06267a78f6e11835006ac2d322e00887d18396297f6ebf724f",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNn-Lu_hM6tQmGKImk8nvgZ2W5-p00cm-5pXzh0uUl1xgTQCoHMTU-jLkUdE-CsmfYujUpsR6JJ4oHFa1VAUQTSm3RMgaY11EgRZ_axbW9ue03FB8yxavKlGTdgMN4PMmD5LSHSpnCgWN5IQWV4-XJ-r91bxJdcinFnWuP8Xt8NZMV23oGX4kTZbd1YmFGCDsv2MC-WC7RnG0F7WiqBwk6IUiNQHl8nW-SEKMHINozV_l_dsdzJdvFVl021foCA7cCSe8awgNfp0EZJksvySlQzDOWarrfP-TCP3XfBbK8H0SI8bLCdfD1uF6NwErtYDyQyGzMGQEgwiNMM24HDEPtCJkN4G7BWN3rEJLw6Yd5HHGFq5Bd0iQLvyA-rU3fIsnbrLB7OVsuoWlzWGhENL-a_WxKfl-ZreNftFIJVhT2n28vZYET1SNqEHedHz1sRBf9ELxZ_F-d4b3qujbMbkZ-ZzCG61ziTEUF0hcVSCljluUu0SiM28Ww_TxFQKVc-TtOWTqwcgPKpy906TzmohkR8FAsgKZk1OMkGcGJnbnfuZa4HHIIeIfPGx3MDB8Gt6sWweauZt2LXjvuvQMmyQp04C75DSznCUxCwhWYmg72zNNo6ytyMiFD61yDHEtltNdSyVuCTwniBADiJIEZUcWKqWWeO12BGzFaSnaVy20XEiJuhoJ4WgRI9KqtAlIAh-3eiVtnyaQD5VUkHVnLyko2-WNvj4FUjMAR58i08OCH4xCK-cGfOc58NplRqowbG8jBsAtdxV_-NFYNAUMvEMLSleFFNoGlgpds0TltFddlS_DfWB2gZZzANM8Uy-fn2xUB7vzjlr9PGBGnRonq1u8KokV6m2PS7UVahZ1GfjUNbm2BJTXvroNdZKbPOydN81ML-_mixO2VcjWCrWxyVs4qOE40UIkzTqE7CEAe0yfLysgBpX2HZrk_WggonbwGx3tyy7QeFXMWv7xviPc1n9ykhavm26oiB0ghlxmkIbMK3YMpcX_KRmem4vxMLolR4IJJNpLz-b2qFKpuX4g6xClslK1CeMb6ZS-wk6GeYSGVYzpJ6htl8iA8Qwsj04fJqHi7-l9oJviwgRybzar17Jr-eLa214qjYZrFmCD_HI8ov7c_wInDuX_JIFSEAPTtLfMcEnlUUkhEktefDqvjrYZ46jFeljInkeA-8NeGZX77eNpRFiEqF0zz1fZB2uEIkXJrsN1QP9DtEvo3ezQvyWVZXP42mw7Kh73-gFemosJox_Z7K8Oi4gtmghF8WwGbzHx1d1wXMlXToUK4aGRyHfar1gBXK6iXR6IzB9AE3FIrcZV0IKjQY-yz4a4vcLbpiYEHQ6aKTOf6u72nZ0_JNwdBGRQZfdM9pAELBtdeGEAFZWvkzU6u4E5snoAHaq7qvaGtwPiJ2knhPht3d54SzwOrMIR4MaRfoAqpzZxq4TcRoc-suDwfgyze6BYx4gpjUKRISCjoNmadPpJNP9oBpacpYZYdDvMSBSR5h_XBg7irlqKpppWpR7SnkMAnSxpZM1P0eORP8RFYB57J5h9j7mY4CZQKSvJV9D1G1K40Y0g15Sl3j257UR08Xu8XlSijF8SpR1ie9eRIHa4Y9Ab6nGNEVZ3gHEx4ek7PZxq6cs9CK_U50aF4uREu_6Iob9GMcsmrExQXqQajsWmfJda0L4is05PEOqptsntsmCJ4H7ivXsy0lywOea4JEQzaOdxERHvXeWqWAupdKMtzvosGB-67fDlN5BHsjGMLmiFfJh5ZtC4d1SrfS4vNdYt2KKigr5i_T5ZuFjaGz-O8eNz1-YHdiiaYIQu2aETtZzVLRRfpORuPJOko1Zpwqovx9kgQhkXg4g2yzI9kBE5LD_KPO2zTEFoFkPetlHkYSP38fV_HqDGJaKuV2QGyGHtdFyk6CxyDiOd7PAxLRTnfboxpyuiTnBmS2Kkw-KXN60WCsLn_ceUkdlEDNg3WkEgdqKeQdkAdXF-GdTbOMLtDqIpKVPDEMX4Z1dcKdiumJ9fQAcwdWR2dVXOdrMlUTxW05cMfnDt3Uzjgim6JfslQsfuSY8m9KsSMx1b9qHlnc3pY2qNhVeTHuw6uZ1omFJ_K_sFLoMuL23RT08E323BSU8GYw8Bg2azPKhFoQEbTobnGaz0VUuSivxwx2k59S-uM1Km2NvM0-LpNIC0lrpLtWcF3vUFUoz2MNsxpCKUZW7NCR4T2JVBjwcjEKblHWBsYdk7MoSodAxGmUrMX_OM3Xw9mchkUO4hTabTCdZpt-GsjGULh12mcYOvKBNUFXvK75sFripuLNZVQomHNeqXRvnpfTUDvFk5BKkw6dhwSLAdG8_Z8JOhGlIuElscAaExso9fUFyrRRkPKh-sdHMqBCcsp_z6P4BHqenv2H9VlIcbIQusyHdEnyk851J_SlbB7wHj3sS0xnx8vnkFaUSYO4mg205gjfXNJnV-_nPYbFeGJ6uRJYLboEoLkWofmpRiKkmp_zTHDtSDJGVoNLOD74gpveO5t42WjrxS0JdofEPc0qNYzXBfGqrX_Cvus2Z53liSFqe4hxskLNOl5MPhJjlcSNISMkAo_NdfDYB14wi9uWRg_aQzvdiRdcRvcMRAV-nabgntI741l9MmO8D9bLBKqaUQIkqhGH675TFXaxgJxo_EOpA1KNpRzocTicLZWrffW9lbEbEevwvvYI2a9XxKHcyNmlMqK0Hu5WFAyQQdMo1VImiNhsWL6YPTkjQOeIf4ru0RTiqek6XTJr-KzwHV1LEMwKfrl0C0c4HARugEhyiDPVof8S65MuWLwcKs-I3W0NBFQJQoItpDDFq02A0_A1cACEHlX4agBPsQYro4cTgwd5-UQ=",
+    "status": null
+   },
+   {
+    "id": "ws_06267a78f6e11835006ac2d328cd6887d19be313e75956044d",
+    "action": {
+     "type": "open_page",
+     "url": "https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_06267a78f6e11835006ac2d32cf4d487d1ba75dae64d38a2a7",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNnY9ZtUHs5eTpbuiQ587vALrgsKZz4fR8QPRq2xA4YHQ3D0m8GZteir3Wys7niL3GI9aURf-D8hJpxLctXbrzEyD8sa9_R6wrpYFljO36eyeM8qtQGSNLpfifO-W9hPZsrBC5B86Ytjt7sn7UwYVRsyiIc17Y0hpNuLcyPfq3bednB0Pz5FNi-EK6DVKg9y27FQQiHSG1ObhXSF2KaIo959-UFdzWlrV1LlZaA58UBBeIvJN75syzx5UBPlPokrFmUIzJXRl0wh_6L47sWLFgQGTw7_nqOHVV_YiN7lyMrnnHFMo6MBIDI7GXB-Og9UUG3rmkWm0OgzG9cU2cVYykYgbnK-4nwE9p4H7-_Iu9IGu6Qg7t-f2zeQBxkNo-asX1sGmzyd1GgwR7z2hOrCMZ4ZcRGJaXhK-wQ7I5cLS3U1OM4iARE1deijIjfmY6YIg3lvCiuFUYRmqpP0x0JdRO8HMXssQQZTCYMkw7C7y7LzJj03mVmO2otHxArPVHsP-2jsXv0Rv5wsZGAVKLvb6mkYxNfrmqY7QnnTFBkxHbAzCcYrVoela4HPgZUCFg6uxXf3mhvfBjbPVzycK24qQxMsgLAeIIQt3zB_zWecHfDznTeYJpMPzfmJVX4wr0mxFUhjGB9CgOB4AyL1vOZ_REQBx2UAV28lzD8cruM_Q6UvmI9awCBv1wDNxGk8IguAQDCcqDjRv5k1wF38ATLd1ISwNKiy3GEB4vs_DFQrmEeqrAnBgAewQVRw0Ed0MVLwmKJFcXQ6rMHehE0ZfBVx1ucwJXLASOrtQeIlc1I8mKWyrJE4cUSqUz-nbPMduHcV6ZldlX79yr9qCnoj-Fy_sUUCclhq4ISqIuCR8Bc4e1k5Wcpr-eh68Zf-QH7SjmVlOJvhm9JCqerArZs9l68nsuXlqxDmXrjoA7EbbjzovGR70c5J8HwSHHN-aUpPGwojyLdZHvUc61bp6E45BBrxBnmEatrdgwYzlG-Kau2Kx7rlDdCsadf4291Z0vjlQN4cCpds8IqNZ6HBrxAAF65114xs9IGwB_lwTaZa9Bf69Ec2ei2NL3cwWxki1m1wg3UewL8xel9qytpj-lSnA9fJzGE7Grxah5tM0-01OCT6t2GnuHvdlAZ9RL70Rna5hnT4vApFmnNhb1UPUezJVbYYny_3mUquqkgrXfCxyEosmkmK6bNbEcq2yLySD9zej4MmNzKwVhjJ7aBRbNSreTa6Gaie6Eby6pFYs9wunkjn2W4dPYfgReOevPq1o86eD54CHRLD9y1iMvQD5x8wKFIuzKXQQ5_CyIZtKzBDzi9K7QlARA=",
+    "status": null
+   },
+   {
+    "id": "ws_06267a78f6e11835006ac2d32d883887d194eac8b58fba1cdb",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site:docs.fcc.gov/public/attachments/FCC-24-94A1.pdf \"Laurel Tree\" \"57\"",
+      "site:docs.fcc.gov/public/attachments/FCC-24-94A1.pdf \"Fund for Policy Reform\" \"trustees\"",
+      "site:docs.fcc.gov \"Audacy\" \"2026\" \"Laurel\"",
+      "site:docs.fcc.gov \"Audacy\" \"2025\" \"Laurel\""
+     ],
+     "query": "site:docs.fcc.gov/public/attachments/FCC-24-94A1.pdf \"Laurel Tree\" \"57\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-24-94A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-25-960A2.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.radioworld.com/wp-content/uploads/2024/03/Audacy_-_FCC_-_Long-Form_Comprehensive_Exhibit.pdf"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_06267a78f6e11835006ac2d331743c87d19474e19ee0c09396",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNnf_iMP2U33mGkGqfOb58MVxPUxJKSjIEaWHn64mXnKCjDwAAU0vCwQSqrufkPzxJWO0IfuQhuerMz4KVsJE81HDe5ljnTlqU_gCUYaD_D53Z6IFOM6QjOT0WnzbrGR-BnlW1dKLon4aGC6PpTud9NA1qoMKPQ3PyfokrEjAjb2hefPf-s0AF8QDBhqKAdwk8ug88AE0i0ut-3JKiKiyrg7NeHuSTKKOe6xsdrO49qnS305vtbzd_a3t8G-vCNgDn5l7iY4Zuke2qtJy1PseY9lfXogerZoKVYjEvmJR0mhsq1_e9GijvgANlDjpons9ufWDgLZeSnIlasZumvAMWugCqVJRVAp8DwYcoc4CHkcFmEqZQffc9b7r7TDNgCUIlJqIiQlHMYcEltRp9WpvQ6Mab8lt_2Kbk_QsO62h8F4LDJWYKy2aUC1bkCjDLiguSsDxTDNX6EIj65Rni8fVsGoPYoRmEr1U7bkyaKJxX1YINpSx2bcEvNGH4ykOV7ugfAHg89Srjw6rrpWvMKlbJ_4TPYw9K72fGoTr2egHXdS5-q6WAUx__QBaXfl3mQGJGVP0bT5A4AkqdVmLgZ6FAxmO9fEZ2FQfz3uGt0rt5ySZT-9iZUyIjz8Rp3IaGy6o2NJuhnwzEIb4NjoopVsq268Jczy6NPeOIpqNqGfWMDMGDTBhSf2rcRA-soOWrs2dFD2OWVrNrJJjCEadhQ9ekQrPGI31TRV2n2Hghr_VKFjtICeD39-mpvXxOWzyWaW_A7CXaDPC_wmaDrb3B0fPrHIPoiwIDmKf61Ya3QYH3PBmSoMtedAm97y2TdqCSqux2M5LyOe1vb4FzYB18C7ONYZtXMHfPypgAmNaQ1FurO9ymIwziBSx-4SQE8Syon-f8c6E1Sf5J--GQ0HadmUscBd6jaY0E2OjPpxZTS7azUxtJwQ0pX9y9gZOw9opgD22PtwJQ9zfpLt5goK4FDLp0S3jyysAPCEWmvqfi2qE17zoyc5shXgr-uBOxDSztoShfrgU5IcjW1cfGIZeOkSil4J1lBjkRBcuYIyHOIxQE_3ClctGfIk-dse6KIUhL9Hw-pLa5mZc5cTWvonpMWyTxcWKKr1gtiU2syiwdk-qzUSE05E_OeKKWemt8InBUxl-X59gvV7pj4TFBqMcR-dikAMDP94k9ZsGnIB6COS6MFXvMNo9a485_xK02uOx9o7tb8lJX0NF_QVuuk0eJeysjnFvLPZmCgKKWc1tnhJUijwgKG-Dnev6OMY-mDy5OBq6gJbz8cluOyCjI_-lElcg_1GiPFHRgoDkRS2zNq_rKsU-I=",
+    "status": null
+   },
+   {
+    "id": "ws_06267a78f6e11835006ac2d331e9bc87d18950d9d470217432",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"Audacy Capital, LLC\" \"Audacy Operations, LLC\" \"2025\"",
+      "\"Audacy\" \"Amended Comprehensive Exhibit\" \"2024\"",
+      "\"KFRC-FM\" \"Licensee\" \"2026\" \"Audacy\""
+     ],
+     "query": "\"Audacy Capital, LLC\" \"Audacy Operations, LLC\" \"2025\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://media.aflegal.org/wp-content/uploads/2025/04/22104958/241007-Exhibit-B-1-Application-File-Bates.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-24-94A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://media.aflegal.org/wp-content/uploads/2025/04/22105312/241007-Exhibit-B-2-Addtl-LMS-Files-Bates.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=forl-m24000015904-54e4b1b2-de52-4548-9735-f5ee3127aebf&directionType=Initial&inquirytype=EntityName&listNameOrder=AUDACITYENTERPRISE+L210001836950&searchNameOrder=AUDACYOPERATIONS+M240000159040&searchTerm=AUDACITY+ENTERPRISE+LLC"
+      },
+      {
+       "type": "url",
+       "url": "https://patents.google.com/patent/US11483084B2/en"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=b55d5c9f6cc24bd0b2a1c1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://patents.google.com/patent/US20240187117A1/en"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1067837/000119312524229306/d753507dex101.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=0554aadcd97943358578c1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://patents.google.com/patent/US20240195856A1/en"
+      },
+      {
+       "type": "url",
+       "url": "https://patents.google.com/patent/US11350159B2/en"
+      },
+      {
+       "type": "url",
+       "url": "https://patents.google.com/patent/US11812099B2/en"
+      },
+      {
+       "type": "url",
+       "url": "https://patents.google.com/patent/USD1041502S1/en"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=0f8fe57f480249d78f5dc1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://patents.glgoo.top/patent/US20240292055A1/en"
+      },
+      {
+       "type": "url",
+       "url": "https://www3.caixabank.es/apl/fondos/Images/21/IIC_61_10.pdf"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_06267a78f6e11835006ac2d3363d2487d1a786d52464dcfb6b",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNnrfOpn1SWJPZYu69K6OM-4gczmlunpaYpzao7MM4TwKBPvtuGVIfMnqf6f50w51VE3HBtl6QkIseWLUH06bwMvYZkhjA_5CT0taAqAz4eEleUtVYtT64FU-CrFyojP9jC2ad_a29vPaHN6amr6eJgRl9S5Shxx-0x9-cWLOrAlixN14mWL8Tcux2Ziu1ZI7UAP9zmHOFQhGqacXpqac8thKIRx2bZ_e-j0QUxlw0_76iimzl5IKxUGz8WgjT-kU6hoNPOUnCuoNxfy5ryKAAeG-RBZsKLwIhsZ56g8OPOxIIv42yJmUkQEzr-yWZrflIgwOheLg7o0Q-4ypaUkBodW1zRaoASok1wdfDrcxJsT9-_F6tK1pNuSrH6hGROX1nb4UF78j1CyzMdCT0rGSwfFXrr4qyczPJAGshVVrRDguisjxWBVmwtOjF9xoDltXPlVxrp5J7mAYcsoTQ4q0tGKrS8pbS567xaSSlBlfi63oPVWsMJi0T9CJzsw6-28pmk6J38-PMr729_p66wbNs9Mvh1UjpT9tFGssO-G-1XZ35V2bEhV415f956OGjvvCuLulBIDPb8Q4_Nn1WC_TdGzzGnwruGA8ZTM3JsZqaIINswRRYrxyd1X_debhvdtVrZr9PomGVr39q-zBn1uHR_wevEadewfKCAuuqkGKBiKCZe8tGD4TcugopyibcprY20GEhEp4aEccfiijFLtoDJpKinHYgIVASQi_YATMl8iS3LirkN9mr_lkxkYkq6AJj6UXLHL0Uu6Eg_8gFaTdqOWDlssOK6ne3k-3wuSilYtv_efZGQ17o6FoZ1-v5wCgFr8ciLHqZ9q5OFl2ax82MPfiV2w7MGQlkKvPTVVB4UXUoHe9aA94Tk5fZGdn8nx5H45vhRhJaobrA5jzMeKV2YfEYIvmnb4x4cbpa--0MnRAs8XsV4RE_ozcAwiXKWL1J3tXqwc8R0Ru5qWbJfAQ6VakVzNpVddj3v-J0BES1EGopGBemrPeh9PoKEXf_Zsxs4NI8HXaTN0Ep0mI4f2z4LLgl5bt3zIohIv6pZAQN_VHsKlcZZ0qGbBlz1M_TO8RKtVidLYpthdsLKtwIkwXgRIlvJCOYRfnXdWZVN5qKI_u8gJCrKPI2uAcJTa_VRFFy8yyLmlUCVTWTwyfQ8OXXl7pyOKr2ooRuwRZt8kqcmGLxZLPrZ8LxTyM8ZZ5Ub8_mF_cVB7oMpJXKAgRUdN4dK_tuiIO_CJruYPnWBVS3NjaTtSeUI6shHsTcTcyjjMFtZIhQOA3ykZ3rhAZ3xV-jaPcBbMW9jWAcIGixg_FbaRPLwMoZjkgsz9XFRwD6BDHjeSSubpOEvk0IbC0jxwcPKabwtwm6LY0I1bpHxlF7AkodJ7YCK_oCkaC_xU1vatDlqgzSPvoChSWR--TwFoqQ5tOXZ_o6i4uiWb4RSrB5loA9rGFnA-iBvPehlACg6TJ4Z7zzOQplp2OgrdMIYw4_sLsIDgXDHZVsmSR1e0MPhdOk_vaFOMuo6zMdiM2E1xc6JtBh5rpZQru2YHL14paOsERhB2uf3mkXPGChubTQt4bvSzkR9tFaMcQDIHobYydouHk6LVUXJUIRa7b_9piOnUa8BGXcseORAq4KM14U1_KAHW7PJ_e-POg9ToM4yjb85TQgFF2gYcYXJrWAXJIanfjfg8pLJLUJy2h2hNSceqgjdtkDK3l3ku5V7laS4Ipauc27ZDM8RqVIjodenorxmapM5H-KTsQ-VDkrxp9Zapu-CGq2L2HmLi7ovOYsrgcZjZ6gUVNvjs0kYDryDR4EVomn3VNwR35FgQ7SjCDVId56h2yaO4ryoSVeHUQafM_D89dSTg_SVtGtQyUPg1KUmkhylwBizIdcYRrKFcj6Kp2M5VrYM5yIUGji3PX7EjBVJEMYrGX2iYqmYZtnapfDBTqCCzGFhp8fPDUWBdKMDvPWxHXSXIC-MqJVRKxYoHxilKNaB0AagAvbYRquVN0oMrSyu93Z_NUka3ieGM5cunB0gi076t05W-uG9WTka9gXqgh9C3bcw0McH6DdeV3LofWrHljhTMujCLB7ENyF6O_7QfuOdfXiHja7vU0s67BOt4cJ4czybzk5ToWgW4HhttJBzOZcJpVEs3hg8ZA2UFn38ejVp_vLAeWngnFoKV0Bi_idZYMZ64sj8Mc0SqKcyQflTq6qLswyk0ztSFjEfqDuYHaY4WOMC4E3Oi1R_Pww2bwgcgjBHXPtLVw6LDuqRPCQD59uPIgMiROfag_mMC_SKcKYKYVAikzpJ6oYnjRkcnFi4B66B9Y83fys_jhQzyOVlkTCcM90uNfWb4acxqjJGTykkCUrSGaGvMQrLQ3RjD6z--IArySmun3-ow83n-ui54bze7Jk8PJ1YnYGQ7l05SGRaM1b4XoHyegp7VcrMr_AjcskO-Ql0KMQil4IyHa1r9mmErksxARyIfO04TERDN7p1ZzOjLnfAn-P0QKSolDKFdvWSsEZWXzAuQfg55ZVos2-GHYKl7mqKF0v8u3RSoVnxYXkscFzVcGMA0YDooL7tQlZDYcBbb-EJHPXkIMSqaZ5PtoZPMH9z6kq6QcB-L_glmySdgUC4TE1AvPVlx3Kbn8Fp_qYt66DKg88ZMzreD87kgjOeTkhzwcdC3Sq2TykffWu3InKRfTBXoQVeCWeXoluk0d4OwPWuZOa0Gv26eQu3LpprAi2H9q1DpNMn_MdC1Lrm8_7_1PbQZJ2zL617g3TZzc-pJGiadbjk2Z34R5Bu3hR0BQQV6oXSEAnV0cu1BVw-vE_fKPcnXWDJz3mcNXFgxh3qB1iKCEbDCVSq-rrTeU4WTcoHF_cFKUkmPuAwYaIanoV3zqZaSiSXTgoSk1x8Vs7rTHkWmMMz_pItwAq6_BsxQVKOavQ4ZGYaFMWcjNQ02OolmJfoAKffsUHAWVOrJ4Qw9k9GsO6jpcg_H6KrZgtBC0K53K6SGEGsIfDWNbMdZwfB7c64TyJiFbTkY2fcCycKbWLiCXlUnuBe7ZmXIo86JSuSAAbaw7Ngf3hSbGKo4W8Caq18G-D_ysD_0QQov5J0g1DT4nqO7BwdRxQwBCtjYEuCIgZWaEBYAYgF_IMTp1-s55qRdc1TX30S0bOMoBVglm738-3XWBrIm3BbQwgGIlXoboL20IRJrZtRiSzZpI0xXJq7niwY-BpTHzgj-UPeiSrEAxhZFQ3yJWBNDWWVJc61hXmqpNPLHSbB7utb0YRc0LUfoI3-TUWAoZWUHccS-_TBDHU-j6umgjZpA9XZBgmeBaHX7UDYYK2uOIv7qL46TVM2KD0Qk8NkADQN_j6g3MYENHa9Q0PX856MvWYX45XdTeVEm2CX63SuHujpgXsYqBKRd1xUW3GHGNciYNiwsxivbYJEXv0hHvR7P6VQqlgJef-BYSDh00csun8QmLc4t2KYjzA1WpkECyqnb_JruIzqHMTbxbwHgqwRtC-JUInHpjVoht3sS4o-ZW3fW-K1Sln5dHFSLR-AgjXLtT1Azu0xYCb7yp5nBt-atmhdXnwBjos8uMu_IwCgpn8NEb7xoQKV84Y426-A_rKZBxZ_7cSz1OqhaE6boNPlB8gqGQ9xcwQAatA1KzNcdv4hngXH1h2hdeBiwZVA0t3vq2aueFgf5Awxs56ZMcHlpNfovYJ36sgkFoYiQhpxmmUek_rqrtWfC59W9v_I1lBlSNh2gsfPyeqF7x_UFJ16_masYLIQG29xz8I7Yf7nsDDJ7FhkcuUKZda8cfWgDuiWeJYsMcPjMmfI8G9v-r6x6UrVuCP-iEsTLVJckK2XetwT0UtIpPD1vcNBDTQ_euLRtFN61ChySTwWSp6zI9TMb0ounmxv85VesHB6fzIllhBUxDDuqLsPmTbXPjSXyWM8SmvdItk8BHWotiWoYEqZbUOoEE6khxv15hKY9p4LRgU5ONz6_c9qBitBB7nWPPL-B_T5PpLjZ2PYtdFyuIzslsGb5UCw_rLNjm-a75_O5Inqp3JQI_em-hoiue2QyabsUz-4CaGiWrMxW6T_COSD3Ij8Eow1TOjD6NRTyZySiYwvwhNnslmVdy07brtbQbRUw7LXyRaYO29hwxFEIEdjs4jRlagapoiGJ5kqMH4R8MBYAqB-f_wd3VTUCf5OwhoaHxb_Eag7ccmfFRGViGo8ThpcTC-m5uq-iCxOObqa87OxR0zOUHiCl6aE-7iev7gyGkXDUfy_MUl-V4n3k213ZErzOXWigSDq2MIpIKTQxu3MeJ1jWh142R9Y2gL_gSyjHZiIQHmtHLPAGWtL0Fz2Px34wCycKA4p7RjH6_z0Nl8pwVk2trEHUr391DWn52Yr_ZxPePjRiL-nb5pDHPhHRsHzV9A8Q0b0Uxa8rA-Ji59UeVajkQW3kysqcTuRYamfsAVKpJj3ejQRJk56iUrHDpm5DTDpuVOwwisrnJEMgKvk75OzNu7bS-P2ht8mw9fqkdAjUJ8ouNsW4_JH_IMA9pAZvPwAMPjmNX4SxHgsTSJ9yXOeEQR_o9RzYP31wLyPAWCiuPPJKABMKh3GiO9AAoV7KrNPctJY2CLxCWPwO4NhdEOYToqKsZLMuqE_ed1mbsGObKcdNTezKYER8ANtT69OYIlzvwo2_L4TGw_vzcrVfOdvyklob8o4vFtbusW9yAc8riuoVh953NW_XxEnpekPCswZOZ2t_cfLL5aQV247aITofNPhglnqqEYxFjQHHOfF-qUGMvlzkw==",
+    "status": null
+   },
+   {
+    "id": "rs_06267a78f6e11835006ac2d34105c087d1854d51b03a73a8db",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNnFeCUwcRBEswgIdR3s7SyE_Nxtw8ntPZl3rbKY-p-G-g4OPjYv9RNB2aHfoKyMzLanl-ElD6bvJ5I_WXjktS2KGy8vGaxZmiEocRdkd-YExjM63nvDogT04TeLb3Y_p1xq5sSTtXud5yj0O7rn7cU-gr1uoGl9qXaTgg7a2gq-cc64P6CwcBJf_hcaWEhuP5GVY0i_39Pq3SO9E9Bo-ArZwgRapJdJFr8G0M89mU91w2_T06X4yhW3i7ByNVcA7575bLchYqrp9J2040nV3qnpY34ghAhYfV16kLFmDS0oY-2tK6sBkHzy38txfwmFwUF8HwuDgrKy3zU5UwasNztsgPlfgZhEkUfLN3xiIuXAWWCr37xmPilNCP2Ux6ATZAg5UYGfvFgmG0_FCzlqsSoBBs1eReTG_mYQUUBX0GToI04Iz8NVMzXjcDld__UwTOQyp57HAYXtLz69FJh6UHrOPKQicPsfUbEDUfQEaH5glg0OFzu6bYvQdQIJvgBA6JwSMhWIyU-OwZ1thv8tTAbE12MCDGHzLhdSGxMD1kCA34vfJL3fr7NlpD9x4Kfjr50xE8m9U7FiDH0hKq7pJE6ITf-D8meVNzQG6Z3NSNdTWPiJOs1Kp67TmHjU01slHjHzw3jSAaIVdlTnoaj1G4EogCctk9kJhzY90Zd_ciG3zqBxpGXDAES90a6bfM-le1Zx8Cb5OYqjJKLKwwrJWJk0gSpFX4uCehKZkroENzX2RSIvhrRjZ543YWTCLYEu10D3i2sGyViusshDRQnOyYSNnfI6pmjrXb_PAqjMDDNFbURwmDFs-ApaoLE5pZ25ZHHjQAHTUmik3bFjWtCAd2lAs-HWCta4nDvL3qDzpD0jtdA79okQWLPtLCf4bNrDly7hr0qySWGweeR8F8c-eWtZK-QtAvPdo6cfTQAPpTs2HOgja3p2fNPG9BwPMBICIS0iGS4uGj0N9DR4VwfHa0CUzzZ7MHTbUt_a3Rq44qTRo3SCArp1LkOihLSpMh43PKwtGVG3UnMvEoAf6UuZWJ39s30qnB4ZQwOiKcMaibx3xCNC2F7cDSLeREmm3i_rNAdGQ_cTovTjtbuZZSm9V0p9LNXj5Dla71JVP4jtaa5yFGbMmgWDPTkEtKWMHvqoOxPLEdIJOu4lGdqyUZS6bqTVrx2LPBNXoy_YyXD2c-hAdclD7u0tQ_4qsHDcoRJgVS4uvFkq9JDAfKFX_PwcSRUHx6zYsMTq5ZKdzDK-aIAKGXJ39Dm4wUHyR0sLSSQk8yBatPgztchPOOu7AK8eEZKNRKXsDbQvvHpmxCg8XIGy4U9IZy6Za555DxlA3xCtPRoqca7d6TId9xz4tY6SqJIhalXls1GFlpU5cPKLfQ_S0U=",
+    "status": null
+   },
+   {
+    "id": "ws_06267a78f6e11835006ac2d341915887d1b6a81db20deb1750",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site:search.sunbiz.org \"AUDACY LICENSE, LLC\" \"Member\"",
+      "site:search.sunbiz.org \"AUDACY CAPITAL, LLC\" \"AUDACY, INC\"",
+      "Audacy \"2026\" \"CEO\" \"October\"",
+      "Audacy \"2026\" \"ownership\" \"September\""
+     ],
+     "query": "site:search.sunbiz.org \"AUDACY LICENSE, LLC\" \"Member\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-audacy-new-private-ownership-after-bankruptcy/"
+      },
+      {
+       "type": "url",
+       "url": "https://brandsownedby.com/companies/audacy/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Audacy%2C_Inc."
+      },
+      {
+       "type": "url",
+       "url": "https://house.mi.gov/LegislativelyDirectedSpendingItems?ItemId=514&handler=DownloadDocument"
+      },
+      {
+       "type": "url",
+       "url": "https://fintel.io/doc/sec-audacy-inc-1067837-ex101-2023-october-13-19643-9369"
+      },
+      {
+       "type": "url",
+       "url": "https://unvis.it/en.wikipedia.org/wiki/Audacy%2C_Inc."
+      },
+      {
+       "type": "url",
+       "url": "https://www.streetinsider.com/SEC%2BFilings/Form%2B%2B4%2B%2B%2B%2B%2B%2B%2B%2B%2B%2BAUDIOCODES%2BLTD%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2BFor%3A%2BSep%2B09%2B%2BFiled%2Bby%3A%2BSTERN%2BSTANLEY/27046323.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1554818/000168316826001587/auddia_i10k-123125.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001554818/000168316826006211/auddia_defm14a.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1554818/000168316826006478/auddia_i10q-063026.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.globenewswire.com/news-release/2026/08/12/3343513/0/en/auddia-files-definitive-proxy-statement-and-sets-shareholder-meeting-date-for-merger-vote.html"
+      },
+      {
+       "type": "url",
+       "url": "https://company-announcements.afr.com/asx/grv/99fe5654-effa-11eb-b4b6-2635f0e6e5a6.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Media_cross-ownership_in_the_United_States"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1067837/000119312524229306/d753507d8k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://radioink.com/2026/09/14/prx-coo-jason-saldanha-to-succeed-kerri-hoffman-as-ceo/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.mediafinance.org/assets/Board/Meeting-Materials/MFM%20Board%20of%20Directors%20Oct%201%202025-Sept%2030%202026%20-%20as%20of%201-20-26.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://radioink.com/2026/09/13/audacy-signs-smosh-for-podcast-sales-distribution-deal/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1099160/000119312526246395/annual_report_2026.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Executive_SearchFirms/comments/1vqz9ei/mgmt_changes_weekly_recap_week_ending_august_14/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/RecruitmentAgencies/comments/1vqzamw/mgmt_changes_weekly_recap_week_ending_august_14/"
+      },
+      {
+       "type": "url",
+       "url": "https://s206.q4cdn.com/293289095/files/doc_events/2026/UDR-2026-Proxy-Statement.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.smartdcc.co.uk/media/f0deknjm/dcc-business-plan-final-1-nov-2026-31-mar-2028-redacted-v2.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Executive_SearchFirms/comments/1vyegy6/mgmt_changes_weekly_recap_week_ending_august_21/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1wcm1hc/where_broadcast_tv_is_heading_data/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KNX-FM"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Executive_SearchFirms/comments/1vtkonp/mgmt_changes_daily_recap_august_19_2026/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Executive_SearchFirms/comments/1wh3556/mgmt_changes_weekly_recap_week_ending_september/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Executive_SearchFirms/comments/1w3ck8z/mgmt_changes_weekly_recap_week_ending_august_28/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Steve_Cahillane"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/AURstock/comments/1wc86s3/september_10_2026_daily_discussion_thread/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Music_Playlist_YT/comments/1wtguwd/09292026_music_industry_news_even_launches_studio/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/radio/comments/1glbsg8/americas_largest_radio_station_owner_iheartmedia/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Manoj_Bhargava"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WOCL"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/AURstock/comments/1wadrzk/september_08_2026_daily_discussion_thread/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Music_Playlist_YT/comments/1wu3x3e/daily_music_brief_september_30_2026_avex_expands/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_06267a78f6e11835006ac2d34b6ae487d18300c928c785281e",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNngyj3tvxnKIRhPoiKFLo9q9cy7EbNLp5hMcsYs4d4TGPI6ZnV-yw6jcUwWQfQLc9h6AwrLpbhyeFJL1CWplVkGWx6JpX4dPudbqkREbVCBJeEf5WpaxbTl28G18qbc3KVfbRJXVQIM12F8qGiQWaKPumDHV96uNngqpBg5WY9gJKy-QOa326pZZ80Vr_WSWMo0WTLZXuONL6GMSmA-Uw8NIQzoFJphYTmd_snOzXcNAaRKCc2ZPiJ2MWxmFQBqARngl2NCydTE6nyXs4L86_6DDvb8a49hOPYaCLX5LDie02IkbXXB3-ZaNdsS4-X8ZsQtHyeiX9YiMZU2fOMbG0VB9km42l6n_XsqXhkH715kKhX9nNmFkz7o2t4swU76_RjTmq6YrF56S5HHgCjdgF0DZ10Eo30xeXK-3wvpYqFtaJ1VQtnuof9fojAcKyYHDQNZYAzVVbnU2nBrUgvTvS9G6_hLT80Gj_4MrH0RVul_MNgYHbgal5p7bLti0LilFjRvpu8BNeeu5l6oJEnWRY50cwLlbxWOO6Ga95vDTHgY9Rq7BjQBq1mH4aG2BpnOoQpNtWuABHUporH9JJ5wyX2A1VwEim5l0M9AZfr0OCtw1wxxfcZb8hfjHoGk4s-LvUgJ7BRhEplNjDV33BF6--FuqncI1GTpN3GOdb9mMHdtAfVJtNsGUaIrjGhd1lrluo3KJIAboGc7pG_9wkB32HAQ6rwj-89a_JrTcznPjs6DSF3TMKLj6XzUi5b0abQkkQrD8XqujCHqmyqWIOr2XPlYHBY7UwLJ9Tgh-QgcZbKjn6Y7RxUoi9k09ExinyirYzCaqM3Pbv2wqcHiYKo6kyuVSi1aXGZeizqNfKhUFJyrcTv4hrDQe7p-jwqnJcPh6mIDNwktfVTpFyUExPiqb81_-gp77TQvLdY3fr7QDuXts4Uf8Q4aXSVB8zNedYgEceLPmjKI0WRd6uQx-W-Ux-lnw5yBDl5IAA0SPtr2c0BbyEIFoC44nyHgeo_j2XzOieQbH_71SMQoQVYTIoO1KUayQlJqt5h4CA3RwTdHBg-5_YcJv37qZL_0hk7_SytcYFvIKi_iXpw6ag6JsToi7zUvmMnvaCelHMGdyB7C78Ky-1GlhCN2OvSuWyI8cVvnI4GZylNh3zGB0OE2_5g3jGjI0kib8bJSoZHA2V3VHlcOK_Dpw52LtTG4NpQKlp5Lbu10fzMT39sSTY3Tvcao4n_U_WN-3nS555vahmOKD-hZCGqUY23fyN2iPhVdjLCmwVcDtRKsPFDVwgH8t3dxtt5HHVdRSuJumwlkErSILkqVr0-oZjf2O0aVQspdDixjqwEzt8bRv6TVNL0A9JvfhUFQInJ1whQ_wdXQ8-ibA53YBE2FuI6kVWmAcZpWbsaFtnsUO5ZrsJcadelfbjIVvmIUV17Afo_4HZe7Geg1cZDZXimx1yhSRoFumKAj8cKn_ipygw_Kn665GDwZrwc8qBqww==",
+    "status": null
+   },
+   {
+    "id": "ws_06267a78f6e11835006ac2d34ba4f487d1b1fb7cf6de05700e",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.sec.gov/Archives/edgar/data/1067837/000119312524229306/d753507dex101.htm"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "msg_06267a78f6e11835006ac2d34e222087d1be371169c4efbb45",
+    "content": [
+     {
+      "annotations": [],
+      "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Audacy License, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=b55d5c9f6cc24bd0b2a1c1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl\",\n        \"quote\": \"KFRC-FM Licensee Information\"\n      },\n      {\n        \"url\": \"https://www.fccinfo.com/CMDProFacLookup.php?order=3%7CD%7CA&sLicensee=Audacy+License%2C+LLC&tabSearchType=Licensee\",\n        \"quote\": \"Audacy License, LLC | KFRC-FM | 106.9 MHz\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [\n    {\n      \"child\": \"Audacy License, LLC\",\n      \"parent\": \"Audacy Operations, LLC\",\n      \"relation\": \"Wholly owned and directly controlled subsidiary; FCC 24-94, paragraph 5.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n          \"quote\": \"wholly own and directly control\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Audacy Operations, LLC\",\n      \"parent\": \"Audacy Capital, LLC\",\n      \"relation\": \"Wholly owned subsidiary. The FCC-approved structure is corroborated by the Florida corporate record, including its April 7, 2026 annual report.\",\n      \"citations\": [\n        {\n          \"url\": \"https://search.sunbiz.org/Inquiry/corporationsearch/SearchResultDetail?aggregateId=forl-m24000015904-54e4b1b2-de52-4548-9735-f5ee3127aebf&directionType=Initial&inquirytype=EntityName&listNameOrder=AUDACITYENTERPRISE+L210001836950&searchNameOrder=AUDACYOPERATIONS+M240000159040&searchTerm=AUDACITY+ENTERPRISE+LLC\",\n          \"quote\": \"Title Member\\nAUDACY CAPITAL LLC\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Audacy Capital, LLC\",\n      \"parent\": \"Audacy, Inc.\",\n      \"relation\": \"Wholly owned and directly controlled subsidiary; FCC 24-94, paragraph 5.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n          \"quote\": \"wholly own and directly control\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Audacy, Inc.\",\n      \"parent\": \"Laurel Tree Opportunities Corporation\",\n      \"relation\": \"Controlling voting shareholder under the completed 2024 reorganization. The FCC approved an expected holding of 57% or greater of Class A common stock; that is not a verified October 2026 percentage.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n          \"quote\": \"controlling, attributable interest\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Laurel Tree Opportunities Corporation\",\n      \"parent\": \"FPR Capital Holdings LLC\",\n      \"relation\": \"Sole voting shareholder. This is the voting-control link, not ownership of all economic equity.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n          \"quote\": \"sole voting shareholder\"\n        }\n      ]\n    },\n    {\n      \"child\": \"FPR Capital Holdings LLC\",\n      \"parent\": \"Fund for Policy Reform\",\n      \"relation\": \"Sole member and manager; holds 100% of FPR Capital's voting and equity interests.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n          \"quote\": \"sole member and manager\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\"Fund for Policy Reform\"],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1_Rcd.pdf\",\n        \"quote\": \"not-for-profit charitable trust\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"none\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://www.radioworld.com/wp-content/uploads/2024/03/Audacy_-_FCC_-_Long-Form_Comprehensive_Exhibit.pdf\",\n        \"quote\": \"no entity or individual possessing the right to appoint or remove any trustee\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Kelli Turner\",\n    \"role\": \"President and Chief Executive Officer\",\n    \"entity\": \"Audacy, Inc.\",\n    \"citations\": [\n      {\n        \"url\": \"https://audacyinc.com/leadership/\",\n        \"quote\": \"Kelli Turner\\n\\nPresident and Chief Executive Officer\"\n      },\n      {\n        \"url\": \"https://audacyinc.com/press/audacy-announces-executive-leadership-update/\",\n        \"quote\": \"Kelli Turner has agreed to take on the permanent President and CEO role\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"FCC approval of Audacy's bankruptcy-related license assignments and transfer of control. Adopted September 18, 2024; released September 30, 2024. Approval was distinct from consummation.\",\n      \"status\": \"approved\",\n      \"date\": \"2024-09-18\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/FCC-24-94A1.pdf\",\n          \"quote\": \"Adopted: September 18, 2024\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Audacy completed its financial restructuring and emerged from bankruptcy, replacing the former ownership structure with the reorganized creditor-owned structure.\",\n      \"status\": \"closed\",\n      \"date\": \"2024-09-30\",\n      \"citations\": [\n        {\n          \"url\": \"https://audacyinc.com/press/audacy-successfully-completes-financial-restructuring-emerges-as-a-growing-scaled-multi-platform-audio-leader-with-the-industrys-strongest-balance-sheet/\",\n          \"quote\": \"September 30, 2024\"\n        },\n        {\n          \"url\": \"https://audacyinc.com/press/audacy-successfully-completes-financial-restructuring-emerges-as-a-growing-scaled-multi-platform-audio-leader-with-the-industrys-strongest-balance-sheet/\",\n          \"quote\": \"successfully completed its financial restructuring\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"Answer as of October 4, 2026, using the latest evidence located. No later ownership-changing transaction was established. The chain shown is the FCC-approved voting-control chain, not an exhaustive list of minority or non-voting investors. The final FCC order eliminated the intervening Audacy Corp./Audacy, LLC entity contemplated in the original March 2024 exhibit, so it is not included. Fund for Policy Reform is governed by a self-perpetuating board rather than a documented individual controller; a Soros family member's trusteeship does not by itself establish personal or family control. Exact October 2026 share percentages and any separate day-to-day operating entity were not established. Kelli Turner's permanent CEO appointment was announced March 17, 2025, and Audacy's current leadership page continues to identify her as CEO.\"\n}",
+      "type": "output_text",
+      "logprobs": []
+     }
+    ],
+    "role": "assistant",
+    "status": "completed",
+    "type": "message",
+    "phase": "final_answer"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+   {
+    "type": "web_search",
+    "external_web_access": null,
+    "filters": null,
+    "search_context_size": "medium",
+    "user_location": {
+     "city": null,
+     "country": "US",
+     "region": null,
+     "timezone": null,
+     "type": "approximate"
+    },
+    "return_token_budget": "default",
+    "search_content_types": [
+     "text"
+    ]
+   }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1791152999.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "generate_summary": null,
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+   "format": {
+    "name": "ownership_answer",
+    "schema_": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "legal_owner",
+      "operator",
+      "chain",
+      "ultimate_parent",
+      "controlling_person",
+      "leader",
+      "transactions",
+      "uncertainty"
+     ],
+     "properties": {
+      "legal_owner": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "operator": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "same_as_owner",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "chain": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "child",
+         "parent",
+         "relation",
+         "citations"
+        ],
+        "properties": {
+         "child": {
+          "type": "string"
+         },
+         "parent": {
+          "type": "string"
+         },
+         "relation": {
+          "type": "string"
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "ultimate_parent": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "single",
+          "multiple",
+          "none",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "controlling_person": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "none",
+          "not_established",
+          "not_applicable"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "leader": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "name",
+        "role",
+        "entity",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "name": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "role": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "entity": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "transactions": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "description",
+         "status",
+         "date",
+         "citations"
+        ],
+        "properties": {
+         "description": {
+          "type": "string"
+         },
+         "status": {
+          "type": "string",
+          "enum": [
+           "announced",
+           "approved",
+           "closed",
+           "abandoned",
+           "unknown"
+          ]
+         },
+         "date": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "uncertainty": {
+       "type": "string"
+      }
+     }
+    },
+    "type": "json_schema",
+    "description": null,
+    "strict": true
+   },
+   "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 71387,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 5301
+   },
+   "output_tokens": 3536,
+   "output_tokens_details": {
+    "reasoning_tokens": 1793
+   },
+   "total_tokens": 74923
+  },
+  "user": null,
+  "billing": {
+   "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 6
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 71387,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 5301
+  },
+  "output_tokens": 3536,
+  "output_tokens_details": {
+   "reasoning_tokens": 1793
+  },
+  "total_tokens": 74923
+ },
+ "usd": 0.2480621,
+ "latency_s": 84.6,
+ "web_search": {
+  "tool_enabled": true,
+  "calls_executed": 8,
+  "actions": [
+   "search",
+   "search",
+   "search",
+   "open_page",
+   "search",
+   "search",
+   "search",
+   "open_page"
+  ],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "A",
+ "case": "kfrc",
+ "run": 2,
+ "saved": "2026-10-04T19:30:00-0300"
+}

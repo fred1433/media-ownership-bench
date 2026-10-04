@@ -1,0 +1,249 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Audacy License, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/fm-profile/KFRC-FM\",\n        \"quote\": \"Licensee: Audacy License, LLC\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [\n    {\n      \"child\": \"Audacy License, LLC\",\n      \"parent\": \"Audacy, Inc.\",\n      \"relation\": \"Reported corporate ownership of the station through the named licensee; direct ownership and any intermediate entities are not established.\",\n      \"citations\": [\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/KFRC-FM\",\n          \"quote\": \"| Owner | Audacy, Inc.(Audacy License, LLC) |\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": \"Audacy, Inc.\",\n    \"citations\": []\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"The dossier identifies Audacy License, LLC as the FCC licensee and reports Audacy, Inc. as the corporate owner, but does not document the complete legal ownership chain, ownership above Audacy, Inc., a controlling person, or Audacy, Inc.'s current CEO. The undated FCC facility-details entry uses 'Audacy License, LLC, as Debtor-in-Possession'; the dossier does not resolve whether that designation remains current on 2026-10-04. Laura Berman is identified only as a vice president, not CEO. Historical owners and sales do not establish current ownership. No contemporary ownership transaction is established, and the undated evidence does not independently verify continuity through the requested date.\"\n}",
+ "usage": {
+  "input_tokens": 2353,
+  "input_tokens_details": {
+   "cache_write_tokens": 2350,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1239,
+  "output_tokens_details": {
+   "reasoning_tokens": 761
+  },
+  "total_tokens": 3592
+ },
+ "usd": 0.017096,
+ "latency_s": 37.0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false,
+  "exa_queries": 7
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "dossier": "Question (as of 2026-10-04): As of 2026-10-04, who is the current FCC licensee or legal owner of KFRC-FM San Francisco (facility 20897), what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current chief executive officer of Audacy, Inc.?\nOutlet: KFRC-FM (106.9 FM) (fm, San Francisco, CA, call sign KFRC-FM).\nLeader definition for this question: current chief executive officer of Audacy, Inc.\n\nEvidence dossier (claims extracted from retrieved documents; cite the URL and quote):\n- Audacy License, LLC | licensee_of | KFRC-FM | date: None | https://publicfiles.fcc.gov/fm-profile/KFRC-FM | \"Licensee: Audacy License, LLC\"\n- Audacy License, LLC, as Debtor-in-Possession | licensee_of | KFRC-FM | date: None | https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=20897 | \"#### Licensee\nName:Audacy License, LLC, as Debtor-in-Possession\"\n- Laura Berman | other_officer_of | Audacy, Inc., as Debtor-in-Possession | date: None | https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=20897 | \"Name:Laura BermanTitle:Vice PresidentAddress:Audacy, Inc., as Debtor-in-Possession\"\n- Audacy License, LLC | licensee_of | KFRC-FM | date: None | https://publicfiles.fcc.gov/fm-profile/kfrc-fm | \"Licensee:\n: Audacy License, LLC\"\n- Audacy, Inc. | owns | KFRC-FM | date: None | https://en.wikipedia.org/wiki/KFRC-FM | \"| Owner | Audacy, Inc.(Audacy License, LLC) |\"\n- Franklin Mieuli | owns | KFRC-FM | date: December 10, 1959 | https://en.wikipedia.org/wiki/KFRC-FM | \"the station, owned by San Francisco businessman and future San Francisco/Golden State Warriors owner Franklin Mieuli, signed on at 106.9 MHz with the KPUP call letters.\"\n- Leon Crosby | acquisition_closed | KHIP (later KFRC-FM) | date: July 1, 1962 | https://en.wikipedia.org/wiki/KFRC-FM | \"Mieuli sold KHIP on July 1, 1962, to Leon Crosby, who had previously owned KHYD in Hayward.\"\n- Leon Crosby | owns | KFRC-FM | date: None | https://en.wikipedia.org/wiki/KFRC-FM | \"Under Crosby's ownership, the station began operating in multiplex stereo, and the call letters were changed to KMPX, for \"multiplex\", the following month.\"\n- Audacy License, LLC | licensee_of | KFRC-FM | date: None | https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=0f8fe57f480249d78f5dc1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl | \"KFRC-FM Licensee Information\n\nAudacy License, LLC\"\n- CBS Radio | owns | KFRC-FM (106.9 FM) | date: None | https://bayarearadio.org/station/kfrc-fm-99-7 | \"Owner CBS Radio moved the KFRC-FM call letters to 106.9 FM where it gave oldies another try.\"\n- CBS Radio | owns | KFRC-FM (106.9 FM) | date: None | https://bayarearadio.org/station/kfrc-fm-106-9 | \"when owner CBS Radio (later to become Entercom and then Audacy) killed off its failing Free FM format on KIFR at 106.9 FM\"\n- Entercom | renamed_from | CBS Radio | date: None | https://bayarearadio.org/station/kfrc-fm-106-9 | \"CBS Radio (later to become Entercom and then Audacy)\"\n- Audacy | renamed_from | Entercom | date: None | https://bayarearadio.org/station/kfrc-fm-106-9 | \"CBS Radio (later to become Entercom and then Audacy)\"\n- Audacy, Inc. | owns | KFRC-FM | date: None | https://reference.org/facts/kfrc-fm/le6xrV9o | \"Owner Audacy, Inc. (Audacy License, LLC)\"\n- Franklin Mieuli | owns | KFRC-FM | date: December 10, 1959 | https://reference.org/facts/kfrc-fm/le6xrV9o | \"the station, owned by San Francisco businessman and future San Francisco/Golden State Warriors owner Franklin Mieuli, signed on at 106.9 MHz with the KPUP call letters.\"\n- Leon Crosby | acquisition_closed | KHIP (later KFRC-FM) | date: July 1, 1962 | https://reference.org/facts/kfrc-fm/le6xrV9o | \"Mieuli sold KHIP on July 1, 1962, to Leon Crosby, who had previously owned KHYD in Hayward.\"\n- Leon Crosby | owns | KFRC-FM | date: None | https://reference.org/facts/kfrc-fm/le6xrV9o | \"Under Crosby's ownership, the station began operating in multiplex stereo, and the call letters were changed to KMPX, for \"multiplex\", the following month.\"\n- CBS | owns | KFRC-FM (106.9 FM) | date: None | https://www.sfgate.com/entertainment/article/KFRC-FM-drops-rock-for-all-news-format-3264974.php | \"The station's owner, CBS, will replace the format with a simulcast of KCBS (740 AM), the network's all-news San Francisco station.\"\n- CBS | acquisition_closed | KFRC | date: None | https://www.sfgate.com/entertainment/article/KFRC-FM-drops-rock-for-all-news-format-3264974.php | \"CBS, which bought KFRC from Infinity, dropped the classic-hits format in 2006 to make way for the dance music of Movin.\"\n- Doug Harvill | other_officer_of | KFRC-FM (106.9 FM) | date: None | https://www.sfgate.com/entertainment/article/KFRC-FM-drops-rock-for-all-news-format-3264974.php | \"The announcers have been given the chance to say farewell to their listeners, said Doug Harvill, the station's senior vice president and market manager.\"\n\nEvidence state checks: conflict: several owners named: ['audacy', 'audacy license', 'audacy license as debtor in possession', 'cbs', 'cbs radio', 'franklin mieuli', 'leon crosby']; missing: who owns audacy; missing: the leader named in the leader definition\nAnswer only from this dossier. Where it does not establish a field, mark it not_established.",
+ "claims": [
+  {
+   "doc": "D2",
+   "subject": "Audacy License, LLC",
+   "relation": "licensee_of",
+   "object": "KFRC-FM",
+   "quote": "Licensee: Audacy License, LLC",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/fm-profile/KFRC-FM"
+  },
+  {
+   "doc": "D3",
+   "subject": "Audacy License, LLC, as Debtor-in-Possession",
+   "relation": "licensee_of",
+   "object": "KFRC-FM",
+   "quote": "#### Licensee\nName:Audacy License, LLC, as Debtor-in-Possession",
+   "date_in_doc": null,
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=20897"
+  },
+  {
+   "doc": "D3",
+   "subject": "Laura Berman",
+   "relation": "other_officer_of",
+   "object": "Audacy, Inc., as Debtor-in-Possession",
+   "quote": "Name:Laura BermanTitle:Vice PresidentAddress:Audacy, Inc., as Debtor-in-Possession",
+   "date_in_doc": null,
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=20897"
+  },
+  {
+   "doc": "D4",
+   "subject": "Audacy License, LLC",
+   "relation": "licensee_of",
+   "object": "KFRC-FM",
+   "quote": "Licensee:\n: Audacy License, LLC",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/fm-profile/kfrc-fm"
+  },
+  {
+   "doc": "D5",
+   "subject": "Audacy, Inc.",
+   "relation": "owns",
+   "object": "KFRC-FM",
+   "quote": "| Owner | Audacy, Inc.(Audacy License, LLC) |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KFRC-FM"
+  },
+  {
+   "doc": "D5",
+   "subject": "Franklin Mieuli",
+   "relation": "owns",
+   "object": "KFRC-FM",
+   "quote": "the station, owned by San Francisco businessman and future San Francisco/Golden State Warriors owner Franklin Mieuli, signed on at 106.9 MHz with the KPUP call letters.",
+   "date_in_doc": "December 10, 1959",
+   "url": "https://en.wikipedia.org/wiki/KFRC-FM"
+  },
+  {
+   "doc": "D5",
+   "subject": "Leon Crosby",
+   "relation": "acquisition_closed",
+   "object": "KHIP (later KFRC-FM)",
+   "quote": "Mieuli sold KHIP on July 1, 1962, to Leon Crosby, who had previously owned KHYD in Hayward.",
+   "date_in_doc": "July 1, 1962",
+   "url": "https://en.wikipedia.org/wiki/KFRC-FM"
+  },
+  {
+   "doc": "D5",
+   "subject": "Leon Crosby",
+   "relation": "owns",
+   "object": "KFRC-FM",
+   "quote": "Under Crosby's ownership, the station began operating in multiplex stereo, and the call letters were changed to KMPX, for \"multiplex\", the following month.",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KFRC-FM"
+  },
+  {
+   "doc": "D6",
+   "subject": "Audacy License, LLC",
+   "relation": "licensee_of",
+   "object": "KFRC-FM",
+   "quote": "KFRC-FM Licensee Information\n\nAudacy License, LLC",
+   "date_in_doc": null,
+   "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=0f8fe57f480249d78f5dc1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+  },
+  {
+   "doc": "D7",
+   "subject": "CBS Radio",
+   "relation": "owns",
+   "object": "KFRC-FM (106.9 FM)",
+   "quote": "Owner CBS Radio moved the KFRC-FM call letters to 106.9 FM where it gave oldies another try.",
+   "date_in_doc": null,
+   "url": "https://bayarearadio.org/station/kfrc-fm-99-7"
+  },
+  {
+   "doc": "D8",
+   "subject": "CBS Radio",
+   "relation": "owns",
+   "object": "KFRC-FM (106.9 FM)",
+   "quote": "when owner CBS Radio (later to become Entercom and then Audacy) killed off its failing Free FM format on KIFR at 106.9 FM",
+   "date_in_doc": null,
+   "url": "https://bayarearadio.org/station/kfrc-fm-106-9"
+  },
+  {
+   "doc": "D8",
+   "subject": "Entercom",
+   "relation": "renamed_from",
+   "object": "CBS Radio",
+   "quote": "CBS Radio (later to become Entercom and then Audacy)",
+   "date_in_doc": null,
+   "url": "https://bayarearadio.org/station/kfrc-fm-106-9"
+  },
+  {
+   "doc": "D8",
+   "subject": "Audacy",
+   "relation": "renamed_from",
+   "object": "Entercom",
+   "quote": "CBS Radio (later to become Entercom and then Audacy)",
+   "date_in_doc": null,
+   "url": "https://bayarearadio.org/station/kfrc-fm-106-9"
+  },
+  {
+   "doc": "D10",
+   "subject": "Audacy, Inc.",
+   "relation": "owns",
+   "object": "KFRC-FM",
+   "quote": "Owner Audacy, Inc. (Audacy License, LLC)",
+   "date_in_doc": null,
+   "url": "https://reference.org/facts/kfrc-fm/le6xrV9o"
+  },
+  {
+   "doc": "D10",
+   "subject": "Franklin Mieuli",
+   "relation": "owns",
+   "object": "KFRC-FM",
+   "quote": "the station, owned by San Francisco businessman and future San Francisco/Golden State Warriors owner Franklin Mieuli, signed on at 106.9 MHz with the KPUP call letters.",
+   "date_in_doc": "December 10, 1959",
+   "url": "https://reference.org/facts/kfrc-fm/le6xrV9o"
+  },
+  {
+   "doc": "D10",
+   "subject": "Leon Crosby",
+   "relation": "acquisition_closed",
+   "object": "KHIP (later KFRC-FM)",
+   "quote": "Mieuli sold KHIP on July 1, 1962, to Leon Crosby, who had previously owned KHYD in Hayward.",
+   "date_in_doc": "July 1, 1962",
+   "url": "https://reference.org/facts/kfrc-fm/le6xrV9o"
+  },
+  {
+   "doc": "D10",
+   "subject": "Leon Crosby",
+   "relation": "owns",
+   "object": "KFRC-FM",
+   "quote": "Under Crosby's ownership, the station began operating in multiplex stereo, and the call letters were changed to KMPX, for \"multiplex\", the following month.",
+   "date_in_doc": null,
+   "url": "https://reference.org/facts/kfrc-fm/le6xrV9o"
+  },
+  {
+   "doc": "E1",
+   "subject": "CBS",
+   "relation": "owns",
+   "object": "KFRC-FM (106.9 FM)",
+   "quote": "The station's owner, CBS, will replace the format with a simulcast of KCBS (740 AM), the network's all-news San Francisco station.",
+   "date_in_doc": null,
+   "url": "https://www.sfgate.com/entertainment/article/KFRC-FM-drops-rock-for-all-news-format-3264974.php"
+  },
+  {
+   "doc": "E1",
+   "subject": "CBS",
+   "relation": "acquisition_closed",
+   "object": "KFRC",
+   "quote": "CBS, which bought KFRC from Infinity, dropped the classic-hits format in 2006 to make way for the dance music of Movin.",
+   "date_in_doc": null,
+   "url": "https://www.sfgate.com/entertainment/article/KFRC-FM-drops-rock-for-all-news-format-3264974.php"
+  },
+  {
+   "doc": "E1",
+   "subject": "Doug Harvill",
+   "relation": "other_officer_of",
+   "object": "KFRC-FM (106.9 FM)",
+   "quote": "The announcers have been given the chance to say farewell to their listeners, said Doug Harvill, the station's senior vice president and market manager.",
+   "date_in_doc": null,
+   "url": "https://www.sfgate.com/entertainment/article/KFRC-FM-drops-rock-for-all-news-format-3264974.php"
+  }
+ ],
+ "flags": [
+  [
+   "conflict",
+   "several owners named: ['audacy', 'audacy license', 'audacy license as debtor in possession', 'cbs', 'cbs radio', 'franklin mieuli', 'leon crosby']"
+  ],
+  [
+   "missing",
+   "who owns audacy"
+  ],
+  [
+   "missing",
+   "the leader named in the leader definition"
+  ]
+ ],
+ "steps": [
+  {
+   "step": "extract",
+   "usd": 0.0184519,
+   "latency_s": 31.0,
+   "model_returned": "gpt-6.1-sol"
+  },
+  {
+   "step": "extract_extra",
+   "usd": 0.0036888999999999997,
+   "latency_s": 9.5
+  },
+  {
+   "step": "solve",
+   "effort": "high",
+   "usd": 0.017096,
+   "latency_s": 37.0
+  }
+ ],
+ "usd_total": 0.0392368,
+ "latency_total_s": 77.5,
+ "escalated": true,
+ "extra_docs": 1,
+ "arm": "B2",
+ "case": "kfrc",
+ "run": 3,
+ "saved": "2026-10-04T19:56:18-0300"
+}

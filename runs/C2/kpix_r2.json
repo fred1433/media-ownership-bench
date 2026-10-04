@@ -1,0 +1,22 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"CBS Broadcasting Inc.\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/tv-profile/KPIX-TV\",\n        \"quote\": \"Licensee: CBS BROADCASTING INC.\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": null,\n    \"citations\": []\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"FCC records establish CBS Broadcasting Inc. as the licensee of KPIX-TV. While the dossier mentions CBS as the owner of the station and Paramount as CBS's parent company, the precise ownership chain from licensee CBS Broadcasting Inc. upward to an ultimate parent is not documented. Additionally, the dossier contains no information regarding Paramount Skydance Corporation, its chief executive officer, or any controlling person.\"\n}",
+ "usage": {
+  "candidates_token_count": 336,
+  "prompt_token_count": 3003,
+  "thoughts_token_count": 7331,
+  "total_token_count": 10670
+ },
+ "usd": 0.0310035,
+ "latency_s": 31.0,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C2",
+ "case": "kpix",
+ "run": 2,
+ "saved": "2026-10-04T19:54:02-0300"
+}

@@ -1,0 +1,22 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"CBS Broadcasting Inc.\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/tv-profile/KPIX-TV\",\n        \"quote\": \"Licensee: CBS BROADCASTING INC.\"\n      },\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=25452\",\n        \"quote\": \"Name: CBS BROADCASTING INC.\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [\n    {\n      \"child\": \"CBS\",\n      \"parent\": \"Paramount\",\n      \"relation\": \"parent company\",\n      \"citations\": [\n        {\n          \"url\": \"https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/\",\n          \"quote\": \"CBS parent company Paramount\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\n      \"Paramount\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/\",\n        \"quote\": \"CBS parent company Paramount\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": null,\n    \"citations\": []\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"The dossier confirms CBS Broadcasting Inc. as the FCC licensee and establishes Paramount as CBS's parent company. However, the dossier does not provide evidence establishing a controlling person, nor does it contain information about Paramount Skydance Corporation or its chief executive officer.\"\n}",
+ "usage": {
+  "candidates_token_count": 551,
+  "prompt_token_count": 3486,
+  "thoughts_token_count": 6092,
+  "total_token_count": 10129
+ },
+ "usd": 0.027525749999999998,
+ "latency_s": 22.5,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C",
+ "case": "kpix",
+ "run": 2,
+ "saved": "2026-10-04T19:31:39-0300"
+}

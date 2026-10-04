@@ -1,0 +1,847 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"WP Company LLC (doing business as The Washington Post)\"],\n    \"citations\": [\n      {\n        \"url\": \"https://whca.press/wp-content/uploads/2025/10/2025.10.06-AMICUS-FOR-APPELLEE-BRIEF-2139056-filed-by-Reporters-Committee-for.pdf\",\n        \"quote\": \"WP Company LLC d/b/a The Washington Post is a wholly-owned subsidiary of Nash Holdings LLC\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"WP Company LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.washingtonpost.com/terms-of-service/?itid=mr_information_1\",\n        \"quote\": \"These terms are a legal contract between you and WP Company LLC (\u201cThe Washington Post,\u201d \u201cwe\u201d or \u201cus\u201d)\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"WP Company LLC\",\n      \"parent\": \"Nash Holdings LLC\",\n      \"relation\": \"Wholly owned subsidiary\",\n      \"citations\": [\n        {\n          \"url\": \"https://whca.press/wp-content/uploads/2025/10/2025.10.06-AMICUS-FOR-APPELLEE-BRIEF-2139056-filed-by-Reporters-Committee-for.pdf\",\n          \"quote\": \"WP Company LLC d/b/a The Washington Post is a wholly-owned subsidiary of Nash Holdings LLC\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\"Nash Holdings LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://whca.press/wp-content/uploads/2025/10/2025.10.06-AMICUS-FOR-APPELLEE-BRIEF-2139056-filed-by-Reporters-Committee-for.pdf\",\n        \"quote\": \"Nash Holdings LLC, a holding company owned by Jeffrey P. Bezos.\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"established\",\n    \"names\": [\"Jeffrey P. Bezos (Jeff Bezos)\"],\n    \"citations\": [\n      {\n        \"url\": \"https://whca.press/wp-content/uploads/2025/10/2025.10.06-AMICUS-FOR-APPELLEE-BRIEF-2139056-filed-by-Reporters-Committee-for.pdf\",\n        \"quote\": \"Nash Holdings LLC, a holding company owned by Jeffrey P. Bezos.\"\n      },\n      {\n        \"url\": \"https://corporate.washingtonpost.com/about\",\n        \"quote\": \"The Washington Post is owned by Jeff Bezos, executive chairman of Amazon.\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Jeff D\u2019Onofrio\",\n    \"role\": \"Publisher and Chief Executive Officer\",\n    \"entity\": \"The Washington Post\",\n    \"citations\": [\n      {\n        \"url\": \"https://www.washingtonpost.com/business/2026/09/09/interim-washington-post-publisher-jeff-donofrio-serve-permanent-capacity/\",\n        \"quote\": \"Jeff D\u2019Onofrio was named publisher and CEO of The Washington Post on Wednesday following a seven-month stint serving in an interim capacity.\"\n      },\n      {\n        \"url\": \"https://corporate.washingtonpost.com/about\",\n        \"quote\": \"Jeff D\u2019Onofrio\\nPublisher & CEO\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Agreement announced for Nash Holdings LLC to acquire the publishing subsidiaries, including WP Company LLC, from The Washington Post Company.\",\n      \"status\": \"announced\",\n      \"date\": \"2013-08-05\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.ghco.com/static-files/fa88319a-6162-4466-8d86-af13a725cdf9\",\n          \"quote\": \"On August 5, 2013, after approval by the Company\u2019s Board of Directors on the same day, the Company announced\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Nash Holdings LLC completed the $250 million acquisition of the publishing subsidiaries, including WP Company LLC.\",\n      \"status\": \"closed\",\n      \"date\": \"2013-10-01\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.ghco.com/static-files/fa88319a-6162-4466-8d86-af13a725cdf9\",\n          \"quote\": \"On October 1, 2013, the Company entered into a Purchase Agreement and completed the sale.\"\n        },\n        {\n          \"url\": \"https://www.ghco.com/static-files/fa88319a-6162-4466-8d86-af13a725cdf9\",\n          \"quote\": \"the Purchaser acquired all the issued and outstanding equity securities of each of the entities that comprise the Publishing Subsidiaries for $250 million\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of October 4, 2026, the documented corporate chain is WP Company LLC \u2192 Nash Holdings LLC, with Jeff Bezos as the natural-person owner and controller. Amazon is not identified as an ownership-chain entity. The detailed corporate relationship is supported by an October 6, 2025 court disclosure and corroborated by current company ownership information. D\u2019Onofrio became permanent publisher and CEO on September 9, 2026; describing him as merely acting or interim would be outdated.\"\n}",
+ "raw": {
+  "id": "resp_0c0bc662db187b24006ac2d313e5ac87d1933657a1f79c0715",
+  "access_programs": null,
+  "created_at": 1791152915.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": "You are a media ownership researcher. Today's date is 2026-10-04; answer as of that date, not as of your training data.\nFields:\n- legal_owner: the entity that legally holds the outlet (for a broadcast station, the FCC licensee).\n- operator: the entity that runs it day to day if different (for example under a shared services or joint sales agreement); otherwise status same_as_owner.\n- chain: each ownership link from the legal owner upward, one link per item, each with its own citation.\n- ultimate_parent: the top of the chain. It may be several entities (joint venture), none (a nonprofit with no owner), or not_established.\n- controlling_person: a natural person or family that controls the ultimate parent, if documented.\n- leader: only the person matching the leader definition given in the question.\n- transactions: deals affecting ownership; keep announced, approved and closed apart.\nRules: every established field must cite at least one source URL with a short verbatim quote copied from that source that supports it. If the evidence does not establish a field, mark it not_established rather than guessing. A name appearing in a filing is not by itself an owner or officer.\nUse web search to find current evidence.",
+  "metadata": {},
+  "model": "gpt-6.1-sol",
+  "object": "response",
+  "output": [
+   {
+    "id": "ws_0c0bc662db187b24006ac2d315669887d1a0153acd942e4029",
+    "action": {
+     "type": "search",
+     "queries": [
+      "Washington Post publisher CEO October 2026 Jeff D'Onofrio Nash Holdings owner",
+      "Washington Post legal owner WP Company LLC Nash Holdings LLC ownership"
+     ],
+     "query": "Washington Post publisher CEO October 2026 Jeff D'Onofrio Nash Holdings owner",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.washingtonpost.com/business/2026/09/09/interim-washington-post-publisher-jeff-donofrio-serve-permanent-capacity/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.washingtonpost.com/news/wonk/wp/2013/08/06/jeff-bezos-is-buying-the-washington-post-heres-what-you-need-to-know-about-the-sale/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sej.org/sites/default/files/MachadoAmadisAmicus08062019.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.rcfp.org/wp-content/uploads/imported/2014-05-08-adelson.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://champsignal.com/ownership/washingtonpost.com"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/The_Washington_Post"
+      },
+      {
+       "type": "url",
+       "url": "https://company.washingtonpost.com/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/104889/000095015713000428/form8k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/104889/000010488913000040/dex21.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/form8k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://presnellonprivileges.com/wp-content/uploads/2020/12/First-Amended-Complaint.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://dockets.justia.com/docket/district-of-columbia/dcdce/1%3A2026cv01937/293032"
+      },
+      {
+       "type": "url",
+       "url": "https://gptkb.org/entity/E82155/"
+      },
+      {
+       "type": "url",
+       "url": "https://gen-us.space/bias/washington-post"
+      },
+      {
+       "type": "url",
+       "url": "https://corporate.washingtonpost.com/about"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex2-1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.ghco.com/static-files/fa88319a-6162-4466-8d86-af13a725cdf9"
+      },
+      {
+       "type": "url",
+       "url": "https://www.ghco.com/static-files/6411ac49-fbc3-45a5-948b-39db99c8397d"
+      },
+      {
+       "type": "url",
+       "url": "https://www.ghco.com/static-files/f79b4a76-7983-4c8b-b1ee-24808cad9dd0"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Graham_Holdings"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Media_cross-ownership_in_the_United_States"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Jeff_D%27Onofrio"
+      },
+      {
+       "type": "url",
+       "url": "https://de.wikipedia.org/wiki/The_Washington_Post"
+      },
+      {
+       "type": "url",
+       "url": "https://es.wikipedia.org/wiki/The_Washington_Post"
+      },
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/c8559f5e1d9f4d73f37163e4a708f9da"
+      },
+      {
+       "type": "url",
+       "url": "https://www.axios.com/2026/02/07/washington-post-new-publisher-ceo"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0c0bc662db187b24006ac2d318f04c87d198f830ec463d7f37",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtM1tslbNQ-n4kM9gCTvxMWs2u2SzheNPs0o_OiVmjtefS4GzhOzaC3pPGtdN7OPNdDkLBlMJ12naPCZY5tWA0qv9oST1I1yHCxTn9pzwhpYfLk0Q9nKGB2V2pFXi_iAhfEqHOSKIxYn8m42B1MSc-GVZlu78lGvEDJNGRg9deM86YbBdbSyTp9z_CW7tAVZlp5CMRT4eCJFyLQTK0kUamZUN_cVNonrikYojEMNBKxWOpMv9yBiEg9dgThf-Nrl-nNqZXo8dPbJjDUTpViRyDH4MBopuMKRLIcWw2gHRVd9I1mCneX9bH0mjnx_ul_GPEfl9RcUFk5l56EqCV7RrVTRz4TmH7c21Ju7gJLGoi1Jd6YQkXAA5JAhyDZnHz5knyMIO7_TLlHYn6SB7goLYrCWCqLECB6fa4it0gXynWzS06myUzwC1oJcourBOJZp4p5_mMCINxbvc54xUYquj3NAosDqCLpyKAIcRS278ee6M-KDRaLFPdyTwuUjJEUEOBp6ao7Mmgez0Bb3h-fwdOjMj6q3y9NEQZzbrcxwA0g-EDAozp4VfEUQIRlHZVUlKLEnvTzzlMrGDbul4an1sIxuYRDLz6PU31jiAaLTAHWsE1JJjLkGv0TFYNyhuYEqPaD0wDHxF_qbE7Wn1QQJQ_n-0riGcsSMhEiJ_8cB64S3blE28GQgTU0gYuYvYM6yzcG7bQ05XIFVZjrQ601SfnME_i8Xi4iISzzqNTMbRtsBXAYU9Bx6FxUPDS6LUotscASYji40LGTrCO-TMah_Qy9Aqkpes1L6Ufs9q06fjCkikZHDpWl_NjtDcokJabk2dCuf8yfYW0yOLLFqQ67oDCS3TTcAGv4gpB6f5JVI1dk6WRg-il7si5wmIxbMcHdQ-zAfyo4CMBHZX4evmutCgSWmyhYkw2BqKh89mDLWz0ziIxxKNsY5yhj1EIkrmWPzCwRuHm7q3kATNgYcr6YTDaO3FUxiP60asfSsDSJ1l3-mWEDgtYQ66GEobI45Y5OpMQUNUh7ZAEPNXi_vsW74Jzd_N8QdwD8-g8fry0kXctWx9rh1Ogi_MdCE5dBf_p6E-kDuc9y5ggjFYDcdSEe8vYRHwXBNPq2sAGXEvYIBFhTC2dk3Dgvbbz9XI1b5a-mD0eGUp4r5lyZKO-vX0tuKlB95FDuJgfDLuRD7rdlEnitBUOomu-ySo9QfIdKkH82JDpaS",
+    "status": null
+   },
+   {
+    "id": "ws_0c0bc662db187b24006ac2d319167087d184d1e566c922cb6d",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.rcfp.org \"WP Company LLC\" \"Nash\" \"2026\"",
+      "site.washingtonpost.com \"WP Company LLC\" \"operated\"",
+      "\"Washington Post\" \"October 1, 2013\" \"completed\" \"Nash\"",
+      "\"WP Company LLC\" \"Nash Holdings\" \"2025\""
+     ],
+     "query": "site.rcfp.org \"WP Company LLC\" \"Nash\" \"2026\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html"
+      },
+      {
+       "type": "url",
+       "url": "https://champsignal.com/ownership/washingtonpost.com"
+      },
+      {
+       "type": "url",
+       "url": "https://www.newsmediaalliance.org/wp-content/uploads/2025/06/5.28.25-CNS-v.-Omundson-Amicus-Brief-as-Filed.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.ghco.com/static-files/f79b4a76-7983-4c8b-b1ee-24808cad9dd0"
+      },
+      {
+       "type": "url",
+       "url": "https://whca.press/wp-content/uploads/2025/10/2025.10.06-AMICUS-FOR-APPELLEE-BRIEF-2139056-filed-by-Reporters-Committee-for.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.calstrs.com/files/c6a38a996/FY%2B25-26%2BQ1%2BContract%2BActivity%2BReport.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://fliphtml5.com/ghjmq/hfec/"
+      },
+      {
+       "type": "url",
+       "url": "https://dockets.justia.com/docket/new-york/nysdce/1%3A2026cv04058/664154"
+      },
+      {
+       "type": "url",
+       "url": "https://www.ghco.com/static-files/fa88319a-6162-4466-8d86-af13a725cdf9"
+      },
+      {
+       "type": "url",
+       "url": "https://www.rcfp.org/wp-content/uploads/2025/03/2025-03-24-RCFP-amicus-brief-in-Gopher-Media-v.-Melone.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://dockets.justia.com/docket/georgia/gandce/1%3A2026cv02777/359862"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/graham-holdings-company-591/contract/538053/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.marketscreener.com/quote/stock/GRAHAM-HOLDINGS-COMPANY-15077636/news/Nash-Holdings-LLC-completed-the-acquisition-of-six-publishing-subsidiaries-from-The-Washington-Post-38933899/"
+      },
+      {
+       "type": "url",
+       "url": "https://levantado.ddns.net/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Washington_Post.html"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Graham_Holdings"
+      },
+      {
+       "type": "url",
+       "url": "https://www.scribd.com/document/939204047/The-Washington-Post-October-05-2025"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/The_Gazette_%28Maryland%29"
+      },
+      {
+       "type": "url",
+       "url": "https://bulkemailchecker.com/verify/domain/washingtonpost.com/"
+      },
+      {
+       "type": "url",
+       "url": "https://ipfs.ssi.eecc.de/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/The_Washington_Post_Company.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nlrb.gov/reports/graphs-data/recent-election-results/date_issued/desc/100?page=23"
+      },
+      {
+       "type": "url",
+       "url": "https://corporate.washingtonpost.com/about"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0c0bc662db187b24006ac2d31d600087d19dc584c3711e1792",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtM1HY-VNrgWXtxKji8TeMebHBiOkBIuk6-dn5rq_VPpsXzDokAVUFi1RUSp_-RG9fa2JRfRzV7yB0nFhfaVqQ82gkAijanK6lt9GquSjNF8eIRP2ga8Z7ZB9jh7TGxAI-cJHUQPZ5T7Qh8hxf1qvBCusGGnwUbwQQPmX6B60vlWaWpQ6uQESn4exOZuUzvnHF-loUwiRR6K3x3kPRkHxDei_yZTKW6A5lJPs4CamhFfjX0N0ypf9IBe_bVDgbPH24wRPLLtXVs8x4gfnmNnRQbcEwTXWXNN11xHxv3Ax4lNg-sJL85FJlXx-WaSoep7l-iftbFbxLIGFRPVF8yl-Q6kSTezRRQYekiAxl3QgIQzbadUufnDXc2NXaXXaixmNmj3_1m4olAGfEwyFKc5qSxMdB739VWp2dFjJmE2xFi3Pg3rx4qrGULSsk0c2eNz_F7qS9GHyWAyKUDslP1oUmLfdjVmLzprvjL7pVZBAkrggFD3hz_HbQi0hSmP1svgoqEzi9SYsWHXYQv1eau2CzPV6YKOMSW5sndf7Kv7xwKtanZZC_M6vR8snzR1zh9P-ObQRhtwg_agpQkuA2nEjdiRduT4tKLQkaILA8PEKSI-_lEaI-DT9OHckc8gMNj39k3otLJYSvsbEAXJf6BgkTb-3I5CYyKfZOLKkkzIiGFDpTifVQaZ89E9otZzbw1RJBpnJPsy7n9CgBEUKSWGcGoaWa9HZxdQ9qqwZXFrmcWWSbfTD518mqYKPOgr0Kkafrqc1EJjVbciEu37aSYrZ7jid_jykBssHwugxNCMja3tP_yCAPAn1C_DQuyr7RViV317Bjy-hwxxIQxCAQlsQp12w5MV-ho4H60MAYqD-bMX99v8hHf9IJDrJVsMqdRM1HuFwdOlfy--ytTBut2UFwqpiO2WJg2-O2izukeixlu6x7gbGwT5FU-aaKIBHvC4XKTVAkIC3hqfBhZ1--mMoA6RbIksIub78tzfpT932uLf1NTv_sWeh1TmSIuBv7frtqNqTgX_UPhyoNAxCufysJYX3phqDoQiwXnCU034TLN57DstrPVTg87DlsaJYaa3sm6UUGI2HOn610L55cBk_qNEzIXpEUG3_ywRJO4traseEKFElhgZlrLuf-syIM1KU-OM8kQi9BWScFsWB-Gups9GuuCs1fm0eR-FncxBQ_E2aXuNTIfuvUzFgVALeVPIGqb4SbV8sEl-znX2r-HujApa73ycRWPA7IsH_z38wIFxtcCW35cAntyRGxZFTybB2_OK8sWx6AyYm6tFtDWy5VsrkA==",
+    "status": null
+   },
+   {
+    "id": "ws_0c0bc662db187b24006ac2d31db70487d18112e4e2385aece8",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.washingtonpost.com \"published by WP Company LLC\"",
+      "site.washingtonpost.com \"WP Company LLC\" \"Terms\"",
+      "site.rcfp.org \"2026\" \"a holding company owned by Jeffrey\""
+     ],
+     "query": "site.washingtonpost.com \"published by WP Company LLC\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://whca.press/wp-content/uploads/2025/10/2025.10.06-AMICUS-FOR-APPELLEE-BRIEF-2139056-filed-by-Reporters-Committee-for.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.washingtonpost.com/terms-of-service/?itid=mr_information_1"
+      },
+      {
+       "type": "url",
+       "url": "https://www.washingtonpost.com/news/volokh-conspiracy/wp-content/uploads/sites/14/2017/08/wpsubpoena.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://wpintelligence.washingtonpost.com/topics/general/terms-conditions/"
+      },
+      {
+       "type": "url",
+       "url": "https://fliphtml5.com/ghjmq/hfec/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.supremecourt.gov/opinions/URLs_Cited/OT2016/15-1194/15-1194-8.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://obamawhitehouse.archives.gov/sites/default/files/rss_viewer/Murray_Pledge_Waiver.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://contra-costa.legistar.com/LegislationDetail.aspx?GUID=68BAEF91-242B-4CE1-9926-BAD65A5A4AD9&ID=7977694&Options=&Search="
+      },
+      {
+       "type": "url",
+       "url": "https://law.justia.com/cases/federal/district-courts/california/candce/3%3A2023cv05963/421040/22/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.lva.virginia.gov/sites/default/files/2026-03/TheWashingtonPostVPAT_082924.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.washingtonpost.com/local/terms-and-conditions-of-the-washington-post-kids-room-contest/2011/08/10/gIQAo2i46I_story.html"
+      },
+      {
+       "type": "url",
+       "url": "https://truthinadvertising.org/wp-content/uploads/2022/01/Jordan-v-WP-Co-settlement-agreement.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.ghco.com/static-files/271769e6-4e9c-49e9-a6fc-adf3195c80fa"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/mcclatchy-co-1811/contract/395677/"
+      },
+      {
+       "type": "url",
+       "url": "https://dockets.justia.com/docket/new-york/nysdce/1%3A2026cv04058/664154"
+      },
+      {
+       "type": "url",
+       "url": "https://www.arcxp.com/privacy/"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/graham-holdings-company-591/contract/1077645/"
+      },
+      {
+       "type": "url",
+       "url": "https://bizcontracts.clubjuris.com/washington-post/nash-spa-2013-08-05.php"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/104889/000119312509038899/d10k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.washingtonpost.com/business/2026/09/09/interim-washington-post-publisher-jeff-donofrio-serve-permanent-capacity/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.ghco.com/static-files/f79b4a76-7983-4c8b-b1ee-24808cad9dd0"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0c0bc662db187b24006ac2d320eb3887d19eb83b360ca7f714",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtM1fFbpRMehhTaK2UAZ-C2UzkGOKuxFt7JFcwO8cgeX56bvNqFC9h1Y3chBSeEfGIOp_48hMAjR66-RvD9rzF5zHbuDbdBZu8ITCnJPWmyNIly2GHVcdiLymja4YnMOOr-r5W2dFy5O-xRRsTV3A49xMskbUqzWcQWID65pibZGUKliq9p5c5qWYcX6XOzBxTZtFGAcio4Of1SQb9aPQj9z_epvN2aXlD0dP-SKytrsnfPWtyLm5lflaJqu8xKrce7HxtOtKZzOShbXeiIMs5xzGtozfHwHgDuh4McynGuYgk9Uw1jScZ0oWgHMaVLSWiJ1CQ_zKSZFxi11dqhtVwmvGKYjNd9kLHlq1YpQn80GGtkLb81zHgMIb8YrdRwF1jU2TyDTYNyT2SnUDFA-NNi1RK_mqi69Rrhkq6RY-y7ZTXF-8ZoV4WhDgixGxiFpnzQLZgnvFaHfOR1qkfP3ReKXS3UvOspCrIUok53PRHUmVGAnvuztJQbmFuSspHZRDQBsDdhInPbzaQ4cXfE8UlQ88uoZj0EfGaoOG6NkygeV9DNYWwMBKy5pvt4UYuMvZZSBTSIGg9tCEJom71q0bsmG3YrCfhZ-Nvolr6ATnvxKipauLLVUsHHTtrR4eH4Wq-ju39bvVXOjpOFZjCIYEgpPyjbN8LuJN2CyKJBjsS1GY5RCtSflZlr1EMczxn87BsOtY9QkMAN1cEQ4nP5gEzY3P9L0oR5RrkLWEVVZ8gERcdZuj6eAGIDbrpjVcriV7l2QwLwCKccnf1Yu9GHHr_bmTKMtCuaCsy_GwKSYThcVPB00BLc3ftJh_5A-I9Bmhe7_LnUjccIZ6n_LU89ktqI0a6WwfmaAgFmSqh5yeXpFlRWmrhSSiSGbG2d8X9Nd5Tb4r7eTEJYzJJPveM8QAk7mLhNpmXaY4ckoZI2H9YROb_32n9mdFG2khpxY0_9wIdFY0aYRCNKQWBNY_cVXDq0NenlgJ7r-ALwC2eZL6ksABF_yiIC1GYCfi4RClptpwZ-4AMleZ4Qv8Ns5bFKRaFtpIiiIUwGvhhtduJ-azLq9N5En8Ml0vc_cnhkyu0nDExgVAPk_l1CtVULqKJYHwk6xaHLWPCMUPt3Jd8K7B1_Ct9vZ3w1-ogWE0Ybu-fIuEZ7Kh34VX4oeeNyb3pGxjjZ1mZ3Wq2hCE7ef6SGzpdesWMAL41Fk7FlsZfgLifdiSnYIpju9jf6ZXfTq8yOEUDXsdbZ1hyo-MV3A5amwLPbV7gwZCxwq6guPef1RQ-WCZNKKuTiIGTTTe2GObiPCwSeIfGjPjt0_n-OXnWgZLVK5B_RVrxcrgsTnQvniDKG2dfUU--qDdXQ0rHnV7F7Xj51waWd784hSCv_4mitg-HXw446AbepAZu0nGQ7njfmqvGvHGFirnhynEqco6QkX5u1DSHNbF8Eck_ST_nsC0Kr2xqFZqj9Yq36PXjMl-vpArapO9oiyNEx-_ftH6rl-zmt8L-KXUuTJd-OlLZ6bLeNspcMmo2iOXMMi4BAAHl1_Se9zSKWkamGb5VKazK4dC7ZfI3nWYnusGl33fmEUq_x5DgrhXocRlhorHUMjTyrI_dQ069LkIbJzUOeBXDSCuhOS2EVqqv1XOCpBqn5OZH6K7m8QI-MeqcSPc6tvGi3vf10IwsJxXvvxtrT-3OWiTu2_3-1LYd7vmGsbK0sLfu-pUXQJfvzc2ymq9XsGpH6jn5t5ORnlnK3NfACeXH67jEgXHeWN5Oi49J42o7g7Rh3TRvMbSiXq_blExEow62MUrs4ujmQuVpq8NSsaksGwlzQiVtfBWpH4gbM4W9uOM6gWbxYVjexCjNW4Dy7Qi2Nt4SoQ9m4xkK-b28aybdzY-WcIzQvQSDCoU_mPzMT2_E33WOuGLt3pm5JJbudT2CWMfAyiQDxTmGzRQcqhHcpu3FCPDkJiEa3aHJnkCXaup11LcgBwrMUAR-75IqVZgTs-e8tOJiezpFd_eyYSNFZ0h0d6PYC8gs_6NB09nDMRLTVdqaQ_6h1svH5XSDQbvQfcYqsYF4ZtVf_vgqiNgBstz0dY7Zlp08kHNe1cDw2wuSP8Ci1Ezhi9uongmbxE13htawAZijfUZUbe_dO91sk9eXGQRQFpxvCeaCHtR83iofhnRn3m4kE7eacAtavQC0DSyCIsuvOtBIWjsZoSQsr7cQxmZD2C-uNEgVKhE8TI-kCp01E=",
+    "status": null
+   },
+   {
+    "id": "msg_0c0bc662db187b24006ac2d324a16c87d181a6484f341d1de8",
+    "content": [
+     {
+      "annotations": [],
+      "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"WP Company LLC (doing business as The Washington Post)\"],\n    \"citations\": [\n      {\n        \"url\": \"https://whca.press/wp-content/uploads/2025/10/2025.10.06-AMICUS-FOR-APPELLEE-BRIEF-2139056-filed-by-Reporters-Committee-for.pdf\",\n        \"quote\": \"WP Company LLC d/b/a The Washington Post is a wholly-owned subsidiary of Nash Holdings LLC\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"WP Company LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.washingtonpost.com/terms-of-service/?itid=mr_information_1\",\n        \"quote\": \"These terms are a legal contract between you and WP Company LLC (\u201cThe Washington Post,\u201d \u201cwe\u201d or \u201cus\u201d)\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"WP Company LLC\",\n      \"parent\": \"Nash Holdings LLC\",\n      \"relation\": \"Wholly owned subsidiary\",\n      \"citations\": [\n        {\n          \"url\": \"https://whca.press/wp-content/uploads/2025/10/2025.10.06-AMICUS-FOR-APPELLEE-BRIEF-2139056-filed-by-Reporters-Committee-for.pdf\",\n          \"quote\": \"WP Company LLC d/b/a The Washington Post is a wholly-owned subsidiary of Nash Holdings LLC\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\"Nash Holdings LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://whca.press/wp-content/uploads/2025/10/2025.10.06-AMICUS-FOR-APPELLEE-BRIEF-2139056-filed-by-Reporters-Committee-for.pdf\",\n        \"quote\": \"Nash Holdings LLC, a holding company owned by Jeffrey P. Bezos.\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"established\",\n    \"names\": [\"Jeffrey P. Bezos (Jeff Bezos)\"],\n    \"citations\": [\n      {\n        \"url\": \"https://whca.press/wp-content/uploads/2025/10/2025.10.06-AMICUS-FOR-APPELLEE-BRIEF-2139056-filed-by-Reporters-Committee-for.pdf\",\n        \"quote\": \"Nash Holdings LLC, a holding company owned by Jeffrey P. Bezos.\"\n      },\n      {\n        \"url\": \"https://corporate.washingtonpost.com/about\",\n        \"quote\": \"The Washington Post is owned by Jeff Bezos, executive chairman of Amazon.\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Jeff D\u2019Onofrio\",\n    \"role\": \"Publisher and Chief Executive Officer\",\n    \"entity\": \"The Washington Post\",\n    \"citations\": [\n      {\n        \"url\": \"https://www.washingtonpost.com/business/2026/09/09/interim-washington-post-publisher-jeff-donofrio-serve-permanent-capacity/\",\n        \"quote\": \"Jeff D\u2019Onofrio was named publisher and CEO of The Washington Post on Wednesday following a seven-month stint serving in an interim capacity.\"\n      },\n      {\n        \"url\": \"https://corporate.washingtonpost.com/about\",\n        \"quote\": \"Jeff D\u2019Onofrio\\nPublisher & CEO\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Agreement announced for Nash Holdings LLC to acquire the publishing subsidiaries, including WP Company LLC, from The Washington Post Company.\",\n      \"status\": \"announced\",\n      \"date\": \"2013-08-05\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.ghco.com/static-files/fa88319a-6162-4466-8d86-af13a725cdf9\",\n          \"quote\": \"On August 5, 2013, after approval by the Company\u2019s Board of Directors on the same day, the Company announced\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Nash Holdings LLC completed the $250 million acquisition of the publishing subsidiaries, including WP Company LLC.\",\n      \"status\": \"closed\",\n      \"date\": \"2013-10-01\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.ghco.com/static-files/fa88319a-6162-4466-8d86-af13a725cdf9\",\n          \"quote\": \"On October 1, 2013, the Company entered into a Purchase Agreement and completed the sale.\"\n        },\n        {\n          \"url\": \"https://www.ghco.com/static-files/fa88319a-6162-4466-8d86-af13a725cdf9\",\n          \"quote\": \"the Purchaser acquired all the issued and outstanding equity securities of each of the entities that comprise the Publishing Subsidiaries for $250 million\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of October 4, 2026, the documented corporate chain is WP Company LLC \u2192 Nash Holdings LLC, with Jeff Bezos as the natural-person owner and controller. Amazon is not identified as an ownership-chain entity. The detailed corporate relationship is supported by an October 6, 2025 court disclosure and corroborated by current company ownership information. D\u2019Onofrio became permanent publisher and CEO on September 9, 2026; describing him as merely acting or interim would be outdated.\"\n}",
+      "type": "output_text",
+      "logprobs": []
+     }
+    ],
+    "role": "assistant",
+    "status": "completed",
+    "type": "message",
+    "phase": "final_answer"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+   {
+    "type": "web_search",
+    "external_web_access": null,
+    "filters": null,
+    "search_context_size": "medium",
+    "user_location": {
+     "city": null,
+     "country": "US",
+     "region": null,
+     "timezone": null,
+     "type": "approximate"
+    },
+    "return_token_budget": "default",
+    "search_content_types": [
+     "text"
+    ]
+   }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1791152949.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "generate_summary": null,
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+   "format": {
+    "name": "ownership_answer",
+    "schema_": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "legal_owner",
+      "operator",
+      "chain",
+      "ultimate_parent",
+      "controlling_person",
+      "leader",
+      "transactions",
+      "uncertainty"
+     ],
+     "properties": {
+      "legal_owner": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "operator": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "same_as_owner",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "chain": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "child",
+         "parent",
+         "relation",
+         "citations"
+        ],
+        "properties": {
+         "child": {
+          "type": "string"
+         },
+         "parent": {
+          "type": "string"
+         },
+         "relation": {
+          "type": "string"
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "ultimate_parent": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "single",
+          "multiple",
+          "none",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "controlling_person": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "none",
+          "not_established",
+          "not_applicable"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "leader": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "name",
+        "role",
+        "entity",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "name": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "role": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "entity": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "transactions": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "description",
+         "status",
+         "date",
+         "citations"
+        ],
+        "properties": {
+         "description": {
+          "type": "string"
+         },
+         "status": {
+          "type": "string",
+          "enum": [
+           "announced",
+           "approved",
+           "closed",
+           "abandoned",
+           "unknown"
+          ]
+         },
+         "date": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "uncertainty": {
+       "type": "string"
+      }
+     }
+    },
+    "type": "json_schema",
+    "description": null,
+    "strict": true
+   },
+   "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 30437,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 5271
+   },
+   "output_tokens": 1706,
+   "output_tokens_details": {
+    "reasoning_tokens": 480
+   },
+   "total_tokens": 32143
+  },
+  "user": null,
+  "billing": {
+   "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 3
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 30437,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 5271
+  },
+  "output_tokens": 1706,
+  "output_tokens_details": {
+   "reasoning_tokens": 480
+  },
+  "total_tokens": 32143
+ },
+ "usd": 0.09791910000000001,
+ "latency_s": 34.5,
+ "web_search": {
+  "tool_enabled": true,
+  "calls_executed": 3,
+  "actions": [
+   "search",
+   "search",
+   "search"
+  ],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "A",
+ "case": "wapo",
+ "run": 2,
+ "saved": "2026-10-04T19:29:10-0300"
+}

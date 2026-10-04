@@ -1,0 +1,22 @@
+{
+ "text": "{\"legal_owner\":{\"status\":\"established\",\"names\":[\"KRZZ Licensing, LLC\"],\"citations\":[{\"url\":\"https://transition.fcc.gov/fcc-bin/fmq?call=KRZZ\",\"quote\":\"**KRZZCA SAN FRANCISCOUSA**FMLICTo KRZZ Public FilesLicensee:**KRZZ LICENSING, LLC**\"}]},\"operator\":{\"status\":\"same_as_owner\",\"names\":[],\"citations\":[]},\"chain\":[],\"ultimate_parent\":{\"status\":\"not_established\",\"names\":[],\"citations\":[]},\"controlling_person\":{\"status\":\"not_established\",\"names\":[],\"citations\":[]},\"leader\":{\"status\":\"not_established\",\"name\":null,\"role\":null,\"entity\":null,\"citations\":[]},\"transactions\":[{\"description\":\"Infinity Broadcasting sold KRZZ to Spanish Broadcasting System.\",\"status\":\"closed\",\"date\":\"2005\",\"citations\":[{\"url\":\"https://en.wikipedia.org/wiki/KRZZ\",\"quote\":\"The next year, the station was sold by Infinity Broadcasting to Spanish Broadcasting System.\"}]}],\"uncertainty\":\"The evidence identifies KRZZ Licensing, LLC as the licensee and mentions Spanish Broadcasting System as owner, but does not document the specific ownership chain between them, does not establish an ultimate parent or controlling individual, and does not identify the chief executive officer of Spanish Broadcasting System, Inc.\"}",
+ "usage": {
+  "candidates_token_count": 275,
+  "prompt_token_count": 3302,
+  "thoughts_token_count": 3347,
+  "total_token_count": 6924
+ },
+ "usd": 0.016059,
+ "latency_s": 13.0,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C",
+ "case": "krzz",
+ "run": 3,
+ "saved": "2026-10-04T19:36:05-0300"
+}

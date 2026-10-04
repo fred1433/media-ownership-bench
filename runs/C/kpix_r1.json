@@ -1,0 +1,22 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"CBS Broadcasting Inc.\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=25452\",\n        \"quote\": \"#### Licensee\\n\\nName: CBS BROADCASTING INC.\"\n      },\n      {\n        \"url\": \"https://publicfiles.fcc.gov/tv-profile/KPIX-TV\",\n        \"quote\": \"Licensee: CBS BROADCASTING INC.\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [\n    {\n      \"child\": \"CBS\",\n      \"parent\": \"Paramount\",\n      \"relation\": \"subsidiary\",\n      \"citations\": [\n        {\n          \"url\": \"https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/\",\n          \"quote\": \"CBS parent company Paramount\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\n      \"Paramount\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/\",\n        \"quote\": \"CBS parent company Paramount\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": null,\n    \"citations\": []\n  },\n  \"transactions\": [\n    {\n      \"description\": \"KPIX-TV was originally owned by Associated Broadcasters before becoming owned and operated by CBS.\",\n      \"status\": \"closed\",\n      \"date\": null,\n      \"citations\": [\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/KPIX-TV\",\n          \"quote\": \"It was originally owned by Associated Broadcasters, owners of KSFO (560 AM).\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"The provided dossier does not contain information identifying the chief executive officer of Paramount Skydance Corporation, nor does it establish any controlling person or family behind Paramount.\"\n}",
+ "usage": {
+  "candidates_token_count": 649,
+  "prompt_token_count": 3161,
+  "thoughts_token_count": 3235,
+  "total_token_count": 7045
+ },
+ "usd": 0.01693575,
+ "latency_s": 18.8,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C",
+ "case": "kpix",
+ "run": 1,
+ "saved": "2026-10-04T19:27:10-0300"
+}

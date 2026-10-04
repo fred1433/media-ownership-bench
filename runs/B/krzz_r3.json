@@ -1,0 +1,384 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"KRZZ Licensing, LLC\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=1092\",\n        \"quote\": \"#### Licensee\\n\\nName: KRZZ LICENSING, LLC\"\n      },\n      {\n        \"url\": \"https://publicfiles.fcc.gov/fm-profile/KRZZ\",\n        \"quote\": \"Licensee:\\n: KRZZ LICENSING, LLC\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"Spanish Broadcasting System\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://radioink.com/2025/12/10/17th-sbs-la-raza-radiothon-raises-222k-for-ucsf-benioff/\",\n        \"quote\": \"Spanish Broadcasting System San Francisco\u2019s 93.3 La Raza (KRZZ)\"\n      },\n      {\n        \"url\": \"https://radioink.com/2026/06/23/sbs-brings-back-a-bay-area-voice-to-lead-la-raza-sales/\",\n        \"quote\": \"The Spanish-centric broadcaster has named Ernesto J. Caballero Acevedo as General Sales Manager for San Francisco, where he will oversee local and national sales operations for 93.3 La Raza (KRZZ).\"\n      },\n      {\n        \"url\": \"https://radioink.com/2026/06/23/sbs-brings-back-a-bay-area-voice-to-lead-la-raza-sales/\",\n        \"quote\": \"Spanish Broadcasting System EVP of Local Sales Donald Hudson\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": \"Chief Executive Officer\",\n    \"entity\": \"Spanish Broadcasting System, Inc.\",\n    \"citations\": []\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Spanish Broadcasting System acquired the station from Infinity Broadcasting; the transaction also gave Infinity an equity interest in SBS.\",\n      \"status\": \"closed\",\n      \"date\": \"2005\",\n      \"citations\": [\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/KRZZ\",\n          \"quote\": \"In November 2004, the station broke from the simulcast and flipped to regional Mexican. [10] The next year, the station was sold by Infinity Broadcasting to Spanish Broadcasting System.\"\n        },\n        {\n          \"url\": \"https://bayarearadio.org/station/krzz\",\n          \"quote\": \"New owner Spanish Broadcasting System acquired the station from Infinity Broadcasting in a transaction that gave Infinity an equity interest in SBS and immediately installed Spanish-language programming.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of 2026-10-04, the supplied dossier identifies KRZZ Licensing, LLC as the FCC licensee and supports Spanish Broadcasting System\u2019s operational role. These are different roles, not necessarily conflicting ownership claims. However, the dossier does not establish who directly owns KRZZ Licensing, LLC, any intervening corporate ownership links, the ultimate parent, a controlling person, or the current CEO of Spanish Broadcasting System, Inc. Infinity\u2019s historical equity interest does not establish current ownership or control. No later ownership transaction is established by the dossier.\"\n}",
+ "usage": {
+  "input_tokens": 3376,
+  "input_tokens_details": {
+   "cache_write_tokens": 3373,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1504,
+  "output_tokens_details": {
+   "reasoning_tokens": 708
+  },
+  "total_tokens": 4880
+ },
+ "usd": 0.021792,
+ "latency_s": 36.1,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false,
+  "exa_queries": 7
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "dossier": "Question (as of 2026-10-04): As of 2026-10-04, who is the current FCC licensee or legal owner of KRZZ 93.3 FM San Francisco (facility 1092), what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current chief executive officer of Spanish Broadcasting System, Inc.?\nOutlet: KRZZ (93.3 La Raza) (fm, San Francisco, CA, call sign KRZZ).\nLeader definition for this question: current chief executive officer of Spanish Broadcasting System, Inc.\n\nEvidence dossier (claims extracted from retrieved documents; cite the URL and quote):\n- KRZZ LICENSING, LLC | licensee_of | KRZZ | date: None | https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=1092 | \"#### Licensee\n\nName: KRZZ LICENSING, LLC\"\n- KRZZ Licensing, LLC | licensee_of | KRZZ | date: 2023-10-01 | https://fcc.report/LMS/0000173754 | \"| KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA |\"\n- KRZZ Licensing, LLC | licensee_of | KRZZ | date: 2021-10-01 | https://fcc.report/LMS/0000173754 | \"| KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA |\"\n- KRZZ Licensing, LLC | licensee_of | KRZZ | date: 2023-10-01 | https://fcc.report/LMS/0000228859 | \"| KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA |\"\n- KRZZ LICENSING, LLC | licensee_of | KRZZ | date: 2024-07-04 | https://transition.fcc.gov/fcc-bin/fmq?call=KRZZ | \"**KRZZCA SAN FRANCISCOUSA**FMLICTo KRZZ Public FilesLicensee:**KRZZ LICENSING, LLC**\"\n- KRZZ Licensing, LLC | licensee_of | KRZZ | date: 2019-10-01 | https://fcc.report/LMS/0000046894 | \"| KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA |\"\n- KRZZ Licensing, LLC | licensee_of | KRZZ | date: 2017-10-01 | https://fcc.report/LMS/0000046894 | \"| KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA |\"\n- KRZZ Licensing, LLC | licensee_of | KRZZ | date: None | https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=6a525475a5844958a808c1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl | \"KRZZ(FM) Licensee Information\n\nKRZZ Licensing, LLC\"\n- Spanish Broadcasting System | owns | KRZZ | date: None | https://en.wikipedia.org/wiki/KRZZ | \"| Owner | Spanish Broadcasting System(KRZZ Licensing, LLC) |\"\n- Spanish Broadcasting System | acquisition_closed | KRZZ | date: 2005 | https://en.wikipedia.org/wiki/KRZZ | \"In November 2004, the station broke from the simulcast and flipped to regional Mexican. [10] The next year, the station was sold by Infinity Broadcasting to Spanish Broadcasting System.\"\n- Spanish Broadcasting System | owns | KRZZ | date: None | https://www.radiolineup.com/stations/KRZZ-FM | \"KRZZ is owned by Spanish Broadcasting System.\"\n- Spanish Broadcasting System | owns | KRZZ | date: None | https://bayarearadio.org/station/krzz | \"New owner Spanish Broadcasting System acquired the station from Infinity Broadcasting\"\n- Spanish Broadcasting System | acquisition_closed | KRZZ | date: None | https://bayarearadio.org/station/krzz | \"New owner Spanish Broadcasting System acquired the station from Infinity Broadcasting in a transaction that gave Infinity an equity interest in SBS and immediately installed Spanish-language programming.\"\n- Infinity Broadcasting | owns | Spanish Broadcasting System | date: None | https://bayarearadio.org/station/krzz | \"in a transaction that gave Infinity an equity interest in SBS\"\n- Ernesto J. Caballero Acevedo | other_officer_of | KRZZ | date: 2026-06-23 | https://radioink.com/2026/06/23/sbs-brings-back-a-bay-area-voice-to-lead-la-raza-sales/ | \"The Spanish-centric broadcaster has named Ernesto J. Caballero Acevedo as General Sales Manager for San Francisco, where he will oversee local and national sales operations for 93.3 La Raza (KRZZ).\"\n- Donald Hudson | other_officer_of | Spanish Broadcasting System | date: 2026-06-23 | https://radioink.com/2026/06/23/sbs-brings-back-a-bay-area-voice-to-lead-la-raza-sales/ | \"Spanish Broadcasting System EVP of Local Sales Donald Hudson\"\n- Spanish Broadcasting System | owns | KRZZ | date: None | https://en.wikipedia.org/wiki/KYA-FM | \"| Owner | Spanish Broadcasting System, (KRZZ Licensing, LLC) |\"\n- Spanish Broadcasting System | acquisition_closed | KRZZ | date: 2005 | https://en.wikipedia.org/wiki/KYA-FM | \"The next year, the station was sold by Infinity Broadcasting(later part of CBS Radio, now part of Entercom) to the current Spanish Broadcasting System.\"\n- Spanish Broadcasting System | owns | KRZZ | date: None | https://justapedia.org/KRZZ | \"|Owner|\n* Spanish Broadcasting System\n* (KRZZ Licensing, LLC)\"\n- Spanish Broadcasting System | acquisition_closed | KRZZ | date: 2005 | https://justapedia.org/KRZZ | \"The next year, the station was sold by Infinity Broadcasting (later part of CBS Radio, now part of Entercom) to the current Spanish Broadcasting System.\"\n- Roberto Castro | other_officer_of | Spanish Broadcasting System | date: None | https://radioink.com/2026/04/21/mediaco-names-castro-svp-controller-de-la-cruz-sf-gm/ | \"Castro arrives with 30 years of media and entertainment finance experience, most recently capping a nearly 24-year run at Spanish Broadcasting System as VP of Finance.\"\n- Christian De La Cruz | other_officer_of | Spanish Broadcasting System San Francisco | date: None | https://radioink.com/2026/04/21/mediaco-names-castro-svp-controller-de-la-cruz-sf-gm/ | \"He most recently served as General Manager for SBS San Francisco, where he oversaw operations and revenue strategy across the market\u2019s top-performing radio assets, including La Raza 93.3 FM.\"\n- Christian De La Cruz | other_officer_of | Spanish Broadcasting System San Francisco | date: None | https://www.insideradio.com/people_moves/christian-de-la-cruz/article_b80029e2-4c77-4a9e-a411-e0e227241691.html | \"He most recently served as General Manager for Spanish Broadcasting System in San Francisco, where he oversaw operations and revenue strategy for a cluster that included \u201cLa Raza 93.3 FM.\u201d\"\n- Spanish Broadcasting System | owns | KRZZ | date: 2025-12-10 | https://radioink.com/2025/12/10/17th-sbs-la-raza-radiothon-raises-222k-for-ucsf-benioff/ | \"Spanish Broadcasting System San Francisco\u2019s 93.3 La Raza (KRZZ)\"\n- Christian De La Cruz | other_officer_of | KRZZ | date: 2025-12-10 | https://radioink.com/2025/12/10/17th-sbs-la-raza-radiothon-raises-222k-for-ucsf-benioff/ | \"KRZZ Vice President and General Manager Christian De La Cruz\"\n- Elena Jovel | other_officer_of | KRZZ | date: 2025-12-10 | https://radioink.com/2025/12/10/17th-sbs-la-raza-radiothon-raises-222k-for-ucsf-benioff/ | \"La Raza Director of Programming Elena Jovel\"\n- Ernesto J. Caballero Acevedo | other_officer_of | KRZZ | date: 2026-06-23 | https://radionotas.com/2026/06/23/ernesto-caballero-vuelve-a-liderar-las-ventas-en-la-raza-93-3-fm-san-francisco/ | \"la reincorporaci\u00f3n de Ernesto J. Caballero Acevedo como gerente General de Ventas particularmente en la emisora regional mexicana La Raza 93.3 FM en el mercado de San Francisco.\"\n- Donald Hudson | other_officer_of | Spanish Broadcasting System | date: 2026-06-23 | https://radionotas.com/2026/06/23/ernesto-caballero-vuelve-a-liderar-las-ventas-en-la-raza-93-3-fm-san-francisco/ | \"Donald Hudson, vicepresidente Ejecutivo de Ventas Locales\"\n- KRZZ LICENSING, LLC | licensee_of | KRZZ | date: None | https://publicfiles.fcc.gov/fm-profile/KRZZ | \"Licensee:\n: KRZZ LICENSING, LLC\"\n- Christian De La Cruz | other_officer_of | Spanish Broadcasting System | date: Jan 2017 - Apr 2026 | https://www.linkedin.com/in/christian-de-la-cruz-8283284 | \"#### VP General Manager\n\nJan 2017 - Apr 2026 (9 years and 3 months) in San Francisco, California, United States\"\n- Christian De La Cruz | other_officer_of | KRZZ (93.3 La Raza) | date: Apr 2016 - Dec 2016 | https://www.linkedin.com/in/christian-de-la-cruz-8283284 | \"#### General Sales Manager- KRZZ 93.3 La Raza\n\nApr 2016 - Dec 2016 (8 months) in San Francisco, California, United States\"\n- Spanish Broadcasting | owns | KRZZ (93.3 La Raza) | date: None | https://radioink.com/2022/12/15/krzz-collects-over-338000-for-childrens-hospital-in-oakland/ | \"Spanish Broadcasting\u2019s regional Mexican station KRZZ (93.3 FM) in San Francisco collected more than $338,000 for the UCSF Benioff Children\u2019s Hospital of Oakland during a two-day radiothon.\"\n- Christian De La Cruz | other_officer_of | KRZZ (93.3 La Raza) | date: None | https://radioink.com/2022/12/15/krzz-collects-over-338000-for-childrens-hospital-in-oakland/ | \"Christian De La Cruz, the vice president and general manager of KRZZ\"\n- Ernesto Caballero | other_officer_of | KRZZ (93.3 La Raza) | date: None | https://www.spanishbroadcasting.com/leadership/local-management/local-management-san-francisco | \"Ernesto Caballero \u2013 General Sales Manager ecaballero@sbssanfrancisco.com\"\n- Lisa Teagardner | other_officer_of | Spanish Broadcasting System | date: None | https://www.spanishbroadcasting.com/leadership/local-management/local-management-san-francisco | \"Lisa Teagardner \u2013 VP West Coast National Sales lisat@sbslosangeles.com\"\n\nEvidence state checks: conflict: several owners named: ['krzz licensing', 'spanish broadcasting', 'spanish broadcasting system']; missing: who owns krzz licensing; missing: the leader named in the leader definition\nAnswer only from this dossier. Where it does not establish a field, mark it not_established.",
+ "claims": [
+  {
+   "doc": "D1",
+   "subject": "KRZZ LICENSING, LLC",
+   "relation": "licensee_of",
+   "object": "KRZZ",
+   "quote": "#### Licensee\n\nName: KRZZ LICENSING, LLC",
+   "date_in_doc": null,
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=1092"
+  },
+  {
+   "doc": "D2",
+   "subject": "KRZZ Licensing, LLC",
+   "relation": "licensee_of",
+   "object": "KRZZ",
+   "quote": "| KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000173754"
+  },
+  {
+   "doc": "D2",
+   "subject": "KRZZ Licensing, LLC",
+   "relation": "licensee_of",
+   "object": "KRZZ",
+   "quote": "| KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA |",
+   "date_in_doc": "2021-10-01",
+   "url": "https://fcc.report/LMS/0000173754"
+  },
+  {
+   "doc": "D3",
+   "subject": "KRZZ Licensing, LLC",
+   "relation": "licensee_of",
+   "object": "KRZZ",
+   "quote": "| KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000228859"
+  },
+  {
+   "doc": "D4",
+   "subject": "KRZZ LICENSING, LLC",
+   "relation": "licensee_of",
+   "object": "KRZZ",
+   "quote": "**KRZZCA SAN FRANCISCOUSA**FMLICTo KRZZ Public FilesLicensee:**KRZZ LICENSING, LLC**",
+   "date_in_doc": "2024-07-04",
+   "url": "https://transition.fcc.gov/fcc-bin/fmq?call=KRZZ"
+  },
+  {
+   "doc": "D5",
+   "subject": "KRZZ Licensing, LLC",
+   "relation": "licensee_of",
+   "object": "KRZZ",
+   "quote": "| KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA |",
+   "date_in_doc": "2019-10-01",
+   "url": "https://fcc.report/LMS/0000046894"
+  },
+  {
+   "doc": "D5",
+   "subject": "KRZZ Licensing, LLC",
+   "relation": "licensee_of",
+   "object": "KRZZ",
+   "quote": "| KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA |",
+   "date_in_doc": "2017-10-01",
+   "url": "https://fcc.report/LMS/0000046894"
+  },
+  {
+   "doc": "D7",
+   "subject": "KRZZ Licensing, LLC",
+   "relation": "licensee_of",
+   "object": "KRZZ",
+   "quote": "KRZZ(FM) Licensee Information\n\nKRZZ Licensing, LLC",
+   "date_in_doc": null,
+   "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=6a525475a5844958a808c1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+  },
+  {
+   "doc": "D8",
+   "subject": "Spanish Broadcasting System",
+   "relation": "owns",
+   "object": "KRZZ",
+   "quote": "| Owner | Spanish Broadcasting System(KRZZ Licensing, LLC) |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KRZZ"
+  },
+  {
+   "doc": "D8",
+   "subject": "Spanish Broadcasting System",
+   "relation": "acquisition_closed",
+   "object": "KRZZ",
+   "quote": "In November 2004, the station broke from the simulcast and flipped to regional Mexican. [10] The next year, the station was sold by Infinity Broadcasting to Spanish Broadcasting System.",
+   "date_in_doc": "2005",
+   "url": "https://en.wikipedia.org/wiki/KRZZ"
+  },
+  {
+   "doc": "D9",
+   "subject": "Spanish Broadcasting System",
+   "relation": "owns",
+   "object": "KRZZ",
+   "quote": "KRZZ is owned by Spanish Broadcasting System.",
+   "date_in_doc": null,
+   "url": "https://www.radiolineup.com/stations/KRZZ-FM"
+  },
+  {
+   "doc": "D10",
+   "subject": "Spanish Broadcasting System",
+   "relation": "owns",
+   "object": "KRZZ",
+   "quote": "New owner Spanish Broadcasting System acquired the station from Infinity Broadcasting",
+   "date_in_doc": null,
+   "url": "https://bayarearadio.org/station/krzz"
+  },
+  {
+   "doc": "D10",
+   "subject": "Spanish Broadcasting System",
+   "relation": "acquisition_closed",
+   "object": "KRZZ",
+   "quote": "New owner Spanish Broadcasting System acquired the station from Infinity Broadcasting in a transaction that gave Infinity an equity interest in SBS and immediately installed Spanish-language programming.",
+   "date_in_doc": null,
+   "url": "https://bayarearadio.org/station/krzz"
+  },
+  {
+   "doc": "D10",
+   "subject": "Infinity Broadcasting",
+   "relation": "owns",
+   "object": "Spanish Broadcasting System",
+   "quote": "in a transaction that gave Infinity an equity interest in SBS",
+   "date_in_doc": null,
+   "url": "https://bayarearadio.org/station/krzz"
+  },
+  {
+   "doc": "D11",
+   "subject": "Ernesto J. Caballero Acevedo",
+   "relation": "other_officer_of",
+   "object": "KRZZ",
+   "quote": "The Spanish-centric broadcaster has named Ernesto J. Caballero Acevedo as General Sales Manager for San Francisco, where he will oversee local and national sales operations for 93.3 La Raza (KRZZ).",
+   "date_in_doc": "2026-06-23",
+   "url": "https://radioink.com/2026/06/23/sbs-brings-back-a-bay-area-voice-to-lead-la-raza-sales/"
+  },
+  {
+   "doc": "D11",
+   "subject": "Donald Hudson",
+   "relation": "other_officer_of",
+   "object": "Spanish Broadcasting System",
+   "quote": "Spanish Broadcasting System EVP of Local Sales Donald Hudson",
+   "date_in_doc": "2026-06-23",
+   "url": "https://radioink.com/2026/06/23/sbs-brings-back-a-bay-area-voice-to-lead-la-raza-sales/"
+  },
+  {
+   "doc": "D12",
+   "subject": "Spanish Broadcasting System",
+   "relation": "owns",
+   "object": "KRZZ",
+   "quote": "| Owner | Spanish Broadcasting System, (KRZZ Licensing, LLC) |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KYA-FM"
+  },
+  {
+   "doc": "D12",
+   "subject": "Spanish Broadcasting System",
+   "relation": "acquisition_closed",
+   "object": "KRZZ",
+   "quote": "The next year, the station was sold by Infinity Broadcasting(later part of CBS Radio, now part of Entercom) to the current Spanish Broadcasting System.",
+   "date_in_doc": "2005",
+   "url": "https://en.wikipedia.org/wiki/KYA-FM"
+  },
+  {
+   "doc": "D13",
+   "subject": "Spanish Broadcasting System",
+   "relation": "owns",
+   "object": "KRZZ",
+   "quote": "|Owner|\n* Spanish Broadcasting System\n* (KRZZ Licensing, LLC)",
+   "date_in_doc": null,
+   "url": "https://justapedia.org/KRZZ"
+  },
+  {
+   "doc": "D13",
+   "subject": "Spanish Broadcasting System",
+   "relation": "acquisition_closed",
+   "object": "KRZZ",
+   "quote": "The next year, the station was sold by Infinity Broadcasting (later part of CBS Radio, now part of Entercom) to the current Spanish Broadcasting System.",
+   "date_in_doc": "2005",
+   "url": "https://justapedia.org/KRZZ"
+  },
+  {
+   "doc": "D14",
+   "subject": "Roberto Castro",
+   "relation": "other_officer_of",
+   "object": "Spanish Broadcasting System",
+   "quote": "Castro arrives with 30 years of media and entertainment finance experience, most recently capping a nearly 24-year run at Spanish Broadcasting System as VP of Finance.",
+   "date_in_doc": null,
+   "url": "https://radioink.com/2026/04/21/mediaco-names-castro-svp-controller-de-la-cruz-sf-gm/"
+  },
+  {
+   "doc": "D14",
+   "subject": "Christian De La Cruz",
+   "relation": "other_officer_of",
+   "object": "Spanish Broadcasting System San Francisco",
+   "quote": "He most recently served as General Manager for SBS San Francisco, where he oversaw operations and revenue strategy across the market\u2019s top-performing radio assets, including La Raza 93.3 FM.",
+   "date_in_doc": null,
+   "url": "https://radioink.com/2026/04/21/mediaco-names-castro-svp-controller-de-la-cruz-sf-gm/"
+  },
+  {
+   "doc": "D15",
+   "subject": "Christian De La Cruz",
+   "relation": "other_officer_of",
+   "object": "Spanish Broadcasting System San Francisco",
+   "quote": "He most recently served as General Manager for Spanish Broadcasting System in San Francisco, where he oversaw operations and revenue strategy for a cluster that included \u201cLa Raza 93.3 FM.\u201d",
+   "date_in_doc": null,
+   "url": "https://www.insideradio.com/people_moves/christian-de-la-cruz/article_b80029e2-4c77-4a9e-a411-e0e227241691.html"
+  },
+  {
+   "doc": "D16",
+   "subject": "Spanish Broadcasting System",
+   "relation": "owns",
+   "object": "KRZZ",
+   "quote": "Spanish Broadcasting System San Francisco\u2019s 93.3 La Raza (KRZZ)",
+   "date_in_doc": "2025-12-10",
+   "url": "https://radioink.com/2025/12/10/17th-sbs-la-raza-radiothon-raises-222k-for-ucsf-benioff/"
+  },
+  {
+   "doc": "D16",
+   "subject": "Christian De La Cruz",
+   "relation": "other_officer_of",
+   "object": "KRZZ",
+   "quote": "KRZZ Vice President and General Manager Christian De La Cruz",
+   "date_in_doc": "2025-12-10",
+   "url": "https://radioink.com/2025/12/10/17th-sbs-la-raza-radiothon-raises-222k-for-ucsf-benioff/"
+  },
+  {
+   "doc": "D16",
+   "subject": "Elena Jovel",
+   "relation": "other_officer_of",
+   "object": "KRZZ",
+   "quote": "La Raza Director of Programming Elena Jovel",
+   "date_in_doc": "2025-12-10",
+   "url": "https://radioink.com/2025/12/10/17th-sbs-la-raza-radiothon-raises-222k-for-ucsf-benioff/"
+  },
+  {
+   "doc": "D17",
+   "subject": "Ernesto J. Caballero Acevedo",
+   "relation": "other_officer_of",
+   "object": "KRZZ",
+   "quote": "la reincorporaci\u00f3n de Ernesto J. Caballero Acevedo como gerente General de Ventas particularmente en la emisora regional mexicana La Raza 93.3 FM en el mercado de San Francisco.",
+   "date_in_doc": "2026-06-23",
+   "url": "https://radionotas.com/2026/06/23/ernesto-caballero-vuelve-a-liderar-las-ventas-en-la-raza-93-3-fm-san-francisco/"
+  },
+  {
+   "doc": "D17",
+   "subject": "Donald Hudson",
+   "relation": "other_officer_of",
+   "object": "Spanish Broadcasting System",
+   "quote": "Donald Hudson, vicepresidente Ejecutivo de Ventas Locales",
+   "date_in_doc": "2026-06-23",
+   "url": "https://radionotas.com/2026/06/23/ernesto-caballero-vuelve-a-liderar-las-ventas-en-la-raza-93-3-fm-san-francisco/"
+  },
+  {
+   "doc": "D18",
+   "subject": "KRZZ LICENSING, LLC",
+   "relation": "licensee_of",
+   "object": "KRZZ",
+   "quote": "Licensee:\n: KRZZ LICENSING, LLC",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/fm-profile/KRZZ"
+  },
+  {
+   "doc": "E1",
+   "subject": "Christian De La Cruz",
+   "relation": "other_officer_of",
+   "object": "Spanish Broadcasting System",
+   "quote": "#### VP General Manager\n\nJan 2017 - Apr 2026 (9 years and 3 months) in San Francisco, California, United States",
+   "date_in_doc": "Jan 2017 - Apr 2026",
+   "url": "https://www.linkedin.com/in/christian-de-la-cruz-8283284"
+  },
+  {
+   "doc": "E1",
+   "subject": "Christian De La Cruz",
+   "relation": "other_officer_of",
+   "object": "KRZZ (93.3 La Raza)",
+   "quote": "#### General Sales Manager- KRZZ 93.3 La Raza\n\nApr 2016 - Dec 2016 (8 months) in San Francisco, California, United States",
+   "date_in_doc": "Apr 2016 - Dec 2016",
+   "url": "https://www.linkedin.com/in/christian-de-la-cruz-8283284"
+  },
+  {
+   "doc": "E2",
+   "subject": "Spanish Broadcasting",
+   "relation": "owns",
+   "object": "KRZZ (93.3 La Raza)",
+   "quote": "Spanish Broadcasting\u2019s regional Mexican station KRZZ (93.3 FM) in San Francisco collected more than $338,000 for the UCSF Benioff Children\u2019s Hospital of Oakland during a two-day radiothon.",
+   "date_in_doc": null,
+   "url": "https://radioink.com/2022/12/15/krzz-collects-over-338000-for-childrens-hospital-in-oakland/"
+  },
+  {
+   "doc": "E2",
+   "subject": "Christian De La Cruz",
+   "relation": "other_officer_of",
+   "object": "KRZZ (93.3 La Raza)",
+   "quote": "Christian De La Cruz, the vice president and general manager of KRZZ",
+   "date_in_doc": null,
+   "url": "https://radioink.com/2022/12/15/krzz-collects-over-338000-for-childrens-hospital-in-oakland/"
+  },
+  {
+   "doc": "E3",
+   "subject": "Ernesto Caballero",
+   "relation": "other_officer_of",
+   "object": "KRZZ (93.3 La Raza)",
+   "quote": "Ernesto Caballero \u2013 General Sales Manager ecaballero@sbssanfrancisco.com",
+   "date_in_doc": null,
+   "url": "https://www.spanishbroadcasting.com/leadership/local-management/local-management-san-francisco"
+  },
+  {
+   "doc": "E3",
+   "subject": "Lisa Teagardner",
+   "relation": "other_officer_of",
+   "object": "Spanish Broadcasting System",
+   "quote": "Lisa Teagardner \u2013 VP West Coast National Sales lisat@sbslosangeles.com",
+   "date_in_doc": null,
+   "url": "https://www.spanishbroadcasting.com/leadership/local-management/local-management-san-francisco"
+  }
+ ],
+ "flags": [
+  [
+   "conflict",
+   "several owners named: ['krzz licensing', 'spanish broadcasting', 'spanish broadcasting system']"
+  ],
+  [
+   "missing",
+   "who owns krzz licensing"
+  ],
+  [
+   "missing",
+   "the leader named in the leader definition"
+  ]
+ ],
+ "steps": [
+  {
+   "step": "extract",
+   "usd": 0.0270248,
+   "latency_s": 36.5,
+   "model_returned": "gpt-6.1-sol"
+  },
+  {
+   "step": "extract_extra",
+   "usd": 0.0076675,
+   "latency_s": 15.3
+  },
+  {
+   "step": "solve",
+   "effort": "high",
+   "usd": 0.021792,
+   "latency_s": 36.1
+  }
+ ],
+ "usd_total": 0.0564843,
+ "latency_total_s": 87.9,
+ "escalated": true,
+ "extra_docs": 3,
+ "arm": "B",
+ "case": "krzz",
+ "run": 3,
+ "saved": "2026-10-04T19:35:52-0300"
+}

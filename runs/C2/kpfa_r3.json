@@ -1,0 +1,22 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"Pacifica Foundation, Inc.\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/fm-profile/KPFA\",\n        \"quote\": \"Licensee: PACIFICA FOUNDATION, INC.\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://kpfa.org/app/uploads/2025/03/2023-2026_CWA-KPFA_CBA_Revised_03142025.pdf\",\n        \"quote\": \"This Agreement is entered into as of November 1, 2023, between Pacifica Foundation, its successors and assigns, (\u201cEmployer\u201d) which owns and operates radio station KPFA-FM and KPFB-FM in Berkeley, California\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"none\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://pacifica.org/documents/bylaws_191022/bylaws_191022.pdf?eId=9117d4c9-4b46-4d4d-8ad9-c2ec55463112&eType=EmailBlastContent\",\n        \"quote\": \"The Foundation is a nonprofit public benefit corporation and is not organized for the private gain of any person.\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"none\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://pacifica.org/documents/bylaws_191022/bylaws_191022.pdf?eId=9117d4c9-4b46-4d4d-8ad9-c2ec55463112&eType=EmailBlastContent\",\n        \"quote\": \"The Foundation is a nonprofit public benefit corporation and is not organized for the private gain of any person.\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": null,\n    \"citations\": []\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Voluntary transfer of control of KPFA from Pacifica Foundation, Inc. (old board) to Pacifica Foundation, Inc. (new board)\",\n      \"status\": \"approved\",\n      \"date\": \"2011-06-14\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DOC-307708A1.pdf\",\n          \"quote\": \"Voluntary Transfer of ControlFrom: PACIFICA FOUNDATION, INC, (OLD BOARD)To: PACIFICA FOUNATION, INC. (NEW BOARD)Form 316 CA BTCH-20110527AMR KPFA 51246 PACIFICA FOUNDATION, INC.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"The evidence dossier does not establish the current executive director of Pacifica Foundation, Inc. as of October 4, 2026.\"\n}",
+ "usage": {
+  "candidates_token_count": 837,
+  "prompt_token_count": 3179,
+  "thoughts_token_count": 3191,
+  "total_token_count": 7207
+ },
+ "usd": 0.01748925,
+ "latency_s": 14.2,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C2",
+ "case": "kpfa",
+ "run": 3,
+ "saved": "2026-10-04T19:56:41-0300"
+}

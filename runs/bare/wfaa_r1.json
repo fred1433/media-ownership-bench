@@ -1,0 +1,29 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"operator\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": \"Chief Executive Officer\",\n    \"entity\": \"Nexstar Media Group, Inc.\",\n    \"citations\": []\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"I cannot verify the requested facts as of 2026-10-04 because this session has no live access to FCC records, corporate filings, or current company announcements. Establishing the answer requires the FCC authorization and ownership filings for facility 72054, documentation of any completed ownership transfers, and Nexstar's current leadership disclosures. I have therefore left the fields not established rather than presenting historical ownership or leadership as current, inferring that an announced transaction closed, or supplying unverified source quotations.\"\n}",
+ "usage": {
+  "input_tokens": 924,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 0
+  },
+  "output_tokens": 632,
+  "output_tokens_details": {
+   "reasoning_tokens": 342
+  },
+  "total_tokens": 1556
+ },
+ "usd": 0.008168,
+ "latency_s": 19.8,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "actions": [],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "bare",
+ "case": "wfaa",
+ "run": 1,
+ "saved": "2026-10-04T19:28:05-0300"
+}

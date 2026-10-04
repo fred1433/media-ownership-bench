@@ -1,0 +1,22 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"Audacy License, LLC\",\n      \"Audacy License, LLC, as Debtor-in-Possession\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/fm-profile/KFRC-FM\",\n        \"quote\": \"Licensee: Audacy License, LLC\"\n      },\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=20897\",\n        \"quote\": \"#### Licensee\\nName:Audacy License, LLC, as Debtor-in-Possession\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [\n    {\n      \"child\": \"Audacy License, LLC\",\n      \"parent\": \"Audacy, Inc.\",\n      \"relation\": \"subsidiary\",\n      \"citations\": [\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/KFRC-FM\",\n          \"quote\": \"| Owner | Audacy, Inc.(Audacy License, LLC) |\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": null,\n    \"citations\": []\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Franklin Mieuli sold KHIP to Leon Crosby.\",\n      \"status\": \"closed\",\n      \"date\": \"1962-07-01\",\n      \"citations\": [\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/KFRC-FM\",\n          \"quote\": \"Mieuli sold KHIP on July 1, 1962, to Leon Crosby, who had previously owned KHYD in Hayward.\"\n        }\n      ]\n    },\n    {\n      \"description\": \"CBS purchased KFRC from Infinity.\",\n      \"status\": \"closed\",\n      \"date\": null,\n      \"citations\": [\n        {\n          \"url\": \"https://www.sfgate.com/entertainment/article/KFRC-FM-drops-rock-for-all-news-format-3264974.php\",\n          \"quote\": \"CBS, which bought KFRC from Infinity, dropped the classic-hits format in 2006 to make way for the dance music of Movin.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"The dossier identifies Audacy License, LLC (including as Debtor-in-Possession) as the licensee and Audacy, Inc. as owner, but does not provide documentation establishing who owns Audacy, Inc. or who serves as its current chief executive officer.\"\n}",
+ "usage": {
+  "candidates_token_count": 765,
+  "prompt_token_count": 2101,
+  "thoughts_token_count": 2283,
+  "total_token_count": 5149
+ },
+ "usd": 0.01300575,
+ "latency_s": 11.8,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C2",
+ "case": "kfrc",
+ "run": 1,
+ "saved": "2026-10-04T19:51:07-0300"
+}

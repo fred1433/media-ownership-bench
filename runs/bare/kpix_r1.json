@@ -1,0 +1,29 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"operator\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": \"Paramount Skydance Corporation\",\n    \"citations\": []\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"I do not have access to live FCC records, SEC filings, or corporate announcements in this session, so I cannot verify the requested facts as of 2026-10-04 or supply verbatim supporting quotations. Establishing the answer requires KPIX-TV\u2019s current FCC license and ownership filings for facility 25452, followed by current corporate filings documenting each ownership link, ultimate control, and Paramount Skydance Corporation\u2019s CEO. These fields are marked not_established because the evidence is unavailable here\u2014not because KPIX-TV lacks an owner or Paramount Skydance Corporation lacks a CEO.\"\n}",
+ "usage": {
+  "input_tokens": 928,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1058,
+  "output_tokens_details": {
+   "reasoning_tokens": 754
+  },
+  "total_tokens": 1986
+ },
+ "usd": 0.012436000000000001,
+ "latency_s": 33.4,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "actions": [],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "bare",
+ "case": "kpix",
+ "run": 1,
+ "saved": "2026-10-04T19:27:43-0300"
+}

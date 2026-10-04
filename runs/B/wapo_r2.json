@@ -1,0 +1,794 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"operator\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\n      \"Nash Holdings LLC\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://en.wikipedia.org/wiki/The_Washington_Post\",\n        \"quote\": \"In October 2013, the Graham family sold the newspaper to Nash Holdings, a holding company owned by Jeff Bezos, for US$250 million.\"\n      },\n      {\n        \"url\": \"https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex2-1.htm\",\n        \"quote\": \"Nash Holdings LLC, a Delaware limited liability company (the \u201cPurchaser\u201d)\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"Jeff Bezos\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://corporate.washingtonpost.com/about\",\n        \"quote\": \"The Washington Post is owned by Jeff Bezos, executive chairman of Amazon.\"\n      },\n      {\n        \"url\": \"https://en.wikipedia.org/wiki/The_Washington_Post\",\n        \"quote\": \"In October 2013, the Graham family sold the newspaper to Nash Holdings, a holding company owned by Jeff Bezos, for US$250 million.\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Jeff D\u2019Onofrio\",\n    \"role\": \"Publisher and Chief Executive Officer\",\n    \"entity\": \"The Washington Post\",\n    \"citations\": [\n      {\n        \"url\": \"https://www.bloomberg.com/news/articles/2026-09-09/washington-post-makes-jeff-d-onofrio-permanent-ceo-publisher\",\n        \"quote\": \"Jeff D\u2019Onofrio was named publisher and chief executive officer of the Washington Post, formalizing his position since taking over from Will Lewis in February.\"\n      },\n      {\n        \"url\": \"https://corporate.washingtonpost.com/about\",\n        \"quote\": \"### Jeff D\u2019Onofrio\\n\\nPublisher & CEO\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"The Washington Post Company agreed to sell The Washington Post to Jeff Bezos through Nash Holdings LLC for $250 million.\",\n      \"status\": \"announced\",\n      \"date\": \"2013-08-05\",\n      \"citations\": [\n        {\n          \"url\": \"https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877\",\n          \"quote\": \"Amazon CEO Jeffrey Bezos is buying The Washington Post newspaper, which broke the Watergate scandal and drove a president out of office, and its affiliated publications for $250 million.\"\n        },\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex2-1.htm\",\n          \"quote\": \"regarding the sale to the Purchaser of the Post Business\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The $250 million acquisition closed, transferring The Washington Post and other assets to Bezos\u2019s Nash Holdings.\",\n      \"status\": \"closed\",\n      \"date\": \"2013-10-01\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html\",\n          \"quote\": \"Bezos\u2019s $250 million purchase was completed as expected with the signing of sale documents.\"\n        },\n        {\n          \"url\": \"https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html\",\n          \"quote\": \"The signing transfers the newspaper and other assets from The Washington Post Co. to Nash Holdings, Bezos\u2019s private investment company.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of 2026-10-04, the dossier supports Nash Holdings LLC as the ownership holding company, Jeff Bezos as its controlling owner, and Jeff D\u2019Onofrio as the permanent publisher and CEO. It does not establish the precise entity directly holding the newspaper or a complete chain from that entity to Nash, so legal_owner is not_established and chain is empty. WP Company LLC is identified only as a historical subsidiary of the seller; Explore Holdings LLC is identified as a guarantor, not a parent. The Graham family\u2019s ownership ended with the 2013 sale. Bezos\u2019s Amazon position does not establish Amazon ownership of the Post.\"\n}",
+ "usage": {
+  "input_tokens": 6371,
+  "input_tokens_details": {
+   "cache_write_tokens": 6368,
+   "cached_tokens": 0
+  },
+  "output_tokens": 2666,
+  "output_tokens_details": {
+   "reasoning_tokens": 1552
+  },
+  "total_tokens": 9037
+ },
+ "usd": 0.039402,
+ "latency_s": 68.0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false,
+  "exa_queries": 3
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "dossier": "Question (as of 2026-10-04): As of 2026-10-04, who is the legal owner of The Washington Post, what is its ownership chain up to the ultimate parent, who is the controlling person, and who is the current publisher and chief executive officer of The Washington Post?\nOutlet: The Washington Post (print, Washington, DC / national).\nLeader definition for this question: current publisher and chief executive officer of The Washington Post\n\nEvidence dossier (claims extracted from retrieved documents; cite the URL and quote):\n- Jeff D\u2019Onofrio | chief_executive_of | The Washington Post | date: None | https://www.washingtonpost.com/company-history/ | \"### Jeff D\u2019Onofrio\n**Publisher & CEO**\"\n- Matt Murray | other_officer_of | The Washington Post | date: None | https://www.washingtonpost.com/company-history/ | \"### Matt Murray\n**Executive Editor**\"\n- Mark Lasswell | other_officer_of | The Washington Post | date: None | https://www.washingtonpost.com/company-history/ | \"### Mark Lasswell\n**Interim Opinions Editor**\"\n- Karl Wells | other_officer_of | The Washington Post | date: None | https://www.washingtonpost.com/company-history/ | \"### Karl Wells\n**Chief Revenue Officer**\"\n- L. Wayne Connell | other_officer_of | The Washington Post | date: None | https://www.washingtonpost.com/company-history/ | \"### L. Wayne Connell\n**Chief Human Resources Officer**\"\n- Alesia Lewis | other_officer_of | The Washington Post | date: None | https://www.washingtonpost.com/company-history/ | \"### Alesia Lewis\n**Chief Financial Officer**\"\n- Jeff Bezos | owns | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"The Washington Post is owned by Jeff Bezos, executive chairman of Amazon.\"\n- Jeff D\u2019Onofrio | chief_executive_of | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"### Jeff D\u2019Onofrio\n\nPublisher & CEO\"\n- Matt Murray | other_officer_of | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"### Matt Murray\n\nExecutive Editor\"\n- Mark Lasswell | other_officer_of | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"### Mark Lasswell\n\nInterim Opinions Editor\"\n- Karl Wells | other_officer_of | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"### Karl Wells\n\nChief Revenue Officer\"\n- L. Wayne Connell | other_officer_of | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"### L. Wayne Connell\n\nChief Human Resources Officer\"\n- Alesia Lewis | other_officer_of | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"### Alesia Lewis\n\nChief Financial Officer\"\n- Gregg J. Fernandes | other_officer_of | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"### Gregg J. Fernandes\n\nChief of Print Operations\"\n- Jay Kennedy | other_officer_of | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"### Jay Kennedy\n\nVice President, General Counsel & Labor\"\n- Vineet Khosla | other_officer_of | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"### Vineet Khosla\n\nChief Technology Officer\"\n- Suzi Watford | other_officer_of | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"### Suzi Watford\n\nChief Strategy Officer\"\n- Mike Dyer | other_officer_of | The Washington Post | date: None | https://corporate.washingtonpost.com/about | \"### Mike Dyer\n\nChief Product Officer\"\n- Jeff Bezos | owns | The Washington Post | date: None | https://company.washingtonpost.com/ | \"The Washington Post is owned by Jeff Bezos, executive chairman of Amazon.\"\n- Jeff D\u2019Onofrio | chief_executive_of | The Washington Post | date: None | https://company.washingtonpost.com/ | \"### Jeff D\u2019Onofrio\n\nPublisher & CEO\"\n- Matt Murray | other_officer_of | The Washington Post | date: None | https://company.washingtonpost.com/ | \"### Matt Murray\n\nExecutive Editor\"\n- Mark Lasswell | other_officer_of | The Washington Post | date: None | https://company.washingtonpost.com/ | \"### Mark Lasswell\n\nInterim Opinions Editor\"\n- Karl Wells | other_officer_of | The Washington Post | date: None | https://company.washingtonpost.com/ | \"### Karl Wells\n\nChief Revenue Officer\"\n- L. Wayne Connell | other_officer_of | The Washington Post | date: None | https://company.washingtonpost.com/ | \"### L. Wayne Connell\n\nChief Human Resources Officer\"\n- Alesia Lewis | other_officer_of | The Washington Post | date: None | https://company.washingtonpost.com/ | \"### Alesia Lewis\n\nActing Chief Financial Officer\"\n- Gregg J. Fernandes | other_officer_of | The Washington Post | date: None | https://company.washingtonpost.com/ | \"### Gregg J. Fernandes\n\nChief of Print Operations\"\n- Jay Kennedy | other_officer_of | The Washington Post | date: None | https://company.washingtonpost.com/ | \"### Jay Kennedy\n\nVice President, General Counsel & Labor\"\n- Vineet Khosla | other_officer_of | The Washington Post | date: None | https://company.washingtonpost.com/ | \"### Vineet Khosla\n\nChief Technology Officer\"\n- Suzi Watford | other_officer_of | The Washington Post | date: None | https://company.washingtonpost.com/ | \"### Suzi Watford\n\nChief Strategy Officer\"\n- Jeff Bezos | acquisition_announced | The Washington Post | date: 2013-08-05 | https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877 | \"Amazon CEO Jeffrey Bezos is buying The Washington Post newspaper, which broke the Watergate scandal and drove a president out of office, and its affiliated publications for $250 million.\"\n- Graham family | owns | The Washington Post | date: 2013-08-05 | https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877 | \"The sale ends the Graham family's ownership of the flagship newspaper of The Washington Post Company (NYSE: WPO), which will change to a new name and continue as a publicly traded company.\"\n- The Washington Post Company | owns | The Washington Post | date: 2013-08-05 | https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877 | \"The sale ends the Graham family's ownership of the flagship newspaper of The Washington Post Company (NYSE: WPO), which will change to a new name and continue as a publicly traded company.\"\n- Donald E. Graham | chief_executive_of | The Washington Post Company | date: 2013-08-05 | https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877 | \"Donald E. Graham, chairman and CEO of The Washington Post Company, said in a statement.\"\n- Katharine Weymouth | chief_executive_of | The Washington Post | date: 2013-08-05 | https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877 | \"Katharine Weymouth, CEO and Publisher of The Washington Post\"\n- Stephen P. Hills | other_officer_of | The Washington Post | date: 2013-08-05 | https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877 | \"Stephen P. Hills, President and General Manager\"\n- Martin Baron | other_officer_of | The Washington Post | date: 2013-08-05 | https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877 | \"Martin Baron, Executive Editor\"\n- Fred Hiatt | other_officer_of | The Washington Post | date: 2013-08-05 | https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877 | \"Fred Hiatt, Editor of the Editorial Page.\"\n- Paul B. Dauber | other_officer_of | Nash Holdings LLC | date: 2013-08-05 | https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex2-1.htm | \"Nash Holdings LLC\nP.O. Box 94314\nSeattle, Washington 98124\nAttention: Paul B. Dauber, Esq., Manager\"\n- Nash Holdings LLC | acquisition_announced | Post Business | date: 2013-08-05 | https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex2-1.htm | \"Nash Holdings LLC, a Delaware limited liability company (the \u201cPurchaser\u201d), and, solely to the extent provided herein, Explore Holdings LLC, a Washington limited liability company (the \u201cGuarantor\u201d), regarding the sale to the Purchaser of the Post Business\"\n- WP Company LLC | subsidiary_of | The Washington Post Company | date: 2013-08-05 | https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex2-1.htm | \"WP Company LLC, Express Publications Company, LLC, El Tiempo Latino, LLC, Robinson Terminal Warehouse, LLC, Greater Washington Publishing, LLC and Post-Newsweek Media, LLC (collectively, the \u201cPost Subsidiaries\u201d), which Post Subsidiaries are each subsidiaries of the Seller\"\n- The Washington Post Company | other | The Washington Post | date: 2013-08-05 | https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex2-1.htm | \"\u201cPost Business\u201d means the publishing businesses conducted by the Seller and its subsidiaries, including publishing The Washington Post newspaper and the newspaper\u2019s internet site washingtonpost.com;\"\n- Jeff Bezos | owns | The Washington Post | date: 2026-02-04 | https://www.reuters.com/business/retail-consumer/washington-post-lay-off-hundreds-journalists-nyt-reports-2026-02-04/ | \"The Washington Post, owned by Amazon.com(AMZN.O), opens new tab founder Jeff Bezos, began widespread layoffs on Wednesday\"\n- Jeff Bezos | acquisition_closed | The Washington Post | date: 2013 | https://www.reuters.com/business/retail-consumer/washington-post-lay-off-hundreds-journalists-nyt-reports-2026-02-04/ | \"Bezos bought the newspaper from Graham family in 2013\"\n- Matt Murray | other_officer_of | The Washington Post | date: 2026-02-04 | https://www.reuters.com/business/retail-consumer/washington-post-lay-off-hundreds-journalists-nyt-reports-2026-02-04/ | \"Executive Editor Matt Murray\"\n- Jeff Bezos | owns | The Washington Post | date: 2013-10-01 | https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html | \"Amazon.com founder and chief executive Jeffrey P. Bezos formally took over as the owner of The Washington Post on Tuesday, officially ending 80 years of local control of the newspaper by the Graham family.\"\n- Jeff Bezos | acquisition_closed | The Washington Post | date: 2013-10-01 | https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html | \"Bezos\u2019s $250 million purchase was completed as expected with the signing of sale documents.\"\n- Nash Holdings | acquisition_closed | The Washington Post | date: 2013-10-01 | https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html | \"The signing transfers the newspaper and other assets from The Washington Post Co. to Nash Holdings, Bezos\u2019s private investment company.\"\n- Jeff Bezos | owns | Nash Holdings | date: 2013-10-01 | https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html | \"The signing transfers the newspaper and other assets from The Washington Post Co. to Nash Holdings, Bezos\u2019s private investment company.\"\n- The Washington Post | controlled_by | Graham family | date: 2013-10-01 | https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html | \"officially ending 80 years of local control of the newspaper by the Graham family.\"\n- Nash Holdings | owns | The Washington Post | date: None | https://en.wikipedia.org/wiki/The_Washington_Post | \"| Owner | Nash Holdings (Jeff Bezos) |\"\n- Jeff D'Onofrio | other_officer_of | The Washington Post | date: None | https://en.wikipedia.org/wiki/The_Washington_Post | \"| Publisher | Jeff D'Onofrio |\"\n- Matt Murray | other_officer_of | The Washington Post | date: None | https://en.wikipedia.org/wiki/The_Washington_Post | \"| Editor-in-chief | Matt Murray |\"\n- Eugene Meyer | acquisition_closed | The Washington Post | date: 1933 | https://en.wikipedia.org/wiki/The_Washington_Post | \"In 1933, financier Eugene Meyer purchased it out of bankruptcy and revived its health and reputation;\"\n- Nash Holdings | acquisition_closed | The Washington Post | date: 2013-10 | https://en.wikipedia.org/wiki/The_Washington_Post | \"In October 2013, the Graham family sold the newspaper to Nash Holdings, a holding company owned by Jeff Bezos, for US$250 million.\"\n- Jeff Bezos | owns | Nash Holdings | date: 2013-10 | https://en.wikipedia.org/wiki/The_Washington_Post | \"In October 2013, the Graham family sold the newspaper to Nash Holdings, a holding company owned by Jeff Bezos, for US$250 million.\"\n- Jeff Bezos | acquisition_announced | The Washington Post | date: 2013-08-05 | https://www.washingtonpost.com/national/washington-post-to-be-sold-to-jeff-bezos/2013/08/05/ca537c9e-fe0c-11e2-9711-3708310f6f4d_story.html | \"The Washington Post Co. agreed Monday to sell its flagship newspaper to Amazon.com founder and chief executive Jeffrey P. Bezos, ending the Graham family\u2019s stewardship of one of America\u2019s leading news organizations after four generations.\"\n- The Washington Post Co. | owns | The Washington Post | date: 2013-08-05 | https://www.washingtonpost.com/national/washington-post-to-be-sold-to-jeff-bezos/2013/08/05/ca537c9e-fe0c-11e2-9711-3708310f6f4d_story.html | \"The Washington Post Co. agreed Monday to sell its flagship newspaper to Amazon.com founder and chief executive Jeffrey P. Bezos\"\n- Graham family | owns | The Washington Post | date: 2013-08-05 | https://www.washingtonpost.com/national/washington-post-to-be-sold-to-jeff-bezos/2013/08/05/ca537c9e-fe0c-11e2-9711-3708310f6f4d_story.html | \"after 80 years of Graham family ownership.\"\n- Donald Graham | chief_executive_of | The Washington Post Co. | date: 2013-08-05 | https://www.washingtonpost.com/national/washington-post-to-be-sold-to-jeff-bezos/2013/08/05/ca537c9e-fe0c-11e2-9711-3708310f6f4d_story.html | \"Donald Graham, the Post Co. chairman and chief executive\"\n- Jeff D\u2019Onofrio | chief_executive_of | The Washington Post | date: 2026-09-09 | https://www.bloomberg.com/news/articles/2026-09-09/washington-post-makes-jeff-d-onofrio-permanent-ceo-publisher | \"Jeff D\u2019Onofrio was named publisher and chief executive officer of the Washington Post, formalizing his position since taking over from Will Lewis in February.\"\n- Jeff Bezos | owns | The Washington Post | date: 2026-09-09 | https://www.bloomberg.com/news/articles/2026-09-09/washington-post-makes-jeff-d-onofrio-permanent-ceo-publisher | \"including owner Jeff Bezos\u2019 decision to end presidential endorsements\"\n- Jeff D\u2019Onofrio | chief_executive_of | The Washington Post | date: 2026-09-10 | https://www.poynter.org/commentary/2026/jeff-donofrio-washington-post-publisher-ceo/ | \"Jeff D\u2019Onofrio has officially been named publisher and CEO of the Post.\"\n- Jeff D\u2019Onofrio | chief_executive_of | The Washington Post | date: seven months ago | https://www.poynter.org/commentary/2026/jeff-donofrio-washington-post-publisher-ceo/ | \"He was named interim publisher and CEO seven months ago, taking over for the controversial Will Lewis\"\n- Jeff Bezos | owns | The Washington Post | date: 2026-09-10 | https://www.poynter.org/commentary/2026/jeff-donofrio-washington-post-publisher-ceo/ | \"In an email to staff, Post owner Jeff Bezos said\"\n- Jeff D\u2019Onofrio | other_officer_of | The Washington Post | date: 2025-06 | https://www.poynter.org/commentary/2026/jeff-donofrio-washington-post-publisher-ceo/ | \"D\u2019Onofrio joined the Post in June 2025 as chief financial officer.\"\n- Will Lewis | chief_executive_of | The Washington Post | date: 2026-02-07 | https://www-s1.npr.org/2026/02/07/nx-s1-5705413/washington-post-ceo-resigns-will-lewis | \"The Washington Post Publisher and Chief Executive Will Lewis announced Saturday evening he would depart after just two years at the paper, a tenure marked by controversy and crisis.\"\n- Jeff D'Onofrio | other_officer_of | The Washington Post | date: 2026-02-07 | https://www-s1.npr.org/2026/02/07/nx-s1-5705413/washington-post-ceo-resigns-will-lewis | \"The paper's chief financial officer, Jeff D'Onofrio, will serve as acting CEO.\"\n- Jeff D'Onofrio | chief_executive_of | The Washington Post | date: 2026-02-07 | https://www-s1.npr.org/2026/02/07/nx-s1-5705413/washington-post-ceo-resigns-will-lewis | \"The paper's chief financial officer, Jeff D'Onofrio, will serve as acting CEO.\"\n- Jeff Bezos | owns | The Washington Post | date: 2026-02-07 | https://www-s1.npr.org/2026/02/07/nx-s1-5705413/washington-post-ceo-resigns-will-lewis | \"Amazon founder Jeff Bezos, the paper's owner\"\n- Matt Murray | other_officer_of | The Washington Post | date: 2026-02-07 | https://www-s1.npr.org/2026/02/07/nx-s1-5705413/washington-post-ceo-resigns-will-lewis | \"Executive Editor Matt Murray told staffers on Wednesday\"\n- Will Lewis | chief_executive_of | The Washington Post | date: 2026-02-08 | https://www.euronews.com/2026/02/08/ceo-of-the-washington-post-steps-down-days-after-mass-layoffs | \"Will Lewis, CEO of The Washington Post, announced on Saturday he is stepping down, just days after the newspaper said that it was laying off one-third of its staff.\"\n- Jeff D'Onofrio | other_officer_of | The Washington Post | date: 2026-02-08 | https://www.euronews.com/2026/02/08/ceo-of-the-washington-post-steps-down-days-after-mass-layoffs | \"Lewis will be temporarily replaced by The Post's chief financial officer, Jeff D'Onofrio.\"\n- Jeff D'Onofrio | chief_executive_of | The Washington Post | date: 2026-02-08 | https://www.euronews.com/2026/02/08/ceo-of-the-washington-post-steps-down-days-after-mass-layoffs | \"Lewis will be temporarily replaced by The Post's chief financial officer, Jeff D'Onofrio.\"\n- Jeff Bezos | owns | The Washington Post | date: 2026-02-08 | https://www.euronews.com/2026/02/08/ceo-of-the-washington-post-steps-down-days-after-mass-layoffs | \"Neither Lewis nor the newspaper's billionaire owner Jeff Bezos participated in the meeting with staff members announcing the layoffs on Wednesday.\"\n- Martin Baron | other_officer_of | The Washington Post | date: None | https://www.euronews.com/2026/02/08/ceo-of-the-washington-post-steps-down-days-after-mass-layoffs | \"Martin Baron, The Post\u2019s first editor under Bezos\"\n- Jeff Bezos | owns | The Washington Post | date: 2026-02-09 | https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down | \"Now the storied paper's future lies firmly in the hands of its owner, Amazon founder Jeff Bezos.\"\n- Jeff D'Onofrio | other_officer_of | The Washington Post | date: 2026-02-09 | https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down | \"So Bezos named the paper's pretty new CFO. His name's Jeff D'Onofrio.\"\n- Jeff D'Onofrio | chief_executive_of | The Washington Post | date: 2026-02-09 | https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down | \"His name's Jeff D'Onofrio. He's the acting CEO.\"\n- Will Lewis | chief_executive_of | The Washington Post | date: 2026-02-09 | https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down | \"How does the staff feel about publisher and CEO Will Lewis leaving?\"\n- Matt Murray | other_officer_of | The Washington Post | date: 2026-02-09 | https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down | \"Executive editor Matt Murray preserved coverage of national security and national policy\"\n- Jeff Bezos | acquisition_closed | The Washington Post | date: 2013 | https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down | \"Bezos bought the paper in 2013.\"\n- Marty Baron | other_officer_of | The Washington Post | date: None | https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down | \"Marty Baron, the former executive editor\"\n\nEvidence state checks: conflict: several owners named: ['graham family', 'jeff bezos', 'nash', 'washington post']\nAnswer only from this dossier. Where it does not establish a field, mark it not_established.",
+ "claims": [
+  {
+   "doc": "D1",
+   "subject": "Jeff D\u2019Onofrio",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "### Jeff D\u2019Onofrio\n**Publisher & CEO**",
+   "date_in_doc": null,
+   "url": "https://www.washingtonpost.com/company-history/"
+  },
+  {
+   "doc": "D1",
+   "subject": "Matt Murray",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Matt Murray\n**Executive Editor**",
+   "date_in_doc": null,
+   "url": "https://www.washingtonpost.com/company-history/"
+  },
+  {
+   "doc": "D1",
+   "subject": "Mark Lasswell",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Mark Lasswell\n**Interim Opinions Editor**",
+   "date_in_doc": null,
+   "url": "https://www.washingtonpost.com/company-history/"
+  },
+  {
+   "doc": "D1",
+   "subject": "Karl Wells",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Karl Wells\n**Chief Revenue Officer**",
+   "date_in_doc": null,
+   "url": "https://www.washingtonpost.com/company-history/"
+  },
+  {
+   "doc": "D1",
+   "subject": "L. Wayne Connell",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### L. Wayne Connell\n**Chief Human Resources Officer**",
+   "date_in_doc": null,
+   "url": "https://www.washingtonpost.com/company-history/"
+  },
+  {
+   "doc": "D1",
+   "subject": "Alesia Lewis",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Alesia Lewis\n**Chief Financial Officer**",
+   "date_in_doc": null,
+   "url": "https://www.washingtonpost.com/company-history/"
+  },
+  {
+   "doc": "D2",
+   "subject": "Jeff Bezos",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "The Washington Post is owned by Jeff Bezos, executive chairman of Amazon.",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D2",
+   "subject": "Jeff D\u2019Onofrio",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "### Jeff D\u2019Onofrio\n\nPublisher & CEO",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D2",
+   "subject": "Matt Murray",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Matt Murray\n\nExecutive Editor",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D2",
+   "subject": "Mark Lasswell",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Mark Lasswell\n\nInterim Opinions Editor",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D2",
+   "subject": "Karl Wells",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Karl Wells\n\nChief Revenue Officer",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D2",
+   "subject": "L. Wayne Connell",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### L. Wayne Connell\n\nChief Human Resources Officer",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D2",
+   "subject": "Alesia Lewis",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Alesia Lewis\n\nChief Financial Officer",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D2",
+   "subject": "Gregg J. Fernandes",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Gregg J. Fernandes\n\nChief of Print Operations",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D2",
+   "subject": "Jay Kennedy",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Jay Kennedy\n\nVice President, General Counsel & Labor",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D2",
+   "subject": "Vineet Khosla",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Vineet Khosla\n\nChief Technology Officer",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D2",
+   "subject": "Suzi Watford",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Suzi Watford\n\nChief Strategy Officer",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D2",
+   "subject": "Mike Dyer",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Mike Dyer\n\nChief Product Officer",
+   "date_in_doc": null,
+   "url": "https://corporate.washingtonpost.com/about"
+  },
+  {
+   "doc": "D3",
+   "subject": "Jeff Bezos",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "The Washington Post is owned by Jeff Bezos, executive chairman of Amazon.",
+   "date_in_doc": null,
+   "url": "https://company.washingtonpost.com/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Jeff D\u2019Onofrio",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "### Jeff D\u2019Onofrio\n\nPublisher & CEO",
+   "date_in_doc": null,
+   "url": "https://company.washingtonpost.com/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Matt Murray",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Matt Murray\n\nExecutive Editor",
+   "date_in_doc": null,
+   "url": "https://company.washingtonpost.com/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Mark Lasswell",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Mark Lasswell\n\nInterim Opinions Editor",
+   "date_in_doc": null,
+   "url": "https://company.washingtonpost.com/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Karl Wells",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Karl Wells\n\nChief Revenue Officer",
+   "date_in_doc": null,
+   "url": "https://company.washingtonpost.com/"
+  },
+  {
+   "doc": "D3",
+   "subject": "L. Wayne Connell",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### L. Wayne Connell\n\nChief Human Resources Officer",
+   "date_in_doc": null,
+   "url": "https://company.washingtonpost.com/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Alesia Lewis",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Alesia Lewis\n\nActing Chief Financial Officer",
+   "date_in_doc": null,
+   "url": "https://company.washingtonpost.com/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Gregg J. Fernandes",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Gregg J. Fernandes\n\nChief of Print Operations",
+   "date_in_doc": null,
+   "url": "https://company.washingtonpost.com/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Jay Kennedy",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Jay Kennedy\n\nVice President, General Counsel & Labor",
+   "date_in_doc": null,
+   "url": "https://company.washingtonpost.com/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Vineet Khosla",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Vineet Khosla\n\nChief Technology Officer",
+   "date_in_doc": null,
+   "url": "https://company.washingtonpost.com/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Suzi Watford",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "### Suzi Watford\n\nChief Strategy Officer",
+   "date_in_doc": null,
+   "url": "https://company.washingtonpost.com/"
+  },
+  {
+   "doc": "D4",
+   "subject": "Jeff Bezos",
+   "relation": "acquisition_announced",
+   "object": "The Washington Post",
+   "quote": "Amazon CEO Jeffrey Bezos is buying The Washington Post newspaper, which broke the Watergate scandal and drove a president out of office, and its affiliated publications for $250 million.",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877"
+  },
+  {
+   "doc": "D4",
+   "subject": "Graham family",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "The sale ends the Graham family's ownership of the flagship newspaper of The Washington Post Company (NYSE: WPO), which will change to a new name and continue as a publicly traded company.",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877"
+  },
+  {
+   "doc": "D4",
+   "subject": "The Washington Post Company",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "The sale ends the Graham family's ownership of the flagship newspaper of The Washington Post Company (NYSE: WPO), which will change to a new name and continue as a publicly traded company.",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877"
+  },
+  {
+   "doc": "D4",
+   "subject": "Donald E. Graham",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post Company",
+   "quote": "Donald E. Graham, chairman and CEO of The Washington Post Company, said in a statement.",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877"
+  },
+  {
+   "doc": "D4",
+   "subject": "Katharine Weymouth",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "Katharine Weymouth, CEO and Publisher of The Washington Post",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877"
+  },
+  {
+   "doc": "D4",
+   "subject": "Stephen P. Hills",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "Stephen P. Hills, President and General Manager",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877"
+  },
+  {
+   "doc": "D4",
+   "subject": "Martin Baron",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "Martin Baron, Executive Editor",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877"
+  },
+  {
+   "doc": "D4",
+   "subject": "Fred Hiatt",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "Fred Hiatt, Editor of the Editorial Page.",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www-cdn.abcnews.com/Business/washington-post-newspaper-sold-amazon-ceo-jeffrey-bezos/story?id=19875877"
+  },
+  {
+   "doc": "D6",
+   "subject": "Paul B. Dauber",
+   "relation": "other_officer_of",
+   "object": "Nash Holdings LLC",
+   "quote": "Nash Holdings LLC\nP.O. Box 94314\nSeattle, Washington 98124\nAttention: Paul B. Dauber, Esq., Manager",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex2-1.htm"
+  },
+  {
+   "doc": "D6",
+   "subject": "Nash Holdings LLC",
+   "relation": "acquisition_announced",
+   "object": "Post Business",
+   "quote": "Nash Holdings LLC, a Delaware limited liability company (the \u201cPurchaser\u201d), and, solely to the extent provided herein, Explore Holdings LLC, a Washington limited liability company (the \u201cGuarantor\u201d), regarding the sale to the Purchaser of the Post Business",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex2-1.htm"
+  },
+  {
+   "doc": "D6",
+   "subject": "WP Company LLC",
+   "relation": "subsidiary_of",
+   "object": "The Washington Post Company",
+   "quote": "WP Company LLC, Express Publications Company, LLC, El Tiempo Latino, LLC, Robinson Terminal Warehouse, LLC, Greater Washington Publishing, LLC and Post-Newsweek Media, LLC (collectively, the \u201cPost Subsidiaries\u201d), which Post Subsidiaries are each subsidiaries of the Seller",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex2-1.htm"
+  },
+  {
+   "doc": "D6",
+   "subject": "The Washington Post Company",
+   "relation": "other",
+   "object": "The Washington Post",
+   "quote": "\u201cPost Business\u201d means the publishing businesses conducted by the Seller and its subsidiaries, including publishing The Washington Post newspaper and the newspaper\u2019s internet site washingtonpost.com;",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex2-1.htm"
+  },
+  {
+   "doc": "D7",
+   "subject": "Jeff Bezos",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "The Washington Post, owned by Amazon.com(AMZN.O), opens new tab founder Jeff Bezos, began widespread layoffs on Wednesday",
+   "date_in_doc": "2026-02-04",
+   "url": "https://www.reuters.com/business/retail-consumer/washington-post-lay-off-hundreds-journalists-nyt-reports-2026-02-04/"
+  },
+  {
+   "doc": "D7",
+   "subject": "Jeff Bezos",
+   "relation": "acquisition_closed",
+   "object": "The Washington Post",
+   "quote": "Bezos bought the newspaper from Graham family in 2013",
+   "date_in_doc": "2013",
+   "url": "https://www.reuters.com/business/retail-consumer/washington-post-lay-off-hundreds-journalists-nyt-reports-2026-02-04/"
+  },
+  {
+   "doc": "D7",
+   "subject": "Matt Murray",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "Executive Editor Matt Murray",
+   "date_in_doc": "2026-02-04",
+   "url": "https://www.reuters.com/business/retail-consumer/washington-post-lay-off-hundreds-journalists-nyt-reports-2026-02-04/"
+  },
+  {
+   "doc": "D8",
+   "subject": "Jeff Bezos",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "Amazon.com founder and chief executive Jeffrey P. Bezos formally took over as the owner of The Washington Post on Tuesday, officially ending 80 years of local control of the newspaper by the Graham family.",
+   "date_in_doc": "2013-10-01",
+   "url": "https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html"
+  },
+  {
+   "doc": "D8",
+   "subject": "Jeff Bezos",
+   "relation": "acquisition_closed",
+   "object": "The Washington Post",
+   "quote": "Bezos\u2019s $250 million purchase was completed as expected with the signing of sale documents.",
+   "date_in_doc": "2013-10-01",
+   "url": "https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html"
+  },
+  {
+   "doc": "D8",
+   "subject": "Nash Holdings",
+   "relation": "acquisition_closed",
+   "object": "The Washington Post",
+   "quote": "The signing transfers the newspaper and other assets from The Washington Post Co. to Nash Holdings, Bezos\u2019s private investment company.",
+   "date_in_doc": "2013-10-01",
+   "url": "https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html"
+  },
+  {
+   "doc": "D8",
+   "subject": "Jeff Bezos",
+   "relation": "owns",
+   "object": "Nash Holdings",
+   "quote": "The signing transfers the newspaper and other assets from The Washington Post Co. to Nash Holdings, Bezos\u2019s private investment company.",
+   "date_in_doc": "2013-10-01",
+   "url": "https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html"
+  },
+  {
+   "doc": "D8",
+   "subject": "The Washington Post",
+   "relation": "controlled_by",
+   "object": "Graham family",
+   "quote": "officially ending 80 years of local control of the newspaper by the Graham family.",
+   "date_in_doc": "2013-10-01",
+   "url": "https://www.washingtonpost.com/business/economy/washington-post-closes-sale-to-amazon-founder-jeff-bezos/2013/10/01/fca3b16a-2acf-11e3-97a3-ff2758228523_story.html"
+  },
+  {
+   "doc": "D9",
+   "subject": "Nash Holdings",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "| Owner | Nash Holdings (Jeff Bezos) |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/The_Washington_Post"
+  },
+  {
+   "doc": "D9",
+   "subject": "Jeff D'Onofrio",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "| Publisher | Jeff D'Onofrio |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/The_Washington_Post"
+  },
+  {
+   "doc": "D9",
+   "subject": "Matt Murray",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "| Editor-in-chief | Matt Murray |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/The_Washington_Post"
+  },
+  {
+   "doc": "D9",
+   "subject": "Eugene Meyer",
+   "relation": "acquisition_closed",
+   "object": "The Washington Post",
+   "quote": "In 1933, financier Eugene Meyer purchased it out of bankruptcy and revived its health and reputation;",
+   "date_in_doc": "1933",
+   "url": "https://en.wikipedia.org/wiki/The_Washington_Post"
+  },
+  {
+   "doc": "D9",
+   "subject": "Nash Holdings",
+   "relation": "acquisition_closed",
+   "object": "The Washington Post",
+   "quote": "In October 2013, the Graham family sold the newspaper to Nash Holdings, a holding company owned by Jeff Bezos, for US$250 million.",
+   "date_in_doc": "2013-10",
+   "url": "https://en.wikipedia.org/wiki/The_Washington_Post"
+  },
+  {
+   "doc": "D9",
+   "subject": "Jeff Bezos",
+   "relation": "owns",
+   "object": "Nash Holdings",
+   "quote": "In October 2013, the Graham family sold the newspaper to Nash Holdings, a holding company owned by Jeff Bezos, for US$250 million.",
+   "date_in_doc": "2013-10",
+   "url": "https://en.wikipedia.org/wiki/The_Washington_Post"
+  },
+  {
+   "doc": "D10",
+   "subject": "Jeff Bezos",
+   "relation": "acquisition_announced",
+   "object": "The Washington Post",
+   "quote": "The Washington Post Co. agreed Monday to sell its flagship newspaper to Amazon.com founder and chief executive Jeffrey P. Bezos, ending the Graham family\u2019s stewardship of one of America\u2019s leading news organizations after four generations.",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www.washingtonpost.com/national/washington-post-to-be-sold-to-jeff-bezos/2013/08/05/ca537c9e-fe0c-11e2-9711-3708310f6f4d_story.html"
+  },
+  {
+   "doc": "D10",
+   "subject": "The Washington Post Co.",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "The Washington Post Co. agreed Monday to sell its flagship newspaper to Amazon.com founder and chief executive Jeffrey P. Bezos",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www.washingtonpost.com/national/washington-post-to-be-sold-to-jeff-bezos/2013/08/05/ca537c9e-fe0c-11e2-9711-3708310f6f4d_story.html"
+  },
+  {
+   "doc": "D10",
+   "subject": "Graham family",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "after 80 years of Graham family ownership.",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www.washingtonpost.com/national/washington-post-to-be-sold-to-jeff-bezos/2013/08/05/ca537c9e-fe0c-11e2-9711-3708310f6f4d_story.html"
+  },
+  {
+   "doc": "D10",
+   "subject": "Donald Graham",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post Co.",
+   "quote": "Donald Graham, the Post Co. chairman and chief executive",
+   "date_in_doc": "2013-08-05",
+   "url": "https://www.washingtonpost.com/national/washington-post-to-be-sold-to-jeff-bezos/2013/08/05/ca537c9e-fe0c-11e2-9711-3708310f6f4d_story.html"
+  },
+  {
+   "doc": "D11",
+   "subject": "Jeff D\u2019Onofrio",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "Jeff D\u2019Onofrio was named publisher and chief executive officer of the Washington Post, formalizing his position since taking over from Will Lewis in February.",
+   "date_in_doc": "2026-09-09",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-09/washington-post-makes-jeff-d-onofrio-permanent-ceo-publisher"
+  },
+  {
+   "doc": "D11",
+   "subject": "Jeff Bezos",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "including owner Jeff Bezos\u2019 decision to end presidential endorsements",
+   "date_in_doc": "2026-09-09",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-09/washington-post-makes-jeff-d-onofrio-permanent-ceo-publisher"
+  },
+  {
+   "doc": "D12",
+   "subject": "Jeff D\u2019Onofrio",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "Jeff D\u2019Onofrio has officially been named publisher and CEO of the Post.",
+   "date_in_doc": "2026-09-10",
+   "url": "https://www.poynter.org/commentary/2026/jeff-donofrio-washington-post-publisher-ceo/"
+  },
+  {
+   "doc": "D12",
+   "subject": "Jeff D\u2019Onofrio",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "He was named interim publisher and CEO seven months ago, taking over for the controversial Will Lewis",
+   "date_in_doc": "seven months ago",
+   "url": "https://www.poynter.org/commentary/2026/jeff-donofrio-washington-post-publisher-ceo/"
+  },
+  {
+   "doc": "D12",
+   "subject": "Jeff Bezos",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "In an email to staff, Post owner Jeff Bezos said",
+   "date_in_doc": "2026-09-10",
+   "url": "https://www.poynter.org/commentary/2026/jeff-donofrio-washington-post-publisher-ceo/"
+  },
+  {
+   "doc": "D12",
+   "subject": "Jeff D\u2019Onofrio",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "D\u2019Onofrio joined the Post in June 2025 as chief financial officer.",
+   "date_in_doc": "2025-06",
+   "url": "https://www.poynter.org/commentary/2026/jeff-donofrio-washington-post-publisher-ceo/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Will Lewis",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "The Washington Post Publisher and Chief Executive Will Lewis announced Saturday evening he would depart after just two years at the paper, a tenure marked by controversy and crisis.",
+   "date_in_doc": "2026-02-07",
+   "url": "https://www-s1.npr.org/2026/02/07/nx-s1-5705413/washington-post-ceo-resigns-will-lewis"
+  },
+  {
+   "doc": "D13",
+   "subject": "Jeff D'Onofrio",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "The paper's chief financial officer, Jeff D'Onofrio, will serve as acting CEO.",
+   "date_in_doc": "2026-02-07",
+   "url": "https://www-s1.npr.org/2026/02/07/nx-s1-5705413/washington-post-ceo-resigns-will-lewis"
+  },
+  {
+   "doc": "D13",
+   "subject": "Jeff D'Onofrio",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "The paper's chief financial officer, Jeff D'Onofrio, will serve as acting CEO.",
+   "date_in_doc": "2026-02-07",
+   "url": "https://www-s1.npr.org/2026/02/07/nx-s1-5705413/washington-post-ceo-resigns-will-lewis"
+  },
+  {
+   "doc": "D13",
+   "subject": "Jeff Bezos",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "Amazon founder Jeff Bezos, the paper's owner",
+   "date_in_doc": "2026-02-07",
+   "url": "https://www-s1.npr.org/2026/02/07/nx-s1-5705413/washington-post-ceo-resigns-will-lewis"
+  },
+  {
+   "doc": "D13",
+   "subject": "Matt Murray",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "Executive Editor Matt Murray told staffers on Wednesday",
+   "date_in_doc": "2026-02-07",
+   "url": "https://www-s1.npr.org/2026/02/07/nx-s1-5705413/washington-post-ceo-resigns-will-lewis"
+  },
+  {
+   "doc": "D14",
+   "subject": "Will Lewis",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "Will Lewis, CEO of The Washington Post, announced on Saturday he is stepping down, just days after the newspaper said that it was laying off one-third of its staff.",
+   "date_in_doc": "2026-02-08",
+   "url": "https://www.euronews.com/2026/02/08/ceo-of-the-washington-post-steps-down-days-after-mass-layoffs"
+  },
+  {
+   "doc": "D14",
+   "subject": "Jeff D'Onofrio",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "Lewis will be temporarily replaced by The Post's chief financial officer, Jeff D'Onofrio.",
+   "date_in_doc": "2026-02-08",
+   "url": "https://www.euronews.com/2026/02/08/ceo-of-the-washington-post-steps-down-days-after-mass-layoffs"
+  },
+  {
+   "doc": "D14",
+   "subject": "Jeff D'Onofrio",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "Lewis will be temporarily replaced by The Post's chief financial officer, Jeff D'Onofrio.",
+   "date_in_doc": "2026-02-08",
+   "url": "https://www.euronews.com/2026/02/08/ceo-of-the-washington-post-steps-down-days-after-mass-layoffs"
+  },
+  {
+   "doc": "D14",
+   "subject": "Jeff Bezos",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "Neither Lewis nor the newspaper's billionaire owner Jeff Bezos participated in the meeting with staff members announcing the layoffs on Wednesday.",
+   "date_in_doc": "2026-02-08",
+   "url": "https://www.euronews.com/2026/02/08/ceo-of-the-washington-post-steps-down-days-after-mass-layoffs"
+  },
+  {
+   "doc": "D14",
+   "subject": "Martin Baron",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "Martin Baron, The Post\u2019s first editor under Bezos",
+   "date_in_doc": null,
+   "url": "https://www.euronews.com/2026/02/08/ceo-of-the-washington-post-steps-down-days-after-mass-layoffs"
+  },
+  {
+   "doc": "D15",
+   "subject": "Jeff Bezos",
+   "relation": "owns",
+   "object": "The Washington Post",
+   "quote": "Now the storied paper's future lies firmly in the hands of its owner, Amazon founder Jeff Bezos.",
+   "date_in_doc": "2026-02-09",
+   "url": "https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down"
+  },
+  {
+   "doc": "D15",
+   "subject": "Jeff D'Onofrio",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "So Bezos named the paper's pretty new CFO. His name's Jeff D'Onofrio.",
+   "date_in_doc": "2026-02-09",
+   "url": "https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down"
+  },
+  {
+   "doc": "D15",
+   "subject": "Jeff D'Onofrio",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "His name's Jeff D'Onofrio. He's the acting CEO.",
+   "date_in_doc": "2026-02-09",
+   "url": "https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down"
+  },
+  {
+   "doc": "D15",
+   "subject": "Will Lewis",
+   "relation": "chief_executive_of",
+   "object": "The Washington Post",
+   "quote": "How does the staff feel about publisher and CEO Will Lewis leaving?",
+   "date_in_doc": "2026-02-09",
+   "url": "https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down"
+  },
+  {
+   "doc": "D15",
+   "subject": "Matt Murray",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "Executive editor Matt Murray preserved coverage of national security and national policy",
+   "date_in_doc": "2026-02-09",
+   "url": "https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down"
+  },
+  {
+   "doc": "D15",
+   "subject": "Jeff Bezos",
+   "relation": "acquisition_closed",
+   "object": "The Washington Post",
+   "quote": "Bezos bought the paper in 2013.",
+   "date_in_doc": "2013",
+   "url": "https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down"
+  },
+  {
+   "doc": "D15",
+   "subject": "Marty Baron",
+   "relation": "other_officer_of",
+   "object": "The Washington Post",
+   "quote": "Marty Baron, the former executive editor",
+   "date_in_doc": null,
+   "url": "https://www.nhpr.org/2026-02-09/days-after-mass-layoffs-washington-post-ceo-steps-down"
+  }
+ ],
+ "flags": [
+  [
+   "conflict",
+   "several owners named: ['graham family', 'jeff bezos', 'nash', 'washington post']"
+  ]
+ ],
+ "steps": [
+  {
+   "step": "extract",
+   "usd": 0.0669052,
+   "latency_s": 82.8,
+   "model_returned": "gpt-6.1-sol"
+  },
+  {
+   "step": "solve",
+   "effort": "high",
+   "usd": 0.039402,
+   "latency_s": 68.0
+  }
+ ],
+ "usd_total": 0.10630719999999999,
+ "latency_total_s": 150.8,
+ "escalated": true,
+ "extra_docs": 0,
+ "arm": "B",
+ "case": "wapo",
+ "run": 2,
+ "saved": "2026-10-04T19:31:40-0300"
+}

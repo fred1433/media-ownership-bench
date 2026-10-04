@@ -1,0 +1,429 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"CBS Broadcasting Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=25452\",\n        \"quote\": \"Name: CBS BROADCASTING INC.\"\n      },\n      {\n        \"url\": \"https://publicfiles.fcc.gov/tv-profile/KPIX-TV\",\n        \"quote\": \"Licensee: CBS BROADCASTING INC.\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"CBS Broadcasting Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/tv-profile/KPIX-TV\",\n        \"quote\": \"Licensee: CBS BROADCASTING INC.\"\n      },\n      {\n        \"url\": \"https://en.wikipedia.org/wiki/KPIX-TV\",\n        \"quote\": \"It is owned and operated by the CBS television network through its CBS News and Stations division\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": \"Chief executive officer\",\n    \"entity\": \"Paramount Skydance Corporation\",\n    \"citations\": []\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"The dossier establishes CBS Broadcasting Inc. as the FCC licensee and describes KPIX-TV as CBS-owned and operated through CBS News and Stations, rather than operated by an independent company. It does not establish the legal ownership links above CBS Broadcasting Inc. Although a source calls Paramount CBS's parent company, it neither supplies the intervening legal entities nor establishes Paramount Skydance Corporation as the ultimate parent. Wilmerding CBS Holding Company's reported attributable interest is insufficient to establish a direct ownership link. Associated Broadcasters is identified only as the original owner. No supplied evidence establishes a controlling person, the current CEO of Paramount Skydance Corporation, or an ownership transaction. The FCC licensee records supplied are undated, so their currency on 2026-10-04 cannot be independently verified from this dossier.\"\n}",
+ "usage": {
+  "input_tokens": 3427,
+  "input_tokens_details": {
+   "cache_write_tokens": 3424,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1562,
+  "output_tokens_details": {
+   "reasoning_tokens": 1034
+  },
+  "total_tokens": 4989
+ },
+ "usd": 0.022474,
+ "latency_s": 42.3,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false,
+  "exa_queries": 7
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "dossier": "Question (as of 2026-10-04): As of 2026-10-04, who is the current FCC licensee or legal owner of KPIX-TV San Francisco (facility 25452), what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current chief executive officer of Paramount Skydance Corporation?\nOutlet: KPIX-TV (CBS News Bay Area) (tv, San Francisco-Oakland-San Jose, CA, call sign KPIX-TV).\nLeader definition for this question: current chief executive officer of Paramount Skydance Corporation\n\nEvidence dossier (claims extracted from retrieved documents; cite the URL and quote):\n- CBS Broadcasting Inc. | licensee_of | KPIX-TV | date: 10/01/2021 | https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076ff37d0c2816017d0fcbeb0608dc | \"25452 KPIX-TV SAN FRANCISCO CA DTV\"\n- Wilmerding CBS Holding Company, Inc. | other | CBS Broadcasting Inc. | date: 10/01/2021 | https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076ff37d0c2816017d0fcbeb0608dc | \"Entity required to file a Form 323 because it holds an \nattributable interest in one or more Licensees\"\n- CBS Broadcasting Inc. | licensee_of | KPIX-TV | date: None | https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=25452 | \"#### Licensee\n\nName: CBS BROADCASTING INC.\"\n- CBS Broadcasting Inc. | licensee_of | KPIX-TV | date: None | https://publicfiles.fcc.gov/tv-profile/KPIX-TV | \"Licensee: CBS BROADCASTING INC.\"\n- Jeff Jeandheur | other_officer_of | KPIX-TV | date: None | https://publicfiles.fcc.gov/tv-profile/KPIX-TV | \"Closed Captioning Contact: Jeff Jeandheur Director Broadcast Operations and Engineering\"\n- Scott Warren | other_officer_of | KPIX-TV | date: None | https://www.cbsnews.com/sanfrancisco/about/ | \"President/GM - Scott Warren: swarren@viacomcbs.com\"\n- Lisa White | other_officer_of | KPIX-TV | date: None | https://www.cbsnews.com/sanfrancisco/about/ | \"News Director: Lisa White: lwhite@viacomcbs.com\"\n- Jack Poorman | other_officer_of | KPIX-TV | date: None | https://www.cbsnews.com/sanfrancisco/about/ | \"Director of Creative Services - Jack Poorman: jack.poorman@paramount.com\"\n- Jeff Jeandheur | other_officer_of | KPIX-TV | date: None | https://www.cbsnews.com/sanfrancisco/about/ | \"Director of Engineering - Jeff Jeandheur: jrjeandheur@viacomcbs.com\"\n- Mike Karas | other_officer_of | KPIX-TV | date: None | https://www.cbsnews.com/sanfrancisco/about/ | \"Director of Programming - Mike Karas: karas@kdka.com\"\n- Mary Lea Wagner | other_officer_of | KPIX-TV | date: None | https://www.cbsnews.com/sanfrancisco/about/ | \"VP Sales - Mary Lea Wagner: marylea.wagner@paramount.com\"\n- CBS News and Stations | owns | KPIX-TV | date: None | https://en.wikipedia.org/wiki/KPIX-TV | \"| Owner | CBS News and Stations(CBS Broadcasting Inc.) |\"\n- CBS Broadcasting Inc. | owns | KPIX-TV | date: None | https://en.wikipedia.org/wiki/KPIX-TV | \"| Owner | CBS News and Stations(CBS Broadcasting Inc.) |\"\n- CBS | owns | KPIX-TV | date: None | https://en.wikipedia.org/wiki/KPIX-TV | \"It is owned and operated by the CBS television network through its CBS News and Stations division\"\n- CBS | other | KPIX-TV | date: None | https://en.wikipedia.org/wiki/KPIX-TV | \"It is owned and operated by the CBS television network through its CBS News and Stations division\"\n- CBS News and Stations | other | CBS | date: None | https://en.wikipedia.org/wiki/KPIX-TV | \"the CBS television network through its CBS News and Stations division\"\n- Associated Broadcasters | owns | KPIX-TV | date: None | https://en.wikipedia.org/wiki/KPIX-TV | \"It was originally owned by Associated Broadcasters, owners of KSFO (560 AM).\"\n- CBS | owns | KPIX-TV | date: None | https://tvnewscheck.com/promotion/article/kpix-goes-sea-to-sierra-with-norcal-branding-test/ | \"KPIX, the CBS-owned station serving the San Francisco Bay Area\"\n- Scott Warren | other_officer_of | KPIX-TV | date: None | https://tvnewscheck.com/journalism/article/kpix-expands-local-coverage-and-weather-to-monterey-and-santa-cruz-counties-as-kion-drops-its-local-news/ | \"Scott Warren, KPIX president-GM.\"\n- Scott Warren | other_officer_of | CBS Bay Area | date: None | https://www.tvtechnology.com/platform/broadcast/cbs-stations-promotes-scott-warren-to-regional-president-gm-of-northern-california | \"Scott Warren, president and general manager of CBS Bay Area\"\n- Scott Warren | other_officer_of | CBS Northern California | date: None | https://www.tvtechnology.com/platform/broadcast/cbs-stations-promotes-scott-warren-to-regional-president-gm-of-northern-california | \"CBS Stations has promoted Scott Warren, president and general manager of CBS Bay Area, to regional president and general manager of Northern California, overseeing CBS Bay Area and CBS Sacramento.\"\n- Jennifer Mitchell | other_officer_of | CBS Stations | date: None | https://www.tvtechnology.com/platform/broadcast/cbs-stations-promotes-scott-warren-to-regional-president-gm-of-northern-california | \"Jennifer Mitchell, president of CBS Stations and CBS News and Stations Digital.\"\n- Jennifer Mitchell | other_officer_of | CBS News and Stations Digital | date: None | https://www.tvtechnology.com/platform/broadcast/cbs-stations-promotes-scott-warren-to-regional-president-gm-of-northern-california | \"Jennifer Mitchell, president of CBS Stations and CBS News and Stations Digital.\"\n- Paramount | owns | CBS | date: None | https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/ | \"CBS parent company Paramount\"\n- Scott Warren | other_officer_of | KPIX-TV | date: None | https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/ | \"Warren will become the Vice President and General Manager of KOVR (Channel 13, CBS) and KMAX (Channel 31) in Sacramento while continuing to serve in the same role for San Francisco-area stations KPIX (Channel 5, CBS) and KPYX\"\n- Jennifer Mitchell | other_officer_of | CBS News and Stations | date: None | https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/ | \"Warren reports to Jennifer Mitchell, the President of CBS News and Stations, the local broadcast arm of Paramount.\"\n- CBS News and Stations | other | Paramount | date: None | https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/ | \"CBS News and Stations, the local broadcast arm of Paramount.\"\n- Scott Warren | other_officer_of | CBS Bay Area | date: None | https://tvnewscheck.com/business/article/cbs-stations-ups-scott-warren-to-regional-president-gm/ | \"Scott Warren, president and general manager of CBS Bay Area\"\n- Scott Warren | other_officer_of | CBS Northern California | date: None | https://tvnewscheck.com/business/article/cbs-stations-ups-scott-warren-to-regional-president-gm/ | \"CBS Stations has promoted Scott Warren, president and general manager of CBS Bay Area, to regional president and general manager of Northern California, overseeing CBS Bay Area and CBS Sacramento.\"\n- Jennifer Mitchell | other_officer_of | CBS Stations | date: None | https://tvnewscheck.com/business/article/cbs-stations-ups-scott-warren-to-regional-president-gm/ | \"Jennifer Mitchell, president of CBS Stations and CBS News and Stations Digital.\"\n- Jennifer Mitchell | other_officer_of | CBS News and Stations Digital | date: None | https://tvnewscheck.com/business/article/cbs-stations-ups-scott-warren-to-regional-president-gm/ | \"Jennifer Mitchell, president of CBS Stations and CBS News and Stations Digital.\"\n- Scott Warren | other_officer_of | CBS News Northern California | date: Jan 2026 - Present | https://www.linkedin.com/in/scott-warren-7bb2b07 | \"Regional President and General Manager CBS News Northern California\"\n- Scott Warren | other_officer_of | KPIX-TV | date: Mar 2022 - Feb 2026 | https://www.linkedin.com/in/scott-warren-7bb2b07 | \"### President and General Manager - [KPIX | CBS San Francisco/Bay Area](https://www.linkedin.com/company/kpix-cbs5)\n\nMar 2022 - Feb 2026 (3 years and 11 months)\"\n- CBS Broadcasting Inc. | licensee_of | KPIX-TV | date: None | https://publicfiles.fcc.gov/tv-profile/kpix-tv | \"Licensee: CBS BROADCASTING INC.\"\n- Jeff Jeandheur | other_officer_of | KPIX-TV | date: None | https://publicfiles.fcc.gov/tv-profile/kpix-tv | \"Closed Captioning Contact: Jeff Jeandheur Director Broadcast Operations and Engineering\"\n- Scott Warren | other_officer_of | KPIX-TV | date: None | https://www.awexr.com/usa-2023/speakers/5201-scott-warren | \"Scott Warren is the President and General Manager of CBS News and Stations\u2019 local businesses in the San Francisco Bay Area, including KPIX (CBS)\"\n- CBS News and Stations | owns | KPIX-TV | date: None | https://www.awexr.com/usa-2023/speakers/5201-scott-warren | \"CBS News and Stations\u2019 local businesses in the San Francisco Bay Area, including KPIX (CBS), KBCW (The CW), the CBS News Bay Area streaming channel and CBSSF.com.\"\n- CBS News and Stations | owns | KPIX-TV | date: 2022-05-12 | https://tvnewscheck.com/journalism/article/lisa-white-named-news-director-at-cbss-kpix-kbcw/ | \"CBS News and Stations\u2019 San Francisco properties KPIX (CBS), KBCW (CW), the CBS News Bay Area streaming channel and CBSSF.com.\"\n- Lisa White | other_officer_of | KPIX-TV | date: 2022-05-12 | https://tvnewscheck.com/journalism/article/lisa-white-named-news-director-at-cbss-kpix-kbcw/ | \"Veteran local news executive Lisa White has been promoted to vice president and news director at CBS News and Stations\u2019 San Francisco properties KPIX (CBS), KBCW (CW), the CBS News Bay Area streaming channel and CBSSF.com.\"\n- Scott Warren | other_officer_of | KPIX-TV | date: 2022-05-12 | https://tvnewscheck.com/journalism/article/lisa-white-named-news-director-at-cbss-kpix-kbcw/ | \"Scott Warren, president and general manager, said:\"\n\nEvidence state checks: conflict: several owners named: ['associated broadcasters', 'cbs', 'cbs broadcasting', 'cbs news and stations', 'paramount']; missing: who owns associated broadcasters; missing: the leader named in the leader definition\nAnswer only from this dossier. Where it does not establish a field, mark it not_established.",
+ "claims": [
+  {
+   "doc": "D2",
+   "subject": "CBS Broadcasting Inc.",
+   "relation": "licensee_of",
+   "object": "KPIX-TV",
+   "quote": "25452 KPIX-TV SAN FRANCISCO CA DTV",
+   "date_in_doc": "10/01/2021",
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076ff37d0c2816017d0fcbeb0608dc"
+  },
+  {
+   "doc": "D2",
+   "subject": "Wilmerding CBS Holding Company, Inc.",
+   "relation": "other",
+   "object": "CBS Broadcasting Inc.",
+   "quote": "Entity required to file a Form 323 because it holds an \nattributable interest in one or more Licensees",
+   "date_in_doc": "10/01/2021",
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076ff37d0c2816017d0fcbeb0608dc"
+  },
+  {
+   "doc": "D4",
+   "subject": "CBS Broadcasting Inc.",
+   "relation": "licensee_of",
+   "object": "KPIX-TV",
+   "quote": "#### Licensee\n\nName: CBS BROADCASTING INC.",
+   "date_in_doc": null,
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=25452"
+  },
+  {
+   "doc": "D6",
+   "subject": "CBS Broadcasting Inc.",
+   "relation": "licensee_of",
+   "object": "KPIX-TV",
+   "quote": "Licensee: CBS BROADCASTING INC.",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/tv-profile/KPIX-TV"
+  },
+  {
+   "doc": "D6",
+   "subject": "Jeff Jeandheur",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "Closed Captioning Contact: Jeff Jeandheur Director Broadcast Operations and Engineering",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/tv-profile/KPIX-TV"
+  },
+  {
+   "doc": "D7",
+   "subject": "Scott Warren",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "President/GM - Scott Warren: swarren@viacomcbs.com",
+   "date_in_doc": null,
+   "url": "https://www.cbsnews.com/sanfrancisco/about/"
+  },
+  {
+   "doc": "D7",
+   "subject": "Lisa White",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "News Director: Lisa White: lwhite@viacomcbs.com",
+   "date_in_doc": null,
+   "url": "https://www.cbsnews.com/sanfrancisco/about/"
+  },
+  {
+   "doc": "D7",
+   "subject": "Jack Poorman",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "Director of Creative Services - Jack Poorman: jack.poorman@paramount.com",
+   "date_in_doc": null,
+   "url": "https://www.cbsnews.com/sanfrancisco/about/"
+  },
+  {
+   "doc": "D7",
+   "subject": "Jeff Jeandheur",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "Director of Engineering - Jeff Jeandheur: jrjeandheur@viacomcbs.com",
+   "date_in_doc": null,
+   "url": "https://www.cbsnews.com/sanfrancisco/about/"
+  },
+  {
+   "doc": "D7",
+   "subject": "Mike Karas",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "Director of Programming - Mike Karas: karas@kdka.com",
+   "date_in_doc": null,
+   "url": "https://www.cbsnews.com/sanfrancisco/about/"
+  },
+  {
+   "doc": "D7",
+   "subject": "Mary Lea Wagner",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "VP Sales - Mary Lea Wagner: marylea.wagner@paramount.com",
+   "date_in_doc": null,
+   "url": "https://www.cbsnews.com/sanfrancisco/about/"
+  },
+  {
+   "doc": "D8",
+   "subject": "CBS News and Stations",
+   "relation": "owns",
+   "object": "KPIX-TV",
+   "quote": "| Owner | CBS News and Stations(CBS Broadcasting Inc.) |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KPIX-TV"
+  },
+  {
+   "doc": "D8",
+   "subject": "CBS Broadcasting Inc.",
+   "relation": "owns",
+   "object": "KPIX-TV",
+   "quote": "| Owner | CBS News and Stations(CBS Broadcasting Inc.) |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KPIX-TV"
+  },
+  {
+   "doc": "D8",
+   "subject": "CBS",
+   "relation": "owns",
+   "object": "KPIX-TV",
+   "quote": "It is owned and operated by the CBS television network through its CBS News and Stations division",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KPIX-TV"
+  },
+  {
+   "doc": "D8",
+   "subject": "CBS",
+   "relation": "other",
+   "object": "KPIX-TV",
+   "quote": "It is owned and operated by the CBS television network through its CBS News and Stations division",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KPIX-TV"
+  },
+  {
+   "doc": "D8",
+   "subject": "CBS News and Stations",
+   "relation": "other",
+   "object": "CBS",
+   "quote": "the CBS television network through its CBS News and Stations division",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KPIX-TV"
+  },
+  {
+   "doc": "D8",
+   "subject": "Associated Broadcasters",
+   "relation": "owns",
+   "object": "KPIX-TV",
+   "quote": "It was originally owned by Associated Broadcasters, owners of KSFO (560 AM).",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KPIX-TV"
+  },
+  {
+   "doc": "D9",
+   "subject": "CBS",
+   "relation": "owns",
+   "object": "KPIX-TV",
+   "quote": "KPIX, the CBS-owned station serving the San Francisco Bay Area",
+   "date_in_doc": null,
+   "url": "https://tvnewscheck.com/promotion/article/kpix-goes-sea-to-sierra-with-norcal-branding-test/"
+  },
+  {
+   "doc": "D10",
+   "subject": "Scott Warren",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "Scott Warren, KPIX president-GM.",
+   "date_in_doc": null,
+   "url": "https://tvnewscheck.com/journalism/article/kpix-expands-local-coverage-and-weather-to-monterey-and-santa-cruz-counties-as-kion-drops-its-local-news/"
+  },
+  {
+   "doc": "D11",
+   "subject": "Scott Warren",
+   "relation": "other_officer_of",
+   "object": "CBS Bay Area",
+   "quote": "Scott Warren, president and general manager of CBS Bay Area",
+   "date_in_doc": null,
+   "url": "https://www.tvtechnology.com/platform/broadcast/cbs-stations-promotes-scott-warren-to-regional-president-gm-of-northern-california"
+  },
+  {
+   "doc": "D11",
+   "subject": "Scott Warren",
+   "relation": "other_officer_of",
+   "object": "CBS Northern California",
+   "quote": "CBS Stations has promoted Scott Warren, president and general manager of CBS Bay Area, to regional president and general manager of Northern California, overseeing CBS Bay Area and CBS Sacramento.",
+   "date_in_doc": null,
+   "url": "https://www.tvtechnology.com/platform/broadcast/cbs-stations-promotes-scott-warren-to-regional-president-gm-of-northern-california"
+  },
+  {
+   "doc": "D11",
+   "subject": "Jennifer Mitchell",
+   "relation": "other_officer_of",
+   "object": "CBS Stations",
+   "quote": "Jennifer Mitchell, president of CBS Stations and CBS News and Stations Digital.",
+   "date_in_doc": null,
+   "url": "https://www.tvtechnology.com/platform/broadcast/cbs-stations-promotes-scott-warren-to-regional-president-gm-of-northern-california"
+  },
+  {
+   "doc": "D11",
+   "subject": "Jennifer Mitchell",
+   "relation": "other_officer_of",
+   "object": "CBS News and Stations Digital",
+   "quote": "Jennifer Mitchell, president of CBS Stations and CBS News and Stations Digital.",
+   "date_in_doc": null,
+   "url": "https://www.tvtechnology.com/platform/broadcast/cbs-stations-promotes-scott-warren-to-regional-president-gm-of-northern-california"
+  },
+  {
+   "doc": "D12",
+   "subject": "Paramount",
+   "relation": "owns",
+   "object": "CBS",
+   "quote": "CBS parent company Paramount",
+   "date_in_doc": null,
+   "url": "https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/"
+  },
+  {
+   "doc": "D12",
+   "subject": "Scott Warren",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "Warren will become the Vice President and General Manager of KOVR (Channel 13, CBS) and KMAX (Channel 31) in Sacramento while continuing to serve in the same role for San Francisco-area stations KPIX (Channel 5, CBS) and KPYX",
+   "date_in_doc": null,
+   "url": "https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/"
+  },
+  {
+   "doc": "D12",
+   "subject": "Jennifer Mitchell",
+   "relation": "other_officer_of",
+   "object": "CBS News and Stations",
+   "quote": "Warren reports to Jennifer Mitchell, the President of CBS News and Stations, the local broadcast arm of Paramount.",
+   "date_in_doc": null,
+   "url": "https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/"
+  },
+  {
+   "doc": "D12",
+   "subject": "CBS News and Stations",
+   "relation": "other",
+   "object": "Paramount",
+   "quote": "CBS News and Stations, the local broadcast arm of Paramount.",
+   "date_in_doc": null,
+   "url": "https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Scott Warren",
+   "relation": "other_officer_of",
+   "object": "CBS Bay Area",
+   "quote": "Scott Warren, president and general manager of CBS Bay Area",
+   "date_in_doc": null,
+   "url": "https://tvnewscheck.com/business/article/cbs-stations-ups-scott-warren-to-regional-president-gm/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Scott Warren",
+   "relation": "other_officer_of",
+   "object": "CBS Northern California",
+   "quote": "CBS Stations has promoted Scott Warren, president and general manager of CBS Bay Area, to regional president and general manager of Northern California, overseeing CBS Bay Area and CBS Sacramento.",
+   "date_in_doc": null,
+   "url": "https://tvnewscheck.com/business/article/cbs-stations-ups-scott-warren-to-regional-president-gm/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Jennifer Mitchell",
+   "relation": "other_officer_of",
+   "object": "CBS Stations",
+   "quote": "Jennifer Mitchell, president of CBS Stations and CBS News and Stations Digital.",
+   "date_in_doc": null,
+   "url": "https://tvnewscheck.com/business/article/cbs-stations-ups-scott-warren-to-regional-president-gm/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Jennifer Mitchell",
+   "relation": "other_officer_of",
+   "object": "CBS News and Stations Digital",
+   "quote": "Jennifer Mitchell, president of CBS Stations and CBS News and Stations Digital.",
+   "date_in_doc": null,
+   "url": "https://tvnewscheck.com/business/article/cbs-stations-ups-scott-warren-to-regional-president-gm/"
+  },
+  {
+   "doc": "D14",
+   "subject": "Scott Warren",
+   "relation": "other_officer_of",
+   "object": "CBS News Northern California",
+   "quote": "Regional President and General Manager CBS News Northern California",
+   "date_in_doc": "Jan 2026 - Present",
+   "url": "https://www.linkedin.com/in/scott-warren-7bb2b07"
+  },
+  {
+   "doc": "D14",
+   "subject": "Scott Warren",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "### President and General Manager - [KPIX | CBS San Francisco/Bay Area](https://www.linkedin.com/company/kpix-cbs5)\n\nMar 2022 - Feb 2026 (3 years and 11 months)",
+   "date_in_doc": "Mar 2022 - Feb 2026",
+   "url": "https://www.linkedin.com/in/scott-warren-7bb2b07"
+  },
+  {
+   "doc": "D15",
+   "subject": "CBS Broadcasting Inc.",
+   "relation": "licensee_of",
+   "object": "KPIX-TV",
+   "quote": "Licensee: CBS BROADCASTING INC.",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/tv-profile/kpix-tv"
+  },
+  {
+   "doc": "D15",
+   "subject": "Jeff Jeandheur",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "Closed Captioning Contact: Jeff Jeandheur Director Broadcast Operations and Engineering",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/tv-profile/kpix-tv"
+  },
+  {
+   "doc": "E1",
+   "subject": "Scott Warren",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "Scott Warren is the President and General Manager of CBS News and Stations\u2019 local businesses in the San Francisco Bay Area, including KPIX (CBS)",
+   "date_in_doc": null,
+   "url": "https://www.awexr.com/usa-2023/speakers/5201-scott-warren"
+  },
+  {
+   "doc": "E1",
+   "subject": "CBS News and Stations",
+   "relation": "owns",
+   "object": "KPIX-TV",
+   "quote": "CBS News and Stations\u2019 local businesses in the San Francisco Bay Area, including KPIX (CBS), KBCW (The CW), the CBS News Bay Area streaming channel and CBSSF.com.",
+   "date_in_doc": null,
+   "url": "https://www.awexr.com/usa-2023/speakers/5201-scott-warren"
+  },
+  {
+   "doc": "E2",
+   "subject": "CBS News and Stations",
+   "relation": "owns",
+   "object": "KPIX-TV",
+   "quote": "CBS News and Stations\u2019 San Francisco properties KPIX (CBS), KBCW (CW), the CBS News Bay Area streaming channel and CBSSF.com.",
+   "date_in_doc": "2022-05-12",
+   "url": "https://tvnewscheck.com/journalism/article/lisa-white-named-news-director-at-cbss-kpix-kbcw/"
+  },
+  {
+   "doc": "E2",
+   "subject": "Lisa White",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "Veteran local news executive Lisa White has been promoted to vice president and news director at CBS News and Stations\u2019 San Francisco properties KPIX (CBS), KBCW (CW), the CBS News Bay Area streaming channel and CBSSF.com.",
+   "date_in_doc": "2022-05-12",
+   "url": "https://tvnewscheck.com/journalism/article/lisa-white-named-news-director-at-cbss-kpix-kbcw/"
+  },
+  {
+   "doc": "E2",
+   "subject": "Scott Warren",
+   "relation": "other_officer_of",
+   "object": "KPIX-TV",
+   "quote": "Scott Warren, president and general manager, said:",
+   "date_in_doc": "2022-05-12",
+   "url": "https://tvnewscheck.com/journalism/article/lisa-white-named-news-director-at-cbss-kpix-kbcw/"
+  }
+ ],
+ "flags": [
+  [
+   "conflict",
+   "several owners named: ['associated broadcasters', 'cbs', 'cbs broadcasting', 'cbs news and stations', 'paramount']"
+  ],
+  [
+   "missing",
+   "who owns associated broadcasters"
+  ],
+  [
+   "missing",
+   "the leader named in the leader definition"
+  ]
+ ],
+ "steps": [
+  {
+   "step": "extract",
+   "usd": 0.0300635,
+   "latency_s": 41.8,
+   "model_returned": "gpt-6.1-sol"
+  },
+  {
+   "step": "extract_extra",
+   "usd": 0.0070933,
+   "latency_s": 12.7
+  },
+  {
+   "step": "solve",
+   "effort": "high",
+   "usd": 0.022474,
+   "latency_s": 42.3
+  }
+ ],
+ "usd_total": 0.0596308,
+ "latency_total_s": 96.8,
+ "escalated": true,
+ "extra_docs": 2,
+ "arm": "B",
+ "case": "kpix",
+ "run": 3,
+ "saved": "2026-10-04T19:35:47-0300"
+}

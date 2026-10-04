@@ -1,0 +1,22 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"CBS Broadcasting Inc.\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=25452\",\n        \"quote\": \"#### Licensee\\n\\nName: CBS BROADCASTING INC.\"\n      },\n      {\n        \"url\": \"https://publicfiles.fcc.gov/tv-profile/KPIX-TV\",\n        \"quote\": \"Licensee: CBS BROADCASTING INC.\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [\n    {\n      \"child\": \"CBS\",\n      \"parent\": \"Paramount\",\n      \"relation\": \"subsidiary\",\n      \"citations\": [\n        {\n          \"url\": \"https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/\",\n          \"quote\": \"On Thursday, CBS parent company Paramount announced Warren will become the Vice President and General Manager of KOVR (Channel 13, CBS) and KMAX (Channel 31) in Sacramento\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\n      \"Paramount\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/\",\n        \"quote\": \"On Thursday, CBS parent company Paramount announced Warren will become the Vice President and General Manager of KOVR (Channel 13, CBS) and KMAX (Channel 31) in Sacramento\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": null,\n    \"citations\": []\n  },\n  \"transactions\": [\n    {\n      \"description\": \"KPIX-TV was originally owned by Associated Broadcasters prior to subsequent transfers of control.\",\n      \"status\": \"closed\",\n      \"date\": null,\n      \"citations\": [\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/KPIX-TV\",\n          \"quote\": \"It was originally owned by Associated Broadcasters, owners of KSFO (560 AM).\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"The dossier identifies CBS Broadcasting Inc. as licensee, CBS as network/owner, and Paramount as parent company of CBS, but does not provide intermediate corporate equity links between CBS Broadcasting Inc. and CBS. Additionally, the dossier does not identify the CEO of Paramount Skydance Corporation or any controlling natural person.\"\n}",
+ "usage": {
+  "candidates_token_count": 748,
+  "prompt_token_count": 3323,
+  "thoughts_token_count": 1773,
+  "total_token_count": 5844
+ },
+ "usd": 0.011946,
+ "latency_s": 10.3,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C2",
+ "case": "kpix",
+ "run": 1,
+ "saved": "2026-10-04T19:51:11-0300"
+}

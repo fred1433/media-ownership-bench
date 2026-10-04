@@ -1,0 +1,1026 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Pacifica Foundation, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://kpftx.org/kpfa_transparency/\",\n        \"quote\": \"Pacifica Foundation, Inc, the 501(c)3 corporation which is the licensee of KPFA\"\n      },\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/EEO/25076ff37ada191f017ae8ed9eba1695\",\n        \"quote\": \"Schedule 396 - Broadcast EEO Program Report - Pacifica Foundation, Inc. - KPFA(FM) and KPFB(FM)\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"Pacifica Foundation, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://kpfa.org/wp-content/uploads/2015/02/pacifica_handbook_-_paid_-_1-30.pdf\",\n        \"quote\": \"listener sponsored non-commercial radio stations owned and operated by the Pacifica Foundation\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"none\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://pacifica.org/articles.htm\",\n        \"quote\": \"this corporation, contemplating no pecuniary gain or profit to the members thereof, has no capital stock.\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"none\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://pacifica.org/documents/new_bylaws_250406/crosier_250406_bylaws.pdf\",\n        \"quote\": \"all corporate powers shall be exercised by or under the direction of the Board.\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Stephanie Wells\",\n    \"role\": \"Executive Director\",\n    \"entity\": \"Pacifica Foundation, Inc.\",\n    \"citations\": [\n      {\n        \"url\": \"https://www.pacifica.org/contact_home.php\",\n        \"quote\": \"Executive Director: Stephanie Wells\"\n      },\n      {\n        \"url\": \"https://makingcontactradio.org/2026/07/pacifica-foundation-to-continue-the-legacy-of-making-contact/\",\n        \"quote\": \"said Stephanie Wells, executive director of the Pacifica Foundation.\"\n      }\n    ]\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"As of October 4, 2026, the evidence identifies Pacifica Foundation, Inc. as KPFA's licensee and operator. The ownership chain ends at Pacifica itself: it is a nonprofit, nonstock corporation, not a subsidiary of a documented corporate owner. Its board exercises collective governance; no individual or family controller is documented. Pacifica's current contact page and a July 2026 announcement identify Stephanie Wells as executive director without an interim designation. The FCC EEO filing cited is historical (submitted August 2, 2021), corroborated by the currently available station transparency page. No KPFA ownership-changing transaction was established in the reviewed evidence; the empty transactions list does not prove that no filing exists.\"\n}",
+ "raw": {
+  "id": "resp_085657354d91ff02006ac2d40cff5087d191f2868d482467f1",
+  "access_programs": null,
+  "created_at": 1791153165.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": "You are a media ownership researcher. Today's date is 2026-10-04; answer as of that date, not as of your training data.\nFields:\n- legal_owner: the entity that legally holds the outlet (for a broadcast station, the FCC licensee).\n- operator: the entity that runs it day to day if different (for example under a shared services or joint sales agreement); otherwise status same_as_owner.\n- chain: each ownership link from the legal owner upward, one link per item, each with its own citation.\n- ultimate_parent: the top of the chain. It may be several entities (joint venture), none (a nonprofit with no owner), or not_established.\n- controlling_person: a natural person or family that controls the ultimate parent, if documented.\n- leader: only the person matching the leader definition given in the question.\n- transactions: deals affecting ownership; keep announced, approved and closed apart.\nRules: every established field must cite at least one source URL with a short verbatim quote copied from that source that supports it. If the evidence does not establish a field, mark it not_established rather than guessing. A name appearing in a filing is not by itself an owner or officer.\nUse web search to find current evidence.",
+  "metadata": {},
+  "model": "gpt-6.1-sol",
+  "object": "response",
+  "output": [
+   {
+    "id": "ws_085657354d91ff02006ac2d40eae4887d1b054abc6d230ecf3",
+    "action": {
+     "type": "search",
+     "queries": [
+      "KPFA 51246 licensee Pacifica Foundation FCC",
+      "site.pacifica.org executive director 2026 Pacifica"
+     ],
+     "query": "KPFA 51246 licensee Pacifica Foundation FCC",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-383616A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/EEO/25076ff37ada191f017ae8ed9eba1695"
+      },
+      {
+       "type": "url",
+       "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/38c1fec935e24be0932bc1b6063ebeb7"
+      },
+      {
+       "type": "url",
+       "url": "https://pacifica.org/documents/EEO/kpfa_2013_eeo.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/CDBS/4338"
+      },
+      {
+       "type": "url",
+       "url": "https://kpftx.org/kpfa_transparency/"
+      },
+      {
+       "type": "url",
+       "url": "https://fccinfo.com/CMDProEngine.php?sAppIDNumber=69a1bd26eef1438496edc1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/FRN/0001546415"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KPFA"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/company/pacifica-foundation-inc-dba-kpfa-nce-fm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.pacifica.org/documents/new_bylaws_250406/ed_250406.html"
+      },
+      {
+       "type": "url",
+       "url": "https://kpfa.org/wp-content/uploads/2015/02/pacifica_handbook_-_paid_-_1-30.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No5/pdf/GPO-FCC-Rcd-V39No5.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://radiostation.info/fm/california/KPFA/"
+      },
+      {
+       "type": "url",
+       "url": "https://publicfiles.fcc.gov/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.pacifica.org/foundation_news.php"
+      },
+      {
+       "type": "url",
+       "url": "https://artikeldigital.com/en/KPFA"
+      },
+      {
+       "type": "url",
+       "url": "https://publicfiles.fcc.gov/fm-profile/kpfk"
+      },
+      {
+       "type": "url",
+       "url": "https://kiwix.thunderforge.net/content/wikipedia_en_all_maxi_2025-08/KPFA"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Pacifica_Foundation"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KPFT"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_radio_stations_in_California"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/FCC_v._Pacifica_Foundation"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KPFK"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Pacifica/comments/1wpgeui/new_story_about_pacifica/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Pacifica/comments/1roqnkf/pacifica_index/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/antelopevalley/comments/1uzi6ex/does_anyone_know_what_radio_station_this_is_i/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_085657354d91ff02006ac2d411a40c87d18c20cc95aa1cc328",
+    "action": {
+     "type": "search",
+     "queries": [
+      "Pacifica \"executive director\" \"2026\" \"Wells\"",
+      "Pacifica \"executive director\" \"2026\" interim",
+      "site.pacifica.org bylaws 2025 nonprofit members board"
+     ],
+     "query": "Pacifica \"executive director\" \"2026\" \"Wells\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.pacifica.org/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.pacifica.org/indexed_bylaws/index.html"
+      },
+      {
+       "type": "url",
+       "url": "https://pacifica.org/documents/new_bylaws_250406/crosier_250406_bylaws.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.pacifica.org/pnb_bylaws.php"
+      },
+      {
+       "type": "url",
+       "url": "https://www.pacifica.org/indexed_bylaws/art8sec2.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.pacifica.org/kewg.org/bylaws/art8sec1.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.pacifica.org/documents/bylaws_191022/bylaws_191022.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.kpftx.org/archives/pnb/260208/260208_9544_agenda.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://berkeleyca.gov/sites/default/files/city-council-meetings/2026-01-20%20Agenda%20Packet%20-%20Council%20-%20WEB.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://elections.pacifica.org/robin-lewis-kpft-candidate-for-lsb-membership-fundraising-coordinator/"
+      },
+      {
+       "type": "url",
+       "url": "https://elections.pacifica.org/voter-guide-old/"
+      },
+      {
+       "type": "url",
+       "url": "https://elections.pacifica.org/membership-eligibility/"
+      },
+      {
+       "type": "url",
+       "url": "https://rethinkingpacifica.org/comparison-of-current-and-new-bylaws/"
+      },
+      {
+       "type": "url",
+       "url": "https://pacifica.org/good_news_200824.php"
+      },
+      {
+       "type": "url",
+       "url": "https://ncinpac.org/documents/"
+      },
+      {
+       "type": "url",
+       "url": "https://pacificafightback.org/pacificas-bylaws-changed-your-vote-discarded/"
+      },
+      {
+       "type": "url",
+       "url": "https://elections.pacifica.org/wordpress/wp-content/uploads/2021/03/Proposed-New-Day-Pacifica-Bylaws.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://kpft.org/?day=uufyngitdvly&print=pdf-search"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nonprofit/comments/1mci9si"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nonprofit/comments/1utu5ku/board_chair_edited_bylaws_to_make_them_easier_to/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nonprofit/comments/1wac81f/bylaws_how_did_find_the_middle_ground/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nonprofit/comments/1q8rtv8/advice_for_bylaws/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nonprofit/comments/ceio6y"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nonprofit/comments/1manf7z"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/HOA/comments/1whj1m0/sfh_wa_requirements_for_being_nonprofit_require/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Pacifica_Foundation"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nonprofit/comments/1p32njz/question_on_nonprofit_bylaws/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nonprofit/comments/1uy5x73/how_strictly_do_bylaws_govern/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nonprofit/comments/1icx6v0"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nonprofit/comments/1jw5abt"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/CFA/comments/1rsrl7q/vote_no_on_bylaw_changes_to_pcr/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/By-law"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Election_Assistance_Commission"
+      },
+      {
+       "type": "url",
+       "url": "https://pacifica.org/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_085657354d91ff02006ac2d417799c87d183d2a5f9d4762cf4",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"Pacifica\" \"executive director\" \"September\" \"2026\"",
+      "\"Pacifica\" \"Stephanie Wells\" \"2026\"",
+      "site.publicfiles.fcc.gov \"KPFA\" \"Licensee\""
+     ],
+     "query": "\"Pacifica\" \"executive director\" \"September\" \"2026\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://pacifica.org/documents/new_bylaws_250406/crosier_250406_bylaws.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://berkeleyca.gov/sites/default/files/city-council-meetings/2026-01-20%20Agenda%20Packet%20-%20Council%20-%20WEB.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://laborcenter.berkeley.edu/wp-content/uploads/2025/06/CWA-PCBA85.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/EEO/25076ff37ada191f017ae8ed9eba1695"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-378159A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://kpftx.org/kpfa_transparency/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.kpftx.org/archives/pnb/260208/260208_9544_agenda.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/67623b2907a04e1cb3cec1b6063ebeb7"
+      },
+      {
+       "type": "url",
+       "url": "https://doi.org/10.4135/9781544391199.n297"
+      },
+      {
+       "type": "url",
+       "url": "https://fccinfo.com/CMDProEngine.php?sAppIDNumber=69a1bd26eef1438496edc1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://makingcontactradio.org/2026/07/pacifica-foundation-to-continue-the-legacy-of-making-contact/"
+      },
+      {
+       "type": "url",
+       "url": "https://radiostationdex.com/station/kpfa-fm-berkeley-ca"
+      },
+      {
+       "type": "url",
+       "url": "https://capitalismraceanddemocracy.org/contact-us/"
+      },
+      {
+       "type": "url",
+       "url": "https://network.pacifica.org/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.indybay.org/newsitems/2024/08/23/18868898.php"
+      },
+      {
+       "type": "url",
+       "url": "https://rbr.com/pacifica-radio-executive-director-stages-sit-in/"
+      },
+      {
+       "type": "url",
+       "url": "https://localradio.us/stations/larkspur-ca/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.ziprecruiter.com/Salaries/Executive-Director-Salary"
+      },
+      {
+       "type": "url",
+       "url": "https://www.podscan.fm/podcasts/kpfa-flashpoints/episodes/rebroardcast-september-4th"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_radio_stations_in_California"
+      },
+      {
+       "type": "url",
+       "url": "https://pacifica.org/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_085657354d91ff02006ac2d41c416487d1b8a77e26359f31dd",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtQwaHggYiJCPXPzEDer-pZCcyD444b_lEn9ysFAXtCCg8opoOdrxkETNeuivLoHyrT7nIxkrLXHxEJ253lMYCjiVu84wENi-QYoQRjBWxeqVZZhwkphciVVsZm5iPDAW8LTUKR-BhzQ1uPStbJ8HVhxInsVsvS1Qz0XawFelkXYSDjK-pgFRHDcS6YazocLcbRQltDvy4QSq3ORw6Y8_r9tFVxnTK46vLilwXISV39XeO_jxa1NPgYx42E6-5jMg1N9NhOVpin7y4abZQuA7LOtn7PtXWGFeVTnj-Y2SWKIq-xm_-9gJ0PgMcr8IiCTjOk-_6DmG3TWTeStDj9b8bmuSfgKhiIVBRbnE4N9N-mljMfmAysViFgDK6POazhgolcUXDFM303KZbifrihO3Nvj8p_0Wul9IKSnJVgKd9djoiqSDPsoG4x_S3a6EPBMayakPRVF_y4xFjG55CrB0dTkb4Kbo5Vw-YW4RpFV3xKdQVvd72lEfiwq8nCl_0PY-m-eA2MhzakbJx5Cc9kL7KblQtw7xb8_dDSdjfROkoD6qvF0LtDqHNvGljRVlurroNh820BfgV-XN_d6CRbC8XoYqu6zioIzug3PCNs8TuTTYqDTNRYJgNX1BSiMM3j15qyjMVU8-6mV_yclo7M47eQTuKXKnXN-Kp7fw6FGb8VnYzlsldE8JeIvqJdc-Ze9ogrOqmvcl9_yOLwXrS7Rj3A_7_Y_usJulPIVRRUbCo7wtEOtfCTOdzf-2HMIBkCgL3X8K9lUjVBXG1e__nvFOT7gdNK6pLZdeXU-L2dzW8R7Qq8id6kzh47z1GDMw43cdtMkb7Z-Z2j_YakldCIGGaz7tYkzycVuyZJtruo5FdoHbqP9_AB_9yFSGBC3hJAwDmN7LXgDx_dsBdEqNL5GPRAoNF0PZuUPYoPXupF3GrQgmF7VzMoYXYWciwMtAYRk-V08IbLzUFSa0kdH9WhYqCQHTnLq4TNdQQyoXc9Asf0lYl1JHF4IaRuufgw0sf5kefuV3VwZJhq1sk_57kWq9C281fIOJevPBnEyigBCbITP-sCLzgnb-CsmaxeaJx8tcrDi6_jqoWuQzn7USvHGEPZ_gLcx3RPdutA1dWNC9WAFWZmVslNvDWla3h8pv6_k-EbWK3iOSfK-KdaQWCdYfT68e_Qs_uc_6GSZMM81O4JKEAkKEPSWZDmYwgQ_ASMI28XPrOwwqPNwOlydsMs3QpmBie1NB3Zuw_RnN0DDJ-bKJuGYgrJd68JHqO1F9iqv0rQy_WMowZUqUZqXrghUJLMryg==",
+    "status": null
+   },
+   {
+    "id": "ws_085657354d91ff02006ac2d41c84fc87d197df99ea392615a4",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.pacifica.org \"Stephanie Wells\" \"Executive Director\"",
+      "\"Pacifica\" \"executive director\" \"2026\" -site:reddit.com -site:ziprecruiter.com -site:en.wikipedia.org -site:rbr.com"
+     ],
+     "query": "site.pacifica.org \"Stephanie Wells\" \"Executive Director\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://makingcontactradio.org/2026/07/pacifica-foundation-to-continue-the-legacy-of-making-contact/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.pacifica.org/contact_home.php"
+      },
+      {
+       "type": "url",
+       "url": "https://pacifica.org/ken_nash.php"
+      },
+      {
+       "type": "url",
+       "url": "https://pacifica.org/finance/2022-990.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://network.pacifica.org/round-table-meetings-2025/"
+      },
+      {
+       "type": "url",
+       "url": "https://pacifica.org/finance/2021-990.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://cwa9415.org/system/files/2024-07/kpfa_2023_-2028.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://kpftx.org/archives/pnb/pnb250403/pnb250403_9352_minutes.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.kpftx.org/archives/pnb/260208/260208_9544_agenda.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.indybay.org/newsitems/2025/09/18/18879989.php"
+      },
+      {
+       "type": "url",
+       "url": "https://www.pacifica.org/documents/new_bylaws_250406/ed_250406.html"
+      },
+      {
+       "type": "url",
+       "url": "https://andersoncountytn.gov/wp-content/uploads/2026/01/Consent-Agenda-Docs-1.20.26.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://current.org/2024/04/fcc-inquiry-examines-wbais-on-air-fundraising-practices/"
+      },
+      {
+       "type": "url",
+       "url": "https://wbai.org/news/t-mobile-axes-dei-makes-deals-with-trump-musk-earning-union-boycott"
+      },
+      {
+       "type": "url",
+       "url": "https://www.mefa.org/about-mefa/"
+      },
+      {
+       "type": "url",
+       "url": "https://kpft.org/category/uncategorized/page/2/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.pacresourcecenter.org/who-we-are"
+      },
+      {
+       "type": "url",
+       "url": "https://bookcentre.ca/pages/people/stephanie-wells"
+      },
+      {
+       "type": "url",
+       "url": "https://pacificanetwork.org/pacifica-foundation-is-pleased-to-welcome-stephanie-d-wells-as-its-new-executive-director/photo-stephanie-wells/"
+      },
+      {
+       "type": "url",
+       "url": "https://pacifica.org/"
+      },
+      {
+       "type": "url",
+       "url": "https://pacifica.org/documents/new_bylaws_250406/crosier_250406_bylaws.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://kpftx.org/kpfa_transparency/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_085657354d91ff02006ac2d421409c87d1964ea90087493402",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtQw3ly6I_PnDozZj-tAoDa7pA0fWxSKBua3548tnukcVj5-Ru_zSBjvzrB8nss3ObOQkX4VE05kqw6_Q4OMOkUBi354GNuJPPgkAG7RgSMKJy_Nk2TjFpaHTUQqkYPIH29gwPmDVABHzSrd8wNLPLUJrNMKflBcHc5JiWqsPQqgusaiJR0xBiETYDLlGvT1wk9U8wdoOZbAh6khnG37nZjGh1ScifDh3TAGvWLjNVxe66kekTjKnc7kIzc56Q-3RsT4Gdng-KAnvZxTlqE3y245rrXg389aqYqhFUU2sietFy8wSJJNiYd0Fv-PJJKYGVyMZWiJqYe3Gi6RibDTZqUgxvQCR5SCnvIEJnpVGjX-2Q-IE6h7qLSP3N73q5Cb0YYj2-Wvd6UWhxSiVaeRhAqtFpoHx4MRXUhoQOF3deDRmeY2StOYwTrfsMrMoVz-99jqxux2uIbC003mxA7FwReaqBpj1VAJ8r4u1oTQXFV_qnc3gKdDp65UAmv1Yp6eF5gW-8K4G1XXHTt4dJ4ZAmeT4aFu1SyNmnTR9i2a2P9IQpU1p1e6dqYCEysvEBz2SOA8lLIqZWWwtKwDxA1442cFAVrvxzPdXdisospBa0pNEllj8fLFVepttwRAkyGtYRgWh7gMibSf0WRlimmFOvQrjYjPTkh5D3ldD90vUk9uoeeZoVc81nMGwyA0gv3-B86-DpM7T8hf2GVu2VE6kK6f5mskjY4om0sn3JaF9WOKghFXeR81Fw2JCjYDmzuMlzGByvAKUzBg69T0P1hqSgEYP0O3na2yBqrY2e6RCWf9hWO-POk1zXe0fx6YYKXGFX0TldgXMGSpN6HU3A9K9Z7bt72laAWu6L7TOcYvlTL3zCbQa4qeugILX0oKPMqJcVLXOl3BmHdP4X_iMHSE6Bt1Pr0UpQ93c9BV9zVp1zxZSqghU9z4g56FB3QHR4yoxgH5sWYuIK4qMmLuzZnY7LKl0eO1eSxKBWKpy6SQ5iWPV_tQY2oBnbZP9sbnA5yQ193XPvnvTL5c8QTBH1cqSjjMr4acLf_IkHBrO14w8MBeNx4323ztW1VTKzOcq-JlVIRj8tZbZx6NHNJLIUgqHlH3JcEjBoI-vrxFFH6NIxodNViHCaVspTSdfZaesbrmQrZp6dHsSrlgQsou0TOa1Md2nlnNeP_jIonKFowaSh4jF6irL71STsi3lsR59-xkXqhTjr6klpD6WUT7SFIjupnXKRm0aQRBxR81RRT5r_r9WelDvfeLzYyf4SvUkDbml6Vv_4lYVa4cPIsVXuDtbabjzgqeU7GH2U8W12a6r88A2JnTS9lX7nLBQrqs96mGg2jX1wSsu-3p09VXmCiTgyziLwxLfUvRZ52dvSXjLmS8JLg=",
+    "status": null
+   },
+   {
+    "id": "ws_085657354d91ff02006ac2d421d61887d187418e7de06678a5",
+    "action": {
+     "type": "open_page",
+     "url": "https://pacifica.org/documents/new_bylaws_250406/crosier_250406_bylaws.pdf"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_085657354d91ff02006ac2d423505487d1baf3521c460926e6",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtQwKne8pJASYWagdxmBnc8gSs0tpdZhlFav7ABS6JI20vLjyG3HW-WddH3ntVcIcPBmCr-g6oGyJCfcMh6AeK_RcTyxd4WhsXeXhZRc976RHKMLA-jbolyJjWrMggqVwTZUJPTAxniMpT00uIu1v89ult1OUVW8GrzeRKaWiO9VBGVJb_b668NHNr5PkBR32AcqYcnkleiwKdAeuPTovA2VXkjVJBsH6pcjq7LWt9fiubYLa6T6-OqtO8GsQQGBnwtHbpTNo1tkaSfCFqQoijgROBsFgrV3kZFsq42DWwHVrYIhzQi1jcRXAiOwhK9YpzcqmRMqoXEWTITl4dwFaZCY8IZ56VJSdUX125QyA1fLgc7q9hbiNvee-TLZBKTxtgplADekxCIKPJj2A8kI05edr43i96ojlQkn0wzIi6kgHa5-EQRYeL3sFYz-o1QOvYt29PeTHmVhDj9o9inv4vD1lGFRzgPtvP5AnAWyeeGCYkXibcnOVxdY9omiEHNZ4CY-pDjwKJ3k-i-U01A3I2Zd2ZtPiuydkBMDeoe0ofxVcMge6fxmnVuWebpyIY2SmLYpxZcrnbVdGVygS_MHtamY7KOtxLEwkvlgRulFsLumTJ43CIaFpN4gQktiZoUXo58_qz7EREgLeSlsQNHNkJBgJEwfcJINMdqyPVm_XXliCUKFxGCKgF1L38PrZJAmJTRHomAdZj34djuKqt2mfpfmGdKOgsyE4aPUBG4g9oXcfb887HjMKRsa019KaKXAWmt3eb9A-4nHtHuGt30JZJ4JXAR-M2r55jhiKx1xOPJcfqmwHkSrcVLBUnPRDlXMKThokEuMF8_VpiWM9qfNIIM-AZga9ivQpdxUq_-krsJMxVIPybR4lr59bbI2f9cXVK0gZgj6X_AsHwttEf2ysEixhJLewWvLUwhylhu7T09GqMkBDJzHTjUPClFqA3XzvozBALfpwviqN51i3JMeF4soFH6mqAr9ZEv5ZgrzCj2Q6j72S_WgR5zbDGe7VlSNFoq7kVSi0gWPVu9SlgcPDN4p4g3V9886MtENBrdQj8zXcO6-may4jbelfJvAcFQJhkTVz44kvUGc9Xc7ZyQRcK_kmxqYaRXgZjg-P3tw07IzgSKtQUJxeIn3Y6CB97F4uD0-l-3Gh4QWKOIbgoEcga002_0LffTZNV7Hbh69gVxf81t4ztvHYqNsviZYg0vJacmcR5z7Bbhb7mSQ-SgcqI9uEpXew5IysYIJC-YIACrDpG2FhPJ_vy-NdKRNLYljcs7Yhx6EuMsEnO6RHY4d0GWumA==",
+    "status": null
+   },
+   {
+    "id": "ws_085657354d91ff02006ac2d423a8d887d1b0915b41ff0f602b",
+    "action": {
+     "type": "open_page",
+     "url": "https://kpfa.org/wp-content/uploads/2015/02/pacifica_handbook_-_paid_-_1-30.pdf"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "msg_085657354d91ff02006ac2d425fe3887d18d4eb569f0ce2b48",
+    "content": [
+     {
+      "annotations": [],
+      "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Pacifica Foundation, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://kpftx.org/kpfa_transparency/\",\n        \"quote\": \"Pacifica Foundation, Inc, the 501(c)3 corporation which is the licensee of KPFA\"\n      },\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/EEO/25076ff37ada191f017ae8ed9eba1695\",\n        \"quote\": \"Schedule 396 - Broadcast EEO Program Report - Pacifica Foundation, Inc. - KPFA(FM) and KPFB(FM)\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"Pacifica Foundation, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://kpfa.org/wp-content/uploads/2015/02/pacifica_handbook_-_paid_-_1-30.pdf\",\n        \"quote\": \"listener sponsored non-commercial radio stations owned and operated by the Pacifica Foundation\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"none\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://pacifica.org/articles.htm\",\n        \"quote\": \"this corporation, contemplating no pecuniary gain or profit to the members thereof, has no capital stock.\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"none\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://pacifica.org/documents/new_bylaws_250406/crosier_250406_bylaws.pdf\",\n        \"quote\": \"all corporate powers shall be exercised by or under the direction of the Board.\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Stephanie Wells\",\n    \"role\": \"Executive Director\",\n    \"entity\": \"Pacifica Foundation, Inc.\",\n    \"citations\": [\n      {\n        \"url\": \"https://www.pacifica.org/contact_home.php\",\n        \"quote\": \"Executive Director: Stephanie Wells\"\n      },\n      {\n        \"url\": \"https://makingcontactradio.org/2026/07/pacifica-foundation-to-continue-the-legacy-of-making-contact/\",\n        \"quote\": \"said Stephanie Wells, executive director of the Pacifica Foundation.\"\n      }\n    ]\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"As of October 4, 2026, the evidence identifies Pacifica Foundation, Inc. as KPFA's licensee and operator. The ownership chain ends at Pacifica itself: it is a nonprofit, nonstock corporation, not a subsidiary of a documented corporate owner. Its board exercises collective governance; no individual or family controller is documented. Pacifica's current contact page and a July 2026 announcement identify Stephanie Wells as executive director without an interim designation. The FCC EEO filing cited is historical (submitted August 2, 2021), corroborated by the currently available station transparency page. No KPFA ownership-changing transaction was established in the reviewed evidence; the empty transactions list does not prove that no filing exists.\"\n}",
+      "type": "output_text",
+      "logprobs": []
+     }
+    ],
+    "role": "assistant",
+    "status": "completed",
+    "type": "message",
+    "phase": "final_answer"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+   {
+    "type": "web_search",
+    "external_web_access": null,
+    "filters": null,
+    "search_context_size": "medium",
+    "user_location": {
+     "city": null,
+     "country": "US",
+     "region": null,
+     "timezone": null,
+     "type": "approximate"
+    },
+    "return_token_budget": "default",
+    "search_content_types": [
+     "text"
+    ]
+   }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1791153200.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "generate_summary": null,
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+   "format": {
+    "name": "ownership_answer",
+    "schema_": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "legal_owner",
+      "operator",
+      "chain",
+      "ultimate_parent",
+      "controlling_person",
+      "leader",
+      "transactions",
+      "uncertainty"
+     ],
+     "properties": {
+      "legal_owner": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "operator": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "same_as_owner",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "chain": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "child",
+         "parent",
+         "relation",
+         "citations"
+        ],
+        "properties": {
+         "child": {
+          "type": "string"
+         },
+         "parent": {
+          "type": "string"
+         },
+         "relation": {
+          "type": "string"
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "ultimate_parent": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "single",
+          "multiple",
+          "none",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "controlling_person": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "none",
+          "not_established",
+          "not_applicable"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "leader": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "name",
+        "role",
+        "entity",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "name": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "role": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "entity": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "transactions": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "description",
+         "status",
+         "date",
+         "citations"
+        ],
+        "properties": {
+         "description": {
+          "type": "string"
+         },
+         "status": {
+          "type": "string",
+          "enum": [
+           "announced",
+           "approved",
+           "closed",
+           "abandoned",
+           "unknown"
+          ]
+         },
+         "date": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "uncertainty": {
+       "type": "string"
+      }
+     }
+    },
+    "type": "json_schema",
+    "description": null,
+    "strict": true
+   },
+   "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 53794,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 5308
+   },
+   "output_tokens": 1371,
+   "output_tokens_details": {
+    "reasoning_tokens": 657
+   },
+   "total_tokens": 55165
+  },
+  "user": null,
+  "billing": {
+   "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 4
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 53794,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 5308
+  },
+  "output_tokens": 1371,
+  "output_tokens_details": {
+   "reasoning_tokens": 657
+  },
+  "total_tokens": 55165
+ },
+ "usd": 0.1712128,
+ "latency_s": 36.9,
+ "web_search": {
+  "tool_enabled": true,
+  "calls_executed": 6,
+  "actions": [
+   "search",
+   "search",
+   "search",
+   "search",
+   "open_page",
+   "open_page"
+  ],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "A",
+ "case": "kpfa",
+ "run": 3,
+ "saved": "2026-10-04T19:33:21-0300"
+}

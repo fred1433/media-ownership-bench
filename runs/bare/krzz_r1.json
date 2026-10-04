@@ -1,0 +1,29 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"operator\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": \"Spanish Broadcasting System, Inc.\",\n    \"citations\": []\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"I cannot establish the requested facts as of October 4, 2026 because this session has no access to live FCC records, corporate filings, or current company announcements. Verifying the answer requires the FCC authorization and ownership filings for KRZZ facility 1092, documentation of each corporate ownership link and voting control, and a current SBS source identifying its CEO. I have not supplied unverified names or invented source quotations. The not_established statuses indicate an evidence limitation, not that the station lacks an owner or SBS lacks a CEO; the empty transactions array does not establish that no transactions occurred.\"\n}",
+ "usage": {
+  "input_tokens": 928,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 0
+  },
+  "output_tokens": 773,
+  "output_tokens_details": {
+   "reasoning_tokens": 468
+  },
+  "total_tokens": 1701
+ },
+ "usd": 0.009586,
+ "latency_s": 25.5,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "actions": [],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "bare",
+ "case": "krzz",
+ "run": 1,
+ "saved": "2026-10-04T19:27:28-0300"
+}

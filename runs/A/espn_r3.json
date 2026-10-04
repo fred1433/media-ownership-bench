@@ -1,0 +1,1243 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"ESPN, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://espnpressroom.com/about/\",\n        \"quote\": \"ESPN, LLC, the world\u2019s leading multiplatform sports entertainment brand, features eight U.S. television networks\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"ESPN, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://en.wikipedia.org/wiki/ESPN%2C_LLC\",\n        \"quote\": \"it owns and operates the ESPN-branded cable television, satellite television and streaming media channels and services including ESPN itself\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"ESPN, LLC\",\n      \"parent\": \"ABC, Inc.\",\n      \"relation\": \"72% ownership; Disney's majority interest is held through ABC, Inc.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sportsmediawatch.com/2026/04/disney-espn-spinoff-not-happening/\",\n          \"quote\": \"Disney, through its indirect subsidiary ABC Inc., currently owns a 72% stake in ESPN\"\n        }\n      ]\n    },\n    {\n      \"child\": \"ABC, Inc.\",\n      \"parent\": \"The Walt Disney Company\",\n      \"relation\": \"Indirect subsidiary; intervening legal entities are not established here.\",\n      \"citations\": [\n        {\n          \"url\": \"https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/\",\n          \"quote\": \"ABC, Inc. (an indirect subsidiary of The Walt Disney Company)\"\n        }\n      ]\n    },\n    {\n      \"child\": \"ESPN, LLC\",\n      \"parent\": \"Hearst Corporation\",\n      \"relation\": \"18% minority ownership.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm\",\n          \"quote\": \"Hearst Corporation has an 18% interest.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"ESPN, LLC\",\n      \"parent\": \"NFL Enterprises LLC\",\n      \"relation\": \"10% noncontrolling ownership.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/1744489/000174448926000019/dis-20251227.htm\",\n          \"quote\": \"Hearst Corporation (Hearst) and NFL Enterprises LLC holding 18% and 10%, respectively.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"NFL Enterprises LLC\",\n      \"parent\": \"NFL Ventures, L.P.\",\n      \"relation\": \"Wholly owned subsidiary.\",\n      \"citations\": [\n        {\n          \"url\": \"https://business.cch.com/ald/NFLvNInthInningIncPetitionCert2112020.pdf\",\n          \"quote\": \"NFL Enterprises LLC is wholly owned by NFL Ventures, L.P.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"NFL Ventures, L.P.\",\n      \"parent\": \"The 32 member clubs of the National Football League\",\n      \"relation\": \"Collective partnership ownership by the NFL member clubs.\",\n      \"citations\": [\n        {\n          \"url\": \"https://content-archive.fast-edgar.com/20250314/AU22S222ZW22C93Z2Z2S2Z42RQJQTK22Z272/\",\n          \"quote\": \"NFL Ventures, L.P., the partners of whom are the 32 professional football member clubs of the National Football League.\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"multiple\",\n    \"names\": [\n      \"The Walt Disney Company \u2014 controlling majority parent, 72%\",\n      \"Hearst Corporation \u2014 minority co-owner, 18%\",\n      \"National Football League member clubs collectively \u2014 through NFL Ventures, L.P. and NFL Enterprises LLC, 10%\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://support.espn.com/hc/en-us/articles/360039139792-What-does-ESPN-stand-for\",\n        \"quote\": \"ESPN, LLC is 72 percent owned by The Walt Disney Company, 18 percent by Hearst, and 10 percent by the National Football League.\"\n      },\n      {\n        \"url\": \"https://www.sec.gov/Archives/edgar/data/1744489/000174448925000136/dis-20250628.htm\",\n        \"quote\": \"retain majority board control\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://s206.q4cdn.com/979796730/files/doc_financials/2025/ar/2026-Proxy-Statement.pdf\",\n        \"quote\": \"no person or entity is the beneficial owner of more than 5% of the voting power\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"James (Jimmy) Pitaro\",\n    \"role\": \"Chairman, ESPN\",\n    \"entity\": \"ESPN\",\n    \"citations\": [\n      {\n        \"url\": \"https://thewaltdisneycompany.com/leadership/james-pitaro/\",\n        \"quote\": \"Jimmy Pitaro was named Chairman, ESPN in February 2023\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"ESPN and the NFL announced a non-binding agreement to exchange NFL Network and other NFL media assets for a 10% ESPN equity stake.\",\n      \"status\": \"announced\",\n      \"date\": \"2025-08-05\",\n      \"citations\": [\n        {\n          \"url\": \"https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/\",\n          \"quote\": \"announced a non-binding agreement under which ESPN will acquire NFL Network\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Government approval of the ESPN\u2013NFL media transaction was reported separately from its closing.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-01-31\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-government-approves-espn-nfl-media-merger\",\n          \"quote\": \"received government approval on Saturday\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The transaction closed: ESPN acquired NFL Network and specified NFL media assets, and the NFL received a 10% noncontrolling ESPN interest. Disney and Hearst's interests became 72% and 18%.\",\n      \"status\": \"closed\",\n      \"date\": \"2026-01-31\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nfl.com/partners/nfln-partners-update\",\n          \"quote\": \"On January 31, 2026, the NFL and ESPN closed transactions\"\n        },\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/1744489/000174448926000056/fy2026_q3xerxex991.htm\",\n          \"quote\": \"in exchange for a 10% noncontrolling interest in ESPN\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of October 4, 2026, the documented ownership split is Disney 72%, Hearst 18%, and NFL 10%, not the older 80%/20% split. Disney is the controlling corporate parent; no natural person or family controlling Disney or ESPN was established. Minority co-owners are included under ultimate_parent, but are not equivalent to Disney's controlling parent role. The complete intervening legal-entity chain between ABC, Inc. and Disney was not established. NFL vehicle ownership relies partly on older legal disclosures and a 2025 filing; ownership above Hearst Corporation and individual NFL clubs was not traced.\"\n}",
+ "raw": {
+  "id": "resp_0311ca096c27d523006ac2d40cdde487d1b9adc250c4bd385a",
+  "access_programs": null,
+  "created_at": 1791153164.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": "You are a media ownership researcher. Today's date is 2026-10-04; answer as of that date, not as of your training data.\nFields:\n- legal_owner: the entity that legally holds the outlet (for a broadcast station, the FCC licensee).\n- operator: the entity that runs it day to day if different (for example under a shared services or joint sales agreement); otherwise status same_as_owner.\n- chain: each ownership link from the legal owner upward, one link per item, each with its own citation.\n- ultimate_parent: the top of the chain. It may be several entities (joint venture), none (a nonprofit with no owner), or not_established.\n- controlling_person: a natural person or family that controls the ultimate parent, if documented.\n- leader: only the person matching the leader definition given in the question.\n- transactions: deals affecting ownership; keep announced, approved and closed apart.\nRules: every established field must cite at least one source URL with a short verbatim quote copied from that source that supports it. If the evidence does not establish a field, mark it not_established rather than guessing. A name appearing in a filing is not by itself an owner or officer.\nUse web search to find current evidence.",
+  "metadata": {},
+  "model": "gpt-6.1-sol",
+  "object": "response",
+  "output": [
+   {
+    "id": "ws_0311ca096c27d523006ac2d40eae8c87d18d8a049473494564",
+    "action": {
+     "type": "search",
+     "queries": [
+      "ESPN ownership 2026 Disney Hearst NFL 10% equity closed chairman Pitaro",
+      "site.thewaltdisneycompany.com ESPN NFL equity transaction closed 2026"
+     ],
+     "query": "ESPN ownership 2026 Disney Hearst NFL 10% equity closed chairman Pitaro",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://support.espn.com/hc/en-us/articles/360039139792-What-does-ESPN-stand-for"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000056/fy2026_q3xerxex991.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000019/dis-20251227.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://espnpressroom.com/about/"
+      },
+      {
+       "type": "url",
+       "url": "https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/"
+      },
+      {
+       "type": "url",
+       "url": "https://us.espnpressroom.com/espn-inc-fact-sheet/"
+      },
+      {
+       "type": "url",
+       "url": "https://investors.thewaltdisneycompany.com/files/doc_financials/2025/q4/260ff65f-d9fa-4231-948e-d6e9b4a593f3.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/ESPN%2C_LLC"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/ESPN"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-espn-and-abc-disney-hearst-and-the-nfl/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000136/dis-20250628.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://espnpressroom.com/bio/james-pitaro/"
+      },
+      {
+       "type": "url",
+       "url": "https://investors.thewaltdisneycompany.com/files/doc_financials/2026/q1/6a458218-80bc-4c84-a57a-768a278eddf8.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://thewaltdisneycompany.com/leadership/james-pitaro/"
+      },
+      {
+       "type": "url",
+       "url": "https://thewaltdisneycompany.com/app/uploads/2025/08/q3-fy25-earnings-transcript.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://investors.thewaltdisneycompany.com/files/doc_events/2026/Feb/02/Q1-FY26-Executive-Commentary.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.warren.senate.gov/imo/media/doc/mlb_deals.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+      },
+      {
+       "type": "url",
+       "url": "https://thewaltdisneycompany.com/news/espn-nfl-draft-content-agreement/"
+      },
+      {
+       "type": "url",
+       "url": "https://thewaltdisneycompany.com/app/uploads/2025/11/q4-fy25-executive-commentary.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/ESPN_on_ABC"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/James_Pitaro"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/2026_NFL_season"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Layoffs/comments/1v2k029/espn_is_cutting_jobs_again_heres_what_the/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/MediaMergers/comments/1v2k12r/espn_is_cutting_jobs_again_heres_what_the/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/MediaMergers/comments/1uyk435/espn_chairman_jimmy_pitaro_confirms_interest_in/"
+      },
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/c5d77a9109f6bb44a162410480412028"
+      },
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/a801cc6d355ddbcb98a8700125eed18b"
+      },
+      {
+       "type": "url",
+       "url": "https://www.axios.com/2025/08/06/espn-nfl-network"
+      },
+      {
+       "type": "url",
+       "url": "https://www.axios.com/newsletters/axios-am-97bd140d-e5b5-4851-98d3-a246958c822f"
+      },
+      {
+       "type": "url",
+       "url": "https://www.thedailybeast.com/obsessed/espn-star-ryan-clark-fired-during-live-broadcast/"
+      },
+      {
+       "type": "url",
+       "url": "https://theweek.com/sports/nfl-espn-disney-deal"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nfl/comments/1m8bk40/report_nfl_will_acquire_up_to_10_percent_of_espn/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nba/comments/1uyhn1g/espn_interested_in_nbas_local_broadcast_package/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/MUAEntertainment/comments/1qt0spt/disney_nfl_close_deal_that_makes_league_partial/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/stocks/comments/1h6rden"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0311ca096c27d523006ac2d4132d5887d18451bf1535b384ef",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtRdZII7cBVfOn9XGE8sYWRpnT4P88TkHN2o1pD6Apaa_1oC69odjJuVeNhiBWYNkNty4RHsB9QZLHTB1Dm_o5rQPgJX9gZNRdqkCAq7oLBtAlmQ7pvWiwha2B8FPm35QxfK4wYYzNXgvvAt1Fx4f6lf4Pt1ZoLHigGWiQkdaecDhxvaEqmvP-sJr91vvMBqbe2WEw-9Nf9HuhtWo5G85ahJQ8esFlpptUOZ_byMygFaZrDG-y6M6w0NE2b2TiAN6B-GTFB3MoKjU1ZZ_KPsCyRkC9DqS36bQ-rk7N4_kESgoR_5G38suzDaOsoTHge1eZ5m4N7w_uDTZkJ_48Z3jlx1O9ecSatVlPr354DXmImKVSrPy7N-H86Y30W6uAIhcjhrsxwo5_MbKSCEMPTE7h5jutmmcO__pKl5ymIZD3JjE9yStudEKhF4a7zRQuDP7na4ooq8VQpsccPgYiqEyGlXMmazI8CVFBXVmomFrnwMX2Nhl8oe7pD8vfdG0S3mjnunAV7hTq5TNCc3KPCAyvuVTC8aqxEBaCucgLftQU2WOjrQuTy3bjrTcOfNSiKo3RYd8vz1KtelLdp1cILSKSk_6iIMvPcyjfPh5ZpyVV7J9K044d-wINXYX3ovhgL3QQu1DAnEgXL6zaA7eH_a6kzSgT_5PtnYBlYsdO2A6-yuDkU2JWYzKX8OFPCQNyZMpfmwNvMkj4CxuS5PwaZvkEg9Zv1dcm-wqs-kqcaNYH9xaK1TBPyRk2ENLCum67inhevs88km9XZmzSXCjhtHI6w7FZEEvaeHR_fJwopMAjBOxtRGxeEN1R7s0_egcIYGxHWkWVyD0aI3TPrU2K7obDNBsepurgCJZy2NPBb_9uXC2xr5cVEsP6xD5gg6ZFbqTqJz80c9HbcbmwUPPTXYm0DJQ69Zt-LNZdoUQkeG8F-zU-TUkeJuJZpB_7iXZ3alSU8neK6ymU134i0ZEXF9Zn5mXjH0OtawekLXboSTL05MyFpTjpWpv4SSWtQnqeApb3WnfC3WqaYmUOhCpRmI6CK8E03hbqdzylNGEUR3R0qDohUlWJgFhD6fiK-2xdOsz3PfVA_PDHuwjs2ZIKVVcnEY90Rkjo5hOzXhToUdEjNSP-rXIGyui8_d0JOow9eJ_fJFm74q4eZ5IeM2Ws1zMLjr-Gn7I_l4128TAIMrxjr20Q9wLi37r83tW7Qjd6NQX89Gt_txUtNk5Axmvy-yZDKKBJ3Vz-pJf3fqBXwLsijjLIJgcYfGuVA2xidhfKyG0_eYneAmz-tpv0r5SBsiuvG7cHKk7w9UNvipStg5mtrP6BqkhFo3A_xIUH9FmnGqM8rgiJ-dtcDIFt0MwR8BA3zseVMmpnyDfMY-bVPT6jJgvoA=",
+    "status": null
+   },
+   {
+    "id": "ws_0311ca096c27d523006ac2d41352d887d1b3e71131f62e6a26",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.espnpressroom.com 2026 \"ABC\" \"72\"",
+      "\"ABC, Inc.\" \"Disney Enterprises\" \"subsidiary\"",
+      "\"NFL Enterprises LLC\" \"wholly owned\"",
+      "site.thewaltdisneycompany.com 2026 proxy beneficial ownership Vanguard BlackRock"
+     ],
+     "query": "site.espnpressroom.com 2026 \"ABC\" \"72\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://espnpressroom.com/about/"
+      },
+      {
+       "type": "url",
+       "url": "https://thewaltdisneycompany.com/app/uploads/2024/02/2024-Proxy-Statement.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://investors.thewaltdisneycompany.com/financials/annual-reports/default.aspx"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/IBFS/SES-ASG-INTR2021-01951/7508785.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://investors.thewaltdisneycompany.com/events-and-presentations/event-details/2026/2026-Annual-Meeting-of-Shareholders-Webcast-2026-HKlTbRML8I/default.aspx"
+      },
+      {
+       "type": "url",
+       "url": "https://truthinadvertising.org/wp-content/uploads/2022/02/Gill-v-NFL-first-amended-complaint.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/fy2024_q4x10kxex21.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://santaclara.legistar.com/View.ashx?GUID=BA1D23F6-F937-4C71-9E62-ED6807F05FBC&ID=14727471&M=F"
+      },
+      {
+       "type": "url",
+       "url": "https://s21.q4cdn.com/855213745/files/doc_financials/2025/ar/Proxy-2026-FINAL_Webhosting.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.secinfo.com/d1W7j6.N2.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://investor.thewaltdisneycompany.com/financials/sec-filings/sec-filings-details/default.aspx?FilingId=19077925"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/731766/000110465926046125/tm261387-6_def14a.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://espnpressroom.com/press-release/monster-college-football-audiences-and-record-breaking-us-open-viewership-propel-espn-and-abc-to-reach-72-million-viewers-during-48-hour-stretch-espn-app-sets-new-daily-and-weekend-usage-records/"
+      },
+      {
+       "type": "url",
+       "url": "https://thewaltdisneycompany.com/investors"
+      },
+      {
+       "type": "url",
+       "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001289419/aa778685-39ec-487f-8177-a0e18e318cc1.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sliceofstock.com/company/disney"
+      },
+      {
+       "type": "url",
+       "url": "https://central.virtualshareholdermeeting.com/vsm/web?pvskey=DIS2026"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/History_of_the_American_Broadcasting_Company"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company"
+      },
+      {
+       "type": "url",
+       "url": "https://pt.wikipedia.org/wiki/Lista_de_ativos_de_propriedade_da_The_Walt_Disney_Company"
+      },
+      {
+       "type": "url",
+       "url": "https://it.wikipedia.org/wiki/The_Walt_Disney_Company"
+      },
+      {
+       "type": "url",
+       "url": "https://pt.wikipedia.org/wiki/The_Walt_Disney_Company"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Superstonk/comments/1tq65pd/2025_proxy_material_things_i_liked/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://thewaltdisneycompany.com/leadership/james-pitaro/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0311ca096c27d523006ac2d417d1d887d1903844ce4252cf90",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtRd0SUB5VfpBF1Z_zJplZwefdxZW3Ku4Tre_69Du5ZfxmFal9psgrsV0LWddWwSNILHXLNs9B_8xZDQSNplsC1Lt2_FFOHhmLtgM96GqiL1oDYN3DJB0jGJmAZ0z_nkCukxSwZ6XYDbctnqj7c8bo2rsP4nmhA7q23tvhzfNgbStxdTywsltVCvtkSmAdWJL5PEZSuNBZ-0rf7NDN5u-VNZAKBwFdyKmxgT-NBlghwvRG4b-f4jlPlk4-iqxGSeLSrzpaTeO2IF1MqrW6sYUjUivhe_OtfjwgrkxXUrdtXjXQT6itaHXY16CadsuScPeWXSLNn5OKA1IamQlGK3qSZAqXu2f2MGYtdtPD5LKUDNVBqK1iWM2fMZVnq2Xd4GQ_YwzwqOgjU2oRDqcnM0i2NT6T8yXMy67OETtO8Q6WuUYF4_n3cK71qhC5ivF0eKU1Sdag1QdECcgWf4YWzofIOf6Qdjv3DoyCUB2wFygsa4EXO-vRZi95HAvKOBq6eCfVfdpKt3L-mRBipsVQuLgWpizzId-Z9zU0azbo9TOphDqJGzaeJJKu53v00tuQMYUiw55haXub7lNlRkrYff4F88TwHm5G2Pd-WH0avj27S0yzNAjN6cnFATV3ccoCgp9ZQyRgjbLi9Grn-ennzYU-4ZCpHL5-tSvUgfXqXzBTaF4c1ATcJO8RLNG1eXpiQklr3coV3mQry92hKytXMdJflfrftcIfnnUh36fiz2k4ZkBiIS8GhL1jJ5WerKzhsDqXC1sQHL1uK1HBnQ3QgpZvpo7Mc4At8SgpLH2E1dQAs3-HdwyBVAh07EwvnMfpDALwBEJmhreuz9XiuQTPz7Wot43ImQMJSd1dvFEHIdUUpd9j2bEUXmcF18wdC03OcbsIXZj39MdJNo2ZIK-i8sUI5yVd-1f23d9bWOaLhwXYWSg9sQRXb5srpxHXeAwydUZiGyavgOkWKkrFx33Casw-B8lXn672Z3g-4ptxfgMZNOyvC70ZHcrl0sPSpkzuJcNtVy3Ws2Ma8NEhVvzErj7cm3FPov-kfGo_6x_ioySvgWBqFOR19a3RVBhFapGMigFrBAmtrqUwmZK2m49AfiKAFtTmjWNy7LvU7npejkFki7h20UTTBCdA11oo_pwGcdqqM1u20aCPZOJlwq6bMRgVNIGlJ5ilzL2c1oawAxuh_H84tVeJM1Hi9c7Rr40cL6fAsex5mISsM2tq7yDZFS4isyD7v6XRMFlKP4s2TgRq8wae4gGLxlpJa48hkO8ouIxCw7UoYf41qX4gV9Q7wgM5R3E0mXBiwi93PBFPMhRhPhkb9F7JewY7acpR6gds_8CUqLZ-_ux0866QkBBcseUzxTZytTR4TOAggD-nk3v7h1qiOTJoyfYQOWA8CTr-GbmifujaCqVUGFdZXuaxMRyH2Gg3aABHQEKbXVk5VGJ5cwD3UFftJJfewDpCa_yJKDpaF9_z7MPMePbcZFkKq80z9TaQbTAm3oYQpNe_IeVosy9_v0xD5xhguS35UY2p4eDUO5HdKs9qFoVplkfMMU6JT0v9YcgVxuZiM6XFrtzQLuG0bWanIjmQ-LE-S9uz_oCBbCbIQeGXmtuWzlSbkyp0fRc7w8jMULlfd4RYdGobKSr3f0ARTugcB3SKo2cwfS1wNhhILI64daTryZJ-GUYF4nC-vADog8tCgIojeQSuH59Zs8Qa3qWCOTOhb2Q9aG9SzCjILpSKDOMJPqtR6yNepVhgi8k8wYzFFzrj3jYpptGUxiXS3-UscUjjiwX2cIZndmOW_K8sd3P0YOkm9IsfE3COmcnha4Owf8MP_CG2L51LtHInb8S8BnH_4UYK6ual0jp8N1Whqpm819bm-x9aGzbF6e4joyw-sMb5KBsenSOamb91OBmfFxiDLFXI0h-A7rucnCB80GBbWDgNt1zLkXWbpjh_634ALVF0gb_6iX4RCaKw-nQhg33BCSp4JBclSrM-hrA2RLcWTJ_sUDvymMxmvGMBBs2nqMhE5WVcW8bsepkK2f9jQIFgndz9nL5Q5CS_IIqVhxOs_7H_ht8OeHqy0A2M885Ac4IF2frqMHDbBqb3LbaeAz9cyMSEqAm3vOxYLv0qQyLGQPaUcZE3CKs5vfkWdQBz_ZtUIgj2_z7Tg7ooi-FerpUO3sl4hRN7Tcuk0eBEwjoHPH1Xu-RmmW1Se8g61oRsxb7VJOSBNG_m_lGuaJQa9wR_v6s3JNsbFj3brErOZVadRmBYjB_Y54b7Gh8lN52-z2ouKRKas3a5BAIx4Mpplnpdkckw1XaYUUGPuWib-N-fIuab5T13JtuXtxX_48GOdT16WDzKI1nWtR2ihyf8lOkr0rKnddtNKfW9Mk69affn6MrCVYfqMm55BO9pxSlsMgUH-Ewxegbz8wHfoIyHI_lFxL4xbnM08-8U6dOVFn3H4Y3mI55Bip2hHL182izkF0ifet1KtE8h2HLCCu5YnnPUTVyJ2ZEtVN2ZVQlnbZJdA01zwnMfZSe68d4vzd4hk7feTiGNzKiRT3zDJTOHj16GyJHTTbUvo_rjUFPXxs_e6k3LngK7vXlw6CXxGKnTpKmops1iUofNZKPCTY3Xem0i4sJepIkCbNER5qzZ-WqSRLOFUP7rP38llziPGEjS0fI_c1s0nYbZDrQH3W2ZUe45amQB4SaU6kkonrKji2phO6iLIwUJ-5ieoZ0WDsUu5fuu41Lgkv33ZL-8lfGJse6oF3uIl7iLt6fb6FGhX5Lg-LJAB15Isp61iZKPSWhwNgFp3H-ZVwh98m8ZNZ70ui2FrEA-ZCmBpNHxuozOfeRszaj-RQwXqgia4PRtpbIFByMZS-4uivWs24qviWVZN_bijvChSLmazq1_iB2vJyBC0pMruse_5JLzQOkxeENf5vY2GRtPRs9B0rq76D_ZHi_tBSMiEKBdY7Pu2oU43LK5kO0q2yRtlamvMw7iiguF_GQ-jLvE3BW-SIBytHf5FrHhbYLKLnbCYLUufbSd8owzOlupMiJnpPZeUT_lQ25pZRthMBOcFNKs8eePuziQC0vaaESMLNr4eNcGXQ2q_1uq9nOx-GNkHriqx0jghRw5ee3hHTPMRHY9FeiW5HM4r40EnnyzaUJVUTEjg8rWBi9HF7u8u_KkiYeA==",
+    "status": null
+   },
+   {
+    "id": "ws_0311ca096c27d523006ac2d41c5c2887d1a4ffac3aa8842d6a",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.espnpressroom.com \"2026\" \"72 percent owned by ABC\"",
+      "site.nfl.com \"January 31, 2026\" \"ESPN\"",
+      "site.hearst.com ESPN 18 2026 ownership",
+      "site.espn.com \"ESPN, LLC\" \"operates\""
+     ],
+     "query": "site.espnpressroom.com \"2026\" \"72 percent owned by ABC\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.nfl.com/partners/nfln-partners-update"
+      },
+      {
+       "type": "url",
+       "url": "https://www.espn.com/nfl/news/archive/_/month/january/year/2026"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/ESPN%2C_LLC"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-espn-and-abc-disney-hearst-and-the-nfl/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.espn.com/wwe/story/_/id/47791473/aj-styles-wwe-retirement-reaction-royal-rumble"
+      },
+      {
+       "type": "url",
+       "url": "https://www.espn.com/nba/dailyleaders/_/sort/fieldGoalsAttempted/gameId/401810552"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/ESPN"
+      },
+      {
+       "type": "url",
+       "url": "https://espnpressroom.com/about/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_assets_owned_by_Hearst_Communications"
+      },
+      {
+       "type": "url",
+       "url": "https://please.untaint.us/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FESPN%2C_LLC"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/2026_NFL_season"
+      },
+      {
+       "type": "url",
+       "url": "https://www.classaction.org/media/abdullah-v-disney-dtc-llc-complaint.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://ipwatchdog.com/wp-content/uploads/2025/10/Disney_CD-Cal-Complaint-1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nfl-schedule.com/blog/espn-nfl-network-acquisition-2026"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+      },
+      {
+       "type": "url",
+       "url": "https://www.espn.com/watch/schedule/_/type/replay/startDate/20260131"
+      },
+      {
+       "type": "url",
+       "url": "https://2.zoppoz.workers.dev/https/en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Hearst_Communications"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1001039/000119312507252227/d10k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sportsmediawatch.com/2026/04/disney-espn-spinoff-not-happening/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.judiciary.senate.gov/imo/media/doc/005a15b1-a2aa-1db4-39fb-e04316c2ed18/2026-02-03_Testimony_Sarandos.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/youtubetv/comments/1qozfcz/espn_unlimited_update/"
+      },
+      {
+       "type": "url",
+       "url": "https://s206.q4cdn.com/979796730/files/doc_events/2024/08/q3-fy24-executive-commentary.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://fortune.com/company-assets/1596/quartr/annual-report-10-k-16778-2025-11-13-11-44-45.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://storage.googleapis.com/byucougars-prod/2026/01/29/pimtww1Dzcbdkc4GQSEMl9nW4DYyf6ezeTCstUfw.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Browns/comments/1qrgcmz/pelissero_the_nfl_informed_clubs_today_it_is/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/MediaMergers/comments/1vb4wi9/disney_selling_ae_global_media_stake_to_hearst_in/"
+      },
+      {
+       "type": "url",
+       "url": "https://investors.thewaltdisneycompany.com/financials/annual-reports/default.aspx"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000019/dis-20251227.htm"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0311ca096c27d523006ac2d4239e5887d1a5f4416396937709",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtRdB2JcFSTrFd53krZakS2nq1xPF7WXWJ1ueAMs5HZBdQL8kXBnsvtsi1uXxziJEPbKt1L4JHJxE6qg8AJ-Otts9ZojRWwAahG7QveRDI-ViTYaiOFd2yfM1NAf9czSwAoFV1MW620sTXTyTFXwMTSt191j1ubxgbmBeotaSEtmhZSGdCqBBovsEh5dt4_8G7-LXLURQPq3uQbr3Q5Z5HNckoZ6Ucgj1b5wg3Ivxx9TwGzmejfWh3LJeRqLeDSg8hGzV2ZnqBOD372IjYUFgEy098zpJm-owcVEIXfqIc9JpWYXTi9258pKZTIVAYp_UnA1wpTs18uh4Ys0crMAH2ZA-XR8o_RV3jBItxgJ5llwYJQ377j2bOpni280SV8lSDiGFx_lCKb71IPGp6uBnw7cbs1_dEHF-n56NeD4R-Wm77RaCtXFLeNwZ4fCfHi2xHkx0DqidMO03seXHli_zRuHsZD0C3cnWKBpO036_ziJD0q5bzNkblOdrtjz0GfpPN5EYPKnjBPAg6ueu9_IZoPPCoiVt10NOQ2ZliZ2UsmtylXSIQXBTy4wQDQQDECtGji1YgGChMsHOV8AWcWN72ddWE66q2OP1i7aMK2Xeiwo1nnXXYlUdiP8Dpfnm19CpwzwKcghuM2kLXzLQlC2p_qCjaaN5rvPlAu65-fAtypeqnVyL-VUH68vpS2KIft21AXDavXP8PKGIb2avVBYG0CT4KG7WbIxVe0t8f60qh1_Qd7byU6pbBkzwRX4OUh8gMUUMW2euAGLQB7sVpIEDsUjHzfzdvOvM6axuC3AT4k17JykbJPv8590NqBNFRT62ux-oI7TxzPCMqXvhtaA_Q4_fOvcJHxS4igu9GXuke8hZlCVapDrGt3ZCNjJ9wbgGXOeK4LyhC3ozGQkj9p6qtPA4tFcBpz85if91cJP_bURfpmVvHLwu1Ezi914gKOmjoKG2I0hOzErOiGb44Qkjp9ovw_-f4e3epcFrI2SQtguTfVaCNRceeB4_yEa8CRQ4mSPLI2ulcdNXH4x8GhFFFAZlCcaQ576-m5vzESQnNQdUFwTJ2Z4HNE7pq8QrJq33FzW2jYAMebivgh2OV10aHSQzQNcqLjPGBANQ0r_kKlKanTXZ09KTM2dqGvZIZBlFrgoIZNHgKz5ur5f-JUMbkQ6NSIDRFqDtiidVzuNm8xVwxlxrPARqo5KDiMXAYYZWwzCyDULewtCB5gumrfOq1IB_XGHG_H-Oy8Fb9ChVdCwZ2nFyttbc8JyCWHnXcHqzULR38z7i-sHn3RplKmFvc2qHcBzweXyuo66N9IGujvoLJb6VKtwOTP9uWPAbYumoIuXEjeGk1z0b2aKe4rJbGO-GTRUp_yx54Mac0dg89yP8QjBU493GOiU0w997eA_YyfYFlBwPuZYNjcn0NrjvHUYuo9o8CNBSXjc2tTfd1uTMircGu8JggIL12KPFsbiQEa72mJDdNX-AbREc8Eeq9o_aqttyFr01pCIViSvqk1vj-ZWII3vTul_DyyNX2fSze8CdMm6WrINU0CNwXHs2F5N3utxPD-4DeoqJkRK0gdS3veWBAlfAljL0y11aomSFUabM7K6dz5ImGTzcuCJrrSn36OVrF0xvrfj7n0fcSQ6voOfURPQS2F0ILaH8N3SU5gNMG54TQDmaXpmN43p64gY2OUWdhDofu1nFxx9qsIZRbO_vjfitjpvyi7bMilPQT64YWwD8BeeZVtQZQL7AgaAh8BMFBZbGRRxMC0rl-TLkAzV7ZlZIuR6qoqmsFarHHkZXQiumvPmgVZjF8mq4A4rDmlQplOGX6XNTOEN6N1MGVw0SKBZhBsgFlbWl29mHmkqeYTXmUdOPAIpd6EMV55bIvxY0CuYOECOHLcsaVlvGZp3SqrVblc8zJigWILTOL3cjtx6-lqrh8drcIXgK-UjlJxPuSdOcGQoxiIcZnU-rbOvT2nFbvLWlCjQuuZoh2S2ULNXZiXPLdQKG50F12r-vvqM3WWeDV3kCeXfk3_PrspuSzujQlVcZtAhuTXfb4vocBPG0e78UBat9lmW5IHSCeJISiAeowwTPzS8PpoKAYX_6ncyOca5_ViVp5mG3VnUIOejoD_3X82asvu4YJu0W-ulLCYzlKhunBqlfTHJkK0hnDaF_aj9vcdWPruq2H9J5cblbhM-kDZnalk3swdGo44Z8X9vMSmXg9wbAYRtWqbA5kufcIjhcvNQ_KmuXP1OJ9RgakOPM03iR-DQ4WEgnaVNN7vh0-_RIS7YQM06WYwbs5n5jPT7HmsdZpwm6sh38sF4dQn0p12i21Lh9NUCDCfKXOyDFTaPZb3wE8WMRGrEcPEidbGBE3YQl9WKn2tU",
+    "status": null
+   },
+   {
+    "id": "ws_0311ca096c27d523006ac2d424cc2c87d1958f421d2bf5bf89",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"NFL Enterprises\" \"NFL Ventures\" \"owned\"",
+      "site.hearst.com \"ESPN\" \"18%\"",
+      "site.espnpressroom.com \"2026\" \"ABC, Inc.\"",
+      "site.nfl.com ESPN \"closed\" \"2026\" \"equity\""
+     ],
+     "query": "\"NFL Enterprises\" \"NFL Ventures\" \"owned\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://investors.thewaltdisneycompany.com/financials/annual-reports/default.aspx"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1294142/000119312526055460/xslSCHEDULE_13G_X01/primary_doc.xml"
+      },
+      {
+       "type": "url",
+       "url": "https://latinamerica.espnpressroom.com/espn-llc-fact-sheet/"
+      },
+      {
+       "type": "url",
+       "url": "https://espnpressroom.com/press-release/espn-signs-new-five-year-media-rights-agreement-and-expands-relationship-with-premier-lacrosse-league/"
+      },
+      {
+       "type": "url",
+       "url": "https://espnpressroom.com/press-release/espn-and-the-college-football-playoff-extend-exclusive-media-rights-agreement-through-2031-32-season/"
+      },
+      {
+       "type": "url",
+       "url": "https://business.cch.com/ald/NFLvNInthInningIncPetitionCert2112020.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://support.espn.com/hc/en-us/articles/360039139792-What-does-ESPN-stand-for"
+      },
+      {
+       "type": "url",
+       "url": "https://espnpressroom.com/press-release/espn-and-wcvb-channel-5-extend-multi-year-broadcast-partnership-with-the-boston-marathon-presented-by-bank-of-america/"
+      },
+      {
+       "type": "url",
+       "url": "https://static.clubs.nfl.com/image/upload/jaguars/ozyrq7nvmngk5gjwwcqc"
+      },
+      {
+       "type": "url",
+       "url": "https://www.scribd.com/document/486705730/nfl-bylaws-pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-espn-and-abc-disney-hearst-and-the-nfl/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nfl.com/news/nfl-community-observes-juneteenth-holiday-2026"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/ESPN%2C_LLC"
+      },
+      {
+       "type": "url",
+       "url": "https://www.scribd.com/document/239221401/NFL-s-Constitution-and-Bylaws"
+      },
+      {
+       "type": "url",
+       "url": "https://www.lawinsider.com/dictionary/nfl-entities"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1834489/000119312521279541/d234005df1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/National_Football_League"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/2026_NFL_season"
+      },
+      {
+       "type": "url",
+       "url": "https://s206.q4cdn.com/979796730/files/doc_events/2026/Mar/18/2026-Proxy-Statement.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/ESPN_on_ABC"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/ESPN"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_assets_owned_by_Hearst_Communications"
+      },
+      {
+       "type": "url",
+       "url": "https://s206.q4cdn.com/979796730/files/doc_financials/2022/q4/6ac2dfcc-da18-4c90-b00f-7e403cfe651a.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1qtbebc/breaking_espn_closes_megadeal_for_nfl_network_and/"
+      },
+      {
+       "type": "url",
+       "url": "https://ipmall.info/sites/default/files/hosted_resources/lipa/trademarks/S.%20Hrg.%20100-818%2C%20Competitive%20Issues%20in%20the%20Cable%20Television%20Industry%2C%20Subcomm.%20%28March%2017%2C%201988%29%20P.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://thewaltdisneycompany.com/leadership/james-pitaro/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0311ca096c27d523006ac2d42c3c7487d19abc9460c614a076",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtRdkq6kZyxAurlIcLvwPOcuWBMlBvcS5nA2U68XfKF_OoUj6LzSPHYRftMPZNeDsYIUg2xnSdTaLjST38V5Ab-5KLc1w9nRBNibTCyE6pn3QKqvvLDllHmbXYOjmgW9qSWh3x8BeQDKWXXvPQuuLDJ1qmyvSIlON4DUF_Do3RNO6tTSL33wNS5CLVEe9NCf4hHihDEdmdyEMdQI0xhfplP9wzNMksz8b5uQssKauANLiZskyeRBsoeGG5lEx935AQCfgOJqE1Nbjrys-2nPA3_6yUyfhg5iSgRvCtYHnjIBbkfAqG-di0UwgteJlzgTwKQFjwBezjrak4X8J_K4RRR41D-cD2tyB4NmrI6cRTfuXzBABQnFF0M9kY-zWRcXGmspcUbjgaWjU7BKxAka7F7j2T4pmbnsRvRsD4UnrtNdOUx-ckLwnON2dPTdYPj6S8gsMZmciMpfUHOkNEMurFoo5FNu3OMoH9NerWhwYd7bWOUWzSxZL7dVUie1P7lvKfqwN6nIb99k_DoGWmJ-JU8ollWUWQIatsOIUS2uTBGiVdcMqt6tPdkgGlCnDD5CJgrZ3gpkw-S4hVdNwdOg3ycoUTtgUh2GQjCdBejX-4UqQvg3zD7UoSV1yozKb5PGUwoC5BdCfzCIGHjUCjXFIkZwChZZTdbXu8JmFrTlSvd655-sBXnFYRA4fs01w3BOdmQQcNNHnO83h5gtRhjviRWKIX-i-_MBkyZTscfV9ObbYRQkO4mALur30qYSGmAWzR0dfmRniq7ppHuX8eRMpDyvoLj8ml5uEuTpe3Z6nCgEzFxFnDPoqcYllcZhqkSdy7nHzkNh6Rg0LHFKd67jvSo3xXjtUjSSp5e4ZdO3FGwmv2C3PUmJtP8XhNx1hBdy6rE_AxXA5PJF-7NEQIfJhTEOMR6ws9BOraXtkjQpb67SU3MmbYbAB8P-cXHYPjmaqphLd6awwUpr2LE9AI9ZRDrT2Io30Z6_gjqx0LVfjrvkBnW2UyqdmRf_sh76W4Eg9oUtyNVBSt6b6JzfbSw9I0eLvTbuXY5v2v4aV7vjsPJrRBZ-AcfgrGzeNpFbgZnyoE1QCUSZfOakxRsLriCsP4YuUgEW-xMENVq6gyKIaaAB7s8mcFBFKMU2GU7_wbmjR53XWvVQwiozlzhnd1Ks4A_j2pUUtAJXA68Jzv36S2dTEdc4WfKw9gzmRNLXbKRaluIdwHHeHRHgjSW3y4taSn55cIB0hSBkbu0BWWogKjNK9jQfVv3qqAr6Z4b_xvmBStpv1PL4abGCFyKWHSohH85aw-w-iw9FaEwvE2d-ryZg2qnE9z9bG-fXd0i2ehu1cYWAYCjFDtNiGvfzDsZhXDXSrvBbuxUU0ropS6AZ3-K8aL2diingx5l5hYoZfGSsL3vIcgW0T6uQ8CNEKR8jBDCOQOW7ywZeZiAP_EeSpexopouLY1mLO0YMPJJr9WCUcBWmf_z62kFT-gAeM1OH65kNJPeN6wm2pFjOI5eIDZrBMnZuqBYBA6DmsuQxZPh5k3_AeFZs-eJ2ITk9MlG4YonLd9YCj-kjT_KOulgNswYWHyfzwe5tR2uB4Lxil59TW2NtTyqbPMCi25xnPndEcAl56kFSBvv4vP0AMgBu_ahy6MdIxANhJN5BvgxQ1iZ7B06JpnGBWEN2ldFLdovkaQ7aNSxipZHiON5ZKE1tKD5H5GA5cPPJuTOzscSIPgA5DNzt9NOIOTKLpC94BkeEF09mJOJBguVDucrrxWo8T5WlyLFOAq1Sq7atT4q7Kgb0I9tQ",
+    "status": null
+   },
+   {
+    "id": "ws_0311ca096c27d523006ac2d42cef9087d18f7c47329be22ffc",
+    "action": {
+     "type": "open_page",
+     "url": "https://business.cch.com/ald/NFLvNInthInningIncPetitionCert2112020.pdf"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0311ca096c27d523006ac2d42fc9a087d1b7640275cd27fc85",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtRdRKL4WCHINEKdTa1426Z3pPXrqvBBJ79mHbYRvpVPJXVNln8UIjzMBcBhYUxv0cl4oNC10XQUMInb1CBof2Cz4Qd0naXSFDY1Y9xIf9pSdnTXu4tXehHGDHlPMlPESVNO0-qj6ZYaxzP-te5OZ2Ll6eIsvsMu_b5iPtFZ7_eU9eEp3tC5b_VdRGgmoVtdqlxmGEx7PU7M9eTGFes6_epScUOLQ3yshjbXtH4T-iyn5EzPP15MSej-dF8nVYfYZpfRfY5rV35JamZVYSe7CbyjVALVUeSYku3fxp9XOlkcddURJXHSqK2YrSMMUrq_dUpY-GKmJXSPEjpD_u1EHvIzrp1GLCxTRO9Ruq5nY4e2SkOc45NFR0qFO3QOw3Bxy7IGLgcSdXorFj10sOeaUYB75DwmMThKarPPFtI8ZTuU2dSSRFlG9dEFdn8Rq5EiH5egAHupylcPs2PGCS2L0OI8rBaSyncY24tFlh80nYSpJwzwX0c700sUTjLfLAVFA1NOELwcl9yFf1kbmdGITmrvdTtzTWCMbt7PtY8pQRYUH_U55T0mg4ZStCujiE_pEqCQR7QETAADR8BZRkK6QyAFTePS1g1XJg3Jkn56Cvv3JKhwXZqWkq03HFieBsNsQE9cJz7Pw46PkA70GdayXjSXig7ceTaJlO1vQOkG1qatx2HS7PLCLge5HR0z6TcdifN0obkC-J1D3Mby9ncfD3bqyD_wBx04upN2dRdoQwSN3iVn_oM_c7QRc-wKZe1CyIpiq9dF8B_SGSeC_dA6nK3c4QQWcQhktO7yQnUSrEdPy16OB-6lFvCypz1qnmC5VjQ3gcHv8pDUruOW_4OZoASwb-fB4luCsZIZkO535p_mM0gA23sMo4Ao9q9iApqdf1c-NG0W8qtWcrCJTeu933djIT8w-Y-3L7CT_c87hUWSt7uvbHXyzDG3MQFUBXF8RfA8Y7Z9Z1d2W5YxpwGG5Fr7jgAJDCeLfk2WonO8iYzD7PEfbxiFRnYjJOcC1cpAlhCmamS7BAA-5UZq2SXVTSfkmInRkQ-vuGEq1V0_glvqtGg4-FzfohxlgEgzCb2LUeiGu5HVcQXarKsdtSl8jK9UV7THpzj7-eoMVLBjrAt8lAIfq2h3j8ttzCsMzx_foFeCfeZ5b5lol_N4sVIXmSCL2SP5TgbeqWgLeAp0kbOJ7OlccqR12lf1AQlQpLXhjCSAevrd-oJEd4Lpdfp6nT7U7wJi4XzBXxV5e0ApAtDq5NZv3sw6jKWxWsCQbCRhTEh8D0LJmVWcNJYLmRPN1TJGdbU1R0YxsmkoFUf9uS8Q52OBBPeYQqn_QlRACxVhcsfCYK51F1ZgbuNTig0PGUmhQHcoraZVZb2WLlcqP22z-bYRKjB0v-A9T-IV91P23UeqGRqcnulBQm0xUpJy67Qb79QE85-MTidsXN9r2txJQYGva69qRCio3eWqJ7kI5ysLznLxZrB_g7GG45I5dhCjIiizYVxQsYHg-a-jZZbekxIlCqK8bSh6oRSKKvOk1csIGKWVowf4n59HzUOw2QoXHTinUXUNDCsHcmpg_YHAEJ124SOFQxIX1zCwaUrnD_6evGO0i_YBcC3yMAdmKt_w2WPgDMeXInQSLqmQ57taxp7q03ALLAX_lukZFgR6L3ue7vz9-fyrbkF3n6UO-TlKxjgefeGX5kqO1OPuwWLQhf4FqtkOI2neOAVtYCwFGKPsAFWPDsyQqDDaSG_yCSc2bG1_NAjeEsx2316tDV_sJMdYE7KPYfxPEZ_2ZTCZDwlrdV3c0efMMEdXyHfpTYWxUamqODfwS7rjkXogDK5Dyw9nbPafS8UAgD6K3XqLxn24h_O6Sn0tzaC7xoumD2muZo4u_yNhz7onptSsmHnNEyfbpJraalUKNihhFOid81WvyDI_oKmBOP7s1lcJKUSZ-MA6gsjJgZHcoamuFjvMgg0KHu8J1izakmfyufY3WBP9dn8FOuxlriMs-cIS7HYvgx8o9WZtkfyWj_0xKdsXoymG3fRZkun8dmzdyXEe1yuivjtU5esXw8YVlqBJUlvg-FAr3ipTouYlKD2bHFqE9mqEHZ2pVMTUhEHHoONCEUOWY_lD12GROWH1VbBMd-mcxbTAVJDu1moucFCGhxKxzqPjXNN9XNoWmCi01xGU3r0dmkZO7l0IkAs2c2T8FcoGsX51aUhMhmczVyfd-keT_05IjQtSO9MYRJwL4YUaJrtpVrt3QA892wLT52dR3f9eQjhOD06CH1nD1NS-Fu2GFjJ7b-TTqqJxABP348YXpe2vxYaw-QuOKz-2sFzZx15-_vTN44MCq_DIGAm98TwYbL38vSR6cocaB8QYTUoSfsO4rOaepnYqutZuWNluBRW7P1gnN9qYEXeG2NekcTcDIfind2cjVS91DPJFqScq1N2nYu4MZs11jrdjafHus6b8IZNdTtB45PwrQRdXyQc8PKN9NX55WcFYoEgYQDIK2tcF2Cydm9Wnp_-_mVJfHVrkWJMiJxt_g1HaCSonArz9I85oqS2qyzBA3H5fjf_GByGLu9-ruMdlzbQU2NTwcifDHk_iEdqA8o-hEl-2otQHiQhBMjI2TqD6C-t7dNSrQT1sCRnCZ-A6HiSaeBrcmKvAQHrbwP32sHfOV8RDLW9_RlgNNqZa00SFjIh_kiHaXbHTlrfAZUvVpWfrVKjlOptO6avUHchE6RFRs6ljFjWdSgcamCNOappEUsD0MFlNR0-3",
+    "status": null
+   },
+   {
+    "id": "ws_0311ca096c27d523006ac2d4355e3c87d1af3fa08feff11ba9",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.espnpressroom.com \"2026\" \"closed\" \"NFL\" \"January\"",
+      "site.nfl.com \"ESPN\" \"regulatory\" \"January\" \"2026\"",
+      "\"NFL Ventures, L.P.\" \"owned by\" \"2025\""
+     ],
+     "query": "site.espnpressroom.com \"2026\" \"closed\" \"NFL\" \"January\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://s206.q4cdn.com/979796730/files/doc_financials/2025/ar/2026-Proxy-Statement.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1294142/000119312526055460/xslSCHEDULE_13G_X01/primary_doc.xml"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nfl.com/partners/nfln-partners-update"
+      },
+      {
+       "type": "url",
+       "url": "https://espnpressroom.com/press-release-category/corporate-news/"
+      },
+      {
+       "type": "url",
+       "url": "https://content-archive.fast-edgar.com/20250314/AU22S222ZW22C93Z2Z2S2Z42RQJQTK22Z272/"
+      },
+      {
+       "type": "url",
+       "url": "https://benefits.virginplus.ca/en/members-lounge/rules.html?r=rules-nfl-london-contest-09-2025-contest"
+      },
+      {
+       "type": "url",
+       "url": "https://s206.q4cdn.com/979796730/files/doc_events/2026/Feb/02/Q1-FY26-Executive-Commentary.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001744489/36bd32f9-d2b3-4630-9eb3-0a8934a06745.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.seahawks.net/threads/season-ticket-holder-terms-and-conditions.211290/"
+      },
+      {
+       "type": "url",
+       "url": "https://brandsownedby.com/who-owns-nfl/"
+      },
+      {
+       "type": "url",
+       "url": "https://carequest.mashreqdevelopments.com/?_=%2Fwiki%2FThe_Walt_Disney_Company_Limited%23aU4iOhb7bFvwaLRrz26oQ2RePytLrjET"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nfl-schedule.com/blog/espn-nfl-network-acquisition-2026"
+      },
+      {
+       "type": "url",
+       "url": "https://www.price-pierce.co.uk/privacy-policy/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-government-approves-espn-nfl-media-merger"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/ESPN%2C_LLC"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/2026_NFL_season"
+      },
+      {
+       "type": "url",
+       "url": "https://fisapp.com/wp-content/uploads/2026/01/Ferts-Daily-Report-Template-9.1.26.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://static.clubs.nfl.com/image/upload/cowboys/ippcbgc3ymh60wyoamlq"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/ESPN"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/NFL_Network"
+      },
+      {
+       "type": "url",
+       "url": "https://investors.pennentertainment.com/static-files/214485a4-e02c-4199-8add-205f1bd79243"
+      },
+      {
+       "type": "url",
+       "url": "https://www.cablefax.com/wp-content/uploads/2026/01/cfx012226.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nfl/comments/1qiawxn/its_official_there_will_be_no_indoor_playoff/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/sports/comments/1qs2kwk/removed/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026062486/fox2026annualreport.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/nfl/comments/1qewycn/removed/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/2026_UFL_season"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sportsmediawatch.com/2026/04/disney-espn-spinoff-not-happening/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0311ca096c27d523006ac2d43d4ed887d1ad33db37db2cce38",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtRdCx-nJRB-XqhRJ6N8slOzwKQ6fgrvMRd0K__C-XGv5zk4JKqNB3lQcSZ3yLd-snXoOQvp1DUdt8Q-VN8MsyvsMtGwMGHwHAfg4ggjNFtNJ1_T5sCjqLsjFj5Rf2kioCF9LFcH1rLXs2IGlckVqB8Adq40Lo_YwCUC4he8wsUVv-khRe_IQGVCQN-r2FsMawSBMU87NDu1QMmPNM8Gv1FOxx-1iCXRtY8w832J9pClZe0TQYKxhjpjzxm4ihdPKU1rPQCkerngnKu0j5dVybFrZK4kh9q0eA9TQBTdc8eiO8cuLL-GPf21FleuekoIXMgBhN7G7JF_Np1tOFgn1F3cMifpr647zzFoAY35Z2XnVQXWn0wZdW9SZblhWDBydxyfWtrHhchigNosfRPPvQ1V1vjHqc8Mp1c38LWVCh0aFXnoINs9ALOyCqlzQueixDbf0QG6wh7HI8ayc-MA5ynBuy6AfG_guuky0AEhcW3qHEWujw-4H3RjvK200ltPcAe4sLKm--JrwxyJAfZ_Nmgzyx6tF6MADIpjl2WaPe0LfKF57-p2ZyhNJbHRatk6pSuk43lDsgNGil6kEaRwXcp3s22FwDyionfFelMXHH7_d9KrFev-eaV13QLou7BhUglw-wJfG4Lx64WtWViCJ78H6PtHzNp5g88MIsfu6hdqpYRj4VcmgclMFRFpodh0qHHgFgvUEhHY8pn1FallD2dfN8g2AWjNZ_IOcHl8_fIqEkvrzDUDBY0rIMaJFs_skEN6pVViw7-igUtJ9aZFm9YDh7QvYbk8M4EdR19q9VRujfnGsQtofgO9EaX4MucBFh1FnPUDBiXigd-2E7MN7qyjW7dYBDZH27o9AHOPjBdlaMlfZI7eNiSXSx5lU6P9FA9jKP3ruqQ99mImPj3Fl1FWFlfmaaSrogXsYesYCHd4fShPpngKYPsuhRHovWbUQjQAHkFDCY8QMojOfIQqqV5gt6hWGLACijzNdR5IY4J9-mjv3SnrKDDZz_5qfsWSJ2ezYRJ5EnLSlbE4Vglvo59HUxhecXg6fdDUr8QMUej0VNCfRDKYl_BnOeRqCqwva1FOjUL3k8xqP2bQpeKojtbRwZRfONGYuOiKS85njT8xiZ57M-VYIfaYhR3EVFYFomuwn-7D0Jnj_Pjl3W0Zsv4S5HYOTT-LkLkrr_JI1j6YlMDW40rvdj1Miq6eWTXG3memk1Uy5Od030TTh8xXLHQHRaM3c286ceJSwY0Si58hA9sS6ZVu47CEi3WOhh5M2Zg-fUjsEHicgMpccq1pkelK27WNguFTGN--NDSYfOnQSdFFw2OkJ9sxI2FQp8DlHRmI0aSpGviJyBx8u0zaszF8mn5cVqlOjweU29L2eNt6eS0E4ECG-adIlxHjR5mEk5jSLIxW7VJSQyg2kBoHs0K0z7OmBnRItZfaQWYJlVUY9qpVn1PISGnnZvpvP-AdWQdaO4b5CptUsOH9U8Jod7T2CnNjZjpraBocMltTlKT0MVG76BbRZ5cnXnQDnYXQyyB3REyKHxy09IYsFFcH__6MqKIJyLnCZidKhy_PicEalTYnzgWXh7qr6m0fDv7fiiSRTP1lDOmCkF3myOYMqDWSxcpYXOcn0Okk4DdeBsemKlJ3IqTEr-160mqsKXUsXdFxZQYkxkTubzVmhv8Drzp130TgCy7vjgPTZtt2cI4so4nJTx15TamITLp4S1y3jRcumc9YxLmmMqpT8BYhHG5TIzLkLIf_xZPxe0lhGAmSki_pY4Cgv8jGFrsSCQSA6T0Wvn3Nj5utWY6h-nssByCVf1vJmEPOrWkBJGVfHu2e5ITuhWCMMf8PGRUEBDt1UEDzkXaxN3kPBzgIot3Zx8fHsa4q5LODQezVtTgZBQSawTgHbZYhTe7o33BFzm2gUukT2jpTrt2lNH_mJ0V23N0iYijeWxSdk-CBpXHV4MspuFBJiirZBg2Fn-MzWdT_lB90uIdIJ3pHNgQ_eMUFZK2BG_aoumfdqppIO3WwM9dODxZ69nSj7z8XWV55iSdDukO-mX1RKoTFQIVbY6h8IK2z4zOG0t6wcA5u9Vg3RYshK9w_iRzh_QOTNfrsl8w7APD6NVJWLWFBmJ18sSlmXHzCStwJx3Zwxu0QQ0WwHX9mWDxf-Edt1Jhdm-OlWPs4wfQqKtrYWlIj5Ps0yyOAxZi1MO8JikMS7lMCK6BN3WiPdfPatrqwUi9YOHUtLHe_r_OUf0oirzkwRGQtO34FTVrdVIEoz3XaMmG4Alv3zmti-Z-SlXyON-DvR6F3T9ik-msTvnULa0kLgfODx-tuXu5sLZYozG42UMiqpa0e61t3XTOnT6-nPv-855s37Ly8vyjijylAItG5GIMFJzaSEbPXoeGO0-BfHqfLgvgqwjefhbMPrBFhqoyysTI6_tQFIzSaD9gzXNt71Pob-dPFwLsbBSe-fm4A3o3Qyx2ro_Bu4aHwd2KMCXmXVHNXdH8LXGi1tIPh8RXhgffuFClbWeIe26rflTwzNPp41moqZlhB7cHBD0GI7bzPd095zhQalCu6K3gIe2VkOQW9Q7Ls4d66bKb3NnTAJmp67FKuve2g2C-kVY19nw2ZpxjIAmCDd-iifem4w9URxsW5IXq20GEblRcUZVUyIwGQR4u56RF0d43wt2SpgwKz3covswb5LOvVpQxO0YHXFszZ11qUUE0hTJocWr-y90KAY67xzQ6GOYsm5BSd2T35bahbuMnT6StTF4Gmgz8bBRKAVkNM_ybnt23xJ1xyLSlJMfaQtTxdCniOpn9qXmlRWz8fDbJwsPJUqW2IRtpo3i15p1mgo-l7KpH_zNOZOcH5qaNEvW5978uDIwcsuqN5RWsRVJradSg8Vz2xtydPBBwXNAC3cUBObSTrJ2dexXpWKlKyU5oXSBHOyRuyigHvhx9LldUN6nxjCY6KnbSAGXR5nGB-cJWMtjXaRzhMK7v3F1blBG4dGCnZoQWz4xyzt-HGtCmaNb8nEI8zQ5n3ii7f9NX39n0JM6MFecqv3KFrbsEPHOQhYyR09jTuM2T4SgAzEmnsR5CiDfYfH0QwQO5ZIkuHJ9-DdubjdjXkuj6T0JrXv8CNEaZQS5USFXRv_pdAcuDW3He3PKO9diUfDM0X7_ueyipfsnHq0R282T2DakwPQR83-umvcjPlVkz24s-h4MZ_zVbmfgiBmG6kIESCWiPHEfVDWL1jpXso4zOwieGRptEkJL2z0jXWlfJra2NxI7Rr9WDd-BWCH9Svqs_XVVhoTgeCirS6mRhJKjLqU_sPmokL887KAtkL-jlTXn801Y7wOAkmeFjDZSUVD8A3pymbucv8txA_9hPOzBlBNtc5qakuMm75pMtpaPiq-XllqERt_vo7CSbQdMGfuGPd-g-_DYrW3Mh1GQwxwfbCO8DhweaYzUBtV7OXZ6Wcqpf3J23IygSC7xIkMWSp7v0QWX-6diTK-GTgi6R6d6xQF04jZ-OE2v4fNXKH_hWSB0RmDPMKJ53nqwi84tLBCopa2MHPZlz37ug83JLugF58kufoPmR8XC8y9nP4KEVngb9yBYqXsWQBRV7Sz_7b9rHKx0pa0NgyuLntalOseXsu91Nv1pj8KvMRE6TQlVTnzSVMXJXk7zJL8tJvodokYp1lnSx9RMgKiXC5xf0In8QtBtUDMdmBkks=",
+    "status": null
+   },
+   {
+    "id": "ws_0311ca096c27d523006ac2d442361c87d188e12f02fbcdb5f3",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-government-approves-espn-nfl-media-merger"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "msg_0311ca096c27d523006ac2d444d80c87d1a003ff779a81d9a6",
+    "content": [
+     {
+      "annotations": [],
+      "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"ESPN, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://espnpressroom.com/about/\",\n        \"quote\": \"ESPN, LLC, the world\u2019s leading multiplatform sports entertainment brand, features eight U.S. television networks\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"ESPN, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://en.wikipedia.org/wiki/ESPN%2C_LLC\",\n        \"quote\": \"it owns and operates the ESPN-branded cable television, satellite television and streaming media channels and services including ESPN itself\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"ESPN, LLC\",\n      \"parent\": \"ABC, Inc.\",\n      \"relation\": \"72% ownership; Disney's majority interest is held through ABC, Inc.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sportsmediawatch.com/2026/04/disney-espn-spinoff-not-happening/\",\n          \"quote\": \"Disney, through its indirect subsidiary ABC Inc., currently owns a 72% stake in ESPN\"\n        }\n      ]\n    },\n    {\n      \"child\": \"ABC, Inc.\",\n      \"parent\": \"The Walt Disney Company\",\n      \"relation\": \"Indirect subsidiary; intervening legal entities are not established here.\",\n      \"citations\": [\n        {\n          \"url\": \"https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/\",\n          \"quote\": \"ABC, Inc. (an indirect subsidiary of The Walt Disney Company)\"\n        }\n      ]\n    },\n    {\n      \"child\": \"ESPN, LLC\",\n      \"parent\": \"Hearst Corporation\",\n      \"relation\": \"18% minority ownership.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm\",\n          \"quote\": \"Hearst Corporation has an 18% interest.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"ESPN, LLC\",\n      \"parent\": \"NFL Enterprises LLC\",\n      \"relation\": \"10% noncontrolling ownership.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/1744489/000174448926000019/dis-20251227.htm\",\n          \"quote\": \"Hearst Corporation (Hearst) and NFL Enterprises LLC holding 18% and 10%, respectively.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"NFL Enterprises LLC\",\n      \"parent\": \"NFL Ventures, L.P.\",\n      \"relation\": \"Wholly owned subsidiary.\",\n      \"citations\": [\n        {\n          \"url\": \"https://business.cch.com/ald/NFLvNInthInningIncPetitionCert2112020.pdf\",\n          \"quote\": \"NFL Enterprises LLC is wholly owned by NFL Ventures, L.P.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"NFL Ventures, L.P.\",\n      \"parent\": \"The 32 member clubs of the National Football League\",\n      \"relation\": \"Collective partnership ownership by the NFL member clubs.\",\n      \"citations\": [\n        {\n          \"url\": \"https://content-archive.fast-edgar.com/20250314/AU22S222ZW22C93Z2Z2S2Z42RQJQTK22Z272/\",\n          \"quote\": \"NFL Ventures, L.P., the partners of whom are the 32 professional football member clubs of the National Football League.\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"multiple\",\n    \"names\": [\n      \"The Walt Disney Company \u2014 controlling majority parent, 72%\",\n      \"Hearst Corporation \u2014 minority co-owner, 18%\",\n      \"National Football League member clubs collectively \u2014 through NFL Ventures, L.P. and NFL Enterprises LLC, 10%\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://support.espn.com/hc/en-us/articles/360039139792-What-does-ESPN-stand-for\",\n        \"quote\": \"ESPN, LLC is 72 percent owned by The Walt Disney Company, 18 percent by Hearst, and 10 percent by the National Football League.\"\n      },\n      {\n        \"url\": \"https://www.sec.gov/Archives/edgar/data/1744489/000174448925000136/dis-20250628.htm\",\n        \"quote\": \"retain majority board control\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://s206.q4cdn.com/979796730/files/doc_financials/2025/ar/2026-Proxy-Statement.pdf\",\n        \"quote\": \"no person or entity is the beneficial owner of more than 5% of the voting power\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"James (Jimmy) Pitaro\",\n    \"role\": \"Chairman, ESPN\",\n    \"entity\": \"ESPN\",\n    \"citations\": [\n      {\n        \"url\": \"https://thewaltdisneycompany.com/leadership/james-pitaro/\",\n        \"quote\": \"Jimmy Pitaro was named Chairman, ESPN in February 2023\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"ESPN and the NFL announced a non-binding agreement to exchange NFL Network and other NFL media assets for a 10% ESPN equity stake.\",\n      \"status\": \"announced\",\n      \"date\": \"2025-08-05\",\n      \"citations\": [\n        {\n          \"url\": \"https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/\",\n          \"quote\": \"announced a non-binding agreement under which ESPN will acquire NFL Network\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Government approval of the ESPN\u2013NFL media transaction was reported separately from its closing.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-01-31\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-government-approves-espn-nfl-media-merger\",\n          \"quote\": \"received government approval on Saturday\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The transaction closed: ESPN acquired NFL Network and specified NFL media assets, and the NFL received a 10% noncontrolling ESPN interest. Disney and Hearst's interests became 72% and 18%.\",\n      \"status\": \"closed\",\n      \"date\": \"2026-01-31\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nfl.com/partners/nfln-partners-update\",\n          \"quote\": \"On January 31, 2026, the NFL and ESPN closed transactions\"\n        },\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/1744489/000174448926000056/fy2026_q3xerxex991.htm\",\n          \"quote\": \"in exchange for a 10% noncontrolling interest in ESPN\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of October 4, 2026, the documented ownership split is Disney 72%, Hearst 18%, and NFL 10%, not the older 80%/20% split. Disney is the controlling corporate parent; no natural person or family controlling Disney or ESPN was established. Minority co-owners are included under ultimate_parent, but are not equivalent to Disney's controlling parent role. The complete intervening legal-entity chain between ABC, Inc. and Disney was not established. NFL vehicle ownership relies partly on older legal disclosures and a 2025 filing; ownership above Hearst Corporation and individual NFL clubs was not traced.\"\n}",
+      "type": "output_text",
+      "logprobs": []
+     }
+    ],
+    "role": "assistant",
+    "status": "completed",
+    "type": "message",
+    "phase": "final_answer"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+   {
+    "type": "web_search",
+    "external_web_access": null,
+    "filters": null,
+    "search_context_size": "medium",
+    "user_location": {
+     "city": null,
+     "country": "US",
+     "region": null,
+     "timezone": null,
+     "type": "approximate"
+    },
+    "return_token_budget": "default",
+    "search_content_types": [
+     "text"
+    ]
+   }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1791153244.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "generate_summary": null,
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+   "format": {
+    "name": "ownership_answer",
+    "schema_": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "legal_owner",
+      "operator",
+      "chain",
+      "ultimate_parent",
+      "controlling_person",
+      "leader",
+      "transactions",
+      "uncertainty"
+     ],
+     "properties": {
+      "legal_owner": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "operator": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "same_as_owner",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "chain": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "child",
+         "parent",
+         "relation",
+         "citations"
+        ],
+        "properties": {
+         "child": {
+          "type": "string"
+         },
+         "parent": {
+          "type": "string"
+         },
+         "relation": {
+          "type": "string"
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "ultimate_parent": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "single",
+          "multiple",
+          "none",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "controlling_person": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "none",
+          "not_established",
+          "not_applicable"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "leader": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "name",
+        "role",
+        "entity",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "name": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "role": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "entity": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "transactions": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "description",
+         "status",
+         "date",
+         "citations"
+        ],
+        "properties": {
+         "description": {
+          "type": "string"
+         },
+         "status": {
+          "type": "string",
+          "enum": [
+           "announced",
+           "approved",
+           "closed",
+           "abandoned",
+           "unknown"
+          ]
+         },
+         "date": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "uncertainty": {
+       "type": "string"
+      }
+     }
+    },
+    "type": "json_schema",
+    "description": null,
+    "strict": true
+   },
+   "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 62174,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 5259
+   },
+   "output_tokens": 3900,
+   "output_tokens_details": {
+    "reasoning_tokens": 2091
+   },
+   "total_tokens": 66074
+  },
+  "user": null,
+  "billing": {
+   "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 5
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 62174,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 5259
+  },
+  "output_tokens": 3900,
+  "output_tokens_details": {
+   "reasoning_tokens": 2091
+  },
+  "total_tokens": 66074
+ },
+ "usd": 0.2233559,
+ "latency_s": 81.5,
+ "web_search": {
+  "tool_enabled": true,
+  "calls_executed": 7,
+  "actions": [
+   "search",
+   "search",
+   "search",
+   "search",
+   "open_page",
+   "search",
+   "open_page"
+  ],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "A",
+ "case": "espn",
+ "run": 3,
+ "saved": "2026-10-04T19:34:05-0300"
+}

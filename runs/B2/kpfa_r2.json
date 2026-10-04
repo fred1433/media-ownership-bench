@@ -1,0 +1,321 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Pacifica Foundation, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=51246\",\n        \"quote\": \"Name: PACIFICA FOUNDATION, INC.\"\n      },\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f918bac099c018bb99b1a9b4135\",\n        \"quote\": \"Licensee/Permittee Name FRN\\nPacifica Foundation, Inc. 0001546415\\nFac. ID No. Call Sign City State Service\\n51243 KPFB BERKELEY CA FM\\n51244 KPFT HOUSTON TX FM\\n51246 KPFA BERKELEY CA FM\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"Pacifica Foundation, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://kpfa.org/app/uploads/2025/03/2023-2026_CWA-KPFA_CBA_Revised_03142025.pdf\",\n        \"quote\": \"This Agreement is entered into as of November 1, 2023, between Pacifica Foundation, its \\nsuccessors and assigns, (\u201cEmployer\u201d) which owns and operates radio station KPFA-FM and \\nKPFB-FM in Berkeley, California\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"none\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://pacifica.org/documents/bylaws_191022/bylaws_191022.pdf?eId=9117d4c9-4b46-4d4d-8ad9-c2ec55463112&eType=EmailBlastContent\",\n        \"quote\": \"The Foundation is a nonprofit public benefit corporation and is not organized for the private gain of any person.\"\n      },\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f918bac099c018bb99b1a9b4135\",\n        \"quote\": \"Is the Respondent's governing board (or other governing entity) directly or \\nindirectly under the control of another entity?\\nNo\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": \"Pacifica Foundation, Inc.\",\n    \"citations\": []\n  },\n  \"transactions\": [\n    {\n      \"description\": \"FCC approval of a transfer of control from Pacifica's old board to its new board; the named licensee remained Pacifica Foundation, Inc. The dossier does not establish consummation.\",\n      \"status\": \"approved\",\n      \"date\": \"2011-06-14\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DOC-307708A1.pdf\",\n          \"quote\": \"Voluntary Transfer of ControlFrom: PACIFICA FOUNDATION, INC, (OLD BOARD)To: PACIFICA FOUNATION, INC. (NEW BOARD)Form 316\\nCA BTCH-20110527AMR KPFA 51246 PACIFICA FOUNDATION, INC.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"The dossier identifies Pacifica Foundation, Inc. as KPFA's FCC licensee and operator. Pacifica is a nonprofit with no ownership parent, so there are no upward ownership links. No natural person or family is documented as controlling it. The current executive director as of 2026-10-04 is not established: minutes dated 2024-10-17 identify \u201cStephanie Wells, Executive Director (P)\u201d (https://kpftx.org/archives/pnb/pnb241017/pnb241017_9018_minutes.pdf), but that historical evidence does not establish that she remained executive director on the requested date. The FCC facility records supplied are undated, and no later ownership transaction is documented in the dossier.\"\n}",
+ "usage": {
+  "input_tokens": 2878,
+  "input_tokens_details": {
+   "cache_write_tokens": 2875,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1048,
+  "output_tokens_details": {
+   "reasoning_tokens": 111
+  },
+  "total_tokens": 3926
+ },
+ "usd": 0.016236,
+ "latency_s": 23.5,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false,
+  "exa_queries": 5
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "dossier": "Question (as of 2026-10-04): As of 2026-10-04, who is the current FCC licensee or legal owner of KPFA 94.1 FM Berkeley (facility 51246), what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current executive director of Pacifica Foundation, Inc.?\nOutlet: KPFA 94.1 FM (fm, Berkeley / San Francisco Bay Area, CA, call sign KPFA).\nLeader definition for this question: current executive director (permanent or interim) of Pacifica Foundation, Inc.\n\nEvidence dossier (claims extracted from retrieved documents; cite the URL and quote):\n- Pacifica Foundation, Inc. | licensee_of | KPFA | date: 10/01/2023 | https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f918bac099c018bb99b1a9b4135 | \"Licensee/Permittee Name FRN\nPacifica Foundation, Inc. 0001546415\nFac. ID No. Call Sign City State Service\n51243 KPFB BERKELEY CA FM\n51244 KPFT HOUSTON TX FM\n51246 KPFA BERKELEY CA FM\"\n- Pacifica Foundation, Inc. | other | Governing board not directly or indirectly controlled by another entity | date: 10/01/2023 | https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f918bac099c018bb99b1a9b4135 | \"Is the Respondent's governing board (or other governing entity) directly or \nindirectly under the control of another entity?\nNo\"\n- Pacifica Foundation, Inc. | other | Governing board not directly or indirectly controlled by another entity | date: 10/01/2017 | https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076ff3617fe838016190c4806a40ca | \"Is the Respondent's governing board (or other governing entity) directly or \nindirectly under the control of another entity?\nNo\"\n- Pacifica Foundation, Inc. | other | Governing board not directly or indirectly controlled by another entity | date: 03/01/2015 | https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/259fcee60faf4a978569c1b6063ebeb7 | \"Is the Respondent's governing board (or other governing entity) directly or \nindirectly under the control of another entity?\nNo\"\n- Pacifica Foundation, Inc. | licensee_of | KPFA | date: None | https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=51246 | \"#### Licensee\n\nName: PACIFICA FOUNDATION, INC.\"\n- Pacifica Foundation, Inc. | licensee_of | KPFA | date: None | https://transition.fcc.gov/fcc-bin/fmq?call=KPFA | \"Next Record**KPFACA BERKELEYUSA**FMLICTo KPFA Public FilesLicensee:**PACIFICA FOUNDATION, INC.**\"\n- Pacifica Foundation | licensee_of | KPFA | date: None | https://kpftx.org/kpfa_transparency/ | \"KPFA's license holder is the Pacifica Foundation.\"\n- KPFA | other | Pacifica National Board has full legal responsibility and authority | date: None | https://kpftx.org/kpfa_transparency/ | \"The Pacifica National Board has full legal responsibility and authority for KPFA.\"\n- Antonio Ortiz | other_officer_of | KPFA | date: None | https://kpftx.org/kpfa_transparency/ | \"* **Antonio Ortiz**\u2013 General Manager\"\n- Laura Prives | other_officer_of | KPFA | date: None | https://kpftx.org/kpfa_transparency/ | \"* **Laura Prives**\u2013 Program Director\"\n- Julie Hewitt | other_officer_of | Pacifica National Board | date: None | https://kpftx.org/kpfa_transparency/ | \"* Julie Hewitt, Secretary\"\n- Minerva Sanders | other_officer_of | Pacifica National Board | date: None | https://kpftx.org/kpfa_transparency/ | \"* Minerva Sanders, Vice Chair\"\n- Akio Tanaka | other_officer_of | Pacifica National Board | date: None | https://kpftx.org/kpfa_transparency/ | \"* Akio Tanaka, Recording Secretary NV\"\n- Susan Young | other_officer_of | Pacifica National Board | date: None | https://kpftx.org/kpfa_transparency/ | \"* Susan Young, Chair\"\n- KPFA | other | KPFA Local Station Board is responsible for local governance | date: None | https://kpftx.org/kpfa_transparency/ | \"KPFA has a Local Station Board which is responsible for local governance.\"\n- Michael T. Cheng | other_officer_of | KPFA Local Station Board | date: None | https://kpftx.org/kpfa_transparency/ | \"* Michael T. Cheng, Vice Chair\"\n- Candice Schott | other_officer_of | KPFA Local Station Board | date: None | https://kpftx.org/kpfa_transparency/ | \"* Candice Schott, Secretary\"\n- Carol Wolfley | other_officer_of | KPFA Local Station Board | date: None | https://kpftx.org/kpfa_transparency/ | \"* Carol Wolfley, Chair\"\n- Pacifica Foundation, Inc. | licensee_of | KPFA | date: None | https://publicfiles.fcc.gov/fm-profile/KPFA | \"Licensee: PACIFICA FOUNDATION, INC.\"\n- Pacifica Foundation, Inc. | licensee_of | KPFA | date: None | https://publicfiles.fcc.gov/fm-profile/kpfa | \"Licensee:\n: PACIFICA FOUNDATION, INC.\"\n- Pacifica Foundation | owns | KPFA | date: None | https://en.wikipedia.org/wiki/KPFA | \"| Owner | Pacifica Foundation |\"\n- Pacifica Foundation, Inc. | other | Transfer of control from old board to new board approved | date: 06/14/2011 | https://docs.fcc.gov/public/attachments/DOC-307708A1.pdf | \"Voluntary Transfer of ControlFrom: PACIFICA FOUNDATION, INC, (OLD BOARD)To: PACIFICA FOUNATION, INC. (NEW BOARD)Form 316\nCA BTCH-20110527AMR KPFA 51246 PACIFICA FOUNDATION, INC.\"\n- Stephanie Wells | chief_executive_of | Pacifica Foundation | date: October 17, 2024 | https://kpftx.org/archives/pnb/pnb241017/pnb241017_9018_minutes.pdf | \"Stephanie Wells, Executive Director (P)\"\n- Julie Hewitt | other_officer_of | Pacifica National Board | date: October 17, 2024 | https://kpftx.org/archives/pnb/pnb241017/pnb241017_9018_minutes.pdf | \"Julie Hewitt, Secretary (P)\"\n- Aki Tanaka | other_officer_of | Pacifica National Board | date: October 17, 2024 | https://kpftx.org/archives/pnb/pnb241017/pnb241017_9018_minutes.pdf | \"Aki Tanaka, Recording Secretary\"\n- Antonio Ortiz | other_officer_of | KPFA | date: None | https://nfcb.org/community-radio-profile-antonio-ortiz-kpfa/ | \"After graduating from the apprenticeship program, I worked at KPFA as an Assistant Engineer, News Tech, Systems Engineer, Operations Manager, and now the Interim General Manager.\"\n- Antonio Ortiz | other_officer_of | KPFA Radio | date: Aug 2022 - Present | https://www.linkedin.com/in/antoniotortizjr | \"### Interim General Manager - [KPFA Radio](https://www.linkedin.com/company/kpfa-radio) (Current)\n\nAug 2022 - Present (4 years and 1 month) in Berkeley, California, United States\"\n- Pacifica Foundation | owns | KPFA-FM | date: November 1, 2023 | https://kpfa.org/app/uploads/2025/03/2023-2026_CWA-KPFA_CBA_Revised_03142025.pdf | \"This Agreement is entered into as of November 1, 2023, between Pacifica Foundation, its \nsuccessors and assigns, (\u201cEmployer\u201d) which owns and operates radio station KPFA-FM and \nKPFB-FM in Berkeley, California\"\n- Pacifica Foundation | other | Operates KPFA-FM | date: November 1, 2023 | https://kpfa.org/app/uploads/2025/03/2023-2026_CWA-KPFA_CBA_Revised_03142025.pdf | \"This Agreement is entered into as of November 1, 2023, between Pacifica Foundation, its \nsuccessors and assigns, (\u201cEmployer\u201d) which owns and operates radio station KPFA-FM and \nKPFB-FM in Berkeley, California\"\n- Pacifica Foundation, Inc. | nonprofit_no_owner | Nonprofit public benefit corporation not organized for private gain | date: None | https://pacifica.org/documents/bylaws_191022/bylaws_191022.pdf?eId=9117d4c9-4b46-4d4d-8ad9-c2ec55463112&eType=EmailBlastContent | \"The Foundation is a nonprofit public benefit corporation and is not organized for the private gain of any person.\"\n\nEvidence state checks: none\nAnswer only from this dossier. Where it does not establish a field, mark it not_established.",
+ "claims": [
+  {
+   "doc": "D1",
+   "subject": "Pacifica Foundation, Inc.",
+   "relation": "licensee_of",
+   "object": "KPFA",
+   "quote": "Licensee/Permittee Name FRN\nPacifica Foundation, Inc. 0001546415\nFac. ID No. Call Sign City State Service\n51243 KPFB BERKELEY CA FM\n51244 KPFT HOUSTON TX FM\n51246 KPFA BERKELEY CA FM",
+   "date_in_doc": "10/01/2023",
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f918bac099c018bb99b1a9b4135"
+  },
+  {
+   "doc": "D1",
+   "subject": "Pacifica Foundation, Inc.",
+   "relation": "other",
+   "object": "Governing board not directly or indirectly controlled by another entity",
+   "quote": "Is the Respondent's governing board (or other governing entity) directly or \nindirectly under the control of another entity?\nNo",
+   "date_in_doc": "10/01/2023",
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f918bac099c018bb99b1a9b4135"
+  },
+  {
+   "doc": "D2",
+   "subject": "Pacifica Foundation, Inc.",
+   "relation": "other",
+   "object": "Governing board not directly or indirectly controlled by another entity",
+   "quote": "Is the Respondent's governing board (or other governing entity) directly or \nindirectly under the control of another entity?\nNo",
+   "date_in_doc": "10/01/2017",
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076ff3617fe838016190c4806a40ca"
+  },
+  {
+   "doc": "D3",
+   "subject": "Pacifica Foundation, Inc.",
+   "relation": "other",
+   "object": "Governing board not directly or indirectly controlled by another entity",
+   "quote": "Is the Respondent's governing board (or other governing entity) directly or \nindirectly under the control of another entity?\nNo",
+   "date_in_doc": "03/01/2015",
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/259fcee60faf4a978569c1b6063ebeb7"
+  },
+  {
+   "doc": "D4",
+   "subject": "Pacifica Foundation, Inc.",
+   "relation": "licensee_of",
+   "object": "KPFA",
+   "quote": "#### Licensee\n\nName: PACIFICA FOUNDATION, INC.",
+   "date_in_doc": null,
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=51246"
+  },
+  {
+   "doc": "D5",
+   "subject": "Pacifica Foundation, Inc.",
+   "relation": "licensee_of",
+   "object": "KPFA",
+   "quote": "Next Record**KPFACA BERKELEYUSA**FMLICTo KPFA Public FilesLicensee:**PACIFICA FOUNDATION, INC.**",
+   "date_in_doc": null,
+   "url": "https://transition.fcc.gov/fcc-bin/fmq?call=KPFA"
+  },
+  {
+   "doc": "D6",
+   "subject": "Pacifica Foundation",
+   "relation": "licensee_of",
+   "object": "KPFA",
+   "quote": "KPFA's license holder is the Pacifica Foundation.",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D6",
+   "subject": "KPFA",
+   "relation": "other",
+   "object": "Pacifica National Board has full legal responsibility and authority",
+   "quote": "The Pacifica National Board has full legal responsibility and authority for KPFA.",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D6",
+   "subject": "Antonio Ortiz",
+   "relation": "other_officer_of",
+   "object": "KPFA",
+   "quote": "* **Antonio Ortiz**\u2013 General Manager",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D6",
+   "subject": "Laura Prives",
+   "relation": "other_officer_of",
+   "object": "KPFA",
+   "quote": "* **Laura Prives**\u2013 Program Director",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D6",
+   "subject": "Julie Hewitt",
+   "relation": "other_officer_of",
+   "object": "Pacifica National Board",
+   "quote": "* Julie Hewitt, Secretary",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D6",
+   "subject": "Minerva Sanders",
+   "relation": "other_officer_of",
+   "object": "Pacifica National Board",
+   "quote": "* Minerva Sanders, Vice Chair",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D6",
+   "subject": "Akio Tanaka",
+   "relation": "other_officer_of",
+   "object": "Pacifica National Board",
+   "quote": "* Akio Tanaka, Recording Secretary NV",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D6",
+   "subject": "Susan Young",
+   "relation": "other_officer_of",
+   "object": "Pacifica National Board",
+   "quote": "* Susan Young, Chair",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D6",
+   "subject": "KPFA",
+   "relation": "other",
+   "object": "KPFA Local Station Board is responsible for local governance",
+   "quote": "KPFA has a Local Station Board which is responsible for local governance.",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D6",
+   "subject": "Michael T. Cheng",
+   "relation": "other_officer_of",
+   "object": "KPFA Local Station Board",
+   "quote": "* Michael T. Cheng, Vice Chair",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D6",
+   "subject": "Candice Schott",
+   "relation": "other_officer_of",
+   "object": "KPFA Local Station Board",
+   "quote": "* Candice Schott, Secretary",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D6",
+   "subject": "Carol Wolfley",
+   "relation": "other_officer_of",
+   "object": "KPFA Local Station Board",
+   "quote": "* Carol Wolfley, Chair",
+   "date_in_doc": null,
+   "url": "https://kpftx.org/kpfa_transparency/"
+  },
+  {
+   "doc": "D7",
+   "subject": "Pacifica Foundation, Inc.",
+   "relation": "licensee_of",
+   "object": "KPFA",
+   "quote": "Licensee: PACIFICA FOUNDATION, INC.",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/fm-profile/KPFA"
+  },
+  {
+   "doc": "D8",
+   "subject": "Pacifica Foundation, Inc.",
+   "relation": "licensee_of",
+   "object": "KPFA",
+   "quote": "Licensee:\n: PACIFICA FOUNDATION, INC.",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/fm-profile/kpfa"
+  },
+  {
+   "doc": "D9",
+   "subject": "Pacifica Foundation",
+   "relation": "owns",
+   "object": "KPFA",
+   "quote": "| Owner | Pacifica Foundation |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KPFA"
+  },
+  {
+   "doc": "D10",
+   "subject": "Pacifica Foundation, Inc.",
+   "relation": "other",
+   "object": "Transfer of control from old board to new board approved",
+   "quote": "Voluntary Transfer of ControlFrom: PACIFICA FOUNDATION, INC, (OLD BOARD)To: PACIFICA FOUNATION, INC. (NEW BOARD)Form 316\nCA BTCH-20110527AMR KPFA 51246 PACIFICA FOUNDATION, INC.",
+   "date_in_doc": "06/14/2011",
+   "url": "https://docs.fcc.gov/public/attachments/DOC-307708A1.pdf"
+  },
+  {
+   "doc": "D11",
+   "subject": "Stephanie Wells",
+   "relation": "chief_executive_of",
+   "object": "Pacifica Foundation",
+   "quote": "Stephanie Wells, Executive Director (P)",
+   "date_in_doc": "October 17, 2024",
+   "url": "https://kpftx.org/archives/pnb/pnb241017/pnb241017_9018_minutes.pdf"
+  },
+  {
+   "doc": "D11",
+   "subject": "Julie Hewitt",
+   "relation": "other_officer_of",
+   "object": "Pacifica National Board",
+   "quote": "Julie Hewitt, Secretary (P)",
+   "date_in_doc": "October 17, 2024",
+   "url": "https://kpftx.org/archives/pnb/pnb241017/pnb241017_9018_minutes.pdf"
+  },
+  {
+   "doc": "D11",
+   "subject": "Aki Tanaka",
+   "relation": "other_officer_of",
+   "object": "Pacifica National Board",
+   "quote": "Aki Tanaka, Recording Secretary",
+   "date_in_doc": "October 17, 2024",
+   "url": "https://kpftx.org/archives/pnb/pnb241017/pnb241017_9018_minutes.pdf"
+  },
+  {
+   "doc": "D14",
+   "subject": "Antonio Ortiz",
+   "relation": "other_officer_of",
+   "object": "KPFA",
+   "quote": "After graduating from the apprenticeship program, I worked at KPFA as an Assistant Engineer, News Tech, Systems Engineer, Operations Manager, and now the Interim General Manager.",
+   "date_in_doc": null,
+   "url": "https://nfcb.org/community-radio-profile-antonio-ortiz-kpfa/"
+  },
+  {
+   "doc": "D16",
+   "subject": "Antonio Ortiz",
+   "relation": "other_officer_of",
+   "object": "KPFA Radio",
+   "quote": "### Interim General Manager - [KPFA Radio](https://www.linkedin.com/company/kpfa-radio) (Current)\n\nAug 2022 - Present (4 years and 1 month) in Berkeley, California, United States",
+   "date_in_doc": "Aug 2022 - Present",
+   "url": "https://www.linkedin.com/in/antoniotortizjr"
+  },
+  {
+   "doc": "D17",
+   "subject": "Pacifica Foundation",
+   "relation": "owns",
+   "object": "KPFA-FM",
+   "quote": "This Agreement is entered into as of November 1, 2023, between Pacifica Foundation, its \nsuccessors and assigns, (\u201cEmployer\u201d) which owns and operates radio station KPFA-FM and \nKPFB-FM in Berkeley, California",
+   "date_in_doc": "November 1, 2023",
+   "url": "https://kpfa.org/app/uploads/2025/03/2023-2026_CWA-KPFA_CBA_Revised_03142025.pdf"
+  },
+  {
+   "doc": "D17",
+   "subject": "Pacifica Foundation",
+   "relation": "other",
+   "object": "Operates KPFA-FM",
+   "quote": "This Agreement is entered into as of November 1, 2023, between Pacifica Foundation, its \nsuccessors and assigns, (\u201cEmployer\u201d) which owns and operates radio station KPFA-FM and \nKPFB-FM in Berkeley, California",
+   "date_in_doc": "November 1, 2023",
+   "url": "https://kpfa.org/app/uploads/2025/03/2023-2026_CWA-KPFA_CBA_Revised_03142025.pdf"
+  },
+  {
+   "doc": "D18",
+   "subject": "Pacifica Foundation, Inc.",
+   "relation": "nonprofit_no_owner",
+   "object": "Nonprofit public benefit corporation not organized for private gain",
+   "quote": "The Foundation is a nonprofit public benefit corporation and is not organized for the private gain of any person.",
+   "date_in_doc": null,
+   "url": "https://pacifica.org/documents/bylaws_191022/bylaws_191022.pdf?eId=9117d4c9-4b46-4d4d-8ad9-c2ec55463112&eType=EmailBlastContent"
+  }
+ ],
+ "flags": [],
+ "steps": [
+  {
+   "step": "extract",
+   "usd": 0.027694899999999998,
+   "latency_s": 39.7,
+   "model_returned": "gpt-6.1-sol"
+  },
+  {
+   "step": "solve",
+   "effort": "medium",
+   "usd": 0.016236,
+   "latency_s": 23.5
+  }
+ ],
+ "usd_total": 0.043930899999999995,
+ "latency_total_s": 63.2,
+ "escalated": false,
+ "extra_docs": 0,
+ "arm": "B2",
+ "case": "kpfa",
+ "run": 2,
+ "saved": "2026-10-04T19:53:05-0300"
+}

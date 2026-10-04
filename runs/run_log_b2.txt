@@ -1,0 +1,5 @@
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+pass 1 done | spent so far: 9.6860
+pass 2 done | spent so far: 10.4035
+pass 3 done | spent so far: 11.1573
+errors: 0 | spent so far: 11.1573

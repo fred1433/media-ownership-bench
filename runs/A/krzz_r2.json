@@ -1,0 +1,1329 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"KRZZ Licensing, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.fcc.report/LMS/0000173591\",\n        \"quote\": \"KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA\"\n      },\n      {\n        \"url\": \"https://fcc.report/LMS/0000300753\",\n        \"quote\": \"Applicant | KRZZ LICENSING, LLC\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"KRZZ Licensing, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf\",\n        \"quote\": \"day-to-day broadcast operations, which shall remain solely with the FCC licensees\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"KRZZ Licensing, LLC\",\n      \"parent\": \"SBS Bay Area, LLC\",\n      \"relation\": \"Subsidiary of SBS Bay Area, LLC, as depicted in Exhibit B, Organizational Chart, to the May 11, 2026 court declaration.\",\n      \"citations\": [\n        {\n          \"url\": \"https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf\",\n          \"quote\": \"Organizational Chart\"\n        }\n      ]\n    },\n    {\n      \"child\": \"SBS Bay Area, LLC\",\n      \"parent\": \"Spanish Broadcasting System, Inc.\",\n      \"relation\": \"Wholly owned subsidiary; the May 11, 2026 organizational chart also places SBS Bay Area directly under Spanish Broadcasting System, Inc.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/927720/000095012305003256/y06789e10vk.htm\",\n          \"quote\": \"SBS Bay Area, LLC, a wholly-owned subsidiary of SBS\"\n        },\n        {\n          \"url\": \"https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf\",\n          \"quote\": \"Organizational Chart\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\"Spanish Broadcasting System, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-933A1.pdf\",\n        \"quote\": \"the licensee subsidiaries of Spanish Broadcasting System, Inc.\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"established\",\n    \"names\": [\"Ra\u00fal Alarc\u00f3n, Jr.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.spanishbroadcasting.com/wp-content/uploads/sites/5/2024/02/SBS-Material-Change-Report-020624-RA-President.pdf\",\n        \"quote\": \"Mr. Alarc\u00f3n remains the Company\u2019s largest and sole controlling shareholder.\"\n      },\n      {\n        \"url\": \"https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf\",\n        \"quote\": \"Ra\u00fal Alarc\u00f3n Jr. has voting control over all but 350 shares\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Ra\u00fal Alarc\u00f3n\",\n    \"role\": \"Chief Executive Officer\",\n    \"entity\": \"Spanish Broadcasting System, Inc.\",\n    \"citations\": [\n      {\n        \"url\": \"https://www.spanishbroadcasting.com/leadership/executive-management/raul-alarcon\",\n        \"quote\": \"Ra\u00fal Alarc\u00f3n\\nCEO, Chairman\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"SBS entered a restructuring support agreement contemplating cancellation of existing equity and issuance of the reorganized company's equity to noteholders, subject to management-incentive dilution. This was a proposed ownership change, not a completed transfer.\",\n      \"status\": \"announced\",\n      \"date\": \"2026-04-08\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.spanishbroadcasting.com/wp-content/uploads/sites/5/2026/04/RSA-Press-Release-Package-RP-List.pdf\",\n          \"quote\": \"holders of the Notes would receive 100% of the common stock in the reorganized Company\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The bankruptcy court approved the reorganization plan. Court confirmation did not itself complete the FCC-regulated ownership transfer.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-07-01\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.radioworld.com/news-and-business/business-and-law/sbs-reorganization-plan-now-waits-on-the-fcc\",\n          \"quote\": \"The court order approving the reorganization plan was signed July 1 by U.S. Bankruptcy Judge Brendan Shannon.\"\n        }\n      ]\n    },\n    {\n      \"description\": \"FCC applications to implement the restructuring were filed July 16, 2026. The FCC established a pleading cycle on September 2, 2026; approval and consummation were not established as of October 4, 2026.\",\n      \"status\": \"announced\",\n      \"date\": \"2026-07-16\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-933A1.pdf\",\n          \"quote\": \"Opposition Date: October 19, 2026\\nReply Date: October 26, 2026\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of October 4, 2026, the evidence supports the existing chain KRZZ Licensing, LLC \u2192 SBS Bay Area, LLC \u2192 Spanish Broadcasting System, Inc., with Ra\u00fal Alarc\u00f3n, Jr. controlling SBS and remaining its CEO. SBS was undergoing Chapter 11 restructuring; the prospective creditor owners should not be treated as current owners without evidence of FCC approval and consummation. There is a naming inconsistency: the September 2 FCC notice's station appendix says 'KRZZ Licensing, Inc.', whereas the ownership report, July/August 2026 application record, and May 2026 bankruptcy documents identify 'KRZZ Licensing, LLC'. No separate operator was established.\"\n}",
+ "raw": {
+  "id": "resp_07933c229a823885006ac2d313e31087d182c85e0ecf9eb0bd",
+  "access_programs": null,
+  "created_at": 1791152915.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": "You are a media ownership researcher. Today's date is 2026-10-04; answer as of that date, not as of your training data.\nFields:\n- legal_owner: the entity that legally holds the outlet (for a broadcast station, the FCC licensee).\n- operator: the entity that runs it day to day if different (for example under a shared services or joint sales agreement); otherwise status same_as_owner.\n- chain: each ownership link from the legal owner upward, one link per item, each with its own citation.\n- ultimate_parent: the top of the chain. It may be several entities (joint venture), none (a nonprofit with no owner), or not_established.\n- controlling_person: a natural person or family that controls the ultimate parent, if documented.\n- leader: only the person matching the leader definition given in the question.\n- transactions: deals affecting ownership; keep announced, approved and closed apart.\nRules: every established field must cite at least one source URL with a short verbatim quote copied from that source that supports it. If the evidence does not establish a field, mark it not_established rather than guessing. A name appearing in a filing is not by itself an owner or officer.\nUse web search to find current evidence.",
+  "metadata": {},
+  "model": "gpt-6.1-sol",
+  "object": "response",
+  "output": [
+   {
+    "id": "ws_07933c229a823885006ac2d315192c87d192ad6997664eb43c",
+    "action": {
+     "type": "search",
+     "queries": [
+      "KRZZ facility 1092 licensee Spanish Broadcasting System",
+      "Spanish Broadcasting System 2026 CEO Raul Alarcon ownership"
+     ],
+     "query": "KRZZ facility 1092 licensee Spanish Broadcasting System",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/LMS/0000173591"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/LMS/0000300753"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-255318A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-422003A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.spanishbroadcasting.com/wp-content/uploads/sites/5/2026/04/RSA-Press-Release-Package-RP-List.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-421785A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://radiostationdex.com/station/krzz-fm-san-francisco-dc"
+      },
+      {
+       "type": "url",
+       "url": "https://www.spanishbroadcasting.com/leadership/executive-management"
+      },
+      {
+       "type": "url",
+       "url": "https://www.spanishbroadcasting.com/wp-content/uploads/sites/5/2024/02/SBS-Material-Change-Report-020624-RA-President.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/CDBS/1412926"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=40ee1077378e47df95ddc1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/company/krzz-licensing-inc"
+      },
+      {
+       "type": "url",
+       "url": "https://library.futurelabz.dev/content/wikipedia_en_all_maxi_2026-02/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://dbpedia.org/page/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://www.spanishbroadcasting.com/leadership/executive-management/raul-alarcon"
+      },
+      {
+       "type": "url",
+       "url": "https://www.spanishbroadcasting.com/leadership/board-of-directors"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095014407002345/g06068e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Spanish_Broadcasting_System"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KKRZ"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Televisi%C3%B3n_Espa%C3%B1ola"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Radio_Nacional_de_Espa%C3%B1a"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Telemundo"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/pennystocks/comments/m5lqvs"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_07933c229a823885006ac2d317b3c087d1b59d84b830f293de",
+    "action": {
+     "type": "search",
+     "queries": [
+      "Spanish Broadcasting System restructuring emerged September 2026 KRZZ",
+      "\"KRZZ\" \"2026\" \"SBS Bay\"",
+      "\"Spanish Broadcasting\" \"2026\" \"Brigade\" \"FCC\"",
+      "\"KRZZ Licensing\" \"SBS Bay Area\" ownership"
+     ],
+     "query": "Spanish Broadcasting System restructuring emerged September 2026 KRZZ",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/LMS/0000173591"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-255717A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-255318A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-257271A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://documents.elevenflo.com/uuid_database_8_14_23/8cd615b8-d861-406d-a46a-dd624a572a12.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/LMS/BALH-20041209AAL"
+      },
+      {
+       "type": "url",
+       "url": "https://www.inforuptcy.com/browse-filings/delaware-bankruptcy-court/1%3A26-bk-10719/bankruptcy-case-krzz-licensing-llc"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095012305003256/y06789e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/CDBS/1034373"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/company/sbs-bay-area-llc"
+      },
+      {
+       "type": "url",
+       "url": "https://estereotempo.lamusica.com/sbs-public-notice"
+      },
+      {
+       "type": "url",
+       "url": "https://startupstumbles.com/chapter-11-watch/"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/spanish-broadcasting-system-inc-7798/contract/843494/"
+      },
+      {
+       "type": "url",
+       "url": "https://getfilings.com/sec-filings/170420/SPANISH-BROADCASTING-SYSTEM-INC_10-K/sbsaa-ex211_8.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://wikwiand-revamp.pages.dev/en/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/13054416901"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Spanish_Broadcasting_System"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Radio_Nacional_de_Espa%C3%B1a"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/RTVE"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Television_in_Spain"
+      },
+      {
+       "type": "url",
+       "url": "https://www.spanishbroadcasting.com/wp-content/uploads/sites/5/2026/04/RSA-Press-Release-Package-RP-List.pdf"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_07933c229a823885006ac2d31bdc8487d1b6d56412542e6c83",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNn-juUz7MqrhliERK3XLmvDeSCHiS1Pfus2hxitHXNhpHPh7KjdTmJb5TGYLK-dFA7FLsGa2dm4lTIvZzSCEPMGyXVDnKI79oGv0LBOE7n2A0I6uFtqa8rObCQeQuRs1rNc4tYurJ-0Tmu_2ehNCmy94LsTNKoJYYYyOEf4FenIroyeBWniBGFzpzELzSHzmWPuPwgmSUC9bf9R2Bq0N1BtGbgjV-pLsEaTFkj4wdnl1eR-tVwS89NmaGmC6zHaasOoyOZqDEdD9CO_zq9hTuvmpHKKWVz-fSGd11O00kkVHfAOrSXSVXNvr4yelhjDBQbrxyp39SKLaTvS_OQkRmR0-kfD3N_YsmV_F17Ts4qcExWKZG1s8lMbQfbRS2VOt68aYS7Kb-MLJgkmJWdmLC-ejUfRsmmWPOqRpVrEcGGmUmZeEXPD4isPJTPnQ-bmnQbVRgFYNBXtSbEKbqk8qEIuLJDqWzDWk14iUyJbEyPXPJFPEpPiDDN18Y9ZJId4hsmRu8jszEqQtQxsVrMINZI8gKlRpM1IYir74DSW0fU_ucUGATLmg954SE9_CPVucGDkBzY9mcsqMG4ZA-j_yRagbdj5msWZlCvWqsMQulbWQtzmmEPhryUCncwGjBzU2RswwJbSjyqAeWkqjt-5FjbUUmef45I1JfVui7PG2lK2zmZagVKnfByb4deoqjYHM3B86ZlUweYkZV0pokQY816D3HSLaqHYDNLdWq4Xes4_SEK9vF6Yg1ufkZLMk41mDQlirdOL6cyu-_f0SuYiJhdXsAyds8J93TjL56DpiOFIHITlPr5KCxkpddDokJ8ERJK8NKqA4KI0E7wWOIIrpiXur3kezeBIpQLjNMZZJCI7Ha1NS4GVYPBMT1zWE5NabNCVaujZMAMr8gv6zjURH9955rkXmi-S-9mE4yQ4s3ve8lplpEb0EdMcxqqRnM3R4VH3pmJ1IFPC5Aji2qr6ujet3yyIDZgEg7lqHW6VhOSK1kVCspacBXdvFCj1Cev6-hVTkfi_dghLh7luUgzvxA-0c_H62tItigWcuNEgT2KNKc_EAiAolTuceNZ8NKj-n045P-TaZeIVqpjOXAmXNR6c4OUAJKJkro9cxtJhhYtMrLBNrQnLIOqcalIYxtrLsZII7Q5eNP_oXAL6QvhnGn8BNhX3sh6xUNiTTl8Wv7u4IkPFo3oeHP8R8EUwQu639gABAxE7oI9U2Ev8lw-9IJvwGX9vi54cvwGKEOB-ZaUCbEn9Y7ebg3nuTpTaXZUisYr",
+    "status": null
+   },
+   {
+    "id": "ws_07933c229a823885006ac2d31c080087d1a6336cc7f0abf5ec",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.spanishbroadcasting.com 2026 restructuring",
+      "\"Spanish Broadcasting\" \"2026\" \"emerges\"",
+      "\"KRZZ\" \"0000300753\"",
+      "\"Spanish Broadcasting\" \"2026\" \"October\" bankruptcy"
+     ],
+     "query": "site.spanishbroadcasting.com 2026 restructuring",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.spanishbroadcasting.com/press-releases-investor-relations/spanish-broadcasting-system-inc-commences-prepackaged-chapter-11-process-to-implement-balance-sheet-restructuring"
+      },
+      {
+       "type": "url",
+       "url": "https://www.spanishbroadcasting.com/wp-content/uploads/sites/5/2026/04/RSA-Press-Release-Package-RP-List.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-933A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/company/krzz-licensing-inc"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/FRN/0021948260"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Spanish_Broadcasting_System"
+      },
+      {
+       "type": "url",
+       "url": "https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://elevenflo.com/cases/spanish-broadcasting-system-inc-14790?blog_cta_id=open_public_case_profile&blog_cta_location=after_intro&blog_slug=spanish-broadcasting-system-bankruptcy"
+      },
+      {
+       "type": "url",
+       "url": "https://startupstumbles.com/chapter-11-watch/"
+      },
+      {
+       "type": "url",
+       "url": "https://bondoro.com/spanish-broadcasting-system/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.bloomberg.com/news/articles/2026-05-11/radio-station-owner-spanish-broadcasting-files-for-bankruptcy"
+      },
+      {
+       "type": "url",
+       "url": "https://www.radioworld.com/news-and-business/business-and-law/sbs-reorganization-plan-now-waits-on-the-fcc"
+      },
+      {
+       "type": "url",
+       "url": "https://radioink.com/2026/09/02/sbs-foreign-ownership-could-jump-to-67-under-fcc-petition/"
+      },
+      {
+       "type": "url",
+       "url": "https://app.bondoro.com/preview/cases/Spanish_Broadcasting_System_Inc"
+      },
+      {
+       "type": "url",
+       "url": "https://chapter11cases.com/blogs/news/spanish-broadcasting-system-files-prepackaged-chapter-11"
+      },
+      {
+       "type": "url",
+       "url": "https://usaradiomuseum.com/ppm-radio-recap/mks-may-2026-ppm-ratings-recaps/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Pennystock/comments/1plvs88/spanish_broadcasting_system_the_refinancing/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_United_States_over-the-air_television_networks"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_07933c229a823885006ac2d321877887d1bc0f577040ea41a8",
+    "action": {
+     "type": "open_page",
+     "url": "https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_07933c229a823885006ac2d32393c087d19bf7d0f999666744",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"DA 26-933\" \"Alarc\"",
+      "\"DA 26-933\" \"September\"",
+      "\"KRZZ Licensing, LLC\" \"100%\"",
+      "\"KRZZ Licensing\" \"SBS Bay Area\" \"2026\""
+     ],
+     "query": "\"DA 26-933\" \"Alarc\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-933A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/LMS/0000173591"
+      },
+      {
+       "type": "url",
+       "url": "https://www.publicnow.com/view/4ED60E97B15F4DC8F2A5207D55244BA80ADD5A9B"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/company/sbs-bay-area-llc"
+      },
+      {
+       "type": "url",
+       "url": "https://www.inforuptcy.com/browse-filings/delaware-bankruptcy-court/1%3A26-bk-10719/bankruptcy-case-krzz-licensing-llc"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/13054416901"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095014407002345/g06068e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.bkalerts.com/recent-bankruptcy-cases/delaware-bankruptcy-court/1%3A26-bk-10746/bankruptcy-case-wley-licensing-inc"
+      },
+      {
+       "type": "url",
+       "url": "https://www.marketscreener.com/news/motion-for-joint-administration-filed-by-spanish-broadcasting-system-inc-ce7f5bdedd88f624"
+      },
+      {
+       "type": "url",
+       "url": "https://startupstumbles.com/chapter-11-watch/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC-YB/2013/Television-Radio-%26-Cable-Directory-2013-Radio.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://localradio.us/stations/monte-rio-ca/"
+      },
+      {
+       "type": "url",
+       "url": "https://localradio.us/stations/point-reyes-coast-guard-station-ca/"
+      },
+      {
+       "type": "url",
+       "url": "https://ch.zonebourse.com/actualite-bourse/spanish-broadcasting-system-inc-depose-une-requete-de-gestion-conjointe-des-procedures-ce7f5bdedd88f624"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V41No2/pdf/GPO-FCC-Rcd-V41No2.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_07933c229a823885006ac2d3289f8087d1aa0248bef716b80d",
+    "action": {
+     "type": "open_page",
+     "url": "https://docs.fcc.gov/public/attachments/DA-26-933A1.pdf"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_07933c229a823885006ac2d32bd61087d1a53db8b067268daa",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNnKYXYmNrK6vHNixIl6aplzKeC58Q-fAyTb-HdleStX_je5JY-__QJ4aivND4Knb9L6KFhy0D1F_BTlY8Bd7GkMqHjXAyaVKbXKqtMsF-r9o8uHj6v6W1l71vq7Iw8d-YybjD4OBjKMeTgEtDiq_b8oSRC9Iv96NJdayrSJRLShFZwY3HWVTYCh8wHxxIyWH1La-gCtVhkvCgSawKdUw7vSUxcr9w1Jjv2D0fKYeZt_nyUXI_f9Jf3Bymo_otMR8NExw4aeZoQMuuIxTiW1vKnPgO65mUDSXH4bVObS83J2k_KtFCn6ZUft8_lx9emokPiA_5wQVXt708Tixw-MhIvaOFdmZ1-Sd_ZSqlfI4YVVKWFcNuJtwnnXkmqFOmtqNgBckVE8onvkW8kvPNmwURlJXifh24Quxc8F3J3nK04ddJOeB3Z-CC-rWfpNQgt4e0LC7lpc7avps5nIMGf5BC3LjC3aOQqpyZdQQyxpDGDIJS1ZYO51WjkQJ6xWU95jnZy1vrwNJo0rjSwn97WfK41idpR11qfNLkJHZ_ybY8duck8mgHBM_wFycQnK3Yy2r3Cndlt_ukQls92qtDMdsUvHaxH5xc-4v7dfjCb11CyJUpjw4J-HP9SOw7JJhryoflzZo8PVHjXtCLY2ayZzYLV9oII82BprHnJOviBj-dAox-wsD7f-l88Y5M46oeLICqe3misflk4uHtf9ig6NzE8wOFJeGMUgjLdTaGm9ADf5Dv_6DLeRQnzMMlvAlJnSAd5jCZq6WCG2QE26_DrQaQNJ6Dfk5lRrqZ-1tveHua3nZcyCCikQch7_yhGjOEGR3R7p_Xt9WnGMdfEEr0676FLb8aFqKbf6nIWm9fr76MPO0p-lQyA2PJr72j1MFkJw_R2N40DXhYYuBt4PPGO0wrNI_ZgtPd6iyQPB8mdHwhryFjIwacdrNdXydY4MTCEA9_B9-raALL5ztx96nTdh7q5jrGFLH8f1kZmNvU7sD0W1IpXRRQOUg7ueDgo8mOIoXDCHrXfUAuVDBTHfU3pufykxADUxIyi3FuDfMtyn1cLxSKN77nWBcbI91bhyYHl9by-yvxhYN4WV6V__h_epnVqzuHGiulXCBFSNHf2NopAUo9BUrUKPDRQH1i9ZOKXabEUF1bqe8GiSHP6dpcG-_WDXWFc0ksOvwtPRixpr_nAyD2cnWr3W-OvCyTdLQBkvRbg2WGEtXGkwWtVVRXRh6JhnA==",
+    "status": null
+   },
+   {
+    "id": "ws_07933c229a823885006ac2d32c0a3487d1823a999cd79bf67c",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"KRZZ Licensing\" \"wholly\"",
+      "\"KRZZ Licensing\" \"member\" \"Bay\"",
+      "\"DA 26-933\" \"Alarc\u00f3n\"",
+      "\"Spanish Broadcasting\" \"October 2026\" \"FCC\""
+     ],
+     "query": "\"KRZZ Licensing\" \"wholly\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.rbr.com/wp-content/uploads/FCC-22-68A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/CDBS/1034373"
+      },
+      {
+       "type": "url",
+       "url": "https://www.dwt.com/-/media/files/blogs/broadband-advisor/2022/09/fcc-22-68-a1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-22-68A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095014405006549/g95873exv10w4.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095012305003256/y06789e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/FR-2022-09-14/pdf/2022-19743.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/spanish-broadcasting-system-inc-7798/contract/843494/"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/spanish-broadcasting-system-inc-7798/contract/843495/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095014407002345/g06068e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095012311031623/c14783e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.broadcastlawblog.com/"
+      },
+      {
+       "type": "url",
+       "url": "https://fliphtml5.com/amamo/iwxi/"
+      },
+      {
+       "type": "url",
+       "url": "https://getfilings.com/sec-filings/100325/SPANISH-BROADCASTING-SYSTEM-INC_10-K/"
+      },
+      {
+       "type": "url",
+       "url": "https://policyapp.americangeosciences.org/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000156459020014282/sbsaa-10k_20191231.htm"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_07933c229a823885006ac2d33152cc87d195b26c65d5ae8e3b",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNnCRykO5F49VRRt7v3BM8ZwKks1ZYArxa4HjCEcLotG2krJS1h6n9SbwgvpZAStfiCdlzhxU-hDGdrTddGG3Fmd3UVphdOfPerZSoLOLZYjx4-NDNKGCbj6CZ1fRyYeJMrndbZ6-XQ0MF4GJY0TK7y14g1rPDYlCgiwIaaaj6Svy83IcRnzBzXOmWBCvl7D06sI26YQBY9W01Lr8B0I1dP15ydAgFGbe2auAXAAWhsETuvHYXM8jNahsrQUbXRDRnKqnGjMP1X4j4AKkwltWDWvNEh_WJivwMKiZ4yqmjCmMXySH6YgkpQ5aE4OZ_RaB4GRtvYTiKTUMj84Voa1MrBNUiF-cOLK5vvMa1xbnTkYiwB-c8FrECFEcYYbqGjABkvqw1aWI49XPecTdoR3WgbAjiZ4GFda85dAxyICVCv-ikebO1Gr712MKhmvjJA3soPSXslSyPXoMOfnaoCziCt7Exa4nMWLWXVgXDmemOgCFvCkQOtGVGIEyjugNz9NvE9AXbZ71YSkiX3y93UeqJOlhR9TkonmJdbbzHAQEWis6ZT6c50UnGybZRCKm_e7Sfm9EWkMOmA-20XH_EUHd3h1w3DS5MIgcT8VI4syXwToWjZLkFdStR6wLFtNlQwoQupYtH7CEpQhxDaz4KBRe8vmtAuD6Ao6UXE2t2M6Il-arxIenXcR1xUAsr754zsdNQ8k7Rl715SsHQ3wdkiz9VnrgBoOrsHHFcP4hccxm2r474AplmF7mG6ulw-Gf3k9D6yfeHGwXbevIZBDPZP7-RDY1HhRJEvBUxdRrYW5MC7pHXdIESsldtDrpPHp5BDXvpcypZJWSCLpRExryJwINQZK0Wuk_g-GnuIl57WG6UzuPZMj44aFLFWcAsKwL7TWOIjCdXTU6cV5rmqYsXK-Mzuc0fX5xRJt2cLiB25V-4wcnCUqadFdyYIoHJ89fu53H9Msy3wqB0OdeJiT0VQClkovlV5jmU8WBljaqaJw8cdi9wv2-wu4ygmhgj-vr5zfU5E9-T4kXbfho5v4e-qrwe31d1QrcXQSNsiFL8Pt7J95B8d0DqLgBipsfTS_wjk9jmz2o6zB28fo91xIOD4npxRtPfOWpbMKX17DAe9-l0vSUDli3ZmN4TlzWkjgPQvjIganAigT2VUsCdb67UW6y_vjI1NeKNfAOQ48NZUI-nxiR-U5tT7Jw64EV7M-BEVjxisKSrMALQfxOUgq17IUSMNlHRT1RhFoH0kDpnkPINu352QL0jVyN4i0-Ig03lMixyqFGN22B5fNo7HGkKOBiFtUGUD-8F2v2_ozKftMvfmsCE=",
+    "status": null
+   },
+   {
+    "id": "ws_07933c229a823885006ac2d331ccd087d1ba9ad06cf4930592",
+    "action": {
+     "type": "open_page",
+     "url": "https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_07933c229a823885006ac2d333a91c87d186a32e56a7584437",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNn0RrcI3J7V7qd5caUvh5uqiFuKXei_E7VrJi4kF0jzNtJcCffmx4DGiJGXLEJpLfeUfPKB9-c_ODrecPFqbtwotxAN040o2mlbORAoMNDu6mSqIPAyJ8N3Dz0YM7ln9BFYS3xiF84-IftZXmutcWClANG9Bv4QF88SeNWK4hJZHqyuhLkd9gEK4KlmNFeEBT_Dz2gtqLgR6uUjxuKcrpbf8ED8X0rulnxGAd5xsxZka-X32t4iD2IuFkdTJ6T09OIZhHMZ1utMCAOpUZfiAlatC3bJeaEI7L8_4ndsbpZ8Blt5Jf_onH_leXSWlwLcY7e1vzZupJv4SvJMEHMKLKGq6pJHHVjj5CkI2YaCeF6b4ZxTnHmQR7FZ2xjA9vQSNsRtPt7UNgl9m1xRJ1ibaXjLWo0XLIWg8PopNxwDP4DUQs9Gvsqsh9AKJirJOVsXt3TChYfQuMJVa9eGZf1FA3qMjpTCjCy1-gCwxzBQV7leniyFQGFQ84b9y6yBpQoYw9krx4yctMdR-ONkWy0UOH97hOFKtP83IhLcKPq5f9ESncOsjCBHaqsn3omRIyV0jjHrLTVFKksYbV75HiWpTn0E9IgGfw3-m2TBgUM1XhF2zGuCLtBkxxIUbGzvgqCLmSALRvx8PavvaRBzav00ChvNbnepbIYXxlHsKpQyn96Iyzzx--XdtdICXZb1x45Ck6iTWaRr7wpaJwRInvoH0yRLUzC_24W4soVk5Q9aQ3KPtyNqw2WTr2Y0EQsHXcsTRPdYYO9SzL9_IB6VTGnInWoQSe9arP5ScPD1iY8RoAAmV87tHv42lHp34q0dqlGYJbTm6tkd9Xe3FQNIDLvS8bouE_e5Z9N_qNESC3NEROjsWpWygc_Qu-95CKLFxeMJ36EZsbQL0sWP-7m_eCbE8KgLvWB_r3Wj7c93zjue10_klywOYQVCLmHnVGOdGWP0fk9u8RoY3Z6RAFb5qUJUxnI-6SjX64QYj6OQZ3Jz2V3Id2TYij53OK_xH-WcMIPBtUr24bNGwdbNn8J7sN815sTb3ze02kPRi5btf6pqWxRvN6VaJig9SyNgH3Jm4g3ioRi3QHR4o42XvnHDIh39VG6YzkunnO4_Ojwrb9DMuHVGitoYKzlsmUGPYEezRp6w-sFdLGEs8XshZaSJSdSNXvIlpmgbzWkU3Do4RaOIhTqnie7nvA-7XDZYuzmaBVAv6n9bTuLONaMAcVY7J35pK7TzsgOvDXLSNVnQ-IBRkZhx-3Dxie_a2ZIi17OOMbhYMegFzi_uUZFuTtV3mCtq5YCiZDO0ap8CzNbRIRmX6UOY_hgACOaGi7ggjheMxXBo5WJgzhBQXcQx3rOKotqq2TqAa2SmYB5PZKSmSQHU4c-9592FaojzLKRig9CT_l1crsg5LTVE0_21gJZEUqEg9W1wZrARm-LmAe8y2PsQMscknhnYQ0BMoxiuP90ltkBQlxy",
+    "status": null
+   },
+   {
+    "id": "ws_07933c229a823885006ac2d334be5c87d1b91fbd8076365f55",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"KRZZ Licensing, LLC\" \"SBS Bay Area, LLC\" \"100\"",
+      "\"KRZZ\" \"Sole Member\"",
+      "\"KRZZ Licensing\" \"ownership\" \"SBS\"",
+      "\"DA 26-933\" \"currently\""
+     ],
+     "query": "\"KRZZ Licensing, LLC\" \"SBS Bay Area, LLC\" \"100\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095014405006549/g95873exv10w4.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/LMS/0000173591"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/13054416901"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095012305003256/y06789e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://webfiddle.net/stackblitz-labs/en.wikipedia.org/wiki/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/spanish-broadcasting-system-inc-7798/contract/843494/"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/spanish-broadcasting-system-inc-7798/contract/843495/"
+      },
+      {
+       "type": "url",
+       "url": "https://infokontak.com/en/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://wikwiand-revamp.pages.dev/en/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://startupstumbles.com/chapter-11-watch/"
+      },
+      {
+       "type": "url",
+       "url": "https://profilbaru.com/en/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095012306003290/y18442e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000119312512143088/d319502d10k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KLAX-FM"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_07933c229a823885006ac2d339d44c87d1942e8efe76e31126",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNnARG2FkKaOKCcVD44dEKKo7i1NOzdSZRJGFqvFSCmu6cWsumZyEz0NdADP-i-x2lO6oJfhNnVD3vlb_Fdn2q9nIcGNfolCdkf29TYk153WC4-bK5VbwraRzHlmRF7B53dORoQWigAaTo2kUIATC25grwEMEVwl8FdOASGOFE5W4uqoRlBNCXmw-FoCzKaVJuNOWHCd0AZaMoOcutejEN8l-XGlSdfzpQ_Os3LwaeTXQ-TH8wvYcWsdnnS0PaN5y7H5wFa2Z7zZDhrspaTRu02y8eQzDqKydAwuIHjClftsvbPvuRFaKh5AoBGmSrONRlCnaGnjBYpsZBtSo7fr5Mni_Xh2iK3-qoWktOXKiq_Iel7H--kUv6rw3ofNOFga4diT7Rla72Hx8iGCajZ75YfLeasb5gpgO3PsFY83ImCdwWNaJBr4vIOnkEWGYxb6Nt300RHm8OZp5QlgNBMPukdeBKjQHP86Wcav2B6dxDXUnBrDw-7RIJVviCacDNkwVRS4iH0RsYSO0wZvCP_JRnQhGlPWGWNmlPov2ZBGhHhjkoYj_vPs7i6RgnhNPbLfK3y-o73nZPoypmlQbIJo12CrIBPcHZbA-5LuuBSodZ8eIipmPxBy91LYDYjxMvjcqGeWEEG338Gj5uVAVQOrPdFl6kZOrqfjBHg5gYQ7aACurQ2r_QJYku6-I6G9IWQjaCngbjMqj1mEn8N2FVE5Psr0IjWcmcVEaL1yNiwqqOYJriow0qjpyIgPNEpKXV-VJXR7OPaqOe4EfVWsWdccXuOZDJv8Dg8xUC--74fSYulaaYm-OIzhlRTBUnWWadtP3JrraK0UtL3GUv_u2UEULpm9JMc0qbqFoBuGkViz6rmXi1ZPvkrX757zXKfkbjWvpcjlAyCDcZken9Pe5ZFS7Q5w4Pdni8lKO99hsnyeJGONh59vHfH_DhN3MwSV8xKPxoMhqKSkHzUrNOVJR5wxhrEIHk7eR_O_uBhwyO8sgV7d3lM_BJvVGoOQyOYRqT5MhjyJFp6RO3kT7nFE78gBDqWYWVvBY1KC96lO_0svd2YQr4-RnDmvcLOtq8CQLiXhaUSyz464uRUZQ0o-vIA9BxaYgncXRsO98bncwzsFth3wsPtvPf7BZiHrZiyJerHMX_-MnpiUPXknvsRUBOmPZBRguo53IFQLKfi7O5w1BrQ02NrNW8F1ilqXZZzQ9bZdtfkquRvw5yPlXuv-3Lk9EQ4dhZGI4WnVkKgaQdpgQ8_Hs-cMg_JIxvmAHMkkGY8I8s6j1JNEJPUF-vYyJatzKkSUSMLq5req6f0JjYVqD9Pk84cDNRIpfq-2MVC3v639tkWhzSK2GTd-hqLzl59xg5H0Bxrz6uoGpA-YWoGlr_8_jfxbEsIhynaGIjsVdpxFpUH5p53iOxsEA4SLuy3iqauZ4VksA3qIkS6d6pjQZ1g1DERBwmnVOk88CcK3gvRiUUN9BPcpcGMLKP2DMGep_SEtBzz4tZOSL70WTJ2U5vCzaa5fksbGwDWKPXfXA6GAbCCaU5eJ-4j21bA0bVlkBwekAbXqWHbi-gM-pWQAhMX2jU1hFT6a8Ql8n3owLmW3pbc3k6RmlGBWAelKbhnt5JMuhR2zjrLzNY0G5SQf69SlHEYcvuy7HC7EOxq0XTlZysVtu4kcrvgbVXp03Fs5Iby8aAVst-AV1ZztizeG7tvH8ne0M70Cb_RXva_sKorkLrGr1JG-gloWVg7rQ6FafBifQ==",
+    "status": null
+   },
+   {
+    "id": "ws_07933c229a823885006ac2d33a95d087d19ff8f36a31502f3c",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"KRZZ Licensing\" \"SBS Bay Area\" -site:fcc.report -site:sec.gov -site:justia.com -site:inforuptcy.com -site:bkalerts.com -site:marketscreener.com -site:zonebourse.com",
+      "\"Spanish Broadcasting System\" \"26-240\" \"Alarcon\"",
+      "\"Spanish Broadcasting System\" \"July 1, 2026\" confirmed"
+     ],
+     "query": "\"KRZZ Licensing\" \"SBS Bay Area\" -site:fcc.report -site:sec.gov -site:justia.com -site:inforuptcy.com -site:bkalerts.com -site:marketscreener.com -site:zonebourse.com",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-255717A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-255318A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-257271A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.spanishbroadcasting.com/wp-content/uploads/sites/5/2026/04/RSA-Press-Release-Package-RP-List.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://startupstumbles.com/chapter-11-watch/"
+      },
+      {
+       "type": "url",
+       "url": "https://newikis.com/en/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://getfilings.com/sec-filings/170420/SPANISH-BROADCASTING-SYSTEM-INC_10-K/sbsaa-ex211_8.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://wikwiand-revamp.pages.dev/en/KRZZ"
+      },
+      {
+       "type": "url",
+       "url": "https://annual-statements.com/company/spanish-broadcasting-system-inc/annual-report-2017-form-10k-333387"
+      },
+      {
+       "type": "url",
+       "url": "https://radiofacts.media/sbs-bankruptcy-exit-hinges-on-fcc-approval-of-broadcast-license-transfer/"
+      },
+      {
+       "type": "url",
+       "url": "https://home.recnet.com/aggregator?page=105"
+      },
+      {
+       "type": "url",
+       "url": "https://getfilings.com/sec-filings/100325/SPANISH-BROADCASTING-SYSTEM-INC_10-K/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1109116/000119312526093993/evc-20251231.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://getfilings.com/sec-filings/160413/SPANISH-BROADCASTING-SYSTEM-INC_10-K/"
+      },
+      {
+       "type": "url",
+       "url": "https://financialfilings.com/filings/fubotv-inc-fl/interim-quarterly-report/2026/49981180/"
+      },
+      {
+       "type": "url",
+       "url": "https://getfilings.com/sec-filings/120330/SPANISH-BROADCASTING-SYSTEM-INC_10-K/"
+      },
+      {
+       "type": "url",
+       "url": "https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_07933c229a823885006ac2d340b52087d1b28cd3aebb4bea2a",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNnuMNPMRl0eIYtrDc2BuJU_24-9AAeR3QacgyzJYbSremYXl1Nt_xjAkxUxsauB3TlS8aYi_0sAepZIaSjAe--n9ZI_KFU6Cz-yoZEYNaGQFWzdV5a5AIKSlrLSpK6ZaHBOQkac_2E0gxybovSL32ik9Fh2uHPb9MvidkcJ1wxFOLIiXUXubuStzLaD8FTmmqDxii4oJEl0sW5BQGbgizgwK8YsT8H6zIgeeIohgWsdhWl7PQujoI_1DSJXaFnkXHRKSeU4m_Dz6LTmhXUBF9lmahJAmlDJtfikaPkVJV7VM-unELJQDi-CL23wExdBTfEZpDW0rtFYPSvoYKbgckKCknyedvLztZ260y949u1ifY5HE64FE_theHQsCASWolxKEFteM4cn8ZDgi5042APAC_bgVvdpzkhl8XHeOSw4lTEBxIyYKnLsKK0KETMIxuIal8loFtsPb-Was_H3rhkeTuHqXRzoVC4wm2yJfNcmU09MoQHlvDri82p2pGxem3h8rFrpIusNnkcosUtId1vrGQeUxLoXD7Lj50wC-8FMyOKFBXe0WSH2kZTnzGAVUrgpHxCuu8UstmQ_V-B4FWnk-NyBlNrSd5nTjfqLpQ_D3G7W-wSFaycqGJeOo8-wHg34-TttDMhFOnTXXE-wgiNaFM5oRKOZ--OPDL2CAueHXeq1q9U_LuRyxePjLOP-zTHHoRUagaIuHB4NvJiCg7ej8ZwJbfnaa4pyiOjebpD9FppU2mumnEo7sxxOY7kE9KJMV-k0gXROLsHhnuSEtNyVH9CT9NBJUfjUji885FMIhC_o95Fu5QV2THV3Hobu_j6QmyH2bSPlkfOeU7bfPRbEzv0ANlryNzueW-ZkvoRR-jwHOlheSqvNrdr10sgN_498kbaNvrC988tuopXJ3BgkeScB37oJ6WYKWOyPI2oCMgHnOlqlHrKueWq8eCvYdwKm34TA4Up8i9VghWRGoIu0JxSlLQdkXrnzGaQRFQ084TDVanxexQN96tUbKsJFj-XCYHOCZZ9lIvFc6aaJ0XjRGsdzYC3E1nwokcDFILr3rRLQsuxs1oJfvepJK7jpeTihLvsoGHhfnBLFH2rABkyBMX97C1dtZcP30TtkezzdWJkmnSahSEjnjFjZBkhBYPeCH2VS7pVmOFSnYxl12yE5eFKv8YJpYZGN4U-Mje7lHSN28wd3wiOTcnf95fCDS5IyhbunXCk5G4jWkum8hk4s4ElaZbiEYRZrRwJMpNRX5Gq3AvX6wO_92D-fJ0tnxRdyu1-NNveq55nowU33L8i9t5le0kVLQUPk_AsWA-zQggTX2MpYlf4Vcew37IBFQZTExW4DmF_uXC5MJoT0_qTTa8-SDd723eE0dZ8IrqxdKaZBIFHTdgqnGXD4W0wsk48IzWT6GOBIngpqqRcFlTJA9ecaa1FUblBXHg0OJfz6eLNM4pgbXO3jsPf3fURfU-tAEEB0ILC-lJbpSMdPfH393qBCQkEk6SzC3nvWCdBH7ibvipNfrU9DBzXhaoxi1IJ6gVUTBgH5D5hURGRAujs-P_2qCVLHg6l9bHJ6XeTbRBacPACR1V5t4pd6vdvRRJf9fyE6HjJYWHABXA6g1NLDAF1w4z0rF3W_SLUoNxgv9myzxKw95eMW4obMhxEgFbnKH_ok9HMAdIYqhnAJVpNE4TqhONTq5H0PO_UNvEDlnAZJR4ORf7F-jn75kSnd6esPjepa1mdZhL-HMbeldgBLuyyh--YrY6YlhEg67DG0J28NfKk_KJbAHvdkQ5UO4Pjvu8ydzD3RiTpcsy12HdutC24pFf_HHfdEbc4wzdcqzKhqq2yAHHBd4QlGhzA3pw68tnsfV5z-Br7PxR_S8UVbUyOLmakCBfD5HcMXC3LA3-bJjPrVWK1QGIXScPDph5o-u_1WUJ92diWjmfxY03dKI7kn48r5Ce6TXr0mzXNlV5yoTT4j9IY6O0eQflg3fWjUsuVThcziTlvtPxytxuHTcFW3ZiUmer7JYfLw_6OfAKew2XOVYiwU8861nlNkjyGH0ea0Lzy3fXiRGv6s3-JnXOyBQlWCKxiKu_PzK3y-8WHGl7r4Vqp5IqhXvkUP4lEei4cz7ZttjSywU7-wh419RoOTHzWbcxUokOa6JMjCWjsSqt1izofaJNEOx6Q5D0izo-Eaj7I-inybIqD0rmdbtKp0RPx_7_gWVyX8qBJElrAjRvI50mAR8gwcVFqXe6b-nOywkxiwUfd0Ybs5qVTjCGkdVQQCILYrr99N-r3LlgU5--FRG-9vD-1VgdLQ9_lcyHR0vLXAfVKgnJKB8m8521mOXq5GT9MroaqwyvfUOMnHgwuzw0430PdxinpFFW4x8_sP7lzgVUpvRooAka_CpAYPVXROfuPWWFanxKU_Mdm3ieueMTrnpJDwGIgCdZHjOiytnOYECGa6qCbI5Fm8IKw7QV9SRhJ4Z0-u5DwFkPUcUOR_2eV_pi286CymTSD",
+    "status": null
+   },
+   {
+    "id": "ws_07933c229a823885006ac2d344211087d1b2d45591a97cb60e",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"KRZZ Licensing, LLC\" \"SBS Bay\" \"subsidiary\"",
+      "\"SBS Bay Area\" \"KRZZ\" \"membership\"",
+      "\"Spanish Broadcasting System\" \"26-240\" \"granted\"",
+      "\"Spanish Broadcasting System\" \"2026\" \"effective date\" \"September\""
+     ],
+     "query": "\"KRZZ Licensing, LLC\" \"SBS Bay\" \"subsidiary\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095014407002345/g06068exv21w1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-933A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.spanishbroadcasting.com/wp-content/uploads/2016/08/Spanish_Broadcasting_System-10K2008.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/NASDAQ_SBSA_2015.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://getfilings.com/sec-filings/170420/SPANISH-BROADCASTING-SYSTEM-INC_10-K/sbsaa-ex211_8.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://mega.tv/wp-content/uploads/sites/5/2018/05/YE-2017-Final-10K-SBSAA-Master-Exhibits.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.spanishbroadcasting.com/wp-content/uploads/2016/08/Spanish_Broadcasting_System-10K2009.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://materials.proxyvote.com/Approved/846425/20110411/10K_91932/PDF/spanish_broadcasting_system-10k2010_0134.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/spanish-broadcasting-system-inc-7798/contract/843494/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000156459018014225/sbsaa-10k_20171231.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095014406006114/g02035ddef14a.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1109116/000119312526093993/evc-20251231.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095014407002345/g06068e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/927720/000095012305007179/y09355def14a.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.streetinsider.com/SEC%2BFilings/Form%2B%2BN-CSRS%2B%2B%2B%2B%2BPUTNAM%2BASSET%2BALLOCATION%2B%2B%2BFor%3A%2BMar%2B31/20115498.html"
+      },
+      {
+       "type": "url",
+       "url": "https://jooble.org/jobs-national-park/Los-Gatos%2C-CA"
+      },
+      {
+       "type": "url",
+       "url": "https://www.bankrupt.com/TCR_Public/191104.mbx"
+      },
+      {
+       "type": "url",
+       "url": "https://bondoro.com/bondoro-insights-weekly-docket-update-38/"
+      },
+      {
+       "type": "url",
+       "url": "https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_07933c229a823885006ac2d34bb15487d18c2aa6e60782bc32",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtNn6L19YxE5a6bN-re3O0GBhqiFXyihdivaRV6cl9T6taViPyVIpfgpbwr6EsCPvwoMakGuJSDxX4PDfd2itM4l1qL97EQPyZjqXfF-fl5GX5XOap6CATG9LCbkRBXiGsNru7V3QYwiX71I7dzTqMsc6XErxW0A95juqvKSwcDrbgM6frdqZn5Orxm9P4syrlmUM7zLPcWZv9HuYD6tqaj04eQzyPdHfKcLZb3Tsm5JQwV5I5ReU1N3udMQuufouydzRf8W71F0_70wJTt1-oJ6Bv_ssa_aTsEKZtiPoN4o36atpgLGMeb7v1aMnfYUaPpNBVU3xfIVtLKWgCx1UnnxenCKBaRkMY6c_t_GGGdQbsmzQlvBgOPBmPw9BA0m4g69yVj3MV_m6NnsqRvq6YQRDwcTJ_mKGAOtvwdHQmnFtq-iqsC8ME-AxTgk1EQZVGWZhOzntxpT03rb4o6hVWeIWJ375_Yz0lwuLxlwUsUygj2VlJ6ioqacYf-mGEub6G3uXUtcslnahWvPLLm1i5_fOnlv8ICYKhiqshzBeytZsiQ7PJKpswY2PwQ1BKwiqWqjY1svogmdqEflmp6mjtiVdx4_sOE5l1hvkQTj0_irw1EgXdl50jb-b8HryR6MBDEgXo-cmn-5nVgYofFoHh4nWR_dYxwdQ1CseRfyrQs_5MCzuUPve6n3EmkStnNSrE5BOSjSY6qnRJ4crKWJJmVG8pwH2-XXPc87zeVLT1LNL5v3M4qYtS3-0DROvcnC9DEC4T7z_QBP28cNNI7DIuO8YQidVNvRFwxsyIfwyaJZtpHVCvVpcTZBLmAVVTvhouWp9RWscb5lLQ0bCUZ_cKvdn24rx44VCsPpj5FVbfWHXa7zfpPBfPsTQVitJz1gviaOS8dVX7ELN4jUJe5RP8XhKb_qAPFh7DegpBKKizCPn9IfMnbEcvX4udjlFtFMy9P9YbAheEfBnsL64tsNJKgHWHUdQGFnTeQZm5QH69xHWM48fvduqOTGHNl6TKeU3xpuyqhSca5lQFS31MwCxuwZJPUmEfcGIsw924dGVZfzeOIAe3kuHknhePvSE_RuNwjXb4SdfubbCP3COWzp951toSAtj9rYpHyByULvFoxJuXIHtqYskmJgF7wgjisG8Xx3eh0KxORR-swrwadXHfv7jIgjaWeT6f6eIJoy8z2oe5Z6rcswY0LxmdCImBSlg3Z-1K7T7RnauIuId96P3Nbmfucnr91Em8eGJQgeLW5RYZyByrd47yEwJQEWvQ4IKKSp3rwzOxD_LNZNO3KGMqzl63YkUlHvSLOPU0kvrPUcOZMz6kE_cUk-O9Fip6iKTMN7NYBFIOXvARpSS7nvGElPKfplcutOtiJ0hw6u8EJ-z08-MYLNN5sbihsweMcp56AhIKUkL9hpY4-OceR2CIwCkcFwhMzjd4NogT1ihPNFBwkXIOiiVYjtuPLAbDHEgxbXvTMwGYyptIRBtu0K190-K4Gen5PIvgyPbB0oD1z4qi0sZ9CQ2wI9t6rsjv4pMPEnp0j9WZ66YEzIJMt9YYPdrJBGSpABeCHrLIDSSKNuso7eY_-6WgSjcVGQfLX2IGmtp1rC-tnuhl4nrOidhdw8rdBktcDwb4_05sfE5hw3TgkOh07sPjlVui1urAwc1hZWMqs7zDZsY2VqBP1pvWgAkcDYjCG7EQXRrIJJNBQR8ejgtHbSOU5wdFCDgFnm5jJImODm1HG_C16_g06QJhmBTv-zszZDRLnDY_nlMmhXvb3mJifIyDDwTCo_5dpzxR30a7lMEmVj7jQ47wrF9G5HJobLDOepSTtCcY1JuHDYTDl9ufqodwVmsXiFgLHhJmf7gXI5YJ_-JenQlmjcSmeb2VamgI_7czyKqFD_VWjLCO_y0Rw3XYJoeOP0igcYZ50M4Qympf7GmzMOOKmXBA8lt9LwXMC3VVOR0y1dJwn4fBCScL2Isms9d80TKEI5qqGnmFPgRF-mWw1wcQ9dItn4ErBzGBofod4agxnwiCuGxBmAfrnUzRFgK7NnpkS5TfZA91vOr6OvCF4VxFB4sIohaOCuSE2M8n5AXnMBBlHIxvOqvvoG3TwIORisFJq13t3Xvc22uWgC8GgTGerF7RcOLeXrSOl9SCWO4CsR7qN5Hj4NqM6cM1E8TEsAeEldF94Navj41YpwcR6BF_agI6EkMZrXbFtSSI8kBsSS67gdwnAn-t84-POoKQQwbFK2nuErcL6RbL4AQ0NfmCWNT8tZLJ3KbsABDLP55r5GMCFY2RjGSn3zGh1f5bt2VkWHzlhdCBPGcKEnJm-2yUQg5jEZGAn-sg3UcgJi0yaNxTWs0DXGe28JjwJzgkXx53qaqeAtpzm7CmvXZ1Pjj0WlXq6tsVSSkk1curOEkMwvWfA5cB0WlsGTMvPilyT2AFshqFc3UjXyH037iBpK3a6PSX3rk_-fhkUDCLVp0RAQ90F7dUcUpdi3P7vJrq1vkVPKan2ld-4DxMLzouhhTQfm8Hy7ow4naYF0DfmeLY2BP4daeGwhcp3RVHE1mJK0OwSuhEJzQLmTtSx5FDKeNEkfTZff3F_IYfEH4TE1Pm9B_kTbuwlbMx0ioz4HPOhO4RLISz10UKx25iV47GHdTbu389un5CwYHKF09zhbTzafn3DP0qiOpQvYwtNhRtvV0XDYqc-qYVfeTFmHwITYUwtduS6_Q1o0hxZqj6fUcZWZcYD4o4nH3Tq4OH2sY05V0ATAQNX6A84HROdol8F4qWZDDubLy2ir3M2QwAD2e4cUPa1aTfeRGg65kvzTRCOMrae-8XowDsI6779NCc1VHym9rTOP3H3Z9z78PcY1wrtwXTsb5Nu1rdkZeVcmUf5ogb2QI5_akjsH8s0I3mDoiLq8oSm5dJZUeT7MazSMgpRlZdveBCVb5vTD6dmcMg4cO5VGECZyDn9-X6PXG0DcuDlTJWGLqpJXyWMBAvNIVnbd7BjfbIV6fvMDDpZMwXRw-u8S4j7zwpg7xnGjasFGVNXj6JutRnJaIg_Pq_N_77zpkleOmOHA_wtialnAcXh9V3DQbWAI3Zk-ff9KiSPkquJWhBsLuwAR8arAgfmgyd25vg5scXp49wvOX22QZ9feWaokYAYzyDeWpbyAYwRNgBrJ3ssW4ezEpdAwXyNC5Yzn1s2xIcTSfy7ruJsas2rhwWTQjiWTE2VzZM8ZZM3egr-dTlv2gIx7bWsblViLAOsQlm4wbtU=",
+    "status": null
+   },
+   {
+    "id": "ws_07933c229a823885006ac2d35084a087d19105f6a26b1bc09a",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.radioworld.com/news-and-business/business-and-law/sbs-reorganization-plan-now-waits-on-the-fcc"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "msg_07933c229a823885006ac2d35330e887d1b4d8b9b55161c526",
+    "content": [
+     {
+      "annotations": [],
+      "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"KRZZ Licensing, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.fcc.report/LMS/0000173591\",\n        \"quote\": \"KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA\"\n      },\n      {\n        \"url\": \"https://fcc.report/LMS/0000300753\",\n        \"quote\": \"Applicant | KRZZ LICENSING, LLC\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"KRZZ Licensing, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf\",\n        \"quote\": \"day-to-day broadcast operations, which shall remain solely with the FCC licensees\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"KRZZ Licensing, LLC\",\n      \"parent\": \"SBS Bay Area, LLC\",\n      \"relation\": \"Subsidiary of SBS Bay Area, LLC, as depicted in Exhibit B, Organizational Chart, to the May 11, 2026 court declaration.\",\n      \"citations\": [\n        {\n          \"url\": \"https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf\",\n          \"quote\": \"Organizational Chart\"\n        }\n      ]\n    },\n    {\n      \"child\": \"SBS Bay Area, LLC\",\n      \"parent\": \"Spanish Broadcasting System, Inc.\",\n      \"relation\": \"Wholly owned subsidiary; the May 11, 2026 organizational chart also places SBS Bay Area directly under Spanish Broadcasting System, Inc.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/927720/000095012305003256/y06789e10vk.htm\",\n          \"quote\": \"SBS Bay Area, LLC, a wholly-owned subsidiary of SBS\"\n        },\n        {\n          \"url\": \"https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf\",\n          \"quote\": \"Organizational Chart\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\"Spanish Broadcasting System, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-933A1.pdf\",\n        \"quote\": \"the licensee subsidiaries of Spanish Broadcasting System, Inc.\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"established\",\n    \"names\": [\"Ra\u00fal Alarc\u00f3n, Jr.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.spanishbroadcasting.com/wp-content/uploads/sites/5/2024/02/SBS-Material-Change-Report-020624-RA-President.pdf\",\n        \"quote\": \"Mr. Alarc\u00f3n remains the Company\u2019s largest and sole controlling shareholder.\"\n      },\n      {\n        \"url\": \"https://documents.elevenflo.com/uuid_database_8_14_23/479e8e8c-8f1e-4f52-9a77-0ab4eca700d8.pdf\",\n        \"quote\": \"Ra\u00fal Alarc\u00f3n Jr. has voting control over all but 350 shares\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Ra\u00fal Alarc\u00f3n\",\n    \"role\": \"Chief Executive Officer\",\n    \"entity\": \"Spanish Broadcasting System, Inc.\",\n    \"citations\": [\n      {\n        \"url\": \"https://www.spanishbroadcasting.com/leadership/executive-management/raul-alarcon\",\n        \"quote\": \"Ra\u00fal Alarc\u00f3n\\nCEO, Chairman\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"SBS entered a restructuring support agreement contemplating cancellation of existing equity and issuance of the reorganized company's equity to noteholders, subject to management-incentive dilution. This was a proposed ownership change, not a completed transfer.\",\n      \"status\": \"announced\",\n      \"date\": \"2026-04-08\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.spanishbroadcasting.com/wp-content/uploads/sites/5/2026/04/RSA-Press-Release-Package-RP-List.pdf\",\n          \"quote\": \"holders of the Notes would receive 100% of the common stock in the reorganized Company\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The bankruptcy court approved the reorganization plan. Court confirmation did not itself complete the FCC-regulated ownership transfer.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-07-01\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.radioworld.com/news-and-business/business-and-law/sbs-reorganization-plan-now-waits-on-the-fcc\",\n          \"quote\": \"The court order approving the reorganization plan was signed July 1 by U.S. Bankruptcy Judge Brendan Shannon.\"\n        }\n      ]\n    },\n    {\n      \"description\": \"FCC applications to implement the restructuring were filed July 16, 2026. The FCC established a pleading cycle on September 2, 2026; approval and consummation were not established as of October 4, 2026.\",\n      \"status\": \"announced\",\n      \"date\": \"2026-07-16\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-933A1.pdf\",\n          \"quote\": \"Opposition Date: October 19, 2026\\nReply Date: October 26, 2026\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of October 4, 2026, the evidence supports the existing chain KRZZ Licensing, LLC \u2192 SBS Bay Area, LLC \u2192 Spanish Broadcasting System, Inc., with Ra\u00fal Alarc\u00f3n, Jr. controlling SBS and remaining its CEO. SBS was undergoing Chapter 11 restructuring; the prospective creditor owners should not be treated as current owners without evidence of FCC approval and consummation. There is a naming inconsistency: the September 2 FCC notice's station appendix says 'KRZZ Licensing, Inc.', whereas the ownership report, July/August 2026 application record, and May 2026 bankruptcy documents identify 'KRZZ Licensing, LLC'. No separate operator was established.\"\n}",
+      "type": "output_text",
+      "logprobs": []
+     }
+    ],
+    "role": "assistant",
+    "status": "completed",
+    "type": "message",
+    "phase": "final_answer"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+   {
+    "type": "web_search",
+    "external_web_access": null,
+    "filters": null,
+    "search_context_size": "medium",
+    "user_location": {
+     "city": null,
+     "country": "US",
+     "region": null,
+     "timezone": null,
+     "type": "approximate"
+    },
+    "return_token_budget": "default",
+    "search_content_types": [
+     "text"
+    ]
+   }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1791152999.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "generate_summary": null,
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+   "format": {
+    "name": "ownership_answer",
+    "schema_": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "legal_owner",
+      "operator",
+      "chain",
+      "ultimate_parent",
+      "controlling_person",
+      "leader",
+      "transactions",
+      "uncertainty"
+     ],
+     "properties": {
+      "legal_owner": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "operator": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "same_as_owner",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "chain": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "child",
+         "parent",
+         "relation",
+         "citations"
+        ],
+        "properties": {
+         "child": {
+          "type": "string"
+         },
+         "parent": {
+          "type": "string"
+         },
+         "relation": {
+          "type": "string"
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "ultimate_parent": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "single",
+          "multiple",
+          "none",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "controlling_person": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "none",
+          "not_established",
+          "not_applicable"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "leader": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "name",
+        "role",
+        "entity",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "name": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "role": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "entity": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "transactions": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "description",
+         "status",
+         "date",
+         "citations"
+        ],
+        "properties": {
+         "description": {
+          "type": "string"
+         },
+         "status": {
+          "type": "string",
+          "enum": [
+           "announced",
+           "approved",
+           "closed",
+           "abandoned",
+           "unknown"
+          ]
+         },
+         "date": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "uncertainty": {
+       "type": "string"
+      }
+     }
+    },
+    "type": "json_schema",
+    "description": null,
+    "strict": true
+   },
+   "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 92452,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 5304
+   },
+   "output_tokens": 3598,
+   "output_tokens_details": {
+    "reasoning_tokens": 2106
+   },
+   "total_tokens": 96050
+  },
+  "user": null,
+  "billing": {
+   "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 8
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 92452,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 5304
+  },
+  "output_tokens": 3598,
+  "output_tokens_details": {
+   "reasoning_tokens": 2106
+  },
+  "total_tokens": 96050
+ },
+ "usd": 0.3308064,
+ "latency_s": 84.5,
+ "web_search": {
+  "tool_enabled": true,
+  "calls_executed": 12,
+  "actions": [
+   "search",
+   "search",
+   "search",
+   "open_page",
+   "search",
+   "open_page",
+   "search",
+   "open_page",
+   "search",
+   "search",
+   "search",
+   "open_page"
+  ],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "A",
+ "case": "krzz",
+ "run": 2,
+ "saved": "2026-10-04T19:30:00-0300"
+}

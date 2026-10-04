@@ -1,0 +1,713 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"ESPN, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://en.wikipedia.org/wiki/ESPN\",\n        \"quote\": \"the flagship property of ESPN, LLC\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [\n    {\n      \"child\": \"ESPN, LLC\",\n      \"parent\": \"ABC, Inc.\",\n      \"relation\": \"Intermediary through which The Walt Disney Company holds its 72% interest and operational control.\",\n      \"citations\": [\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/ESPN\",\n          \"quote\": \"a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).\"\n        }\n      ]\n    },\n    {\n      \"child\": \"ABC, Inc.\",\n      \"parent\": \"The Walt Disney Company\",\n      \"relation\": \"Indirect subsidiary; intervening entities are not established by the dossier.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.hearst.com/entertainment-syndication/espn\",\n          \"quote\": \"ABC, Inc., an indirect subsidiary of The Walt Disney Company.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"ESPN, LLC\",\n      \"parent\": \"Hearst Communications\",\n      \"relation\": \"18% equity ownership.\",\n      \"citations\": [\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/ESPN\",\n          \"quote\": \"a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).\"\n        }\n      ]\n    },\n    {\n      \"child\": \"ESPN, LLC\",\n      \"parent\": \"National Football League\",\n      \"relation\": \"10% equity ownership.\",\n      \"citations\": [\n        {\n          \"url\": \"https://espnpressroom.com/us/espn-llc-fact-sheet/\",\n          \"quote\": \"ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"multiple\",\n    \"names\": [\n      \"The Walt Disney Company\",\n      \"Hearst Communications\",\n      \"National Football League\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://espnpressroom.com/about/\",\n        \"quote\": \"ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.\"\n      },\n      {\n        \"url\": \"https://en.wikipedia.org/wiki/ESPN\",\n        \"quote\": \"a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Jimmy Pitaro\",\n    \"role\": \"Chairman of ESPN\",\n    \"entity\": \"ESPN\",\n    \"citations\": [\n      {\n        \"url\": \"https://espnpressroom.com/bio/james-pitaro/\",\n        \"quote\": \"Jimmy Pitaro, who joined ESPN as President in 2018, was named Chairman, ESPN in February 2023\"\n      },\n      {\n        \"url\": \"https://www.cnbc.com/2026/07/16/transcript-espn-chairman-jimmy-pitaro-speaks-with-cnbcs-alex-sherman-at-the-cnbc-sport-x-boardroom-game-plan-summit-in-new-york-city-today-thursday-july-16-.html\",\n        \"quote\": \"Following is the unofficial transcript of an interview with ESPN Chairman Jimmy Pitaro that took place today, Thursday, July 16\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"ESPN announced the acquisition of NFL Network, NFL's linear RedZone Channel and NFL Fantasy in exchange for a 10% equity stake in ESPN for the NFL.\",\n      \"status\": \"announced\",\n      \"date\": \"2025-08-05\",\n      \"citations\": [\n        {\n          \"url\": \"https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/\",\n          \"quote\": \"ESPN will acquire NFL Network and certain other media assets owned and controlled by the NFL \u2013 including NFL\u2019s linear RedZone Channel, and NFL Fantasy \u2013 in exchange for a 10% equity stake in ESPN.\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Government regulators approved ESPN's acquisition of NFL Media assets in the transaction giving the NFL a 10% stake in ESPN.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-01-31\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/\",\n          \"quote\": \"Government regulators have approved ESPN\u2019s billion-dollar blockbuster acquisition of multiple NFL Media assets, and the two sides closed the agreement late Saturday\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The NFL Media transaction closed, making the NFL a 10% equity owner of ESPN. Current ownership statements show Disney at 72% and Hearst at 18%.\",\n      \"status\": \"closed\",\n      \"date\": \"2026-01-31\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/\",\n          \"quote\": \"Government regulators have approved ESPN\u2019s billion-dollar blockbuster acquisition of multiple NFL Media assets, and the two sides closed the agreement late Saturday\"\n        },\n        {\n          \"url\": \"https://espnpressroom.com/about/\",\n          \"quote\": \"ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of 2026-10-04, the dossier supports the post-closing 72% Disney / 18% Hearst / 10% NFL ownership split, rather than the older 80% ABC / 20% Hearst figures. The legal-owner identification and current ABC intermediary link rely on the supplied Wikipedia excerpts. Disney's operational control is documented, but a distinct day-to-day operating entity is not established. No natural person or family controlling the ultimate parents is established; Pitaro's managerial authority does not establish ownership control. Further ownership above Hearst or the NFL, and intermediate entities between ABC and Disney, are not documented.\"\n}",
+ "usage": {
+  "input_tokens": 6353,
+  "input_tokens_details": {
+   "cache_write_tokens": 6350,
+   "cached_tokens": 0
+  },
+  "output_tokens": 2603,
+  "output_tokens_details": {
+   "reasoning_tokens": 1034
+  },
+  "total_tokens": 8956
+ },
+ "usd": 0.038736,
+ "latency_s": 58.6,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false,
+  "exa_queries": 3
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "dossier": "Question (as of 2026-10-04): As of 2026-10-04, who owns the ESPN cable network, what is its ownership chain up to its parent(s), who (if anyone) is the controlling person, and who is the current chairman of ESPN?\nOutlet: ESPN (cable, national (US cable network)).\nLeader definition for this question: current chairman of ESPN\n\nEvidence dossier (claims extracted from retrieved documents; cite the URL and quote):\n- The Walt Disney Company | owns | ESPN (72%) | date: None | https://espnpressroom.com/about/ | \"ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.\"\n- Hearst | owns | ESPN (18%) | date: None | https://espnpressroom.com/about/ | \"ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.\"\n- National Football League | owns | ESPN (10%) | date: None | https://espnpressroom.com/about/ | \"ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.\"\n- Jimmy Pitaro | other_officer_of | ESPN (president) | date: March 2018 | https://espnpressroom.com/about/ | \"Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman in February 2023.\"\n- Jimmy Pitaro | other_officer_of | ESPN (chairman) | date: February 2023 | https://espnpressroom.com/about/ | \"Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman in February 2023.\"\n- ABC, Inc. | owns | ESPN, Inc. (80%) | date: None | https://www.hearst.com/entertainment-syndication/espn | \"Based in Bristol, Connecticut, the company is 80% owned by ABC, Inc., an indirect subsidiary of The Walt Disney Company.\"\n- ABC, Inc. | subsidiary_of | The Walt Disney Company | date: None | https://www.hearst.com/entertainment-syndication/espn | \"ABC, Inc., an indirect subsidiary of The Walt Disney Company.\"\n- Hearst | owns | ESPN (18%) | date: None | https://www.hearst.com/entertainment-syndication/espn | \"Hearst holds an 18% interest in ESPN.\"\n- The Walt Disney Company | owns | ESPN (72%) | date: None | https://espnpressroom.com/us/espn-llc-fact-sheet/ | \"ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.\"\n- Hearst | owns | ESPN (18%) | date: None | https://espnpressroom.com/us/espn-llc-fact-sheet/ | \"ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.\"\n- National Football League | owns | ESPN (10%) | date: None | https://espnpressroom.com/us/espn-llc-fact-sheet/ | \"ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.\"\n- Jimmy Pitaro | other_officer_of | ESPN (president) | date: March 2018 | https://espnpressroom.com/us/espn-llc-fact-sheet/ | \"Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman in February 2023.\"\n- Jimmy Pitaro | other_officer_of | ESPN (chairman) | date: February 2023 | https://espnpressroom.com/us/espn-llc-fact-sheet/ | \"Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman in February 2023.\"\n- The Walt Disney Company | owns | ESPN (72%, via ABC Inc.) | date: None | https://en.wikipedia.org/wiki/ESPN | \"The Walt Disney Company (72%; via ABC Inc.) Hearst Communications (18%) National Football League (10%)\"\n- Hearst Communications | owns | ESPN (18%) | date: None | https://en.wikipedia.org/wiki/ESPN | \"The Walt Disney Company (72%; via ABC Inc.) Hearst Communications (18%) National Football League (10%)\"\n- National Football League | owns | ESPN (10%) | date: None | https://en.wikipedia.org/wiki/ESPN | \"The Walt Disney Company (72%; via ABC Inc.) Hearst Communications (18%) National Football League (10%)\"\n- ESPN, LLC | owns | ESPN | date: None | https://en.wikipedia.org/wiki/ESPN | \"the flagship property of ESPN, LLC\"\n- The Walt Disney Company | owns | ESPN, LLC (72%) | date: None | https://en.wikipedia.org/wiki/ESPN | \"a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).\"\n- Hearst Communications | owns | ESPN, LLC (18%) | date: None | https://en.wikipedia.org/wiki/ESPN | \"a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).\"\n- National Football League | owns | ESPN, LLC (10%) | date: None | https://en.wikipedia.org/wiki/ESPN | \"a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).\"\n- ABC Inc. | subsidiary_of | The Walt Disney Company | date: None | https://en.wikipedia.org/wiki/ESPN | \"the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.)\"\n- ESPN, LLC | controlled_by | The Walt Disney Company (via ABC Inc.) | date: None | https://en.wikipedia.org/wiki/ESPN | \"the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.)\"\n- The Walt Disney Company | joint_venture_partner_of | Hearst Communications | date: None | https://en.wikipedia.org/wiki/ESPN | \"a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).\"\n- The Walt Disney Company | joint_venture_partner_of | National Football League | date: None | https://en.wikipedia.org/wiki/ESPN | \"a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).\"\n- Hearst Communications | joint_venture_partner_of | National Football League | date: None | https://en.wikipedia.org/wiki/ESPN | \"a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).\"\n- ESPN | renamed_from | Entertainment and Sports Programming Network | date: 1985 | https://en.wikipedia.org/wiki/ESPN | \"ESPN (an initialism of their original name, Entertainment and Sports Programming Network until 1985)\"\n- James Pitaro | other_officer_of | ESPN (president) | date: March 5, 2018 | https://en.wikipedia.org/wiki/ESPN | \"James Pitaro has been president since March 5, 2018\"\n- ESPN | owns | The Sports Network (TSN) and its five sister networks (20%) | date: None | https://en.wikipedia.org/wiki/ESPN | \"In Canada, it owns a 20% interest in The Sports Network (TSN) and its five sister networks.\"\n- Getty Oil | acquisition_closed | ESPN (85%, purchased from Bill Rasmussen) | date: February 22, 1979 | https://en.wikipedia.org/wiki/ESPN | \"Getty Oil, which purchased 85% of the company from Bill Rasmussen on February 22, 1979\"\n- ABC, Inc. | owns | ESPN (80%) | date: None | https://us.espnpressroom.com/espn-inc-fact-sheet/ | \"ESPN is 80 percent owned by ABC, Inc. (an indirect subsidiary of The Walt Disney Company) and 20 percent by Hearst.\"\n- ABC, Inc. | subsidiary_of | The Walt Disney Company | date: None | https://us.espnpressroom.com/espn-inc-fact-sheet/ | \"ABC, Inc. (an indirect subsidiary of The Walt Disney Company)\"\n- Hearst | owns | ESPN (20%) | date: None | https://us.espnpressroom.com/espn-inc-fact-sheet/ | \"ESPN is 80 percent owned by ABC, Inc. (an indirect subsidiary of The Walt Disney Company) and 20 percent by Hearst.\"\n- Jimmy Pitaro | other_officer_of | ESPN (president) | date: March 2018 | https://us.espnpressroom.com/espn-inc-fact-sheet/ | \"Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman, ESPN in February 2023.\"\n- Jimmy Pitaro | other_officer_of | ESPN (chairman) | date: February 2023 | https://us.espnpressroom.com/espn-inc-fact-sheet/ | \"Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman, ESPN in February 2023.\"\n- ESPN | acquisition_approved | NFL Network, linear rights to the NFL RedZone Channel and other league media assets | date: January 31, 2026 (late Saturday night) | https://www.reuters.com/sports/government-oks-espns-blockbuster-deal-nfl-network-league--flm-2026-02-01/ | \"Government regulators approved ESPN's acquisition of NFL Network, linear rights to the NFL RedZone Channel and other league media assets in exchange for a 10% equity stake in ESPN\"\n- ESPN | acquisition_announced | NFL Network, linear rights to the NFL RedZone Channel and other league media assets | date: August 2025 | https://www.reuters.com/sports/government-oks-espns-blockbuster-deal-nfl-network-league--flm-2026-02-01/ | \"The blockbuster deal was formally announced last August pending reviews by the Justice Department and other non-US antitrust authorities, which are now complete.\"\n- ESPN | acquisition_approved | NFL Network and RedZone rights from NFL | date: February 1, 2026 | https://www.espn.com/espn/story/_/id/47793895/regulators-ok-espn-purchase-nfl-network-redzone-rights-nfl-equity-stake | \"Regulators OK ESPN's deal for NFL Network, RedZone rights from NFL\"\n- ESPN | acquisition_closed | NFL Network and other NFL Media assets | date: January 31, 2026 (late Saturday) | https://variety.com/2026/tv/news/disney-nfl-approval-espn-deal-league-investor-1236648201/ | \"The NFL and ESPN are pleased to announce the official closing of the sale of NFL Network and other NFL Media assets to ESPN.\"\n- National Football League | owns | ESPN (10%) | date: February 1, 2026 | https://variety.com/2026/tv/news/disney-nfl-approval-espn-deal-league-investor-1236648201/ | \"The deal with Disney will give the NFL a 10% stake in ESPN\"\n- NFL Network | controlled_by | ESPN | date: February 1, 2026 | https://variety.com/2026/tv/news/disney-nfl-approval-espn-deal-league-investor-1236648201/ | \"ESPN, which will in exchange gain control over NFL Network and the popular NFL RedZone highlights service.\"\n- NFL RedZone highlights service | controlled_by | ESPN | date: February 1, 2026 | https://variety.com/2026/tv/news/disney-nfl-approval-espn-deal-league-investor-1236648201/ | \"ESPN, which will in exchange gain control over NFL Network and the popular NFL RedZone highlights service.\"\n- ESPN | owns | Premier Lacrosse League (stake) | date: June | https://variety.com/2026/tv/news/disney-nfl-approval-espn-deal-league-investor-1236648201/ | \"ESPN in June took a stake in the Premier Lacrosse League\"\n- ESPN | acquisition_approved | Multiple NFL Media assets | date: January 31, 2026 | https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/ | \"Government regulators have approved ESPN\u2019s billion-dollar blockbuster acquisition of multiple NFL Media assets, and the two sides closed the agreement late Saturday\"\n- ESPN | acquisition_closed | Multiple NFL Media assets | date: January 31, 2026 | https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/ | \"Government regulators have approved ESPN\u2019s billion-dollar blockbuster acquisition of multiple NFL Media assets, and the two sides closed the agreement late Saturday\"\n- National Football League | owns | ESPN (10%) | date: January 31, 2026 | https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/ | \"As part of the agreement, the NFL will take a 10 percent ownership stake in the Disney-owned network\"\n- The Walt Disney Company | owns | ESPN | date: January 31, 2026 | https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/ | \"As part of the agreement, the NFL will take a 10 percent ownership stake in the Disney-owned network\"\n- ESPN | owns | NFL Network | date: January 31, 2026 | https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/ | \"ESPN will own and operate NFL Network\"\n- ESPN | subsidiary_of | The Walt Disney Company | date: August 5, 2025 | https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/ | \"ESPN, a subsidiary of The Walt Disney Company (NYSE: DIS)\"\n- ESPN | acquisition_announced | NFL Network, NFL\u2019s linear RedZone Channel and NFL Fantasy | date: August 5, 2025 | https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/ | \"ESPN will acquire NFL Network and certain other media assets owned and controlled by the NFL \u2013 including NFL\u2019s linear RedZone Channel, and NFL Fantasy \u2013 in exchange for a 10% equity stake in ESPN.\"\n- National Football League | owns | NFL Network, NFL\u2019s linear RedZone Channel and NFL Fantasy | date: August 5, 2025 | https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/ | \"NFL Network and certain other media assets owned and controlled by the NFL \u2013 including NFL\u2019s linear RedZone Channel, and NFL Fantasy\"\n- NFL Network, NFL\u2019s linear RedZone Channel and NFL Fantasy | controlled_by | National Football League | date: August 5, 2025 | https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/ | \"NFL Network and certain other media assets owned and controlled by the NFL \u2013 including NFL\u2019s linear RedZone Channel, and NFL Fantasy\"\n- Robert A. Iger | chief_executive_of | The Walt Disney Company | date: August 5, 2025 | https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/ | \"Robert A. Iger, Chief Executive Officer of The Walt Disney Company.\"\n- Roger Goodell | other_officer_of | National Football League (commissioner) | date: August 5, 2025 | https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/ | \"said NFL Commissioner Roger Goodell.\"\n- Jimmy Pitaro | other_officer_of | ESPN (chairman) | date: August 5, 2025 | https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/ | \"said Jimmy Pitaro, Chairman of ESPN.\"\n- Jimmy Pitaro | other_officer_of | ESPN (chairman) | date: February 2023 | https://thewaltdisneycompany.com/leadership/james-pitaro/ | \"Jimmy Pitaro was named Chairman, ESPN in February 2023\"\n- ESPN | controlled_by | Jimmy Pitaro | date: February 2023 | https://thewaltdisneycompany.com/leadership/james-pitaro/ | \"Jimmy Pitaro was named Chairman, ESPN in February 2023, responsible for full operational control and financial responsibility for ESPN\"\n- Jimmy Pitaro | other_officer_of | ESPN (president) | date: March 5, 2018 | https://thewaltdisneycompany.com/leadership/james-pitaro/ | \"Mr. Pitaro was named ESPN President and Co-Chair, Disney Media Networks, on March 5, 2018\"\n- ESPN | other | Core business segment of The Walt Disney Company | date: None | https://thewaltdisneycompany.com/leadership/james-pitaro/ | \"ESPN, one of the three core business segments of The Walt Disney Company.\"\n- Josh D\u2019Amaro | chief_executive_of | The Walt Disney Company | date: March 18, 2026 (effective; appointed February 2, 2026) | https://content.edgar-online.com/ExternalLink/EDGAR/0001744489-26-000022.html?dest=fy2026_q2x8kxxneoxex101_htm&hash=39f4038cf03e43bac97d0de0ab126b12e13b77908530f8ceccdbbea584e92b98 | \"appointed Josh D\u2019Amaro, currently the Chairman of Disney Experiences, as the Chief Executive Officer of the Company\"\n- Robert A. Iger | chief_executive_of | The Walt Disney Company | date: February 2, 2026 | https://content.edgar-online.com/ExternalLink/EDGAR/0001744489-26-000022.html?dest=fy2026_q2x8kxxneoxex101_htm&hash=39f4038cf03e43bac97d0de0ab126b12e13b77908530f8ceccdbbea584e92b98 | \"Robert A. Iger, currently the Company\u2019s Chief Executive Officer\"\n- Robert A. Iger | other_officer_of | The Walt Disney Company (senior advisor) | date: March 18, 2026 | https://content.edgar-online.com/ExternalLink/EDGAR/0001744489-26-000022.html?dest=fy2026_q2x8kxxneoxex101_htm&hash=39f4038cf03e43bac97d0de0ab126b12e13b77908530f8ceccdbbea584e92b98 | \"appointed Robert A. Iger, currently the Company\u2019s Chief Executive Officer, as Senior Advisor, in each case, effective as of March 18, 2026\"\n- Robert A. Iger | other_officer_of | The Walt Disney Company (board member, subject to shareholder vote) | date: Through December 31, 2026 | https://content.edgar-online.com/ExternalLink/EDGAR/0001744489-26-000022.html?dest=fy2026_q2x8kxxneoxex101_htm&hash=39f4038cf03e43bac97d0de0ab126b12e13b77908530f8ceccdbbea584e92b98 | \"Mr. Iger will continue to serve as a member of the Board, subject to the shareholder vote at the Company\u2019s 2026 annual meeting of shareholders (\u201c2026 Annual Meeting\u201d), through December 31, 2026\"\n- Jimmy Pitaro | other_officer_of | ESPN (president) | date: March 5, 2018 | https://espnpressroom.com/bio/james-pitaro/ | \"He was named ESPN president and co-chair, Disney Media Networks, on March 5, 2018\"\n- Jimmy Pitaro | other_officer_of | ESPN (chairman) | date: February 2023 | https://espnpressroom.com/bio/james-pitaro/ | \"Jimmy Pitaro, who joined ESPN as President in 2018, was named Chairman, ESPN in February 2023\"\n- ESPN | controlled_by | Jimmy Pitaro | date: February 2023 | https://espnpressroom.com/bio/james-pitaro/ | \"Jimmy Pitaro, who joined ESPN as President in 2018, was named Chairman, ESPN in February 2023, responsible for full operational control and financial responsibility for ESPN\"\n- ESPN | other | Core business segment of The Walt Disney Company | date: None | https://espnpressroom.com/bio/james-pitaro/ | \"ESPN, one of the three core business segments of The Walt Disney Company.\"\n- Bob Iger | chief_executive_of | The Walt Disney Company | date: March 5, 2018 | https://espnpressroom.com/bio/james-pitaro/ | \"Bob Iger, The Walt Disney Company chairman and chief executive officer\"\n- Bob Iger | other_officer_of | The Walt Disney Company (chairman) | date: March 5, 2018 | https://espnpressroom.com/bio/james-pitaro/ | \"Bob Iger, The Walt Disney Company chairman and chief executive officer\"\n- Jimmy Pitaro | other_officer_of | ESPN (chairman) | date: July 16, 2026 | https://www.cnbc.com/2026/07/16/transcript-espn-chairman-jimmy-pitaro-speaks-with-cnbcs-alex-sherman-at-the-cnbc-sport-x-boardroom-game-plan-summit-in-new-york-city-today-thursday-july-16-.html | \"Following is the unofficial transcript of an interview with ESPN Chairman Jimmy Pitaro that took place today, Thursday, July 16\"\n- Josh D\u2019Amaro | chief_executive_of | The Walt Disney Company | date: March 18, 2026 | https://www.businesswire.com/news/home/20260316114360/en/The-Walt-Disney-Company-Sets-Leadership-Team-for-Expanded-Disney-Entertainment-Segment | \"Walden will report directly to Disney CEO Josh D\u2019Amaro.\"\n- Dana Walden | other_officer_of | The Walt Disney Company (president and chief creative officer) | date: March 18, 2026 | https://www.businesswire.com/news/home/20260316114360/en/The-Walt-Disney-Company-Sets-Leadership-Team-for-Expanded-Disney-Entertainment-Segment | \"As previously announced, Walden will become president and chief creative officer of The Walt Disney Company on March 18.\"\n- Adam Smith | other_officer_of | ESPN (chief product and technology officer) | date: March 16, 2026 | https://www.businesswire.com/news/home/20260316114360/en/The-Walt-Disney-Company-Sets-Leadership-Team-for-Expanded-Disney-Entertainment-Segment | \"Smith continues as chief product and technology officer for Disney Entertainment, and for ESPN, where he will continue to report to ESPN Chairman Jimmy Pitaro.\"\n- Jimmy Pitaro | other_officer_of | ESPN (chairman) | date: March 16, 2026 | https://www.businesswire.com/news/home/20260316114360/en/The-Walt-Disney-Company-Sets-Leadership-Team-for-Expanded-Disney-Entertainment-Segment | \"Smith continues as chief product and technology officer for Disney Entertainment, and for ESPN, where he will continue to report to ESPN Chairman Jimmy Pitaro.\"\n\nEvidence state checks: conflict: several owners named: ['abc', 'espn', 'hearst', 'hearst communications', 'national football league', 'walt disney']\nAnswer only from this dossier. Where it does not establish a field, mark it not_established.",
+ "claims": [
+  {
+   "doc": "D1",
+   "subject": "The Walt Disney Company",
+   "relation": "owns",
+   "object": "ESPN (72%)",
+   "quote": "ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.",
+   "date_in_doc": null,
+   "url": "https://espnpressroom.com/about/"
+  },
+  {
+   "doc": "D1",
+   "subject": "Hearst",
+   "relation": "owns",
+   "object": "ESPN (18%)",
+   "quote": "ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.",
+   "date_in_doc": null,
+   "url": "https://espnpressroom.com/about/"
+  },
+  {
+   "doc": "D1",
+   "subject": "National Football League",
+   "relation": "owns",
+   "object": "ESPN (10%)",
+   "quote": "ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.",
+   "date_in_doc": null,
+   "url": "https://espnpressroom.com/about/"
+  },
+  {
+   "doc": "D1",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (president)",
+   "quote": "Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman in February 2023.",
+   "date_in_doc": "March 2018",
+   "url": "https://espnpressroom.com/about/"
+  },
+  {
+   "doc": "D1",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (chairman)",
+   "quote": "Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman in February 2023.",
+   "date_in_doc": "February 2023",
+   "url": "https://espnpressroom.com/about/"
+  },
+  {
+   "doc": "D2",
+   "subject": "ABC, Inc.",
+   "relation": "owns",
+   "object": "ESPN, Inc. (80%)",
+   "quote": "Based in Bristol, Connecticut, the company is 80% owned by ABC, Inc., an indirect subsidiary of The Walt Disney Company.",
+   "date_in_doc": null,
+   "url": "https://www.hearst.com/entertainment-syndication/espn"
+  },
+  {
+   "doc": "D2",
+   "subject": "ABC, Inc.",
+   "relation": "subsidiary_of",
+   "object": "The Walt Disney Company",
+   "quote": "ABC, Inc., an indirect subsidiary of The Walt Disney Company.",
+   "date_in_doc": null,
+   "url": "https://www.hearst.com/entertainment-syndication/espn"
+  },
+  {
+   "doc": "D2",
+   "subject": "Hearst",
+   "relation": "owns",
+   "object": "ESPN (18%)",
+   "quote": "Hearst holds an 18% interest in ESPN.",
+   "date_in_doc": null,
+   "url": "https://www.hearst.com/entertainment-syndication/espn"
+  },
+  {
+   "doc": "D3",
+   "subject": "The Walt Disney Company",
+   "relation": "owns",
+   "object": "ESPN (72%)",
+   "quote": "ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.",
+   "date_in_doc": null,
+   "url": "https://espnpressroom.com/us/espn-llc-fact-sheet/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Hearst",
+   "relation": "owns",
+   "object": "ESPN (18%)",
+   "quote": "ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.",
+   "date_in_doc": null,
+   "url": "https://espnpressroom.com/us/espn-llc-fact-sheet/"
+  },
+  {
+   "doc": "D3",
+   "subject": "National Football League",
+   "relation": "owns",
+   "object": "ESPN (10%)",
+   "quote": "ESPN is 72 percent owned by The Walt Disney Company, 18 percent by Hearst and 10 percent by the National Football League.",
+   "date_in_doc": null,
+   "url": "https://espnpressroom.com/us/espn-llc-fact-sheet/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (president)",
+   "quote": "Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman in February 2023.",
+   "date_in_doc": "March 2018",
+   "url": "https://espnpressroom.com/us/espn-llc-fact-sheet/"
+  },
+  {
+   "doc": "D3",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (chairman)",
+   "quote": "Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman in February 2023.",
+   "date_in_doc": "February 2023",
+   "url": "https://espnpressroom.com/us/espn-llc-fact-sheet/"
+  },
+  {
+   "doc": "D4",
+   "subject": "The Walt Disney Company",
+   "relation": "owns",
+   "object": "ESPN (72%, via ABC Inc.)",
+   "quote": "The Walt Disney Company (72%; via ABC Inc.) Hearst Communications (18%) National Football League (10%)",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "Hearst Communications",
+   "relation": "owns",
+   "object": "ESPN (18%)",
+   "quote": "The Walt Disney Company (72%; via ABC Inc.) Hearst Communications (18%) National Football League (10%)",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "National Football League",
+   "relation": "owns",
+   "object": "ESPN (10%)",
+   "quote": "The Walt Disney Company (72%; via ABC Inc.) Hearst Communications (18%) National Football League (10%)",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "ESPN, LLC",
+   "relation": "owns",
+   "object": "ESPN",
+   "quote": "the flagship property of ESPN, LLC",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "The Walt Disney Company",
+   "relation": "owns",
+   "object": "ESPN, LLC (72%)",
+   "quote": "a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "Hearst Communications",
+   "relation": "owns",
+   "object": "ESPN, LLC (18%)",
+   "quote": "a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "National Football League",
+   "relation": "owns",
+   "object": "ESPN, LLC (10%)",
+   "quote": "a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "ABC Inc.",
+   "relation": "subsidiary_of",
+   "object": "The Walt Disney Company",
+   "quote": "the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.)",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "ESPN, LLC",
+   "relation": "controlled_by",
+   "object": "The Walt Disney Company (via ABC Inc.)",
+   "quote": "the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.)",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "The Walt Disney Company",
+   "relation": "joint_venture_partner_of",
+   "object": "Hearst Communications",
+   "quote": "a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "The Walt Disney Company",
+   "relation": "joint_venture_partner_of",
+   "object": "National Football League",
+   "quote": "a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "Hearst Communications",
+   "relation": "joint_venture_partner_of",
+   "object": "National Football League",
+   "quote": "a joint venture of the Walt Disney Company (72% and operational control via indirect subsidiary ABC Inc.), Hearst Communications (18%) and the National Football League (10%).",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "ESPN",
+   "relation": "renamed_from",
+   "object": "Entertainment and Sports Programming Network",
+   "quote": "ESPN (an initialism of their original name, Entertainment and Sports Programming Network until 1985)",
+   "date_in_doc": "1985",
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "James Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (president)",
+   "quote": "James Pitaro has been president since March 5, 2018",
+   "date_in_doc": "March 5, 2018",
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "ESPN",
+   "relation": "owns",
+   "object": "The Sports Network (TSN) and its five sister networks (20%)",
+   "quote": "In Canada, it owns a 20% interest in The Sports Network (TSN) and its five sister networks.",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D4",
+   "subject": "Getty Oil",
+   "relation": "acquisition_closed",
+   "object": "ESPN (85%, purchased from Bill Rasmussen)",
+   "quote": "Getty Oil, which purchased 85% of the company from Bill Rasmussen on February 22, 1979",
+   "date_in_doc": "February 22, 1979",
+   "url": "https://en.wikipedia.org/wiki/ESPN"
+  },
+  {
+   "doc": "D5",
+   "subject": "ABC, Inc.",
+   "relation": "owns",
+   "object": "ESPN (80%)",
+   "quote": "ESPN is 80 percent owned by ABC, Inc. (an indirect subsidiary of The Walt Disney Company) and 20 percent by Hearst.",
+   "date_in_doc": null,
+   "url": "https://us.espnpressroom.com/espn-inc-fact-sheet/"
+  },
+  {
+   "doc": "D5",
+   "subject": "ABC, Inc.",
+   "relation": "subsidiary_of",
+   "object": "The Walt Disney Company",
+   "quote": "ABC, Inc. (an indirect subsidiary of The Walt Disney Company)",
+   "date_in_doc": null,
+   "url": "https://us.espnpressroom.com/espn-inc-fact-sheet/"
+  },
+  {
+   "doc": "D5",
+   "subject": "Hearst",
+   "relation": "owns",
+   "object": "ESPN (20%)",
+   "quote": "ESPN is 80 percent owned by ABC, Inc. (an indirect subsidiary of The Walt Disney Company) and 20 percent by Hearst.",
+   "date_in_doc": null,
+   "url": "https://us.espnpressroom.com/espn-inc-fact-sheet/"
+  },
+  {
+   "doc": "D5",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (president)",
+   "quote": "Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman, ESPN in February 2023.",
+   "date_in_doc": "March 2018",
+   "url": "https://us.espnpressroom.com/espn-inc-fact-sheet/"
+  },
+  {
+   "doc": "D5",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (chairman)",
+   "quote": "Jimmy Pitaro was named ESPN\u2019s eighth president in March 2018 and named Chairman, ESPN in February 2023.",
+   "date_in_doc": "February 2023",
+   "url": "https://us.espnpressroom.com/espn-inc-fact-sheet/"
+  },
+  {
+   "doc": "D6",
+   "subject": "ESPN",
+   "relation": "acquisition_approved",
+   "object": "NFL Network, linear rights to the NFL RedZone Channel and other league media assets",
+   "quote": "Government regulators approved ESPN's acquisition of NFL Network, linear rights to the NFL RedZone Channel and other league media assets in exchange for a 10% equity stake in ESPN",
+   "date_in_doc": "January 31, 2026 (late Saturday night)",
+   "url": "https://www.reuters.com/sports/government-oks-espns-blockbuster-deal-nfl-network-league--flm-2026-02-01/"
+  },
+  {
+   "doc": "D6",
+   "subject": "ESPN",
+   "relation": "acquisition_announced",
+   "object": "NFL Network, linear rights to the NFL RedZone Channel and other league media assets",
+   "quote": "The blockbuster deal was formally announced last August pending reviews by the Justice Department and other non-US antitrust authorities, which are now complete.",
+   "date_in_doc": "August 2025",
+   "url": "https://www.reuters.com/sports/government-oks-espns-blockbuster-deal-nfl-network-league--flm-2026-02-01/"
+  },
+  {
+   "doc": "D7",
+   "subject": "ESPN",
+   "relation": "acquisition_approved",
+   "object": "NFL Network and RedZone rights from NFL",
+   "quote": "Regulators OK ESPN's deal for NFL Network, RedZone rights from NFL",
+   "date_in_doc": "February 1, 2026",
+   "url": "https://www.espn.com/espn/story/_/id/47793895/regulators-ok-espn-purchase-nfl-network-redzone-rights-nfl-equity-stake"
+  },
+  {
+   "doc": "D8",
+   "subject": "ESPN",
+   "relation": "acquisition_closed",
+   "object": "NFL Network and other NFL Media assets",
+   "quote": "The NFL and ESPN are pleased to announce the official closing of the sale of NFL Network and other NFL Media assets to ESPN.",
+   "date_in_doc": "January 31, 2026 (late Saturday)",
+   "url": "https://variety.com/2026/tv/news/disney-nfl-approval-espn-deal-league-investor-1236648201/"
+  },
+  {
+   "doc": "D8",
+   "subject": "National Football League",
+   "relation": "owns",
+   "object": "ESPN (10%)",
+   "quote": "The deal with Disney will give the NFL a 10% stake in ESPN",
+   "date_in_doc": "February 1, 2026",
+   "url": "https://variety.com/2026/tv/news/disney-nfl-approval-espn-deal-league-investor-1236648201/"
+  },
+  {
+   "doc": "D8",
+   "subject": "NFL Network",
+   "relation": "controlled_by",
+   "object": "ESPN",
+   "quote": "ESPN, which will in exchange gain control over NFL Network and the popular NFL RedZone highlights service.",
+   "date_in_doc": "February 1, 2026",
+   "url": "https://variety.com/2026/tv/news/disney-nfl-approval-espn-deal-league-investor-1236648201/"
+  },
+  {
+   "doc": "D8",
+   "subject": "NFL RedZone highlights service",
+   "relation": "controlled_by",
+   "object": "ESPN",
+   "quote": "ESPN, which will in exchange gain control over NFL Network and the popular NFL RedZone highlights service.",
+   "date_in_doc": "February 1, 2026",
+   "url": "https://variety.com/2026/tv/news/disney-nfl-approval-espn-deal-league-investor-1236648201/"
+  },
+  {
+   "doc": "D8",
+   "subject": "ESPN",
+   "relation": "owns",
+   "object": "Premier Lacrosse League (stake)",
+   "quote": "ESPN in June took a stake in the Premier Lacrosse League",
+   "date_in_doc": "June",
+   "url": "https://variety.com/2026/tv/news/disney-nfl-approval-espn-deal-league-investor-1236648201/"
+  },
+  {
+   "doc": "D9",
+   "subject": "ESPN",
+   "relation": "acquisition_approved",
+   "object": "Multiple NFL Media assets",
+   "quote": "Government regulators have approved ESPN\u2019s billion-dollar blockbuster acquisition of multiple NFL Media assets, and the two sides closed the agreement late Saturday",
+   "date_in_doc": "January 31, 2026",
+   "url": "https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/"
+  },
+  {
+   "doc": "D9",
+   "subject": "ESPN",
+   "relation": "acquisition_closed",
+   "object": "Multiple NFL Media assets",
+   "quote": "Government regulators have approved ESPN\u2019s billion-dollar blockbuster acquisition of multiple NFL Media assets, and the two sides closed the agreement late Saturday",
+   "date_in_doc": "January 31, 2026",
+   "url": "https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/"
+  },
+  {
+   "doc": "D9",
+   "subject": "National Football League",
+   "relation": "owns",
+   "object": "ESPN (10%)",
+   "quote": "As part of the agreement, the NFL will take a 10 percent ownership stake in the Disney-owned network",
+   "date_in_doc": "January 31, 2026",
+   "url": "https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/"
+  },
+  {
+   "doc": "D9",
+   "subject": "The Walt Disney Company",
+   "relation": "owns",
+   "object": "ESPN",
+   "quote": "As part of the agreement, the NFL will take a 10 percent ownership stake in the Disney-owned network",
+   "date_in_doc": "January 31, 2026",
+   "url": "https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/"
+  },
+  {
+   "doc": "D9",
+   "subject": "ESPN",
+   "relation": "owns",
+   "object": "NFL Network",
+   "quote": "ESPN will own and operate NFL Network",
+   "date_in_doc": "January 31, 2026",
+   "url": "https://www.nytimes.com/athletic/7009795/2026/01/31/espn-nfl-media-deal-buy-billion/"
+  },
+  {
+   "doc": "D10",
+   "subject": "ESPN",
+   "relation": "subsidiary_of",
+   "object": "The Walt Disney Company",
+   "quote": "ESPN, a subsidiary of The Walt Disney Company (NYSE: DIS)",
+   "date_in_doc": "August 5, 2025",
+   "url": "https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/"
+  },
+  {
+   "doc": "D10",
+   "subject": "ESPN",
+   "relation": "acquisition_announced",
+   "object": "NFL Network, NFL\u2019s linear RedZone Channel and NFL Fantasy",
+   "quote": "ESPN will acquire NFL Network and certain other media assets owned and controlled by the NFL \u2013 including NFL\u2019s linear RedZone Channel, and NFL Fantasy \u2013 in exchange for a 10% equity stake in ESPN.",
+   "date_in_doc": "August 5, 2025",
+   "url": "https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/"
+  },
+  {
+   "doc": "D10",
+   "subject": "National Football League",
+   "relation": "owns",
+   "object": "NFL Network, NFL\u2019s linear RedZone Channel and NFL Fantasy",
+   "quote": "NFL Network and certain other media assets owned and controlled by the NFL \u2013 including NFL\u2019s linear RedZone Channel, and NFL Fantasy",
+   "date_in_doc": "August 5, 2025",
+   "url": "https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/"
+  },
+  {
+   "doc": "D10",
+   "subject": "NFL Network, NFL\u2019s linear RedZone Channel and NFL Fantasy",
+   "relation": "controlled_by",
+   "object": "National Football League",
+   "quote": "NFL Network and certain other media assets owned and controlled by the NFL \u2013 including NFL\u2019s linear RedZone Channel, and NFL Fantasy",
+   "date_in_doc": "August 5, 2025",
+   "url": "https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/"
+  },
+  {
+   "doc": "D10",
+   "subject": "Robert A. Iger",
+   "relation": "chief_executive_of",
+   "object": "The Walt Disney Company",
+   "quote": "Robert A. Iger, Chief Executive Officer of The Walt Disney Company.",
+   "date_in_doc": "August 5, 2025",
+   "url": "https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/"
+  },
+  {
+   "doc": "D10",
+   "subject": "Roger Goodell",
+   "relation": "other_officer_of",
+   "object": "National Football League (commissioner)",
+   "quote": "said NFL Commissioner Roger Goodell.",
+   "date_in_doc": "August 5, 2025",
+   "url": "https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/"
+  },
+  {
+   "doc": "D10",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (chairman)",
+   "quote": "said Jimmy Pitaro, Chairman of ESPN.",
+   "date_in_doc": "August 5, 2025",
+   "url": "https://thewaltdisneycompany.com/press-releases/espn-to-acquire-nfl-network-and-other-media-assets-from-the-nfl-in-exchange-for-a-10-equity-stake-in-espn/"
+  },
+  {
+   "doc": "D11",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (chairman)",
+   "quote": "Jimmy Pitaro was named Chairman, ESPN in February 2023",
+   "date_in_doc": "February 2023",
+   "url": "https://thewaltdisneycompany.com/leadership/james-pitaro/"
+  },
+  {
+   "doc": "D11",
+   "subject": "ESPN",
+   "relation": "controlled_by",
+   "object": "Jimmy Pitaro",
+   "quote": "Jimmy Pitaro was named Chairman, ESPN in February 2023, responsible for full operational control and financial responsibility for ESPN",
+   "date_in_doc": "February 2023",
+   "url": "https://thewaltdisneycompany.com/leadership/james-pitaro/"
+  },
+  {
+   "doc": "D11",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (president)",
+   "quote": "Mr. Pitaro was named ESPN President and Co-Chair, Disney Media Networks, on March 5, 2018",
+   "date_in_doc": "March 5, 2018",
+   "url": "https://thewaltdisneycompany.com/leadership/james-pitaro/"
+  },
+  {
+   "doc": "D11",
+   "subject": "ESPN",
+   "relation": "other",
+   "object": "Core business segment of The Walt Disney Company",
+   "quote": "ESPN, one of the three core business segments of The Walt Disney Company.",
+   "date_in_doc": null,
+   "url": "https://thewaltdisneycompany.com/leadership/james-pitaro/"
+  },
+  {
+   "doc": "D12",
+   "subject": "Josh D\u2019Amaro",
+   "relation": "chief_executive_of",
+   "object": "The Walt Disney Company",
+   "quote": "appointed Josh D\u2019Amaro, currently the Chairman of Disney Experiences, as the Chief Executive Officer of the Company",
+   "date_in_doc": "March 18, 2026 (effective; appointed February 2, 2026)",
+   "url": "https://content.edgar-online.com/ExternalLink/EDGAR/0001744489-26-000022.html?dest=fy2026_q2x8kxxneoxex101_htm&hash=39f4038cf03e43bac97d0de0ab126b12e13b77908530f8ceccdbbea584e92b98"
+  },
+  {
+   "doc": "D12",
+   "subject": "Robert A. Iger",
+   "relation": "chief_executive_of",
+   "object": "The Walt Disney Company",
+   "quote": "Robert A. Iger, currently the Company\u2019s Chief Executive Officer",
+   "date_in_doc": "February 2, 2026",
+   "url": "https://content.edgar-online.com/ExternalLink/EDGAR/0001744489-26-000022.html?dest=fy2026_q2x8kxxneoxex101_htm&hash=39f4038cf03e43bac97d0de0ab126b12e13b77908530f8ceccdbbea584e92b98"
+  },
+  {
+   "doc": "D12",
+   "subject": "Robert A. Iger",
+   "relation": "other_officer_of",
+   "object": "The Walt Disney Company (senior advisor)",
+   "quote": "appointed Robert A. Iger, currently the Company\u2019s Chief Executive Officer, as Senior Advisor, in each case, effective as of March 18, 2026",
+   "date_in_doc": "March 18, 2026",
+   "url": "https://content.edgar-online.com/ExternalLink/EDGAR/0001744489-26-000022.html?dest=fy2026_q2x8kxxneoxex101_htm&hash=39f4038cf03e43bac97d0de0ab126b12e13b77908530f8ceccdbbea584e92b98"
+  },
+  {
+   "doc": "D12",
+   "subject": "Robert A. Iger",
+   "relation": "other_officer_of",
+   "object": "The Walt Disney Company (board member, subject to shareholder vote)",
+   "quote": "Mr. Iger will continue to serve as a member of the Board, subject to the shareholder vote at the Company\u2019s 2026 annual meeting of shareholders (\u201c2026 Annual Meeting\u201d), through December 31, 2026",
+   "date_in_doc": "Through December 31, 2026",
+   "url": "https://content.edgar-online.com/ExternalLink/EDGAR/0001744489-26-000022.html?dest=fy2026_q2x8kxxneoxex101_htm&hash=39f4038cf03e43bac97d0de0ab126b12e13b77908530f8ceccdbbea584e92b98"
+  },
+  {
+   "doc": "D13",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (president)",
+   "quote": "He was named ESPN president and co-chair, Disney Media Networks, on March 5, 2018",
+   "date_in_doc": "March 5, 2018",
+   "url": "https://espnpressroom.com/bio/james-pitaro/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (chairman)",
+   "quote": "Jimmy Pitaro, who joined ESPN as President in 2018, was named Chairman, ESPN in February 2023",
+   "date_in_doc": "February 2023",
+   "url": "https://espnpressroom.com/bio/james-pitaro/"
+  },
+  {
+   "doc": "D13",
+   "subject": "ESPN",
+   "relation": "controlled_by",
+   "object": "Jimmy Pitaro",
+   "quote": "Jimmy Pitaro, who joined ESPN as President in 2018, was named Chairman, ESPN in February 2023, responsible for full operational control and financial responsibility for ESPN",
+   "date_in_doc": "February 2023",
+   "url": "https://espnpressroom.com/bio/james-pitaro/"
+  },
+  {
+   "doc": "D13",
+   "subject": "ESPN",
+   "relation": "other",
+   "object": "Core business segment of The Walt Disney Company",
+   "quote": "ESPN, one of the three core business segments of The Walt Disney Company.",
+   "date_in_doc": null,
+   "url": "https://espnpressroom.com/bio/james-pitaro/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Bob Iger",
+   "relation": "chief_executive_of",
+   "object": "The Walt Disney Company",
+   "quote": "Bob Iger, The Walt Disney Company chairman and chief executive officer",
+   "date_in_doc": "March 5, 2018",
+   "url": "https://espnpressroom.com/bio/james-pitaro/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Bob Iger",
+   "relation": "other_officer_of",
+   "object": "The Walt Disney Company (chairman)",
+   "quote": "Bob Iger, The Walt Disney Company chairman and chief executive officer",
+   "date_in_doc": "March 5, 2018",
+   "url": "https://espnpressroom.com/bio/james-pitaro/"
+  },
+  {
+   "doc": "D14",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (chairman)",
+   "quote": "Following is the unofficial transcript of an interview with ESPN Chairman Jimmy Pitaro that took place today, Thursday, July 16",
+   "date_in_doc": "July 16, 2026",
+   "url": "https://www.cnbc.com/2026/07/16/transcript-espn-chairman-jimmy-pitaro-speaks-with-cnbcs-alex-sherman-at-the-cnbc-sport-x-boardroom-game-plan-summit-in-new-york-city-today-thursday-july-16-.html"
+  },
+  {
+   "doc": "D15",
+   "subject": "Josh D\u2019Amaro",
+   "relation": "chief_executive_of",
+   "object": "The Walt Disney Company",
+   "quote": "Walden will report directly to Disney CEO Josh D\u2019Amaro.",
+   "date_in_doc": "March 18, 2026",
+   "url": "https://www.businesswire.com/news/home/20260316114360/en/The-Walt-Disney-Company-Sets-Leadership-Team-for-Expanded-Disney-Entertainment-Segment"
+  },
+  {
+   "doc": "D15",
+   "subject": "Dana Walden",
+   "relation": "other_officer_of",
+   "object": "The Walt Disney Company (president and chief creative officer)",
+   "quote": "As previously announced, Walden will become president and chief creative officer of The Walt Disney Company on March 18.",
+   "date_in_doc": "March 18, 2026",
+   "url": "https://www.businesswire.com/news/home/20260316114360/en/The-Walt-Disney-Company-Sets-Leadership-Team-for-Expanded-Disney-Entertainment-Segment"
+  },
+  {
+   "doc": "D15",
+   "subject": "Adam Smith",
+   "relation": "other_officer_of",
+   "object": "ESPN (chief product and technology officer)",
+   "quote": "Smith continues as chief product and technology officer for Disney Entertainment, and for ESPN, where he will continue to report to ESPN Chairman Jimmy Pitaro.",
+   "date_in_doc": "March 16, 2026",
+   "url": "https://www.businesswire.com/news/home/20260316114360/en/The-Walt-Disney-Company-Sets-Leadership-Team-for-Expanded-Disney-Entertainment-Segment"
+  },
+  {
+   "doc": "D15",
+   "subject": "Jimmy Pitaro",
+   "relation": "other_officer_of",
+   "object": "ESPN (chairman)",
+   "quote": "Smith continues as chief product and technology officer for Disney Entertainment, and for ESPN, where he will continue to report to ESPN Chairman Jimmy Pitaro.",
+   "date_in_doc": "March 16, 2026",
+   "url": "https://www.businesswire.com/news/home/20260316114360/en/The-Walt-Disney-Company-Sets-Leadership-Team-for-Expanded-Disney-Entertainment-Segment"
+  }
+ ],
+ "flags": [
+  [
+   "conflict",
+   "several owners named: ['abc', 'espn', 'hearst', 'hearst communications', 'national football league', 'walt disney']"
+  ]
+ ],
+ "steps": [
+  {
+   "step": "extract",
+   "usd": 0.085358,
+   "latency_s": 113.7,
+   "model_returned": "gpt-6.1-sol"
+  },
+  {
+   "step": "solve",
+   "effort": "high",
+   "usd": 0.038736,
+   "latency_s": 58.6
+  }
+ ],
+ "usd_total": 0.12409400000000001,
+ "latency_total_s": 172.3,
+ "escalated": true,
+ "extra_docs": 0,
+ "arm": "B2",
+ "case": "espn",
+ "run": 1,
+ "saved": "2026-10-04T19:51:41-0300"
+}

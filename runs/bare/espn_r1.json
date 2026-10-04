@@ -1,0 +1,29 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"ESPN, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://espnpressroom.com/us/espn-inc-fact-sheet/\",\n        \"quote\": \"ESPN, Inc.\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [\"ESPN, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://espnpressroom.com/us/espn-inc-fact-sheet/\",\n        \"quote\": \"ESPN, Inc., The Worldwide Leader in Sports\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"ESPN, Inc.\",\n      \"parent\": \"ABC, Inc.\",\n      \"relation\": \"80 percent ownership according to ESPN's published fact sheet; this percentage is not verified as of October 4, 2026.\",\n      \"citations\": [\n        {\n          \"url\": \"https://espnpressroom.com/us/espn-inc-fact-sheet/\",\n          \"quote\": \"ESPN is 80 percent owned by ABC, Inc., an indirect subsidiary of The Walt Disney Company.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"ABC, Inc.\",\n      \"parent\": \"The Walt Disney Company\",\n      \"relation\": \"Indirect subsidiary. The cited source does not establish every intervening legal entity, so this is not a complete immediate-parent chain.\",\n      \"citations\": [\n        {\n          \"url\": \"https://espnpressroom.com/us/espn-inc-fact-sheet/\",\n          \"quote\": \"ABC, Inc., an indirect subsidiary of The Walt Disney Company\"\n        }\n      ]\n    },\n    {\n      \"child\": \"ESPN, Inc.\",\n      \"parent\": \"Hearst\",\n      \"relation\": \"20 percent ownership according to ESPN's published fact sheet; this percentage is not verified as of October 4, 2026.\",\n      \"citations\": [\n        {\n          \"url\": \"https://espnpressroom.com/us/espn-inc-fact-sheet/\",\n          \"quote\": \"Hearst holds a 20 percent interest in ESPN.\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": null,\n    \"citations\": []\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"I cannot verify live sources through October 4, 2026, so this is not a certified ownership snapshot for that date. The published baseline is ESPN, Inc., owned 80% through Disney's ABC, Inc. and 20% by Hearst. An announced 2025 NFL\u2013ESPN transaction contemplated an NFL equity stake; its closing status must be checked before treating the 80/20 split or the ultimate-parent list as current. The empty transactions array does not mean that no transaction exists. Jimmy Pitaro is the previously documented chairman of ESPN, but I cannot establish that he still holds the position on the requested date. The intervening Disney entities, precise Hearst holding entity, and any natural-person or family control also require further documentary verification.\"\n}",
+ "usage": {
+  "input_tokens": 883,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 0
+  },
+  "output_tokens": 2122,
+  "output_tokens_details": {
+   "reasoning_tokens": 1374
+  },
+  "total_tokens": 3005
+ },
+ "usd": 0.022986,
+ "latency_s": 64.4,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "actions": [],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "bare",
+ "case": "espn",
+ "run": 1,
+ "saved": "2026-10-04T19:28:35-0300"
+}

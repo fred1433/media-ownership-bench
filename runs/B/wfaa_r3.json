@@ -1,0 +1,659 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"WFAA-TV, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/tv-profile/WFAA\",\n        \"quote\": \"Licensee: WFAA-TV, INC.\"\n      },\n      {\n        \"url\": \"https://fcc.report/LMS/0000230544\",\n        \"quote\": \"| WFAA | 72054 | DTV | WFAA-TV, Inc. | DALLAS, TX |\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"established\",\n    \"names\": [\"TEGNA Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.wfaa.com/about-us\",\n        \"quote\": \"WFAA is owned and operated by TEGNA Inc., an innovative media company that serves the greater good of its communities.\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"WFAA-TV, Inc.\",\n      \"parent\": \"TEGNA Inc.\",\n      \"relation\": \"Corporate ownership parent; whether this link is direct or through intermediate holding companies is not established.\",\n      \"citations\": [\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/WFAA-TV\",\n          \"quote\": \"| Owner | Tegna Inc., a subsidiary of Nexstar Media Group, (WFAA-TV, Inc.) |\"\n        },\n        {\n          \"url\": \"https://www.wfaa.com/about-us\",\n          \"quote\": \"WFAA is owned and operated by TEGNA Inc., an innovative media company that serves the greater good of its communities.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"TEGNA Inc.\",\n      \"parent\": \"Nexstar Media Group, Inc.\",\n      \"relation\": \"Subsidiary following the acquisition reported closed on March 19, 2026.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6\",\n          \"quote\": \"Nexstar Media Group, Inc. (Nasdaq: NXST), today announced that it has closed its acquisition of TEGNA Inc.\"\n        },\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/WFAA-TV\",\n          \"quote\": \"| Owner | Tegna Inc., a subsidiary of Nexstar Media Group, (WFAA-TV, Inc.) |\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\"Nexstar Media Group, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://en.wikipedia.org/wiki/WFAA-TV\",\n        \"quote\": \"| Owner | Tegna Inc., a subsidiary of Nexstar Media Group, (WFAA-TV, Inc.) |\"\n      },\n      {\n        \"url\": \"https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6\",\n        \"quote\": \"Nexstar Media Group, Inc. (Nasdaq: NXST), today announced that it has closed its acquisition of TEGNA Inc.\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Perry Sook\",\n    \"role\": \"Chief Executive Officer\",\n    \"entity\": \"Nexstar Media Group, Inc.\",\n    \"citations\": [\n      {\n        \"url\": \"https://mikemcguff.blogspot.com/2025/10/sook-reveals-nexstar-tegna-deal-outcome.html\",\n        \"quote\": \"Perry Sook, the founder, chairman, and CEO of Nexstar Media Group,\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Nexstar's proposed acquisition of TEGNA was announced.\",\n      \"status\": \"announced\",\n      \"date\": \"2025-08\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6\",\n          \"quote\": \"The proposed acquisition was announced in August 2025.\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The FCC and DOJ approved Nexstar's $6.2 billion acquisition of TEGNA.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-03-19\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6\",\n          \"quote\": \"The FCC and DOJ approved the $6.2 billion acquisition of broadcaster TEGNA by fellow television operator Nexstar Media Group.\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Nexstar announced that its acquisition of TEGNA had closed.\",\n      \"status\": \"closed\",\n      \"date\": \"2026-03-19\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6\",\n          \"quote\": \"Nexstar Media Group, Inc. (Nasdaq: NXST), today announced that it has closed its acquisition of TEGNA Inc.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of 2026-10-04, this is the ownership structure supported by the supplied dossier. It does not establish every intermediate holding company or any natural person or family controlling Nexstar. Sook's founder, chairman and CEO titles do not themselves establish ownership control. His CEO identification relies on the October 2025 source; the dossier supplies no later CEO update. Historical Belo/Gannett ownership references do not contradict the later TEGNA/Nexstar ownership.\"\n}",
+ "usage": {
+  "input_tokens": 5340,
+  "input_tokens_details": {
+   "cache_write_tokens": 5337,
+   "cached_tokens": 0
+  },
+  "output_tokens": 2366,
+  "output_tokens_details": {
+   "reasoning_tokens": 923
+  },
+  "total_tokens": 7706
+ },
+ "usd": 0.03434,
+ "latency_s": 53.5,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false,
+  "exa_queries": 6
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "dossier": "Question (as of 2026-10-04): As of 2026-10-04, who is the current FCC licensee or legal owner of WFAA Dallas (facility 72054), what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current chief executive officer of Nexstar Media Group, Inc.?\nOutlet: WFAA (ABC 8 Dallas) (tv, Dallas-Fort Worth, TX, call sign WFAA).\nLeader definition for this question: current chief executive officer of Nexstar Media Group, Inc.\n\nEvidence dossier (claims extracted from retrieved documents; cite the URL and quote):\n- WFAA-TV, Inc. | licensee_of | WFAA | date: 2023-10-01 | https://fcc.report/LMS/0000230544 | \"| WFAA | 72054 | DTV | WFAA-TV, Inc. | DALLAS, TX |\"\n- Beall | other_officer_of | WFAA-TV, Inc. | date: 2023-10-01 | https://fcc.report/LMS/0000230544 | \"| Beall | 0019269919 | officer | 0% | 0% | US |\"\n- Lougee | other_officer_of | WFAA-TV, Inc. | date: 2023-10-01 | https://fcc.report/LMS/0000230544 | \"| Lougee | 0019266030 | director, officer | 0% | 0% | US |\"\n- McClelland | other_officer_of | WFAA-TV, Inc. | date: 2023-10-01 | https://fcc.report/LMS/0000230544 | \"| McClelland | 0024947343 | officer | 0% | 0% | US |\"\n- Ramsey | other_officer_of | WFAA-TV, Inc. | date: 2023-10-01 | https://fcc.report/LMS/0000230544 | \"| Ramsey | 2130013416 | officer | 0% | 0% | US |\"\n- Sher | other_officer_of | WFAA-TV, Inc. | date: 2023-10-01 | https://fcc.report/LMS/0000230544 | \"| Sher | 0031481393 | officer | 0% | 0% | US |\"\n- WFAA-TV, INC. | licensee_of | WFAA | date: None | https://publicfiles.fcc.gov/tv-profile/WFAA | \"Licensee: WFAA-TV, INC.\"\n- WFAA-TV, Inc. | licensee_of | WFAA | date: None | https://fcc.report/LMS/0000169794 | \"| WFAA | 72054 | DTV | WFAA-TV, Inc. | DALLAS, TX |\"\n- Beall | other_officer_of | WFAA-TV, Inc. | date: None | https://fcc.report/LMS/0000169794 | \"| Beall | 0019269919 | officer | 0% | 0% | US |\"\n- Chesser | other_officer_of | WFAA-TV, Inc. | date: None | https://fcc.report/LMS/0000169794 | \"| Chesser | 0029834603 | officer | 0% | 0% | US |\"\n- Harrison | other_officer_of | WFAA-TV, Inc. | date: None | https://fcc.report/LMS/0000169794 | \"| Harrison | 0024925315 | director, officer | 0% | 0% | US |\"\n- Lougee | other_officer_of | WFAA-TV, Inc. | date: None | https://fcc.report/LMS/0000169794 | \"| Lougee | 0019266030 | director, officer | 0% | 0% | US |\"\n- McClelland | other_officer_of | WFAA-TV, Inc. | date: None | https://fcc.report/LMS/0000169794 | \"| McClelland | 0024947343 | officer | 0% | 0% | US |\"\n- Ramsey | other_officer_of | WFAA-TV, Inc. | date: None | https://fcc.report/LMS/0000169794 | \"| Ramsey | 2130013416 | officer | 0% | 0% | US |\"\n- Sher | other_officer_of | WFAA-TV, Inc. | date: None | https://fcc.report/LMS/0000169794 | \"| Sher | 0031481393 | officer | 0% | 0% | US |\"\n- Tegna Inc. | owns | WFAA | date: None | https://en.wikipedia.org/wiki/WFAA | \"| Owner | Tegna Inc., a subsidiary of Nexstar Media Group(WFAA-TV, Inc.) |\"\n- Tegna Inc. | subsidiary_of | Nexstar Media Group | date: None | https://en.wikipedia.org/wiki/WFAA | \"| Owner | Tegna Inc., a subsidiary of Nexstar Media Group(WFAA-TV, Inc.) |\"\n- WFAA | renamed_from | KBTV | date: 1949\u20131950 | https://en.wikipedia.org/wiki/WFAA | \"| Former call signs | KBTV (1949\u20131950) WFAA-TV (1950\u20132009) |\"\n- WFAA | renamed_from | WFAA-TV | date: 1950\u20132009 | https://en.wikipedia.org/wiki/WFAA | \"| Former call signs | KBTV (1949\u20131950) WFAA-TV (1950\u20132009) |\"\n- Tegna | other | WFAA (operator) | date: None | https://network.thetrustproject.org/partner/wfaa | \"WFAA is run by Tegna.\"\n- Tegna | owns | WFAA | date: 2015 | https://network.thetrustproject.org/partner/wfaa | \"Owned by Tegna since 2015, WFAA was founded in 1949 as KBTV by Texas oil magnate Tom Potter, who operated this and other regional television stations through the Lacy-Potter TV Broadcasting Company.\"\n- Tom Potter | other | WFAA (operator through Lacy-Potter TV Broadcasting Company) | date: None | https://network.thetrustproject.org/partner/wfaa | \"WFAA was founded in 1949 as KBTV by Texas oil magnate Tom Potter, who operated this and other regional television stations through the Lacy-Potter TV Broadcasting Company.\"\n- A.H. Belo Corporation | acquisition_closed | WFAA | date: Only a few months later | https://network.thetrustproject.org/partner/wfaa | \"Only a few months later, the A.H. Belo Corporation, owner of The Dallas Morning News, bought the station.\"\n- Leslie McCardel | other_officer_of | WFAA | date: None | https://network.thetrustproject.org/partner/wfaa | \"- Leslie McCardel \u2013 Director of Content and Strategy\"\n- WFAA-TV, Inc. | licensee_of | WFAA | date: None | https://fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f9172fc71b001730621a2ef0b5d&sCurrentService=TV&tabSearchType=Appl | \"WFAA(DT) Licensee Information\n\nWFAA-TV, Inc. Tegna, Inc. 8401 Greensboro Drive, Suite 300 McLean, VA 22102 Phone: 703-873-6606 Corporation\"\n- Akin S. Harrison | other_officer_of | WFAA-TV, Inc. | date: 2020-07-01 | https://fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f9172fc71b001730621a2ef0b5d&sCurrentService=TV&tabSearchType=Appl | \"Akin S. Harrison, Esq. Title: Secretary Date: 07/01/2020 Application Certifier\"\n- Michael Beder | other_officer_of | Tegna Inc. | date: None | https://fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f9172fc71b001730621a2ef0b5d&sCurrentService=TV&tabSearchType=Appl | \"Michael Beder, Esq Tegna Inc. 8350 Broad Street, Suite 2000 Tysons, VA 22102 Associate General Counsel\"\n- Nexstar Media Group | acquisition_approved | TEGNA | date: 2026-03-19 | https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6 | \"The FCC and DOJ approved the $6.2 billion acquisition of broadcaster TEGNA by fellow television operator Nexstar Media Group.\"\n- Nexstar Media Group, Inc. | acquisition_closed | TEGNA Inc. | date: 2026-03-19 | https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6 | \"Nexstar Media Group, Inc. (Nasdaq: NXST), today announced that it has closed its acquisition of TEGNA Inc.\"\n- Nexstar Media Group | acquisition_announced | TEGNA | date: 2025-08 | https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6 | \"The proposed acquisition was announced in August 2025.\"\n- TEGNA | owns | WFAA | date: None | https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6 | \"TEGNA owns and operates this television station.\"\n- TEGNA | other | WFAA (operator) | date: None | https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6 | \"TEGNA owns and operates this television station.\"\n- Jason Roberts | other_officer_of | Nexstar Media Inc. | date: None | https://enterpriseefiling.fcc.gov/dataentry/public/tv/draftCopy.html?appKey=25076ff39d0df016019d1bff03464312&displayType=html&goBack=N&id=25076ff39d0df016019d1bff03464312 | \"Jason Roberts\n\nVice President and Associate General Counsel\n\nNexstar Media Inc.\"\n- Perry Sook | chief_executive_of | Nexstar Media Group | date: None | https://mikemcguff.blogspot.com/2025/10/sook-reveals-nexstar-tegna-deal-outcome.html | \"Perry Sook, the founder, chairman, and CEO of Nexstar Media Group,\"\n- Perry Sook | other_officer_of | Nexstar Media Group | date: None | https://mikemcguff.blogspot.com/2025/10/sook-reveals-nexstar-tegna-deal-outcome.html | \"Perry Sook, the founder, chairman, and CEO of Nexstar Media Group,\"\n- Carolyn Mungo | other_officer_of | WFAA | date: 2024-10-30 | https://www.tegna.com/tegna-names-carolyn-mungo-president-and-general-manager-at-wfaa-kfaa/ | \"Carolyn Mungo has been named president and general manager at WFAA, TEGNA\u2019s ABC affiliate, and KFAA serving Dallas-Ft. Worth, effectively immediately.\"\n- Carolyn Mungo | other_officer_of | WFAA | date: 2019 | https://www.tegna.com/tegna-names-carolyn-mungo-president-and-general-manager-at-wfaa-kfaa/ | \"Mungo served as WFAA\u2019s vice president and station manager since 2019, overseeing content, marketing, production, community impact and technology.\"\n- Brad Ramsey | other_officer_of | TEGNA | date: None | https://www.tegna.com/tegna-names-carolyn-mungo-president-and-general-manager-at-wfaa-kfaa/ | \"She will continue to report to Brad Ramsey, senior vice president, media operations, who oversees multiple TEGNA stations and the company\u2019s sports rights agreements.\"\n- TEGNA | owns | WFAA | date: None | https://www.tab.org/member-services/station-directory/wfaa-tv | \"Owned by: TEGNA\"\n- Carolyn Mungo | other_officer_of | WFAA | date: None | https://www.tab.org/member-services/station-directory/wfaa-tv | \"General Manager: Carolyn Mungo\"\n- Leslie McCardel | other_officer_of | WFAA | date: None | https://www.tab.org/member-services/station-directory/wfaa-tv | \"News Director: Leslie McCardel\"\n- Carolyn Mungo | other_officer_of | WFAA | date: Oct 2024 - Present | https://www.linkedin.com/in/carolynmungo | \"### President General Manager - [WFAA](https://www.linkedin.com/company/wfaa-tv) (Current)\n\nOct 2024 - Present (1 year and 11 months)\"\n- Carolyn Mungo | other_officer_of | WFAA | date: May 2019 - Nov 2024 | https://www.linkedin.com/in/carolynmungo | \"### Vice President and Station Manager - WFAA\n\nMay 2019 - Nov 2024 (5 years and 6 months) in Dallas, Texas, United States\"\n- Carolyn Mungo | other_officer_of | WFAA | date: Feb 2012 - May 2019 | https://www.linkedin.com/in/carolynmungo | \"### Executive News Director - [WFAA](https://www.linkedin.com/company/wfaa-tv)\n\nFeb 2012 - May 2019 (7 years and 3 months) in Dallas, Texas, United States\"\n- Carolyn Mungo | other_officer_of | WFAA | date: 2024-10-30 | https://investors.tegna.com/news-releases/news-release-details/tegna-names-carolyn-mungo-president-and-general-manager-wfaa | \"Carolyn Mungo has been named president and general manager at WFAA, TEGNA\u2019s ABC affiliate, and KFAA serving Dallas-Ft. Worth, effectively immediately.\"\n- Carolyn Mungo | other_officer_of | WFAA | date: 2019 | https://investors.tegna.com/news-releases/news-release-details/tegna-names-carolyn-mungo-president-and-general-manager-wfaa | \"Mungo served as WFAA\u2019s vice president and station manager since 2019, overseeing content, marketing, production, community impact and technology.\"\n- Brad Ramsey | other_officer_of | TEGNA | date: None | https://investors.tegna.com/news-releases/news-release-details/tegna-names-carolyn-mungo-president-and-general-manager-wfaa | \"She will continue to report to Brad Ramsey, senior vice president, media operations, who oversees multiple TEGNA stations and the company\u2019s sports rights agreements.\"\n- TEGNA Inc. | owns | WFAA | date: None | https://linkedin.com/company/wfaa-tv | \"WFAA is owned by TEGNA Inc. (NYSE: TGNA), a diversified media company serving communities across the United States through its portfolio of local television stations and digital platforms.\"\n- Tegna Inc. | subsidiary_of | Nexstar Media Group | date: None | https://linkedin.com/company/wfaa-tv | \"| Owner | Tegna Inc., a subsidiary of Nexstar Media Group, (WFAA-TV, Inc.) |\"\n- Carolyn Mungo | other_officer_of | WFAA | date: None | https://linkedin.com/company/wfaa-tv | \"- Carolyn Mungo: President General Manager\"\n- Leslie McCardel | other_officer_of | WFAA | date: None | https://linkedin.com/company/wfaa-tv | \"- Leslie McCardel: Executive News Director\"\n- WFAA | renamed_from | KBTV | date: 1949\u20131950 | https://linkedin.com/company/wfaa-tv | \"| Former call signs | KBTV (1949\u20131950), WFAA-TV (1950\u20132009) |\"\n- WFAA | renamed_from | WFAA-TV | date: 1950\u20132009 | https://linkedin.com/company/wfaa-tv | \"| Former call signs | KBTV (1949\u20131950), WFAA-TV (1950\u20132009) |\"\n- TEGNA Inc. | owns | WFAA | date: None | https://www.wfaa.com/about-us | \"WFAA is owned and operated by TEGNA Inc., an innovative media company that serves the greater good of its communities.\"\n- TEGNA Inc. | other | WFAA (operator) | date: None | https://www.wfaa.com/about-us | \"WFAA is owned and operated by TEGNA Inc., an innovative media company that serves the greater good of its communities.\"\n- Tegna Inc. | owns | WFAA | date: None | https://en.wikipedia.org/wiki/WFAA-TV | \"| Owner | Tegna Inc., a subsidiary of Nexstar Media Group, (WFAA-TV, Inc.) |\"\n- Tegna Inc. | subsidiary_of | Nexstar Media Group | date: None | https://en.wikipedia.org/wiki/WFAA-TV | \"| Owner | Tegna Inc., a subsidiary of Nexstar Media Group, (WFAA-TV, Inc.) |\"\n- WFAA | renamed_from | KBTV | date: 1949\u20131950 | https://en.wikipedia.org/wiki/WFAA-TV | \"| Former call signs | KBTV (1949\u20131950), WFAA-TV (1950\u20132009) |\"\n- WFAA | renamed_from | WFAA-TV | date: 1950\u20132009 | https://en.wikipedia.org/wiki/WFAA-TV | \"| Former call signs | KBTV (1949\u20131950), WFAA-TV (1950\u20132009) |\"\n- WFAA | subsidiary_of | Belo Corp. | date: 2013-06-13 | https://www.dallasnews.com/business/2013/06/14/acquisition-of-belo-wfaa-brings-gannett-a-9-decade-legacy/ | \"Today, its parent company, Belo Corp., owns 20 television stations in some of the nation's largest markets.\"\n- Gannett Co. | acquisition_announced | Belo Corp. | date: 2013-06-13 | https://www.dallasnews.com/business/2013/06/14/acquisition-of-belo-wfaa-brings-gannett-a-9-decade-legacy/ | \"On Thursday, it was announced that Gannett Co. will acquire the company for $2.2 billion.\"\n- Gannett | acquisition_announced | Belo | date: 2013-06-13 | https://www.kera.org/2013/06/13/gannett-to-buy-all-20-belo-tv-stations-for-2-2-billion/ | \"Gannett To Buy All 20 Belo TV Stations For $2.2 Billion\"\n- Gannett | acquisition_closed | Belo | date: 2013-06-13 | https://www.kera.org/2013/06/13/gannett-to-buy-all-20-belo-tv-stations-for-2-2-billion/ | \"Belo, the Dallas-based chain of TV stations, was sold today to Gannett in a deal worth 2.2 billion dollars.\"\n- Belo | owns | WFAA | date: None | https://www.kera.org/2013/06/13/gannett-to-buy-all-20-belo-tv-stations-for-2-2-billion/ | \"Belo bought the station from some little broadcaster in 1950 [1949] and has owned it ever since.\"\n- Belo | acquisition_closed | WFAA | date: 1950 [1949] | https://www.kera.org/2013/06/13/gannett-to-buy-all-20-belo-tv-stations-for-2-2-billion/ | \"Belo bought the station from some little broadcaster in 1950 [1949] and has owned it ever since.\"\n- Dave Lougee | other_officer_of | Gannett | date: None | https://www.kera.org/2013/06/13/gannett-to-buy-all-20-belo-tv-stations-for-2-2-billion/ | \"But Gannett\u2019s Broadcast President, Dave Lougee, says they won\u2019t see any immediate change\"\n\nEvidence state checks: conflict: several owners named: ['belo', 'tegna', 'wfaa tv']; missing: who owns belo\nAnswer only from this dossier. Where it does not establish a field, mark it not_established.",
+ "claims": [
+  {
+   "doc": "D1",
+   "subject": "WFAA-TV, Inc.",
+   "relation": "licensee_of",
+   "object": "WFAA",
+   "quote": "| WFAA | 72054 | DTV | WFAA-TV, Inc. | DALLAS, TX |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230544"
+  },
+  {
+   "doc": "D1",
+   "subject": "Beall",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| Beall | 0019269919 | officer | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230544"
+  },
+  {
+   "doc": "D1",
+   "subject": "Lougee",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| Lougee | 0019266030 | director, officer | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230544"
+  },
+  {
+   "doc": "D1",
+   "subject": "McClelland",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| McClelland | 0024947343 | officer | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230544"
+  },
+  {
+   "doc": "D1",
+   "subject": "Ramsey",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| Ramsey | 2130013416 | officer | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230544"
+  },
+  {
+   "doc": "D1",
+   "subject": "Sher",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| Sher | 0031481393 | officer | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230544"
+  },
+  {
+   "doc": "D2",
+   "subject": "WFAA-TV, INC.",
+   "relation": "licensee_of",
+   "object": "WFAA",
+   "quote": "Licensee: WFAA-TV, INC.",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/tv-profile/WFAA"
+  },
+  {
+   "doc": "D4",
+   "subject": "WFAA-TV, Inc.",
+   "relation": "licensee_of",
+   "object": "WFAA",
+   "quote": "| WFAA | 72054 | DTV | WFAA-TV, Inc. | DALLAS, TX |",
+   "date_in_doc": null,
+   "url": "https://fcc.report/LMS/0000169794"
+  },
+  {
+   "doc": "D4",
+   "subject": "Beall",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| Beall | 0019269919 | officer | 0% | 0% | US |",
+   "date_in_doc": null,
+   "url": "https://fcc.report/LMS/0000169794"
+  },
+  {
+   "doc": "D4",
+   "subject": "Chesser",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| Chesser | 0029834603 | officer | 0% | 0% | US |",
+   "date_in_doc": null,
+   "url": "https://fcc.report/LMS/0000169794"
+  },
+  {
+   "doc": "D4",
+   "subject": "Harrison",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| Harrison | 0024925315 | director, officer | 0% | 0% | US |",
+   "date_in_doc": null,
+   "url": "https://fcc.report/LMS/0000169794"
+  },
+  {
+   "doc": "D4",
+   "subject": "Lougee",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| Lougee | 0019266030 | director, officer | 0% | 0% | US |",
+   "date_in_doc": null,
+   "url": "https://fcc.report/LMS/0000169794"
+  },
+  {
+   "doc": "D4",
+   "subject": "McClelland",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| McClelland | 0024947343 | officer | 0% | 0% | US |",
+   "date_in_doc": null,
+   "url": "https://fcc.report/LMS/0000169794"
+  },
+  {
+   "doc": "D4",
+   "subject": "Ramsey",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| Ramsey | 2130013416 | officer | 0% | 0% | US |",
+   "date_in_doc": null,
+   "url": "https://fcc.report/LMS/0000169794"
+  },
+  {
+   "doc": "D4",
+   "subject": "Sher",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "| Sher | 0031481393 | officer | 0% | 0% | US |",
+   "date_in_doc": null,
+   "url": "https://fcc.report/LMS/0000169794"
+  },
+  {
+   "doc": "D6",
+   "subject": "Tegna Inc.",
+   "relation": "owns",
+   "object": "WFAA",
+   "quote": "| Owner | Tegna Inc., a subsidiary of Nexstar Media Group(WFAA-TV, Inc.) |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/WFAA"
+  },
+  {
+   "doc": "D6",
+   "subject": "Tegna Inc.",
+   "relation": "subsidiary_of",
+   "object": "Nexstar Media Group",
+   "quote": "| Owner | Tegna Inc., a subsidiary of Nexstar Media Group(WFAA-TV, Inc.) |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/WFAA"
+  },
+  {
+   "doc": "D6",
+   "subject": "WFAA",
+   "relation": "renamed_from",
+   "object": "KBTV",
+   "quote": "| Former call signs | KBTV (1949\u20131950) WFAA-TV (1950\u20132009) |",
+   "date_in_doc": "1949\u20131950",
+   "url": "https://en.wikipedia.org/wiki/WFAA"
+  },
+  {
+   "doc": "D6",
+   "subject": "WFAA",
+   "relation": "renamed_from",
+   "object": "WFAA-TV",
+   "quote": "| Former call signs | KBTV (1949\u20131950) WFAA-TV (1950\u20132009) |",
+   "date_in_doc": "1950\u20132009",
+   "url": "https://en.wikipedia.org/wiki/WFAA"
+  },
+  {
+   "doc": "D8",
+   "subject": "Tegna",
+   "relation": "other",
+   "object": "WFAA (operator)",
+   "quote": "WFAA is run by Tegna.",
+   "date_in_doc": null,
+   "url": "https://network.thetrustproject.org/partner/wfaa"
+  },
+  {
+   "doc": "D8",
+   "subject": "Tegna",
+   "relation": "owns",
+   "object": "WFAA",
+   "quote": "Owned by Tegna since 2015, WFAA was founded in 1949 as KBTV by Texas oil magnate Tom Potter, who operated this and other regional television stations through the Lacy-Potter TV Broadcasting Company.",
+   "date_in_doc": "2015",
+   "url": "https://network.thetrustproject.org/partner/wfaa"
+  },
+  {
+   "doc": "D8",
+   "subject": "Tom Potter",
+   "relation": "other",
+   "object": "WFAA (operator through Lacy-Potter TV Broadcasting Company)",
+   "quote": "WFAA was founded in 1949 as KBTV by Texas oil magnate Tom Potter, who operated this and other regional television stations through the Lacy-Potter TV Broadcasting Company.",
+   "date_in_doc": null,
+   "url": "https://network.thetrustproject.org/partner/wfaa"
+  },
+  {
+   "doc": "D8",
+   "subject": "A.H. Belo Corporation",
+   "relation": "acquisition_closed",
+   "object": "WFAA",
+   "quote": "Only a few months later, the A.H. Belo Corporation, owner of The Dallas Morning News, bought the station.",
+   "date_in_doc": "Only a few months later",
+   "url": "https://network.thetrustproject.org/partner/wfaa"
+  },
+  {
+   "doc": "D8",
+   "subject": "Leslie McCardel",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "- Leslie McCardel \u2013 Director of Content and Strategy",
+   "date_in_doc": null,
+   "url": "https://network.thetrustproject.org/partner/wfaa"
+  },
+  {
+   "doc": "D9",
+   "subject": "WFAA-TV, Inc.",
+   "relation": "licensee_of",
+   "object": "WFAA",
+   "quote": "WFAA(DT) Licensee Information\n\nWFAA-TV, Inc. Tegna, Inc. 8401 Greensboro Drive, Suite 300 McLean, VA 22102 Phone: 703-873-6606 Corporation",
+   "date_in_doc": null,
+   "url": "https://fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f9172fc71b001730621a2ef0b5d&sCurrentService=TV&tabSearchType=Appl"
+  },
+  {
+   "doc": "D9",
+   "subject": "Akin S. Harrison",
+   "relation": "other_officer_of",
+   "object": "WFAA-TV, Inc.",
+   "quote": "Akin S. Harrison, Esq. Title: Secretary Date: 07/01/2020 Application Certifier",
+   "date_in_doc": "2020-07-01",
+   "url": "https://fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f9172fc71b001730621a2ef0b5d&sCurrentService=TV&tabSearchType=Appl"
+  },
+  {
+   "doc": "D9",
+   "subject": "Michael Beder",
+   "relation": "other_officer_of",
+   "object": "Tegna Inc.",
+   "quote": "Michael Beder, Esq Tegna Inc. 8350 Broad Street, Suite 2000 Tysons, VA 22102 Associate General Counsel",
+   "date_in_doc": null,
+   "url": "https://fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f9172fc71b001730621a2ef0b5d&sCurrentService=TV&tabSearchType=Appl"
+  },
+  {
+   "doc": "D10",
+   "subject": "Nexstar Media Group",
+   "relation": "acquisition_approved",
+   "object": "TEGNA",
+   "quote": "The FCC and DOJ approved the $6.2 billion acquisition of broadcaster TEGNA by fellow television operator Nexstar Media Group.",
+   "date_in_doc": "2026-03-19",
+   "url": "https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6"
+  },
+  {
+   "doc": "D10",
+   "subject": "Nexstar Media Group, Inc.",
+   "relation": "acquisition_closed",
+   "object": "TEGNA Inc.",
+   "quote": "Nexstar Media Group, Inc. (Nasdaq: NXST), today announced that it has closed its acquisition of TEGNA Inc.",
+   "date_in_doc": "2026-03-19",
+   "url": "https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6"
+  },
+  {
+   "doc": "D10",
+   "subject": "Nexstar Media Group",
+   "relation": "acquisition_announced",
+   "object": "TEGNA",
+   "quote": "The proposed acquisition was announced in August 2025.",
+   "date_in_doc": "2025-08",
+   "url": "https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6"
+  },
+  {
+   "doc": "D10",
+   "subject": "TEGNA",
+   "relation": "owns",
+   "object": "WFAA",
+   "quote": "TEGNA owns and operates this television station.",
+   "date_in_doc": null,
+   "url": "https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6"
+  },
+  {
+   "doc": "D10",
+   "subject": "TEGNA",
+   "relation": "other",
+   "object": "WFAA (operator)",
+   "quote": "TEGNA owns and operates this television station.",
+   "date_in_doc": null,
+   "url": "https://www.wfaa.com/article/news/nation-world/nexstar-media-group-acquisition-of-tegna-approved-by-fcc-doj/507-31ff8b08-90fd-44f8-8896-f0d3c30e2bb6"
+  },
+  {
+   "doc": "D11",
+   "subject": "Jason Roberts",
+   "relation": "other_officer_of",
+   "object": "Nexstar Media Inc.",
+   "quote": "Jason Roberts\n\nVice President and Associate General Counsel\n\nNexstar Media Inc.",
+   "date_in_doc": null,
+   "url": "https://enterpriseefiling.fcc.gov/dataentry/public/tv/draftCopy.html?appKey=25076ff39d0df016019d1bff03464312&displayType=html&goBack=N&id=25076ff39d0df016019d1bff03464312"
+  },
+  {
+   "doc": "D13",
+   "subject": "Perry Sook",
+   "relation": "chief_executive_of",
+   "object": "Nexstar Media Group",
+   "quote": "Perry Sook, the founder, chairman, and CEO of Nexstar Media Group,",
+   "date_in_doc": null,
+   "url": "https://mikemcguff.blogspot.com/2025/10/sook-reveals-nexstar-tegna-deal-outcome.html"
+  },
+  {
+   "doc": "D13",
+   "subject": "Perry Sook",
+   "relation": "other_officer_of",
+   "object": "Nexstar Media Group",
+   "quote": "Perry Sook, the founder, chairman, and CEO of Nexstar Media Group,",
+   "date_in_doc": null,
+   "url": "https://mikemcguff.blogspot.com/2025/10/sook-reveals-nexstar-tegna-deal-outcome.html"
+  },
+  {
+   "doc": "D14",
+   "subject": "Carolyn Mungo",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "Carolyn Mungo has been named president and general manager at WFAA, TEGNA\u2019s ABC affiliate, and KFAA serving Dallas-Ft. Worth, effectively immediately.",
+   "date_in_doc": "2024-10-30",
+   "url": "https://www.tegna.com/tegna-names-carolyn-mungo-president-and-general-manager-at-wfaa-kfaa/"
+  },
+  {
+   "doc": "D14",
+   "subject": "Carolyn Mungo",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "Mungo served as WFAA\u2019s vice president and station manager since 2019, overseeing content, marketing, production, community impact and technology.",
+   "date_in_doc": "2019",
+   "url": "https://www.tegna.com/tegna-names-carolyn-mungo-president-and-general-manager-at-wfaa-kfaa/"
+  },
+  {
+   "doc": "D14",
+   "subject": "Brad Ramsey",
+   "relation": "other_officer_of",
+   "object": "TEGNA",
+   "quote": "She will continue to report to Brad Ramsey, senior vice president, media operations, who oversees multiple TEGNA stations and the company\u2019s sports rights agreements.",
+   "date_in_doc": null,
+   "url": "https://www.tegna.com/tegna-names-carolyn-mungo-president-and-general-manager-at-wfaa-kfaa/"
+  },
+  {
+   "doc": "D15",
+   "subject": "TEGNA",
+   "relation": "owns",
+   "object": "WFAA",
+   "quote": "Owned by: TEGNA",
+   "date_in_doc": null,
+   "url": "https://www.tab.org/member-services/station-directory/wfaa-tv"
+  },
+  {
+   "doc": "D15",
+   "subject": "Carolyn Mungo",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "General Manager: Carolyn Mungo",
+   "date_in_doc": null,
+   "url": "https://www.tab.org/member-services/station-directory/wfaa-tv"
+  },
+  {
+   "doc": "D15",
+   "subject": "Leslie McCardel",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "News Director: Leslie McCardel",
+   "date_in_doc": null,
+   "url": "https://www.tab.org/member-services/station-directory/wfaa-tv"
+  },
+  {
+   "doc": "D16",
+   "subject": "Carolyn Mungo",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "### President General Manager - [WFAA](https://www.linkedin.com/company/wfaa-tv) (Current)\n\nOct 2024 - Present (1 year and 11 months)",
+   "date_in_doc": "Oct 2024 - Present",
+   "url": "https://www.linkedin.com/in/carolynmungo"
+  },
+  {
+   "doc": "D16",
+   "subject": "Carolyn Mungo",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "### Vice President and Station Manager - WFAA\n\nMay 2019 - Nov 2024 (5 years and 6 months) in Dallas, Texas, United States",
+   "date_in_doc": "May 2019 - Nov 2024",
+   "url": "https://www.linkedin.com/in/carolynmungo"
+  },
+  {
+   "doc": "D16",
+   "subject": "Carolyn Mungo",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "### Executive News Director - [WFAA](https://www.linkedin.com/company/wfaa-tv)\n\nFeb 2012 - May 2019 (7 years and 3 months) in Dallas, Texas, United States",
+   "date_in_doc": "Feb 2012 - May 2019",
+   "url": "https://www.linkedin.com/in/carolynmungo"
+  },
+  {
+   "doc": "D17",
+   "subject": "Carolyn Mungo",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "Carolyn Mungo has been named president and general manager at WFAA, TEGNA\u2019s ABC affiliate, and KFAA serving Dallas-Ft. Worth, effectively immediately.",
+   "date_in_doc": "2024-10-30",
+   "url": "https://investors.tegna.com/news-releases/news-release-details/tegna-names-carolyn-mungo-president-and-general-manager-wfaa"
+  },
+  {
+   "doc": "D17",
+   "subject": "Carolyn Mungo",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "Mungo served as WFAA\u2019s vice president and station manager since 2019, overseeing content, marketing, production, community impact and technology.",
+   "date_in_doc": "2019",
+   "url": "https://investors.tegna.com/news-releases/news-release-details/tegna-names-carolyn-mungo-president-and-general-manager-wfaa"
+  },
+  {
+   "doc": "D17",
+   "subject": "Brad Ramsey",
+   "relation": "other_officer_of",
+   "object": "TEGNA",
+   "quote": "She will continue to report to Brad Ramsey, senior vice president, media operations, who oversees multiple TEGNA stations and the company\u2019s sports rights agreements.",
+   "date_in_doc": null,
+   "url": "https://investors.tegna.com/news-releases/news-release-details/tegna-names-carolyn-mungo-president-and-general-manager-wfaa"
+  },
+  {
+   "doc": "D18",
+   "subject": "TEGNA Inc.",
+   "relation": "owns",
+   "object": "WFAA",
+   "quote": "WFAA is owned by TEGNA Inc. (NYSE: TGNA), a diversified media company serving communities across the United States through its portfolio of local television stations and digital platforms.",
+   "date_in_doc": null,
+   "url": "https://linkedin.com/company/wfaa-tv"
+  },
+  {
+   "doc": "D18",
+   "subject": "Tegna Inc.",
+   "relation": "subsidiary_of",
+   "object": "Nexstar Media Group",
+   "quote": "| Owner | Tegna Inc., a subsidiary of Nexstar Media Group, (WFAA-TV, Inc.) |",
+   "date_in_doc": null,
+   "url": "https://linkedin.com/company/wfaa-tv"
+  },
+  {
+   "doc": "D18",
+   "subject": "Carolyn Mungo",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "- Carolyn Mungo: President General Manager",
+   "date_in_doc": null,
+   "url": "https://linkedin.com/company/wfaa-tv"
+  },
+  {
+   "doc": "D18",
+   "subject": "Leslie McCardel",
+   "relation": "other_officer_of",
+   "object": "WFAA",
+   "quote": "- Leslie McCardel: Executive News Director",
+   "date_in_doc": null,
+   "url": "https://linkedin.com/company/wfaa-tv"
+  },
+  {
+   "doc": "D18",
+   "subject": "WFAA",
+   "relation": "renamed_from",
+   "object": "KBTV",
+   "quote": "| Former call signs | KBTV (1949\u20131950), WFAA-TV (1950\u20132009) |",
+   "date_in_doc": "1949\u20131950",
+   "url": "https://linkedin.com/company/wfaa-tv"
+  },
+  {
+   "doc": "D18",
+   "subject": "WFAA",
+   "relation": "renamed_from",
+   "object": "WFAA-TV",
+   "quote": "| Former call signs | KBTV (1949\u20131950), WFAA-TV (1950\u20132009) |",
+   "date_in_doc": "1950\u20132009",
+   "url": "https://linkedin.com/company/wfaa-tv"
+  },
+  {
+   "doc": "D19",
+   "subject": "TEGNA Inc.",
+   "relation": "owns",
+   "object": "WFAA",
+   "quote": "WFAA is owned and operated by TEGNA Inc., an innovative media company that serves the greater good of its communities.",
+   "date_in_doc": null,
+   "url": "https://www.wfaa.com/about-us"
+  },
+  {
+   "doc": "D19",
+   "subject": "TEGNA Inc.",
+   "relation": "other",
+   "object": "WFAA (operator)",
+   "quote": "WFAA is owned and operated by TEGNA Inc., an innovative media company that serves the greater good of its communities.",
+   "date_in_doc": null,
+   "url": "https://www.wfaa.com/about-us"
+  },
+  {
+   "doc": "D20",
+   "subject": "Tegna Inc.",
+   "relation": "owns",
+   "object": "WFAA",
+   "quote": "| Owner | Tegna Inc., a subsidiary of Nexstar Media Group, (WFAA-TV, Inc.) |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/WFAA-TV"
+  },
+  {
+   "doc": "D20",
+   "subject": "Tegna Inc.",
+   "relation": "subsidiary_of",
+   "object": "Nexstar Media Group",
+   "quote": "| Owner | Tegna Inc., a subsidiary of Nexstar Media Group, (WFAA-TV, Inc.) |",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/WFAA-TV"
+  },
+  {
+   "doc": "D20",
+   "subject": "WFAA",
+   "relation": "renamed_from",
+   "object": "KBTV",
+   "quote": "| Former call signs | KBTV (1949\u20131950), WFAA-TV (1950\u20132009) |",
+   "date_in_doc": "1949\u20131950",
+   "url": "https://en.wikipedia.org/wiki/WFAA-TV"
+  },
+  {
+   "doc": "D20",
+   "subject": "WFAA",
+   "relation": "renamed_from",
+   "object": "WFAA-TV",
+   "quote": "| Former call signs | KBTV (1949\u20131950), WFAA-TV (1950\u20132009) |",
+   "date_in_doc": "1950\u20132009",
+   "url": "https://en.wikipedia.org/wiki/WFAA-TV"
+  },
+  {
+   "doc": "E1",
+   "subject": "WFAA",
+   "relation": "subsidiary_of",
+   "object": "Belo Corp.",
+   "quote": "Today, its parent company, Belo Corp., owns 20 television stations in some of the nation's largest markets.",
+   "date_in_doc": "2013-06-13",
+   "url": "https://www.dallasnews.com/business/2013/06/14/acquisition-of-belo-wfaa-brings-gannett-a-9-decade-legacy/"
+  },
+  {
+   "doc": "E1",
+   "subject": "Gannett Co.",
+   "relation": "acquisition_announced",
+   "object": "Belo Corp.",
+   "quote": "On Thursday, it was announced that Gannett Co. will acquire the company for $2.2 billion.",
+   "date_in_doc": "2013-06-13",
+   "url": "https://www.dallasnews.com/business/2013/06/14/acquisition-of-belo-wfaa-brings-gannett-a-9-decade-legacy/"
+  },
+  {
+   "doc": "E2",
+   "subject": "Gannett",
+   "relation": "acquisition_announced",
+   "object": "Belo",
+   "quote": "Gannett To Buy All 20 Belo TV Stations For $2.2 Billion",
+   "date_in_doc": "2013-06-13",
+   "url": "https://www.kera.org/2013/06/13/gannett-to-buy-all-20-belo-tv-stations-for-2-2-billion/"
+  },
+  {
+   "doc": "E2",
+   "subject": "Gannett",
+   "relation": "acquisition_closed",
+   "object": "Belo",
+   "quote": "Belo, the Dallas-based chain of TV stations, was sold today to Gannett in a deal worth 2.2 billion dollars.",
+   "date_in_doc": "2013-06-13",
+   "url": "https://www.kera.org/2013/06/13/gannett-to-buy-all-20-belo-tv-stations-for-2-2-billion/"
+  },
+  {
+   "doc": "E2",
+   "subject": "Belo",
+   "relation": "owns",
+   "object": "WFAA",
+   "quote": "Belo bought the station from some little broadcaster in 1950 [1949] and has owned it ever since.",
+   "date_in_doc": null,
+   "url": "https://www.kera.org/2013/06/13/gannett-to-buy-all-20-belo-tv-stations-for-2-2-billion/"
+  },
+  {
+   "doc": "E2",
+   "subject": "Belo",
+   "relation": "acquisition_closed",
+   "object": "WFAA",
+   "quote": "Belo bought the station from some little broadcaster in 1950 [1949] and has owned it ever since.",
+   "date_in_doc": "1950 [1949]",
+   "url": "https://www.kera.org/2013/06/13/gannett-to-buy-all-20-belo-tv-stations-for-2-2-billion/"
+  },
+  {
+   "doc": "E2",
+   "subject": "Dave Lougee",
+   "relation": "other_officer_of",
+   "object": "Gannett",
+   "quote": "But Gannett\u2019s Broadcast President, Dave Lougee, says they won\u2019t see any immediate change",
+   "date_in_doc": null,
+   "url": "https://www.kera.org/2013/06/13/gannett-to-buy-all-20-belo-tv-stations-for-2-2-billion/"
+  }
+ ],
+ "flags": [
+  [
+   "conflict",
+   "several owners named: ['belo', 'tegna', 'wfaa tv']"
+  ],
+  [
+   "missing",
+   "who owns belo"
+  ]
+ ],
+ "steps": [
+  {
+   "step": "extract",
+   "usd": 0.039867900000000005,
+   "latency_s": 50.0,
+   "model_returned": "gpt-6.1-sol"
+  },
+  {
+   "step": "extract_extra",
+   "usd": 0.009676599999999999,
+   "latency_s": 18.2
+  },
+  {
+   "step": "solve",
+   "effort": "high",
+   "usd": 0.03434,
+   "latency_s": 53.5
+  }
+ ],
+ "usd_total": 0.0838845,
+ "latency_total_s": 121.7,
+ "escalated": true,
+ "extra_docs": 2,
+ "arm": "B",
+ "case": "wfaa",
+ "run": 3,
+ "saved": "2026-10-04T19:36:09-0300"
+}

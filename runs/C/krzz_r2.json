@@ -1,0 +1,22 @@
+{
+ "text": "{\"legal_owner\":{\"status\":\"established\",\"names\":[\"KRZZ Licensing, LLC\"],\"citations\":[{\"url\":\"https://transition.fcc.gov/fcc-bin/fmq?call=KRZZ\",\"quote\":\"**KRZZCA SAN FRANCISCOUSA**FMLICTo KRZZ Public FilesLicensee:**KRZZ LICENSING, LLC**\"},{\"url\":\"https://fcc.report/LMS/0000173754\",\"quote\":\"| KRZZ | 1092 | FM | KRZZ Licensing, LLC | SAN FRANCISCO, CA |\"}]},\"operator\":{\"status\":\"same_as_owner\",\"names\":[],\"citations\":[]},\"chain\":[],\"ultimate_parent\":{\"status\":\"not_established\",\"names\":[],\"citations\":[]},\"controlling_person\":{\"status\":\"not_established\",\"names\":[],\"citations\":[]},\"leader\":{\"status\":\"not_established\",\"name\":null,\"role\":null,\"entity\":null,\"citations\":[]},\"transactions\":[{\"description\":\"Spanish Broadcasting System acquired KRZZ from Infinity Broadcasting.\",\"status\":\"closed\",\"date\":\"2005\",\"citations\":[{\"url\":\"https://en.wikipedia.org/wiki/KRZZ\",\"quote\":\"The next year, the station was sold by Infinity Broadcasting to Spanish Broadcasting System.\"}]}],\"uncertainty\":\"FCC records confirm KRZZ Licensing, LLC as the licensee, and general sources describe Spanish Broadcasting System as the owner; however, the dossier lacks corporate records detailing the direct ownership chain connecting KRZZ Licensing, LLC to Spanish Broadcasting System or establishing any ultimate parent or controlling person. The dossier also does not identify the current chief executive officer of Spanish Broadcasting System.\"}",
+ "usage": {
+  "candidates_token_count": 339,
+  "prompt_token_count": 3577,
+  "thoughts_token_count": 4296,
+  "total_token_count": 8212
+ },
+ "usd": 0.020064000000000002,
+ "latency_s": 17.2,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C",
+ "case": "krzz",
+ "run": 2,
+ "saved": "2026-10-04T19:31:43-0300"
+}

@@ -1,0 +1,22 @@
+{
+ "text": "{\"legal_owner\": {\"status\": \"established\", \"names\": [\"CBS Broadcasting Inc.\"], \"citations\": [{\"url\": \"https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=25452\", \"quote\": \"#### Licensee\\n\\nName: CBS BROADCASTING INC.\"}, {\"url\": \"https://publicfiles.fcc.gov/tv-profile/KPIX-TV\", \"quote\": \"Licensee: CBS BROADCASTING INC.\"}]}, \"operator\": {\"status\": \"same_as_owner\", \"names\": [], \"citations\": []}, \"chain\": [{\"child\": \"CBS\", \"parent\": \"Paramount\", \"relation\": \"parent company\", \"citations\": [{\"url\": \"https://thedesk.net/2026/01/scott-warren-to-oversee-local-cbs-stations-in-san-francisco-sacramento/\", \"quote\": \"CBS parent company Paramount\"}]}], \"ultimate_parent\": {\"status\": \"not_established\", \"names\": [], \"citations\": []}, \"controlling_person\": {\"status\": \"not_established\", \"names\": [], \"citations\": []}, \"leader\": {\"status\": \"not_established\", \"name\": null, \"role\": null, \"entity\": null, \"citations\": []}, \"transactions\": [], \"uncertainty\": \"While CBS Broadcasting Inc. is documented as the FCC licensee of KPIX-TV and Paramount is referenced as CBS's parent company, the dossier does not provide a complete corporate chain connecting the licensee to an ultimate parent entity, nor does it identify any controlling person or the chief executive officer of Paramount Skydance Corporation.\"}",
+ "usage": {
+  "candidates_token_count": 369,
+  "prompt_token_count": 3089,
+  "thoughts_token_count": 2780,
+  "total_token_count": 6238
+ },
+ "usd": 0.0141255,
+ "latency_s": 13.3,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C2",
+ "case": "kpix",
+ "run": 3,
+ "saved": "2026-10-04T19:57:06-0300"
+}

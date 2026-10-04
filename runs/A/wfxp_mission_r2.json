@@ -1,0 +1,1098 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Mission Broadcasting, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DOC-410204A1.pdf\",\n        \"quote\": \"DTV WFXP 19707 Main 542.0 ERIE, PA Mission Broadcasting, Inc.\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"established\",\n    \"names\": [\"Nexstar Media Inc. (Nexstar Media Group, Inc.)\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.sec.gov/Archives/edgar/data/1142417/000119312526078361/nxst-20251231.htm\",\n        \"quote\": \"Nexstar Media has time brokerage agreements\"\n      },\n      {\n        \"url\": \"https://www.sec.gov/Archives/edgar/data/1142417/000119312526339827/nxst-20260630.htm\",\n        \"quote\": \"Mission |   | TBA |   | WFXP, KHMT and KFQX\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\"Mission Broadcasting, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No4/pdf/GPO-FCC-Rcd-V39No4.pdf\",\n        \"quote\": \"Mission is a privately held company owned by two individuals\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"established\",\n    \"names\": [\"Nancie J. Smith\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No4/pdf/GPO-FCC-Rcd-V39No4.pdf\",\n        \"quote\": \"Nancie J. Smith, who holds 51% of the voting and equity stock\"\n      },\n      {\n        \"url\": \"https://missionbroadcastinginc.com/about/\",\n        \"quote\": \"Nancie became the majority shareholder and Chairwoman of the company in 2011\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Dennis P. Thatcher\",\n    \"role\": \"President\",\n    \"entity\": \"Mission Broadcasting, Inc.\",\n    \"citations\": [\n      {\n        \"url\": \"https://missionbroadcastinginc.com/about/\",\n        \"quote\": \"Dennis P. Thatcher, President\"\n      }\n    ]\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"As of October 4, 2026, the evidence supports Mission as WFXP's FCC licensee and Nexstar as its service-agreement operator. The FCC granted Mission's WFXP license renewal on March 14, 2025; Nexstar's June 30, 2026 quarterly report still lists WFXP under a Mission time brokerage agreement. The corporate ownership chain ends at Mission: no intervening or higher corporate owner is documented, so chain is empty. Mission's individual shareholders are Nancie J. Smith (51%) and Dennis P. Thatcher (49%), according to the FCC's 2024 discussion of its ownership report; Mission's current leadership page continues to identify Smith as majority shareholder and Thatcher as president. Nexstar's financial consolidation of Mission as a variable interest entity is not equity ownership and does not make Nexstar Mission's legal parent. No WFXP-specific ownership-transfer transaction was established in the sources reviewed.\"\n}",
+ "raw": {
+  "id": "resp_0da3ded5b3b1a374006ac2d313ec9c87d1b39ea798721b5c7f",
+  "access_programs": null,
+  "created_at": 1791152915.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": "You are a media ownership researcher. Today's date is 2026-10-04; answer as of that date, not as of your training data.\nFields:\n- legal_owner: the entity that legally holds the outlet (for a broadcast station, the FCC licensee).\n- operator: the entity that runs it day to day if different (for example under a shared services or joint sales agreement); otherwise status same_as_owner.\n- chain: each ownership link from the legal owner upward, one link per item, each with its own citation.\n- ultimate_parent: the top of the chain. It may be several entities (joint venture), none (a nonprofit with no owner), or not_established.\n- controlling_person: a natural person or family that controls the ultimate parent, if documented.\n- leader: only the person matching the leader definition given in the question.\n- transactions: deals affecting ownership; keep announced, approved and closed apart.\nRules: every established field must cite at least one source URL with a short verbatim quote copied from that source that supports it. If the evidence does not establish a field, mark it not_established rather than guessing. A name appearing in a filing is not by itself an owner or officer.\nUse web search to find current evidence.",
+  "metadata": {},
+  "model": "gpt-6.1-sol",
+  "object": "response",
+  "output": [
+   {
+    "id": "ws_0da3ded5b3b1a374006ac2d315801487d19bc44cf18d724d33",
+    "action": {
+     "type": "search",
+     "queries": [
+      "WFXP 19707 Mission Broadcasting licensee Nexstar operator",
+      "Mission Broadcasting current president 2026 Dennis Thatcher Nancie Smith"
+     ],
+     "query": "WFXP 19707 Mission Broadcasting licensee Nexstar operator",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-234231A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://missionbroadcastinginc.com/about/"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-358556A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-329940A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No4/pdf/GPO-FCC-Rcd-V39No4.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/IBFS/SES-CCC-20260727-02120"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-272285A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.rabbitears.info/market.php?facility_id=19707&request=print_station"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/CDBS/2022887"
+      },
+      {
+       "type": "url",
+       "url": "https://ipfs.ssi.eecc.de/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/WFXP-TV.html"
+      },
+      {
+       "type": "url",
+       "url": "https://infokontak.com/en/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142412/000156459017023394/mbcc-ex104_186.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f915f490f5f015f4a3e4e4205d3"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Mission_Broadcasting"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000114241709000007/nxstexhibit.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/FRN/0004284899"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/nexstar-media-group-inc-2290/contract/852026/"
+      },
+      {
+       "type": "url",
+       "url": "https://publicfiles.fcc.gov/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.bbb.org/us/tx/wichita-falls/profile/tv-stations/mission-broadcasting-inc-0875-91071725"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_Antenna_TV_affiliates"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WJET-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_assets_owned_by_Nexstar_Media_Group"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_Fox_Broadcasting_Company_affiliates"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/DirectvStream/comments/1w8z77v/nexstar_stations_finally_added_to_mysports_genre/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1h3vuth/why_do_tv_stations_share_the_same_news_broadcast/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/burlington/comments/1nokujy/will_wvny_bend_the_knee/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/OPTIMUM/comments/1i436s5"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/DirectvStream/comments/1f1ommw"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/TheCW/comments/1wrbn06/with_all_the_affiliation_changes_seen_recently/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1taap4t/fcc_approves_tv_station_license_transfers_from/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1v4nu09/removed/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1ue9ox4/public_perception_and_general_information_about/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1s8fs8o/is_nexstar_combining_operations_of_peripheral/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/DirecTV/comments/14ow45m"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/lansing/comments/11c2noo"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_0da3ded5b3b1a374006ac2d319ecbc87d198d2b81697dd6a55",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.sec.gov 2026 Nexstar WFXP Mission owned independently",
+      "WFXP Mission Broadcasting 2026 ownership sale"
+     ],
+     "query": "site.sec.gov 2026 Nexstar WFXP Mission owned independently",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526078361/nxst-20251231.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526339827/nxst-20260630.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000114241726000021/nxst_2025_ars.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1158165/000119312504140590/d10q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526078361/0001193125-26-078361-index.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000114241726000016/0001142417-26-000016-index.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526212539/nxst-20260331.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312524129228/d805251dars.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.secinfo.com/d14D5a.22kfp.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000095017025028949/nxst-20241231.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.publicnow.com/view/041E687B0AED37D6B7A426D64EA2EE5A90979474"
+      },
+      {
+       "type": "url",
+       "url": "https://content-archive.fast-edgar.com/20260806/AA2ZW22FZW2RNTZU222M2ZYQSBCPZZ22ZI82/nxst-ex99_1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f915f490f5f015f4a3e4e4205d3"
+      },
+      {
+       "type": "url",
+       "url": "https://us.astfinancial.com/proxyservices/files/ar13194.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://library.futurelabz.dev/content/wikipedia_en_all_maxi_2026-02/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://greyhouse.com/Media/GreyHousePublishing/samples/TRC_21_pgs.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://informasilengkap.com/en/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Mission_Broadcasting"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_assets_owned_by_Nexstar_Media_Group"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WJET-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_Fox_Broadcasting_Company_affiliates"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WPIX"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/DirectvStream/comments/1w8z77v/nexstar_stations_finally_added_to_mysports_genre/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/TheCW/comments/1wrbn06/with_all_the_affiliation_changes_seen_recently/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1uktatn/my_station_was_just_bought_by_gray/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1syl5gk/does_this_spell_the_end_for_the_abc_oo_business/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1ukn9r1/gray_media_buying_six_american_spirit_media/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1vh7oy6/its_official_the_fcc_has_pulled_the_39_percent/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1taap4t/fcc_approves_tv_station_license_transfers_from/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1u33sag/nxst_nexstar_in_process_of_being_reported_to_fcc/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/toledo/comments/1uko4hu/fox_36_being_sold_to_owner_of_13abc_after/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1mufgnu"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1mq10d0"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/lansing/comments/1nomf6q"
+      },
+      {
+       "type": "url",
+       "url": "https://arxiv.org/abs/2510.07060"
+      },
+      {
+       "type": "url",
+       "url": "https://missionbroadcastinginc.com/about/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0da3ded5b3b1a374006ac2d32053a087d1bcc1a634f98af787",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtM5XYCln8f4XEn_227ulqjs8flIfAj1ALfEF_J4rNGxddT5H-dC6Q1WDq9fM7HYaHaAp9rDaprU_Uvx6te7pziaoEA1D7eWJXIV3QfuYRNxmu79cnKJKoja5xiovmfzaG1xATqzU3yzHvnIIJzxUOc5o_tC8-mTFGWoyfJq9o4IsBQ1QnOgKsevRxW-nzfztahWpEOIVlCxY97CQVYRfLbgI0lyqkzIIgVkNcJLCOUvFFnGvnflec4jrFL8lp_HyU75eBgvc2EA9h8xkdACzunJjYY-xZZ9qFhPzatdGCTHWNimZ_gfNgm5uj_gS81vLIcxAbLLnJ__umiaGWEJGomgVOpLwa6fDenvA17VbuLVQs3gXy6X8f-1itHTOxzU4xD3yRkJN6kuKXRkWMlGAaX57Fa2934AKM0MmWO1uz8LEk1tjRqphA9SG5HvQ3RVkgbZ3AYQDJV1X0WW1ZQHovWx7ge3mI7qXsNuVi6iyl9XQrQPE1HNAlFMkuvk7JDmyctG2NCVw58Bmkjkg9ojCpcCdchNaP1frT9DZkpfCATQRX7Ek9iRLhpGXFxs5rD_dP1Q249txreX6jEvZR3eH_6VTxwwZa6c-AQ41Xu-0R0YSOr8FuAdefIP9VksPgCHS7dmu4_fQ-AVPEsDjgJBaXTmAENUj5NO_qs2pANA3S46QbDcrjlvBEDTAVg_TJ3zwP9l61hyVwO3c9eDf1Tsc5iGDiuqdRsL0hb_QzQMZRdZPilRTOHmgjoKOovJ_coNbiJ2rL7nDgDK3em9MXTsy_K0GN3GANtupvVYTepc7OS8QM0FX5BthvqypSVoaVHwQ274R298IvuWuQ98fixrTkUH09fHiKqw9Y2eQfZiu9zGvQOJcmGR9ZA2zeoc7HhFEFE5bWfx3j52yFiV6vz9UT6Ueylmg8E0cGAPce1EuqRKf6a9k9_UST7AWBQ9SA_XJyyX5wZ2-Roz8h0abAJluPzlr-rRWXHOt7daSe3PUS3U3eHVqbLDjgoC5yXszm-usoH0FRiDED-h1gJFgk3hindhv15pm_hdbm29YmT3t3OozVSJRzglaZU64o5FiAdE_fGixWuXVCHpXTpI0b9blXPIqQRIxeObyZYcI7EBwfPL0UxT432XU5T3y5Ieeg3CNvuUExv0ADDlEsYYaqtsqfMTpnxAR1GIkb9rt5q-P4nluQVy5NKh8nbVjghg8CywJhhAWVc-2giKs_HhaJ06qVIZqxpWQRA3ApOwnqfCUXAzYZzFoAUgp2TEou1MUEBVX1YX3G9jOqKM26ZpgveWt9SMuF5eULOnnKt0tXvgKyAEspRkXjWTf-H8ShrVC9pzOVqqghf7dIX9PQw0vOSgr1_L1_FEcpLvpggMTKtMgP7Cd-N4VoOCp_J2e6ZOLDrChy_cD03NdQDGYMapQUQ_ce70s42k0EB7hKWOyMcEZ7EDSXxGnfOphZqDuVRQ0ht8fd5pKqEEAbsjYvP-MHpItIyOq0h312tNm0xnWnzMgISutjiz7NrdxkVJmcQNcdIfXRDiVVO3D50Aw5hwm0N4oXfSbC-IpvI1KxAX77Q38LHjuVWosfmMvAtx-SUlytU1toGY3HYL4tBUMvCD2eCYWlmQPyB-f-gNbiv_mAkGwjDS5fPXugKHmZYVJtXbGRjjHt9o8690FzaRneXcYey733I-yUwOwvYt6e2_oKmmqcpx-a-Nbt26YU7HiH1yxEcdwq26x9ZlvSH3JJ13qSQn4oC4jZIaLeZ5TZ3UCqYBjsnaBd9_CcHQjIA_zP3KHWaJNzNy4DV6YMiaBEARxc6rF1j7R155kxbWrzta878k6JoRmNw=",
+    "status": null
+   },
+   {
+    "id": "ws_0da3ded5b3b1a374006ac2d321007487d183a6b4824eb9b673",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526339827/nxst-20260630.htm"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_0da3ded5b3b1a374006ac2d3226f7087d1a001017812f74c23",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.nexstar.tv WFXP \"Mission\" \"Erie\"",
+      "site.missionbroadcastinginc.com \"WFXP\"",
+      "site.fcc.gov \"WFXP\" \"MISSION\" \"2025\"",
+      "\"Mission\" \"51%\" \"Thatcher\" \"2026\""
+     ],
+     "query": "site.nexstar.tv WFXP \"Mission\" \"Erie\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No4/pdf/GPO-FCC-Rcd-V39No4.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-410204A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f915f490f5f015f4a3e4e4205d3"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/wp-content/uploads/2022/05/NXST-2021-Annual-Report-Bookmarked.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://missionbroadcastinginc.com/markets-stations/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/CDBS/2022887"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WJET-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/FRN/0004284899"
+      },
+      {
+       "type": "url",
+       "url": "https://en.chped.com/wiki/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC-YB/2015-Complete-Directory/Complete-Television-Radio-Cable-Directory-2015-TV.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.secinfo.com/d14D5a.22kfp.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/nexstar-media-group-inc-2290/contract/396425/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Mission_Broadcasting"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ca3-24-03165/pdf/USCOURTS-ca3-24-03165-0.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://jobera.com/job/easter-seals-blake-foundation-therapist-0bcc73b5/"
+      },
+      {
+       "type": "url",
+       "url": "https://regulations.justia.com/regulations/fedreg/2025/06/16/2025-11073.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.tvb.org/stations/wfxp-tv/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_Fox_Broadcasting_Company_affiliates"
+      },
+      {
+       "type": "url",
+       "url": "https://www.wikiland.org/wiki/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142412/000114241714000034/mission2014q1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://greyhouse.com/Media/GreyHousePublishing/samples/TRC_21_pgs.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://tvchannel.info/tv/erie-pa/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WRNE"
+      },
+      {
+       "type": "url",
+       "url": "https://pt.wikipedia.org/wiki/Nexstar_Media_Group"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0da3ded5b3b1a374006ac2d328af3087d1824563f58866511b",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtM53dFZiViTblMQpclG8PeRiJcn3P7iU4ESOB2DkEkKYcmhNpNxCyV0EtY7PSb69l0Nlg9IpkACCD3u-kp3JFs8l4I3u0i6Ui3o6RnzomU36LDGnZLFX-WOwQzxGQycXxN8BtWfT5DzM7aOdPgEz8DRhQsK5c3NavbqugHqulAfMWqw45IGD2Hhkd3hMCTkRoQrZXYBlVIK9Jh7zkwo0fktDogEYPDn-gDxLSrwlySRdWcHEDZgT-qEUeyJQBgN67C_ekwt1q4xxygJ3zwL1tIGfO7yoNBBOoZ9yXTB9BsBxdLosaWqR4N-oqy0ABXUJuqBSUpr10qN6YPiKyjnSiTa3Z7BQ83LZ96f4r_Bu6jj_tuipq_P4mI9Ty5_MLcWEBLD1pR2agBKFlsCGAopL60qOMLUPTV0Z1PPrwfmlgK2WYPmDJuihUTAxcBAdJflXB8iVcLdJPyBVj_DVS3duHgplRg8SdWzfqnuCRT_y9_AjK4d5lRa4wB5IexjmehbM7GMLXLSA7x5QlHizZu9hYn0p8AThnvnLDcImsAdNFmr7jJSWTOsk8kLiVqCoTL6bLXyve4l9U8PtHYbPqq3rmaKsCIIEAxuA9guNWA-7YtGE2xn9a4voThV1kNgFYmcHrpvZebTmxYeOWzqpU_GDGP-y3ytg6SvIqZY2yZDsjCPbIKQ5QhqZstpoRJSdOCOPLzJuF0ej5w4kIbbpTbtHr1L8uIdH0TEKgkVriYmP1MXxYU5h3mYvVfG2gWB4kcuBpE5gc854WgvtZomwIkXM1GE0NsbzfLgwutVoKIJOfwF3UW2Ww0HN0hfd1pCro7yZ_CelAJSLpMQm1W3CaSt7i5rYTuPHiKPoY0EalWGiYM_8MvtWHtjdtbI-Iy9smmNAgxCYQoHLJ9xP1ilBFWcZhQAf0MAYOLvDnmZSzzgY-xYnDQbmaL3yzEfwwgOyW1wOEugUgFOVteAHMjP9LEgy0aK2W5xsOr0u8tlOe83qIi0sbaX8gnI5BM4qdtDcnD4mGb3ycj3SCkxC-Si6vGl_UP4P1KVP5sekcxBQmqiu0GXuUwJG1gF8TWDFsQr_VjLrX_bclAoQ1yDXAlaFN9pK2vDdX89poprkhi7zyMUWmDcv6hwT-P-FEEVD2ZZrTnauLc71LWMUC9ezN_oB-ghPZQThP5S70FU0zqgEMIQW2w8cgBBas5gW0Jx3gfWYBa0KigUiluhFxIvtVeVo92XlyouDExqkahKOvdiRNFkvwlUqKsJDR8QJH1yO6B6wueiv2J4YlKA9fdJyZZf7sFv7C3Omd_C1B3LHCIpdZmnLusEGdwBIMeK57aeKKbslzayU78vUw8Z5rT1M-5ubPB18w7IAIh5pwXNp2awnfIP76Z1rsoZ3vMW_e-XALMRaKswy1vJX0XccnQmqz67F7a-Vtwmpc1cLsZ4DTTZqnsMhxdmSa0JVd6ziW0x4T0ZJFW53PsCc6ujX3dJuaPA3UglmNxPh7Hv-Y5W2Syc7V_F8yx8S3IwxM6uKqVBThef4CTFD58rVE-FXEyjvpTavWa74HaXLtiuiPfnrcvK0xEFX7dqo9qeSFlDAy3avAqMI1ECWJOx9lMVPGyMkPrnD73ks39ybfIZwpJ5O037pvINCI5fEzVUAku_SSBQMklHTPEH90ywoorotNWfH96OnHOFpGE5Nes_FD9KpVAnhD3oX-DelzRtMJVcK_-G7KOuei5hjW5prLzA2Brf4fLb-f3kZec2lmYNda-ynitENwW8EtEpiXqpOuEnq7-Av_WS1Ilpnkff1fXeZmavNnwyU217oI-pdxYDdYKpq_C2LavwJv8M6Bd1cT-8cJ1fUdlOO-lbuOe__tHeLlK8nprtQ5iHLflLWGudc0S3aOvwH7Y9JnPppFh6V_UtGul75aXnC36GpqKn",
+    "status": null
+   },
+   {
+    "id": "ws_0da3ded5b3b1a374006ac2d329ca8887d1bf817db9a330807b",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.sec.gov/Archives/edgar/data/1142417/000119312526339827/ \"Nexstar Media\" \"wholly\"",
+      "site.sec.gov/Archives/edgar/data/1142417/000119312526339827/ \"Mission\" \"TBA\" \"WFXP\"",
+      "site.docs.fcc.gov \"Mission is a privately held company\" \"Smith\"",
+      "site.nexstar.tv \"WJET-TV\" \"WFXP\" \"Mission\""
+     ],
+     "query": "site.sec.gov/Archives/edgar/data/1142417/000119312526339827/ \"Nexstar Media\" \"wholly\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-410204A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526139729/nxst-20260402.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WJET-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000114241726000021/nxst_2025_ars.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526078361/nxst-20251231.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/wp-content/uploads/2022/05/NXST-2021-Annual-Report-Bookmarked.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000114241712000010/wfxpamendment.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-358556A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexttv.com/news/hub-lake-73048"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC-YB/2015-Complete-Directory/Complete-Television-Radio-Cable-Directory-2015-TV.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://digital-stage.nexstar.tv/wp-content/uploads/2019/05/2018-Annual-Report.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.chped.com/wiki/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://www.grepcent.com/company/NXST/"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.house.gov/meetings/JU/JU03/20130910/101282/HHRG-113-JU03-Wstate-MacKenzieE-20130910.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://newikis.com/en/List_of_assets_owned_by_Nexstar_Media_Group"
+      },
+      {
+       "type": "url",
+       "url": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://wikipedia2006.classicistranieri.com/en/w/f/x/WFXP_8756.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.wikiland.org/wiki/WFXP"
+      },
+      {
+       "type": "url",
+       "url": "https://es.hisour.com/datos/wfxp/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.aol.com/entertainment/eries-wjet-tv-back-directv-182416605.html"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Mission_Broadcasting"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_assets_owned_by_Nexstar_Media_Group"
+      },
+      {
+       "type": "url",
+       "url": "https://pt.wikipedia.org/wiki/Nexstar_Media_Group"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Tegna_Inc."
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1rfkqc5/nexstar_ceo_says_tegna_deal_expected_to_close_by/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/MediaMergers/comments/1jregx2"
+      },
+      {
+       "type": "url",
+       "url": "https://www.tvb.org/stations/wfxp-tv/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "msg_0da3ded5b3b1a374006ac2d3324f8887d18de24741bad0d96b",
+    "content": [
+     {
+      "annotations": [],
+      "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Mission Broadcasting, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DOC-410204A1.pdf\",\n        \"quote\": \"DTV WFXP 19707 Main 542.0 ERIE, PA Mission Broadcasting, Inc.\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"established\",\n    \"names\": [\"Nexstar Media Inc. (Nexstar Media Group, Inc.)\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.sec.gov/Archives/edgar/data/1142417/000119312526078361/nxst-20251231.htm\",\n        \"quote\": \"Nexstar Media has time brokerage agreements\"\n      },\n      {\n        \"url\": \"https://www.sec.gov/Archives/edgar/data/1142417/000119312526339827/nxst-20260630.htm\",\n        \"quote\": \"Mission |   | TBA |   | WFXP, KHMT and KFQX\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\"Mission Broadcasting, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No4/pdf/GPO-FCC-Rcd-V39No4.pdf\",\n        \"quote\": \"Mission is a privately held company owned by two individuals\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"established\",\n    \"names\": [\"Nancie J. Smith\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No4/pdf/GPO-FCC-Rcd-V39No4.pdf\",\n        \"quote\": \"Nancie J. Smith, who holds 51% of the voting and equity stock\"\n      },\n      {\n        \"url\": \"https://missionbroadcastinginc.com/about/\",\n        \"quote\": \"Nancie became the majority shareholder and Chairwoman of the company in 2011\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Dennis P. Thatcher\",\n    \"role\": \"President\",\n    \"entity\": \"Mission Broadcasting, Inc.\",\n    \"citations\": [\n      {\n        \"url\": \"https://missionbroadcastinginc.com/about/\",\n        \"quote\": \"Dennis P. Thatcher, President\"\n      }\n    ]\n  },\n  \"transactions\": [],\n  \"uncertainty\": \"As of October 4, 2026, the evidence supports Mission as WFXP's FCC licensee and Nexstar as its service-agreement operator. The FCC granted Mission's WFXP license renewal on March 14, 2025; Nexstar's June 30, 2026 quarterly report still lists WFXP under a Mission time brokerage agreement. The corporate ownership chain ends at Mission: no intervening or higher corporate owner is documented, so chain is empty. Mission's individual shareholders are Nancie J. Smith (51%) and Dennis P. Thatcher (49%), according to the FCC's 2024 discussion of its ownership report; Mission's current leadership page continues to identify Smith as majority shareholder and Thatcher as president. Nexstar's financial consolidation of Mission as a variable interest entity is not equity ownership and does not make Nexstar Mission's legal parent. No WFXP-specific ownership-transfer transaction was established in the sources reviewed.\"\n}",
+      "type": "output_text",
+      "logprobs": []
+     }
+    ],
+    "role": "assistant",
+    "status": "completed",
+    "type": "message",
+    "phase": "final_answer"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+   {
+    "type": "web_search",
+    "external_web_access": null,
+    "filters": null,
+    "search_context_size": "medium",
+    "user_location": {
+     "city": null,
+     "country": "US",
+     "region": null,
+     "timezone": null,
+     "type": "approximate"
+    },
+    "return_token_budget": "default",
+    "search_content_types": [
+     "text"
+    ]
+   }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1791152953.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "generate_summary": null,
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+   "format": {
+    "name": "ownership_answer",
+    "schema_": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "legal_owner",
+      "operator",
+      "chain",
+      "ultimate_parent",
+      "controlling_person",
+      "leader",
+      "transactions",
+      "uncertainty"
+     ],
+     "properties": {
+      "legal_owner": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "operator": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "same_as_owner",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "chain": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "child",
+         "parent",
+         "relation",
+         "citations"
+        ],
+        "properties": {
+         "child": {
+          "type": "string"
+         },
+         "parent": {
+          "type": "string"
+         },
+         "relation": {
+          "type": "string"
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "ultimate_parent": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "single",
+          "multiple",
+          "none",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "controlling_person": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "none",
+          "not_established",
+          "not_applicable"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "leader": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "name",
+        "role",
+        "entity",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "name": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "role": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "entity": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "transactions": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "description",
+         "status",
+         "date",
+         "citations"
+        ],
+        "properties": {
+         "description": {
+          "type": "string"
+         },
+         "status": {
+          "type": "string",
+          "enum": [
+           "announced",
+           "approved",
+           "closed",
+           "abandoned",
+           "unknown"
+          ]
+         },
+         "date": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "uncertainty": {
+       "type": "string"
+      }
+     }
+    },
+    "type": "json_schema",
+    "description": null,
+    "strict": true
+   },
+   "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 40043,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 5304
+   },
+   "output_tokens": 1509,
+   "output_tokens_details": {
+    "reasoning_tokens": 725
+   },
+   "total_tokens": 41552
+  },
+  "user": null,
+  "billing": {
+   "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 4
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 40043,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 5304
+  },
+  "output_tokens": 1509,
+  "output_tokens_details": {
+   "reasoning_tokens": 725
+  },
+  "total_tokens": 41552
+ },
+ "usd": 0.1350984,
+ "latency_s": 38.3,
+ "web_search": {
+  "tool_enabled": true,
+  "calls_executed": 5,
+  "actions": [
+   "search",
+   "search",
+   "open_page",
+   "search",
+   "search"
+  ],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "A",
+ "case": "wfxp_mission",
+ "run": 2,
+ "saved": "2026-10-04T19:29:13-0300"
+}

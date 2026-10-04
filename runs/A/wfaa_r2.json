@@ -1,0 +1,1757 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"WFAA-TV, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-267A1.pdf\",\n        \"quote\": \"WFAA(TV) 72054 WFAA-TV, Inc. 0000280989 Dallas, TX\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [\n    {\n      \"child\": \"WFAA-TV, Inc.\",\n      \"parent\": \"TEGNA Inc.\",\n      \"relation\": \"Wholly owned subsidiary, directly or indirectly. The current evidence does not establish every intervening immediate-parent link.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/39899/000119312526084392/tgna-ex21.htm\",\n          \"quote\": \"SUBSIDIARY LIST (2025)\"\n        },\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/39899/000119312526084392/tgna-ex21.htm\",\n          \"quote\": \"WFAA-TV, INC.\"\n        },\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/39899/000119312526084392/tgna-ex21.htm\",\n          \"quote\": \"* Not wholly-owned by TEGNA.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"TEGNA Inc.\",\n      \"parent\": \"Nexstar Media Inc.\",\n      \"relation\": \"Wholly owned subsidiary following the completed acquisition.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/39899/000110465926032772/tm269445d1_8k.htm\",\n          \"quote\": \"TEGNA continuing as the surviving corporation and a wholly owned subsidiary of Nexstar Media Inc.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Nexstar Media Inc.\",\n      \"parent\": \"Nexstar Media Group, Inc.\",\n      \"relation\": \"Wholly owned subsidiary.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DA-25-1000A1.pdf\",\n          \"quote\": \"a wholly owned subsidiary of Nexstar Media Group, Inc.\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\"Nexstar Media Group, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://dockets.justia.com/docket/circuit-courts/ca6/26-5182\",\n        \"quote\": \"Nexstar Media Group, Inc. has no public parent corporation.\"\n      },\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-25-1000A1.pdf\",\n        \"quote\": \"a wholly owned subsidiary of Nexstar Media Group, Inc.\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Perry A. Sook\",\n    \"role\": \"Chief Executive Officer\",\n    \"entity\": \"Nexstar Media Group, Inc.\",\n    \"citations\": [\n      {\n        \"url\": \"https://www.nexstar.tv/company-leadership/perry-a-sook/\",\n        \"quote\": \"Perry A. Sook\\n\\nChairman and CEO, Nexstar Media Group, Inc.\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Nexstar announced its agreement to acquire TEGNA for $6.2 billion.\",\n      \"status\": \"announced\",\n      \"date\": \"2025-08-19\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nexstar.tv/nexstar-media-group-inc-enters-into-definitive-agreement-to-acquire-tegna-inc-for-6-2-billion-in-accretive-transaction/\",\n          \"quote\": \"Nexstar will acquire all outstanding shares of TEGNA for $22.00 per share\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The FCC approved the transfer of control; Nexstar also reported DOJ approval.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-03-19\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nexstar.tv/nexstar-media-group-inc-closes-acquisition-of-tegna-inc/\",\n          \"quote\": \"Company Receives Approval of Transaction from Federal Communications Commission and U.S. Department of Justice\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Nexstar completed the TEGNA acquisition. Subsequent court orders require TEGNA to remain separate and independently managed pending litigation; these restrictions do not mean the acquisition remains merely announced.\",\n      \"status\": \"closed\",\n      \"date\": \"2026-03-19\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/1142417/000119312526257735/nxst-ex99_2.htm\",\n          \"quote\": \"On March 19, 2026 (the \u201cClosing Date\u201d), Nexstar Media Group, Inc. (\u201cNexstar\u201d) completed its acquisition of TEGNA Inc.\"\n        },\n        {\n          \"url\": \"https://www.govinfo.gov/content/pkg/USCOURTS-caed-2_26-cv-00976/pdf/USCOURTS-caed-2_26-cv-00976-77.pdf\",\n          \"quote\": \"requiring Nexstar to preserve TEGNA as a separate and independent entity during these proceedings.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of October 4, 2026, the licensee and ultimate parent are established, but the complete immediate-parent chain beneath TEGNA is not. Older documentation identifies WFAA-TV, Inc. as a direct subsidiary of Belo Corp.; current TEGNA subsidiary listings do not resolve that immediate-parent relationship, so it is not asserted here. WFAA-TV, Inc. is unstarred in Exhibit 21, supporting wholly owned subsidiary status. A distinct day-to-day operating legal entity was not established, and Nexstar ownership should not be confused with unrestricted operational integration: the court's hold-separate requirements continued to be enforced in August 2026. No natural person or family was established as controlling Nexstar. Sook's founder, chairman and CEO titles do not establish ownership control; Nexstar's April 20, 2026 beneficial-ownership table reports his stake as 6.1%.\"\n}",
+ "raw": {
+  "id": "resp_0f9a1b7a934a4f1a006ac2d313e6cc87d18ab353e4d960f6cb",
+  "access_programs": null,
+  "created_at": 1791152915.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": "You are a media ownership researcher. Today's date is 2026-10-04; answer as of that date, not as of your training data.\nFields:\n- legal_owner: the entity that legally holds the outlet (for a broadcast station, the FCC licensee).\n- operator: the entity that runs it day to day if different (for example under a shared services or joint sales agreement); otherwise status same_as_owner.\n- chain: each ownership link from the legal owner upward, one link per item, each with its own citation.\n- ultimate_parent: the top of the chain. It may be several entities (joint venture), none (a nonprofit with no owner), or not_established.\n- controlling_person: a natural person or family that controls the ultimate parent, if documented.\n- leader: only the person matching the leader definition given in the question.\n- transactions: deals affecting ownership; keep announced, approved and closed apart.\nRules: every established field must cite at least one source URL with a short verbatim quote copied from that source that supports it. If the evidence does not establish a field, mark it not_established rather than guessing. A name appearing in a filing is not by itself an owner or officer.\nUse web search to find current evidence.",
+  "metadata": {},
+  "model": "gpt-6.1-sol",
+  "object": "response",
+  "output": [
+   {
+    "id": "ws_0f9a1b7a934a4f1a006ac2d3153ac487d1b7b6e24e7e08c675",
+    "action": {
+     "type": "search",
+     "queries": [
+      "WFAA 72054 WFAA-TV Inc licensee Nexstar Tegna 2026 acquisition closed",
+      "Nexstar CEO October 2026 Perry Sook Michael Biard"
+     ],
+     "query": "WFAA 72054 WFAA-TV Inc licensee Nexstar Tegna 2026 acquisition closed",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526078361/nxst-20251231.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526257735/nxst-ex99_2.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-25-1000A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/nexstar-media-group-inc-closes-acquisition-of-tegna-inc/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000114241726000004/nxst-20260319.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526212539/R12.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/company-leadership/"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-267A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000114241726000016/nxst-20260430.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/wp-content/uploads/2026/05/NXST-2025-Annual-Report.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/nexstar-media-group-inc-statement-on-preliminary-injunction/"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-22-443A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/39899/000110465926032772/tm269445d1_8k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000095017025061206/nxst-20250430.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/nexstar-executive-vice-president-and-chief-technology-and-digital-officer-brett-jenkins-to-retire-october-1/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/company-leadership/perry-a-sook/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/wp-content/uploads/2026/02/FINALNXST4Q25022626_f316f5.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Merger_of_Nexstar_Media_Group_and_Tegna_Inc."
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KDAF"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KTBU"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Perry_Sook"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Nexstar_Media_Group"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Connecticut/comments/1ryy49x/wticwtnh_ownership_merger_complete/"
+      },
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/a6fa29ed77fec7fbd4461a4988dd6730"
+      },
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/ec9f2def13e1b31b0e2c0437b635a932"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1s8rz5b/will_tegna_rise_from_the_dead/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1u7ez53/curious_if_anyone_has_any_reputable_rumors_on_the/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1sum9qc/are_all_the_tegna_news_vps_regional_vps_still/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1mufo1r"
+      },
+      {
+       "type": "url",
+       "url": "https://www.tvtechnology.com/news/nexstar-extends-employment-agreement-with-perry-sook-through-2029"
+      },
+      {
+       "type": "url",
+       "url": "https://www.axios.com/2026/04/20/judge-orders-nexstar-tegna-to-pause-merger"
+      },
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/c1743d55103a809ea31c5c7c7c4c0c87"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/politics/comments/1s84p6m/judge_halts_nexstartegna_merger_after_fcc_let/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1ryg52u/nexstar_media_group_inc_closes_acquisition_of/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/CordCuttingToday/comments/1usw389/court_dismisses_challenge_to_nexstartegna_merger/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.tvtechnology.com/news/nexstar-seeks-fcc-approval-of-tegna-acquisitio"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Iowa/comments/1s13liv/media_ownership_nexstartegna_merger_approved/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1rzf2qi/did_nexstar_add_their_copyright_to_tegna/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1mufgnu"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/TheBusinessMix/comments/1ryi37k/nexstar_says_it_has_acquired_tegna_as_state_ags/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_0f9a1b7a934a4f1a006ac2d31a4c0887d1a37abeb41aa9ee5e",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"WFAA-TV\" \"Belo\" \"TEGNA\" ownership",
+      "Nexstar Tegna injunction September October 2026"
+     ],
+     "query": "\"WFAA-TV\" \"Belo\" \"TEGNA\" ownership",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/39899/000119312526084392/tgna-ex21.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/app/details/USCOURTS-caed-2_26-cv-00976/USCOURTS-caed-2_26-cv-00976-77"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/app/details/USCOURTS-caed-2_26-cv-00976/USCOURTS-caed-2_26-cv-00976-81"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.justia.com/cases/federal/district-courts/california/caedce/2%3A2026cv00976/484734/292"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/USCOURTS-caed-2_26-cv-00976/pdf/USCOURTS-caed-2_26-cv-00976-77.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://law.justia.com/cases/federal/district-courts/california/caedce/2%3A2026cv00976/484734/306/"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.justia.com/cases/federal/district-courts/california/caedce/2%3A2026cv00976/484734/306"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526339827/R22.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.justia.com/cases/federal/district-courts/california/caedce/2%3A2026cv00976/484734/172"
+      },
+      {
+       "type": "url",
+       "url": "https://ag.ny.gov/sites/default/files/court-filings/nexstar-tegna-merger-litigation-preliminary-injunction-2026.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://app.midpage.ai/document/in-re-nexstar-tegna-merger--40dc7aec-5a75-46d1-9455-cf4fe7661491"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.justia.com/cases/federal/district-courts/california/caedce/2%3A2026cv00976/484734/290"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.justia.com/cases/federal/district-courts/california/caedce/2%3A2026cv00976/484734/60"
+      },
+      {
+       "type": "url",
+       "url": "https://cases.justia.com/federal/district-courts/california/caedce/2%3A2026cv00976/484734/172/0.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://media.cadc.uscourts.gov/orders/docs/2026/04/26-1062LDSN3.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-418958A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://oag.ca.gov/system/files/attachments/press-docs/Nexstar%20Preliminary%20Injunction.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.justia.com/cases/federal/district-courts/california/caedce/2%3A2026cv00976/484734/145"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KENS"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Tegna_Inc."
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Belo_Corporation"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Merger_of_Nexstar_Media_Group_and_Tegna_Inc."
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WWL-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://www.youtube.com/watch?v=DrJ760fvOCA"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1w15xxs/another_source_of_material_gone/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/MediaMergers/comments/1vhgev9/judge_rules_nexstar_officials_no_longer_can_serve/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/CordCuttingToday/comments/1us2rr6/nexstar_appeals_nationwide_injunction_blocking_62/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1mq10d0"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1u6czo8/tegna_stations_included/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/CordCuttingToday/comments/1usw389/court_dismisses_challenge_to_nexstartegna_merger/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/MediaMergers/comments/1v851xt/do_you_think_that_beth_wilkinson_will/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/CordCuttingToday/comments/1toi0sw/nexstar_appeals_court_order_blocking_tegna/"
+      },
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/72bdd9927bef9d7a0a014eda13d32ff1"
+      },
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/ec9f2def13e1b31b0e2c0437b635a932"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1v3r7ii/state_ags_directv_accused_nexstar_of_controlling/"
+      },
+      {
+       "type": "url",
+       "url": "https://apnews.com/article/a6fa29ed77fec7fbd4461a4988dd6730"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1sf9n7l/nexstartegna_court_day_listen_line/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1u10y6b/nexstar_wants_a_dc_court_case_over_its_tegna/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.axios.com/2026/08/11/fcc-broadcast-ownership-cap-deals"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/39899/000110465926032772/tm269445d1_8k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/company-leadership/perry-a-sook/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000114241726000016/nxst-20260430.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/nexstar-media-group-inc-statement-on-preliminary-injunction/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0f9a1b7a934a4f1a006ac2d3213fa487d1afa42d3f8ed2e9f3",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtN0mgVfyLzRywt8smrplQcFtkbFUDDB2zPMsyKTndgpC6w5EYmnVnR1n0w56GCQ8A0fCaQznGutpKVDguDdmoKr4mDK3gZv2WCEpqtpNavq2EDq6vopICyU4jF2YYiYwFYXBzND8uhsb1onVoMdkd81_5aKzt3bpiDA7bVnOkjeIrIC3joMuJjKFmmnvbhcpk5v_6Q5OH3b5fLfD6ELOcfEV3SVIj0dan3qqCTIWB7L9L_yitpvQ_svgZpvRUjPo4ujrC4chSPVST6U0Cr8i3TzQ5E9-89YItrSo5xOJoqRXBBYOePy5uEEhugmACCNSjp-cEOsi9FcxnqaqqskMUAqcRWcdXBu-tAb5XfnzQlKmlFUKxJUjRfvBhzcueMpwc7ZfCuYttDtoYzK7h005NU3gIFJ8yNbkd35kRHGWo5_fZtHqpW3zHtA6DYxgMWHpIp3ItQrmJpCVctNAYFr4Dhlz09_06HCdBHs7ktuG61KTI8UnSbmKXmOSGSuuS_6YC097cRE65r67ViyItP13LwxiAJvkXMzOFKDsUTYCPcqbNp1tVm4ahsb-qlrimYLoHSmnvQa5E9D_gJstBm507TPJOWHSyObE0EwfiMntO2HX-R6u6IHWe6fFBi4mbIOqAYyKbnfsMejgN77DKqpPEgcLxwXAkb63t0wWSC9-LO3PnzvbWIYYoUUEJ1TJZxD5-73BcLuBfZhRG2A-NR_dZ15PF1CZsZr9bYt6G7FstFzU6MdmHwbVv3TIOzA5FnAAf39Uyb7pMpBoOgKtvgpxuP0Ygjkm_lhzkXVR2o6GmxwKiycQWs51iIAT8M3f916wbBvUvNWq0YCU4qUiVXMTJtqK7ObslDS5_CbdsDpVSMpjG4ZjWnu33HPuwFhPLo_zgF-AfWlHozMzcBxBOJNZ8LRqAyWScqO2Hy6s3L-dDyp0luJXtq83uak7xoW8Wwf64MGdPqpwRcwtsQjNB7FfjKh4IIBNNRVlV6nAWaWR7G1dvlMo21bNsxMIhCduouu8gsfnerbC3xtmxnPHDKFmLlf9ssqneJULXu7prUTUjnOU3cfoVBYYaT57SoPy-HZKjKzRVilsk1SyLBHgq0_6mLSr7G_lFLEWPNh4hxeEn7AXA9SsAysmRUHiJcCa02mUy3AOaxYWzuzhAq7Y_UcmBVDplYnNI19XLrXqKjsZNG5OTiLirMMP5R48aVqq1csf3wwZgEcvjxFILZnvCF2RN-wniGSn53S-PIzGZUZILhUNNg=",
+    "status": null
+   },
+   {
+    "id": "ws_0f9a1b7a934a4f1a006ac2d321593c87d19b36e8aa748d76b6",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"WFAA-TV, Inc.\" \"Belo Corp.\" \"ownership\"",
+      "\"WFAA-TV\" \"TEGNA\" \"100\" \"Belo\"",
+      "\"WFAA-TV\" \"Belo TV\" \"2026\""
+     ],
+     "query": "\"WFAA-TV, Inc.\" \"Belo Corp.\" \"ownership\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-267A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526212539/nxst-ex10_1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://device.report/m/65281f38785b28f3472193bf301fd1826bf1830a6b5bef956e9553fe648f4eee.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC-YB/1997-TV-Factbook/Television-Factbook-1997-OK-VI.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC-YB/1979/1979-BC-YB.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://www.npstc.org/documents/700mhz_whitepaper.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC-YB/1983/C-TV-1983-YB.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-TV-Digest/Factbook-80%27s/1988-TV-Factbook/TV-Factbook-1988-All-Other.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/17038546899"
+      },
+      {
+       "type": "url",
+       "url": "https://device.report/m/a31b70de735d5b43365e0182b82fe2bf618d11d6fcf121e8827200a8d35680b4"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/17038736600"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/356080/000119312509235921/dex11.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/phone/12149776606"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/12026625552"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/356080/000095013407004557/d43809e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/belo-corp-32805/contract/762065/"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/belo-corp-32805/contract/762064/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/17038736606"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/a-h-belo-corp-3352/contract/61116/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1sum9qc/are_all_the_tegna_news_vps_regional_vps_still/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Breakfast_television"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Owned-and-operated_station"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/u_NoInvestigator2913/comments/1w4zqre/paramountviacom_au/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Flagship_%28broadcasting%29"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/Broadcasting/comments/1rzf2qi/did_nexstar_add_their_copyright_to_tegna/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/39899/000119312526084392/tgna-ex21.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/39899/000110465926032772/tm269445d1_8k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/company-leadership/perry-a-sook/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0f9a1b7a934a4f1a006ac2d3270c3487d1a75843bf8ef1f756",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtN02zgqvbanh_oex3zMNsZDBxw43e0a01fu4YmTyL1XCvciH0tbgVk0ZCp5zOax-evATZIwwLfwUsHzHc8W8aOlxOR4Tw1LEUi5DUNt7sL0BC3_Xgsj7B-0z0dTCOhfLie2GK_jzDY8nvWzNma9ddlb3z3DV5VmrI-PjcsVoGpms0kcQIB84SOh32mOHyBS9S3rPkVG6joFNc4OQfnpeJbiSvB7JsLXfwa30moxAaeWUFoWJO2ljgLdGCicuUq8MKCG2bp5S1TKq0cmyEuIhMvqCT5WDG6zmuH-uB2tY1fx8zTJlve3S0Xt8wF3Jv6BpzSrLhwMdFjQPsF6y-FxEq3PXOohl5m0Ll4aAX3YBXZXjgI_i0IytLv0q7nMtb4ghE4xJ2tGxz-G0J-Wve3RDHkrvyqha3pwm1RWq3sGJ4qzI3-aZd7-IH4eMtWsKXDjIy-J_jnnNRihO5sKgjTKIoWyPUCv6eb5q6asKRRUbtLPuEYbPFxcM-Scsx-Y183MC9OVLAxzFExrI2C8otvcyCmTCSQmpDdKI6i7JYgBMzlHGnnVP19zZZSW9oK3PPN_nKzhUezx8J0A8fh7rYM8I66mVk4R7RQZbtHSacuB3pfP1iysGX45xuQkDT0qYoCYSKZGgXdKv2vCaNJQo0S5UU9t5D76yAQ4Cru6RiCVrlgn4QcAKSy1bh9u-quCwR3q4pUo6_mO0VZP6YISTqrubkWY-HhGbRtmegTfHUtdIdQzOAzHCvP6KfHKRXLCDUNQLy0lsMeMxm73FEnu9eEdrP-JgJNZuhyPS13gYWiUDMBgwWGfPzmjaqwGHduaZi4E3MVydoa_HCWjTqWptfT75yNySQOHggkDsPat_lsdpWl05Is-d0M6jOYJ3JCX7T4MQxnAhyay8u1K59CZ13wWfUj2ZyQLFYWRzcFVpidUVjdxqziBMAFkdrB4MkO1KydSjF5okbDnQw1g19kCtLMOms1dPneW5_0yIUAb2_JecEsGm7OH3bHUzyFD76afyaSbroStNcad3HzdkCdtM4r_LWgFjUnhgb9y6w-izMZq0bRCz9g6Cx9ibvASvAK0d_txsGHcim0x5qU399KRX63KYjmePhmFLo23a_gZQvJnwLtjUGYDugD3xCLPaYXPHt-NbCMeElYwe1UMfYuzB33sjrQn3UVaoNu0qKdQqYG-Y2RyJNQcIWHoDly2R77AqxC-LbzI0AP1FT0KmOYabml2N6vQet3oHSGbCAFtD8l2NrBPWm0zy7RdkLwGftIYTiVGAqWIjUv4RV8gvpa_pYCvcAha_dX5oNfXAprrDR6cQ6otXLI=",
+    "status": null
+   },
+   {
+    "id": "ws_0f9a1b7a934a4f1a006ac2d32729d487d1a305de5ce8aa0206",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"WFAA-TV, Inc.\" \"ownership\" \"TEGNA\" -site:worldradiohistory.com -site:reddit.com",
+      "\"WFAA-TV, Inc.\" \"Belo Holdings\"",
+      "\"WFAA-TV, Inc.\" \"direct\"",
+      "\"WFAA-TV\" \"72054\" \"2026\" \"licensee\""
+     ],
+     "query": "\"WFAA-TV, Inc.\" \"ownership\" \"TEGNA\" -site:worldradiohistory.com -site:reddit.com",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-309593A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-310943A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-382985A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://newsguild.org/wp-content/uploads/2026/04/Free-Press-et-al-NOA-and-PFM-03.23.26.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/FR-2026-05-08/html/2026-09193.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/LMS/0000014620"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-418795A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f9172fc71b001730621a2ef0b5d&sCurrentService=TV&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://kiwix.drnathanhutchins.com/content/wikipedia_en_all_maxi_2026-02/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://www.rabbitears.info/market.php?facility_id=72054&request=print_station"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/IBFS/SES-ASG-20210209-00257"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/356080/000095013406004331/d33360exv21.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProFacLookup.php?order=19%7CD%7CN&sCurrentService=TV&sKilometers=50&sLatitude=32-47-00&sLongitude=96-48-00&tabSearchType=Within"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProULSLookup.php?tabSearchType=UMIB&tabTextBox1=2852783"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-274232A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KFAA-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1472189/999999999509003015/9999999995-09-003015-index.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://newikis.com/en/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KTBU"
+      },
+      {
+       "type": "url",
+       "url": "https://law.counselstack.com/opinion/nicole-ellen-tilford-v-tegna-inc-et-al-txnd-2025"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KHOU"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KENS"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WWL-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000114241726000016/nxst-20260430.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/39899/000110465926032772/tm269445d1_8k.htm"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0f9a1b7a934a4f1a006ac2d32def3487d192d775eed859121c",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtN0FsXiHD2Me5XIIZ1LC9Yiaj_TaiSr0YYTjz-tKknowgFaAcvQwwByHVu93F_Kxk0RdVqVV2JYxI3i-QewLUFRxruzDhbL9FTYatelF4uRPIMGa-19DshEjlCIhFFNKCDF3lquEiaTeZhqN16jeem0XcOchYb0mgewWlMs0t3ykhsvKrwv7YamGZ5lLSnmGXsOL1qP0kL2hV40-vj12zNwHEU6IrP8p3tIJlPwYmp8SkmHehL6uQborLhr5CnSs_D3qZvWe5Mj7FjYVnxbwXrEhR7Pg2EBdUFBfh7ZI5bZnaLqRlK4p_eo-KI0-Qj2aqt-Zzt2hVb_0miF1oKCZY5SwLhRqM8GTfVpsuSd2T5tZ4rFMbS5AlFZ_sEEqUX30Gr0kMAnTD-dvKfe_fvzQEROgK36yEhZ-XlOLL-hO84R8H_xiV-gBT8M4lWJb4jD9t01MM5thnWBvZ_xi_FhNLvAnn5l90hoTdLbHhZQ7rhUwV8ppLGiAXp_fcdB8xJ08jkU5U8TOVCYgykvSJ9f2YWaFLEdp26sC-JPpacQzet2mJfFZT_5NGIqJCew7oEfIbzG_OHGfImXFo8FN28k4iZG-3V_zW91FwjI7Ja5Hr5MzrOHzE35Bx1HqcI_OXvEw-jj6zEuSG9AusTWtLOczU5tb4H0GQc5ftTAVephuIaAll1TZjVDwvfnVrkyS3xlphAaWa-SpvWvp_tVlXF_JY0d2_eKcp1cit6VTSF_r4jzRbGJwoml-FUBYUA9wZtWipReZBqKD5mgnbwIgz0Mo5tNjgjDSt-txniSFjhSrtxahor-59VS0dtHkL4g0DtA4z2v-y7Ul68NoOtRpRW8pz9bbYQmdQrYoFXlz0-KhRmWoVj4DUob8Ncux4nRFWGSFIp8Mf7mn6TtPFeFuolk9nyNu7DgRc1Jjlo25FWW9H3CO_kSZkWayuAJZQLEArRTopNU_lMwkr1G0mwjQNgkFe7rwUJB-ifPdmVZiXbIOpj-I1cCvjRck-NhctXwiFiKgXgHur_e-DdK1uoQKl3ijpt81I78g9fDfdi3TWOZYhaNIZwXBf-U5GVoRVnepDtr47Hsbxqfyq7dDsyV6ys2PIQRYNHbeFao93nT5T3elsjOfTqbcNOT8t-XV-AFBTFaMqOL1KT6C8zCR9L1uwRm5eYQeK6mWGyZbw18ill2yis7X_vNZ6zVocNJwjP4fTm9UGuqZr1XZrC6N-QU9Vdfbihabo0HA3793gexcIkEwvk6Shsbsez3IYFnjwkhQfVV1BJfyUQ7x_WKflocpDqPxoncIXaG7IRhmuwtzK1OR08Z7b5Ww0cvOw_8z9QzT__TpE9uvV96vVpQFfxkaYA48APTV10Z59f-L5KxIpG34dFP-hJ3CwMLaQRPD3qS2qW9M1QaKl1CdzI7Deo50TpCYCswsQ==",
+    "status": null
+   },
+   {
+    "id": "ws_0f9a1b7a934a4f1a006ac2d32e538c87d195ef55eaab35ab22",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526212539/nxst-ex10_1.htm"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0f9a1b7a934a4f1a006ac2d330c56087d1ae3d8ac27d550073",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtN0SswfOsYbDoBESJGjhc-inrt9Yn83_neWaU-AfesdB0LYcKS2p0lbRB5bfaJoMXNd6NGwOEXpw1QqYlJmZrBVMAzwgEBfptmvppUpk4KqizZCOW4tGGoNG6pUi04ajq_q8n8Q5208HyQhehdv0vxvRYtHhXasPgbdpJqTW9v7lGWJWJPk07PiYkXpBhByy4ZER5Hqox3W-PnZ4eJK09rtF0rTF_K96jdMCJkdbAViBZQrcfz0HzXCjptK1e3jmWwqROVAE31C0lG55It6d9-r2EkkWAd44eMlWaB7zvTQKf0_5QwoTmFPb-fnmbroOK4pT1vtHgBvHX7o_GEvnc24qj-NDoYchjvR4TR6CXw-QRcUcvEgTr2tN7CTfO6EFas1cqparggO1g8vkU8AfpzNM1_wisingc0mp27fmpsVVlp5BPvfH29laBBXkVvyjfoJd0oGF7w5s6cbZ5GNln1D7Qh1sXeskzyks06tXIERTU5DR4UqAPHH3gtkb3FlwX8VerptUa623PaR6Yeaq6OPTCfvc5J3quV3_01MQ2JOQYN4SBt74evJUlheNZoyyAUG_5kJiDuS-BAQ0Eh-YEiPDsHLw11XNw3X6s4aIxxEx_3Epti43VygfP1MpL_rfLyTOH3sG1dJ_IClBdb_B6E1n7eYv5920nwmewLagOX-incMLvflOH5IClFC7Lb2eq-DDlaLfjgdGjI7c4FfjQs9MB3llCs0VW0e2gTH5CJIwiJdKXs-bjJ_IrZQ9ItwPeTvHB7izoLZ-avyL_7ICT1qM-9g13KnwGVA8t6mFrzJQErFQrKPpSof_j1G_-hCBJEta4Nht-JsC8VvBIcSHWYor66kbFk6qZHLlyyCdAT8jZcbDqHwibKkFANr5kUrJLK83dqbVqWiIy5Bdz1xYr5_Xm8ivOPHAWyytsMBXet-kk5NpIfaQvPJUnxlDHlRKy4_mifj2lYvfRwWdTmW5W-5nWpUVBslEEL6Elup3QruTInAIcXAEy307a1T85tuaWpUVRsZ096-t0dl0swqhzHA54HVbl2LWBmN77QnsmopToBY07_8AleYMY8sbXsGXuU5bpEotcLj-7czgCDPZ3rIcAyK8wxOIBTvvl9eGc9Sg-7GOiuHj0lscAzu-AnqhdhB_-MfBJzMQGbSoSf2BtQkiIv5-LSGJQp744JnhKT95v9QcAil-pcD4zC8bShlLqgx",
+    "status": null
+   },
+   {
+    "id": "ws_0f9a1b7a934a4f1a006ac2d330f92087d1961cbd33654240df",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"WFAA-TV\" \"Belo Corp.\" \"2025\"",
+      "\"Belo Corp.\" \"TEGNA\" \"direct wholly\"",
+      "\"WFAA-TV\" \"ownership report\""
+     ],
+     "query": "\"WFAA-TV\" \"Belo Corp.\" \"2025\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f9172fc71b001730621a2ef0b5d&sCurrentService=TV&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/39899/000119312526084392/tgna-ex21.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526212539/nxst-ex10_1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526129955/nxst-ex4_1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.dmagazine.com/micropost/wfaa-parent-company-may-soon-have-new-ownership/"
+      },
+      {
+       "type": "url",
+       "url": "https://dockets.justia.com/docket/circuit-courts/ca6/26-5182"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://www.rabbitears.info/search.php?owner=Tegna&request=owner_search"
+      },
+      {
+       "type": "url",
+       "url": "https://courthousenews.com/ad-agency-claims-belo-corp-retaliated/"
+      },
+      {
+       "type": "url",
+       "url": "https://class.unt.edu/journalism/academics/scholarship.html"
+      },
+      {
+       "type": "url",
+       "url": "https://wiki.knf7.com/content/wikipedia_en_all_maxi_2025-08/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://wiki.chogus.org/content/wikipedia_en_all_maxi_2025-08/Belo_Corporation"
+      },
+      {
+       "type": "url",
+       "url": "https://wiki.arcsnet.dev/content/wikipedia_en_all_maxi_2026-02/Belo_Corporation"
+      },
+      {
+       "type": "url",
+       "url": "https://www.rabbitears.info/market.php?callsign=49330&request=station_search"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC-YB/1999/1999-BC-YB.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/FCC-07-216A6.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KDAF"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC-YB/2000/2000-BC-YB.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-Television-Digest/60s/Television-Digest-1961-Q1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-All-BC/Broadcasting-Magazine/BC-1954/1954-05-31-BC.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000114241726000016/nxst-20260430.htm"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0f9a1b7a934a4f1a006ac2d338ac3087d1a221eaacd462ca57",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtN0TpEckJKW9ZLgBxL1d_PJM1pCQ8GtUHagIagwr9Th0jV4mCCwYmAhDFRVfuPCHKGuso6wc7jZP9NiW2ePF8-caRFDG6GbdwW8ySPjUvAK6I-jd7SEYedAHBW2adcrjazFJykOPjBKo8KO4q32LveghOIhuTP139ajeqhWpVhC6p2FUdbBvDJc1FZ9yEeiqwSiz-hZ3RKUYdaaI_zfeBhOGBbKRx2E4zHVZnrUsATmSJ9u1ph1nIJBbsh_QxpQeMM9Gvct-gUAHsdAEi8JNeyU0xiC-33b0EUDHn9K_DyJRI_kY1H8SpPD3xNN-MHj_XbUzQbGEbB-552VYSKZAMU4_L9yN58LgzaKRvkoHYieIPYuvmaonOSAp0XK3kL49n9lZl4c2JFLUjAUfqEHUQx08qYvzDZnmvNuR7BNkj9gIcHt9jnaXEBpgQH4qg6cr3hZIMDu6NA_ygHvJ2zUtD7DhyGsO7m-1h4VgFwj64V1kpUYehxhlMq2LbMkIV9twmcmPPsKW_gZwTncXDDb6sxGDR25P5dn6QeGbaetV6tiJN8lpuMFeR07WU-VEBIMtsBAJev5vZ2oN1gr0r_qX6Z4KK-Kef2X-0AjfXi8gaKNFFoivyj4yQk7vWUQEH7jR2ctI9-1REtLwYeD9EzcoTtwfM_VN1rS7CY8YhtTcMs-jF4vgROiYpMjn_2cNqh8ZJdN3R4SoBrO93cI_xk1g4Gxev4PNbkr8lmkHa_vLOwiB59gFYeLl-IVZYEVIwZJLUA1NhJAKIfOm9XDY0kawF-BPUTBB_0MbXQxz7bqECWs-kwhI7-nlmGfF7bJvoL7JZVE6kFNpfqcaXgb1jIuu8sWVyk9Cg4gMFdGN-pRn0z9Mnnt9Y8PRoWs4fwh6BZjS84YY6ICTo1bQ_ZdWIF1NBY4LCa7tcLVSF8oeLii9Uick2cdtRkjH-wP_VczeG-bTDNGaU5lhCmRGrPkzFoYU4v554k7N3TE_Hjcje8da6R16mYIGWZckH2C0K4AHwj7tpIvyfVF3t7fONzEYzxikcMd-R3qMn57vB-qsoUwWNWMwgdJccg2P5C5ZjysAvDl0WY558QDYI7mc7NfX5Tp1IdKbUhlGlt1izYbGoU_RN_h2abjZTORDhsa4HNV_kFyWotTgMBAyuf0Dc1modpe0LXNPb6mcSbR-vHYf8aShXxMsNZL0zT617tq9DMd_5fvK4QrS377oenkGcDMrv3EkS1HLHdJ0T-Yfcytl0EqGBjbs5WEcvcqmHStCKuwLOCrUcVj2R1f90Ylyd0Mc8rBrQwVfjwIIpUP_2BVwcMBVkwGSKvCgYbqlMr8JyMPNfy15mGGoW2Mcq5HhGx2DR8_AAKk_XF83mxVGDAA2d7vhz3PGm3x0E5e4KvpizulUWi03cy9",
+    "status": null
+   },
+   {
+    "id": "ws_0f9a1b7a934a4f1a006ac2d339386087d191e89622518517ea",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"WFAA-TV\" \"Belo\" \"organization\"",
+      "\"WFAA-TV\" \"Belo\" \"100%\"",
+      "\"Belo Corp.\" \"TEGNA Inc.\" \"wholly owned subsidiary\""
+     ],
+     "query": "\"WFAA-TV\" \"Belo\" \"organization\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://fcc.report/IBFS/SES-RWL-20210419-00712/6155668.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://dockets.justia.com/docket/circuit-courts/ca6/26-5182"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526339827/nxst-20260630.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.wipo.int/amc/en/domains/decisions/html/2006/d2006-0787.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-International-Television-Almanac/1984/International-Television-Almanac-1984.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/356080/000095012310024140/d71254e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/tegna-inc-1268/contract/567246/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC-YB/1997-TV-Factbook/Television-Factbook-1997-OK-VI.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://americanradiohistory.com/Archive-BC-YB/1960/BC-YB-1960.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://legalclarity.org/who-owns-kvue-nexstar-tegna-and-station-history/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC-YB/2006-Factbook/TV-Factbook-2006-All-Other.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526139729/nxst-ex4_1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://worldradiohistory.com/Archive-BC-YB/1991/1991-BC-YB.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/39899/000003989918000029/tgna-20180630xex10x1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/index.php/companies/tegna-inc-1268/contract/446965/"
+      },
+      {
+       "type": "url",
+       "url": "https://broadcasting.fandom.com/wiki/Miscellaneous_unorganized_material/WFAA-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://financialfilings.com/filings/tegna-inc/annual-report/2014/14234194/"
+      },
+      {
+       "type": "url",
+       "url": "https://allpeople.com/gary%2Bultee_wfaa-tv-abc-us"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KERA-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Marty_Haag"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KXAS-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Dallas"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WBAP_%28AM%29"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Owned-and-operated_station"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526339827/R22.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/USCOURTS-caed-2_26-cv-00976/pdf/USCOURTS-caed-2_26-cv-00976-77.pdf"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0f9a1b7a934a4f1a006ac2d341061887d1a94efe7d86552ff8",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtN00sJTfQYCdEgKdHlNx_iK1Unq-Ki5Xsi2nZjbmnq0FRBRqlCp7rXhTiAi7EfynQ56ueKD1D7FDJeWN7U7NUarnIQww42us68y6cyC_kKmf6SyNdgoKblg8ARpfsBoEFjEPrdhjF1sMVdSVITf_Tex583OavcqPbLX-mY6RUoFtiZz7EscP5Zdyd2g0_7A-d5Vl0jqIxLeRISfzW9qDfiVm29rg4ZHFhRUEJJjgw8V3q4H8OFXg9vyVh_bjTTXOyb_m5ZZd60baV25R573vLF4GgE6yv70gv2-Cpg83CRVNvLw1dicNAl9ZymNvLpWyYJJRqApHq_XPhXbusU6fmAWoslRrkheIOFwUonBCS__ikyx2zcgEYXr6hq6K93i1L2ypdZuftmBn-tmUki5j58Pj44dCIjbDZOph4GgWgBZeS5aPiOJ5gioKmyGpk96yUFZs-pJzUc7Tcblne-KdtUSyjfyIXg6sD4z6bcuZtkVKgRRgK7sol64r21RHXPNO_yLfhB4ndOUG5Fe3gzQaQ0VHFN9rayAwUq-DF3aDJUrjvmrHmuVtrzV5eR3dBf7XmCTnqa1J8NAApuMEYrCszhTltjjnQmj2Ii8wmAbb6_cmbCM2b8G1HSNGfHYW9-zfVWUDyC727IM4oiHs-hzj44vwomf8I5lNnmPHXivxlGSrHXVGUF-b3qUMZhH6CSrX5cl77O1qLxudxA4dmBFnNbP5Ic7biYYipnoLmMUWM62V9cw0K9b3nY6GDZNki2vIvoZMoxSwiI6PEVu5hpAvSqm1io-uEOPgBkxFYy7jjS6I0MksY6OUVePNtWRFPF32lZ1fRcFE6CGf8qnvPcpJTB9juEiY5nUcSpZ3IpiZq_PfuQF0YGZaUtdgFBhPZSqy3-cZqwpkiKwL5HR87PQ58w9-Lg58J1vZFFGa7dxeNyLx6ry69ejqkNg7O91sFBXYt3RUkbC-SWA2VBh8bpx5Z9rHUD2xrTDcC0xE5CHLzlvEn7d3-InuUbo3JDVRoVQR7UcLWJtO90CZ0MU2PwrGkQSBxBwsCfEFaOuwgq18F32u1_VBzYiP_dw4ImnkC_1Vlura-G5k_u-syjBcEzv5CRwiGfPiC0H5l-mpX-hl2UcrrjPMwKaDw95L46mnP978mSP3xXLo4-EZZ3Mp-zrGrzkaFPaG1g9dRe8Fmyp7pyAsDRwXQNwpcFAQ5WI2zliHDYPKs1FsDTRqTAdJnLEbsahP2j-lw9qC71SA6nXuEEL4-RGIgTIkdc2_DF5AZzmTkp6",
+    "status": null
+   },
+   {
+    "id": "ws_0f9a1b7a934a4f1a006ac2d3412db087d19079f104563f2e66",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"WFAA-TV, Inc.\" \"wholly owned subsidiary\"",
+      "\"WFAA-TV\" \"Ownership Information\"",
+      "\"WFAA-TV\" \"Belo Corp.\" site:fcc.report"
+     ],
+     "query": "\"WFAA-TV, Inc.\" \"wholly owned subsidiary\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/IBFS/SES-ASG-20210209-00257"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-309593A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-310943A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/IBFS/SES-T-C-20130619-00527"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/IBFS/SES-T-C-20130619-00517"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526212539/nxst-ex10_1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-13-2423A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://openjurist.org/769/f2d/611/rubin-rubin-v-belo-broadcasting-corporation-wfaa-tv"
+      },
+      {
+       "type": "url",
+       "url": "https://case-law.vlex.com/vid/rubin-in-re-no-888085107"
+      },
+      {
+       "type": "url",
+       "url": "https://hallapproved.com/us/cases/ca9/1985/456283/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.casemine.com/judgement/us/59148e31add7b0493454ff1e"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-All-BC/Broadcasting-Magazine/BC-1973/1973-10-15-BC.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://case-law.vlex.com/vid/in-re-rubin-bankruptcy-891095377"
+      },
+      {
+       "type": "url",
+       "url": "https://www.casemine.com/judgement/us/5914c356add7b049347c58d4"
+      },
+      {
+       "type": "url",
+       "url": "https://findatwiki.com/WFAA-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://findatwiki.com/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://calculators.law/caselaw/decisions/l0DRLn4KY3Bb/rubin-v-belo-broadcasting-corp-in-re-rubin"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC-YB/1993-TV-Factbook/Television-Factbook-1993-ALL-OTHER.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-All-BC/Broadcasting-Magazine/BC-1973/1973-07-23-BC.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KXAS-TV"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KTVT"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KTBU"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0f9a1b7a934a4f1a006ac2d348cf8c87d199b1b6e8d3c7a4be",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtN05HBj3h9eBvKILCMpMwn94X_RdIG8JRI3IVrZRQ4jkajgT0xUSiwaoPmWfgdFb-SKnLtGgaedI-AbPwb2AusWseoYUoKiSZ2x4EHKp4P4SBqMvFCxRTwowPeCSxezcdLZ3rLedBiaRgBiFSBDcZwfAvGFPg7kWvMMIJRExmS57tzsd772xRkZd8CxAT5riW0YuOuxC8F7pAjnItmlEd1hxJvtW-DlJ0s2NwLOP6chz82UrKHFeM5uaNTR0fuOmsbumExtroZvJoBru4Yxi1ej6xZcaSVj-nj6wZ96pPXkqUcFoZ-j3RFc2g-6PRdyPcSWhL99Bg1uBSIgEBbf4A_iX3Fad9shX24c58RnfbLKIhBonmAO3PIjDpd4_UzX07eM7-iS5S_fkbNjZiKKetaJMBMtcwGVsTnjB-5go2jUJz8fSMuuyRUDfJAvA2E56GtYU-M-hhzPVGtp1YZ5_QjNyNY4ORKio5PE_0Fk1KkeYhBUiNsEOxAydvoOdDmAU8qLiuDCNmaQDlC2tF3-dAu7iuAvtU7VshlXMNn9vunZ0-N-5vrSN7VG4WuuoHUl-8xZZ4PeZ-Y4FokCM4pkE7cFyvAlID2ooG6bayDnKxDK-yGo0E6kjlxuAZgVadk4LU-2-xLpyonHcQa9M_4hWYTNeNlIpBscDrRI2oWN_Ftgp3m9rBTZOhy12fLCpW7k0aGWh-R7xT7AG-iRcMkS3WNurHNhZeCvRZvny7okrUI07sCBr59HTya_zF-Ax6gCMmxwUU3JR15YzNtdjU6sgMha-8PUph3VKhn3dJFaBoz2Q7dZdGu3q1DiPlNU9TDK_QglShq_tMJch-07CIAxeJVsNMBXEfV2GgY5qc8onU7iV38E_qfGrsFviW6srjT4nzZrm4BpNFstytDU_OZWZowNa5EhcRGxnQ76mBqpybyhvrhUZloRalPGNk4vlB8jjhAiOveIKiFdxY_CbEVRrTfWPQYj8NHtdE7SH19MTNqvOPoRityG5zDGFx3iH7UUkCqEoYgxTiwur7-u3soOJDauMQqJ232eIYGIIFi5fK83xM8_OEce2L42jFPC0uhnvpvfG3AuULDpi7ndPxBu82gzYCwxu808OM4AHfPsiKmhfb7hvggHNivwCVlTlER2BrzFbDmcMo3GHbBo_riNEalObpVWJf9k_lRjm23ubi-phW8vpdYs8QiD65ZGN4IHuhlg52RTUMlR8-41oz2wmDJS7XLOwfC55UiONTbv10iPD3XhUsaVtBo5KjwjR-fiFrcP",
+    "status": null
+   },
+   {
+    "id": "ws_0f9a1b7a934a4f1a006ac2d348eeec87d196079b990aaa321e",
+    "action": {
+     "type": "open_page",
+     "url": "https://fcc.report/IBFS/SES-ASG-20210209-00257"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0f9a1b7a934a4f1a006ac2d34c1afc87d192deedd0634d15f9",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtN0a8blSO1ybDZFEd-hwgKLDF4fitx8K6SOMU_0ClyjXg93KqvtHT7MzqvHlgkcLOosLFOnT1e7GWJul1gfgV8GqMZSSoeszAcaCwbg4YiS9J5ntLw-g_QbYIh5eyqoDqQdI1vrlxLvcSuctZqkb1wjchca5OJuQ2LS7d2EFlNw6DsWiH5Yxro9Nfi2vZFVIijUcrv5m9mByxQQu17wFOZLcajkLtPtpM406nolLlLfIWOAGG-B_8IlYtRPzjiVVJDcr714SVRhhBQBVnr9cg78Ah9R9ym5_XUgYNcjiQqVY0O7fcOsgmHwKsmLJK-Qcmzj99tEZ96HVxOL4aqPLrtWkGn1YRmqV53zKgPnbMSIadz2v5_Ud1WFIHyIyfKt-LhvWb1jPk57OcdKLoWWeMtz1d_Ls2i4kfRt3_K7O4I24MNnx-u7pZ1sEvVfcmai4XE4F3D7Q46DpUrum0PCG6i0-QLF03SDNxNpoa71dYB86K6gHhJSsAKiVUVDt8eXtAkx2N9Br2_gVYFd8Fi3uGTBZ9Q6He8bLl3X9Z3mG4raSIiPJmflAyuIG1S6nrcU1bcupdd505sNL5WoL_m-ggRnY6t6k3QtAvdAziIsiOVO1IJtMtruTJBjzya61NvcMCqP_FwekcytXJoW_NLHOk7gRbJ0wr_Jz4umxYf5MBEjaTG0CPgWpuGmI5x1xY6HWfTL2UiqvBbmzWZgTiTcs_ejPu_FHyL-k3XSiTM9Vv9H1MLdZfLmg_kO1XRhK5wtdzqxDk59jO7dBtnIEMR7ZRUB_VqHL_e2gDbj0YmTu8N_BMVSKTmOUWGIY2Li9Q8Lw6WP81C6-y6GPiRrntrIt40GiqtiIIvxSdR6vz6oiBY_4ZqOTvbZhwzidd6lBk5Ctqec3tRbALEEx5kXEpXKCjtaPNrCa4qApnxjW3-VohBhwG0ybyHYEb3K6_93j49-6BFXC2TM-hEXEtx4C8_d3Kz6_Y6gMTlGViEPnB5X5Bu_-tQbIslv4Vb9IsPbPiPRGcFiU8a3NNlfUxB5Uit6iw63S1ak4gMD117cqH1EPwp6auyh5uWUhaqBopQ1OOeBBk5R2XzpYyI80nzmOaR2R-qBoTzxpCwoVnbE4wcweDYxyrLMLHW0AMWW-r5wAHtvctGLjWI6nvyx_psgUcgyboVgFfFBTTDKNdK-SBsSgnipTQzaqhN_9xMqTUF6KA7yOhtKgKIKMyqjnna6onuZUgfcgqgdE3W8ua9KEH-RrBzdMW4v2HLs4TCVTWnoPNkwkIVdbOjlZ0--DL6uQogFFYdlH7CHSZnQsX5FkI_lNZtjUQYpvgo6HOmCE1DUyduBhbk4Ji_9--CD5JQCt-jZUdLk2hCTnGRhkAEfOrLO-fV2PxKOGgElnNlz2v7ljsbIuwP08fioM2O4dJjBEkTVx0Yqnbepcigwq3nuQ-JMYuYGd_L-P0D0_KLPEkfgpuCvHlCL5zyCq230He7MMP8LrV3lIZCpZ4Dw4jHZsoQ__vfuC2lEGL0T1xh1jey71Tt0zldXErlaGuERAeR0GD8dcEb8UJ5XaQRK-BHLTV_gxVlmhvvtKWfLoKDCkDZS7M5K9VbQzjQ2qdY941ES12rjICGE5MaR4PVi2mRqUS9CHQG1j7rSLaOghn5OQYNFD0xxw82lCRqrGngXGpOZpXiPhlwCPBJHeRc6ZEFgt84Gk8bMw_NZMb9y9ET0uKZ02i1N0Z69pz399bIf6gVq_qu5vt-4YKemqHxH5fjCn6oTY-jHG05CEfJ0dxG3wmDhAxNlWajkYnoBhiPFMsprBEWFXMoGyLjeucUJCgi3BLP8USJOSQX1jDZSz5wlSc-PaT3AlDkBsLzVvqn27l-JA6bMKpJB4UJ_aRuvDXPDR-vUnzCToPttzYjNd-8ICWNXQ_LhgmOXcvB5kLFWYlY42w3vJ0BD4joyds1yhx7yAMz3nPldLur6BBl_oFmDXAVmee4oCJL5O9eTd10Xl7inVBjmeN4gRoWpfFVNsx6nqWMVqmk3tvwg2ocgbOZTZv-ZeYvOYXKaHVnjjK278JMm39x9m7YMsQ==",
+    "status": null
+   },
+   {
+    "id": "ws_0f9a1b7a934a4f1a006ac2d34feb7487d1a23d79acc913f3fd",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site:nexstar.tv \"August 19, 2025\" \"Acquire TEGNA\"",
+      "site:docs.fcc.gov \"DA 26-267\" \"WFAA\"",
+      "\"WFAA-TV, Inc.\" \"Belo Corp.\" \"2023\"",
+      "\"WFAA-TV, Inc.\" \"Belo Corp.\" \"2021\""
+     ],
+     "query": "site:nexstar.tv \"August 19, 2025\" \"Acquire TEGNA\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/nexstar-media-group-inc-closes-acquisition-of-tegna-inc/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/nexstar-media-group-inc-enters-into-definitive-agreement-to-acquire-tegna-inc-for-6-2-billion-in-accretive-transaction/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526212539/nxst-ex10_1.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526212539/nxst-ex10_3.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/category/press-releases_networks/page/6/"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-267A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/category/2025-press-releases/page/4/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/category/press-releases_broadcasting/page/4/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/category/releases_corporate/page/8/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/category/press-releases_tegna/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/tag/tegna/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/category/news/page/22/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/39899/000119312524015412/d645884dex101.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.nexstar.tv/tag/tegna-inc/"
+      },
+      {
+       "type": "url",
+       "url": "https://texasscorecard.com/wp-content/uploads/2023/09/lamar-cisd-2023-special-ed.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-420090A1.pdf"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0f9a1b7a934a4f1a006ac2d3583aa487d18e49033fa220c26d",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtN0V4qtBZVn-bsU9qTbX823TORqtIr_Ii6JadeGc28HqoXAiyh8LpeeZvpqe2UO82EcM2_G2Tru3ovRg2sQaDzMRHiXo4rDDHACX91vqlFfoPTXTkbQx-Js10BAz4QcjreciTSizEOakPSf_A8zM69yXyVv2QBbMSdWSp1WBnzgb3bt6QyXIrjUulV2No7K_PTRlblP7_c7c521vQ_m4eS59tceww4Ic8gyA71KkKaAEzqndsDZ2dD5QEjOVclk1KEgXtFHro5UoBhctaTopHU8zzVJFQFN_WQFXEIwqALa67hx7TddH0NtJPPxH6aii0_81SpRCqE6XaOvD1bp6faRMkWTPqowtJ1vDkno646t3fFQ5nyBSZV3pI4S6XtSKr4xS1s6e3LdhgNZYGz2MJ4CZJEqcYmXOh5ILquQI2-cLI_ynvbwNdX-GyizaBkBbVORBqhCVa1E3K_vEAFH7LAQLWKpfMajHemN4K0MIT10cddHu1OEeSsNNhW1K3MPTYJy1cJm0_nXKqWoe25VEpLa8eUSO-Rv4AkHTW_PT535tIrz6tDgt5NBjRwZukkMjL91URZ4ggver2LV0WbyqhotB_oAWU7nCIAk6gyZfwrydx7qHw6w8AMCHPY2aTd0TGiParMwNfh819Xj0y0iWcC_noeHB3XDQu0cGY80xJfncR6yHty_qo8H5mo7NMvSLQo-NOjOoSIALf4CRX2bNkbCAy5CuG4o9wzgVAy0GEkNMQIn-zkUhuqEAl-G5M3N2WGJuYJ25bkhbZqD1MGUF3Q356Pw_JpMCbmOKGcd53eJq4HHUIqcv5FMN8csdia_6duw9rrkWUBB5Np9_48uJLH3gFHgnCOyRuv2GyCL9ZmM51BJ53tztKdOtKIauMeRUfElCBDPpj-A9fREATco-SZx8QEPQcqs0Ol-_QEA8ywgb8T0-JkKh7QgfVNhd2EMID0IRLFSYq06HGhDavfhrEr-3MlJ1N5AlvqQToGi-CdqFsGAqJc96paFl33hz1JkMN3VLaT3GvBhZhr7HXo9kqLG5QOdj2dPUHbbMUXfqgBuDeR0yuTf5qHHzmtN8gdKHsAJKsZbOkB3H6KZHYPHlM6-ar4GqLAhRRKBNLnz4Fx1uBfVrkF4tj7Wg1JbMFbsLlxPJR68kGD3QvW1qZ6JbscXtHU5xArc4lrQJeYA1Qy3iyLJAFHGRmT5B9TQeGrTiSA7CMBToXj8QzJAMWs3MPNSSjq7PjOQq8Z5T2riOd3VkyCsau1S4UC6Q7MWr9csZJFqXf0Pflcow0ws4DcvbfcdKoTDZaX53dq2kdgVu0YPbr7LgvtaO9--K4L1VByKbtcKD_U6gSsxwFgkRBZN2lLnLlrBavNy_OjDl70ouSLBdMS5cE8wIwRZwiQKPpfgwFDE4HOoFXVMaPoDxXnRcOhQ1AYApVX-BjY79Q5VKkE9mCbA0Sgfid0mHxM0VwMOu1Hai3UO8j-HPZWOn9Y63qeiB6PjwIG92VsNmxnOg93ZG-AoxWU5dck-C1YCwIzbW61Das6aTaK_5Js7mthh883eaw==",
+    "status": null
+   },
+   {
+    "id": "ws_0f9a1b7a934a4f1a006ac2d35923dc87d1b2ea5c3cece8db54",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"2026 WFAA-TV\" \"Belo\"",
+      "\"WFAA-TV, Inc., a subsidiary of Belo Corp\"",
+      "\"SES-T/C-20250923-00932\""
+     ],
+     "query": "\"2026 WFAA-TV\" \"Belo\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-309593A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-418612A2.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-420090A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://texasscorecard.com/wp-content/uploads/2023/09/lamar-cisd-2023-special-ed.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/356080/000119312511350188/d274324dex102.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.girardslaw.com/library/U.S._80_in_Forney_reopened_after_fiery_18_wheeler_accident___wfaa.com_Dallas___F.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/IBFS/SES-T-C-20130619-00527"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/17038736600"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/17038546899"
+      },
+      {
+       "type": "url",
+       "url": "https://www.dallasobserver.com/news/dig-this-6389098/"
+      },
+      {
+       "type": "url",
+       "url": "https://es.wikipedia.org/wiki/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/IBFS/SES-T-C-20130619-00517"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/12026625552"
+      },
+      {
+       "type": "url",
+       "url": "https://wikwiand-revamp.pages.dev/en/WFAA"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/phone/12149776606"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1413898/000095013408005741/d55162e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/356080/000095013406004331/d33360e10vk.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-BC/BC-1955/1955-05-09-BC.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://contracts.justia.com/companies/belo-corp-32805/contract/762065/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/TXCN"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KHOU"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KENS"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KVUE"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_0f9a1b7a934a4f1a006ac2d361b52487d194cfc76480183f67",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqwtN0fY_liD5SzTFwN7utlDaHlx5b9GdSXBeXD3tnZmFOHq4SiwSCc8XcIFoW60I0vOduhSxVqlgN1yplHpl-425vlTvzMUNCDypjtLgaDcNZxqC6iqXhJOARAOsUgGekZWxspVBSmX41zHfdhd7kamx8XyiTJw7h0geZZcE5h_hJsjDVyU87NaoqziQ5M0GtbnT3p2wn_ICsRXyQPyY-HenONxb6AulU_2402f8QCnaCvZaKMhyONA_lkeFDuwydNOB3q_IG-8JE0yIuMjWKVDTsuJ-VTfenvCivAzUI8fCn9hyBP-AgeM80OMouT-4WpjjqmRAlZcT-YOyVXtdQR344YcfNpjbdMn1rPObvNzSDEbzIdG-vKzgmk0DFi3YRkiPp8I_-oQsSY83ZEIqRAp_mw6U4wG2nf6zMJvPCYM6uBw9A6pOu5XXsRVCHNyBmfcBUiiyMGCOX_jH7RaDQAWj9abK6ZVGCIZgeyj1qq5JWEMgOKKS1x5x9evZ73AAitjYBeM3T5g6o9bt_062qX5j4GGo0VD8EQc7ajqGBycqrq4kYj1KMX9AXVOy3e8bQaMh833fLF7SkbhCvIzFFd8yAl7mq6Wum0Fw4RTSHLgZM7QA5VKkQwCQUIFEo3XD2JCXsFlcDJ0wbH3mwkmckLDU_EOqxnO1bVX4nFOnLkHeXRyycMuPdiqK33_LVOcv-rgQrchc0-Wa_BSdokzgjVO9YbIgGHJR9ZzUfKs2Z1dqp3F47-TUZ719DYC3L-1zU-nxE-O8gdokmozPPodqAmZaUBpNftAlELwhjWRX0WNZAyblAgCdOn-9Wop00rP7cBAjQckg1WNyS8VNfCCqkitnYJoAAyIT3uRshHhdUSHLJtPGibPRrTV5GSaAouDMNu6pLkI5OBbbxArW9AMJwX8Dgv5_A_66jAOudtLeLoLFDwug4tY12RvRfCK0wK-pIztpnMI-YXv5SHh9pdDtkYB3GEqMBH3mi4ogfiLTU_kbo1ht0nJI1eM2o66ngyMIvO60XAmXgSzA3jKDCWI74Fbu5ACU0cCB3Gp7ZUvRR5oRWwOvjO80CymDNnS1dG4VTZY37RbVmIKiJ1UFlmhyXbJSL5fi7rUqhUaL4kU-kG_DpFc1v61Enc26I3JnxyGMGzMAZOtIa1FgKA01fO1DvwQUDGSpnBhaDrlbRrrM0Ff-M1P8WdIPifXW60CotQTpiKcllSLg1O-5HbQX8bRZXN1WxYw9NOr2tSLTNy1qzyfyyrKXtjYgDCiHstRMW7MoFKEleqhVlif4KdY6fL9rupCtFV-9o3Zrwh8A5pp2mpfEEv4xSEjc_tKiBdDFjN6IQMGIoUWkVcaTD3sspqWlBXBHr3xqgswIlxzkLZw9LaBez6B1CLWwVDRa6h-R2Qzy_ifo33b9AFRUt3NmWwisoxGRQOUBRHJr4M3HY4LVkFW3p_6IKAPjk1yhxA1u7jp0ff2u1jWNaB7E8PXNiG9AxBJyE-2Yp-ZLcthETp1uGP9nJ7cOFzEXT4Ei915HInd8ew7Otx3sB5Knvy6V0JXI__E-0u1CU8lozvQc02EPfnaPQ-NMI3v2ownp5BBltr-zMxn3Kof3Yeewq7DhnXpdpaIw46ZBTdTSfEuC6MFT5gFkHydoJWsS9XEgbYf370T3XjK93gU7sxz7xCGoO53UD5NekSBzqnbN4pIlvLISl_ChmbbDJXkB99O7LaH1txvvkkhQT_dAZplDUUBoVYxGnmxq8u85f3-dPS-Rdhg5OzGvW62Y5saI50xddHg6sQr44R1rsA8MoQWMqyK32zSQqtt4WHhZaSUwJQV6TA5GeIW0r73MwuEqOZmOUjIPdUeTS0qdE4jM1VmGYHnGmTHsuWPHWdTz6WcrrUS5DmYyLsDfoVvn9nzG10jRhOhRV-MGypmIiLfEtXdzheYTIyjJV9Q90vbAsFvR4NHqAPCwO6OcCyeUlzOjSm1QM0OW1umb_OCoKzSYZgpj4lgPbyfBG7j8rr1uSw7FC99za9iwMPLpa3IT_y8kMfOqkmpdlc5__8wtdnl3OsaFgEpMlKZYPJ-IOkqB7CtpyrDIGFNWT3hlJRzDJII4_Oz-fIUJWea3JPB_K8y6sTDaYvYJFFZc_XRHE3j5TvPrzSYeHhxpmb8vVLo-4LqlSHFqeiy3z9u5IlKCTxJ1uya6Nvm3DIZuH1KjEFfMvwTmkPZ7iQuLwFHazROf9mQCtOb0Df1EY5s2WOEhcFk_MqxQzebeK627oUxSuS0Rp6xHesYj7mFdjCmBo-Jr5LATjfYCKj_7a1aXoXewgJ3m_wvNvSZ-mDtxnz2Ax9OnQPvmG8n0o5yzi4jERIeXoBiWhcTP6_kkyZHHpEsZjnojbtP7t9_DeVgySVWXVzflT5dRfMNd85EZfjarOWOhqCcWvrxiiFuJvb7x2EU-YeGHwLCjbb3gwQFHLDmxw6FCk2FTVblUTkReFSWveUVoEQKIAGdZAKxf6JFmuM7WmuuG1hLtmOZcLO6vj3EfgHeXOkftqSDVYIuolrJdxjG0QQgVxwuJpdz-31nXOcznUXtS17LDabfPvTc3GosNMHVM2ujRicSYHCas6CgmBbP5FX4L_SUfh_RCdV_3rMHtDVLdSr57D0K4KEblp1yONUA==",
+    "status": null
+   },
+   {
+    "id": "msg_0f9a1b7a934a4f1a006ac2d363065487d1a0f544fbe2b2c698",
+    "content": [
+     {
+      "annotations": [],
+      "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"WFAA-TV, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-267A1.pdf\",\n        \"quote\": \"WFAA(TV) 72054 WFAA-TV, Inc. 0000280989 Dallas, TX\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [\n    {\n      \"child\": \"WFAA-TV, Inc.\",\n      \"parent\": \"TEGNA Inc.\",\n      \"relation\": \"Wholly owned subsidiary, directly or indirectly. The current evidence does not establish every intervening immediate-parent link.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/39899/000119312526084392/tgna-ex21.htm\",\n          \"quote\": \"SUBSIDIARY LIST (2025)\"\n        },\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/39899/000119312526084392/tgna-ex21.htm\",\n          \"quote\": \"WFAA-TV, INC.\"\n        },\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/39899/000119312526084392/tgna-ex21.htm\",\n          \"quote\": \"* Not wholly-owned by TEGNA.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"TEGNA Inc.\",\n      \"parent\": \"Nexstar Media Inc.\",\n      \"relation\": \"Wholly owned subsidiary following the completed acquisition.\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/39899/000110465926032772/tm269445d1_8k.htm\",\n          \"quote\": \"TEGNA continuing as the surviving corporation and a wholly owned subsidiary of Nexstar Media Inc.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Nexstar Media Inc.\",\n      \"parent\": \"Nexstar Media Group, Inc.\",\n      \"relation\": \"Wholly owned subsidiary.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DA-25-1000A1.pdf\",\n          \"quote\": \"a wholly owned subsidiary of Nexstar Media Group, Inc.\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"single\",\n    \"names\": [\"Nexstar Media Group, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://dockets.justia.com/docket/circuit-courts/ca6/26-5182\",\n        \"quote\": \"Nexstar Media Group, Inc. has no public parent corporation.\"\n      },\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-25-1000A1.pdf\",\n        \"quote\": \"a wholly owned subsidiary of Nexstar Media Group, Inc.\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Perry A. Sook\",\n    \"role\": \"Chief Executive Officer\",\n    \"entity\": \"Nexstar Media Group, Inc.\",\n    \"citations\": [\n      {\n        \"url\": \"https://www.nexstar.tv/company-leadership/perry-a-sook/\",\n        \"quote\": \"Perry A. Sook\\n\\nChairman and CEO, Nexstar Media Group, Inc.\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Nexstar announced its agreement to acquire TEGNA for $6.2 billion.\",\n      \"status\": \"announced\",\n      \"date\": \"2025-08-19\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nexstar.tv/nexstar-media-group-inc-enters-into-definitive-agreement-to-acquire-tegna-inc-for-6-2-billion-in-accretive-transaction/\",\n          \"quote\": \"Nexstar will acquire all outstanding shares of TEGNA for $22.00 per share\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The FCC approved the transfer of control; Nexstar also reported DOJ approval.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-03-19\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nexstar.tv/nexstar-media-group-inc-closes-acquisition-of-tegna-inc/\",\n          \"quote\": \"Company Receives Approval of Transaction from Federal Communications Commission and U.S. Department of Justice\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Nexstar completed the TEGNA acquisition. Subsequent court orders require TEGNA to remain separate and independently managed pending litigation; these restrictions do not mean the acquisition remains merely announced.\",\n      \"status\": \"closed\",\n      \"date\": \"2026-03-19\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sec.gov/Archives/edgar/data/1142417/000119312526257735/nxst-ex99_2.htm\",\n          \"quote\": \"On March 19, 2026 (the \u201cClosing Date\u201d), Nexstar Media Group, Inc. (\u201cNexstar\u201d) completed its acquisition of TEGNA Inc.\"\n        },\n        {\n          \"url\": \"https://www.govinfo.gov/content/pkg/USCOURTS-caed-2_26-cv-00976/pdf/USCOURTS-caed-2_26-cv-00976-77.pdf\",\n          \"quote\": \"requiring Nexstar to preserve TEGNA as a separate and independent entity during these proceedings.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of October 4, 2026, the licensee and ultimate parent are established, but the complete immediate-parent chain beneath TEGNA is not. Older documentation identifies WFAA-TV, Inc. as a direct subsidiary of Belo Corp.; current TEGNA subsidiary listings do not resolve that immediate-parent relationship, so it is not asserted here. WFAA-TV, Inc. is unstarred in Exhibit 21, supporting wholly owned subsidiary status. A distinct day-to-day operating legal entity was not established, and Nexstar ownership should not be confused with unrestricted operational integration: the court's hold-separate requirements continued to be enforced in August 2026. No natural person or family was established as controlling Nexstar. Sook's founder, chairman and CEO titles do not establish ownership control; Nexstar's April 20, 2026 beneficial-ownership table reports his stake as 6.1%.\"\n}",
+      "type": "output_text",
+      "logprobs": []
+     }
+    ],
+    "role": "assistant",
+    "status": "completed",
+    "type": "message",
+    "phase": "final_answer"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+   {
+    "type": "web_search",
+    "external_web_access": null,
+    "filters": null,
+    "search_context_size": "medium",
+    "user_location": {
+     "city": null,
+     "country": "US",
+     "region": null,
+     "timezone": null,
+     "type": "approximate"
+    },
+    "return_token_budget": "default",
+    "search_content_types": [
+     "text"
+    ]
+   }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1791153012.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "generate_summary": null,
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+   "format": {
+    "name": "ownership_answer",
+    "schema_": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "legal_owner",
+      "operator",
+      "chain",
+      "ultimate_parent",
+      "controlling_person",
+      "leader",
+      "transactions",
+      "uncertainty"
+     ],
+     "properties": {
+      "legal_owner": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "operator": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "same_as_owner",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "chain": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "child",
+         "parent",
+         "relation",
+         "citations"
+        ],
+        "properties": {
+         "child": {
+          "type": "string"
+         },
+         "parent": {
+          "type": "string"
+         },
+         "relation": {
+          "type": "string"
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "ultimate_parent": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "single",
+          "multiple",
+          "none",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "controlling_person": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "none",
+          "not_established",
+          "not_applicable"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "leader": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "name",
+        "role",
+        "entity",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "name": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "role": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "entity": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "transactions": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "description",
+         "status",
+         "date",
+         "citations"
+        ],
+        "properties": {
+         "description": {
+          "type": "string"
+         },
+         "status": {
+          "type": "string",
+          "enum": [
+           "announced",
+           "approved",
+           "closed",
+           "abandoned",
+           "unknown"
+          ]
+         },
+         "date": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "uncertainty": {
+       "type": "string"
+      }
+     }
+    },
+    "type": "json_schema",
+    "description": null,
+    "strict": true
+   },
+   "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 89481,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 5300
+   },
+   "output_tokens": 3187,
+   "output_tokens_details": {
+    "reasoning_tokens": 1705
+   },
+   "total_tokens": 92668
+  },
+  "user": null,
+  "billing": {
+   "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 9
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 89481,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 5300
+  },
+  "output_tokens": 3187,
+  "output_tokens_details": {
+   "reasoning_tokens": 1705
+  },
+  "total_tokens": 92668
+ },
+ "usd": 0.31076200000000004,
+ "latency_s": 97.9,
+ "web_search": {
+  "tool_enabled": true,
+  "calls_executed": 11,
+  "actions": [
+   "search",
+   "search",
+   "search",
+   "search",
+   "open_page",
+   "search",
+   "search",
+   "search",
+   "open_page",
+   "search",
+   "search"
+  ],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "A",
+ "case": "wfaa",
+ "run": 2,
+ "saved": "2026-10-04T19:30:13-0300"
+}

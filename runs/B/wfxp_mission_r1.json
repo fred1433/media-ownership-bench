@@ -1,0 +1,411 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Mission Broadcasting, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/tv-profile/wfxp\",\n        \"quote\": \"Licensee: Mission Broadcasting, Inc.\"\n      },\n      {\n        \"url\": \"https://fcc.report/LMS/0000288550\",\n        \"quote\": \"| 19707 | WFXP | DTV - Full Service Television | CDT - Commercial | M - Main | 26 | ERIE, PA | LICEN - LICENSED | MISSION BROADCASTING, INC. |\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"established\",\n    \"names\": [\"Nexstar Broadcasting Group, Inc.\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.yourerie.com/contact-us/\",\n        \"quote\": \"Nexstar Broadcasting Group, Inc. provides services for WFXP-TV and Mission Broadcasting through a time brokerage agreement.\"\n      },\n      {\n        \"url\": \"https://www.goerie.com/story/news/local/2024/01/23/erie-pa-tv-stations-wicu-wsee-wfxp-cw-available-again-on-dish-network/72322923007/\",\n        \"quote\": \"WFXP, Erie's FOX affiliate, is owned by Mission Broadcasting and operated through a shared agreement with Nexstar.\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": \"Mission Broadcasting, Inc.\",\n    \"citations\": []\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Mission Broadcasting acquired WFXP.\",\n      \"status\": \"closed\",\n      \"date\": \"1998\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nexstar.tv/stations/wfxp-d3/\",\n          \"quote\": \"WFXP/FOX 66 was acquired by Mission Broadcasting in 1998.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of 2026-10-04, the supplied dossier establishes Mission Broadcasting, Inc. as WFXP\u2019s FCC licensee and Nexstar as its operator. The station\u2019s service-agreement disclosure names Nexstar Broadcasting Group, Inc.; other dossier sources describe the operator as Nexstar Media Group. Operation does not establish ownership by Nexstar. No ownership link above Mission, ultimate parent, controlling person, or current president of Mission is established. Spencer Lane\u2019s station VP/general-manager role does not establish that he is Mission\u2019s president. References to Gannon University and other earlier owners are historical.\"\n}",
+ "usage": {
+  "input_tokens": 3328,
+  "input_tokens_details": {
+   "cache_write_tokens": 3325,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1657,
+  "output_tokens_details": {
+   "reasoning_tokens": 1007
+  },
+  "total_tokens": 4985
+ },
+ "usd": 0.023226,
+ "latency_s": 45.4,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false,
+  "exa_queries": 7
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "dossier": "Question (as of 2026-10-04): As of 2026-10-04, who is the current FCC licensee or legal owner of WFXP Erie, PA (facility 19707), and which company operates it, what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current president of Mission Broadcasting, Inc. (the licensee)?\nOutlet: WFXP (FOX 66 Erie) (tv, Erie, PA, call sign WFXP).\nLeader definition for this question: current president of Mission Broadcasting, Inc.\n\nEvidence dossier (claims extracted from retrieved documents; cite the URL and quote):\n- Mission Broadcasting, Inc. | licensee_of | WFXP | date: None | https://fccdata.org/?facid=19707 | \"Mission Broadcasting, Inc.4822 Kemp Blvd.Suite 300Wichita Falls TX 763089402287861Facility ID: 19707Licensed\"\n- Mission Broadcasting, Inc. | licensee_of | WFXP | date: 2026-01-29 | https://fcc.report/LMS/0000288550 | \"| 19707 | WFXP | DTV - Full Service Television | CDT - Commercial | M - Main | 26 | ERIE, PA | LICEN - LICENSED | MISSION BROADCASTING, INC. |\"\n- Mission Broadcasting, Inc. | licensee_of | WFXP | date: None | https://publicfiles.fcc.gov/tv-profile/wfxp | \"Licensee: Mission Broadcasting, Inc.\"\n- Mission Broadcasting, Inc. | licensee_of | WFXP | date: 2019-08-09 | https://fcc.report/LMS/0000080242 | \"| 19707 | WFXP | DTV - Full Service Television | CDT - Commercial | M - Main | 26 | ERIE, PA | LICEN - LICENSED | MISSION BROADCASTING, INC. |\"\n- Mission Broadcasting, Inc. | licensee_of | WFXP | date: 2022-01-13 | https://fcc.report/LMS/0000179827 | \"| 19707 | WFXP | DTV - Full Service Television | CDT - Commercial | M - Main | 26 | ERIE, PA | LICEN - LICENSED | MISSION BROADCASTING, INC. |\"\n- Mission Broadcasting | owns | WFXP | date: None | https://en.wikipedia.org/wiki/WFXP | \"It is owned by Mission Broadcasting and operated by Nexstar Media Group, owner of dual ABC/ CW+ affiliate WJET-TV (channel 24).\"\n- Nexstar Media Group | other | WFXP | date: None | https://en.wikipedia.org/wiki/WFXP | \"It is owned by Mission Broadcasting and operated by Nexstar Media Group, owner of dual ABC/ CW+ affiliate WJET-TV (channel 24).\"\n- Gannon University | owns | WFXP | date: 1986 | https://en.wikipedia.org/wiki/WFXP | \"WFXP began broadcasting in 1986 as WETG, owned by Gannon University, a Catholic university in Erie.\"\n- Nexstar | other | WFXP | date: 1998 | https://en.wikipedia.org/wiki/WFXP | \"Nexstar has managed WFXP since 1998\"\n- Gannon University | joint_venture_partner_of | Roman Catholic Diocese of Erie | date: 1986-09-02 | https://en.wikipedia.org/wiki/WFXP | \"Channel 66 in Erie began broadcasting September 2, 1986, as WETG, operated by a joint venture of Gannon University and the Roman Catholic Diocese of Erie.\"\n- Joint venture of Gannon University and the Roman Catholic Diocese of Erie | other | WFXP | date: 1986-09-02 | https://en.wikipedia.org/wiki/WFXP | \"Channel 66 in Erie began broadcasting September 2, 1986, as WETG, operated by a joint venture of Gannon University and the Roman Catholic Diocese of Erie.\"\n- Erie Broadcasting | acquisition_closed | WFXP | date: 1994 | https://en.wikipedia.org/wiki/WFXP | \"As a result, the university sold the station to a consortium of local investors known as Erie Broadcasting.\"\n- WFXP | renamed_from | WETG | date: None | https://en.wikipedia.org/wiki/WFXP | \"Power was increased from 35,000 to 600,000 watts, and the call sign was changed to WFXP;\"\n- Jason Elkin | acquisition_closed | WFXP | date: None | https://en.wikipedia.org/wiki/WFXP | \"Erie Broadcasters then sold the station to Jason Elkin, former founder of New Vision Television;\"\n- Mission Broadcasting | acquisition_closed | WFXP | date: 1998 | https://www.nexstar.tv/stations/wfxp-d3/ | \"WFXP/FOX 66 was acquired by Mission Broadcasting in 1998.\"\n- WFXP | operates_under_agreement | WJET | date: 1998 | https://www.nexstar.tv/stations/wfxp-d3/ | \"Later that year the station entered into a time brokerage agreement with Nexstar Broadcasting station WJET.\"\n- Barb Behr | other_officer_of | WFXP | date: None | https://www.nexstar.tv/stations/wfxp-d3/ | \"Barb Behr, Station Manager\"\n- Mission Broadcasting | owns | WFXP | date: None | https://www.goerie.com/story/news/local/2024/01/23/erie-pa-tv-stations-wicu-wsee-wfxp-cw-available-again-on-dish-network/72322923007/ | \"WFXP, Erie's FOX affiliate, is owned by Mission Broadcasting and operated through a shared agreement with Nexstar.\"\n- WFXP | operates_under_agreement | Nexstar | date: None | https://www.goerie.com/story/news/local/2024/01/23/erie-pa-tv-stations-wicu-wsee-wfxp-cw-available-again-on-dish-network/72322923007/ | \"WFXP, Erie's FOX affiliate, is owned by Mission Broadcasting and operated through a shared agreement with Nexstar.\"\n- Mission Broadcasting | owns | WFXP | date: None | https://linkedin.com/company/yourerie.com-nexstar-broadcasting-inc | \"It is owned by Mission Broadcasting and operated by Nexstar Media Group, owner of dual ABC/CW+ affiliate WJET-TV (channel 24).\"\n- Nexstar Media Group | other | WFXP | date: None | https://linkedin.com/company/yourerie.com-nexstar-broadcasting-inc | \"It is owned by Mission Broadcasting and operated by Nexstar Media Group, owner of dual ABC/CW+ affiliate WJET-TV (channel 24).\"\n- Gannon University | owns | WFXP | date: 1986 | https://linkedin.com/company/yourerie.com-nexstar-broadcasting-inc | \"WFXP began broadcasting in 1986 as WETG, owned by Gannon University, a Catholic university in Erie.\"\n- Nexstar | other | WFXP | date: 1998 | https://linkedin.com/company/yourerie.com-nexstar-broadcasting-inc | \"Nexstar has managed WFXP since 1998\"\n- WFXP | renamed_from | WETG | date: 1986\u20131995 | https://linkedin.com/company/yourerie.com-nexstar-broadcasting-inc | \"| Former call signs | WETG (1986\u20131995) |\"\n- Nexstar Broadcasting | operates_under_agreement | WFXP | date: None | https://www.rabbitears.info/market.php?facility_id=19707&request=print_station | \"| Operator: | Nexstar Broadcasting per LMA |\"\n- Mission Broadcasting, Inc. | licensee_of | WFXP | date: None | https://www.rabbitears.info/market.php?facility_id=19707&request=print_station | \"| Licensee: | Mission Broadcasting, Inc. (Mission Broadcasting) |\"\n- Spencer Lane | other_officer_of | WFXP | date: 2025-04-29 | https://www.yourerie.com/news/local-news/jet24-fox66-welcomes-new-vp-and-general-manager/ | \"Here at JET24/FOX66, we have a new vice president and general manager.\n\nSpencer Lane comes to us from Oklahoma, where he was the station manager of a Fox and ABC affiliate.\"\n- Nexstar Media Group | owns | WFXP | date: None | https://rbr.com/nexstars-erie-choice-as-duopolys-gm/ | \"The two television stations owned by Nexstar Media Group serving Erie, Pa., now have a new VP and General Manager.\n\nOverseeing WFXP-TV \u201cFOX66\u201d and WJET-24 in the Northwest Pennsylvania city is Spencer Lane.\"\n- Spencer Lane | other_officer_of | WFXP | date: 2025-05-01 | https://rbr.com/nexstars-erie-choice-as-duopolys-gm/ | \"The two television stations owned by Nexstar Media Group serving Erie, Pa., now have a new VP and General Manager.\n\nOverseeing WFXP-TV \u201cFOX66\u201d and WJET-24 in the Northwest Pennsylvania city is Spencer Lane.\"\n- Spencer Lane | other_officer_of | WFXP | date: Apr 2025 - Present | https://www.linkedin.com/in/spencer-lane-66295757 | \"Vice President - General Manager WJET-TV (ABC) - WFXP-TV (FOX) - Yourerie.com\"\n- WFXP | other | Nexstar Media Group, Inc. | date: None | https://www.yourerie.com/work-for-us/ | \"WJET/WFXP/YourErie.com are proud members of the Nexstar Media Group, Inc.\"\n- Nexstar Inc. | subsidiary_of | Nexstar Media Group | date: None | https://www.yourerie.com/work-for-us/ | \"Its wholly owned operating subsidiary, Nexstar Inc., consists of three divisions: Broadcasting, Digital, and Networks.\"\n- Nexstar Broadcasting Group, Inc. | operates_under_agreement | WFXP-TV | date: None | https://www.yourerie.com/contact-us/ | \"Nexstar Broadcasting Group, Inc. provides services for WFXP-TV and Mission Broadcasting through a time brokerage agreement.\"\n- Nexstar Broadcasting Group, Inc. | operates_under_agreement | Mission Broadcasting | date: None | https://www.yourerie.com/contact-us/ | \"Nexstar Broadcasting Group, Inc. provides services for WFXP-TV and Mission Broadcasting through a time brokerage agreement.\"\n- Spencer Lane | other_officer_of | WFXP | date: None | https://www.yourerie.com/contact-us/ | \"Spencer Lane, VP/General Manager\"\n- Bailey Brautigan | other_officer_of | WFXP | date: None | https://www.yourerie.com/contact-us/ | \"Bailey Brautigan, News Director\"\n- Dan Hamilton | other_officer_of | WFXP | date: None | https://www.yourerie.com/contact-us/ | \"Dan Hamilton, Sales Director\"\n- Jim Rumm | other_officer_of | WFXP | date: None | https://www.yourerie.com/contact-us/ | \"For programming issues and questions, contact Jim Rumm, Program Director/Station Manager, WFXPPhone: 814-860-5679\"\n\nEvidence state checks: conflict: several owners named: ['gannon university', 'mission broadcasting', 'nexstar media']; missing: who owns gannon university; missing: the leader named in the leader definition\nAnswer only from this dossier. Where it does not establish a field, mark it not_established.",
+ "claims": [
+  {
+   "doc": "D1",
+   "subject": "Mission Broadcasting, Inc.",
+   "relation": "licensee_of",
+   "object": "WFXP",
+   "quote": "Mission Broadcasting, Inc.4822 Kemp Blvd.Suite 300Wichita Falls TX 763089402287861Facility ID: 19707Licensed",
+   "date_in_doc": null,
+   "url": "https://fccdata.org/?facid=19707"
+  },
+  {
+   "doc": "D2",
+   "subject": "Mission Broadcasting, Inc.",
+   "relation": "licensee_of",
+   "object": "WFXP",
+   "quote": "| 19707 | WFXP | DTV - Full Service Television | CDT - Commercial | M - Main | 26 | ERIE, PA | LICEN - LICENSED | MISSION BROADCASTING, INC. |",
+   "date_in_doc": "2026-01-29",
+   "url": "https://fcc.report/LMS/0000288550"
+  },
+  {
+   "doc": "D3",
+   "subject": "Mission Broadcasting, Inc.",
+   "relation": "licensee_of",
+   "object": "WFXP",
+   "quote": "Licensee: Mission Broadcasting, Inc.",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/tv-profile/wfxp"
+  },
+  {
+   "doc": "D4",
+   "subject": "Mission Broadcasting, Inc.",
+   "relation": "licensee_of",
+   "object": "WFXP",
+   "quote": "| 19707 | WFXP | DTV - Full Service Television | CDT - Commercial | M - Main | 26 | ERIE, PA | LICEN - LICENSED | MISSION BROADCASTING, INC. |",
+   "date_in_doc": "2019-08-09",
+   "url": "https://fcc.report/LMS/0000080242"
+  },
+  {
+   "doc": "D5",
+   "subject": "Mission Broadcasting, Inc.",
+   "relation": "licensee_of",
+   "object": "WFXP",
+   "quote": "| 19707 | WFXP | DTV - Full Service Television | CDT - Commercial | M - Main | 26 | ERIE, PA | LICEN - LICENSED | MISSION BROADCASTING, INC. |",
+   "date_in_doc": "2022-01-13",
+   "url": "https://fcc.report/LMS/0000179827"
+  },
+  {
+   "doc": "D6",
+   "subject": "Mission Broadcasting",
+   "relation": "owns",
+   "object": "WFXP",
+   "quote": "It is owned by Mission Broadcasting and operated by Nexstar Media Group, owner of dual ABC/ CW+ affiliate WJET-TV (channel 24).",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/WFXP"
+  },
+  {
+   "doc": "D6",
+   "subject": "Nexstar Media Group",
+   "relation": "other",
+   "object": "WFXP",
+   "quote": "It is owned by Mission Broadcasting and operated by Nexstar Media Group, owner of dual ABC/ CW+ affiliate WJET-TV (channel 24).",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/WFXP"
+  },
+  {
+   "doc": "D6",
+   "subject": "Gannon University",
+   "relation": "owns",
+   "object": "WFXP",
+   "quote": "WFXP began broadcasting in 1986 as WETG, owned by Gannon University, a Catholic university in Erie.",
+   "date_in_doc": "1986",
+   "url": "https://en.wikipedia.org/wiki/WFXP"
+  },
+  {
+   "doc": "D6",
+   "subject": "Nexstar",
+   "relation": "other",
+   "object": "WFXP",
+   "quote": "Nexstar has managed WFXP since 1998",
+   "date_in_doc": "1998",
+   "url": "https://en.wikipedia.org/wiki/WFXP"
+  },
+  {
+   "doc": "D6",
+   "subject": "Gannon University",
+   "relation": "joint_venture_partner_of",
+   "object": "Roman Catholic Diocese of Erie",
+   "quote": "Channel 66 in Erie began broadcasting September 2, 1986, as WETG, operated by a joint venture of Gannon University and the Roman Catholic Diocese of Erie.",
+   "date_in_doc": "1986-09-02",
+   "url": "https://en.wikipedia.org/wiki/WFXP"
+  },
+  {
+   "doc": "D6",
+   "subject": "Joint venture of Gannon University and the Roman Catholic Diocese of Erie",
+   "relation": "other",
+   "object": "WFXP",
+   "quote": "Channel 66 in Erie began broadcasting September 2, 1986, as WETG, operated by a joint venture of Gannon University and the Roman Catholic Diocese of Erie.",
+   "date_in_doc": "1986-09-02",
+   "url": "https://en.wikipedia.org/wiki/WFXP"
+  },
+  {
+   "doc": "D6",
+   "subject": "Erie Broadcasting",
+   "relation": "acquisition_closed",
+   "object": "WFXP",
+   "quote": "As a result, the university sold the station to a consortium of local investors known as Erie Broadcasting.",
+   "date_in_doc": "1994",
+   "url": "https://en.wikipedia.org/wiki/WFXP"
+  },
+  {
+   "doc": "D6",
+   "subject": "WFXP",
+   "relation": "renamed_from",
+   "object": "WETG",
+   "quote": "Power was increased from 35,000 to 600,000 watts, and the call sign was changed to WFXP;",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/WFXP"
+  },
+  {
+   "doc": "D6",
+   "subject": "Jason Elkin",
+   "relation": "acquisition_closed",
+   "object": "WFXP",
+   "quote": "Erie Broadcasters then sold the station to Jason Elkin, former founder of New Vision Television;",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/WFXP"
+  },
+  {
+   "doc": "D7",
+   "subject": "Mission Broadcasting",
+   "relation": "acquisition_closed",
+   "object": "WFXP",
+   "quote": "WFXP/FOX 66 was acquired by Mission Broadcasting in 1998.",
+   "date_in_doc": "1998",
+   "url": "https://www.nexstar.tv/stations/wfxp-d3/"
+  },
+  {
+   "doc": "D7",
+   "subject": "WFXP",
+   "relation": "operates_under_agreement",
+   "object": "WJET",
+   "quote": "Later that year the station entered into a time brokerage agreement with Nexstar Broadcasting station WJET.",
+   "date_in_doc": "1998",
+   "url": "https://www.nexstar.tv/stations/wfxp-d3/"
+  },
+  {
+   "doc": "D7",
+   "subject": "Barb Behr",
+   "relation": "other_officer_of",
+   "object": "WFXP",
+   "quote": "Barb Behr, Station Manager",
+   "date_in_doc": null,
+   "url": "https://www.nexstar.tv/stations/wfxp-d3/"
+  },
+  {
+   "doc": "D8",
+   "subject": "Mission Broadcasting",
+   "relation": "owns",
+   "object": "WFXP",
+   "quote": "WFXP, Erie's FOX affiliate, is owned by Mission Broadcasting and operated through a shared agreement with Nexstar.",
+   "date_in_doc": null,
+   "url": "https://www.goerie.com/story/news/local/2024/01/23/erie-pa-tv-stations-wicu-wsee-wfxp-cw-available-again-on-dish-network/72322923007/"
+  },
+  {
+   "doc": "D8",
+   "subject": "WFXP",
+   "relation": "operates_under_agreement",
+   "object": "Nexstar",
+   "quote": "WFXP, Erie's FOX affiliate, is owned by Mission Broadcasting and operated through a shared agreement with Nexstar.",
+   "date_in_doc": null,
+   "url": "https://www.goerie.com/story/news/local/2024/01/23/erie-pa-tv-stations-wicu-wsee-wfxp-cw-available-again-on-dish-network/72322923007/"
+  },
+  {
+   "doc": "D9",
+   "subject": "Mission Broadcasting",
+   "relation": "owns",
+   "object": "WFXP",
+   "quote": "It is owned by Mission Broadcasting and operated by Nexstar Media Group, owner of dual ABC/CW+ affiliate WJET-TV (channel 24).",
+   "date_in_doc": null,
+   "url": "https://linkedin.com/company/yourerie.com-nexstar-broadcasting-inc"
+  },
+  {
+   "doc": "D9",
+   "subject": "Nexstar Media Group",
+   "relation": "other",
+   "object": "WFXP",
+   "quote": "It is owned by Mission Broadcasting and operated by Nexstar Media Group, owner of dual ABC/CW+ affiliate WJET-TV (channel 24).",
+   "date_in_doc": null,
+   "url": "https://linkedin.com/company/yourerie.com-nexstar-broadcasting-inc"
+  },
+  {
+   "doc": "D9",
+   "subject": "Gannon University",
+   "relation": "owns",
+   "object": "WFXP",
+   "quote": "WFXP began broadcasting in 1986 as WETG, owned by Gannon University, a Catholic university in Erie.",
+   "date_in_doc": "1986",
+   "url": "https://linkedin.com/company/yourerie.com-nexstar-broadcasting-inc"
+  },
+  {
+   "doc": "D9",
+   "subject": "Nexstar",
+   "relation": "other",
+   "object": "WFXP",
+   "quote": "Nexstar has managed WFXP since 1998",
+   "date_in_doc": "1998",
+   "url": "https://linkedin.com/company/yourerie.com-nexstar-broadcasting-inc"
+  },
+  {
+   "doc": "D9",
+   "subject": "WFXP",
+   "relation": "renamed_from",
+   "object": "WETG",
+   "quote": "| Former call signs | WETG (1986\u20131995) |",
+   "date_in_doc": "1986\u20131995",
+   "url": "https://linkedin.com/company/yourerie.com-nexstar-broadcasting-inc"
+  },
+  {
+   "doc": "D10",
+   "subject": "Nexstar Broadcasting",
+   "relation": "operates_under_agreement",
+   "object": "WFXP",
+   "quote": "| Operator: | Nexstar Broadcasting per LMA |",
+   "date_in_doc": null,
+   "url": "https://www.rabbitears.info/market.php?facility_id=19707&request=print_station"
+  },
+  {
+   "doc": "D10",
+   "subject": "Mission Broadcasting, Inc.",
+   "relation": "licensee_of",
+   "object": "WFXP",
+   "quote": "| Licensee: | Mission Broadcasting, Inc. (Mission Broadcasting) |",
+   "date_in_doc": null,
+   "url": "https://www.rabbitears.info/market.php?facility_id=19707&request=print_station"
+  },
+  {
+   "doc": "D11",
+   "subject": "Spencer Lane",
+   "relation": "other_officer_of",
+   "object": "WFXP",
+   "quote": "Here at JET24/FOX66, we have a new vice president and general manager.\n\nSpencer Lane comes to us from Oklahoma, where he was the station manager of a Fox and ABC affiliate.",
+   "date_in_doc": "2025-04-29",
+   "url": "https://www.yourerie.com/news/local-news/jet24-fox66-welcomes-new-vp-and-general-manager/"
+  },
+  {
+   "doc": "D12",
+   "subject": "Nexstar Media Group",
+   "relation": "owns",
+   "object": "WFXP",
+   "quote": "The two television stations owned by Nexstar Media Group serving Erie, Pa., now have a new VP and General Manager.\n\nOverseeing WFXP-TV \u201cFOX66\u201d and WJET-24 in the Northwest Pennsylvania city is Spencer Lane.",
+   "date_in_doc": null,
+   "url": "https://rbr.com/nexstars-erie-choice-as-duopolys-gm/"
+  },
+  {
+   "doc": "D12",
+   "subject": "Spencer Lane",
+   "relation": "other_officer_of",
+   "object": "WFXP",
+   "quote": "The two television stations owned by Nexstar Media Group serving Erie, Pa., now have a new VP and General Manager.\n\nOverseeing WFXP-TV \u201cFOX66\u201d and WJET-24 in the Northwest Pennsylvania city is Spencer Lane.",
+   "date_in_doc": "2025-05-01",
+   "url": "https://rbr.com/nexstars-erie-choice-as-duopolys-gm/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Spencer Lane",
+   "relation": "other_officer_of",
+   "object": "WFXP",
+   "quote": "Vice President - General Manager WJET-TV (ABC) - WFXP-TV (FOX) - Yourerie.com",
+   "date_in_doc": "Apr 2025 - Present",
+   "url": "https://www.linkedin.com/in/spencer-lane-66295757"
+  },
+  {
+   "doc": "D15",
+   "subject": "WFXP",
+   "relation": "other",
+   "object": "Nexstar Media Group, Inc.",
+   "quote": "WJET/WFXP/YourErie.com are proud members of the Nexstar Media Group, Inc.",
+   "date_in_doc": null,
+   "url": "https://www.yourerie.com/work-for-us/"
+  },
+  {
+   "doc": "D15",
+   "subject": "Nexstar Inc.",
+   "relation": "subsidiary_of",
+   "object": "Nexstar Media Group",
+   "quote": "Its wholly owned operating subsidiary, Nexstar Inc., consists of three divisions: Broadcasting, Digital, and Networks.",
+   "date_in_doc": null,
+   "url": "https://www.yourerie.com/work-for-us/"
+  },
+  {
+   "doc": "E1",
+   "subject": "Nexstar Broadcasting Group, Inc.",
+   "relation": "operates_under_agreement",
+   "object": "WFXP-TV",
+   "quote": "Nexstar Broadcasting Group, Inc. provides services for WFXP-TV and Mission Broadcasting through a time brokerage agreement.",
+   "date_in_doc": null,
+   "url": "https://www.yourerie.com/contact-us/"
+  },
+  {
+   "doc": "E1",
+   "subject": "Nexstar Broadcasting Group, Inc.",
+   "relation": "operates_under_agreement",
+   "object": "Mission Broadcasting",
+   "quote": "Nexstar Broadcasting Group, Inc. provides services for WFXP-TV and Mission Broadcasting through a time brokerage agreement.",
+   "date_in_doc": null,
+   "url": "https://www.yourerie.com/contact-us/"
+  },
+  {
+   "doc": "E1",
+   "subject": "Spencer Lane",
+   "relation": "other_officer_of",
+   "object": "WFXP",
+   "quote": "Spencer Lane, VP/General Manager",
+   "date_in_doc": null,
+   "url": "https://www.yourerie.com/contact-us/"
+  },
+  {
+   "doc": "E1",
+   "subject": "Bailey Brautigan",
+   "relation": "other_officer_of",
+   "object": "WFXP",
+   "quote": "Bailey Brautigan, News Director",
+   "date_in_doc": null,
+   "url": "https://www.yourerie.com/contact-us/"
+  },
+  {
+   "doc": "E1",
+   "subject": "Dan Hamilton",
+   "relation": "other_officer_of",
+   "object": "WFXP",
+   "quote": "Dan Hamilton, Sales Director",
+   "date_in_doc": null,
+   "url": "https://www.yourerie.com/contact-us/"
+  },
+  {
+   "doc": "E1",
+   "subject": "Jim Rumm",
+   "relation": "other_officer_of",
+   "object": "WFXP",
+   "quote": "For programming issues and questions, contact Jim Rumm, Program Director/Station Manager, WFXPPhone: 814-860-5679",
+   "date_in_doc": null,
+   "url": "https://www.yourerie.com/contact-us/"
+  }
+ ],
+ "flags": [
+  [
+   "conflict",
+   "several owners named: ['gannon university', 'mission broadcasting', 'nexstar media']"
+  ],
+  [
+   "missing",
+   "who owns gannon university"
+  ],
+  [
+   "missing",
+   "the leader named in the leader definition"
+  ]
+ ],
+ "steps": [
+  {
+   "step": "extract",
+   "usd": 0.052192,
+   "latency_s": 40.2,
+   "model_returned": "gpt-6.1-sol"
+  },
+  {
+   "step": "extract_extra",
+   "usd": 0.006947999999999999,
+   "latency_s": 8.9
+  },
+  {
+   "step": "solve",
+   "effort": "high",
+   "usd": 0.023226,
+   "latency_s": 45.4
+  }
+ ],
+ "usd_total": 0.082366,
+ "latency_total_s": 94.5,
+ "escalated": true,
+ "extra_docs": 1,
+ "arm": "B",
+ "case": "wfxp_mission",
+ "run": 1,
+ "saved": "2026-10-04T19:25:54-0300"
+}

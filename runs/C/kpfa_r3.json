@@ -1,0 +1,22 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"Pacifica Foundation, Inc.\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=51246\",\n        \"quote\": \"#### Licensee\\n\\nName: PACIFICA FOUNDATION, INC.\"\n      },\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f918bac099c018bb99b1a9b4135\",\n        \"quote\": \"Licensee/Permittee Name FRN\\nPacifica Foundation, Inc. 0001546415\\nFac. ID No. Call Sign City State Service\\n51243 KPFB BERKELEY CA FM\\n51244 KPFT HOUSTON TX FM\\n51246 KPFA BERKELEY CA FM\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://kpfa.org/app/uploads/2025/03/2023-2026_CWA-KPFA_CBA_Revised_03142025.pdf\",\n        \"quote\": \"This Agreement is entered into as of November 1, 2023, between Pacifica Foundation, its successors and assigns, (\u201cEmployer\u201d) which owns and operates radio station KPFA-FM and KPFB-FM in Berkeley, California\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"none\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://pacifica.org/documents/bylaws_191022/bylaws_191022.pdf?eId=9117d4c9-4b46-4d4d-8ad9-c2ec55463112&eType=EmailBlastContent\",\n        \"quote\": \"The Foundation is a nonprofit public benefit corporation and is not organized for the private gain of any person.\"\n      },\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f918bac099c018bb99b1a9b4135\",\n        \"quote\": \"Is the Respondent's governing board (or other governing entity) directly or indirectly under the control of another entity?\\nNo\"\n      }\n    ]\n  },\n  \"controlling_person\": {\n    \"status\": \"none\",\n    \"names\": [],\n    \"citations\": [\n      {\n        \"url\": \"https://pacifica.org/documents/bylaws_191022/bylaws_191022.pdf?eId=9117d4c9-4b46-4d4d-8ad9-c2ec55463112&eType=EmailBlastContent\",\n        \"quote\": \"The Foundation is a nonprofit public benefit corporation and is not organized for the private gain of any person.\"\n      },\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/25076f918bac099c018bb99b1a9b4135\",\n        \"quote\": \"Is the Respondent's governing board (or other governing entity) directly or indirectly under the control of another entity?\\nNo\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Stephanie Wells\",\n    \"role\": \"Executive Director\",\n    \"entity\": \"Pacifica Foundation\",\n    \"citations\": [\n      {\n        \"url\": \"https://kpftx.org/archives/pnb/pnb241017/pnb241017_9018_minutes.pdf\",\n        \"quote\": \"Stephanie Wells, Executive Director (P)\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Voluntary Transfer of Control of KPFA (facility 51246) from Pacifica Foundation, Inc. (Old Board) to Pacifica Foundation, Inc. (New Board)\",\n      \"status\": \"approved\",\n      \"date\": \"2011-06-14\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DOC-307708A1.pdf\",\n          \"quote\": \"Voluntary Transfer of ControlFrom: PACIFICA FOUNDATION, INC, (OLD BOARD)To: PACIFICA FOUNATION, INC. (NEW BOARD)Form 316\\nCA BTCH-20110527AMR KPFA 51246 PACIFICA FOUNDATION, INC.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"Pacifica Foundation, Inc. is a nonprofit public benefit corporation governed by a board of directors without private equity owners or a parent holding company.\"\n}",
+ "usage": {
+  "candidates_token_count": 1285,
+  "prompt_token_count": 2832,
+  "thoughts_token_count": 451,
+  "total_token_count": 4568
+ },
+ "usd": 0.008634,
+ "latency_s": 7.2,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C",
+ "case": "kpfa",
+ "run": 3,
+ "saved": "2026-10-04T19:34:31-0300"
+}

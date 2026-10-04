@@ -1,0 +1,22 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"Mission Broadcasting, Inc.\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/tv-profile/wfxp\",\n        \"quote\": \"Licensee: Mission Broadcasting, Inc.\"\n      },\n      {\n        \"url\": \"https://fcc.report/LMS/0000288550\",\n        \"quote\": \"| 19707 | WFXP | DTV - Full Service Television | CDT - Commercial | M - Main | 26 | ERIE, PA | LICEN - LICENSED | MISSION BROADCASTING, INC. |\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"Nexstar Media Group\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://en.wikipedia.org/wiki/WFXP\",\n        \"quote\": \"It is owned by Mission Broadcasting and operated by Nexstar Media Group, owner of dual ABC/ CW+ affiliate WJET-TV (channel 24).\"\n      },\n      {\n        \"url\": \"https://www.yourerie.com/contact-us/\",\n        \"quote\": \"Nexstar Broadcasting Group, Inc. provides services for WFXP-TV and Mission Broadcasting through a time brokerage agreement.\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": null,\n    \"citations\": []\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Erie Broadcasting acquired the station (then WETG) from Gannon University.\",\n      \"status\": \"closed\",\n      \"date\": \"1994\",\n      \"citations\": [\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/WFXP\",\n          \"quote\": \"As a result, the university sold the station to a consortium of local investors known as Erie Broadcasting.\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Jason Elkin acquired the station from Erie Broadcasters.\",\n      \"status\": \"closed\",\n      \"date\": null,\n      \"citations\": [\n        {\n          \"url\": \"https://en.wikipedia.org/wiki/WFXP\",\n          \"quote\": \"Erie Broadcasters then sold the station to Jason Elkin, former founder of New Vision Television;\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Mission Broadcasting acquired WFXP.\",\n      \"status\": \"closed\",\n      \"date\": \"1998\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.nexstar.tv/stations/wfxp-d3/\",\n          \"quote\": \"WFXP/FOX 66 was acquired by Mission Broadcasting in 1998.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"The evidence dossier documents that Mission Broadcasting, Inc. owns WFXP and that Nexstar Media Group operates it under a shared services/brokerage agreement. However, the dossier does not provide information regarding the ownership structure or parent entity of Mission Broadcasting, Inc., its controlling person, or the identity of its current president.\"\n}",
+ "usage": {
+  "candidates_token_count": 853,
+  "prompt_token_count": 3321,
+  "thoughts_token_count": 969,
+  "total_token_count": 5143
+ },
+ "usd": 0.00932325,
+ "latency_s": 6.6,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C",
+ "case": "wfxp_mission",
+ "run": 3,
+ "saved": "2026-10-04T19:35:14-0300"
+}

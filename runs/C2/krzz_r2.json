@@ -1,0 +1,22 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\n      \"KRZZ LICENSING, LLC\"\n    ],\n    \"citations\": [\n      {\n        \"url\": \"https://enterpriseefiling.fcc.gov/dataentry/public/tv/publicFacilityDetails.html?facilityId=1092\",\n        \"quote\": \"#### Licensee\\n\\nName: KRZZ LICENSING, LLC\"\n      },\n      {\n        \"url\": \"https://publicfiles.fcc.gov/fm-profile/KRZZ\",\n        \"quote\": \"Licensee:\\n: KRZZ LICENSING, LLC\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"same_as_owner\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"not_established\",\n    \"name\": null,\n    \"role\": null,\n    \"entity\": null,\n    \"citations\": []\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Spanish Broadcasting System acquired the station from Infinity Broadcasting in a transaction giving Infinity an equity interest in SBS.\",\n      \"status\": \"closed\",\n      \"date\": \"2004\",\n      \"citations\": [\n        {\n          \"url\": \"https://bayarearadio.org/station/krzz\",\n          \"quote\": \"New owner Spanish Broadcasting System acquired the station from Infinity Broadcasting in a transaction that gave Infinity an equity interest in SBS and immediately installed Spanish-language programming.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"While multiple sources state that Spanish Broadcasting System owns KRZZ and associate KRZZ Licensing, LLC with it, the provided dossier does not document the specific corporate ownership link between KRZZ Licensing, LLC and Spanish Broadcasting System. Additionally, no chief executive officer of Spanish Broadcasting System is identified in the provided evidence.\"\n}",
+ "usage": {
+  "candidates_token_count": 515,
+  "prompt_token_count": 3771,
+  "thoughts_token_count": 1237,
+  "total_token_count": 5523
+ },
+ "usd": 0.00939825,
+ "latency_s": 8.1,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C2",
+ "case": "krzz",
+ "run": 2,
+ "saved": "2026-10-04T19:53:59-0300"
+}
