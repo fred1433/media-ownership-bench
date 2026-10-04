@@ -688,8 +688,8 @@
       },
       {
        "url": "https://www.sec.gov/Archives/edgar/data/2010499/000114036125019057/xslSCHEDULE_13G_X01/primary_doc.xml",
-       "fetched": false,
-       "passage_found": false,
+       "fetched": true,
+       "passage_found": true,
        "names_entity": false
       },
       {

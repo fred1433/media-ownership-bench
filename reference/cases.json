@@ -1286,7 +1286,7 @@
      ],
      "correction": "Set from not_established after the independent verification pass (Making Contact page dated 2026-07-01; pacifica.org contact page fetched 2026-10-04). Applied before any output was scored."
     },
-    "uncertainty": "Licensee and nonprofit status are clear. The executive director as of 2026-10-04 is not established: the latest source opened naming one is a Pacifica release dated 2025-04-11 naming Stephanie Wells as Executive Director; the Pacifica site's officers page (PNB Members 2025) lists board officers (Chair Susan Young) but no ED; governance disputes over 2025 bylaws continued into mid-2026. A nonprofit membership foundation governed by an elected national board has no controlling person; 'none' here rests on its 501(c)(3) nonprofit status, not on a 2026 governance document."
+    "uncertainty": "Licensee and nonprofit status are clear. Executive director: Stephanie Wells, per a Making Contact page dated 2026-07-01 and the pacifica.org contact page fetched 2026-10-04 (set by the verification pass; the first pass had found only an April 2025 source). No controlling person."
    },
    "plausible_wrong_answers": [
     "Lydia Brazon (interim ED in 2021)",

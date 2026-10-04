@@ -44,6 +44,19 @@ def fieldcell(v):
     if n: n = n.replace(" \u2014 ", ", ").replace("\u2014", ", ").replace("\u2013", "-")  # model text quoted verbatim otherwise
     return {"v": v["verdict"], "n": n}
 
+# per-case cost on the same perimeter as the totals: B includes its retrieval (Exa, shared by the three passes),
+# C is reconstructed as B's retrieval and extraction plus the Gemini solve.
+exa_case = Counter()
+for r in L:
+    if r["provider"] == "exa" and r["arm"] == "B": exa_case[r["case"]] += r["usd"]
+def b_pre_case(cid, arm="B"):
+    v = []
+    for run in (1, 2, 3):
+        p = RUNS / arm / f"{cid}_r{run}.json"
+        if p.exists():
+            d = json.loads(p.read_text()); v.append(sum(x["usd"] for x in d["steps"] if x["step"] != "solve"))
+    return statistics.mean(v) if v else 0.0
+
 rows = []
 for cid in ORDER:
     c = next(x for x in cases if x["id"] == cid)
@@ -51,7 +64,8 @@ for cid in ORDER:
     for arm in ["A", "B", "C", "B2", "C2", "bare"]:
         lst = sorted(outs.get(cid, {}).get(arm, []), key=lambda o: o["run"])
         arms[arm] = {"marks": [mark(o) for o in lst],
-                     "usd": round(sum(o["usd"] for o in lst) / len(lst), 3) if lst else None,
+                     "usd": (round(sum(o["usd"] for o in lst) / len(lst) + (exa_case[cid] / 3 if arm in ("B", "B2", "C", "C2") else 0)
+                                   + (b_pre_case(cid, "B" if arm == "C" else "B2") if arm in ("C", "C2") else 0), 3) if lst else None),
                      "fields": [{k: fieldcell(v) for k, v in o["fields"].items()} for o in lst]}
     rows.append({"id": cid, "name": c["media"]["name"], "market": c["media"].get("market"), "kind": c["media"]["kind"],
                  "scope": c["scope"], "structure": STRUCT[cid], "ref": short(c["reference"]),
@@ -94,6 +108,8 @@ DATA = {
     "search": {"median": statistics.median(ws), "min": min(ws), "max": max(ws)},
     "locate": {arm: {st: loc[(arm, st)] for st in ("retrieval", "extraction", "solving")} for arm in ("B", "C", "B2", "C2")},
     "escalated_B": esc,
+    "solving_reasons": dict(Counter(r["reason"] for r in LOC if r["arm"] == "B" and r["stage"] == "solving")),
+    "bare_blank": summ["bare"]["gap_avoidable"] + summ["bare"]["gap_justified"],
     "cost": {"openai": round(prov["openai"], 2), "gemini": round(prov["gemini"], 2), "exa": round(prov["exa"], 2),
              "total": round(sum(prov.values()), 2), "pilot": round(pilot, 2),
              "check": round(sum(r["usd"] for r in L if r["arm"] == "score"), 2),

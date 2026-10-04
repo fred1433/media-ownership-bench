@@ -5,7 +5,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B",
@@ -13,7 +14,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B",
@@ -21,7 +23,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B",
@@ -29,7 +32,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "B",
@@ -37,7 +41,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B",
@@ -45,7 +50,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -53,7 +59,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "B",
@@ -61,7 +68,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B",
@@ -69,7 +77,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -77,7 +86,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "B",
@@ -85,7 +95,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B",
@@ -93,7 +104,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -101,7 +113,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B",
@@ -109,7 +122,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B",
@@ -117,7 +131,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B",
@@ -125,7 +140,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B",
@@ -133,7 +149,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B",
@@ -141,7 +158,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B",
@@ -149,7 +167,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B",
@@ -157,7 +176,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -165,7 +185,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -173,7 +194,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B",
@@ -181,7 +203,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -189,7 +212,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -197,7 +221,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B",
@@ -205,7 +230,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -213,7 +239,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -221,7 +248,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B",
@@ -229,7 +257,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -237,7 +266,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B",
@@ -245,7 +275,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -253,7 +284,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B",
@@ -261,7 +293,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -269,7 +302,8 @@
   "run": 1,
   "field": "legal_owner",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B",
@@ -277,7 +311,8 @@
   "run": 2,
   "field": "legal_owner",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B",
@@ -285,7 +320,8 @@
   "run": 3,
   "field": "legal_owner",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B",
@@ -293,7 +329,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B",
@@ -301,7 +338,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -309,7 +347,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B",
@@ -317,7 +356,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B",
@@ -325,7 +365,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B",
@@ -333,7 +374,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -341,7 +383,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C",
@@ -349,7 +392,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C",
@@ -357,7 +401,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C",
@@ -365,7 +410,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "C",
@@ -373,7 +419,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C",
@@ -381,7 +428,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -389,7 +437,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "C",
@@ -397,7 +446,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C",
@@ -405,7 +455,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -413,7 +464,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "C",
@@ -421,7 +473,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C",
@@ -429,7 +482,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -437,7 +491,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "C",
@@ -445,7 +500,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "C",
@@ -453,7 +509,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -461,7 +518,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -469,7 +527,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -477,7 +536,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -485,7 +545,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C",
@@ -493,7 +554,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -501,7 +563,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -509,7 +572,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C",
@@ -517,7 +581,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -525,7 +590,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C",
@@ -533,7 +599,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -541,7 +608,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C",
@@ -549,7 +617,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -557,7 +626,8 @@
   "run": 1,
   "field": "legal_owner",
   "verdict": "error",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "C",
@@ -565,7 +635,8 @@
   "run": 2,
   "field": "legal_owner",
   "verdict": "error",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "C",
@@ -573,7 +644,8 @@
   "run": 3,
   "field": "legal_owner",
   "verdict": "error",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "C",
@@ -581,7 +653,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C",
@@ -589,7 +662,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -597,7 +671,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C",
@@ -605,7 +680,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C",
@@ -613,7 +689,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C",
@@ -621,7 +698,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -629,7 +707,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B2",
@@ -637,7 +716,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B2",
@@ -645,7 +725,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B2",
@@ -653,7 +734,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -661,7 +743,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B2",
@@ -669,7 +752,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -677,7 +761,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -685,7 +770,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B2",
@@ -693,7 +779,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -701,7 +788,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -709,7 +797,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B2",
@@ -717,7 +806,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -725,7 +815,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B2",
@@ -733,7 +824,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B2",
@@ -741,7 +833,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B2",
@@ -749,7 +842,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B2",
@@ -757,7 +851,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "B2",
@@ -765,7 +860,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B2",
@@ -773,7 +869,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B2",
@@ -781,7 +878,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -789,7 +887,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -797,7 +896,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B2",
@@ -805,7 +905,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -813,7 +914,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -821,7 +923,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B2",
@@ -829,7 +932,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -837,7 +941,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -845,7 +950,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B2",
@@ -853,7 +959,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -861,7 +968,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B2",
@@ -869,7 +977,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -877,7 +986,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B2",
@@ -885,7 +995,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -893,7 +1004,8 @@
   "run": 1,
   "field": "legal_owner",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B2",
@@ -901,7 +1013,8 @@
   "run": 2,
   "field": "legal_owner",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B2",
@@ -909,7 +1022,8 @@
   "run": 3,
   "field": "legal_owner",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "B2",
@@ -917,7 +1031,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B2",
@@ -925,7 +1040,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -933,7 +1049,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B2",
@@ -941,7 +1058,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "B2",
@@ -949,7 +1067,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "B2",
@@ -957,7 +1076,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -965,7 +1085,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C2",
@@ -973,7 +1094,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C2",
@@ -981,7 +1103,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C2",
@@ -989,7 +1112,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -997,7 +1121,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C2",
@@ -1005,7 +1130,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1013,7 +1139,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1021,7 +1148,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C2",
@@ -1029,7 +1157,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1037,7 +1166,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "extraction"
+  "stage": "extraction",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1045,7 +1175,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "no_controller"
  },
  {
   "arm": "C2",
@@ -1053,7 +1184,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1061,7 +1193,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "C2",
@@ -1069,7 +1202,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1077,7 +1211,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1085,7 +1220,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C2",
@@ -1093,7 +1229,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1101,7 +1238,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1109,7 +1247,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C2",
@@ -1117,7 +1256,8 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1125,7 +1265,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1133,7 +1274,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C2",
@@ -1141,7 +1283,8 @@
   "run": 1,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1149,7 +1292,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C2",
@@ -1157,7 +1301,8 @@
   "run": 2,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1165,7 +1310,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C2",
@@ -1173,7 +1319,8 @@
   "run": 3,
   "field": "leader",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1181,7 +1328,8 @@
   "run": 1,
   "field": "legal_owner",
   "verdict": "error",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "C2",
@@ -1189,7 +1337,8 @@
   "run": 2,
   "field": "legal_owner",
   "verdict": "error",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "C2",
@@ -1197,7 +1346,8 @@
   "run": 3,
   "field": "legal_owner",
   "verdict": "error",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "dated_source_only"
  },
  {
   "arm": "C2",
@@ -1205,7 +1355,8 @@
   "run": 1,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C2",
@@ -1213,7 +1364,8 @@
   "run": 1,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1221,7 +1373,8 @@
   "run": 2,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C2",
@@ -1229,7 +1382,8 @@
   "run": 2,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  },
  {
   "arm": "C2",
@@ -1237,7 +1391,8 @@
   "run": 3,
   "field": "ultimate_parent",
   "verdict": "abstain_avoidable",
-  "stage": "solving"
+  "stage": "solving",
+  "reason": "parent_not_chained"
  },
  {
   "arm": "C2",
@@ -1245,6 +1400,7 @@
   "run": 3,
   "field": "controlling_person",
   "verdict": "abstain_avoidable",
-  "stage": "retrieval"
+  "stage": "retrieval",
+  "reason": null
  }
 ]

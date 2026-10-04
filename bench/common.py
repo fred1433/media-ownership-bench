@@ -20,9 +20,13 @@ PRICES = {
     "gemini_search_query": 14.00 / 1000,          # not used in this bench (no Gemini grounding)
 }
 
+def _ver(p):
+    try: return md.version(p)
+    except md.PackageNotFoundError: return None
+
 SDK = {
-    "openai": md.version("openai"),
-    "google-genai": md.version("google-genai"),
+    "openai": _ver("openai"),
+    "google-genai": _ver("google-genai"),
     "exa": "REST https://api.exa.ai/search (no SDK)",
 }
 

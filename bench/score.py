@@ -1,4 +1,4 @@
-"""Recompute every score from runs/ and reference/. Usage: python bench/score.py [--no-fetch]
+"""Recompute every score from runs/ and reference/. Usage: python bench/score.py [--fetch]
 Citation check (automated part): the cited passage exists in the source document, and it names the claimed entity.
 Source texts are fetched once through Exa /contents and cached in runs/private (not published)."""
 import json, os, re, statistics, sys, difflib
@@ -17,9 +17,15 @@ if _post.exists():
         ADJ.setdefault(k, {"extra_aliases": []}); ADJ[k]["extra_aliases"] = ADJ[k].get("extra_aliases", []) + v.get("extra_aliases", [])
         if "override" in v: ADJ[k]["override"] = v["override"]
         if "accept_also" in v: ADJ[k]["accept_also"] = v["accept_also"]
+PRIVATE.mkdir(parents=True, exist_ok=True)
 CACHE = PRIVATE / "source_cache.json"
 cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
-FETCH = "--no-fetch" not in sys.argv
+# Published record of every citation check (url, passage, fetched, found). the default (no network) reuses it when the
+# private page texts are absent, so the scores can be recomputed from a fresh clone.
+CHECKS_PATH = RUNS / "citation_checks.json"
+CHECKS = {f"{c['url']}\n{c['quote']}": c for c in json.loads(CHECKS_PATH.read_text())} if CHECKS_PATH.exists() else {}
+NEW_CHECKS = {}
+FETCH = "--fetch" in sys.argv   # default: no network, published citation checks
 
 
 def names_of(e):
@@ -90,11 +96,16 @@ def cite_ok(citations, entity_names):
     """At least one citation whose passage is found in the source and names the entity."""
     detail = []
     for c in citations:
-        txt = source_text(c["url"])
-        found = located(c["quote"], txt)
+        key = f"{c['url']}\n{c['quote']}"
+        if (c["url"] in cache or FETCH) or key not in CHECKS:
+            txt = source_text(c["url"])
+            fetched, found = txt is not None, located(c["quote"], txt)
+        else:
+            fetched, found = CHECKS[key]["fetched"], CHECKS[key]["passage_found"]
+        NEW_CHECKS[key] = {"url": c["url"], "quote": c["quote"], "fetched": fetched, "passage_found": found}
         q = norm(c["quote"]); qt = set(q.split())
         names = (not entity_names) or any(norm(n) and (norm(n) in q or any(t in qt for t in norm(n).split() if len(t) >= 4 and t not in GENERIC)) for n in entity_names)
-        detail.append({"url": c["url"], "fetched": txt is not None, "passage_found": found, "names_entity": names})
+        detail.append({"url": c["url"], "fetched": fetched, "passage_found": found, "names_entity": names})
     return any(d["passage_found"] and d["names_entity"] for d in detail), detail
 
 
@@ -185,7 +196,9 @@ def main():
         for p in sorted((RUNS / arm).glob("*.json")):
             cid = p.stem.rsplit("_r", 1)[0]
             if cid in cases: rows.append(score_output(cases[cid], p))
-    CACHE.write_text(json.dumps(cache))
+    if cache: CACHE.write_text(json.dumps(cache))
+    merged = {**CHECKS, **NEW_CHECKS}
+    CHECKS_PATH.write_text(json.dumps(sorted(merged.values(), key=lambda c: (c["url"], c["quote"])), indent=1))
     agg = {}
     for arm in ["A", "B", "C", "B2", "C2", "bare"]:
         r = [x for x in rows if x["arm"] == arm]

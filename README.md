@@ -31,17 +31,18 @@ analyzed or otherwise learned from, which rules out publishing and scoring them 
 | Cost per attempt | $0.23 | $0.09 (incl. Exa) | $0.08 (reconstructed: B retrieval and extraction + C solve) |
 
 Variants: B2/C2 (extraction told to follow the chain upward, same documents) left B at 3/24 and C at 5/24.
-Control without search: 0/8, no wrong value, 28 of 32 fields blank. Total spend $11.16
+Control without search: 0/8, no wrong value, 31 of 32 fields blank (28 of them established in the record). Total spend $11.16
 (OpenAI $9.73, Gemini $0.97, Exa $0.46), including a $0.58 pilot on a development case.
 
 ## Layout
 - `reference/cases.json` the eight scored cases and two development cases (schema, sources with four dates)
 - `reference/grid.json` scoring rules and aliases, frozen before any scored run (see git history)
 - `reference/verification.json` the independent second pass over the reference
-- `reference/adjudications.json` decisions taken after the freeze from the verification pass, before any output was scored, each with its reason
+- `reference/adjudications.json` decisions taken after the freeze from the verification pass, before any output was scored, each with its reason (plus the KPFA leader correction recorded in `cases.json`)
 - `bench/` harness (`run.py`, `arms.py`, `common.py`), scorer (`score.py`), failure location (`locate.py`), page build (`build_page.py`)
 - `runs/A|B|C|bare/` every output, with usage, cost, latency, search counts; `runs/ledger.jsonl` every billed call;
-  `runs/scores.json` the recomputed scores; `runs/errors.jsonl` failures
+  `runs/scores.json` the recomputed scores; `runs/citation_checks.json` every citation check (url, passage, fetched, found);
+  `runs/locate.json` the stage where each workflow blank or error first shows. No call failed, so there is no `runs/errors.jsonl`.
 
 Retrieved page texts (`runs/private/`) are not published (copyright); B's dossiers keep URLs and short quotes.
 
@@ -52,8 +53,8 @@ words and accepts a reference alias; a citation whose every page refused automat
 "unverifiable" instead of "unsupported". The B2/C2 variant was designed after reading the first results.
 
 ## Three levels of reproduction
-1. **Recompute the scores** from the published outputs: `python bench/score.py --no-fetch` (citation checks
-   that need a source text not in the cache are then marked unfetched).
+1. **Recompute the scores** from the published outputs, no network: `python bench/score.py` (it reads the
+   published `runs/citation_checks.json`; `--fetch` re-fetches the cited pages through Exa instead).
 2. **Replay on the frozen corpus**: put the retrieved documents back in `runs/private/` and rerun B and C;
    the model calls are not deterministic, so results vary.
 3. **Rerun on the live web**: `python bench/run.py` with `OPENAI_API_KEY`, `GOOGLE_API_KEY`, `EXA_API_KEY`.

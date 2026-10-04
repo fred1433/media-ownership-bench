@@ -45,7 +45,12 @@ def main():
             else:
                 toks = key_tokens(ref_names(case, f))
                 stage = "retrieval" if not present(toks, doc_text) else ("extraction" if not present(toks, claims_text) else "solving")
-            rows.append({"arm": s["arm"], "case": case["id"], "run": s["run"], "field": f, "verdict": v["verdict"], "stage": stage})
+            reason = None
+            if stage == "solving":
+                if f == "controlling_person": reason = "no_controller"   # record says none / not applicable
+                elif f == "ultimate_parent": reason = "parent_not_chained"
+                else: reason = "dated_source_only"                      # Post owner, KPFA leader
+            rows.append({"arm": s["arm"], "case": case["id"], "run": s["run"], "field": f, "verdict": v["verdict"], "stage": stage, "reason": reason})
     (RUNS / "locate.json").write_text(json.dumps(rows, indent=1))
     agg = {}
     for r in rows:

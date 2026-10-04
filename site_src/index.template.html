@@ -29,6 +29,11 @@ mark{background:linear-gradient(transparent 12%, var(--hl) 12%, var(--hl) 88%, t
 
 /* masthead: a filing header */
 header.mast{padding:44px 0 36px;border-bottom:1px solid var(--rule)}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:64px;align-items:end}
+.hero .facts{grid-template-columns:1fr;margin:0;border-bottom:0}
+.hero .facts div{padding:12px 0;border-bottom:1px solid var(--rule)}
+.hero .facts dd{font-size:24px}
+.chainmini{font-family:var(--sans);font-size:13px;color:var(--muted);margin:0 0 6px}
 .filed{font-family:var(--sans);font-size:14px;color:var(--muted);margin:0 0 28px;display:flex;flex-wrap:wrap;gap:6px 28px}
 .filed span b{color:var(--ink);font-weight:600}
 h1{font-size:clamp(34px,4.9vw,64px);line-height:1.06;font-weight:600;letter-spacing:-.014em;margin:0;max-width:24ch}
@@ -153,6 +158,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 footer b{color:var(--ink)}
 
 @media (max-width:980px){
+  .hero{grid-template-columns:1fr;gap:28px}
+  .hero .facts{grid-template-columns:repeat(3,auto)}
+  .hero .facts div{border-bottom:0;padding-right:20px}
   .trace{grid-template-columns:1fr;gap:32px}
   .figure{position:static}
   .findings,.cols{grid-template-columns:1fr}
@@ -163,7 +171,7 @@ footer b{color:var(--ink)}
   .wrap{padding:0 16px}
   header.mast{padding:34px 0 28px}
   .lede{font-size:18.5px}
-  .facts{grid-template-columns:1fr 1fr}
+  .facts,.hero .facts{grid-template-columns:1fr 1fr}
   .facts div{padding:10px 12px 10px 0}
   section{padding:48px 0 16px}
   .register thead{display:none}
@@ -181,6 +189,12 @@ footer b{color:var(--ink)}
   .register tfoot td.c0{grid-column:1/-1}
   .register tfoot td.c1{display:none}
   .dgrid{grid-template-columns:1fr}
+  .dgrid table,.dgrid tbody,.dgrid tr{display:table!important;width:100%}
+  .dgrid tr{display:table-row!important}
+  .dgrid td{display:table-cell!important;padding:2px 8px 2px 0!important}
+  tr.detail td{padding:0 12px 16px}
+  .dgrid br{display:none}
+  .dgrid table{margin-bottom:10px}
   .recs dl{grid-template-columns:1fr}
   .recs dt{padding-top:6px}
   ol.sheet>li,.recs>li{grid-template-columns:34px 1fr;gap:0 10px}
@@ -195,9 +209,11 @@ footer b{color:var(--ink)}
 <header class="mast">
  <div class="wrap">
   <p class="filed"><span>Research task: <b>current owner of a US media outlet</b></span><span>Answers due as of <b>October 4, 2026</b></span><span>Measured <b>October 4, 2026</b></span></p>
+  <div class="hero"><div>
   <h1>Where the evidence stopped, one model left the owner blank and the other named the parent company.</h1>
   <p class="lede">Eight US outlets, each with an ownership record checked against public filings and dated sources. Three ways of asking current OpenAI and Gemini models the same question, three passes each, and each citation behind a right answer looked up in the document it points to. One case is traced step by step below, then all eight, then what we would change.</p>
-  <dl class="facts" id="facts"></dl>
+  </div>
+  <dl class="facts" id="facts"></dl></div>
  </div>
 </header>
 
@@ -236,7 +252,7 @@ footer b{color:var(--ink)}
      </dl></div></li>
     <li class="focal"><h3>First point where the error is observable</h3><div class="body"><p>In the dossier, before any model reads it: <mark>no retrieved document dated after 2013 names the legal entity behind the paper</mark>. From there the two models part ways. One declines to answer; the other promotes the parent to owner and cites 2013 coverage of the sale.</p></div></li>
     <li><h3>Interventions tested</h3><div class="body"><p>Three, one at a time. A different model on the identical dossier. An extraction step told to follow the chain upward, on the identical documents. And native search instead of the workflow.</p></div></li>
-    <li><h3>Result</h3><div class="body"><p>Changing the model turned a blank into a wrong owner. Changing the extraction changed nothing: still blank 3 of 3, still wrong 3 of 3. Native search returned WP Company LLC every time, citing an amicus brief filed October 6, 2025; the passage is in the document:</p><p class="quote">"WP Company LLC d/b/a The Washington Post is a wholly-owned subsidiary of Nash Holdings LLC"</p></div></li>
+    <li><h3>Result</h3><div class="body"><p>Changing the model named the parent as legal owner instead of leaving a blank. Changing the extraction changed nothing: still blank 3 of 3, still wrong 3 of 3. Native search returned WP Company LLC every time, citing an amicus brief filed October 6, 2025; the passage is in the document:</p><p class="quote">"WP Company LLC d/b/a The Washington Post is a wholly-owned subsidiary of Nash Holdings LLC"</p></div></li>
     <li><h3>What was not corrected</h3><div class="body"><p>The workflow's searches still never ask for the publishing entity, so the gap stays. Native search is a whole recipe, not one setting, so this run cannot say which part of it found the brief: cause not observable. Our own record leans on 2013 filings for this link; no public filing since then documents Nash Holdings' ownership.</p></div></li>
    </ol>
   </div>
@@ -259,7 +275,7 @@ footer b{color:var(--ink)}
    <tbody></tbody>
    <tfoot></tfoot>
   </table>
-  <div class="keyline"><span><i class="m ok"></i>complete and supported</span><span><i class="m x"></i>asserts a wrong value</span><span><i class="m gap"></i>incomplete: a blank, or a citation that does not hold</span><span>Cost is the API spend per attempt.</span></div>
+  <div class="keyline"><span><i class="m ok"></i>complete and supported</span><span><i class="m x"></i>asserts a wrong value</span><span><i class="m gap"></i>incomplete: a blank, or a citation that does not hold</span><span>Cost per attempt includes retrieval; for the third column it adds the workflow’s search and extraction to the Gemini call.</span></div>
 
   <div class="findings" id="findings"></div>
  </div>
@@ -278,7 +294,7 @@ footer b{color:var(--ink)}
      <li>The consumer apps. The same questions in ChatGPT and the Gemini app, on four cases picked before the run (Washington Post, WFAA, KRZZ, KPFA), have not been run yet.</li>
      <li>Batch, concurrency and retries. Calls ran up to eight at a time; none timed out and none needed a retry.</li>
      <li>Gemini's own search. Google's terms bar analyzing or redistributing grounded results, so Gemini is tested only on reading the workflow's documents.</li>
-     <li>Who checked the record: two separate AI agent passes over public sources, not a person. One disagreement (the Pacifica executive director) was settled before any answer was scored.</li>
+     <li>Who checked the record: two separate AI agent passes over public sources, not a person. Four reference decisions came out of the second pass, all taken before any answer was scored; four scorer fixes were made after the first scores were seen. Both are listed in the repository.</li>
     </ul>
    </div>
    <div>
@@ -354,13 +370,13 @@ $("#reg tfoot").innerHTML=`<tr><td class="c0">Totals</td><td class="c1"></td>${t
 
 /* findings */
 const L=D.locate;
-const tl=L.B.retrieval+L.B.extraction+L.B.solving;
+const tl=L.B.retrieval+L.B.extraction+L.B.solving; const R0=D.solving_reasons;
 const pct=n=>(100*n/tl).toFixed(2)+"%";
 $("#findings").innerHTML=`
 <div class="finding"><h3>The workflow's blanks were mostly not a search problem</h3>
-<p>The bounded workflow asserted no wrong value in 24 passes, and left ${S.B.gap_avoidable} fields blank that the record establishes. Tracing each blank back by name: the answer was in no document ${L.B.retrieval} times, in a document but dropped by extraction ${L.B.extraction} times, and in the dossier handed to the solver ${L.B.solving} times.</p>
-<div class="stages" aria-hidden="true"><div class="s1" style="width:${pct(L.B.retrieval)}">not retrieved</div><div class="s2" style="width:${pct(L.B.extraction)}"></div><div class="s3" style="width:${pct(L.B.solving)}">in the dossier, still blank</div></div>
-<p class="where">The solver held back when the only source was old, for example a 2024 board record for Pacifica's executive director.</p></div>
+<p>The bounded workflow asserted no wrong value in 24 passes, and left ${S.B.gap_avoidable} fields blank that the record establishes. Tracing each blank back by name: the answer was in no document ${L.B.retrieval} times, in a document but dropped by extraction ${L.B.extraction} times, and ${L.B.solving} blanks reached the solver: ${R0.no_controller} were "no controller", which it would not assert; ${R0.dated_source_only} had only a dated source; ${R0.parent_not_chained} were parents it did not chain up to.</p>
+<div class="stages" aria-hidden="true"><div class="s1" style="width:${pct(L.B.retrieval)}">not retrieved</div><div class="s2" style="width:${pct(L.B.extraction)}" title="dropped by extraction">extraction</div><div class="s3" style="width:${pct(L.B.solving)}">reached the solver, still blank</div></div>
+<p class="where">Dated source: the Post's publishing company appears only in a 2013 agreement; Pacifica's executive director only in a 2024 board record.</p></div>
 <div class="finding"><h3>Same evidence, different model</h3>
 <p>Given the identical dossiers, gemini-3.8-flash left ${S.C.gap_avoidable} fields blank instead of ${S.B.gap_avoidable}, and asserted a wrong value in ${S.C.errors} passes instead of ${S.B.errors}. Complete passes: ${S.C.complete} of 24 against ${S.B.complete}. Swapping the solver traded blanks for errors; it did not fill the gaps.</p>
 <p class="where">Washington Post, 3 of 3 passes: the parent given as legal owner.</p></div>
@@ -368,7 +384,7 @@ $("#findings").innerHTML=`
 <p>Complete in ${S.A.complete} of 24 passes, with ${D.search.median} searches per answer at the median (${D.search.min} to ${D.search.max}). ${S.A.unsupported} right answers carried a passage that was not in the cited document or did not name the entity, and ${S.A.unverifiable} cited pages refused our automated check.</p>
 <p class="where">KFRC: Fund for Policy Reform cited to the bare words "Delaware trust" or "not-for-profit charitable trust", 2 of 3 passes. KPIX: the Ellisons given as ultimate parent instead of Paramount Skydance, 2 of 3.</p></div>
 <div class="finding"><h3>What did not happen, and one fix that did nothing</h3>
-<p>No pass presented a stale owner as current, and the strict output schema never forced a value: with the date in the instructions and a way to say "not established", the model without search left ${S.bare.gap_avoidable} of 32 fields blank rather than guess. An extraction step told to follow the chain upward left the workflow at ${S.B2.complete} of 24 complete passes, as before.</p>
+<p>No pass presented a stale owner as current, and the strict output schema never forced a value: with the date in the instructions and a way to say "not established", the model without search left ${D.bare_blank} of 32 fields blank (${S.bare.gap_avoidable} of them established in the record) rather than guess. An extraction step told to follow the chain upward left the workflow at ${S.B2.complete} of 24 complete passes, as before.</p>
 <p class="where">Variant runs and the no-search control are in the repository.</p></div>`;
 
 /* recommendations */
@@ -380,9 +396,9 @@ const R=[
   "WFAA, Washington Post, KFRC, KRZZ, KPIX",
   "That the check still catches the real one in this set: ESPN's two fact sheets, 80/20 and 72/18/10."],
  ["Turn old evidence into one targeted search, not a blank",
-  `${L.B.solving} of the workflow's ${S.B.gap_avoidable} avoidable blanks had the answer in the dossier; the solver declined because its only source was dated.`,
+  `Of the ${L.B.solving} workflow blanks that reached the solver, ${D.solving_reasons.dated_source_only} had only a dated source in the dossier, and the solver declined rather than carry it forward.`,
   "Let the solver mark a link “supported only by a source older than the target date”, and send that link alone to a search restricted to newer documents.",
-  "Washington Post (2013 agreement), KPFA (2024 board record)",
+  "Washington Post (2013 agreement), KPFA (2024 board record). The other blanks at that stage (no controller, parents not chained) need a different change.",
   `Whether that one search finds the newer source for less than native search's ${D.search.median} searches per answer.`],
  ["Check every citation mechanically before a field is accepted",
   `On native search, ${S.A.unsupported} right fields cited a passage not found in the document or not naming the entity, and ${S.A.unverifiable} more pointed to pages that refused automated fetching. Fetching every source cited for a right answer, across all ${outputs} answers, cost ${money(C0.check)}.`,
