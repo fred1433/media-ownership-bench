@@ -38,12 +38,18 @@ Control without search: 0/8, no wrong value, 28 of 32 fields blank. Total spend 
 - `reference/cases.json` the eight scored cases and two development cases (schema, sources with four dates)
 - `reference/grid.json` scoring rules and aliases, frozen before any scored run (see git history)
 - `reference/verification.json` the independent second pass over the reference
-- `reference/adjudications.json` decisions taken after measurement, each with its reason
+- `reference/adjudications.json` decisions taken after the freeze from the verification pass, before any output was scored, each with its reason
 - `bench/` harness (`run.py`, `arms.py`, `common.py`), scorer (`score.py`), failure location (`locate.py`), page build (`build_page.py`)
 - `runs/A|B|C|bare/` every output, with usage, cost, latency, search counts; `runs/ledger.jsonl` every billed call;
   `runs/scores.json` the recomputed scores; `runs/errors.jsonl` failures
 
 Retrieved page texts (`runs/private/`) are not published (copyright); B's dossiers keep URLs and short quotes.
+
+## Changed after the first scores were seen (disclosed)
+Scorer fixes, no change to cases or reference: curly apostrophes no longer split names (D'Onofrio); aliases of
+four letters or fewer match as whole words (NFL); the check that a cited passage names the entity ignores generic
+words and accepts a reference alias; a citation whose every page refused automated fetching is reported as
+"unverifiable" instead of "unsupported". The B2/C2 variant was designed after reading the first results.
 
 ## Three levels of reproduction
 1. **Recompute the scores** from the published outputs: `python bench/score.py --no-fetch` (citation checks
