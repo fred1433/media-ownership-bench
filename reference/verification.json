@@ -1,0 +1,453 @@
+{
+ "verified_at": "2026-10-04T22:26:05+00:00",
+ "verifier": "agent (Claude), independent pass, did not see any model outputs",
+ "cases": {
+  "kfrc": {
+   "fields": {
+    "legal_owner": {
+     "verdict": "confirmed",
+     "note": "FCC fmq re-run 2026-10-04: KFRC-FM fac. 20897 licensee 'AUDACY LICENSE, LLC'.",
+     "urls": [
+      "https://transition.fcc.gov/fcc-bin/fmq?call=KFRC-FM&list=4"
+     ]
+    },
+    "ultimate_parent": {
+     "verdict": "confirmed",
+     "note": "FCC 24-94 text confirmed: Laurel Tree sole voting shareholder FPR Capital Holdings LLC, 'the sole member and manager of which is Fund for Policy Reform'. Jan 2025 change (Radio Ink/Radio World): stock transfers among shareholders cut foreign voting to 24.5%, petition withdrawn; no report of Laurel Tree losing control. Lenient-side risk: an analyst stopping at Laurel Tree Opportunities Corporation or 'Soros Fund Management' (trade press: 'Soros Fund Management holding a majority stake through Laurel Tree') would be marked wrong; Laurel Tree should be at least partial credit.",
+     "urls": [
+      "https://docs.fcc.gov/public/attachments/FCC-24-94A1.txt",
+      "https://radioink.com/2025/01/09/audacy-fcc-foreign-ownership-review-no-longer-needed/"
+     ]
+    },
+    "controlling_person": {
+     "verdict": "confirmed",
+     "note": "FCC 24-94: FPR board 'self-perpetuating, with no entity or individual possessing the right to appoint or remove any trustee' (trustees Banchon, Canfield, Alexander Soros, Vachon). 'none' is defensible; an answer naming Alexander Soros as a trustee/influential person without claiming control should not be penalised as 'George Soros personally'.",
+     "urls": [
+      "https://docs.fcc.gov/public/attachments/FCC-24-94A1.txt"
+     ]
+    },
+    "leader": {
+     "verdict": "confirmed",
+     "note": "RadioInsight 2026-01-27 quote found; Barrett Media 2026-06-30 headline 'Audacy CEO Kelli Turner on Potential Future Sales'. Permanent CEO since ~March 2025 (THR/Billboard).",
+     "urls": [
+      "https://radioinsight.com/headlines/336934/336934/",
+      "https://barrettmedia.com/2026/06/30/audacy-ceo-kelli-turner-future-sales/"
+     ]
+    },
+    "transactions": {
+     "verdict": "confirmed",
+     "note": "FCC grant and closing both 2024-09-30 (FCC 24-94; 8-K Ex.99.1). Chapter 11 final decree Jan 2025 (Radio Ink). Not scored: June 2026 sale of St. Louis cluster to Hoffmann Media (does not affect KFRC).",
+     "urls": [
+      "https://www.sec.gov/Archives/edgar/data/1067837/000119312524229306/d753507dex991.htm",
+      "https://radioink.com/2025/01/29/audacy-ends-chapter-11-proceedings-with-final-court-decree/"
+     ]
+    }
+   },
+   "quotes_checked": 4,
+   "quotes_not_found": [],
+   "suggested_aliases": {
+    "ultimate_parent": [
+     "Fund for Policy Reform",
+     "The Fund for Policy Reform"
+    ],
+    "chain_intermediate": [
+     "Laurel Tree Opportunities Corporation",
+     "Laurel Tree",
+     "FPR Capital Holdings LLC"
+    ],
+    "leader": [
+     "Kelli Turner",
+     "Kelli A. Turner"
+    ]
+   }
+  },
+  "krzz": {
+   "fields": {
+    "legal_owner": {
+     "verdict": "confirmed",
+     "note": "FCC fmq re-run: 'KRZZ LICENSING, LLC'; DA 26-933 appendix: 'KRZZ Licensing, Inc.' (file 0000300748). Both aliases needed, as the reference has.",
+     "urls": [
+      "https://transition.fcc.gov/fcc-bin/fmq?call=KRZZ&list=4",
+      "https://docs.fcc.gov/public/attachments/DA-26-933A1.txt"
+     ]
+    },
+    "ultimate_parent": {
+     "verdict": "confirmed",
+     "note": "DA 26-933 (released 2026-09-02): petition to deny 2026-10-02, opposition 2026-10-19, reply 2026-10-26; Radio Ink 2026-09-29 reports only the pleading cycle, no grant. Pre-emergence SBS remains parent on 2026-10-04.",
+     "urls": [
+      "https://docs.fcc.gov/public/attachments/DA-26-933A1.txt",
+      "https://radioink.com/2026/09/29/as-bankruptcy-goes-on-sbs-goes-public-with-cfo-search/"
+     ]
+    },
+    "controlling_person": {
+     "verdict": "confirmed",
+     "note": "'not_established' is defensible for 2026 but too STRICT if it penalises the obvious answer: SBS SEC filings (10-K FY2019 etc.) say Raúl Alarcón Jr. holds ~80% of combined voting power via 10-vote Class B stock; a careful analyst would name Raúl Alarcón as controlling person of pre-emergence SBS. Recommend accepting 'Raúl Alarcón (pre-emergence, via Class B)' as correct, not as an error.",
+     "urls": [
+      "https://www.sec.gov/Archives/edgar/data/927720/000156459020014282/sbsaa-10k_20191231.htm"
+     ]
+    },
+    "leader": {
+     "verdict": "confirmed",
+     "note": "RSA release (2026-04-08) verbatim: 'Raúl Alarcón will continue his leadership of the Company in his role as Chief Executive Officer, and will continue to serve as Chairman...through the consummation of the restructuring.' Radio World 2026-07-10 still calls him CEO. Radio Ink 2026-09-29 names COO Richard Lara, does not name a new CEO.",
+     "urls": [
+      "https://www.spanishbroadcasting.com/wp-content/uploads/sites/5/2026/04/RSA-Press-Release-Package.pdf",
+      "https://www.radioworld.com/news-and-business/business-and-law/sbs-reorganization-plan-now-waits-on-the-fcc"
+     ]
+    },
+    "transactions": {
+     "verdict": "confirmed",
+     "note": "RSA signed 2026-04-03, announced 2026-04-08 (release text). Applications filed 2026-07-16 (DA 26-933). No FCC grant. Note: plan confirmed by bankruptcy court 2026-07-01 per Radio World (Radio Ink 09-29 says 'court approval for the plan in June'); status 'announced' is strict: an analyst answering 'court-confirmed, pending FCC consent' is right and should match.",
+     "urls": [
+      "https://docs.fcc.gov/public/attachments/DA-26-933A1.txt",
+      "https://www.radioworld.com/news-and-business/business-and-law/sbs-reorganization-plan-now-waits-on-the-fcc"
+     ]
+    }
+   },
+   "quotes_checked": 4,
+   "quotes_not_found": [],
+   "suggested_aliases": {
+    "legal_owner": [
+     "KRZZ Licensing, LLC",
+     "KRZZ Licensing, Inc."
+    ],
+    "ultimate_parent": [
+     "Spanish Broadcasting System, Inc.",
+     "SBS",
+     "Spanish Broadcasting System, Inc., Debtor-in-Possession"
+    ],
+    "controlling_person": [
+     "Raúl Alarcón",
+     "Raul Alarcon Jr."
+    ],
+    "leader": [
+     "Raúl Alarcón",
+     "Raul Alarcon",
+     "Raúl Alarcón Jr."
+    ]
+   }
+  },
+  "kpix": {
+   "fields": {
+    "legal_owner": {
+     "verdict": "confirmed",
+     "note": "FCC tvq re-run: 'CBS BROADCASTING INC.' fac. 25452.",
+     "urls": [
+      "https://transition.fcc.gov/fcc-bin/tvq?call=KPIX-TV&list=4"
+     ]
+    },
+    "ultimate_parent": {
+     "verdict": "confirmed",
+     "note": "10-Q (June 30, 2026) quote found: Ellison Family indirectly holds ~77.5% of voting Class A through Harbor Lights Entertainment. Strictness: an analyst naming Harbor Lights Entertainment (f/k/a National Amusements) or 'the Ellison family' as ultimate parent is reading the chain one level higher; consider partial credit.",
+     "urls": [
+      "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000054/psky-20260630.htm"
+     ]
+    },
+    "controlling_person": {
+     "verdict": "confirmed",
+     "note": "FCC 25-43 quote found (David Ellison 64.5% of Ellison Family voting interests, sole manager). Accept 'Ellison family' and David Ellison alone.",
+     "urls": [
+      "https://docs.fcc.gov/public/attachments/FCC-25-43A1.txt"
+     ]
+    },
+    "leader": {
+     "verdict": "confirmed",
+     "note": "paramount.com/leadership fetched 2026-10-04: 'David Ellison / Chairman & Chief Executive Officer'.",
+     "urls": [
+      "https://www.paramount.com/leadership"
+     ]
+    },
+    "transactions": {
+     "verdict": "confirmed",
+     "note": "Skydance close 2025-08-07 (10-Q). WBD release dated 2026-09-30: 'The merger is expected to close on October 6, 2026' so not closed on 2026-10-04; status 'announced' is strict: it is shareholder-approved and HSR-cleared, an answer 'pending, expected to close Oct 6' should match.",
+     "urls": [
+      "https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx"
+     ]
+    }
+   },
+   "quotes_checked": 5,
+   "quotes_not_found": [],
+   "suggested_aliases": {
+    "ultimate_parent": [
+     "Paramount Skydance Corporation",
+     "Paramount",
+     "PSKY"
+    ],
+    "controlling_person": [
+     "David Ellison",
+     "Larry Ellison",
+     "Ellison family"
+    ],
+    "leader": [
+     "David Ellison",
+     "David H. Ellison"
+    ]
+   }
+  },
+  "wfaa": {
+   "fields": {
+    "legal_owner": {
+     "verdict": "confirmed",
+     "note": "FCC tvq re-run: 'WFAA-TV, INC.' fac. 72054.",
+     "urls": [
+      "https://transition.fcc.gov/fcc-bin/tvq?call=WFAA&list=4"
+     ]
+    },
+    "ultimate_parent": {
+     "verdict": "confirmed",
+     "note": "DA 26-267 and Nexstar release quotes found; 10-Q (Q2 2026) confirms injunction 2026-04-17, appeal to Ninth Circuit, 'A hearing date has not yet been set', plus commitment to divest six stations within two years ('No agreement has been executed'). Search found no Ninth Circuit ruling through Sept 2026. Strictness: an answer 'TEGNA Inc. (held separate under injunction, owned by Nexstar)' should match; 'TEGNA' alone is correctly a wrong answer.",
+     "urls": [
+      "https://www.sec.gov/Archives/edgar/data/1142417/000119312526339827/nxst-20260630.htm",
+      "https://globalcompetitionreview.com/gcr-usa/article/nexstar-pushes-ninth-circuit-narrower-injunction"
+     ]
+    },
+    "controlling_person": {
+     "verdict": "could_not_check",
+     "note": "Nexstar is widely held; proxy (DEF 14A 2026) not opened. 'not_established' is safe.",
+     "urls": []
+    },
+    "leader": {
+     "verdict": "confirmed",
+     "note": "Search: Nexstar board extended Sook's CEO contract through March 2029 (Oct 2025). Leadership page quote 'Chairman/Chief Executive Officer' not re-fetched.",
+     "urls": [
+      "https://en.wikipedia.org/wiki/Perry_Sook"
+     ]
+    },
+    "transactions": {
+     "verdict": "confirmed",
+     "note": "Approved and closed 2026-03-19 (DA 26-267, Nexstar release). Merger agreement dated 2025-08-18 per FCC order vs announced 2025-08-19: accept either date.",
+     "urls": [
+      "https://docs.fcc.gov/public/attachments/DA-26-267A1.txt"
+     ]
+    }
+   },
+   "quotes_checked": 3,
+   "quotes_not_found": [],
+   "suggested_aliases": {
+    "ultimate_parent": [
+     "Nexstar Media Group, Inc.",
+     "Nexstar",
+     "NXST"
+    ],
+    "leader": [
+     "Perry Sook",
+     "Perry A. Sook"
+    ]
+   }
+  },
+  "wfxp_mission": {
+   "fields": {
+    "legal_owner": {
+     "verdict": "confirmed",
+     "note": "FCC tvq re-run: 'MISSION BROADCASTING, INC.' fac. 19707.",
+     "urls": [
+      "https://transition.fcc.gov/fcc-bin/tvq?call=WFXP&list=4"
+     ]
+    },
+    "ultimate_parent": {
+     "verdict": "confirmed",
+     "note": "Mission privately held; Nexstar 10-Q quote on purchase options found. Wikipedia (rev. 2026-06-16) still lists WFXP under Mission with sister WJET.",
+     "urls": [
+      "https://en.wikipedia.org/wiki/Mission_Broadcasting"
+     ]
+    },
+    "controlling_person": {
+     "verdict": "confirmed",
+     "note": "PR Newswire 2024-03-21: 'Mission's majority shareholder is Nancie J. Smith'. Wikipedia lists her as chairwoman. Search snippet attributes a 49% interest to Dennis Thatcher (not opened in a primary doc).",
+     "urls": [
+      "https://www.prnewswire.com/news-releases/mission-broadcasting-comments-on-fccs-march-21-2024-notice-of-apparent-liability-ruling-regarding-its-ownership-of-wpix-tv-the-cw-of-new-york-city-302096573.html"
+     ]
+    },
+    "leader": {
+     "verdict": "confirmed",
+     "note": "Reference name correct but status 'not_established' is too STRICT if scoring penalises 'Dennis Thatcher': Wikipedia revision of 2026-06-16 still lists 'President: Dennis Thatcher' and no source shows a change. Recommend scoring Dennis Thatcher as correct (with date caveat), not as unverifiable.",
+     "urls": [
+      "https://en.wikipedia.org/wiki/Mission_Broadcasting"
+     ]
+    },
+    "transactions": {
+     "verdict": "confirmed",
+     "note": "No transaction found affecting WFXP in 2025-2026.",
+     "urls": []
+    }
+   },
+   "quotes_checked": 3,
+   "quotes_not_found": [],
+   "suggested_aliases": {
+    "legal_owner": [
+     "Mission Broadcasting, Inc.",
+     "Mission"
+    ],
+    "controlling_person": [
+     "Nancie J. Smith",
+     "Nancie Smith"
+    ],
+    "leader": [
+     "Dennis Thatcher"
+    ]
+   }
+  },
+  "wapo": {
+   "fields": {
+    "legal_owner": {
+     "verdict": "confirmed",
+     "note": "2013 8-K Ex.99.1 quote found (sale of WP Company LLC).",
+     "urls": [
+      "https://www.sec.gov/Archives/edgar/data/104889/000010488913000040/dex991.htm"
+     ]
+    },
+    "ultimate_parent": {
+     "verdict": "confirmed",
+     "note": "Nash Holdings LLC (8-K letter agreement quote found). Strictness: many careful answers say 'Jeff Bezos (via Nash Holdings)' as ultimate owner; should match parent+controller combined.",
+     "urls": [
+      "https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/form8k.htm"
+     ]
+    },
+    "controlling_person": {
+     "verdict": "confirmed",
+     "note": "TheWrap 2026-09-09 'Owner Jeff Bezos...' found; Bloomberg/WaPo 2026-09-09 coverage same.",
+     "urls": [
+      "https://www.thewrap.com/industry-news/business/jeff-donofrio-washington-post-ceo-publisher/"
+     ]
+    },
+    "leader": {
+     "verdict": "confirmed",
+     "note": "TheWrap 2026-09-09: title 'Publisher and CEO'; WaPo headline 'Post formally names Jeff D'Onofrio as publisher and CEO' (2026-09-09).",
+     "urls": [
+      "https://www.thewrap.com/industry-news/business/jeff-donofrio-washington-post-ceo-publisher/",
+      "https://www.washingtonpost.com/business/2026/09/09/interim-washington-post-publisher-jeff-donofrio-serve-permanent-capacity/"
+     ]
+    },
+    "transactions": {
+     "verdict": "confirmed",
+     "note": "Announced 2013-08-05, closed 2013-10-01 (SEC filings).",
+     "urls": []
+    }
+   },
+   "quotes_checked": 4,
+   "quotes_not_found": [],
+   "suggested_aliases": {
+    "legal_owner": [
+     "WP Company LLC",
+     "The Washington Post"
+    ],
+    "ultimate_parent": [
+     "Nash Holdings LLC",
+     "Nash Holdings"
+    ],
+    "controlling_person": [
+     "Jeff Bezos",
+     "Jeffrey P. Bezos"
+    ],
+    "leader": [
+     "Jeff D'Onofrio",
+     "Jeffrey D'Onofrio"
+    ]
+   }
+  },
+  "espn": {
+   "fields": {
+    "legal_owner": {
+     "verdict": "confirmed",
+     "note": "Disney 10-Q quote found. Exact legal entity name not in 10-Q; 'ESPN, Inc.' alias acceptable.",
+     "urls": [
+      "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm"
+     ]
+    },
+    "ultimate_parent": {
+     "verdict": "confirmed",
+     "note": "10-Q: 'On January 31, 2026, ESPN acquired NFL Network ... in exchange for a 10% noncontrolling interest'; Disney effective 72%, Hearst 18%. Status 'multiple' is strict: an answer 'Disney (72%, controlling), with Hearst 18% and NFL 10%' must match; 'Disney' alone partial.",
+     "urls": [
+      "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm"
+     ]
+    },
+    "controlling_person": {
+     "verdict": "confirmed",
+     "note": "not_applicable is fine (Disney widely held).",
+     "urls": []
+    },
+    "leader": {
+     "verdict": "confirmed",
+     "note": "AP via News4JAX 2026-07-21 quote found; CNBC 2026-07-22 'ESPN's Jimmy Pitaro outlines the network's next era'. No later change found.",
+     "urls": [
+      "https://www.news4jax.com/sports/2026/07/21/espn-starts-layoffs-tied-to-nfl-network-acquisition-memo-says/"
+     ]
+    },
+    "transactions": {
+     "verdict": "confirmed",
+     "note": "Closed 2026-01-31 (10-Q). AP adds: approved by regulators in January, NFL Network employees joined ESPN on April 1, deal announced the previous August (2025). An answer dating the takeover 'April 2026' is operational integration, not closing.",
+     "urls": [
+      "https://www.news4jax.com/sports/2026/07/21/espn-starts-layoffs-tied-to-nfl-network-acquisition-memo-says/"
+     ]
+    }
+   },
+   "quotes_checked": 2,
+   "quotes_not_found": [],
+   "suggested_aliases": {
+    "legal_owner": [
+     "ESPN",
+     "ESPN, Inc.",
+     "ESPN Inc."
+    ],
+    "ultimate_parent": [
+     "The Walt Disney Company",
+     "Disney",
+     "Hearst",
+     "NFL"
+    ],
+    "leader": [
+     "Jimmy Pitaro",
+     "James Pitaro"
+    ]
+   }
+  },
+  "kpfa": {
+   "fields": {
+    "legal_owner": {
+     "verdict": "confirmed",
+     "note": "FCC fmq re-run: 'PACIFICA FOUNDATION, INC.' fac. 51246.",
+     "urls": [
+      "https://transition.fcc.gov/fcc-bin/fmq?call=KPFA&list=4"
+     ]
+    },
+    "ultimate_parent": {
+     "verdict": "confirmed",
+     "note": "Nonprofit, no parent.",
+     "urls": []
+    },
+    "controlling_person": {
+     "verdict": "confirmed",
+     "note": "none (nonprofit with elected national board).",
+     "urls": []
+    },
+    "leader": {
+     "verdict": "disputed",
+     "note": "Reference says not_established (latest source 2025-04-11). Making Contact page dated 2026-07-01 ('Pacifica Foundation to Continue the Legacy of Making Contact') states verbatim: 'Stephanie Wells, executive director of the Pacifica Foundation.' The Pacifica contact page (pacifica.org/contact_home.php, undated, fetched 2026-10-04) shows 'Executive Director: Stephanie Wells'. Stephanie Wells should be the established answer as of 2026-07-01; 'Stephanie Wells as confirmed current ED' should be removed from plausible_wrong_answers. ProPublica S2 still shows FY2021 / Lydia Brazon, consistent with reference.",
+     "urls": [
+      "https://makingcontactradio.org/2026/07/pacifica-foundation-to-continue-the-legacy-of-making-contact/",
+      "https://pacifica.org/contact_home.php"
+     ]
+    },
+    "transactions": {
+     "verdict": "confirmed",
+     "note": "None found.",
+     "urls": []
+    }
+   },
+   "quotes_checked": 3,
+   "quotes_not_found": [
+    "S5 (Indybay) not opened"
+   ],
+   "suggested_aliases": {
+    "legal_owner": [
+     "Pacifica Foundation, Inc.",
+     "Pacifica Foundation",
+     "Pacifica"
+    ],
+    "leader": [
+     "Stephanie Wells",
+     "Stephanie D. Wells"
+    ]
+   }
+  }
+ }
+}

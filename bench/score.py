@@ -13,8 +13,10 @@ ADJ = {k: {"extra_aliases": v} for k, v in GRID["pre_registered_aliases"].items(
 _post = ROOT / "reference" / "adjudications.json"   # post-measurement decisions, each with its reason
 if _post.exists():
     for k, v in json.loads(_post.read_text()).items():
+        if k.startswith("_"): continue
         ADJ.setdefault(k, {"extra_aliases": []}); ADJ[k]["extra_aliases"] = ADJ[k].get("extra_aliases", []) + v.get("extra_aliases", [])
         if "override" in v: ADJ[k]["override"] = v["override"]
+        if "accept_also" in v: ADJ[k]["accept_also"] = v["accept_also"]
 CACHE = PRIVATE / "source_cache.json"
 cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
 FETCH = "--no-fetch" not in sys.argv
@@ -125,6 +127,9 @@ def field_verdict(case, field, ans):
     model_asserts = ms not in ("not_established",)
     if rs == "not_established":
         if not model_asserts: return {"verdict": "abstain_justified", "status": ms, "names": names}
+        if adj.get("accept_also") and any(person_match(n, adj["accept_also"]) or match(n, adj["accept_also"]) for n in names):
+            good, detail = cite_ok(cites, names)
+            return {"verdict": "correct_supported" if good else "correct_unsupported", "status": ms, "names": names, "citations": detail, "note": "accepted by adjudication"}
         return {"verdict": "unsupported", "status": ms, "names": names, "note": "reference not established"}
     if not model_asserts:
         return {"verdict": "abstain_avoidable", "status": ms, "names": names}

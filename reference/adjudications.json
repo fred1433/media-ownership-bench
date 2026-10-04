@@ -1,0 +1,70 @@
+{
+ "_note": "Decisions taken after the freeze, from the independent verification pass (reference/verification.json), before any model output was scored or read.",
+ "krzz:controlling_person": {
+  "accept_also": [
+   "Raúl Alarcón",
+   "Raul Alarcon"
+  ],
+  "reason": "SBS SEC filings (2019) give Raúl Alarcón about 80% of voting power; dated evidence, so abstention stays justified and naming him is also accepted."
+ },
+ "wfxp_mission:leader": {
+  "accept_also": [
+   "Dennis Thatcher"
+  ],
+  "reason": "Still named president of Mission in a June 2026 revision of a public page, no change found; abstention stays justified, naming him is also accepted."
+ },
+ "kfrc:ultimate_parent": {
+  "extra_aliases": [
+   "Laurel Tree Opportunities Corporation",
+   "The Fund for Policy Reform"
+  ],
+  "reason": "Chain after a January 2025 equity change is not re-documented; Laurel Tree is accepted as the top documented controlling entity. Audacy, Inc. remains an intermediate entity."
+ },
+ "kpix:controlling_person": {
+  "extra_aliases": [
+   "David H. Ellison"
+  ]
+ },
+ "kpfa:leader": {
+  "extra_aliases": [
+   "Stephanie D. Wells"
+  ]
+ },
+ "krzz:leader": {
+  "extra_aliases": [
+   "Raul Alarcon",
+   "Raúl Alarcón Jr."
+  ]
+ },
+ "kfrc:leader": {
+  "extra_aliases": [
+   "Kelli A. Turner"
+  ]
+ },
+ "espn:leader": {
+  "extra_aliases": [
+   "James Pitaro"
+  ]
+ },
+ "wfaa:leader": {
+  "extra_aliases": [
+   "Perry A. Sook"
+  ]
+ },
+ "kpix:leader": {
+  "extra_aliases": [
+   "David H. Ellison"
+  ]
+ },
+ "wfxp_mission:controlling_person": {
+  "extra_aliases": [
+   "Nancie Smith"
+  ]
+ },
+ "krzz:legal_owner": {
+  "extra_aliases": [
+   "KRZZ Licensing, Inc.",
+   "KRZZ Licensing, LLC"
+  ]
+ }
+}
