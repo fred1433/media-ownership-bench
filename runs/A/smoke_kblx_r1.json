@@ -1,0 +1,1505 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Connoisseur Media Licenses, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=cf535792f6314e8eb3fac1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl\",\n        \"quote\": \"KBLX-FM Licensee Information\"\n      },\n      {\n        \"url\": \"https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=cf535792f6314e8eb3fac1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl\",\n        \"quote\": \"Connoisseur Media Licenses, LLC\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"established\",\n    \"names\": [\"Connoisseur Media (operating group; exact operating legal entity not established)\"],\n    \"citations\": [\n      {\n        \"url\": \"https://connoisseurmedia.com/tina-murley-joins-connoisseur-media-as-svp-western-region/\",\n        \"quote\": \"Murley will oversee Connoisseur\u2019s West Coast operations\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"Connoisseur Media Licenses, LLC\",\n      \"parent\": \"Connoisseur Media Holdco, Inc.\",\n      \"relation\": \"Documented controlling parent following the 2025 transfer of control; this evidence does not establish every intervening ownership entity.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DOC-411710A1.pdf\",\n          \"quote\": \"From: Connoisseur Cos, LLC     To: Connoisseur Media Holdco, Inc.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Connoisseur Media Holdco, Inc.\",\n      \"parent\": \"Connoisseur Media Parent, LLC\",\n      \"relation\": \"Indirect ownership of 100% of equity and voting interests; intervening entities not established.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-452A1.pdf\",\n          \"quote\": \"indirectly holds 100% of the equity and voting of CM Holdco\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Connoisseur Media Parent, LLC\",\n      \"parent\": \"Connoisseur Cos, LLC\",\n      \"relation\": \"Direct parent holding 91.25% of equity and 100% of voting interests in the FCC's 2026 description.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-452A1.pdf\",\n          \"quote\": \"CM Parent is a direct subsidiary of Connoisseur Cos\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"established\",\n    \"names\": [\"Jeffrey D. Warshaw (Jeff Warshaw)\"],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-826A1.pdf\",\n        \"quote\": \"ultimately controlled by Jeffrey D. Warshaw, a U.S. citizen, who holds 100% of the voting interests.\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Jeffrey D. Warshaw (Jeff Warshaw)\",\n    \"role\": \"Chief executive officer and founder; the additional president title was not independently confirmed.\",\n    \"entity\": \"Connoisseur Media, LLC / Connoisseur Media operating group\",\n    \"citations\": [\n      {\n        \"url\": \"https://connoisseurmedia.com/jeff-warshaw/\",\n        \"quote\": \"Jeff Warshaw is the Founder and CEO of Connoisseur Media\"\n      },\n      {\n        \"url\": \"https://www.radioworld.com/wp-content/uploads/2026/01/Connoisseur-Media-LLC-et-al.-Joint-Reply-Comments-MB-Docket-No.-22-459-1.16.2026.pdf\",\n        \"quote\": \"Connoisseur Media, LLC Jeffrey D. Warshaw Founder and Chief Executive Officer\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Connoisseur announced an agreement to acquire Bonneville's San Francisco stations, including KBLX.\",\n      \"status\": \"announced\",\n      \"date\": \"2025-10-07\",\n      \"citations\": [\n        {\n          \"url\": \"https://connoisseurmedia.com/connoisseur-media-to-expand-west-coast-footprint-with-acquisition-of-bonneville-san-francisco-stations/\",\n          \"quote\": \"including KUFX, KBLX, KMVQ (99.7 NOW), and KOIT. The transaction is pending regulatory approval by the FCC\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The FCC granted KBLX-FM's assignment application, file 0000281237.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-03-30\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.fccinfo.com/CMDProAppLookup.php?sCurrentService=FM&sFacilityID=28670\",\n          \"quote\": \"0000281237 | KBLX-FM | 102.9 | Berkeley | CA | Full Power FM | Assignment of Authorization | Granted | 11/21/2025 | 03/30/2026\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The Bonneville-to-Connoisseur sale, including KBLX-FM, was reported closed on May 15, 2026. The exact legal consummation date was not verified.\",\n      \"status\": \"closed\",\n      \"date\": null,\n      \"citations\": [\n        {\n          \"url\": \"https://ramp247.com/programming/bonneville-bay-area-sale-to-connoisseur-closed/\",\n          \"quote\": \"from Bonneville International Corporation to Connoisseur Media is closed.\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The FCC approved Connoisseur's foreign-ownership petition, permitting anticipated debt conversion and warrant-related equity changes. Approval does not establish that those changes subsequently closed.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-08-07\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-826A1.pdf\",\n          \"quote\": \"grants a petition for declaratory ruling\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of October 4, 2026, the current licensee is Connoisseur Media Licenses, LLC, not Bonneville International Corporation. FCCInfo identifies its underlying LMS database date as October 2, 2026. The evidence establishes Jeff Warshaw's ultimate voting control and the ownership relationships listed, but not a complete immediate-parent-by-immediate-parent chain or a conclusively identified topmost corporate parent. Connoisseur Cos, LLC is the highest named parent established here, not a verified ultimate parent. The precise operating legal entity and Warshaw's additional president title remain unverified. Closure reporting also differs in timing: the May 15 report says the sale closed, while Connoisseur's July 10 release refers to the acquisition as occurring 'last month'; therefore no exact consummation date is asserted.\"\n}",
+ "raw": {
+  "id": "resp_057c487ccda85dc2006ac2cef63ca887d1957082269bacfcc6",
+  "access_programs": null,
+  "created_at": 1791151862.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": "You are a media ownership researcher. Today's date is 2026-10-04; answer as of that date, not as of your training data.\nFields:\n- legal_owner: the entity that legally holds the outlet (for a broadcast station, the FCC licensee).\n- operator: the entity that runs it day to day if different (for example under a shared services or joint sales agreement); otherwise status same_as_owner.\n- chain: each ownership link from the legal owner upward, one link per item, each with its own citation.\n- ultimate_parent: the top of the chain. It may be several entities (joint venture), none (a nonprofit with no owner), or not_established.\n- controlling_person: a natural person or family that controls the ultimate parent, if documented.\n- leader: only the person matching the leader definition given in the question.\n- transactions: deals affecting ownership; keep announced, approved and closed apart.\nRules: every established field must cite at least one source URL with a short verbatim quote copied from that source that supports it. If the evidence does not establish a field, mark it not_established rather than guessing. A name appearing in a filing is not by itself an owner or officer.\nUse web search to find current evidence.",
+  "metadata": {},
+  "model": "gpt-6.1-sol",
+  "object": "response",
+  "output": [
+   {
+    "id": "ws_057c487ccda85dc2006ac2cef89e6087d18a0241f1d9bbd5c6",
+    "action": {
+     "type": "search",
+     "queries": [
+      "KBLX-FM FCC licensee Bonneville International corporation",
+      "Bonneville International president CEO 2026 Darrell Brown Tanya Vea"
+     ],
+     "query": "KBLX-FM FCC licensee Bonneville International corporation",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-415634A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KBLX-FM"
+      },
+      {
+       "type": "url",
+       "url": "https://fccinfo.com/CMDProEngine.php?sAppIDNumber=25076f918049087101804cf662990074&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/LMS/0000154754"
+      },
+      {
+       "type": "url",
+       "url": "https://enterpriseefiling.fcc.gov/dataentry/public/tv/draftCopy.html?appKey=25076f9164af64080164fcbc83904388&displayType=html&goBack=N&id=25076f9164af64080164fcbc83904388"
+      },
+      {
+       "type": "url",
+       "url": "https://bonneville.com/leader/tanya-vea/"
+      },
+      {
+       "type": "url",
+       "url": "https://bonneville.com/leader/darrell-brown/"
+      },
+      {
+       "type": "url",
+       "url": "https://rbr.com/wp-content/uploads/Local_Radio_Rule_Waiver_Exhibit11202025.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/phone/18015757517"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/IBFS/SES-T-C-INTR2020-00691/2246306.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://fccinfo.com/CMDProEngine.php?sAppIDNumber=cf535792f6314e8eb3fac1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://bonneville.com/2023/06/01/darrell-brown-president-of-bonneville-international-announces-retirement-tanya-vea-named-new-president-and-chief-operating-officer/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProULSLookup.php?tabSearchType=UMIB&tabTextBox1=963821"
+      },
+      {
+       "type": "url",
+       "url": "https://enterpriseefiling.fcc.gov/dataentry/api/download/draftcopy/FS/ac86a161a8834ce49433c1b6063ebeb7"
+      },
+      {
+       "type": "url",
+       "url": "https://library.futurelabz.dev/content/wikipedia_en_all_maxi_2026-02/KBLX-FM"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/company/bonneville-international-corporation-2?__fccreport_origin_revision=20260803-seo-feeds-ranges-dates-bing-verify&lms_page=2"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProFacLookup.php?sLicensee=BONNEVILLE+INTERNATIONAL+CORPORATION&tabSearchType=Licensee"
+      },
+      {
+       "type": "url",
+       "url": "https://www.govinfo.gov/content/pkg/FR-2017-11-13/pdf/FR-2017-11-13.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://uw.org/wp-content/uploads/2025/08/UWSL_Annual-Report-2022-VF.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Bonneville_International"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/List_of_radio_stations_in_California"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KUFX"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KOIT"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KZZO"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/sanfrancisco/comments/1b2qbnp"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/latterdaysaints/comments/mynro1"
+      },
+      {
+       "type": "url",
+       "url": "https://www.reddit.com/r/exmormon/comments/18j5ick"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cefbf20087d18d5d2b56475e076e",
+    "action": {
+     "type": "search",
+     "queries": [
+      "Connoisseur Bonneville San Francisco acquisition closed 2026 KBLX",
+      "Connoisseur Media ownership Licenses LLC Holdings 2026 Jeff Warshaw",
+      "site.connoisseurmedia.com Bonneville closed"
+     ],
+     "query": "Connoisseur Bonneville San Francisco acquisition closed 2026 KBLX",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/leadership/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.radioworld.com/wp-content/uploads/2026/01/Connoisseur-Media-LLC-et-al.-Joint-Reply-Comments-MB-Docket-No.-22-459-1.16.2026.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/jeff-warshaw/"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-420520A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/the-world-according-to-warshaw/"
+      },
+      {
+       "type": "url",
+       "url": "https://rbr.com/connoisseur-wants-fcc-ok-to-surpass-foreign-ownership-cap/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/company/connoisseur-media-licenses-llc-4"
+      },
+      {
+       "type": "url",
+       "url": "https://ramp247.com/programming/bonneville-bay-area-sale-to-connoisseur-closed/"
+      },
+      {
+       "type": "url",
+       "url": "https://virtuosoacquisition.com/management/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.radioworld.com/news-and-business/news-makers/warshaw-defies-the-radio-naysayers"
+      },
+      {
+       "type": "url",
+       "url": "https://fcc.report/company/connoisseur-media-licenses-llc-2"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Connoisseur_Media"
+      },
+      {
+       "type": "url",
+       "url": "https://www.radioworld.com/news-and-business/business-and-law/warshaw-met-with-carr-to-talk-ownership-caps"
+      },
+      {
+       "type": "url",
+       "url": "https://theorg.com/org/connoisseur-media/org-chart/jeffrey-warshaw"
+      },
+      {
+       "type": "url",
+       "url": "https://rbr.com/cayman-connoisseur-warshaw-wins-fcc-ok-for-foreign-equity-plan/"
+      },
+      {
+       "type": "url",
+       "url": "https://americanradiohistory.com/Archive-BC/BC-1997/BC-1997-02-03.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WICC_%28AM%29"
+      },
+      {
+       "type": "url",
+       "url": "https://manuals.plus/m/6ca8d01eb2c532770d2c3f4f5ccb7c3038c661f3e4486da5a1ec349667d80cde.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.electronicsandbooks.com/edt/manual/Magazine/B/Broadcasting%20US/BC-1998/BC-1998-06-22%20%5B84%5D.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WFOX_%28FM%29"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-All-BC/Archive-Radio-Ink/2006/Radio-Inc-2006-03-27.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/WICC-FM"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Bonneville_International"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/KBLX-FM"
+      },
+      {
+       "type": "url",
+       "url": "https://arxiv.org/abs/2608.14141"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=cf535792f6314e8eb3fac1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cf00bb5487d18f0e2c54d023d14c",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.fcc.gov \"Connoisseur\" \"Holdco\" \"2026\"",
+      "\"Connoisseur Media Licenses\" \"wholly\" \"Holdco\"",
+      "Connoisseur Bonneville May 15 2026 closed site.connoisseurmedia.com"
+     ],
+     "query": "site.fcc.gov \"Connoisseur\" \"Holdco\" \"2026\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://rbr.com/cayman-connoisseur-warshaw-wins-fcc-ok-for-foreign-equity-plan/"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-826A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://catchthecometsc.gov/wp-content/uploads/2026/04/4.22.2026-BoD-Meeting-Packet_Final.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://catchthecometsc.gov/wp-content/uploads/2026/02/2.25.2026-COMET-BoD-Meeting-Packet_Final.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://radioink.com/2026/08/10/fcc-gives-connoisseur-the-green-light-on-foreign-stake/"
+      },
+      {
+       "type": "url",
+       "url": "https://contra-costa.legistar.com/View.ashx?GUID=6B5B9EE4-415F-47F3-813F-4B1725740579&ID=1368592&M=PA"
+      },
+      {
+       "type": "url",
+       "url": "https://www.kfrxfm.com/guess-for-goodcents-2025-rules/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sunline.org/images/Joint_STA_and_SSG_Board_Meeting_03.25.26.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.bizprofile.net/ny/albany/connoisseur-media-holdco-inc"
+      },
+      {
+       "type": "url",
+       "url": "https://www.publicnow.com/view/02429133ADE5BFAFD42C2990511DDA730FF9D9BD"
+      },
+      {
+       "type": "url",
+       "url": "https://scwa2.com/wp-content/uploads/2026/04/APR.2026.BOARD-PACKET-ID-361893.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://1029kufo.com/fcc-applications/"
+      },
+      {
+       "type": "url",
+       "url": "https://radiodiscussions.com/threads/connoisseur-completes-alpha-deal.777879/page-2"
+      },
+      {
+       "type": "url",
+       "url": "https://news.radio-online.com/cgi-bin/rol.exe/headline_id%3Dn48924"
+      },
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/category/news/"
+      },
+      {
+       "type": "url",
+       "url": "https://barrettmedia.com/2026/05/13/connoisseur-media-sells-south-dakota-stations-riverfront-broadcasting/"
+      },
+      {
+       "type": "url",
+       "url": "https://en.wikipedia.org/wiki/Connoisseur_Media"
+      },
+      {
+       "type": "url",
+       "url": "https://www.gustaviapress.com/latest-news/"
+      },
+      {
+       "type": "url",
+       "url": "https://businesspost.ng/banking/is-femi-otedola-set-for-full-control-of-first-holdco/"
+      },
+      {
+       "type": "url",
+       "url": "https://barrettmedia.com/2025/11/13/meet-the-leaders-jeff-warshaw-ceo-founder-connoisseur-media/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=cf535792f6314e8eb3fac1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cf04940c87d1a136799ec8c025a8",
+    "action": {
+     "type": "open_page",
+     "url": "https://docs.fcc.gov/public/attachments/DA-26-826A1.pdf"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_057c487ccda85dc2006ac2cf06202887d18dd84274abdbc666",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqws9W3O3bEFZ0Wzy-p6NzkSUqjNZyWA7fEVNZemwy5jHN7jMvxGLO2dcQ53X4Yok5OdSaVI7OwEhLEw5_yee6WHktfr8SA0j-GtBQounl6WqmyI1SpxduUCEAh-a0nifjg7DFphknEvxI5nZHwNPH28-S3c1LCHtkLT2Brq8CsKutLHfAxwziFeRRZBv8KnfBegYfKmf4guGptLQKQcr6LMK18Zxz8x9_O6VN95j-JMY92_0Ia3wP5OpL_vlyFD6BdiHxAhEu0OVy13Xrje3tG7_tM3XFJuAFpXeJfvxerzHjGpk0-leGN7d6nH1R5dT6oRDJoGuT5G-TvnqKSnFPT-CR5mH8h1eZ0A9uj73gPG5PrsDHeLKbXfgeCCnyu2NQvdnFIHr9V2Flzl6OGtRoG6oU5_AjhpeWMQXCafkEwVqgJd3ATWnNpvqMZ8yFOGg1HPi0BY7QDzjsTFMCkVZHUzlvoLIfpfPJsaaIu1bZr1FfIlN58E0w8fB_KA2DYk-rKZ4tGJaT2a7oKiO_8WSstJ5gXUxeatGHXfLaA0CneKzzkZOKPb0YPW5WmoruzA1rJZ6SgGri4OZGCoX9z_VVn8ELUqdF8m4w93mC9RB-LpJgEtV8h-5tHbfHkjIz9ImC1nw1FZty9yH8dyD_9Ew9G7-2wYs9V4T4lGHmGu1eoQptaP_NSxC4OjlIv7qrExNdbh1njbJngii_RbBhr1ks0YnbFobRQKtC3uC1VLLnK0S8UuFMJcf6SguWT8lln84jppKFgJ-UNy8C9s7Z8poNTI0UfEAGCneWF1knft0GPhZEe6YqIah6b6tczMTA-HPSmfg5RdpVj-cwW-5TNZWOIoe-W85w3wIcAd8yNa6ezmqqihKTeuR-Z0_awfpuv8_dHQArM8L-euOAyVb-NZGojCWZG2VSEskPh-rYeB6hdNCZUlFVkK-nabDL6yAt7px4C3ebCiJFriwaGnHIqizOb6MwXtZ2LbXGcx2lCKKPODZk-QMU9HNpOO308798FJDXuA5HaIUThK7QOqlCLPCBcOAUBXH9-lys1ES0_cd6mZ9WXnG3EuwJkdi67-kG049X9nNZN0hwBJxEeeMEWa6dJrvCUj7qwWvDxI2CBBxTQctP32WkcTFepvILOFWV3CZNoozQRiKNAJG0NyzMnTlHi59NB4g5xPPyjyrco0Ub6r-iYD-0guN1StfKz8_dxRD12YT1hULVkb8nkgZkhd-crRrZxgqDcBHNMLzSUjcrbOa2zwiapYbp71rZ0NFpzFyTQfBZwHJ0qv6UXytjGo6IuDVSSAPleTctCgsW4QsUGwca4WcOe6rAVivJz3VhSQHxDShdsoo50o2MjN4sIVT6aEmmymycGGaWPuw2HIUEfZF-5Js=",
+    "status": null
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cf075f9887d1b9763c95e3a26741",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site:docs.fcc.gov/public/attachments/DA-26-826A1.pdf \"wholly\"",
+      "site:docs.fcc.gov/public/attachments/DA-26-826A1.pdf \"Warshaw\"",
+      "site:docs.fcc.gov/public/attachments/DA-26-826A1.pdf \"Connoisseur Media Licenses\""
+     ],
+     "query": "site:docs.fcc.gov/public/attachments/DA-26-826A1.pdf \"wholly\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-826A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-22-775A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-411710A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-357465A1.pdf"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_057c487ccda85dc2006ac2cf0b774c87d1b476a0ced2113113",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqws9Ww_ozbnWv3V0OoaB_jyOGKjWpDlTECaBgQ_OznLIoeNUapJC6C2JRBpN0de_-i85GG3jsoUP-66dA8IKt2VJSmwnQSGkWgz7f-U3rf4KIyGi_9IaP1pZo6pyyQoSRY-SqlC9aXr1wifdHqniaei12Qa3b3Soj6aU5EQyAIGaGjl15ZkKHLtnpm4QWn_hjSoBXwoLD952Py69DKKb36ujDGcU_9nmoeBnk85NEaCmYUsBp1TajLhZvoOUiqx5MJOl8gCS6VGgwEpFYPjMUqIg-6xrdGU-t9dzUfaTLscI2DQJBWU8cR14BFv-riluBaiY_qJJFmOH4T5lXZ4lmK7rHyvEU-PT-fiwa-h4nWRQU2Ttx2MgKwT5NuCAIIbzQwkXpR5Uj-s6ok6wwc2xo8_4gZq58ec-9vGVkiRFbaZpz4nQOaOJF0Q9tLTiznyA93TK9jaTvd3kvAcfcVoE_XCAL4fUWJV7oUEoAiW6UPzuU4NR6O3XEGJPpcRSu4KrB3CY-43pLxUafX4UraQ-NP58kHnUFy-pzWSsgm3272_gjK8hvyipPldTTOL86sGX8dUxnQzWbpHGypQyQrF8_h5h47EZoQ29GYsFvKwwplZADg56rcuO92EGiPvykvhpa0AvNiTKZBUY52VCiwQl0h8B5DPKxtQWV4uEPoBYaYFv3ZHKGsacNkpN1IZOtosqYRMcEx-n_BWy622nl_VgtU49XmHF_UCAqMom0rflwLCfiUpwpOi6fjKYXZSkdt9txHWE106gqWbU4dUhmqy89O9Z4H53Exnu5J-VooE1neRTZaCf-0p51HsQAI7ncvuDrXSv3lj4C3VIveffEv1rrRtNstO-CB-01Tmc-Jhdob7BdHIvgSpKI3OMGNrhz26zwQz6Vp2cu2naybPP3MrSTyqOpzSojdOejgvS1OoJJbkve0CWRXG4ad5kZfmUtjpLuj8VUISSwKaM1N52dBf7ewxutPDkTEtLF_GWVrPKKyhW0WnhAzE1wSxFV_vZKAfCnuTJL4Ps9497tdlvqo0s3vPcB64xtZpUimMoLIXxgTbcC-B2KrH_jlz4kywLYwsTo3dSXGnrvvjUmrLpPbmNzjQFkLeeA-UQVAaR-KhynYgK05UQxSHCZlO1WNwBZy5bGVvBooHbMQO41xBkAWKrHB0p8Q9C83H_z8ckvCEZ0D2qu4EAbFGEQnebXtgaHlAYYbwXWVjExeJ2vP__9xcoWZSBo-YCoudH1q1b3rcvCiWMBQr4XH-UzpPijkX0yz2FUFXOmfhoP47SyDqaO_IakhXiQBIZvBvHUSQ4xTAX3-sIrEjPfRoaCpml4OXjUL1b4pQfZAwT9IKOO9lTO9OIdbaaWaPvR49Vl5gCTBd5KV05Bt-sWIapUMRPVr19QJusoS4tTb3DgRLgPyvOH1lK_BsXuBg==",
+    "status": null
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cf0cada487d19587f07f66d17a02",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"Connoisseur Media\" \"Holdco\" \"Parent\" \"wholly owned\"",
+      "\"Connoisseur Media\" \"Attachment D\" \"2026\"",
+      "\"Connoisseur Media Licenses\" \"Connoisseur Media, LLC\" \"2026\"",
+      "\"Connoisseur\" \"Warshaw\" \"president and CEO\" \"2026\""
+     ],
+     "query": "\"Connoisseur Media\" \"Holdco\" \"Parent\" \"wholly owned\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-452A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-826A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-421832A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DOC-420520A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/phone/12032271980"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-612A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://radioink.com/2026/10/02/connoisseur-sends-pennsylvanias-wqcm-to-family-life-ministries/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775018000015/arccq1-1810q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://fliphtml5.com/amamo/bbpx/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.themorningmouth.net/"
+      },
+      {
+       "type": "url",
+       "url": "https://financialfilings.com/filings/ares-capital-corp/interim-quarterly-report/2015/11683616/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.linkedin.com/in/edwhitman"
+      },
+      {
+       "type": "url",
+       "url": "https://rbr.com/warshaw-beasley-pitch-radio-rule-thaw-anew/"
+      },
+      {
+       "type": "url",
+       "url": "https://radioink.com/2026/09/28/cox-media-groups-rob-babin-takes-rab-board-chair/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.city-data.com/towers/lmobile-Trumbull-Connecticut.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.mypodcastdata.com/podcast/show/chachi-loves-everybody-benztown-YCrae8P5"
+      },
+      {
+       "type": "url",
+       "url": "https://talkers.com/tag/jeff-warshaw/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_057c487ccda85dc2006ac2cf11dd8487d1b6cd8b81b67a8c90",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqws9WsVDsx_F4fwUZhOiJzncZT5_i1m0DuHRGv64qEgDkZrauwDT7AYYjJ2hUXPg1V8x4RMGIyZ2TbDSJcpnDEEldcD4OFeb2_oKWef6B6Q0I8OHilRRs3WB1bTLBAgHDLo0EipUD03GYgLxfBviogMwyh6Y9zQhqTOx-6iYuAa52_uuDcppmlmzDfMYEKiIaRMep74Q1LkhShHoHIssnOn7IDmxUg4Qqcwvi4-fAaUc1U8hnS2XwOAoqrzrzITPWPKrEkmgOdT4CQ_GRV5R8BTLujLBClG60Cd4LrUeYYAtgRRgSl9yPq75QJoP7qAms6uBGRWT0f4vKNUYYaODp3nn6OODwM_DVopMo_K1kIJcaH1JLqrs-QzrYm4TgGEOTUh4QXuSPgph1cIWB7n-bYVZXT2z5xx9T_F9UXvW4hjD_Wi7Vjn18i88Gn-3ybubKlemZYsJbEHvbltoQRCmFFS1ia0hfCVDMz4ywfUiTkyzm797NJfk4_3hTSmsj7csVOzrqs2-tOb0jbqbI4xun31-XiS6gjF8ryXx2cO2pvB7-QpS9okmpOY5Ubj8QXo6a75plf8QkVizQ-cqkUZlY2BNw6s-pEmP3HWDxKUhpgw68CoY-iqofsEPCyOLZ1FMLbQCdPJ7QuRNfClRIZsP4ZAspGlRtcZrH2wgCaAfmJ4WZP865ZGbzW4NrD1lIw8dPS_hycah5OpJ8BKEoo3Kgs87LmWI2Ixs6WmJQ0SXHvYvhvOp_MXh_25Vlq8f3P30C6-PqjgFN98aKGsCJhh2xdXKVbh3cfve3ArW9wf3F0SwZoG36LHoS6tfTi9mSvjilCJhIAa8HDdFUv1OjRtTDWiEs9TGQmRgv5tSTGCLjuz0M6PWb27O26o4kEW_2ft7CfVsb-OrJZY7UMb173tZS5pAOH7WDMBopPGOqd7dhQIY5QCTWnRRm9wbT39xXx46Ua8KhJNNVpesDnHYRsu-9Cf_-drMA7LdBU_4PVquoWQA-huQ0foBrssa4nj4FuaUKkPaueL0vCvMo9CtsFztPx8OeiWQmO0qRR195cbPmiBUY9PZE7iPLqxwVsKotpI7vhr5mDws1w_vdpMW6OfnPgT8-YLdh66UOTdRtqdCuMI15SGqzHQvjyBEWdv8qsKPUdYaMXDJnQgh7acNyLfZNYFRepLz3lyDkxG74S1DnofOWzfDcGFPNTxam672uaO02PZg020ua013Ksz2LMiTuACkSWh30JY4I4NDOQ5xK0mTNHT0vq58st3SWbW28ydv7w3UoILdx93j1W5SgZgemph-zgQ==",
+    "status": null
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cf12520487d1b429084d771ff03d",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"Connoisseur Media Parent\" \"Connoisseur\" \"Holdco\"",
+      "\"Connoisseur Media Holdco\" \"Connoisseur Media, LLC\"",
+      "\"Connoisseur Cos\" \"Warshaw\" \"2026\"",
+      "site:connoisseurmedia.com \"Bonneville San Francisco\""
+     ],
+     "query": "\"Connoisseur Media Parent\" \"Connoisseur\" \"Holdco\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-452A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-826A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000104746915001240/a2222984z10-k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://radioink.com/2026/08/10/fcc-gives-connoisseur-the-green-light-on-foreign-stake/"
+      },
+      {
+       "type": "url",
+       "url": "https://contra-costa.legistar.com/View.ashx?GUID=6B5B9EE4-415F-47F3-813F-4B1725740579&ID=1368592&M=PA"
+      },
+      {
+       "type": "url",
+       "url": "https://contra-costa.legistar.com/View.ashx?GUID=6B5B9EE4-415F-47F3-813F-4B1725740579&ID=1368592&M=M"
+      },
+      {
+       "type": "url",
+       "url": "https://rbr.com/connoisseur-wants-fcc-ok-to-surpass-foreign-ownership-cap/"
+      },
+      {
+       "type": "url",
+       "url": "https://radioink.com/2026/05/08/debt-deal-could-push-connoisseur-past-foreign-ownership-cap/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.lpsnrd.org/sites/default/files/MarItem6Fin.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://home.recnet.com/aggregator?page=5"
+      },
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/connoisseur-media-to-expand-west-coast-footprint-with-acquisition-of-bonneville-san-francisco-stations/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.ctinsider.com/business/article/With-Perot-investment-Connoisseur-looks-to-grow-6389426.php"
+      },
+      {
+       "type": "url",
+       "url": "https://www.ctinsider.com/business/article/With-Perot-investment-Connoisseur-looks-to-grow-6389429.php/"
+      },
+      {
+       "type": "url",
+       "url": "https://recnet.com/index.php/aggregator?page=15"
+      },
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/connoisseur-media-to-sell-kbay-94-5-fm-signal-in-san-jose/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.scribd.com/document/807013638/Media-M-A-LTM"
+      },
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/category/news/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_057c487ccda85dc2006ac2cf16235887d188d53afa16a46322",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqws9WlhvjEHH5lOdztj7jEFcJcW_h117Cpbf0zdgvvdshlHrgWcKvG9eU5yqJ_mBxyPwyjRoxHrN3KnaMiyPVjV_sXkZXPs-630I2KP0MBvE_SlMyN5MZCQK0ReMXRjEoXkYQrVWernkQABAtmwC5csCNce9CXIl66rxXK68vo7FVxfSgYEorcN6Z3i4MpT28pcqXyqfUMecuAHUhwuvGN5HGFAA266UkHnbNEFT3LN-1nJNptuYKGSS3MATRBRpwpBm7T9vWbfG22jSvVab79kIIf5q0Wl4Hz9gmPw8ST9TXYPxDlWlvBAViTdSsNqM-fuoTmEudj1e3pc5uo4zM4fXoFcSvaSD2RVQ84MXgGUcTAvNQ-cUj7tz4lUY9VYqD7w089yf22DBxiCtxz27ANjSa1aAqPQFv0CM4ku1-nP3J0vEIgH2yxG0LjkiyNO-qow3w_LNG26ZQFN9U-vCMZD6JN7ETH_OJ3IB4c1IS1dChjUYsijNIaRttO00QL3tcpEobGCrAt3GO-ryjNmp2LlhPJT9jz63b3s49yeeEILfphueBySN6RWx1_Ay50W-Hb_kQ2mrwO7FJzOo8vDeBUM6JyH74j9QF2GvUMO4HbmyVWosspX253jGDY68_rehT64hVxMbShVdraY6VlB3_gRFsHaQ0aHKu7B3pE3HjSkenfY0oRl32jKgQE29gEMxDTHRog8iEnvg_TwalB-dG7SR2lj_L7lfSQNdoj0vaQYHoZcIkDJgVFvIwaBqQS_hpu_DIIYNEAXmwvzICQNNKQ0uRvvwjpmcBcJeRErpMUT8sF4Q1BZmStuiaW3avH_92jFeuKxYwHkh_A0-kDqAflFYSApzlNYB_Ruf92buBOH_PNt4hyL4_z17c1O-l2ctXfdpancqmgPuvtB8dZ5imbmJRKJ7gzMDJwm_QLzkozxH0j5M0wNOQevdUXmXTA7PIhqvPbScdZPUcRtHyjJAl2GuV8CMSm-RlRQsabTzxNqdwTzw3cPOlfUPzfJp3WS_UKbxYGKsq5WQAFbFzTGDnqPaH4bFjVisTG_acxuuhvyRhUaTi6OMSgIonVMT8ZNm_P3FSzx7eSKM7hsCIqREn0YFQU6VQSiQ4ogNz9rJPU4JE4h7ZsOjzmSVTya5pk0mOakwbnak_yPI0Hc2I4ZdpN-vCU1EPWSR9t0yTSGH9tAghUKoU-Dxjbd7mPLMkP_CsnlMX_Teh0xXpinkSXcn7o71sNKS7_-gp1E4OArvT1l9qTTproptMwUtyhSq7S7aI9XTcSYywh_Khbzz9bli4tBD5mtLMDnsvPpOLJz6ZIS6YugrbHH2-hlZnNulu4TU3UigySZYLAt_-k5pzau0h4g0j9QCC1iU2FDioslxfIHtlcahb4LfGS-vzTerXDJvhz0mrA1nHX5LOPx5foCIIW9p8ZqBAPo0s0YEPCv4D-9-NSphPukkE4GDxudErdwe6A3-ipXXQTsMDrXyNmg9L-fmm8BIMNi5yYkp4gCTukaoaCYM=",
+    "status": null
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cf16af3087d1adef93240e3dc7b1",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"Connoisseur Media\" \"Merger Sub\"",
+      "\"Connoisseur Media Holdco\" \"subsidiary\" \"Media, LLC\"",
+      "\"Connoisseur Cos\" \"Parent\" \"Holdings\"",
+      "\"Connoisseur Media Licenses\" \"sole member\""
+     ],
+     "query": "\"Connoisseur Media\" \"Merger Sub\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=cf535792f6314e8eb3fac1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-452A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-826A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fcc.report/CDBS/1802511"
+      },
+      {
+       "type": "url",
+       "url": "https://radioink.com/2026/08/10/fcc-gives-connoisseur-the-green-light-on-foreign-stake/"
+      },
+      {
+       "type": "url",
+       "url": "https://kabuseek.s3.ap-northeast-1.amazonaws.com/filing/ARU/2016-02-24/a2227293z10-k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.invstor.com/sitemap/businessprofiles?page=5133&pagesize=100"
+      },
+      {
+       "type": "url",
+       "url": "https://library.futurelabz.dev/content/wikipedia_en_all_maxi_2026-02/KOIT"
+      },
+      {
+       "type": "url",
+       "url": "https://about.ebsco.com/m/ee/Marketing/titleLists/mfm-journals.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://ipfs.ssi.eecc.de/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/2014_in_radio.html"
+      },
+      {
+       "type": "url",
+       "url": "https://manuals.plus/m/5e8b79a9a92e2980fcd43825928df6748e8040dea8e8f1d43185dba9373a894b"
+      },
+      {
+       "type": "url",
+       "url": "https://bankrupt.com/TCR_Public/220818.mbx"
+      },
+      {
+       "type": "url",
+       "url": "https://www.grapelive.com/new-reviews-4/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.scribd.com/document/807013638/Media-M-A-LTM"
+      },
+      {
+       "type": "url",
+       "url": "https://www.lelive.free.fr/kevindayanmarseille/kevindayanmarseille470.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProAppLookup.php?sCurrentService=FM&sFacilityID=28670"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cf1ac36c87d1b1805bf61066788d",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"Connoisseur Media Holdco\" \"ecfs\"",
+      "\"Connoisseur Media\" \"Parent, LLC\" \"Intermediate\""
+     ],
+     "query": "\"Connoisseur Media Holdco\" \"ecfs\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProAppLookup.php?sCurrentService=FM&sFacilityID=28670"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775018000020/arccq2-1810q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_ARCC_2019.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775018000015/arccq1-1810q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://kabuseek.s3.ap-northeast-1.amazonaws.com/filing/ARU/2016-02-24/a2227293z10-k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://stocklight.com/stocks/us/nasdaq-arcc/ares-capital-corporation/annual-reports/nasdaq-arcc-2020-10K-20599656.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775017000017/arccq3-1710q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://financialfilings.com/filings/ares-capital-corp/interim-quarterly-report/2015/11683616/"
+      },
+      {
+       "type": "url",
+       "url": "https://financialfilings.com/filings/ares-capital-corp/interim-quarterly-report/2018/11683432/"
+      },
+      {
+       "type": "url",
+       "url": "https://stocklight.com/stocks/us/nasdaq-arcc/ares-capital/annual-reports/nasdaq-arcc-2020-10K-20599656.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://de.scribd.com/document/746904010/Active-Vendor"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775019000013/arccq1-1910q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775017000012/arccq2-1710q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775019000021/arccq2-1910q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://bankrupt.com/TCR_Public/220818.mbx"
+      },
+      {
+       "type": "url",
+       "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001287750/0a2b5b47-93d1-4264-8230-4eee02dc813e.html"
+      },
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/connoisseur-media-to-sell-kbay-94-5-fm-signal-in-san-jose/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_057c487ccda85dc2006ac2cf1f779087d1be628082fb28410a",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqws9WKf_9-Drq7941YRzwYbD_KirjPEM30FuVzjiOiH5JW-m_Dq1C3iuJeIulrfUKpcAubsU1AB6Szv8iZvJdvrPbNvFiNREYVQNQuW-PDWTAY11UACfPzhSpxv546cwFLK4FM3F0sDLW2ny4FNe-wpJIR5_W4kXE-n1P0w6phfPH6ZFS_f6848eSsUwmKAMcVsAjMSBsuO6eleGxQUbbIW55vHNjrHWoZQyRupUfxORjkuMPCiu2YcE3cq85iSyNZKXUYcZAeO8P-BrAnDFMiS-msaT8pyWbK6kMI58l2qUo9RiojD--k_FHe0WG_7flBTpg7l1dz1ykBdjlWUGXL8rfd3Eah3WUtVZ1t8Saw6Y9IstJUy2Aw3xwDQ5TPrXOT7jhox5oG_Gw9OPuskCnA2il8kiNTpnhyICmlFGhFD_HYnXE-FMdGG75wxbuvT63pNzB2sHbY6cIWWxSh8gN3JAzgfZlUEm3q2uSAVxwMpiglTbJTSjKeuYoAqeNxkWa4z_Q2D-59oswGSXX3IFcEpyFpte4M7c55NvU9yyb02HuMK3jtfuGFWUWpzSl8Zp_Uv4eEFOLJdw9T-vq_Rwu61qLExhi0QQuLtcCpvPZBDtgaDotFyjgr4Z_yNxFW6Cubhuz4em1E8JP2DsyCJEE4GlBXaeFEOQQlQVQyoUZByJr3isCmPhA9N5h5IJSPiM88Uw4KKzw0cAr5ZdIPSsqR4FIcbjWa74M08L-_ftgiX8G36BFFsEx3coddhdmer27c72QUUn3fIAZhX5zz6ZuCTBixTmrxPszlMJNeeIMRF3Ua7smcdXycPCwubkNVzsKdVtCQpOyMuzPhhg4xIo06pdOMuM6a1xBjr6oy_nm11hyIIkl2zOSn7SIriFFt7WKQFwr8UGgz0WD5iigEWF-xwhQE5f7E5brBEYtgHk-7selMyqj_jAsVnCrCCaAYtSFxLMZeA3269I9WRL6uqaCU4FhfjkeWxewWhzHDAF9BcB7gtIVFu9CMvFTWskFUgYCD1Q9L3s3tZH2qwcf_o0FfL4yfDJmpro85tqk7uUtLPIgwMWcpZK8v0O0nW-jN7rkBg67Z1aTRYFIZggvDONd7IwhOLpTMFz9XRMWGSrTto4-pxIMTxhuZ7DtCllGd2gkoo7Od7g1RKSxGr9KZpy1NRG_xs-xd7lSdJMQeXTJnIuo92wMNp6OVb29rRpzRmH2eBvoeBEyfLLKFiLqB2o1w1dAUx0Sx2KVXd3U9_swqU3thcNPNycJpBfv6sffPq0A38IhV5Es1LkOcfPRCwshZQYlB3MiELW0LFrNvcUZavPSPlGlbdDiRwAV6mdwSI7wsh8wbzgucP_pi1SMVdEX6wX-ADi-ZHKiy6HaO2NZ_vGnE98IV-eW4MCvcerpEscoOMPYnpX0GMchpjNM4i7PC5u0Dn3ccKqyLl3L4TA-2GQuc2FVxS6UbeLqZ3cvspdw1aPrLTERLCDpHDTNZYTJ4cE93RwZ4CLxE7GIDDeQpJHlG6zkeIKlx30xR8m3X7DGcBce64PsvVD59EL5SS2JKzxZHQ==",
+    "status": null
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cf203e1487d1a9fc99af11cae9d9",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"Connoisseur Media Holdco\" \"ownership structure\"",
+      "\"Connoisseur Media Licenses\" \"Holdco\" \"100%\"",
+      "\"Connoisseur\" \"26-109\" \"petition\" \"filing\""
+     ],
+     "query": "\"Connoisseur Media Holdco\" \"ownership structure\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.fccinfo.com/CMDProAppLookup.php?sCurrentService=FM&sFacilityID=28670"
+      },
+      {
+       "type": "url",
+       "url": "https://docs.fcc.gov/public/attachments/DA-26-826A1.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://onthedial.net/2026/05/connoisseur-seeks-fcc-clearance-for-bigger-foreign-ownership-window/"
+      },
+      {
+       "type": "url",
+       "url": "https://targetednews.com/pr_disp.php?pr_id=9607937"
+      },
+      {
+       "type": "url",
+       "url": "https://www.publicnow.com/view/02429133ADE5BFAFD42C2990511DDA730FF9D9BD"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-DX/Frequency-Maps/NIGHTTIME-UNLIMITED/NIGHTTIME-UNLIMITED_TABLE.html"
+      },
+      {
+       "type": "url",
+       "url": "https://www.scribd.com/document/807013638/Media-M-A-LTM"
+      },
+      {
+       "type": "url",
+       "url": "https://bankrupt.com/TCR_Public/220818.mbx"
+      },
+      {
+       "type": "url",
+       "url": "https://www.worldradiohistory.com/Archive-DX/Frequency-Maps/DAYTIME-UNLIMITED/DAYTIME-UNLIMITED_TABLE.html"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cf23269c87d1a270336ac3d77809",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.fccinfo.com/CMDProAppLookup.php?sCurrentService=FM&sFacilityID=28670"
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_057c487ccda85dc2006ac2cf256ca087d19e3d37bfbc970557",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqws9Wx1AaFhfYskvuY0l7Pg7ca6SApq0zRPkVy_tuaLjxyzmpC3TFgiEx2UW2kY03L6ln50NuJxDkMDFqoa6dwfzrtFpt1cTJ-O5EwoYvnbp65l56oaK79necRMhv2k0uxrGPWN1Hy9HDd60EoOKRU46yOrIrnx7j-2OzwK2z0tVmCO6YDp_8UzDMj1LVeDvxHUomokU4U9vL_OumeQ4bb_FaY48YH93gGu5WXGcUKHZqJkETnwNtwyQRnKO21CBTSvxIRKEKut3QjaBy4yOE4cFCFV_KpaAQewzvVLl6eKzeNMInxLVfRl6pNbkPt7P6t9j-F3fIIS7VLMGPjk7d7gW1la3Ev9aT5ZCEOHTVIOzah2EC3O1rkW0Sp99PfDsp_-CkFRd3zVWI52TrVxh6Eg67gjasSUT5qSxYdxrnNf_essQNxKPGmwwpaN0tyvLW6eRnyYYf8lnnfBTx8Fb6XT3BJkefyMqwZUEW1dHUsSMHZ1HBRI3-eVoPHiDeEcT5kJkF2rBs8Ntl0sQvTTXAllXhUXURqHhY_UKUUOie3rJkybgW4Qr-3yJSWobqWcpNGBbSA6nu6rIuOot-093yg-zS4CK98cb6lM5KMIIbTpRzA9kci_bKnHenaPHLQ9g974wduuw9TJ_gG0dI58EYnyvdsMp-d3jpUa8LpsB67t0XZGbqoqIXIJgQHx400CYS-B6Vmrfk4SCkKfRYsXVqfLaxAjyoewAeL9jEj1xMR8l8NWAPtvCPHEsvR-fTEjH5mHHpy3dLk4ho5EuNUeojlmum-FvcDaFteO955zmRJ9z4dLKEJpgVo8Vrs8RU-ckW80Ke1cyytrH9V8QKMC2W5M8g02sAcVRhr28MKlnVtR-i9E2j3z9_0lXVCmzNeLgA_tmvjqQc2-4z4n-mYNWildBPBGNU_UKXhy2nyqmJee3neoorxQkHNDpsDwSXUwEd_xass7Zmpl8gijTefEezwVRHlDaw9buDu7hCzC-6EQmxRMZn5SH2inPtWTwPWkjCogsElcywKx3I5s9XGsCLe1FWX47tnlGL2VzcbBVozBvL-3FnnnUKC5tJDUCe153K59S6x8lTMJ8smLegYbIBlGEeqvFW7mrrH5RdadQj6bw4i_lTMz7h9YFB6eqx1TOJEzOu5zYfwLHBzAmS757JMiPAGiyuGmo3JExRBcAY5PA1O6nR5WCYEZvPzrtaKU9_qsHffFg1IahVqe_l6M87URm4pvgIBTietIb4EiWDu28ThEGKu3EulnEQBAIbvcrwpBs9oHOWzFIXY1Kx_b6W5yRgofC8ZXdahIY_x0TI4OinlEcd5dbcWQaaqcZTmXbgyc0n994xhXZUu5RwPZz60qd-SYBoRqn3EndMd7TwndIiuWA=",
+    "status": null
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cf2615fc87d1aacf89165629c55b",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"Connoisseur Media\" \"Holdco\" \"Intermediate\"",
+      "\"Connoisseur Media Licenses\" \"parent\" \"2025\"",
+      "\"Connoisseur Cos\" \"Connoisseur Media, LLC\" \"2025\""
+     ],
+     "query": "\"Connoisseur Media\" \"Holdco\" \"Intermediate\"",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://go.mcohio.org/embed/Auditor/weekly_approved_pmts/Appr%20Pmts%2026%2002%2010.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://fccinfo.com/CMDProULSLookup.php?tabSearchType=ULMB&tabTextBox1=2863865"
+      },
+      {
+       "type": "url",
+       "url": "https://kabuseek.s3.ap-northeast-1.amazonaws.com/filing/ARU/2016-02-24/a2227293z10-k.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775018000015/arccq1-1810q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://financialfilings.com/filings/ares-capital-corp/interim-quarterly-report/2015/11683616/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775018000020/arccq2-1810q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://de.scribd.com/document/746904010/Active-Vendor"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775017000017/arccq3-1710q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://bankrupt.com/TCR_Public/220818.mbx"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775018000025/arccq3-1810q.htm"
+      },
+      {
+       "type": "url",
+       "url": "https://www.indeed.com/q-creative-strategy-l-richton-park%2C-il-jobs.html"
+      },
+      {
+       "type": "url",
+       "url": "https://companiesmarketcap.com/aud/ares-capital/sec-reports-10q/0001104659-16-117420/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.sec.gov/Archives/edgar/data/1287750/000128775019000021/arccq2-1910q.htm"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_057c487ccda85dc2006ac2cf2c36dc87d1ba3e826b203f1c81",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqws9WEC_bGzQtT0cGlvmh1VKSAHfbO-wtmJVHMYEjHNZH29ZLE3D5aKrdEjWfngGBifenYpzQ9IaFl8pnjz--IeQVzBabqp3cNKTg9-LnfdrynHvADY9N_t5FI4isGstw5X0CFkYL0oKAJ7okDF_wV88BlsmabxviUj-ip4l4uaG8bHVaoOPzq7wsRDgbvdjOnVsAG7QHQQnUxbPpsVqHuHlUtxPnMJkYkN8dqQQMZ7XRT2fkpHqrQlAy-RCXc5I5WK8wb5_ua3pQ6WualQg4I1CQX0OdZAxGJ0PYQL9xukn_lu8U7NFPQQq9YI994RyE-B8sIeJqGVI6CW_P8kddfgrVt_pEPpDKV_-75jiahdqWTGG73xxzKlUHwPe6J8qKUC8jx-_jnIdHyBG7UUHoNqQLvUskxerQCMjUTYqsS80mIUG5kaifsuSrqftg8NVMvBDdS-nrXMPMwMTk4dBxw9MzzkpVnONTJWdmHU3e1TCey89GMjMXq6u9VbuSBTOCYU9cwx1CVtSmT69J68xSJgoE0o2JRF8sUWNXE-EquDXZnPpEemZMvZHBx4AWKs7b28-IRHXLpU41x1CUls3KmB-mI7C98b66RXY2r0ki-NJ9gUyxSIG-ds1_B7YhKrs7mzEIDYudbeAo0jD4t2dKPOd8A2UjxbkG1FOcBLmIjR31OSJVaL6VMAl7u5pXvJtoM4rL0vdw51Ra_1PldBjMUGECIvCfr8Vpop5PtoiZIOQGkdwYAhM_8pCgwHR6M7N-vzuEcBdDWCtSdSH-PncTsOU_0TFVmt2bUMUhWMuD-AiYQPRprmHoJubdFjRrlM-ry1FGTDn8p-PNFy1lzoeSyyJLp0Zpg42ozP0QOxCyhCiiZH-uqepAEJOWD67AxTno87GbuWLjiVqI2vbW4105u_0LRnvML9hG-Nid_WOuPFpwr4EsWQTOaxrKRYE9ym8s1_E9PwBYI9cBZsSkooomTSCSGq76A6CHP5-O2RPy_N3JTF9Js3s07C9QY-7qb7rUOURAOb4SdHRDjaEVqIjXy-im66x5YeGXTPTAIcQdwI-T8Kh7Cu7S8PofnlKb1XHpeODohtMsyjZByR_yM05GEDRKVZ2R1Qx-0q8WYKCGbs0klU-1D-H67c8vBRaz8qeucB3wRElcxqhdYQBr4E-WZ-kVoWNoDQGf__sZ02mPwoVX-JLYN1ffKjhfmPeWJjw1K3sbCOv73kTk5cbB84K-cD8zoeIliLMlsL1U-YQEJMswQ8_ZqTWezk63Jv2y3ZdW-8wGuuHlc8xO83GwwpSw_8qYrRVzyLU-k8KasLimu9HKuRcuVwX31wVRbVJzzyRbDKvhlIK03bSc2-fTtCJNey8WBv1ZYbylC37zD0ZFBe3GewnGBj1iBUb6QsFml9OFdEzn7UMgDm5p-C7YLYyIwweltKZ4f1FAdfmk0Qyet2bXviDlh04wvoH_7bBYLOrF29O2PvCnK2J1J1_Iu1VR_PBx6Jtz46uhKUUwAQ4fKqPUtDwkULdhUwQlpJ8NftQbxoY7v1XwwKeybzRqrkYHZ9oVSaZ4jay0znyZG1qb7v4Pw5s_Gqkee6D2Y-H8EoQp1SM0IGpWFeVWF5aGgmznrXRy1jLiyVgTP7yFD7QqDEU0CDmarEDAkm7ood33iLkPYYI0tYiNIxW9gwy7jstecVrmAk5vkEi9_udNtGidha4QYqJ-6WdIig_1cabf4ZoVNa9AGKRqgXPyvIY2b7ogp8r6qXJ_TYg4SG_Jyj8qPnOXcSbeODAERry0Oht3LfN3TjZc8qS4rxhpcl4BCyMdzhz4ZTGTAxYUfK4ym1mKOfsJdUf_868YHjgc2zjnUxbGWA82MCMyQ72BO0jn77iw92NufwZ1UhFElXq6Cg28WiNVHV_8MD7ILhwhvU6pZYspqWFtzxiuKJrhiqLGPj_FxDhEafvwNbO5aTUEc3MHIkTUkyemCe6KfTeEWSIGQe5tivrEaRCGwy5CHJzSklQeWHGbkpGCXVWKamyTxej-bg2MbWOlHxz1SGzBiR1nQ9hD6_WM7U86bq4smyQBzyqa80hFH6-35IvsT_do5kYaxzKsEQjOJjFswX0-ifHGPfDaL_iIWzxThjqcBSPsxaodHwO6mszMoeokQxRW-Dd_krahNDwTYwG-f073rtdG6Z07bd81BCW5Tg-9_M1NiSPX92ajWjwVd_wGQ7FTwquNpMji8EUf5SN26eWI33Gwp4nEfeXVTqogKL3YQMf9cH1cDhRpEW8lROjbdgzzASZLdcgK2jubkcx8ojENmNbYTx7E24JMrWBsr6LnandTlcXX0sdIwZ14cnuq4QyU1xMz5EqLZdle_MuNRP37Z22QCrAuO_ppeM0RJrvXI3fXOk3-Nbv-PmIAwyJCtR3X8hniVnp31fEd2PaADBL_jBjgj5F3f0MSzr9SX9LTbzgb2Z7KrYhWp5K-kcYa8SVND5JrSL2TOZk05GJBhZ865rcFUZ0i94fs7w2lfaCWd2IH2n3hVMsNQeatA1wZ8X086uY9dtju2H17N1uUsaHcyXE00kPc1SNu4Vf1WF9JGopM-bPt8alFb9HcGtsubz3h-_nO3XHGWp468ZZuOoK57-RP9W1M_F8kKVPmw1yEaSrLXWhqeYhTxhMhr8U5Yg_n8TYSl2MRK-D8cBVGQg8XFAOSdAG1VpV9_wQqUwthj2LFMkWtA69zoa2Bc5Sp077fGKi6wFdddi1wyabYOZ1culT6ikMpA_94FI3h5bcqRL6GmsfqOWBo7_GfTwNKMAsrzU9P_wHdp95EblzPpf1XUsk2-1FRPReE",
+    "status": null
+   },
+   {
+    "id": "ws_057c487ccda85dc2006ac2cf3208d087d1b270b678f561c35d",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"Jeff Warshaw\" \"President and CEO\" site:rab.com",
+      "\"Jeff Warshaw\" \"President\" site:connoisseurmedia.com",
+      "\"KBLX\" \"Connoisseur\" site:kblx.com",
+      "\"Jeffrey\" \"Warshaw\" \"President\" \"2026\""
+     ],
+     "query": "\"Jeff Warshaw\" \"President and CEO\" site:rab.com",
+     "sources": [
+      {
+       "type": "url",
+       "url": "https://www.radioworld.com/wp-content/uploads/2026/01/Connoisseur-Media-LLC-et-al.-Joint-Reply-Comments-MB-Docket-No.-22-459-1.16.2026.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.rab.com/public/pr/pr_detail.cfm?id=662"
+      },
+      {
+       "type": "url",
+       "url": "https://www.american.edu/trustees/by-class.cfm"
+      },
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/leadership/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.facs.org/media/2cgasuad/june-2026-acs-bulletin.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://jhssc.org/wp-content/uploads/2025/09/JHSSC-Magazine-Fall-2025-website.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://jhssc.org/wp-content/uploads/2026/03/JHSSC-Magazine-Spring-2026.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/the-world-according-to-warshaw/"
+      },
+      {
+       "type": "url",
+       "url": "https://www.uvm.edu/d10-files/documents/2026-03/Dean-s-Org-Chart-1-8-26.pdf"
+      },
+      {
+       "type": "url",
+       "url": "https://www.american.edu/trustees/current-trustees.cfm"
+      },
+      {
+       "type": "url",
+       "url": "https://people.equilar.com/bio/person/michael-driscoll-connoisseur-media/35555354"
+      },
+      {
+       "type": "url",
+       "url": "https://people.equilar.com/bio/person/christopher-forgy-saga-communications-inc/21104633"
+      },
+      {
+       "type": "url",
+       "url": "https://people-qa.equilar.cloud/bio/person/caroline-beasley-beasley-broadcast-group-inc/5070104"
+      },
+      {
+       "type": "url",
+       "url": "https://www.rab.com/public/pr/pr_detail.cfm?id=943"
+      },
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/employees/"
+      },
+      {
+       "type": "url",
+       "url": "https://connoisseurmedia.com/tina-murley-joins-connoisseur-media-as-svp-western-region/"
+      }
+     ]
+    },
+    "status": "completed",
+    "type": "web_search_call"
+   },
+   {
+    "id": "rs_057c487ccda85dc2006ac2cf38513c87d18b6c13abb7576351",
+    "summary": [],
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABqws9WfRXZl1bTqDWK4hOPLIw9tpU8PpKlGI4CDqQyJx_14wzwg4AErx2_nEoMkXfz2Jkk5UGPB-i3BrvQzCtna5iaZ1zt-4J60gJsJNGydQ_kCTWkWfJCrnQ-UI1dziZvu-cMVLpjkjqUhB0lOvyHGDXXNRUrMFqfvTAKtNM5sWn9qIrdFd9RR1oBw62pZZcFSoRC4udiHsBBz8IJFOJYdJm0AN4UKI0GWXcOw0wzADoVR__OilYY0cCD-Mu-4yX52MSrBCF5_hkdDP1NVtuYIZiTqseL315kqWCgENUPa67u6Iw6wNY6KL_bTpdCtbG_evlEFwHdOapzo4ExDyh0O8Fe2nKZzAgdf5GNnp2FcjmDXCZw2Hq9uS7z2HxHbjpB_5L2f-n0CL_FMwyQjZywK8gIDejKy5OqHoeggdwc4S_7u28VyNqfULvm7cFq3L_5SAOhZ4ZwLMlAYtY1fwKeTHv48OV8pV7bRR4sgG0_YMbHP5kOMM7LvNusspvQ3K1TAGJlmUa62mdQDiosJ9bH53VH8TszxTBC7805etc5Fe_vmO4rZ176TYTJugwJdois_7jBQOvoeEbM8SRGK1B1YaA5kmAIxtNsUzhKUDfrN_Ira0zzZY6Q1EA7hpG9MtyEUlEsIhr8W0YCWDZ2LhMgKVsn_S5_tFEW7spV8R13cbzpQq98G9-D0MJhcH8O3WYligI1f7EzC9LP24fvg-BdDcwrw-KmpxJZjrCptl5brX6_xbIev4PBZaGlGEqNdnSYNquy5BO924_yyMEFF8KE0VeoTVOt-o-Dn4hqU2IYEyvEPIJ-dowwioBPh2yV-L68qwN-S4Bva3Cd6I63u0CvM0tvD8Xp_VST8Mqm4YZgP0zjY1QhZyEhMIAq16tuSBHZHt2YVD8Z4mk4rPjEm5qAcbBiHy6adkE0dyS94-f1aWGMtm-__5Zj28WbFCssAnEysS_QtlyjZNAHV3UQTh1GQi6jY1zGMfEHAiPdR4lE9IP5iqiWKCZ3FryHLeftyfeoPrf8ZudK8Hg5VlwiqjjhzcVcAzoT4LsjAhCqFbQKMYL6YSsalYZTnjs_2CvvblH4g6vs9j5HQL7GeNW_t0pd6gTk5l4na288YKUF2OBMAiiQ_l8o7hlFC-en4WypFgEPyK5-8HpRRx-ap2keGe1TZ2ddiNpk0lqU6amzYhqSL2-XAW5w4TGV2r18RIERLhhZ0lwaI3Mzy2RSTIwYOcMq-zvZ9TYnO4XVSuxyctYTvMxVUcjbfmqsD6YGPAfpOWAnP2WOqaHY9M2bG90xBIgJrmLJi31pMj8T510YzjajOugzZXMee5-137G_Q-i2bQl1On2dw-0norUGV-ROtwK7cobxtt-4ueJPEnona_7GLjCnQglP7ddnXm5SIvde2uKobB0Y0RZtmS77eSQTiNTPKKJEC4t7TcHQMwgjDtvpjHusjW4eDNCZNSkgppinIGV_lwleNLDfK0h30K7UDbeU5GMmUaeDrofJHmnPg49yf44JH4-a1R181UCssoqCCBXgSrIHh-NWOWM7jNVGUUcqUI-QMhUq8ozwwtPNa4bWOkGegTwUIBfO_8FvHrYbwCMIyTwNPvFp27nHBrT7yNKaQKVGCsrGCNtEJE6rNZAZ22AG8fwZPPSLD5Kb_D71497jOhZJGKq4LHEXaUVNhHxwot96rJLObYRGwR9iX6-S3Afr_v_sBqpibPDTiSFlZHW3kJd5F0AtBME1a2VvsxVOXocLNn6N4vSFz_c3Q_fpJ07dsT_CNfycZP7y04JeJQrEWCBzXfXTmen6Y_imckYqF6lM7gOQfp04g7-pCShqKH8GkxN0F5ET9LYw1lofGQo16chwDYhQ6NvPVixuzRB9SX4_YMSKtyaIW43NB-JZ7SOZnMTw9JfPVgt4EwhqO3rO1temMDGEOgjnsCKjJCI22aQKh-rpQ7zJ7tdb3z646mspDOLhthu1pwcwoh7Cn7DEbZ3OjzaqPI_Nxd_O8I9gi10adKuHi62m8KiuC9FdaTsU1usiULPEQMjvrfkDIVkVVDiTp0CQGKd2pJpIYCN1haYQGipgMdvnNK3xSE9TxVrPzBb7qb8b_bB9uM9fE2O535lJYj-GVxumpxWW7usLYFasotz77BYuP6LLF3Hg-eWnfqY3HhczYkmPLuSUiD5DUIAAlRpgisush9mjK3GSBLzDrHzVq1f1TMoK0jCQLk1QUxauHUBrF78k-MsvtPvgNtmTb6mCs_4jQ3fkJG6cfDO-k_wTG6HQeuWa5t2fqacIf4i30qSsKvpPVLHNhcmEhOYH_PqtCFEGPRk2mJbkaW_lW_3__LZGkJrXb2vnV3xVYQmXbzvgZEG49mm7U9xwUl9Wdcz3e5qrWYHzV9zLVPnw-ymSHNCpQaY4dKfKxjTZ8onBRLIGunY3mtgIEarqENup8IvB4Lbr534MDSATkuK2iWWdu-7zNBdE6CxKItvPQ8xxiqS1Was4oO3f-8TP2rHqzWeciQLUh6hDn_IQAzxuQaEDBBPsHMbHdNcevBEex_WhKmJLjzEFIDY-3WQ-3NMl3pgOpstITJRTmdU8ejjb6gkvjTZK39vUcsm2Yayql4wPYpG41r3ZruAWlCMLAHUwNJUUBpF02bhonQDn4dkqQJYhljPohXbm10GbaVDs05XFSwkFodE_ZHKdEg9vZ0KdG2HqY1EZedoKRMC4u6THLJQRiXkuGQUCg8eMt-EkOA3h-EnBe19uNsi-p-9a_40C3fDvK8BuPb25JwLq6zIfN0aQONlomQedG31TlITFcftEViZ12O1kP1_sEeM-P_hkhXyYY1PyQEC7oVJv5fCRLdYDBn2XMo1WfCx4KN6ZWX5eqkVPxeKbvTzxL9IIL1y0zpHZR48qR0qRVn_ZGoZzHpyA6BSybjIEn7Y4FBTPXLgMW3l1maNFQGWFl7ZqVE_t5JORn_ieOr0uT7EbD-M1hjHJ183s5IbEGMmeSpG5Smva0yfUrHBNxdjUZtCvbI-2aGEnVHQrgYilJTn0krwiyopZhZ9PM-5zB1RfehMkeSkBKodzK1Q1lBmI76pv1zrEPg1ullN2b4RHq5empjpXFgCz1c0eZYckNOcSdWVMig7ccj-ct1jgc9BphC6CX7umhBbpwlEWGW5PByM5I4O-_SETiwvWgCUMbkhf-zEljb_yiO9vV2ABLe__gISyut0-y8h5cj5xPfL8lAEhikuKrKlkCOz1LS1gXUU3Jg8pnZBh85OhphYcziuhFdgDYV4-OOXUcWJ41NWCuKjdPiogxxxT6YGAUPcoM03Q6WNp1we4CLDgLwamyZ_ORlZJMOQMdKzmAx91xosO-4dTyYOLSIpSXEzRLdhLAqL2ZGDw5WiDM4A7LRQ2e1JUNU6ui05CHnx0ysQiCsBmPnn5rVtLV1_Eq901dMBgEewiZ-rRFNmxH0epaYBCwSFAYL6CprSrw5RD2e3Uf8FaZQERIou0J_s2OkMNGJlwxNMHUFjScDroORahZX_h_WskpcOf5_GR1nbRj9LBzEyjRch-5HsnxA8wZ8gmiCK0UT2EnlNyzeIC91jmVPCSwjOUxca17im4kod7OPM8bhnC0c1PA_fo9_9luXKbh4o4T49aR4Qusdk=",
+    "status": null
+   },
+   {
+    "id": "msg_057c487ccda85dc2006ac2cf3f7f1087d1b1a133f3c91dade8",
+    "content": [
+     {
+      "annotations": [],
+      "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Connoisseur Media Licenses, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=cf535792f6314e8eb3fac1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl\",\n        \"quote\": \"KBLX-FM Licensee Information\"\n      },\n      {\n        \"url\": \"https://www.fccinfo.com/CMDProEngine.php?sAppIDNumber=cf535792f6314e8eb3fac1b6063ebeb7&sCurrentService=FM&tabSearchType=Appl\",\n        \"quote\": \"Connoisseur Media Licenses, LLC\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"established\",\n    \"names\": [\"Connoisseur Media (operating group; exact operating legal entity not established)\"],\n    \"citations\": [\n      {\n        \"url\": \"https://connoisseurmedia.com/tina-murley-joins-connoisseur-media-as-svp-western-region/\",\n        \"quote\": \"Murley will oversee Connoisseur\u2019s West Coast operations\"\n      }\n    ]\n  },\n  \"chain\": [\n    {\n      \"child\": \"Connoisseur Media Licenses, LLC\",\n      \"parent\": \"Connoisseur Media Holdco, Inc.\",\n      \"relation\": \"Documented controlling parent following the 2025 transfer of control; this evidence does not establish every intervening ownership entity.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DOC-411710A1.pdf\",\n          \"quote\": \"From: Connoisseur Cos, LLC     To: Connoisseur Media Holdco, Inc.\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Connoisseur Media Holdco, Inc.\",\n      \"parent\": \"Connoisseur Media Parent, LLC\",\n      \"relation\": \"Indirect ownership of 100% of equity and voting interests; intervening entities not established.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-452A1.pdf\",\n          \"quote\": \"indirectly holds 100% of the equity and voting of CM Holdco\"\n        }\n      ]\n    },\n    {\n      \"child\": \"Connoisseur Media Parent, LLC\",\n      \"parent\": \"Connoisseur Cos, LLC\",\n      \"relation\": \"Direct parent holding 91.25% of equity and 100% of voting interests in the FCC's 2026 description.\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-452A1.pdf\",\n          \"quote\": \"CM Parent is a direct subsidiary of Connoisseur Cos\"\n        }\n      ]\n    }\n  ],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"established\",\n    \"names\": [\"Jeffrey D. Warshaw (Jeff Warshaw)\"],\n    \"citations\": [\n      {\n        \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-826A1.pdf\",\n        \"quote\": \"ultimately controlled by Jeffrey D. Warshaw, a U.S. citizen, who holds 100% of the voting interests.\"\n      }\n    ]\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Jeffrey D. Warshaw (Jeff Warshaw)\",\n    \"role\": \"Chief executive officer and founder; the additional president title was not independently confirmed.\",\n    \"entity\": \"Connoisseur Media, LLC / Connoisseur Media operating group\",\n    \"citations\": [\n      {\n        \"url\": \"https://connoisseurmedia.com/jeff-warshaw/\",\n        \"quote\": \"Jeff Warshaw is the Founder and CEO of Connoisseur Media\"\n      },\n      {\n        \"url\": \"https://www.radioworld.com/wp-content/uploads/2026/01/Connoisseur-Media-LLC-et-al.-Joint-Reply-Comments-MB-Docket-No.-22-459-1.16.2026.pdf\",\n        \"quote\": \"Connoisseur Media, LLC Jeffrey D. Warshaw Founder and Chief Executive Officer\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Connoisseur announced an agreement to acquire Bonneville's San Francisco stations, including KBLX.\",\n      \"status\": \"announced\",\n      \"date\": \"2025-10-07\",\n      \"citations\": [\n        {\n          \"url\": \"https://connoisseurmedia.com/connoisseur-media-to-expand-west-coast-footprint-with-acquisition-of-bonneville-san-francisco-stations/\",\n          \"quote\": \"including KUFX, KBLX, KMVQ (99.7 NOW), and KOIT. The transaction is pending regulatory approval by the FCC\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The FCC granted KBLX-FM's assignment application, file 0000281237.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-03-30\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.fccinfo.com/CMDProAppLookup.php?sCurrentService=FM&sFacilityID=28670\",\n          \"quote\": \"0000281237 | KBLX-FM | 102.9 | Berkeley | CA | Full Power FM | Assignment of Authorization | Granted | 11/21/2025 | 03/30/2026\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The Bonneville-to-Connoisseur sale, including KBLX-FM, was reported closed on May 15, 2026. The exact legal consummation date was not verified.\",\n      \"status\": \"closed\",\n      \"date\": null,\n      \"citations\": [\n        {\n          \"url\": \"https://ramp247.com/programming/bonneville-bay-area-sale-to-connoisseur-closed/\",\n          \"quote\": \"from Bonneville International Corporation to Connoisseur Media is closed.\"\n        }\n      ]\n    },\n    {\n      \"description\": \"The FCC approved Connoisseur's foreign-ownership petition, permitting anticipated debt conversion and warrant-related equity changes. Approval does not establish that those changes subsequently closed.\",\n      \"status\": \"approved\",\n      \"date\": \"2026-08-07\",\n      \"citations\": [\n        {\n          \"url\": \"https://docs.fcc.gov/public/attachments/DA-26-826A1.pdf\",\n          \"quote\": \"grants a petition for declaratory ruling\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of October 4, 2026, the current licensee is Connoisseur Media Licenses, LLC, not Bonneville International Corporation. FCCInfo identifies its underlying LMS database date as October 2, 2026. The evidence establishes Jeff Warshaw's ultimate voting control and the ownership relationships listed, but not a complete immediate-parent-by-immediate-parent chain or a conclusively identified topmost corporate parent. Connoisseur Cos, LLC is the highest named parent established here, not a verified ultimate parent. The precise operating legal entity and Warshaw's additional president title remain unverified. Closure reporting also differs in timing: the May 15 report says the sale closed, while Connoisseur's July 10 release refers to the acquisition as occurring 'last month'; therefore no exact consummation date is asserted.\"\n}",
+      "type": "output_text",
+      "logprobs": []
+     }
+    ],
+    "role": "assistant",
+    "status": "completed",
+    "type": "message",
+    "phase": "final_answer"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+   {
+    "type": "web_search",
+    "external_web_access": null,
+    "filters": null,
+    "search_context_size": "medium",
+    "user_location": {
+     "city": null,
+     "country": "US",
+     "region": null,
+     "timezone": null,
+     "type": "approximate"
+    },
+    "return_token_budget": "default",
+    "search_content_types": [
+     "text"
+    ]
+   }
+  ],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1791151958.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "generate_summary": null,
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+   "format": {
+    "name": "ownership_answer",
+    "schema_": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "legal_owner",
+      "operator",
+      "chain",
+      "ultimate_parent",
+      "controlling_person",
+      "leader",
+      "transactions",
+      "uncertainty"
+     ],
+     "properties": {
+      "legal_owner": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "operator": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "same_as_owner",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "chain": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "child",
+         "parent",
+         "relation",
+         "citations"
+        ],
+        "properties": {
+         "child": {
+          "type": "string"
+         },
+         "parent": {
+          "type": "string"
+         },
+         "relation": {
+          "type": "string"
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "ultimate_parent": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "single",
+          "multiple",
+          "none",
+          "not_established"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "controlling_person": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "names",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "none",
+          "not_established",
+          "not_applicable"
+         ]
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "leader": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "status",
+        "name",
+        "role",
+        "entity",
+        "citations"
+       ],
+       "properties": {
+        "status": {
+         "type": "string",
+         "enum": [
+          "established",
+          "not_established"
+         ]
+        },
+        "name": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "role": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "entity": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "citations": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "url",
+           "quote"
+          ],
+          "properties": {
+           "url": {
+            "type": "string"
+           },
+           "quote": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      },
+      "transactions": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "description",
+         "status",
+         "date",
+         "citations"
+        ],
+        "properties": {
+         "description": {
+          "type": "string"
+         },
+         "status": {
+          "type": "string",
+          "enum": [
+           "announced",
+           "approved",
+           "closed",
+           "abandoned",
+           "unknown"
+          ]
+         },
+         "date": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "citations": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "url",
+            "quote"
+           ],
+           "properties": {
+            "url": {
+             "type": "string"
+            },
+            "quote": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "uncertainty": {
+       "type": "string"
+      }
+     }
+    },
+    "type": "json_schema",
+    "description": null,
+    "strict": true
+   },
+   "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 95399,
+   "input_tokens_details": {
+    "cache_write_tokens": 5275,
+    "cached_tokens": 0
+   },
+   "output_tokens": 3779,
+   "output_tokens_details": {
+    "reasoning_tokens": 2129
+   },
+   "total_tokens": 99178
+  },
+  "user": null,
+  "billing": {
+   "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 11
+   }
+  }
+ },
+ "usage": {
+  "input_tokens": 95399,
+  "input_tokens_details": {
+   "cache_write_tokens": 5275,
+   "cached_tokens": 0
+  },
+  "output_tokens": 3779,
+  "output_tokens_details": {
+   "reasoning_tokens": 2129
+  },
+  "total_tokens": 99178
+ },
+ "usd": 0.358588,
+ "latency_s": 98.8,
+ "web_search": {
+  "tool_enabled": true,
+  "calls_executed": 13,
+  "actions": [
+   "search",
+   "search",
+   "search",
+   "open_page",
+   "search",
+   "search",
+   "search",
+   "search",
+   "search",
+   "search",
+   "open_page",
+   "search",
+   "search"
+  ],
+  "forced": false
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "arm": "A",
+ "case": "smoke_kblx",
+ "run": 1,
+ "saved": "2026-10-04T19:12:39-0300"
+}

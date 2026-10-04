@@ -1,0 +1,24 @@
+{
+ "frozen_before_measurement": true,
+ "rules": [
+  "Four scored fields per answer: legal_owner, ultimate_parent, controlling_person, leader. Operator, chain and transactions are recorded and read, not scored automatically.",
+  "legal_owner: correct when status is established and one name matches the reference licensee or legal owner or a listed alias.",
+  "ultimate_parent: the top of the documented chain. Stopping at an intermediate entity is an error. For several parents (joint venture) every listed parent must be named. When the reference parent is the legal owner itself (nonprofit, independent company), 'none' or that same entity are both accepted.",
+  "controlling_person: correct when it names a listed person or family; when the reference says none or not_applicable, none or not_applicable are accepted.",
+  "leader: only the person matching the case's leader definition (last name and first initial).",
+  "When the reference is not_established, an abstention is justified and any asserted value counts as an affirmation without sufficient evidence.",
+  "When the reference is established and the answer abstains, the abstention is avoidable.",
+  "A correct field is supported when at least one of its citations gives a passage that is found in the cited document (full text fetched once through Exa /contents) and names the entity. Otherwise it is correct but unsupported.",
+  "A complete supported answer: all four fields are correct and supported, or justified abstentions.",
+  "Format validity (JSON schema) is scored apart from truth.",
+  "Per case: k/3 complete supported answers. Totals: x/8 cases complete at every pass, y/24 complete outputs. No percentages, no best-of-three, no majority vote."
+ ],
+ "pre_registered_aliases": {
+  "kpix:controlling_person": ["Ellison family", "Ellison Family"],
+  "kpix:ultimate_parent": ["Paramount Skydance", "Paramount Skydance Corp."],
+  "kfrc:ultimate_parent": ["Fund for Policy Reform"],
+  "wfaa:legal_owner": ["WFAA-TV Inc"],
+  "espn:legal_owner": ["ESPN Inc"]
+ },
+ "interface_cases_chosen_before_measurement": ["wapo (simple)", "wfaa (recent)", "krzz (conflicting)", "kpfa (partially indeterminable)"]
+}

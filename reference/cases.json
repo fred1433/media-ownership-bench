@@ -1,0 +1,1594 @@
+{
+ "frozen_at": "2026-10-04T22:20:00Z",
+ "target_date": "2026-10-04",
+ "built_by": "agent (Claude), web research",
+ "cases": [
+  {
+   "id": "kfrc",
+   "dev": false,
+   "reused_from_oakland": true,
+   "media": {
+    "name": "KFRC-FM (106.9 FM)",
+    "kind": "fm",
+    "callsign": "KFRC-FM",
+    "facility_id": 20897,
+    "market": "San Francisco, CA",
+    "official_domain": "audacy.com"
+   },
+   "scope": "FCC",
+   "target_date": "2026-10-04",
+   "question": "As of 2026-10-04, who is the current FCC licensee or legal owner of KFRC-FM San Francisco (facility 20897), what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current chief executive officer of Audacy, Inc.?",
+   "leader_definition": "current chief executive officer of Audacy, Inc.",
+   "reference": {
+    "legal_owner": {
+     "name": "Audacy License, LLC",
+     "aliases": [
+      "AUDACY LICENSE, LLC"
+     ],
+     "evidence": [
+      "S1"
+     ]
+    },
+    "operator": {
+     "name": "Audacy License, LLC",
+     "aliases": [
+      "Audacy"
+     ],
+     "evidence": [
+      "S1"
+     ],
+     "same_as_owner": true
+    },
+    "chain": [
+     {
+      "child": "Audacy License, LLC",
+      "parent": "Audacy Operations, LLC",
+      "relation": "wholly owned subsidiary",
+      "evidence": [
+       "S2"
+      ]
+     },
+     {
+      "child": "Audacy Operations, LLC",
+      "parent": "Audacy Capital, LLC",
+      "relation": "wholly owned subsidiary",
+      "evidence": [
+       "S2"
+      ]
+     },
+     {
+      "child": "Audacy Capital, LLC",
+      "parent": "Audacy, Inc. (reorganized)",
+      "relation": "wholly owned subsidiary",
+      "evidence": [
+       "S2"
+      ]
+     },
+     {
+      "child": "Audacy, Inc.",
+      "parent": "Laurel Tree Opportunities Corporation",
+      "relation": "controls (expected 57% or greater of Class A New Common Stock, per FCC 2024 order)",
+      "evidence": [
+       "S2"
+      ]
+     },
+     {
+      "child": "Laurel Tree Opportunities Corporation",
+      "parent": "FPR Capital Holdings LLC",
+      "relation": "sole voting shareholder",
+      "evidence": [
+       "S2"
+      ]
+     },
+     {
+      "child": "FPR Capital Holdings LLC",
+      "parent": "Fund for Policy Reform",
+      "relation": "sole member and manager (100% voting and equity)",
+      "evidence": [
+       "S2"
+      ]
+     }
+    ],
+    "ultimate_parent": {
+     "status": "single",
+     "entities": [
+      {
+       "name": "Fund for Policy Reform",
+       "aliases": [
+        "FPR"
+       ]
+      }
+     ],
+     "evidence": [
+      "S2"
+     ]
+    },
+    "controlling_person": {
+     "status": "none",
+     "names": [],
+     "evidence": [
+      "S2"
+     ]
+    },
+    "leader": {
+     "name": "Kelli Turner",
+     "role": "President and CEO",
+     "entity": "Audacy, Inc.",
+     "as_of": "2026-01-27",
+     "status": "established",
+     "evidence": [
+      "S4"
+     ]
+    },
+    "uncertainty": "The control chain is documented as of the FCC grant (Sept 2024); in Jan 2025 Audacy said 'new changes in its equity structure' made its foreign-ownership petition unnecessary, and no later ownership filing was opened, so the Laurel Tree/Fund for Policy Reform chain as of 2026-10-04 is the last documented state, not a re-verified one. The FCC order describes FPR's board as self-perpetuating with no individual able to appoint or remove trustees, hence no single controlling person; trustees named in 2024: Leonard Banchon, Maryann Canfield, Alexander Soros, Michael Vachon."
+   },
+   "plausible_wrong_answers": [
+    "Entercom",
+    "CBS Radio",
+    "George Soros personally",
+    "Soros Fund Management as attributable owner (FCC: 'neither of those entities appear as attributable interest holders')",
+    "a 'Soros nonprofit' as licensee",
+    "David Field as CEO"
+   ],
+   "transactions": [
+    {
+     "description": "Audacy Chapter 11 prepackaged reorganization; licenses assigned to reorganized Audacy License, LLC; control to Laurel Tree Opportunities Corporation",
+     "announced": null,
+     "approved": "2024-09-30",
+     "closed": "2024-09-30",
+     "status": "closed"
+    }
+   ],
+   "ownership_classification": {
+    "category": "not_established",
+    "source": null,
+    "certifier": null,
+    "date": null,
+    "status": "not_established"
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "url": "https://transition.fcc.gov/fcc-bin/fmq?call=KFRC-FM&list=4",
+     "title": "FCC FM Query results for KFRC-FM",
+     "publisher": "FCC",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "|KFRC-FM |106.9 MHz |FM |295 |ND |H |B |- |LIC |SAN FRANCISCO |CA |US |BMLH-20050811ABJ |... |20897 |... |AUDACY LICENSE, LLC"
+    },
+    {
+     "id": "S2",
+     "url": "https://docs.fcc.gov/public/attachments/FCC-24-94A1.txt",
+     "title": "FCC 24-94 Memorandum Opinion and Order (Audacy License, LLC, Debtor-in-Possession)",
+     "publisher": "FCC",
+     "kind": "primary",
+     "doc_date": "2024-09-30",
+     "effect_date": "2024-09-30",
+     "accessed": "2026-10-04",
+     "quote": "Laurel Tree Opportunities Corporation (Laurel Tree) is expected to hold a controlling, attributable interest in the reorganized company, holding 57% or greater of the Class A New Common Stock of Reorganized Audacy."
+    },
+    {
+     "id": "S3",
+     "url": "https://www.sec.gov/Archives/edgar/data/1067837/000119312524229306/d753507dex991.htm",
+     "title": "Audacy Successfully Completes Financial Restructuring (8-K Ex. 99.1)",
+     "publisher": "Audacy, Inc. via SEC EDGAR",
+     "kind": "primary",
+     "doc_date": "2024-09-30",
+     "effect_date": "2024-09-30",
+     "accessed": "2026-10-04",
+     "quote": "Audacy, Inc. (the “Company” or “Audacy”) announced today that it has successfully completed its financial restructuring"
+    },
+    {
+     "id": "S4",
+     "url": "https://radioinsight.com/headlines/336934/336934/",
+     "title": "Audacy Unveils Revamped Leadership Structure",
+     "publisher": "RadioInsight",
+     "kind": "secondary",
+     "doc_date": "2026-01-27",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "In a memo to staff today, Audacy President/CEO Kelli Turner unveiled a new operational structure for the company."
+    }
+   ],
+   "reference_limits": "No FCC ownership report (Form 323) for 2025-2026 opened (LMS returned Access Denied; publicfiles API returned errors). Jan 2025 equity-structure change reported by trade press not examined in a primary filing. Kelli Turner's status checked only to Jan 2026 (RadioInsight) plus June 2026 headlines seen in search results but not opened."
+  },
+  {
+   "id": "krzz",
+   "dev": false,
+   "reused_from_oakland": true,
+   "media": {
+    "name": "KRZZ (93.3 La Raza)",
+    "kind": "fm",
+    "callsign": "KRZZ",
+    "facility_id": 1092,
+    "market": "San Francisco, CA",
+    "official_domain": "spanishbroadcasting.com"
+   },
+   "scope": "FCC",
+   "target_date": "2026-10-04",
+   "question": "As of 2026-10-04, who is the current FCC licensee or legal owner of KRZZ 93.3 FM San Francisco (facility 1092), what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current chief executive officer of Spanish Broadcasting System, Inc.?",
+   "leader_definition": "current chief executive officer of Spanish Broadcasting System, Inc.",
+   "reference": {
+    "legal_owner": {
+     "name": "KRZZ Licensing, LLC",
+     "aliases": [
+      "KRZZ LICENSING, LLC",
+      "KRZZ Licensing, Inc."
+     ],
+     "evidence": [
+      "S1",
+      "S2"
+     ]
+    },
+    "operator": {
+     "name": "Spanish Broadcasting System, Inc. (via licensee subsidiary)",
+     "aliases": [
+      "SBS"
+     ],
+     "evidence": [
+      "S2"
+     ],
+     "same_as_owner": true
+    },
+    "chain": [
+     {
+      "child": "KRZZ Licensing, LLC / Inc.",
+      "parent": "Spanish Broadcasting System, Inc.",
+      "relation": "licensee subsidiary (SBS is 'the controlling U.S. parent of the Licensees')",
+      "evidence": [
+       "S2"
+      ]
+     }
+    ],
+    "ultimate_parent": {
+     "status": "single",
+     "entities": [
+      {
+       "name": "Spanish Broadcasting System, Inc.",
+       "aliases": [
+        "SBS",
+        "Spanish Broadcasting System, Inc., Debtor-in-Possession"
+       ]
+      }
+     ],
+     "evidence": [
+      "S2",
+      "S3"
+     ]
+    },
+    "controlling_person": {
+     "status": "not_established",
+     "names": [],
+     "evidence": []
+    },
+    "leader": {
+     "name": "Raúl Alarcón",
+     "role": "Chairman and Chief Executive Officer",
+     "entity": "Spanish Broadcasting System, Inc.",
+     "as_of": "2026-04-08",
+     "status": "established",
+     "evidence": [
+      "S3",
+      "S4"
+     ]
+    },
+    "uncertainty": "SBS is in Chapter 11; the plan (confirmed July 2026, per trade press) cancels existing stock and gives 100% of new common stock to noteholders (Brigade, Man Group, Bayside, Bardin Hill and others), but it needs FCC consent: the Media Bureau only opened the pleading cycle on 2026-09-02 (petitions to deny due 2026-10-02, replies 2026-10-26), so as of 2026-10-04 the transfer is pending and pre-emergence SBS remains the parent. Who holds voting control of pre-emergence SBS (historically Raúl Alarcón via Class B stock) was not confirmed in a document opened. FCC fmq lists the licensee as 'KRZZ LICENSING, LLC' while the FCC 2026 public notice says 'KRZZ Licensing, Inc.'."
+   },
+   "plausible_wrong_answers": [
+    "Brigade Capital Management (owner only after FCC consent and plan consummation, not yet)",
+    "Man Group / Bayside Capital as current owners",
+    "'reorganized SBS owned by its noteholders' as of today",
+    "Entravision or another Spanish-language group",
+    "Raúl Alarcón Sr."
+   ],
+   "transactions": [
+    {
+     "description": "SBS prepackaged Chapter 11: transfer of control of licensee subsidiaries (incl. KRZZ) to reorganized SBS owned by former noteholders; RSA signed 2026-04-03; FCC applications filed 2026-07-16 (MB Docket 26-240)",
+     "announced": "2026-04-08",
+     "approved": null,
+     "closed": null,
+     "status": "announced"
+    }
+   ],
+   "ownership_classification": {
+    "category": "not_established",
+    "source": null,
+    "certifier": null,
+    "date": null,
+    "status": "not_established"
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "url": "https://transition.fcc.gov/fcc-bin/fmq?call=KRZZ&list=4",
+     "title": "FCC FM Query results for KRZZ",
+     "publisher": "FCC",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "|KRZZ |93.3 MHz |FM |227 |ND | |B |- |LIC |SAN FRANCISCO |CA |US |BLH-20110105ABJ |... |1092 |... |KRZZ LICENSING, LLC"
+    },
+    {
+     "id": "S2",
+     "url": "https://docs.fcc.gov/public/attachments/DA-26-933A1.txt",
+     "title": "DA 26-933 Media Bureau Establishes Pleading Cycle for Applications to Transfer Control of License Subsidiaries of Spanish Broadcasting System, Inc.",
+     "publisher": "FCC Media Bureau",
+     "kind": "primary",
+     "doc_date": "2026-09-02",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Following the transfer of control of the licensee subsidiaries of SBS, no single person or entity, or group of commonly controlled persons or entities, will hold 50% or more of the stock or have the right to elect 50% or more of the new board of directors of Reorganized SBS."
+    },
+    {
+     "id": "S3",
+     "url": "https://www.spanishbroadcasting.com/wp-content/uploads/sites/5/2026/04/RSA-Press-Release-Package.pdf",
+     "title": "Spanish Broadcasting System, Inc. Announces Restructuring Support Agreement with Supermajority of Bondholders",
+     "publisher": "Spanish Broadcasting System, Inc.",
+     "kind": "primary",
+     "doc_date": "2026-04-08",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Raúl Alarcón will continue his leadership of the Company in his role as Chief Executive Officer, and will continue to serve as Chairman of the board of directors through the consummation of the restructuring."
+    },
+    {
+     "id": "S4",
+     "url": "https://www.radioworld.com/news-and-business/business-and-law/sbs-reorganization-plan-now-waits-on-the-fcc",
+     "title": "SBS Reorganization Plan Now Waits on the FCC",
+     "publisher": "Radio World",
+     "kind": "secondary",
+     "doc_date": "2026-07-10",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "could take several weeks or months"
+    }
+   ],
+   "reference_limits": "No FCC grant found or searched after 2026-09-02 beyond the pleading-cycle dates; a grant between 2026-09-02 and 2026-10-04 is unlikely given replies due 2026-10-26 but was not ruled out by a docket check. Current Form 323 for SBS not opened (LMS Access Denied). Plan confirmation date (2026-07-01) is from Radio World only."
+  },
+  {
+   "id": "kpix",
+   "dev": false,
+   "reused_from_oakland": false,
+   "media": {
+    "name": "KPIX-TV (CBS News Bay Area)",
+    "kind": "tv",
+    "callsign": "KPIX-TV",
+    "facility_id": 25452,
+    "market": "San Francisco-Oakland-San Jose, CA",
+    "official_domain": "cbsnews.com/sanfrancisco"
+   },
+   "scope": "FCC",
+   "target_date": "2026-10-04",
+   "question": "As of 2026-10-04, who is the current FCC licensee or legal owner of KPIX-TV San Francisco (facility 25452), what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current chief executive officer of Paramount Skydance Corporation?",
+   "leader_definition": "current chief executive officer of Paramount Skydance Corporation",
+   "reference": {
+    "legal_owner": {
+     "name": "CBS Broadcasting Inc.",
+     "aliases": [
+      "CBS BROADCASTING INC."
+     ],
+     "evidence": [
+      "S1",
+      "S2"
+     ]
+    },
+    "operator": {
+     "name": "CBS Broadcasting Inc.",
+     "aliases": [
+      "CBS Stations",
+      "CBS News and Stations"
+     ],
+     "evidence": [
+      "S1"
+     ],
+     "same_as_owner": true
+    },
+    "chain": [
+     {
+      "child": "CBS Broadcasting Inc.",
+      "parent": "Paramount Global",
+      "relation": "indirect subsidiary (intermediate entities not verified)",
+      "evidence": [
+       "S2"
+      ]
+     },
+     {
+      "child": "Paramount Global",
+      "parent": "Paramount Skydance Corporation",
+      "relation": "wholly owned subsidiary (since 2025-08-07)",
+      "evidence": [
+       "S3"
+      ]
+     },
+     {
+      "child": "Paramount Skydance Corporation",
+      "parent": "Harbor Lights Entertainment, Inc. (f/k/a National Amusements, Inc.)",
+      "relation": "controls (holds 100% of Class A voting common stock)",
+      "evidence": [
+       "S3"
+      ]
+     },
+     {
+      "child": "Harbor Lights Entertainment, Inc.",
+      "parent": "Ellison Family entities (Pinnacle Media Ventures) ~77.5% and RedBird Capital (RB Tentpole LP) ~22.5%",
+      "relation": "owners; Ellison Family controls",
+      "evidence": [
+       "S2",
+       "S3"
+      ]
+     }
+    ],
+    "ultimate_parent": {
+     "status": "single",
+     "entities": [
+      {
+       "name": "Paramount Skydance Corporation",
+       "aliases": [
+        "Paramount",
+        "PSKY",
+        "New Pluto Global, Inc."
+       ]
+      }
+     ],
+     "evidence": [
+      "S3"
+     ]
+    },
+    "controlling_person": {
+     "status": "established",
+     "names": [
+      "David Ellison",
+      "Larry Ellison"
+     ],
+     "evidence": [
+      "S2",
+      "S3"
+     ]
+    },
+    "leader": {
+     "name": "David Ellison",
+     "role": "Chairman & Chief Executive Officer",
+     "entity": "Paramount Skydance Corporation",
+     "as_of": "2026-10-04",
+     "status": "established",
+     "evidence": [
+      "S4",
+      "S2"
+     ]
+    },
+    "uncertainty": "Exact intermediate entities between CBS Broadcasting Inc. and Paramount Global not verified. FCC order (2025) says David Ellison holds 64.5% of the Ellison Family voting interests as sole manager and Sayonara, LLC (controlled by Larry Ellison via revocable voting trust) 35.5%; the 2026 10-Q only says 'the Ellison Family' is the controlling stockholder. The pending Paramount acquisition of Warner Bros. Discovery (expected close 2026-10-06) does not change KPIX's owner as of 2026-10-04."
+   },
+   "plausible_wrong_answers": [
+    "Paramount Global as ultimate parent",
+    "National Amusements / Shari Redstone as controlling",
+    "CBS Corporation",
+    "ViacomCBS",
+    "Warner Bros. Discovery as parent",
+    "Skydance Media as licensee"
+   ],
+   "transactions": [
+    {
+     "description": "Skydance Media / National Amusements / Paramount Global merger forming Paramount Skydance Corporation",
+     "announced": "2024-07-07",
+     "approved": "2025-07-24",
+     "closed": "2025-08-07",
+     "status": "closed"
+    },
+    {
+     "description": "Paramount Skydance acquisition of Warner Bros. Discovery (Paramount is acquirer; no effect on KPIX licensee)",
+     "announced": "2026-02-27",
+     "approved": null,
+     "closed": null,
+     "status": "announced"
+    }
+   ],
+   "ownership_classification": {
+    "category": "not_established",
+    "source": null,
+    "certifier": null,
+    "date": null,
+    "status": "not_established"
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "url": "https://transition.fcc.gov/fcc-bin/tvq?call=KPIX-TV&list=4",
+     "title": "FCC TV Query results for KPIX-TV",
+     "publisher": "FCC",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "|KPIX-TV |- |DTV|29 |DA |- |2 |- |LIC |SAN FRANCISCO |CA |US | 0000212264|... |25452 |... |CBS BROADCASTING INC."
+    },
+    {
+     "id": "S2",
+     "url": "https://docs.fcc.gov/public/attachments/FCC-25-43A1.txt",
+     "title": "FCC 25-43 Memorandum Opinion and Order (Paramount Global / Skydance)",
+     "publisher": "FCC",
+     "kind": "primary",
+     "doc_date": "2025-07-24",
+     "effect_date": "2025-07-24",
+     "accessed": "2026-10-04",
+     "quote": "David Ellison, New Paramount’s Chairman and CEO, is the sole manager of, and holds 64.5% of the voting interests in, the Ellison Family entities that control Pinnacle Media and, thus, NAI and New Paramount."
+    },
+    {
+     "id": "S3",
+     "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000054/psky-20260630.htm",
+     "title": "Paramount Skydance Corporation Form 10-Q for quarter ended June 30, 2026",
+     "publisher": "Paramount Skydance Corporation via SEC EDGAR",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": "2026-06-30",
+     "accessed": "2026-10-04",
+     "quote": "At June 30, 2026 , the Ellison Family, the controlling stockholder of Paramount, indirectly held approximately 77.5 % of our voting Class A Common Stock through their collective approximate 77.5 % ownership interest in Harbor Lights Entertainment, Inc. (f/k/a National Amusements, Inc.)"
+    },
+    {
+     "id": "S4",
+     "url": "https://www.paramount.com/leadership",
+     "title": "Paramount Leadership",
+     "publisher": "Paramount Skydance Corporation",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Chairman & Chief Executive Officer"
+    },
+    {
+     "id": "S5",
+     "url": "https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx",
+     "title": "Paramount Skydance and Warner Bros. Discovery Announce Anticipated Closing Date of Paramount Merger",
+     "publisher": "Warner Bros. Discovery",
+     "kind": "primary",
+     "doc_date": "2026-09-30",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "the merger is expected to close on October 6, 2026, subject to customary closing conditions"
+    }
+   ],
+   "reference_limits": "10-Q filing date not recorded (doc_date left null; period ended 2026-06-30). Closing date 2025-08-07 from the 10-Q text ('Also on August 7, 2025 ... Paramount Global and Skydance became wholly- owned subsidiaries'); the Paramount IR press release timed out. Leadership page undated."
+  },
+  {
+   "id": "wfaa",
+   "dev": false,
+   "reused_from_oakland": false,
+   "media": {
+    "name": "WFAA (ABC 8 Dallas)",
+    "kind": "tv",
+    "callsign": "WFAA",
+    "facility_id": 72054,
+    "market": "Dallas-Fort Worth, TX",
+    "official_domain": "wfaa.com"
+   },
+   "scope": "FCC",
+   "target_date": "2026-10-04",
+   "question": "As of 2026-10-04, who is the current FCC licensee or legal owner of WFAA Dallas (facility 72054), what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current chief executive officer of Nexstar Media Group, Inc.?",
+   "leader_definition": "current chief executive officer of Nexstar Media Group, Inc.",
+   "reference": {
+    "legal_owner": {
+     "name": "WFAA-TV, Inc.",
+     "aliases": [
+      "WFAA-TV, INC."
+     ],
+     "evidence": [
+      "S1",
+      "S2"
+     ]
+    },
+    "operator": {
+     "name": "WFAA-TV, Inc. / TEGNA Inc. (run as a separate subsidiary under court preliminary injunction)",
+     "aliases": [
+      "TEGNA"
+     ],
+     "evidence": [
+      "S4"
+     ],
+     "same_as_owner": true
+    },
+    "chain": [
+     {
+      "child": "WFAA-TV, Inc.",
+      "parent": "TEGNA Inc.",
+      "relation": "indirect or direct subsidiary (TEGNA is 'ultimate parent of the licensees'; intermediate entities not verified)",
+      "evidence": [
+       "S2"
+      ]
+     },
+     {
+      "child": "TEGNA Inc.",
+      "parent": "Nexstar Media Inc.",
+      "relation": "wholly owned subsidiary (shares contributed by Nexstar Media Group to Nexstar Media Inc.)",
+      "evidence": [
+       "S2"
+      ]
+     },
+     {
+      "child": "Nexstar Media Inc.",
+      "parent": "Nexstar Media Group, Inc.",
+      "relation": "wholly owned subsidiary",
+      "evidence": [
+       "S2"
+      ]
+     }
+    ],
+    "ultimate_parent": {
+     "status": "single",
+     "entities": [
+      {
+       "name": "Nexstar Media Group, Inc.",
+       "aliases": [
+        "Nexstar",
+        "NXST"
+       ]
+      }
+     ],
+     "evidence": [
+      "S2",
+      "S3"
+     ]
+    },
+    "controlling_person": {
+     "status": "not_established",
+     "names": [],
+     "evidence": []
+    },
+    "leader": {
+     "name": "Perry Sook",
+     "role": "Chairman and Chief Executive Officer",
+     "entity": "Nexstar Media Group, Inc.",
+     "as_of": "2026-10-04",
+     "status": "established",
+     "evidence": [
+      "S2",
+      "S5"
+     ]
+    },
+    "uncertainty": "Ownership is closed and FCC-granted (Media Bureau, delegated authority), but (a) an application for review / emergency petition is pending before the full Commission, so the grant is not final, and (b) a federal preliminary injunction (E.D. Cal., 2026-04-17) bars integration, so TEGNA operates autonomously under Nexstar ownership; Nexstar's appeal to the Ninth Circuit is pending. Nexstar is publicly traded; no controlling shareholder was checked in a proxy statement."
+   },
+   "plausible_wrong_answers": [
+    "TEGNA Inc. as ultimate parent (stale after 2026-03-19)",
+    "'Nexstar deal pending/announced' (it closed)",
+    "Gannett",
+    "Belo",
+    "Nexstar Media Inc. as licensee",
+    "Mike Steib as leader"
+   ],
+   "transactions": [
+    {
+     "description": "Nexstar acquisition of TEGNA Inc. (cash merger, $22/share), MB Docket 25-331; FCC Media Bureau grant DA 26-267",
+     "announced": "2025-08-19",
+     "approved": "2026-03-19",
+     "closed": "2026-03-19",
+     "status": "closed"
+    }
+   ],
+   "ownership_classification": {
+    "category": "not_established",
+    "source": null,
+    "certifier": null,
+    "date": null,
+    "status": "not_established"
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "url": "https://transition.fcc.gov/fcc-bin/tvq?call=WFAA&list=4",
+     "title": "FCC TV Query results for WFAA",
+     "publisher": "FCC",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "|WFAA |- |DTV|8 |DA |- |2 |- |LIC |DALLAS |TX |US | 0000116834|... |72054 |... |WFAA-TV, INC."
+    },
+    {
+     "id": "S2",
+     "url": "https://docs.fcc.gov/public/attachments/DA-26-267A1.txt",
+     "title": "DA 26-267 Memorandum Opinion and Order, Transfer of Control of TEGNA Inc. to Nexstar Media Inc.",
+     "publisher": "FCC Media Bureau",
+     "kind": "primary",
+     "doc_date": "2026-03-19",
+     "effect_date": "2026-03-19",
+     "accessed": "2026-10-04",
+     "quote": "TEGNA will become a wholly-owned subsidiary of Nexstar Media Group, Inc., which will immediately contribute its shares in TEGNA to Nexstar."
+    },
+    {
+     "id": "S3",
+     "url": "https://www.nexstar.tv/nexstar-media-group-inc-closes-acquisition-of-tegna-inc/",
+     "title": "Nexstar Media Group, Inc., Closes Acquisition of TEGNA Inc.",
+     "publisher": "Nexstar Media Group",
+     "kind": "primary",
+     "doc_date": "2026-03-19",
+     "effect_date": "2026-03-19",
+     "accessed": "2026-10-04",
+     "quote": "Nexstar Media Group, Inc. (Nasdaq: NXST), today announced that it has closed its acquisition of TEGNA Inc."
+    },
+    {
+     "id": "S4",
+     "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526339827/nxst-20260630.htm",
+     "title": "Nexstar Media Group Form 10-Q for quarter ended June 30, 2026",
+     "publisher": "Nexstar Media Group via SEC EDGAR",
+     "kind": "primary",
+     "doc_date": "2026-08-07",
+     "effect_date": "2026-06-30",
+     "accessed": "2026-10-04",
+     "quote": "On April 17, 2026, the United States District Court for the Eastern District of California in the antitrust litigation In re: Nexstar-TEGNA Merger Litigation issued a preliminary injunction prohibiting further integration of the companies"
+    },
+    {
+     "id": "S5",
+     "url": "https://www.nexstar.tv/company-leadership/",
+     "title": "Company Leadership",
+     "publisher": "Nexstar Media Group",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Chairman/Chief Executive Officer"
+    },
+    {
+     "id": "S6",
+     "url": "https://thedesk.net/2026/05/fcc-nexstar-tegna-media-bureau-not-final-decision/",
+     "title": "FCC Chairman: Appeal filed challenging Media Bureau's approval of Nexstar-TEGNA deal",
+     "publisher": "The Desk",
+     "kind": "secondary",
+     "doc_date": "2026-05-05",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "is not a final action by the full Commission"
+    },
+    {
+     "id": "S7",
+     "url": "https://en.wikipedia.org/wiki/Merger_of_Nexstar_Media_Group_and_Tegna_Inc.",
+     "title": "Merger of Nexstar Media Group and Tegna Inc.",
+     "publisher": "Wikipedia",
+     "kind": "secondary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Announced: August 19, 2025 (summarized by fetch tool; used only for the announcement date)"
+    }
+   ],
+   "reference_limits": "Announcement date 2025-08-19 from Wikipedia only (FCC order gives merger agreement date 2025-08-18). Status of full-Commission review and Ninth Circuit appeal after early Aug 2026 not checked in primary dockets; an Aug 2026 district-court ruling barring Nexstar officials from TEGNA's board seen only in search-result snippets. Nexstar proxy not opened for controlling holders."
+  },
+  {
+   "id": "wfxp_mission",
+   "dev": false,
+   "reused_from_oakland": false,
+   "media": {
+    "name": "WFXP (FOX 66 Erie)",
+    "kind": "tv",
+    "callsign": "WFXP",
+    "facility_id": 19707,
+    "market": "Erie, PA",
+    "official_domain": "yourerie.com"
+   },
+   "scope": "FCC",
+   "target_date": "2026-10-04",
+   "question": "As of 2026-10-04, who is the current FCC licensee or legal owner of WFXP Erie, PA (facility 19707), and which company operates it, what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current president of Mission Broadcasting, Inc. (the licensee)?",
+   "leader_definition": "current president of Mission Broadcasting, Inc.",
+   "reference": {
+    "legal_owner": {
+     "name": "Mission Broadcasting, Inc.",
+     "aliases": [
+      "MISSION BROADCASTING, INC.",
+      "Mission"
+     ],
+     "evidence": [
+      "S1"
+     ]
+    },
+    "operator": {
+     "name": "Nexstar Media Inc. (Nexstar Media Group), via local service agreement with co-located Nexstar station WJET",
+     "aliases": [
+      "Nexstar"
+     ],
+     "evidence": [
+      "S2"
+     ],
+     "same_as_owner": false
+    },
+    "chain": [
+     {
+      "child": "Mission Broadcasting, Inc.",
+      "parent": "Nancie J. Smith",
+      "relation": "majority shareholder (as stated 2024-03-21)",
+      "evidence": [
+       "S3"
+      ]
+     }
+    ],
+    "ultimate_parent": {
+     "status": "single",
+     "entities": [
+      {
+       "name": "Mission Broadcasting, Inc.",
+       "aliases": []
+      }
+     ],
+     "evidence": [
+      "S2",
+      "S3"
+     ]
+    },
+    "controlling_person": {
+     "status": "established",
+     "names": [
+      "Nancie J. Smith"
+     ],
+     "evidence": [
+      "S3"
+     ]
+    },
+    "leader": {
+     "name": "Dennis Thatcher",
+     "role": "President",
+     "entity": "Mission Broadcasting, Inc.",
+     "as_of": "2024-03-21",
+     "status": "not_established",
+     "evidence": [
+      "S3"
+     ]
+    },
+    "uncertainty": "Licensee is Mission; Nexstar provides services under a local service agreement (Nexstar 10-K market table shows 'Erie, PA O&O LSA WJET WFXP'); Nexstar holds no equity in Mission but holds purchase options and guarantees Mission's debt, and consolidates it as a VIE. Mission's shareholding (Nancie J. Smith majority) and Dennis Thatcher's presidency are documented only as of March 2024; no 2025-2026 ownership report opened. The exact agreement types for WFXP (SSA vs JSA) are not itemized in the source opened."
+   },
+   "plausible_wrong_answers": [
+    "Nexstar as licensee/owner",
+    "Nexstar Media Group as ultimate parent of WFXP",
+    "David Smith (died 2011) as owner/leader",
+    "Sinclair / Cunningham"
+   ],
+   "transactions": [],
+   "ownership_classification": {
+    "category": "female majority-owned (self-described by Mission)",
+    "source": "S3",
+    "certifier": null,
+    "date": "2024-03-21",
+    "status": "documented"
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "url": "https://transition.fcc.gov/fcc-bin/tvq?call=WFXP&list=4",
+     "title": "FCC TV Query results for WFXP",
+     "publisher": "FCC",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "|WFXP |- |DTV|26 |DA |- |1 |- |LIC |ERIE |PA |US | 0000081009|... |19707 |... |MISSION BROADCASTING, INC."
+    },
+    {
+     "id": "S2",
+     "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526078361/nxst-20251231.htm",
+     "title": "Nexstar Media Group Form 10-K for fiscal 2025",
+     "publisher": "Nexstar Media Group via SEC EDGAR",
+     "kind": "primary",
+     "doc_date": "2026-02-27",
+     "effect_date": "2025-12-31",
+     "accessed": "2026-10-04",
+     "quote": "Nexstar Media has time brokerage agreements (“TBAs”), shared services agreements (“SSAs”), joint sales agreements (“JSAs”), local marketing agreements (“LMAs”) and outsourcing agreements (which we generally and collectively refer to as “local service agreements”) relating to the television stations owned by VIEs but does not own any of the equity interests in these entities."
+    },
+    {
+     "id": "S3",
+     "url": "https://www.prnewswire.com/news-releases/mission-broadcasting-comments-on-fccs-march-21-2024-notice-of-apparent-liability-ruling-regarding-its-ownership-of-wpix-tv-the-cw-of-new-york-city-302096573.html",
+     "title": "Mission Broadcasting Comments on F.C.C.'s March 21, 2024, Notice of Apparent Liability Ruling Regarding its Ownership of WPIX-TV",
+     "publisher": "Mission Broadcasting via PR Newswire",
+     "kind": "primary",
+     "doc_date": "2024-03-21",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Mission's majority shareholder is Nancie J. Smith, who is the leading female owner of broadcast television stations in the U.S."
+    },
+    {
+     "id": "S4",
+     "url": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526339827/nxst-20260630.htm",
+     "title": "Nexstar Media Group Form 10-Q for quarter ended June 30, 2026",
+     "publisher": "Nexstar Media Group via SEC EDGAR",
+     "kind": "primary",
+     "doc_date": "2026-08-07",
+     "effect_date": "2026-06-30",
+     "accessed": "2026-10-04",
+     "quote": "In consideration of our guarantee of Mission’s senior secured credit facility, Mission has granted us purchase options to acquire the assets and assume the liabilities of each Mission station, subject to FCC consent."
+    }
+   ],
+   "reference_limits": "Mission's FCC Form 323 not opened (LMS Access Denied). Leader marked not_established for 2026-10-04 because the latest source naming Dennis Thatcher as president is dated 2024-03-21. Mission's website lists no executives."
+  },
+  {
+   "id": "wapo",
+   "dev": false,
+   "reused_from_oakland": false,
+   "media": {
+    "name": "The Washington Post",
+    "kind": "print",
+    "callsign": null,
+    "facility_id": null,
+    "market": "Washington, DC / national",
+    "official_domain": "washingtonpost.com"
+   },
+   "scope": "outside_FCC",
+   "target_date": "2026-10-04",
+   "question": "As of 2026-10-04, who is the legal owner of The Washington Post, what is its ownership chain up to the ultimate parent, who is the controlling person, and who is the current publisher and chief executive officer of The Washington Post?",
+   "leader_definition": "current publisher and chief executive officer of The Washington Post",
+   "reference": {
+    "legal_owner": {
+     "name": "WP Company LLC",
+     "aliases": [
+      "The Washington Post"
+     ],
+     "evidence": [
+      "S1"
+     ]
+    },
+    "operator": {
+     "name": "WP Company LLC",
+     "aliases": [],
+     "evidence": [
+      "S1"
+     ],
+     "same_as_owner": true
+    },
+    "chain": [
+     {
+      "child": "WP Company LLC",
+      "parent": "Nash Holdings LLC",
+      "relation": "acquired all issued and outstanding equity (2013-10-01)",
+      "evidence": [
+       "S1"
+      ]
+     },
+     {
+      "child": "Nash Holdings LLC",
+      "parent": "Jeff Bezos",
+      "relation": "private investment company of",
+      "evidence": [
+       "S2"
+      ]
+     }
+    ],
+    "ultimate_parent": {
+     "status": "single",
+     "entities": [
+      {
+       "name": "Nash Holdings LLC",
+       "aliases": [
+        "Nash Holdings"
+       ]
+      }
+     ],
+     "evidence": [
+      "S1",
+      "S2"
+     ]
+    },
+    "controlling_person": {
+     "status": "established",
+     "names": [
+      "Jeff Bezos"
+     ],
+     "evidence": [
+      "S2",
+      "S3"
+     ]
+    },
+    "leader": {
+     "name": "Jeff D'Onofrio",
+     "role": "Publisher and CEO",
+     "entity": "The Washington Post",
+     "as_of": "2026-09-09",
+     "status": "established",
+     "evidence": [
+      "S3"
+     ]
+    },
+    "uncertainty": "No public filing since 2013 documents Nash Holdings' ownership; Bezos's continuing ownership rests on 2013 reporting and 2026 press calling him 'Owner'. D'Onofrio was interim publisher/CEO for about seven months (after Will Lewis left, Feb 2026) before being named permanent on 2026-09-09."
+   },
+   "plausible_wrong_answers": [
+    "Amazon",
+    "Graham Holdings / The Washington Post Company",
+    "Will Lewis as publisher/CEO",
+    "Jeff D'Onofrio as 'interim' CEO",
+    "Matt Murray (editor) as leader"
+   ],
+   "transactions": [
+    {
+     "description": "Sale of WP Company LLC and other publishing subsidiaries by The Washington Post Company to Nash Holdings LLC",
+     "announced": "2013-08-05",
+     "approved": null,
+     "closed": "2013-10-01",
+     "status": "closed"
+    }
+   ],
+   "ownership_classification": {
+    "category": "not_established",
+    "source": null,
+    "certifier": null,
+    "date": null,
+    "status": "not_established"
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "url": "https://www.sec.gov/Archives/edgar/data/104889/000010488913000040/dex991.htm",
+     "title": "Washington Post Co 8-K Ex. 99.1 Unaudited Pro Forma Condensed Consolidated Financial Information",
+     "publisher": "The Washington Post Company via SEC EDGAR",
+     "kind": "primary",
+     "doc_date": "2013-10-07",
+     "effect_date": "2013-10-01",
+     "accessed": "2026-10-04",
+     "quote": "On October 1, 2013, The Washington Post Company (the Company) completed the sale of WP Company LLC, Express Publications Company, LLC, El Tiempo Latino LLC, Robinson Terminal Warehouse LLC, Greater Washington Publishing, LLC and Post-Newsweek Media, LLC (collectively referred to as the Publishing Subsidiaries) to Nash Holdings LLC (the Purchaser)."
+    },
+    {
+     "id": "S2",
+     "url": "https://www.benton.org/headlines/washington-post-closes-sale-amazon-founder-jeff-bezos",
+     "title": "The Washington Post closes sale to Amazon founder Jeff Bezos",
+     "publisher": "Benton Institute (summarizing The Washington Post)",
+     "kind": "secondary",
+     "doc_date": "2013-10-02",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "The signing transfers the newspaper and other assets from The Washington Post to Nash Holdings, Bezos's private investment company."
+    },
+    {
+     "id": "S3",
+     "url": "https://www.thewrap.com/industry-news/business/jeff-donofrio-washington-post-ceo-publisher/",
+     "title": "Washington Post Names Jeff D'Onofrio Publisher and CEO",
+     "publisher": "TheWrap",
+     "kind": "secondary",
+     "doc_date": "2026-09-09",
+     "effect_date": "2026-09-09",
+     "accessed": "2026-10-04",
+     "quote": "Owner Jeff Bezos praised D'Onofrio in a memo to staff on Wednesday morning."
+    },
+    {
+     "id": "S4",
+     "url": "https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/form8k.htm",
+     "title": "Washington Post Co Form 8-K (letter agreement with Nash Holdings LLC)",
+     "publisher": "The Washington Post Company via SEC EDGAR",
+     "kind": "primary",
+     "doc_date": "2013-08-05",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "entered into a binding letter agreement (the “Letter Agreement”) with Nash Holdings LLC, a Delaware limited liability company (the “Purchaser”)"
+    }
+   ],
+   "reference_limits": "washingtonpost.com announcement returned 403; TheWrap used instead. Nash Holdings is private; no current ownership document exists publicly."
+  },
+  {
+   "id": "espn",
+   "dev": false,
+   "reused_from_oakland": false,
+   "media": {
+    "name": "ESPN",
+    "kind": "cable",
+    "callsign": null,
+    "facility_id": null,
+    "market": "national (US cable network)",
+    "official_domain": "espn.com"
+   },
+   "scope": "outside_FCC",
+   "target_date": "2026-10-04",
+   "question": "As of 2026-10-04, who owns the ESPN cable network, what is its ownership chain up to its parent(s), who (if anyone) is the controlling person, and who is the current chairman of ESPN?",
+   "leader_definition": "current chairman of ESPN",
+   "reference": {
+    "legal_owner": {
+     "name": "ESPN",
+     "aliases": [
+      "ESPN Inc.",
+      "ESPN, Inc."
+     ],
+     "evidence": [
+      "S1"
+     ]
+    },
+    "operator": {
+     "name": "ESPN",
+     "aliases": [
+      "ESPN Inc."
+     ],
+     "evidence": [
+      "S1"
+     ],
+     "same_as_owner": true
+    },
+    "chain": [
+     {
+      "child": "ESPN",
+      "parent": "The Walt Disney Company",
+      "relation": "effective 72% interest (controlling, consolidated)",
+      "evidence": [
+       "S1"
+      ]
+     },
+     {
+      "child": "ESPN",
+      "parent": "Hearst Corporation",
+      "relation": "18% interest",
+      "evidence": [
+       "S1"
+      ]
+     },
+     {
+      "child": "ESPN",
+      "parent": "NFL (NFL Enterprises LLC)",
+      "relation": "10% noncontrolling interest since 2026-01-31",
+      "evidence": [
+       "S1"
+      ]
+     }
+    ],
+    "ultimate_parent": {
+     "status": "multiple",
+     "entities": [
+      {
+       "name": "The Walt Disney Company",
+       "aliases": [
+        "Disney"
+       ]
+      },
+      {
+       "name": "Hearst Corporation",
+       "aliases": [
+        "Hearst",
+        "Hearst Communications"
+       ]
+      },
+      {
+       "name": "National Football League",
+       "aliases": [
+        "NFL",
+        "NFL Enterprises LLC"
+       ]
+      }
+     ],
+     "evidence": [
+      "S1"
+     ]
+    },
+    "controlling_person": {
+     "status": "not_applicable",
+     "names": [],
+     "evidence": []
+    },
+    "leader": {
+     "name": "Jimmy Pitaro",
+     "role": "Chairman",
+     "entity": "ESPN",
+     "as_of": "2026-07-21",
+     "status": "established",
+     "evidence": [
+      "S2"
+     ]
+    },
+    "uncertainty": "Disney is the controlling owner (72%); an answer naming Disney alone as ultimate parent is incomplete for a multi-owner question but captures control. The precise ESPN legal entity name and which Hearst/NFL affiliates hold the stakes are not stated in the Disney 10-Q. Disney is widely held; no controlling person assessed."
+   },
+   "plausible_wrong_answers": [
+    "Disney 80% / Hearst 20% (pre-2026-01-31 split)",
+    "Disney 100%",
+    "NFL as 'no stake' or deal 'pending'",
+    "A&E Networks figures confused with ESPN",
+    "Bob Iger as ESPN leader"
+   ],
+   "transactions": [
+    {
+     "description": "ESPN acquires NFL Network, RedZone distribution and NFL Fantasy from NFL Enterprises LLC in exchange for a 10% noncontrolling interest in ESPN",
+     "announced": null,
+     "approved": null,
+     "closed": "2026-01-31",
+     "status": "closed"
+    }
+   ],
+   "ownership_classification": {
+    "category": "not_established",
+    "source": null,
+    "certifier": null,
+    "date": null,
+    "status": "not_established"
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm",
+     "title": "The Walt Disney Company Form 10-Q for quarter ended June 27, 2026",
+     "publisher": "The Walt Disney Company via SEC EDGAR",
+     "kind": "primary",
+     "doc_date": "2026-08-05",
+     "effect_date": "2026-06-27",
+     "accessed": "2026-10-04",
+     "quote": "Following the NFL Transaction, the Company has an effective 72 % interest in ESPN and Hearst Corporation has an 18 % interest."
+    },
+    {
+     "id": "S2",
+     "url": "https://www.news4jax.com/sports/2026/07/21/espn-starts-layoffs-tied-to-nfl-network-acquisition-memo-says/",
+     "title": "ESPN starts layoffs tied to NFL Network acquisition, memo says",
+     "publisher": "Associated Press (via News4JAX)",
+     "kind": "secondary",
+     "doc_date": "2026-07-21",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Chairman Jimmy Pitaro said in a memo to employees Tuesday morning, obtained by The Associated Press, that most moves are the result of ESPN's acquisition of NFL Network and other league digital assets last year."
+    }
+   ],
+   "reference_limits": "Substituted for A&E Networks: Disney agreed in July 2026 to sell its 50% of A+E Global Media to a Hearst affiliate (expected to close in September 2026 / by end of Disney FY2026); closing could not be confirmed from a primary source, so A+E was not used. ESPN announcement date of the NFL deal (Aug 2025) not opened in a source. Pitaro's title checked to 2026-07-21 only."
+  },
+  {
+   "id": "kpfa",
+   "dev": false,
+   "reused_from_oakland": false,
+   "media": {
+    "name": "KPFA 94.1 FM",
+    "kind": "fm",
+    "callsign": "KPFA",
+    "facility_id": 51246,
+    "market": "Berkeley / San Francisco Bay Area, CA",
+    "official_domain": "kpfa.org"
+   },
+   "scope": "FCC",
+   "target_date": "2026-10-04",
+   "question": "As of 2026-10-04, who is the current FCC licensee or legal owner of KPFA 94.1 FM Berkeley (facility 51246), what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current executive director of Pacifica Foundation, Inc.?",
+   "leader_definition": "current executive director (permanent or interim) of Pacifica Foundation, Inc.",
+   "reference": {
+    "legal_owner": {
+     "name": "Pacifica Foundation, Inc.",
+     "aliases": [
+      "PACIFICA FOUNDATION, INC.",
+      "The Pacifica Foundation",
+      "Pacifica"
+     ],
+     "evidence": [
+      "S1"
+     ]
+    },
+    "operator": {
+     "name": "Pacifica Foundation, Inc.",
+     "aliases": [
+      "KPFA"
+     ],
+     "evidence": [
+      "S1"
+     ],
+     "same_as_owner": true
+    },
+    "chain": [],
+    "ultimate_parent": {
+     "status": "single",
+     "entities": [
+      {
+       "name": "Pacifica Foundation, Inc.",
+       "aliases": []
+      }
+     ],
+     "evidence": [
+      "S1",
+      "S2"
+     ]
+    },
+    "controlling_person": {
+     "status": "none",
+     "names": [],
+     "evidence": [
+      "S2"
+     ]
+    },
+    "leader": {
+     "name": null,
+     "role": "Executive Director",
+     "entity": "Pacifica Foundation, Inc.",
+     "as_of": "2026-10-04",
+     "status": "not_established",
+     "evidence": [
+      "S3",
+      "S4"
+     ]
+    },
+    "uncertainty": "Licensee and nonprofit status are clear. The executive director as of 2026-10-04 is not established: the latest source opened naming one is a Pacifica release dated 2025-04-11 naming Stephanie Wells as Executive Director; the Pacifica site's officers page (PNB Members 2025) lists board officers (Chair Susan Young) but no ED; governance disputes over 2025 bylaws continued into mid-2026. A nonprofit membership foundation governed by an elected national board has no controlling person; 'none' here rests on its 501(c)(3) nonprofit status, not on a 2026 governance document."
+   },
+   "plausible_wrong_answers": [
+    "Stephanie Wells as confirmed current ED",
+    "Lydia Brazon (interim ED in 2021)",
+    "KPFA as an independent licensee",
+    "UC Berkeley / KQED",
+    "Quincy McCoy or Antonio Ortiz as Pacifica leader (they were KPFA station GMs)"
+   ],
+   "transactions": [],
+   "ownership_classification": {
+    "category": "nonprofit 501(c)(3)",
+    "source": "S2",
+    "certifier": "IRS (as reported by ProPublica Nonprofit Explorer)",
+    "date": null,
+    "status": "documented"
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "url": "https://transition.fcc.gov/fcc-bin/fmq?call=KPFA&list=4",
+     "title": "FCC FM Query results for KPFA",
+     "publisher": "FCC",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "|KPFA |94.1 MHz |FM |231 |ND | |B |- |LIC |BERKELEY |CA |US |BLED-19791108AE |... |51246 |... |PACIFICA FOUNDATION, INC."
+    },
+    {
+     "id": "S2",
+     "url": "https://projects.propublica.org/nonprofits/organizations/941347046",
+     "title": "Pacifica Foundation Inc - Nonprofit Explorer",
+     "publisher": "ProPublica",
+     "kind": "secondary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "501(c)(3) (EIN 94-1347046; latest filing shown FY ending Sept 2021, listing Lydia Brazon, Interim Executive Director)"
+    },
+    {
+     "id": "S3",
+     "url": "https://kpfa.org/blog/the-pacifica-foundation-charts-a-bold-path-forward-amidst-21st-century-challenges/",
+     "title": "The Pacifica Foundation Charts a Bold Path Forward Amidst 21st Century Challenges",
+     "publisher": "KPFA / Pacifica Foundation",
+     "kind": "primary",
+     "doc_date": "2025-04-11",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "contact Stephanie Wells, Pacifica Foundation Executive Director"
+    },
+    {
+     "id": "S4",
+     "url": "https://www.pacifica.org/pnb_members.php",
+     "title": "PNB Members 2025",
+     "publisher": "Pacifica Foundation",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Chair: Susan Young (KPFT Houston) (no Executive Director listed)"
+    },
+    {
+     "id": "S5",
+     "url": "https://www.indybay.org/newsitems/2026/07/02/18887140.php",
+     "title": "Vote for Pacifica Mission Coalition Candidates at KPFK",
+     "publisher": "Indybay",
+     "kind": "secondary",
+     "doc_date": "2026-07-02",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "the Pacifica Bylaws were changed without member approval"
+    }
+   ],
+   "reference_limits": "Pacifica Form 323-E and Form 990 after FY2021 not opened. S2 and S4 quotes are tool-extracted summaries of page fields rather than continuous sentences. No 2026 document naming the ED was found."
+  },
+  {
+   "id": "kblx",
+   "dev": true,
+   "reused_from_oakland": false,
+   "media": {
+    "name": "KBLX-FM 102.9",
+    "kind": "fm",
+    "callsign": "KBLX-FM",
+    "facility_id": 28670,
+    "market": "San Francisco Bay Area (Berkeley), CA",
+    "official_domain": "kblx.com"
+   },
+   "scope": "FCC",
+   "target_date": "2026-10-04",
+   "question": "As of 2026-10-04, who is the current FCC licensee or legal owner of KBLX-FM Berkeley (facility 28670), what is its ownership chain up to the ultimate parent, who (if anyone) is the controlling person, and who is the current chief executive officer of Connoisseur Media?",
+   "leader_definition": "current chief executive officer of Connoisseur Media",
+   "reference": {
+    "legal_owner": {
+     "name": "Connoisseur Media Licenses, LLC",
+     "aliases": [
+      "CONNOISSEUR MEDIA LICENSES, LLC"
+     ],
+     "evidence": [
+      "S1"
+     ]
+    },
+    "operator": {
+     "name": "Connoisseur Media",
+     "aliases": [],
+     "evidence": [
+      "S2"
+     ],
+     "same_as_owner": true
+    },
+    "chain": [
+     {
+      "child": "Connoisseur Media Licenses, LLC",
+      "parent": "Connoisseur Media",
+      "relation": "license subsidiary (exact intermediate entities not verified)",
+      "evidence": [
+       "S1",
+       "S2"
+      ]
+     }
+    ],
+    "ultimate_parent": {
+     "status": "not_established",
+     "entities": [
+      {
+       "name": "Connoisseur Media",
+       "aliases": [
+        "Connoisseur Media LLC"
+       ]
+      }
+     ],
+     "evidence": [
+      "S2"
+     ]
+    },
+    "controlling_person": {
+     "status": "not_established",
+     "names": [],
+     "evidence": []
+    },
+    "leader": {
+     "name": "Jeff Warshaw",
+     "role": "Founder and CEO",
+     "entity": "Connoisseur Media",
+     "as_of": "2025-10-08",
+     "status": "established",
+     "evidence": [
+      "S2"
+     ]
+    },
+    "uncertainty": "Connoisseur's own ownership (founder Jeff Warshaw; post-Alpha Media merger capital structure) was not documented in a source opened. Exact closing date not verified (trade press reports completion by 2026-05-18)."
+   },
+   "plausible_wrong_answers": [
+    "Bonneville International",
+    "Deseret Management Corporation",
+    "The Church of Jesus Christ of Latter-day Saints",
+    "Entercom/CBS Radio"
+   ],
+   "transactions": [
+    {
+     "description": "Bonneville International sells KUFX, KBLX, KMVQ and KOIT to Connoisseur Media ($10 million), with FCC local radio ownership waiver",
+     "announced": "2025-10-08",
+     "approved": null,
+     "closed": null,
+     "status": "closed"
+    }
+   ],
+   "ownership_classification": {
+    "category": "not_established",
+    "source": null,
+    "certifier": null,
+    "date": null,
+    "status": "not_established"
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "url": "https://transition.fcc.gov/fcc-bin/fmq?call=KBLX-FM&list=4",
+     "title": "FCC FM Query results for KBLX-FM",
+     "publisher": "FCC",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "|KBLX-FM |102.9 MHz |FM |275 |ND |H |B |- |LIC |BERKELEY |CA |US |BLH-20141219ACO |... |28670 |... |CONNOISSEUR MEDIA LICENSES, LLC"
+    },
+    {
+     "id": "S2",
+     "url": "https://connoisseurmedia.com/connoisseur-media-to-expand-west-coast-footprint-with-acquisition-of-bonneville-san-francisco-stations/",
+     "title": "Connoisseur Media To Expand West Coast Footprint With Acquisition Of Bonneville San Francisco Stations",
+     "publisher": "Connoisseur Media",
+     "kind": "primary",
+     "doc_date": "2025-10-08",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Connoisseur Media announced today that it has entered into an agreement to acquire Bonneville International Corporation's San Francisco market stations, including KUFX, KBLX, KMVQ (99.7 NOW), and KOIT."
+    },
+    {
+     "id": "S3",
+     "url": "https://radioink.com/2026/05/18/connoisseur-wins-fcc-waiver-closes-on-bonneville-in-the-bay/",
+     "title": "Connoisseur Wins FCC Waiver; Closes On Bonneville in the Bay",
+     "publisher": "Radio Ink",
+     "kind": "secondary",
+     "doc_date": "2026-05-18",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Connoisseur's San Francisco-Oakland revenue share would increase to 15.3% from 2.2%"
+    }
+   ],
+   "reference_limits": "Dev case. The brief's premise (Bonneville/Deseret) is stale. Closing date (reported elsewhere as 2026-05-15) and FCC waiver grant date not verified in a primary source."
+  },
+  {
+   "id": "nyt",
+   "dev": true,
+   "reused_from_oakland": false,
+   "media": {
+    "name": "The New York Times",
+    "kind": "print",
+    "callsign": null,
+    "facility_id": null,
+    "market": "New York / national",
+    "official_domain": "nytimes.com"
+   },
+   "scope": "outside_FCC",
+   "target_date": "2026-10-04",
+   "question": "As of 2026-10-04, who is the legal owner of The New York Times, what is its ownership chain up to the ultimate parent, who is the controlling person, and who is the current president and chief executive officer of The New York Times Company?",
+   "leader_definition": "current president and chief executive officer of The New York Times Company",
+   "reference": {
+    "legal_owner": {
+     "name": "The New York Times Company",
+     "aliases": [
+      "NYT",
+      "New York Times Co."
+     ],
+     "evidence": [
+      "S1"
+     ]
+    },
+    "operator": {
+     "name": "The New York Times Company",
+     "aliases": [],
+     "evidence": [
+      "S1"
+     ],
+     "same_as_owner": true
+    },
+    "chain": [],
+    "ultimate_parent": {
+     "status": "single",
+     "entities": [
+      {
+       "name": "The New York Times Company",
+       "aliases": []
+      }
+     ],
+     "evidence": [
+      "S1"
+     ]
+    },
+    "controlling_person": {
+     "status": "established",
+     "names": [
+      "Ochs-Sulzberger Family Trust"
+     ],
+     "evidence": [
+      "S1"
+     ]
+    },
+    "leader": {
+     "name": "Meredith Kopit Levien",
+     "role": "President and Chief Executive Officer",
+     "entity": "The New York Times Company",
+     "as_of": "2026-02-27",
+     "status": "established",
+     "evidence": [
+      "S1"
+     ]
+    },
+    "uncertainty": "Controller is a trust, not a natural person; A.G. Sulzberger is chairman and publisher, not CEO. Leader verified as of 2026-02-27 only."
+   },
+   "plausible_wrong_answers": [
+    "A.G. Sulzberger as CEO",
+    "Mark Thompson as CEO",
+    "Carlos Slim as owner"
+   ],
+   "transactions": [],
+   "ownership_classification": {
+    "category": "not_established",
+    "source": null,
+    "certifier": null,
+    "date": null,
+    "status": "not_established"
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "url": "https://www.sec.gov/Archives/edgar/data/71691/000007169126000011/nyt-20251231.htm",
+     "title": "The New York Times Company Form 10-K for fiscal 2025",
+     "publisher": "The New York Times Company via SEC EDGAR",
+     "kind": "primary",
+     "doc_date": "2026-02-27",
+     "effect_date": "2025-12-31",
+     "accessed": "2026-10-04",
+     "quote": "The Ochs-Sulzberger Family Trust holds approximately 95 % of the Class B Common Stock and, as a result, has the ability to elect 70 % of the Board of Directors"
+    }
+   ],
+   "reference_limits": "Dev case; no check after the 10-Q of 2026-08-05 for CEO change."
+  }
+ ]
+}

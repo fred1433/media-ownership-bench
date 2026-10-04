@@ -1,0 +1,713 @@
+{
+ "text": "{\n  \"legal_owner\": {\n    \"status\": \"established\",\n    \"names\": [\"Connoisseur Media Licenses, LLC\"],\n    \"citations\": [\n      {\n        \"url\": \"https://publicfiles.fcc.gov/fm-profile/KBLX-FM\",\n        \"quote\": \"Licensee:\\n: Connoisseur Media Licenses, LLC\"\n      }\n    ]\n  },\n  \"operator\": {\n    \"status\": \"established\",\n    \"names\": [\"Connoisseur Media\"],\n    \"citations\": [\n      {\n        \"url\": \"https://onthedial.net/2026/05/connoisseur-media-officially-takes-control-of-major-bay-area-radio-cluster-in-massive-northern-california-power-move/\",\n        \"quote\": \"Connoisseur Media has finalized its acquisition of four prominent Northern California FM stations from Bonneville International, giving the company immediate control of some of the most recognizable brands and signals anywhere in the Bay Area.\"\n      },\n      {\n        \"url\": \"https://radioink.com/2026/05/18/connoisseur-wins-fcc-waiver-closes-on-bonneville-in-the-bay/\",\n        \"quote\": \"The $10 million deal brings 96.5 KOIT, 99.7 NOW (KMVQ), and KBLX in San Francisco, along with their FM boosters, and Classic Rock K-Fox 98.5 (KUFX) in San Jose, into the Connoisseur portfolio.\"\n      }\n    ]\n  },\n  \"chain\": [],\n  \"ultimate_parent\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"controlling_person\": {\n    \"status\": \"not_established\",\n    \"names\": [],\n    \"citations\": []\n  },\n  \"leader\": {\n    \"status\": \"established\",\n    \"name\": \"Jeff Warshaw\",\n    \"role\": \"Founder and CEO\",\n    \"entity\": \"Connoisseur Media\",\n    \"citations\": [\n      {\n        \"url\": \"https://www.insideradio.com/free/done-deal-connoisseur-cements-bay-area-presence/article_f62b8988-4b9a-4e49-b0ae-60f757f4b847.html\",\n        \"quote\": \"Connoisseur Founder and CEO Jeff Warshaw\"\n      }\n    ]\n  },\n  \"transactions\": [\n    {\n      \"description\": \"Connoisseur Media announced an agreement to acquire Bonneville International Corporation\u2019s Bay Area stations, including KBLX-FM.\",\n      \"status\": \"announced\",\n      \"date\": \"2025-10-07\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.sfchronicle.com/entertainment/article/koit-kblx-kufx-sold-21090703.php\",\n          \"quote\": \"The Connecticut-based broadcaster announced Tuesday, Oct. 7, that it has reached an agreement to purchase Bonneville\u2019s San Francisco cluster: KOIT, KBLX, KMVQ (99.7 NOW) and KUFX (98.5 KFOX).\"\n        }\n      ]\n    },\n    {\n      \"description\": \"Connoisseur Media completed the $10 million acquisition of Bonneville\u2019s Bay Area cluster, including KBLX-FM.\",\n      \"status\": \"closed\",\n      \"date\": \"2026-05-15\",\n      \"citations\": [\n        {\n          \"url\": \"https://www.insideradio.com/free/done-deal-connoisseur-cements-bay-area-presence/article_f62b8988-4b9a-4e49-b0ae-60f757f4b847.html\",\n          \"quote\": \"Connoisseur Media has closed a $10 million deal to buy Bonneville International\u2019s Bay Area cluster \u2014 including heritage brands AC KOIT (96.5), urban AC KBLX (102.9), CHR KMVQ \u201c99.7 Now\u201d\"\n        },\n        {\n          \"url\": \"https://ramp247.com/programming/bonneville-bay-area-sale-to-connoisseur-closed/\",\n          \"quote\": \"the sale of KBLX-FM/Berkeley, KMVQ-FM & KOIT-FM/San Francisco, and KUFX-FM/San Jose, CA from Bonneville International Corporation to Connoisseur Media is closed.\"\n        }\n      ]\n    }\n  ],\n  \"uncertainty\": \"As of 2026-10-04, the current FCC profile and May 2026 closing reports supersede the historical Bonneville, Entercom and Inner City ownership evidence. The dossier identifies Connoisseur Media as the acquiring operating group, but does not explicitly document the corporate ownership link from Connoisseur Media Licenses, LLC upward, any intermediate holding companies, or who owns or controls Connoisseur Media. Accordingly, no legal ownership-chain links or ultimate parent are established. Jeff Warshaw is documented as founder and CEO; the additional title of president is not established.\"\n}",
+ "usage": {
+  "input_tokens": 6193,
+  "input_tokens_details": {
+   "cache_write_tokens": 6190,
+   "cached_tokens": 0
+  },
+  "output_tokens": 1976,
+  "output_tokens_details": {
+   "reasoning_tokens": 906
+  },
+  "total_tokens": 8169
+ },
+ "usd": 0.032146,
+ "latency_s": 47.2,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false,
+  "exa_queries": 6
+ },
+ "model_returned": "gpt-6.1-sol",
+ "retries": 0,
+ "dossier": "Question (as of 2026-10-04): Who is the current legal owner (FCC licensee) of KBLX-FM, what is its ownership chain and ultimate parent, who controls that parent, and who is the leader defined below?\nOutlet: KBLX-FM (fm, San Francisco Bay Area, call sign KBLX-FM).\nLeader definition for this question: current chief executive (president and CEO) of the FCC licensee's operating company\n\nEvidence dossier (claims extracted from retrieved documents; cite the URL and quote):\n- Connoisseur Media Licenses, LLC | licensee_of | KBLX-FM | date: None | https://publicfiles.fcc.gov/fm-profile/KBLX-FM | \"Licensee:\n: Connoisseur Media Licenses, LLC\"\n- BONNEVILLE INTERNATIONAL CORPORATION | licensee_of | KBLX-FM | date: None | https://transition.fcc.gov/fcc-bin/fmq?call=KBLX | \"Licensee: BONNEVILLE INTERNATIONAL CORPORATION\"\n- Bonneville International Corporation | licensee_of | KBLX-FM | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| KBLX-FM | 28670 | FM | Bonneville International Corporation | BERKELEY, CA |\"\n- Brown | other | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| Brown | 9990070055 | director | 0% | 0% | US |\"\n- Burton | other | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| Burton | 9990121579 | director | 0% | 0% | US |\"\n- Day | other | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| Day | 9990153447 | director | 0% | 0% | US |\"\n- Dew | other | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| Dew | 9990069990 | director | 0% | 0% | US |\"\n- Dowdle | other_officer_of | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| Dowdle | 0023167802 | officer | 0% | 0% | US |\"\n- Englund | other_officer_of | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| Englund | 9990154387 | officer | 0% | 0% | US |\"\n- Hatch | other | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| Hatch | 0031679244 | director | 0% | 0% | US |\"\n- McMullin | other | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| McMullin | 9990070170 | director | 0% | 0% | US |\"\n- Pearce | other_officer_of | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| Pearce | 0027200799 | officer | 0% | 0% | US |\"\n- Porter | other | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| Porter | 9990121570 | director | 0% | 0% | US |\"\n- Todd | other_officer_of | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| Todd | 9990154386 | officer | 0% | 0% | US |\"\n- Vea | other_officer_of | Bonneville International Corporation | date: 2023-10-01 | https://fcc.report/LMS/0000230236 | \"| Vea | 9990154385 | officer | 0% | 0% | US |\"\n- Bonneville International Corporation | licensee_of | KBLX-FM | date: 2023-10-01 | https://fcc.report/LMS/0000230242 | \"| KBLX-FM | 28670 | FM | Bonneville International Corporation | BERKELEY, CA |\"\n- Eyring | other | DMC Reserve Trust | date: 2023-10-01 | https://fcc.report/LMS/0000230242 | \"| Eyring | 9990070105 | other | 0% | 33.3% | GB |\"\n- Nelson | other | DMC Reserve Trust | date: 2023-10-01 | https://fcc.report/LMS/0000230242 | \"| Nelson | 9990070196 | other | 0% | 33.3% | US |\"\n- Oaks | other | DMC Reserve Trust | date: 2023-10-01 | https://fcc.report/LMS/0000230242 | \"| Oaks | 9990123932 | other | 0% | 33.3% | US |\"\n- Connoisseur Media | acquisition_announced | KBLX-FM | date: Oct. 7 | https://www.yahoo.com/news/articles/bay-area-radio-shake-koit-171342075.html | \"The Connecticut-based broadcaster announced Tuesday, Oct. 7, that it has reached an agreement to purchase Bonneville's San Francisco cluster: KOIT, KBLX, KMVQ (99.7 NOW), and KUFX (98.5 KFOX).\"\n- Bonneville International Corporation | owns | KBLX-FM | date: None | https://www.yahoo.com/news/articles/bay-area-radio-shake-koit-171342075.html | \"Connoisseur Media is acquiring Bonneville's KOIT, KBLX, 99.7 NOW, and KFOX, expanding its reach into the Bay Area radio market.\"\n- Jeff Warshaw | chief_executive_of | Connoisseur Media | date: None | https://www.yahoo.com/news/articles/bay-area-radio-shake-koit-171342075.html | \"Jeff Warshaw, founder and CEO of Connoisseur Media\"\n- Connoisseur Media | acquisition_closed | KBLX-FM | date: 2026-05-15 | https://www.insideradio.com/free/done-deal-connoisseur-cements-bay-area-presence/article_f62b8988-4b9a-4e49-b0ae-60f757f4b847.html | \"Connoisseur Media has closed a $10 million deal to buy Bonneville International\u2019s Bay Area cluster \u2014 including heritage brands AC KOIT (96.5), urban AC KBLX (102.9), CHR KMVQ \u201c99.7 Now\u201d\"\n- Connoisseur Media | acquisition_announced | Bonneville International\u2019s Bay Area cluster | date: 2025-10 | https://www.insideradio.com/free/done-deal-connoisseur-cements-bay-area-presence/article_f62b8988-4b9a-4e49-b0ae-60f757f4b847.html | \"The transaction, first announced in October 2025, gives the Jeff Warshaw-led company a major presence in market No. 6.\"\n- Jeff Warshaw | chief_executive_of | Connoisseur Media | date: None | https://www.insideradio.com/free/done-deal-connoisseur-cements-bay-area-presence/article_f62b8988-4b9a-4e49-b0ae-60f757f4b847.html | \"Connoisseur Founder and CEO Jeff Warshaw\"\n- Connoisseur Media | acquisition_closed | Bonneville International\u2019s Bay Area cluster | date: 2026-05-18 | https://radioink.com/2026/05/18/connoisseur-wins-fcc-waiver-closes-on-bonneville-in-the-bay/ | \"Connoisseur Media has officially covered the Bay Area, completing a purchase of four Bonneville International stations after securing a local radio rule waiver\"\n- Connoisseur Media | owns | KBLX-FM | date: 2026-05-18 | https://radioink.com/2026/05/18/connoisseur-wins-fcc-waiver-closes-on-bonneville-in-the-bay/ | \"The $10 million deal brings 96.5 KOIT, 99.7 NOW (KMVQ), and KBLX in San Francisco, along with their FM boosters, and Classic Rock K-Fox 98.5 (KUFX) in San Jose, into the Connoisseur portfolio.\"\n- Connoisseur Media | acquisition_closed | KBLX-FM | date: 2026-05-15 | https://ramp247.com/programming/bonneville-bay-area-sale-to-connoisseur-closed/ | \"the sale of KBLX-FM/Berkeley, KMVQ-FM & KOIT-FM/San Francisco, and KUFX-FM/San Jose, CA from Bonneville International Corporation to Connoisseur Media is closed.\"\n- Bonneville International Corporation | subsidiary_of | Deseret Management Corporation | date: None | https://ramp247.com/programming/bonneville-bay-area-sale-to-connoisseur-closed/ | \"Headquartered in Salt Lake City, Bonneville is a subsidiary of Deseret Management Corporation.\"\n- Jeff Warshaw | other | Connoisseur Media | date: None | https://ramp247.com/programming/bonneville-bay-area-sale-to-connoisseur-closed/ | \"The buyer, Connoisseur Media, is a Westport, CT-based company headed by Jeff Warshaw, and one of the top 10 radio broadcasters in the U.S.\"\n- Connoisseur Media | acquisition_closed | KBLX-FM | date: 2026-05-18 | https://deanemediasolutions.com/bonneville-bay-area-sale-to-connoisseur-is-closed/ | \"The sale of radio stations KBLX-FM, Berkley, KMVQ-FM and KOIT-FM, San Francisco, and KUFX-FM, San Jose, California, from Bonneville International Corporation to Connoisseur Media is now a done deal.\"\n- Bonneville International Corporation | subsidiary_of | Deseret Management Corporation | date: None | https://deanemediasolutions.com/bonneville-bay-area-sale-to-connoisseur-is-closed/ | \"Headquartered in Salt Lake City, Bonneville is a subsidiary of Deseret Management Corporation.\"\n- Jeff Warshaw | other | Connoisseur Media | date: None | https://deanemediasolutions.com/bonneville-bay-area-sale-to-connoisseur-is-closed/ | \"The buyer, Connoisseur Media, is a Westport, Connecticut-based company headed by Jeff Warshaw.\"\n- Connoisseur Media | acquisition_closed | Bonneville International\u2019s Northern California FM cluster | date: 2026-05-15 | https://onthedial.net/2026/05/connoisseur-media-officially-takes-control-of-major-bay-area-radio-cluster-in-massive-northern-california-power-move/ | \"Connoisseur Media has finalized its acquisition of four prominent Northern California FM stations from Bonneville International, giving the company immediate control of some of the most recognizable brands and signals anywhere in the Bay Area.\"\n- Harvey Stone | other_officer_of | KBLX-FM | date: None | https://www.radioworld.com/news-and-business/people-news/harvey-stone-longtime-kblx-leader-and-quiet-storm-pioneer-dies-at-83 | \"As the longtime president and general manager of KBLX(FM), Stone spent 31 years shaping one of the most influential stations in the San Francisco Bay Area.\"\n- Inner City Broadcasting | acquisition_closed | KRE(FM) | date: None | https://www.radioworld.com/news-and-business/people-news/harvey-stone-longtime-kblx-leader-and-quiet-storm-pioneer-dies-at-83 | \"He guided the station from Inner City Broadcasting\u2019s acquisition of the former KRE(FM) through its sale to Entercom in 2012, according to a release.\"\n- Entercom | acquisition_closed | KBLX-FM | date: 2012 | https://www.radioworld.com/news-and-business/people-news/harvey-stone-longtime-kblx-leader-and-quiet-storm-pioneer-dies-at-83 | \"He guided the station from Inner City Broadcasting\u2019s acquisition of the former KRE(FM) through its sale to Entercom in 2012, according to a release.\"\n- Sutton family | owns | Inner City Broadcasting | date: None | https://www.radioworld.com/news-and-business/people-news/harvey-stone-longtime-kblx-leader-and-quiet-storm-pioneer-dies-at-83 | \"Born and raised in Cleveland, Stone was recruited by the Sutton family \u2014 owners of Inner City Broadcasting \u2014 to lead KBLX.\"\n- Harvey Stone | other_officer_of | KBLX-FM | date: None | https://rbr.com/kblx-harvey-stone-obit-309638-2/ | \"Now, many in Radio are mourning the loss of former President/GM Harvey Stone.\"\n- Harvey Stone | other_officer_of | KBLX-FM | date: 1989-07 | https://rbr.com/kblx-harvey-stone-obit-309638-2/ | \"In July 1989, he added the role of President.\"\n- Inner City Broadcasting | acquisition_closed | KBLX-FM | date: None | https://rbr.com/kblx-harvey-stone-obit-309638-2/ | \"He led KBLX from 1981, two years after its purchase by Percy Sutton\u2019s Inner City Broadcasting from Horizon Communications, through its sale in 2012 to Entercom (today known as Audacy Inc.).\"\n- Entercom | acquisition_closed | KBLX-FM | date: 2012 | https://rbr.com/kblx-harvey-stone-obit-309638-2/ | \"He led KBLX from 1981, two years after its purchase by Percy Sutton\u2019s Inner City Broadcasting from Horizon Communications, through its sale in 2012 to Entercom (today known as Audacy Inc.).\"\n- Audacy Inc. | renamed_from | Entercom | date: None | https://rbr.com/kblx-harvey-stone-obit-309638-2/ | \"Entercom (today known as Audacy Inc.)\"\n- Entercom | acquisition_announced | KBLX-FM | date: 2012-04 | https://rbr.com/kblx-harvey-stone-obit-309638-2/ | \"However, KBLX was open to bidders, and Entercom won \u2014 agreeing to pay $25 million for the heritage Adult R&B property.\"\n- Bonneville International Corp. | acquisition_announced | KBLX-FM | date: 2018-08 | https://rbr.com/kblx-harvey-stone-obit-309638-2/ | \"a deal announced in August of that year saw the station and its three siblings in San Francisco head to Bonneville International Corp. in a $141 million transaction\"\n- Entercom | owns | KBLX-FM | date: 2018 | https://rbr.com/kblx-harvey-stone-obit-309638-2/ | \"The Audacy predecessor\u2019s ownership of KBLX would conclude in 2018\"\n- Bonneville International | owns | KBLX-FM | date: mid-May 2026 | https://rbr.com/kblx-harvey-stone-obit-309638-2/ | \"Bonneville\u2019s run as KBLX\u2019s owner concluded in mid-May 2026\"\n- Connoisseur Media | acquisition_closed | KBLX-FM | date: mid-May 2026 | https://rbr.com/kblx-harvey-stone-obit-309638-2/ | \"Connoisseur Media concluded its $10 million purchase of KOIT-FM, KMVQ-FM and KBLX-FM in the San Francisco market along with their numerous FM boosters, and KUFX \u201c98.5 K-Fox\u201d in the San Jose market.\"\n- Harvey Stone | other_officer_of | KBLX-FM | date: None | https://www.urbaninsite.com/news/harvey-stone-former-gm-of-kblx-has-passed/ | \"Harvey Stone, the longtime President and General Manager of KBLX/San Francisco\"\n- Inner City Broadcasting | acquisition_closed | KRE | date: None | https://www.urbaninsite.com/news/harvey-stone-former-gm-of-kblx-has-passed/ | \"Stone guided KBLX from Inner City Broadcasting\u2019s acquisition of KRE through the station\u2019s sale to Entercom in 2012.\"\n- Entercom | acquisition_closed | KBLX-FM | date: 2012 | https://www.urbaninsite.com/news/harvey-stone-former-gm-of-kblx-has-passed/ | \"Stone guided KBLX from Inner City Broadcasting\u2019s acquisition of KRE through the station\u2019s sale to Entercom in 2012.\"\n- Sutton family | owns | Inner City Broadcasting | date: None | https://www.urbaninsite.com/news/harvey-stone-former-gm-of-kblx-has-passed/ | \"A Cleveland native, Stone was recruited by the Sutton family, owners of Inner City Broadcasting, to take charge of KBLX.\"\n- Harvey Stone | other_officer_of | KBLX-FM | date: None | https://californiahistoricalradio.com/2026/08/harvey-stone-architect-of-kblxs-legendary-sound/ | \"Harvey Stone, longtime President and General Manager of KBLX\"\n- Inner City Broadcasting | acquisition_closed | KRE | date: None | https://californiahistoricalradio.com/2026/08/harvey-stone-architect-of-kblxs-legendary-sound/ | \"For 31 years, Stone guided the station from Inner City Broadcasting\u2019s acquisition of KRE through the sale of KBLX to Entercom in 2012.\"\n- Entercom | acquisition_closed | KBLX-FM | date: 2012 | https://californiahistoricalradio.com/2026/08/harvey-stone-architect-of-kblxs-legendary-sound/ | \"For 31 years, Stone guided the station from Inner City Broadcasting\u2019s acquisition of KRE through the sale of KBLX to Entercom in 2012.\"\n- Sutton family | owns | Inner City Broadcasting | date: None | https://californiahistoricalradio.com/2026/08/harvey-stone-architect-of-kblxs-legendary-sound/ | \"Born and raised in Cleveland, Stone was recruited by the Sutton family, owners of Inner City Broadcasting, to lead KBLX.\"\n- Connoisseur Media | owns | KBLX-FM | date: None | https://en.wikipedia.org/wiki/KBLX-FM | \"It is owned by Connoisseur Media.\"\n- Inner City Broadcasting Corporation | owns | KBLX-FM | date: 2012-04 | https://en.wikipedia.org/wiki/KBLX-FM | \"Until its sale in April 2012, KBLX was owned for more than 30 years by the now-defunct, black-owned Inner City Broadcasting Corporation, and used the slogan \"The Quiet Storm.\"\"\n- Inner City Broadcasting Corporation | acquisition_closed | KBLX-FM | date: 1979 | https://en.wikipedia.org/wiki/KBLX-FM | \"In 1979, the station was sold to the New York\u2013 based Inner City Broadcasting Corporation, headed by Percy Sutton\"\n- Percy Sutton | other | Inner City Broadcasting Corporation | date: 1979 | https://en.wikipedia.org/wiki/KBLX-FM | \"Inner City Broadcasting Corporation, headed by Percy Sutton\"\n- KPAT-FM | renamed_from | KRE-FM | date: 1962 | https://en.wikipedia.org/wiki/KBLX-FM | \"In 1962, the station changed its call letters to KPAT-FM.\"\n- KRE-FM | renamed_from | KPAT-FM | date: 1973 | https://en.wikipedia.org/wiki/KBLX-FM | \"In 1973, it changed its call letters back to KRE-FM.\"\n- Connoisseur Media | acquisition_announced | KBLX-FM | date: 2025-10-07 | https://www.sfchronicle.com/entertainment/article/koit-kblx-kufx-sold-21090703.php | \"The Connecticut-based broadcaster announced Tuesday, Oct. 7, that it has reached an agreement to purchase Bonneville\u2019s San Francisco cluster: KOIT, KBLX, KMVQ (99.7 NOW) and KUFX (98.5 KFOX).\"\n- Bonneville International | owns | KBLX-FM | date: None | https://www.sfchronicle.com/entertainment/article/koit-kblx-kufx-sold-21090703.php | \"Connoisseur Media is acquiring Bonneville International\u2019s KOIT, KBLX, KMVQ and KUFX, expanding its reach into the Bay Area radio market.\"\n- Jeff Warshaw | chief_executive_of | Connoisseur Media | date: None | https://www.sfchronicle.com/entertainment/article/koit-kblx-kufx-sold-21090703.php | \"Jeff Warshaw, founder and CEO of Connoisseur Media\"\n- Connoisseur Media | acquisition_closed | KBLX-FM | date: None | https://www.insideaudiomarketing.com/post/connoisseur-media-completes-bay-area-frequency-moves | \"Connoisseur Media\u2019s $10 million purchase of Bonneville\u2019s San Francisco cluster \u2014 AC KOIT (96.5), urban AC KBLX (102.9), and CHR \u201c99.7 Now\u201d KMVQ\"\n- Brian \"Fig\" Figula | other_officer_of | Connoisseur Media | date: None | https://www.insideaudiomarketing.com/post/connoisseur-media-completes-bay-area-frequency-moves | \"Connoisseur Media Regional Operations Manager Brian \"Fig\" Figula\"\n- Connoisseur Media | acquisition_announced | KBLX-FM | date: 2025-10-07 | https://connoisseurmedia.com/connoisseur-media-to-expand-west-coast-footprint-with-acquisition-of-bonneville-san-francisco-stations/ | \"Connoisseur Media announced today that it has entered into an agreement to acquire Bonneville International Corporation\u2019s San Francisco market stations, including KUFX, KBLX, KMVQ (99.7 NOW), and KOIT.\"\n- Bonneville International Corporation | owns | KBLX-FM | date: 2025-10-07 | https://connoisseurmedia.com/connoisseur-media-to-expand-west-coast-footprint-with-acquisition-of-bonneville-san-francisco-stations/ | \"Bonneville International Corporation\u2019s San Francisco market stations, including KUFX, KBLX, KMVQ (99.7 NOW), and KOIT.\"\n- Jeff Warshaw | chief_executive_of | Connoisseur Media | date: 2025-10-07 | https://connoisseurmedia.com/connoisseur-media-to-expand-west-coast-footprint-with-acquisition-of-bonneville-san-francisco-stations/ | \"said Jeff Warshaw, Founder and CEO of Connoisseur Media.\"\n- Connoisseur Media | owns | KBLX-FM | date: None | https://exa.ai/library/organization/309qskzz6sc | \"KBLX-FM (102.9 MHz) is a commercial radio station licensed to Berkeley, California, and serving the San Francisco Bay Area. It is owned by Connoisseur Media.\"\n- Inner City Broadcasting Corporation | owns | KBLX-FM | date: Until April 2012 | https://exa.ai/library/organization/309qskzz6sc | \"Until its sale in April 2012, KBLX was owned for more than 30 years by the now-defunct, black-owned Inner City Broadcasting Corporation, and used the slogan \"The Quiet Storm.\"\"\n\nEvidence state checks: conflict: several owners named: ['bonneville international', 'connoisseur media', 'connoisseur media licenses', 'entercom', 'inner city broadcasting']; missing: who owns connoisseur media\nAnswer only from this dossier. Where it does not establish a field, mark it not_established.",
+ "claims": [
+  {
+   "doc": "D2",
+   "subject": "Connoisseur Media Licenses, LLC",
+   "relation": "licensee_of",
+   "object": "KBLX-FM",
+   "quote": "Licensee:\n: Connoisseur Media Licenses, LLC",
+   "date_in_doc": null,
+   "url": "https://publicfiles.fcc.gov/fm-profile/KBLX-FM"
+  },
+  {
+   "doc": "D3",
+   "subject": "BONNEVILLE INTERNATIONAL CORPORATION",
+   "relation": "licensee_of",
+   "object": "KBLX-FM",
+   "quote": "Licensee: BONNEVILLE INTERNATIONAL CORPORATION",
+   "date_in_doc": null,
+   "url": "https://transition.fcc.gov/fcc-bin/fmq?call=KBLX"
+  },
+  {
+   "doc": "D4",
+   "subject": "Bonneville International Corporation",
+   "relation": "licensee_of",
+   "object": "KBLX-FM",
+   "quote": "| KBLX-FM | 28670 | FM | Bonneville International Corporation | BERKELEY, CA |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "Brown",
+   "relation": "other",
+   "object": "Bonneville International Corporation",
+   "quote": "| Brown | 9990070055 | director | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "Burton",
+   "relation": "other",
+   "object": "Bonneville International Corporation",
+   "quote": "| Burton | 9990121579 | director | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "Day",
+   "relation": "other",
+   "object": "Bonneville International Corporation",
+   "quote": "| Day | 9990153447 | director | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "Dew",
+   "relation": "other",
+   "object": "Bonneville International Corporation",
+   "quote": "| Dew | 9990069990 | director | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "Dowdle",
+   "relation": "other_officer_of",
+   "object": "Bonneville International Corporation",
+   "quote": "| Dowdle | 0023167802 | officer | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "Englund",
+   "relation": "other_officer_of",
+   "object": "Bonneville International Corporation",
+   "quote": "| Englund | 9990154387 | officer | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "Hatch",
+   "relation": "other",
+   "object": "Bonneville International Corporation",
+   "quote": "| Hatch | 0031679244 | director | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "McMullin",
+   "relation": "other",
+   "object": "Bonneville International Corporation",
+   "quote": "| McMullin | 9990070170 | director | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "Pearce",
+   "relation": "other_officer_of",
+   "object": "Bonneville International Corporation",
+   "quote": "| Pearce | 0027200799 | officer | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "Porter",
+   "relation": "other",
+   "object": "Bonneville International Corporation",
+   "quote": "| Porter | 9990121570 | director | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "Todd",
+   "relation": "other_officer_of",
+   "object": "Bonneville International Corporation",
+   "quote": "| Todd | 9990154386 | officer | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D4",
+   "subject": "Vea",
+   "relation": "other_officer_of",
+   "object": "Bonneville International Corporation",
+   "quote": "| Vea | 9990154385 | officer | 0% | 0% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230236"
+  },
+  {
+   "doc": "D5",
+   "subject": "Bonneville International Corporation",
+   "relation": "licensee_of",
+   "object": "KBLX-FM",
+   "quote": "| KBLX-FM | 28670 | FM | Bonneville International Corporation | BERKELEY, CA |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230242"
+  },
+  {
+   "doc": "D5",
+   "subject": "Eyring",
+   "relation": "other",
+   "object": "DMC Reserve Trust",
+   "quote": "| Eyring | 9990070105 | other | 0% | 33.3% | GB |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230242"
+  },
+  {
+   "doc": "D5",
+   "subject": "Nelson",
+   "relation": "other",
+   "object": "DMC Reserve Trust",
+   "quote": "| Nelson | 9990070196 | other | 0% | 33.3% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230242"
+  },
+  {
+   "doc": "D5",
+   "subject": "Oaks",
+   "relation": "other",
+   "object": "DMC Reserve Trust",
+   "quote": "| Oaks | 9990123932 | other | 0% | 33.3% | US |",
+   "date_in_doc": "2023-10-01",
+   "url": "https://fcc.report/LMS/0000230242"
+  },
+  {
+   "doc": "D6",
+   "subject": "Connoisseur Media",
+   "relation": "acquisition_announced",
+   "object": "KBLX-FM",
+   "quote": "The Connecticut-based broadcaster announced Tuesday, Oct. 7, that it has reached an agreement to purchase Bonneville's San Francisco cluster: KOIT, KBLX, KMVQ (99.7 NOW), and KUFX (98.5 KFOX).",
+   "date_in_doc": "Oct. 7",
+   "url": "https://www.yahoo.com/news/articles/bay-area-radio-shake-koit-171342075.html"
+  },
+  {
+   "doc": "D6",
+   "subject": "Bonneville International Corporation",
+   "relation": "owns",
+   "object": "KBLX-FM",
+   "quote": "Connoisseur Media is acquiring Bonneville's KOIT, KBLX, 99.7 NOW, and KFOX, expanding its reach into the Bay Area radio market.",
+   "date_in_doc": null,
+   "url": "https://www.yahoo.com/news/articles/bay-area-radio-shake-koit-171342075.html"
+  },
+  {
+   "doc": "D6",
+   "subject": "Jeff Warshaw",
+   "relation": "chief_executive_of",
+   "object": "Connoisseur Media",
+   "quote": "Jeff Warshaw, founder and CEO of Connoisseur Media",
+   "date_in_doc": null,
+   "url": "https://www.yahoo.com/news/articles/bay-area-radio-shake-koit-171342075.html"
+  },
+  {
+   "doc": "D7",
+   "subject": "Connoisseur Media",
+   "relation": "acquisition_closed",
+   "object": "KBLX-FM",
+   "quote": "Connoisseur Media has closed a $10 million deal to buy Bonneville International\u2019s Bay Area cluster \u2014 including heritage brands AC KOIT (96.5), urban AC KBLX (102.9), CHR KMVQ \u201c99.7 Now\u201d",
+   "date_in_doc": "2026-05-15",
+   "url": "https://www.insideradio.com/free/done-deal-connoisseur-cements-bay-area-presence/article_f62b8988-4b9a-4e49-b0ae-60f757f4b847.html"
+  },
+  {
+   "doc": "D7",
+   "subject": "Connoisseur Media",
+   "relation": "acquisition_announced",
+   "object": "Bonneville International\u2019s Bay Area cluster",
+   "quote": "The transaction, first announced in October 2025, gives the Jeff Warshaw-led company a major presence in market No. 6.",
+   "date_in_doc": "2025-10",
+   "url": "https://www.insideradio.com/free/done-deal-connoisseur-cements-bay-area-presence/article_f62b8988-4b9a-4e49-b0ae-60f757f4b847.html"
+  },
+  {
+   "doc": "D7",
+   "subject": "Jeff Warshaw",
+   "relation": "chief_executive_of",
+   "object": "Connoisseur Media",
+   "quote": "Connoisseur Founder and CEO Jeff Warshaw",
+   "date_in_doc": null,
+   "url": "https://www.insideradio.com/free/done-deal-connoisseur-cements-bay-area-presence/article_f62b8988-4b9a-4e49-b0ae-60f757f4b847.html"
+  },
+  {
+   "doc": "D8",
+   "subject": "Connoisseur Media",
+   "relation": "acquisition_closed",
+   "object": "Bonneville International\u2019s Bay Area cluster",
+   "quote": "Connoisseur Media has officially covered the Bay Area, completing a purchase of four Bonneville International stations after securing a local radio rule waiver",
+   "date_in_doc": "2026-05-18",
+   "url": "https://radioink.com/2026/05/18/connoisseur-wins-fcc-waiver-closes-on-bonneville-in-the-bay/"
+  },
+  {
+   "doc": "D8",
+   "subject": "Connoisseur Media",
+   "relation": "owns",
+   "object": "KBLX-FM",
+   "quote": "The $10 million deal brings 96.5 KOIT, 99.7 NOW (KMVQ), and KBLX in San Francisco, along with their FM boosters, and Classic Rock K-Fox 98.5 (KUFX) in San Jose, into the Connoisseur portfolio.",
+   "date_in_doc": "2026-05-18",
+   "url": "https://radioink.com/2026/05/18/connoisseur-wins-fcc-waiver-closes-on-bonneville-in-the-bay/"
+  },
+  {
+   "doc": "D9",
+   "subject": "Connoisseur Media",
+   "relation": "acquisition_closed",
+   "object": "KBLX-FM",
+   "quote": "the sale of KBLX-FM/Berkeley, KMVQ-FM & KOIT-FM/San Francisco, and KUFX-FM/San Jose, CA from Bonneville International Corporation to Connoisseur Media is closed.",
+   "date_in_doc": "2026-05-15",
+   "url": "https://ramp247.com/programming/bonneville-bay-area-sale-to-connoisseur-closed/"
+  },
+  {
+   "doc": "D9",
+   "subject": "Bonneville International Corporation",
+   "relation": "subsidiary_of",
+   "object": "Deseret Management Corporation",
+   "quote": "Headquartered in Salt Lake City, Bonneville is a subsidiary of Deseret Management Corporation.",
+   "date_in_doc": null,
+   "url": "https://ramp247.com/programming/bonneville-bay-area-sale-to-connoisseur-closed/"
+  },
+  {
+   "doc": "D9",
+   "subject": "Jeff Warshaw",
+   "relation": "other",
+   "object": "Connoisseur Media",
+   "quote": "The buyer, Connoisseur Media, is a Westport, CT-based company headed by Jeff Warshaw, and one of the top 10 radio broadcasters in the U.S.",
+   "date_in_doc": null,
+   "url": "https://ramp247.com/programming/bonneville-bay-area-sale-to-connoisseur-closed/"
+  },
+  {
+   "doc": "D10",
+   "subject": "Connoisseur Media",
+   "relation": "acquisition_closed",
+   "object": "KBLX-FM",
+   "quote": "The sale of radio stations KBLX-FM, Berkley, KMVQ-FM and KOIT-FM, San Francisco, and KUFX-FM, San Jose, California, from Bonneville International Corporation to Connoisseur Media is now a done deal.",
+   "date_in_doc": "2026-05-18",
+   "url": "https://deanemediasolutions.com/bonneville-bay-area-sale-to-connoisseur-is-closed/"
+  },
+  {
+   "doc": "D10",
+   "subject": "Bonneville International Corporation",
+   "relation": "subsidiary_of",
+   "object": "Deseret Management Corporation",
+   "quote": "Headquartered in Salt Lake City, Bonneville is a subsidiary of Deseret Management Corporation.",
+   "date_in_doc": null,
+   "url": "https://deanemediasolutions.com/bonneville-bay-area-sale-to-connoisseur-is-closed/"
+  },
+  {
+   "doc": "D10",
+   "subject": "Jeff Warshaw",
+   "relation": "other",
+   "object": "Connoisseur Media",
+   "quote": "The buyer, Connoisseur Media, is a Westport, Connecticut-based company headed by Jeff Warshaw.",
+   "date_in_doc": null,
+   "url": "https://deanemediasolutions.com/bonneville-bay-area-sale-to-connoisseur-is-closed/"
+  },
+  {
+   "doc": "D11",
+   "subject": "Connoisseur Media",
+   "relation": "acquisition_closed",
+   "object": "Bonneville International\u2019s Northern California FM cluster",
+   "quote": "Connoisseur Media has finalized its acquisition of four prominent Northern California FM stations from Bonneville International, giving the company immediate control of some of the most recognizable brands and signals anywhere in the Bay Area.",
+   "date_in_doc": "2026-05-15",
+   "url": "https://onthedial.net/2026/05/connoisseur-media-officially-takes-control-of-major-bay-area-radio-cluster-in-massive-northern-california-power-move/"
+  },
+  {
+   "doc": "D12",
+   "subject": "Harvey Stone",
+   "relation": "other_officer_of",
+   "object": "KBLX-FM",
+   "quote": "As the longtime president and general manager of KBLX(FM), Stone spent 31 years shaping one of the most influential stations in the San Francisco Bay Area.",
+   "date_in_doc": null,
+   "url": "https://www.radioworld.com/news-and-business/people-news/harvey-stone-longtime-kblx-leader-and-quiet-storm-pioneer-dies-at-83"
+  },
+  {
+   "doc": "D12",
+   "subject": "Inner City Broadcasting",
+   "relation": "acquisition_closed",
+   "object": "KRE(FM)",
+   "quote": "He guided the station from Inner City Broadcasting\u2019s acquisition of the former KRE(FM) through its sale to Entercom in 2012, according to a release.",
+   "date_in_doc": null,
+   "url": "https://www.radioworld.com/news-and-business/people-news/harvey-stone-longtime-kblx-leader-and-quiet-storm-pioneer-dies-at-83"
+  },
+  {
+   "doc": "D12",
+   "subject": "Entercom",
+   "relation": "acquisition_closed",
+   "object": "KBLX-FM",
+   "quote": "He guided the station from Inner City Broadcasting\u2019s acquisition of the former KRE(FM) through its sale to Entercom in 2012, according to a release.",
+   "date_in_doc": "2012",
+   "url": "https://www.radioworld.com/news-and-business/people-news/harvey-stone-longtime-kblx-leader-and-quiet-storm-pioneer-dies-at-83"
+  },
+  {
+   "doc": "D12",
+   "subject": "Sutton family",
+   "relation": "owns",
+   "object": "Inner City Broadcasting",
+   "quote": "Born and raised in Cleveland, Stone was recruited by the Sutton family \u2014 owners of Inner City Broadcasting \u2014 to lead KBLX.",
+   "date_in_doc": null,
+   "url": "https://www.radioworld.com/news-and-business/people-news/harvey-stone-longtime-kblx-leader-and-quiet-storm-pioneer-dies-at-83"
+  },
+  {
+   "doc": "D13",
+   "subject": "Harvey Stone",
+   "relation": "other_officer_of",
+   "object": "KBLX-FM",
+   "quote": "Now, many in Radio are mourning the loss of former President/GM Harvey Stone.",
+   "date_in_doc": null,
+   "url": "https://rbr.com/kblx-harvey-stone-obit-309638-2/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Harvey Stone",
+   "relation": "other_officer_of",
+   "object": "KBLX-FM",
+   "quote": "In July 1989, he added the role of President.",
+   "date_in_doc": "1989-07",
+   "url": "https://rbr.com/kblx-harvey-stone-obit-309638-2/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Inner City Broadcasting",
+   "relation": "acquisition_closed",
+   "object": "KBLX-FM",
+   "quote": "He led KBLX from 1981, two years after its purchase by Percy Sutton\u2019s Inner City Broadcasting from Horizon Communications, through its sale in 2012 to Entercom (today known as Audacy Inc.).",
+   "date_in_doc": null,
+   "url": "https://rbr.com/kblx-harvey-stone-obit-309638-2/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Entercom",
+   "relation": "acquisition_closed",
+   "object": "KBLX-FM",
+   "quote": "He led KBLX from 1981, two years after its purchase by Percy Sutton\u2019s Inner City Broadcasting from Horizon Communications, through its sale in 2012 to Entercom (today known as Audacy Inc.).",
+   "date_in_doc": "2012",
+   "url": "https://rbr.com/kblx-harvey-stone-obit-309638-2/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Audacy Inc.",
+   "relation": "renamed_from",
+   "object": "Entercom",
+   "quote": "Entercom (today known as Audacy Inc.)",
+   "date_in_doc": null,
+   "url": "https://rbr.com/kblx-harvey-stone-obit-309638-2/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Entercom",
+   "relation": "acquisition_announced",
+   "object": "KBLX-FM",
+   "quote": "However, KBLX was open to bidders, and Entercom won \u2014 agreeing to pay $25 million for the heritage Adult R&B property.",
+   "date_in_doc": "2012-04",
+   "url": "https://rbr.com/kblx-harvey-stone-obit-309638-2/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Bonneville International Corp.",
+   "relation": "acquisition_announced",
+   "object": "KBLX-FM",
+   "quote": "a deal announced in August of that year saw the station and its three siblings in San Francisco head to Bonneville International Corp. in a $141 million transaction",
+   "date_in_doc": "2018-08",
+   "url": "https://rbr.com/kblx-harvey-stone-obit-309638-2/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Entercom",
+   "relation": "owns",
+   "object": "KBLX-FM",
+   "quote": "The Audacy predecessor\u2019s ownership of KBLX would conclude in 2018",
+   "date_in_doc": "2018",
+   "url": "https://rbr.com/kblx-harvey-stone-obit-309638-2/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Bonneville International",
+   "relation": "owns",
+   "object": "KBLX-FM",
+   "quote": "Bonneville\u2019s run as KBLX\u2019s owner concluded in mid-May 2026",
+   "date_in_doc": "mid-May 2026",
+   "url": "https://rbr.com/kblx-harvey-stone-obit-309638-2/"
+  },
+  {
+   "doc": "D13",
+   "subject": "Connoisseur Media",
+   "relation": "acquisition_closed",
+   "object": "KBLX-FM",
+   "quote": "Connoisseur Media concluded its $10 million purchase of KOIT-FM, KMVQ-FM and KBLX-FM in the San Francisco market along with their numerous FM boosters, and KUFX \u201c98.5 K-Fox\u201d in the San Jose market.",
+   "date_in_doc": "mid-May 2026",
+   "url": "https://rbr.com/kblx-harvey-stone-obit-309638-2/"
+  },
+  {
+   "doc": "D14",
+   "subject": "Harvey Stone",
+   "relation": "other_officer_of",
+   "object": "KBLX-FM",
+   "quote": "Harvey Stone, the longtime President and General Manager of KBLX/San Francisco",
+   "date_in_doc": null,
+   "url": "https://www.urbaninsite.com/news/harvey-stone-former-gm-of-kblx-has-passed/"
+  },
+  {
+   "doc": "D14",
+   "subject": "Inner City Broadcasting",
+   "relation": "acquisition_closed",
+   "object": "KRE",
+   "quote": "Stone guided KBLX from Inner City Broadcasting\u2019s acquisition of KRE through the station\u2019s sale to Entercom in 2012.",
+   "date_in_doc": null,
+   "url": "https://www.urbaninsite.com/news/harvey-stone-former-gm-of-kblx-has-passed/"
+  },
+  {
+   "doc": "D14",
+   "subject": "Entercom",
+   "relation": "acquisition_closed",
+   "object": "KBLX-FM",
+   "quote": "Stone guided KBLX from Inner City Broadcasting\u2019s acquisition of KRE through the station\u2019s sale to Entercom in 2012.",
+   "date_in_doc": "2012",
+   "url": "https://www.urbaninsite.com/news/harvey-stone-former-gm-of-kblx-has-passed/"
+  },
+  {
+   "doc": "D14",
+   "subject": "Sutton family",
+   "relation": "owns",
+   "object": "Inner City Broadcasting",
+   "quote": "A Cleveland native, Stone was recruited by the Sutton family, owners of Inner City Broadcasting, to take charge of KBLX.",
+   "date_in_doc": null,
+   "url": "https://www.urbaninsite.com/news/harvey-stone-former-gm-of-kblx-has-passed/"
+  },
+  {
+   "doc": "D15",
+   "subject": "Harvey Stone",
+   "relation": "other_officer_of",
+   "object": "KBLX-FM",
+   "quote": "Harvey Stone, longtime President and General Manager of KBLX",
+   "date_in_doc": null,
+   "url": "https://californiahistoricalradio.com/2026/08/harvey-stone-architect-of-kblxs-legendary-sound/"
+  },
+  {
+   "doc": "D15",
+   "subject": "Inner City Broadcasting",
+   "relation": "acquisition_closed",
+   "object": "KRE",
+   "quote": "For 31 years, Stone guided the station from Inner City Broadcasting\u2019s acquisition of KRE through the sale of KBLX to Entercom in 2012.",
+   "date_in_doc": null,
+   "url": "https://californiahistoricalradio.com/2026/08/harvey-stone-architect-of-kblxs-legendary-sound/"
+  },
+  {
+   "doc": "D15",
+   "subject": "Entercom",
+   "relation": "acquisition_closed",
+   "object": "KBLX-FM",
+   "quote": "For 31 years, Stone guided the station from Inner City Broadcasting\u2019s acquisition of KRE through the sale of KBLX to Entercom in 2012.",
+   "date_in_doc": "2012",
+   "url": "https://californiahistoricalradio.com/2026/08/harvey-stone-architect-of-kblxs-legendary-sound/"
+  },
+  {
+   "doc": "D15",
+   "subject": "Sutton family",
+   "relation": "owns",
+   "object": "Inner City Broadcasting",
+   "quote": "Born and raised in Cleveland, Stone was recruited by the Sutton family, owners of Inner City Broadcasting, to lead KBLX.",
+   "date_in_doc": null,
+   "url": "https://californiahistoricalradio.com/2026/08/harvey-stone-architect-of-kblxs-legendary-sound/"
+  },
+  {
+   "doc": "D16",
+   "subject": "Connoisseur Media",
+   "relation": "owns",
+   "object": "KBLX-FM",
+   "quote": "It is owned by Connoisseur Media.",
+   "date_in_doc": null,
+   "url": "https://en.wikipedia.org/wiki/KBLX-FM"
+  },
+  {
+   "doc": "D16",
+   "subject": "Inner City Broadcasting Corporation",
+   "relation": "owns",
+   "object": "KBLX-FM",
+   "quote": "Until its sale in April 2012, KBLX was owned for more than 30 years by the now-defunct, black-owned Inner City Broadcasting Corporation, and used the slogan \"The Quiet Storm.\"",
+   "date_in_doc": "2012-04",
+   "url": "https://en.wikipedia.org/wiki/KBLX-FM"
+  },
+  {
+   "doc": "D16",
+   "subject": "Inner City Broadcasting Corporation",
+   "relation": "acquisition_closed",
+   "object": "KBLX-FM",
+   "quote": "In 1979, the station was sold to the New York\u2013 based Inner City Broadcasting Corporation, headed by Percy Sutton",
+   "date_in_doc": "1979",
+   "url": "https://en.wikipedia.org/wiki/KBLX-FM"
+  },
+  {
+   "doc": "D16",
+   "subject": "Percy Sutton",
+   "relation": "other",
+   "object": "Inner City Broadcasting Corporation",
+   "quote": "Inner City Broadcasting Corporation, headed by Percy Sutton",
+   "date_in_doc": "1979",
+   "url": "https://en.wikipedia.org/wiki/KBLX-FM"
+  },
+  {
+   "doc": "D16",
+   "subject": "KPAT-FM",
+   "relation": "renamed_from",
+   "object": "KRE-FM",
+   "quote": "In 1962, the station changed its call letters to KPAT-FM.",
+   "date_in_doc": "1962",
+   "url": "https://en.wikipedia.org/wiki/KBLX-FM"
+  },
+  {
+   "doc": "D16",
+   "subject": "KRE-FM",
+   "relation": "renamed_from",
+   "object": "KPAT-FM",
+   "quote": "In 1973, it changed its call letters back to KRE-FM.",
+   "date_in_doc": "1973",
+   "url": "https://en.wikipedia.org/wiki/KBLX-FM"
+  },
+  {
+   "doc": "D17",
+   "subject": "Connoisseur Media",
+   "relation": "acquisition_announced",
+   "object": "KBLX-FM",
+   "quote": "The Connecticut-based broadcaster announced Tuesday, Oct. 7, that it has reached an agreement to purchase Bonneville\u2019s San Francisco cluster: KOIT, KBLX, KMVQ (99.7 NOW) and KUFX (98.5 KFOX).",
+   "date_in_doc": "2025-10-07",
+   "url": "https://www.sfchronicle.com/entertainment/article/koit-kblx-kufx-sold-21090703.php"
+  },
+  {
+   "doc": "D17",
+   "subject": "Bonneville International",
+   "relation": "owns",
+   "object": "KBLX-FM",
+   "quote": "Connoisseur Media is acquiring Bonneville International\u2019s KOIT, KBLX, KMVQ and KUFX, expanding its reach into the Bay Area radio market.",
+   "date_in_doc": null,
+   "url": "https://www.sfchronicle.com/entertainment/article/koit-kblx-kufx-sold-21090703.php"
+  },
+  {
+   "doc": "D17",
+   "subject": "Jeff Warshaw",
+   "relation": "chief_executive_of",
+   "object": "Connoisseur Media",
+   "quote": "Jeff Warshaw, founder and CEO of Connoisseur Media",
+   "date_in_doc": null,
+   "url": "https://www.sfchronicle.com/entertainment/article/koit-kblx-kufx-sold-21090703.php"
+  },
+  {
+   "doc": "D18",
+   "subject": "Connoisseur Media",
+   "relation": "acquisition_closed",
+   "object": "KBLX-FM",
+   "quote": "Connoisseur Media\u2019s $10 million purchase of Bonneville\u2019s San Francisco cluster \u2014 AC KOIT (96.5), urban AC KBLX (102.9), and CHR \u201c99.7 Now\u201d KMVQ",
+   "date_in_doc": null,
+   "url": "https://www.insideaudiomarketing.com/post/connoisseur-media-completes-bay-area-frequency-moves"
+  },
+  {
+   "doc": "D18",
+   "subject": "Brian \"Fig\" Figula",
+   "relation": "other_officer_of",
+   "object": "Connoisseur Media",
+   "quote": "Connoisseur Media Regional Operations Manager Brian \"Fig\" Figula",
+   "date_in_doc": null,
+   "url": "https://www.insideaudiomarketing.com/post/connoisseur-media-completes-bay-area-frequency-moves"
+  },
+  {
+   "doc": "E1",
+   "subject": "Connoisseur Media",
+   "relation": "acquisition_announced",
+   "object": "KBLX-FM",
+   "quote": "Connoisseur Media announced today that it has entered into an agreement to acquire Bonneville International Corporation\u2019s San Francisco market stations, including KUFX, KBLX, KMVQ (99.7 NOW), and KOIT.",
+   "date_in_doc": "2025-10-07",
+   "url": "https://connoisseurmedia.com/connoisseur-media-to-expand-west-coast-footprint-with-acquisition-of-bonneville-san-francisco-stations/"
+  },
+  {
+   "doc": "E1",
+   "subject": "Bonneville International Corporation",
+   "relation": "owns",
+   "object": "KBLX-FM",
+   "quote": "Bonneville International Corporation\u2019s San Francisco market stations, including KUFX, KBLX, KMVQ (99.7 NOW), and KOIT.",
+   "date_in_doc": "2025-10-07",
+   "url": "https://connoisseurmedia.com/connoisseur-media-to-expand-west-coast-footprint-with-acquisition-of-bonneville-san-francisco-stations/"
+  },
+  {
+   "doc": "E1",
+   "subject": "Jeff Warshaw",
+   "relation": "chief_executive_of",
+   "object": "Connoisseur Media",
+   "quote": "said Jeff Warshaw, Founder and CEO of Connoisseur Media.",
+   "date_in_doc": "2025-10-07",
+   "url": "https://connoisseurmedia.com/connoisseur-media-to-expand-west-coast-footprint-with-acquisition-of-bonneville-san-francisco-stations/"
+  },
+  {
+   "doc": "E2",
+   "subject": "Connoisseur Media",
+   "relation": "owns",
+   "object": "KBLX-FM",
+   "quote": "KBLX-FM (102.9 MHz) is a commercial radio station licensed to Berkeley, California, and serving the San Francisco Bay Area. It is owned by Connoisseur Media.",
+   "date_in_doc": null,
+   "url": "https://exa.ai/library/organization/309qskzz6sc"
+  },
+  {
+   "doc": "E2",
+   "subject": "Inner City Broadcasting Corporation",
+   "relation": "owns",
+   "object": "KBLX-FM",
+   "quote": "Until its sale in April 2012, KBLX was owned for more than 30 years by the now-defunct, black-owned Inner City Broadcasting Corporation, and used the slogan \"The Quiet Storm.\"",
+   "date_in_doc": "Until April 2012",
+   "url": "https://exa.ai/library/organization/309qskzz6sc"
+  }
+ ],
+ "flags": [
+  [
+   "conflict",
+   "several owners named: ['bonneville international', 'connoisseur media', 'connoisseur media licenses', 'entercom', 'inner city broadcasting']"
+  ],
+  [
+   "missing",
+   "who owns connoisseur media"
+  ]
+ ],
+ "steps": [
+  {
+   "step": "extract",
+   "usd": 0.087034,
+   "latency_s": 71.2,
+   "model_returned": "gpt-6.1-sol"
+  },
+  {
+   "step": "extract_extra",
+   "usd": 0.010024,
+   "latency_s": 12.0
+  },
+  {
+   "step": "solve",
+   "effort": "high",
+   "usd": 0.032146,
+   "latency_s": 47.2
+  }
+ ],
+ "usd_total": 0.129204,
+ "latency_total_s": 130.4,
+ "escalated": true,
+ "extra_docs": 2,
+ "arm": "B",
+ "case": "smoke_kblx",
+ "run": 1,
+ "saved": "2026-10-04T19:15:00-0300"
+}

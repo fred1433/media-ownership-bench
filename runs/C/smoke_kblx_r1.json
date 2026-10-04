@@ -1,0 +1,22 @@
+{
+ "text": "{\"legal_owner\":{\"status\":\"established\",\"names\":[\"Connoisseur Media Licenses, LLC\"],\"citations\":[{\"url\":\"https://publicfiles.fcc.gov/fm-profile/KBLX-FM\",\"quote\":\"Connoisseur Media Licenses, LLC\"}]},\"operator\":{\"status\":\"same_as_owner\",\"names\":[\"Connoisseur Media Licenses, LLC\"],\"citations\":[{\"url\":\"https://publicfiles.fcc.gov/fm-profile/KBLX-FM\",\"quote\":\"Connoisseur Media Licenses, LLC\"}]},\"chain\":[],\"ultimate_parent\":{\"status\":\"not_established\",\"names\":[],\"citations\":[]},\"controlling_person\":{\"status\":\"not_established\",\"names\":[],\"citations\":[]},\"leader\":{\"status\":\"established\",\"name\":\"Jeff Warshaw\",\"role\":\"Founder and CEO\",\"entity\":\"Connoisseur Media\",\"citations\":[{\"url\":\"https://www.insideradio.com/free/done-deal-connoisseur-cements-bay-area-presence/article_f62b8988-4b9a-4e49-b0ae-60f757f4b847.html\",\"quote\":\"Connoisseur Founder and CEO Jeff Warshaw\"}]},\"transactions\":[{\"description\":\"Connoisseur Media agreed to acquire Bonneville International's San Francisco cluster, including KBLX-FM.\",\"status\":\"announced\",\"date\":\"2025-10-07\",\"citations\":[{\"url\":\"https://www.sfchronicle.com/entertainment/article/koit-kblx-kufx-sold-21090703.php\",\"quote\":\"The Connecticut-based broadcaster announced Tuesday, Oct. 7, that it has reached an agreement to purchase Bonneville\u2019s San Francisco cluster: KOIT, KBLX, KMVQ (99.7 NOW) and KUFX (98.5 KFOX).\"}]},{\"description\":\"Connoisseur Media closed its acquisition of Bonneville International's Bay Area cluster, including KBLX-FM.\",\"status\":\"closed\",\"date\":\"2026-05-15\",\"citations\":[{\"url\":\"https://www.insideradio.com/free/done-deal-connoisseur-cements-bay-area-presence/article_f62b8988-4b9a-4e49-b0ae-60f757f4b847.html\",\"quote\":\"Connoisseur Media has closed a $10 million deal to buy Bonneville International\u2019s Bay Area cluster \u2014 including heritage brands AC KOIT (96.5), urban AC KBLX (102.9), CHR KMVQ \u201c99.7 Now\u201d\"}]},{\"description\":\"Bonneville International Corp. agreed to acquire KBLX-FM and three sister stations in San Francisco from Entercom.\",\"status\":\"announced\",\"date\":\"2018-08\",\"citations\":[{\"url\":\"https://rbr.com/kblx-harvey-stone-obit-309638-2/\",\"quote\":\"a deal announced in August of that year saw the station and its three siblings in San Francisco head to Bonneville International Corp. in a $141 million transaction\"}]},{\"description\":\"Entercom agreed to acquire KBLX-FM for $25 million.\",\"status\":\"announced\",\"date\":\"2012-04\",\"citations\":[{\"url\":\"https://rbr.com/kblx-harvey-stone-obit-309638-2/\",\"quote\":\"However, KBLX was open to bidders, and Entercom won \u2014 agreeing to pay $25 million for the heritage Adult R&B property.\"}]},{\"description\":\"Inner City Broadcasting sold KBLX to Entercom.\",\"status\":\"closed\",\"date\":\"2012\",\"citations\":[{\"url\":\"https://californiahistoricalradio.com/2026/08/harvey-stone-architect-of-kblxs-legendary-sound/\",\"quote\":\"For 31 years, Stone guided the station from Inner City Broadcasting\u2019s acquisition of KRE through the sale of KBLX to Entercom in 2012.\"}]},{\"description\":\"The station was sold to Inner City Broadcasting Corporation.\",\"status\":\"closed\",\"date\":\"1979\",\"citations\":[{\"url\":\"https://en.wikipedia.org/wiki/KBLX-FM\",\"quote\":\"In 1979, the station was sold to the New York\u2013 based Inner City Broadcasting Corporation, headed by Percy Sutton\"}]}],\"uncertainty\":\"Although Connoisseur Media Licenses, LLC is identified as the FCC licensee following Connoisseur Media's acquisition of the station in May 2026, the dossier does not provide evidence establishing the direct corporate link between the licensee and Connoisseur Media, the ultimate parent entity of Connoisseur Media, or any controlling person.\"}",
+ "usage": {
+  "candidates_token_count": 1052,
+  "prompt_token_count": 6674,
+  "thoughts_token_count": 8895,
+  "total_token_count": 16621
+ },
+ "usd": 0.042306750000000004,
+ "latency_s": 32.5,
+ "model_returned": "gemini-3.8-flash",
+ "retries": 0,
+ "web_search": {
+  "tool_enabled": false,
+  "calls_executed": 0,
+  "forced": false
+ },
+ "arm": "C",
+ "case": "smoke_kblx",
+ "run": 1,
+ "saved": "2026-10-04T19:15:32-0300"
+}

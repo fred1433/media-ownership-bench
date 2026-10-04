@@ -1,0 +1,394 @@
+{
+ "openai_model_requested": "gpt-6.1-sol",
+ "gemini_model_requested": "gemini-3.8-flash",
+ "endpoints": {
+  "A,B,bare": "OpenAI Responses API",
+  "C": "Gemini Developer API generateContent",
+  "B search": "Exa /search"
+ },
+ "sdk": {
+  "openai": "3.24.0",
+  "google-genai": "2.28.0",
+  "exa": "REST https://api.exa.ai/search (no SDK)"
+ },
+ "reasoning_effort": "medium",
+ "B_escalation_effort": "high",
+ "gemini_thinking": "model default",
+ "tools": {
+  "A": "web_search (OpenAI native)",
+  "B": "none in-model; Exa search by fixed templates",
+  "C": "none",
+  "bare": "none"
+ },
+ "limits": {
+  "B_extra_queries": 2,
+  "B_docs_chars": 3500,
+  "retries": 1,
+  "timeout_s": 600
+ },
+ "cap_usd": 15.0,
+ "prices": {
+  "gpt-6.1-sol": {
+   "in": 2.0,
+   "cached": 0.1,
+   "out": 10.0
+  },
+  "gemini-3.8-flash": {
+   "in": 0.75,
+   "cached": 0.75,
+   "out": 3.75
+  },
+  "openai_web_search_call": 0.01,
+  "gemini_search_query": 0.014
+ },
+ "system_prompt": "You are a media ownership researcher. Today's date is 2026-10-04; answer as of that date, not as of your training data.\nFields:\n- legal_owner: the entity that legally holds the outlet (for a broadcast station, the FCC licensee).\n- operator: the entity that runs it day to day if different (for example under a shared services or joint sales agreement); otherwise status same_as_owner.\n- chain: each ownership link from the legal owner upward, one link per item, each with its own citation.\n- ultimate_parent: the top of the chain. It may be several entities (joint venture), none (a nonprofit with no owner), or not_established.\n- controlling_person: a natural person or family that controls the ultimate parent, if documented.\n- leader: only the person matching the leader definition given in the question.\n- transactions: deals affecting ownership; keep announced, approved and closed apart.\nRules: every established field must cite at least one source URL with a short verbatim quote copied from that source that supports it. If the evidence does not establish a field, mark it not_established rather than guessing. A name appearing in a filing is not by itself an owner or officer.",
+ "schema": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+   "legal_owner",
+   "operator",
+   "chain",
+   "ultimate_parent",
+   "controlling_person",
+   "leader",
+   "transactions",
+   "uncertainty"
+  ],
+  "properties": {
+   "legal_owner": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "status",
+     "names",
+     "citations"
+    ],
+    "properties": {
+     "status": {
+      "type": "string",
+      "enum": [
+       "established",
+       "not_established"
+      ]
+     },
+     "names": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "citations": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "url",
+        "quote"
+       ],
+       "properties": {
+        "url": {
+         "type": "string"
+        },
+        "quote": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   },
+   "operator": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "status",
+     "names",
+     "citations"
+    ],
+    "properties": {
+     "status": {
+      "type": "string",
+      "enum": [
+       "established",
+       "same_as_owner",
+       "not_established"
+      ]
+     },
+     "names": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "citations": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "url",
+        "quote"
+       ],
+       "properties": {
+        "url": {
+         "type": "string"
+        },
+        "quote": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   },
+   "chain": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "child",
+      "parent",
+      "relation",
+      "citations"
+     ],
+     "properties": {
+      "child": {
+       "type": "string"
+      },
+      "parent": {
+       "type": "string"
+      },
+      "relation": {
+       "type": "string"
+      },
+      "citations": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "url",
+         "quote"
+        ],
+        "properties": {
+         "url": {
+          "type": "string"
+         },
+         "quote": {
+          "type": "string"
+         }
+        }
+       }
+      }
+     }
+    }
+   },
+   "ultimate_parent": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "status",
+     "names",
+     "citations"
+    ],
+    "properties": {
+     "status": {
+      "type": "string",
+      "enum": [
+       "single",
+       "multiple",
+       "none",
+       "not_established"
+      ]
+     },
+     "names": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "citations": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "url",
+        "quote"
+       ],
+       "properties": {
+        "url": {
+         "type": "string"
+        },
+        "quote": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   },
+   "controlling_person": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "status",
+     "names",
+     "citations"
+    ],
+    "properties": {
+     "status": {
+      "type": "string",
+      "enum": [
+       "established",
+       "none",
+       "not_established",
+       "not_applicable"
+      ]
+     },
+     "names": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "citations": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "url",
+        "quote"
+       ],
+       "properties": {
+        "url": {
+         "type": "string"
+        },
+        "quote": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   },
+   "leader": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "status",
+     "name",
+     "role",
+     "entity",
+     "citations"
+    ],
+    "properties": {
+     "status": {
+      "type": "string",
+      "enum": [
+       "established",
+       "not_established"
+      ]
+     },
+     "name": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "role": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "entity": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "citations": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "url",
+        "quote"
+       ],
+       "properties": {
+        "url": {
+         "type": "string"
+        },
+        "quote": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   },
+   "transactions": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "description",
+      "status",
+      "date",
+      "citations"
+     ],
+     "properties": {
+      "description": {
+       "type": "string"
+      },
+      "status": {
+       "type": "string",
+       "enum": [
+        "announced",
+        "approved",
+        "closed",
+        "abandoned",
+        "unknown"
+       ]
+      },
+      "date": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "citations": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "url",
+         "quote"
+        ],
+        "properties": {
+         "url": {
+          "type": "string"
+         },
+         "quote": {
+          "type": "string"
+         }
+        }
+       }
+      }
+     }
+    }
+   },
+   "uncertainty": {
+    "type": "string"
+   }
+  }
+ }
+}
