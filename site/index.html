@@ -28,10 +28,10 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
 mark{background:linear-gradient(transparent 12%, var(--hl) 12%, var(--hl) 88%, transparent 88%);color:inherit;padding:0 .15em}
 
 /* masthead: a filing header */
-header.mast{padding:56px 0 40px;border-bottom:1px solid var(--rule)}
+header.mast{padding:44px 0 36px;border-bottom:1px solid var(--rule)}
 .filed{font-family:var(--sans);font-size:14px;color:var(--muted);margin:0 0 28px;display:flex;flex-wrap:wrap;gap:6px 28px}
 .filed span b{color:var(--ink);font-weight:600}
-h1{font-size:clamp(34px,4.6vw,58px);line-height:1.08;font-weight:600;letter-spacing:-.012em;margin:0;max-width:20ch}
+h1{font-size:clamp(34px,4.9vw,64px);line-height:1.06;font-weight:600;letter-spacing:-.014em;margin:0;max-width:24ch}
 .lede{font-size:21px;line-height:1.55;color:var(--ink2);max-width:62ch;margin:26px 0 0}
 .facts{margin:34px 0 0;display:grid;grid-template-columns:repeat(5,auto);gap:0;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);font-family:var(--sans)}
 .facts div{padding:12px 22px 12px 0}
@@ -91,6 +91,7 @@ ol.sheet li.focal{background:linear-gradient(90deg, rgba(244,224,77,.32), rgba(2
 .register th small{display:block;font-weight:400;color:var(--muted);font-size:12px}
 .register td{padding:14px;border-bottom:1px solid var(--rule2);vertical-align:top}
 .register tbody tr.case{cursor:pointer}
+.register tr[hidden]{display:none!important}
 .register tbody tr.case:hover td{background:#F6F8F5}
 .register tbody tr.case[aria-expanded="true"] td{background:#fff;border-bottom-color:transparent}
 .cname{font-family:var(--serif);font-weight:600;font-size:17px}
@@ -195,7 +196,7 @@ footer b{color:var(--ink)}
  <div class="wrap">
   <p class="filed"><span>Research task: <b>current owner of a US media outlet</b></span><span>Answers due as of <b>October 4, 2026</b></span><span>Measured <b>October 4, 2026</b></span></p>
   <h1>Where the evidence stopped, one model left the owner blank and the other named the parent company.</h1>
-  <p class="lede">Eight US outlets, each with an ownership record checked against public filings and dated sources. Three ways of asking current OpenAI and Gemini models the same question, three passes each, and every citation looked up in the document it points to. One case is traced step by step below, then all eight, then what we would change.</p>
+  <p class="lede">Eight US outlets, each with an ownership record checked against public filings and dated sources. Three ways of asking current OpenAI and Gemini models the same question, three passes each, and each citation behind a right answer looked up in the document it points to. One case is traced step by step below, then all eight, then what we would change.</p>
   <dl class="facts" id="facts"></dl>
  </div>
 </header>
@@ -233,7 +234,7 @@ footer b{color:var(--ink)}
       <dt>Same evidence, other model</dt><dd><span class="tag t-err">Nash Holdings LLC</span> 3 of 3, which is the parent</dd>
       <dt>Native search</dt><dd><span class="tag t-ok">WP Company LLC</span> 3 of 3</dd>
      </dl></div></li>
-    <li class="focal"><h3>First point where the error is observable</h3><div class="body"><p>In the dossier, before any model reads it: <mark>no retrieved document dated after 2013 names the legal entity behind the paper</mark>. Both models then did what their training suggests with a gap. One declined to answer; the other promoted the parent to owner and cited 2013 coverage of the sale.</p></div></li>
+    <li class="focal"><h3>First point where the error is observable</h3><div class="body"><p>In the dossier, before any model reads it: <mark>no retrieved document dated after 2013 names the legal entity behind the paper</mark>. From there the two models part ways. One declines to answer; the other promotes the parent to owner and cites 2013 coverage of the sale.</p></div></li>
     <li><h3>Interventions tested</h3><div class="body"><p>Three, one at a time. A different model on the identical dossier. An extraction step told to follow the chain upward, on the identical documents. And native search instead of the workflow.</p></div></li>
     <li><h3>Result</h3><div class="body"><p>Changing the model turned a blank into a wrong owner. Changing the extraction changed nothing: still blank 3 of 3, still wrong 3 of 3. Native search returned WP Company LLC every time, citing an amicus brief filed October 6, 2025; the passage is in the document:</p><p class="quote">"WP Company LLC d/b/a The Washington Post is a wholly-owned subsidiary of Nash Holdings LLC"</p></div></li>
     <li><h3>What was not corrected</h3><div class="body"><p>The workflow's searches still never ask for the publishing entity, so the gap stays. Native search is a whole recipe, not one setting, so this run cannot say which part of it found the brief: cause not observable. Our own record leans on 2013 filings for this link; no public filing since then documents Nash Holdings' ownership.</p></div></li>
@@ -249,7 +250,7 @@ footer b{color:var(--ink)}
   <table class="register" id="reg">
    <thead><tr>
     <th>Outlet</th>
-    <th>Record as of Oct 4, 2026<small>legal owner, ultimate parent; controller; leader</small></th>
+    <th>Record as of Oct 4, 2026<small>legal owner, ultimate parent, controller, leader</small></th>
     <th>Native search<small>gpt-6.1-sol, web search</small></th>
     <th>Bounded workflow<small>gpt-6.1-sol, recorded dossier</small></th>
     <th>Same evidence, different model<small>gemini-3.8-flash, no tools</small></th>
@@ -275,7 +276,7 @@ footer b{color:var(--ink)}
     <ul>
      <li>Accuracy in production. Eight cases are enough to see failure modes, not to rank providers.</li>
      <li>The consumer apps. The same questions in ChatGPT and the Gemini app, on four cases picked before the run (Washington Post, WFAA, KRZZ, KPFA), have not been run yet.</li>
-     <li>Batch, concurrency and retries. Calls ran a few at a time; none timed out and none needed a retry.</li>
+     <li>Batch, concurrency and retries. Calls ran up to eight at a time; none timed out and none needed a retry.</li>
      <li>Gemini's own search. Google's terms bar analyzing or redistributing grounded results, so Gemini is tested only on reading the workflow's documents.</li>
      <li>Who checked the record: two separate AI agent passes over public sources, not a person. One disagreement (the Pacifica executive director) was settled before any answer was scored.</li>
     </ul>
@@ -341,7 +342,7 @@ const tb=$("#reg tbody");
 D.rows.forEach(r=>{
  const tr=document.createElement("tr");tr.className="case";tr.tabIndex=0;tr.setAttribute("aria-expanded","false");
  tr.innerHTML=`<td class="c0"><div class="cname">${esc(r.name)}${r.reused?'<span class="reused">from our Oakland study</span>':""}</div><div class="cmeta">${esc(r.market||"")}</div><div class="cmeta">${esc(r.structure)}</div></td>
- <td class="c1 refl">${esc(r.ref.owner)} <span class="arrow">to</span> ${esc(r.ref.parent)}<br><span class="dim">Controller: ${esc(r.ref.control)}. Leader: ${esc(r.ref.leader)}.</span></td>
+ <td class="c1 refl">${esc(r.ref.owner)}<br><span class="dim">Parent:</span> ${esc(r.ref.parent)}<br><span class="dim">Controller: ${esc(r.ref.control)}. Leader: ${esc(r.ref.leader)}.</span></td>
  <td class="cA">${marks(r.arms.A)}</td><td class="cB">${marks(r.arms.B)}</td><td class="cC">${marks(r.arms.C)}</td><td class="cx"><span class="chev">Answers</span></td>`;
  const dt=document.createElement("tr");dt.className="detail";dt.hidden=true;dt.innerHTML=`<td colspan="6">${detail(r)}</td>`;
  const toggle=()=>{const o=tr.getAttribute("aria-expanded")==="true";tr.setAttribute("aria-expanded",String(!o));dt.hidden=o;tr.querySelector(".chev").textContent=o?"Answers":"Close";};
@@ -380,7 +381,7 @@ const R=[
   "That the check still catches the real one in this set: ESPN's two fact sheets, 80/20 and 72/18/10."],
  ["Turn old evidence into one targeted search, not a blank",
   `${L.B.solving} of the workflow's ${S.B.gap_avoidable} avoidable blanks had the answer in the dossier; the solver declined because its only source was dated.`,
-  "Let the solver return “supported as of <date>” for a link, and send that link alone to a search restricted to newer documents.",
+  "Let the solver mark a link “supported only by a source older than the target date”, and send that link alone to a search restricted to newer documents.",
   "Washington Post (2013 agreement), KPFA (2024 board record)",
   `Whether that one search finds the newer source for less than native search's ${D.search.median} searches per answer.`],
  ["Check every citation mechanically before a field is accepted",

@@ -21,12 +21,25 @@ Page: https://theaipipe.com/demos/media-ownership-bench/
 Gemini Search grounding is not used: the Gemini API terms say Grounded Results may not be cached, syndicated,
 analyzed or otherwise learned from, which rules out publishing and scoring them here.
 
+## Results (October 4, 2026; recomputed by `bench/score.py`)
+| | Native search (A) | Bounded workflow (B) | Same evidence, gemini-3.8-flash (C) |
+|---|---|---|---|
+| Cases complete at all 3 passes | 3/8 | 1/8 | 1/8 |
+| Complete supported passes | 11/24 | 3/24 | 4/24 |
+| Passes with an asserted wrong value | 2 | 0 | 3 |
+| Avoidable blanks (fields) | 4 | 42 | 33 |
+| Cost per attempt | $0.23 | $0.09 (incl. Exa) | $0.08 (reconstructed: B retrieval and extraction + C solve) |
+
+Variants: B2/C2 (extraction told to follow the chain upward, same documents) left B at 3/24 and C at 5/24.
+Control without search: 0/8, no wrong value, 28 of 32 fields blank. Total spend $11.16
+(OpenAI $9.73, Gemini $0.97, Exa $0.46), including a $0.58 pilot on a development case.
+
 ## Layout
 - `reference/cases.json` the eight scored cases and two development cases (schema, sources with four dates)
 - `reference/grid.json` scoring rules and aliases, frozen before any scored run (see git history)
 - `reference/verification.json` the independent second pass over the reference
 - `reference/adjudications.json` decisions taken after measurement, each with its reason
-- `bench/` harness (`run.py`, `arms.py`, `common.py`) and scorer (`score.py`)
+- `bench/` harness (`run.py`, `arms.py`, `common.py`), scorer (`score.py`), failure location (`locate.py`), page build (`build_page.py`)
 - `runs/A|B|C|bare/` every output, with usage, cost, latency, search counts; `runs/ledger.jsonl` every billed call;
   `runs/scores.json` the recomputed scores; `runs/errors.jsonl` failures
 
