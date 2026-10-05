@@ -135,7 +135,11 @@ tfoot td .usd{font-weight:400}
 .finding .where{font-family:var(--sans);font-size:13px;color:var(--muted)}
 .stages{display:flex;height:22px;margin:10px 0 6px;border:1px solid var(--ink)}
 .stages div{height:100%;display:flex;align-items:center;padding-left:6px;font-family:var(--sans);font-size:12px;white-space:nowrap;overflow:hidden}
-.stages .s1{background:#fff} .stages .s2{background:#E3E7E4} .stages .s3{background:var(--hl)}
+.stages .s1{background:#fff} .stages .s2{background:#AEB7B1} .stages .s3{background:var(--hl)}
+.stagekey{display:flex;flex-wrap:wrap;gap:4px 18px;font-family:var(--sans);font-size:12.5px;color:var(--ink2);margin:0 0 8px}
+.stagekey i{display:inline-block;width:11px;height:11px;border:1px solid var(--ink);margin-right:6px;vertical-align:-1px}
+.stagekey .k1{background:#fff}.stagekey .k2{background:#AEB7B1}.stagekey .k3{background:var(--hl)}
+.stages div+div{border-left:1px solid var(--ink)}
 
 /* section 3 */
 .recs{list-style:none;margin:0;padding:0;counter-reset:r}
@@ -375,7 +379,8 @@ const pct=n=>(100*n/tl).toFixed(2)+"%";
 $("#findings").innerHTML=`
 <div class="finding"><h3>The workflow's blanks were mostly not a search problem</h3>
 <p>The bounded workflow asserted no wrong value in 24 passes, and left ${S.B.gap_avoidable} fields blank that the record establishes. Tracing each blank back by name: the answer was in no document ${L.B.retrieval} times, in a document but dropped by extraction ${L.B.extraction} times, and ${L.B.solving} blanks reached the solver: ${R0.no_controller} were "no controller", which it would not assert; ${R0.dated_source_only} had only a dated source; ${R0.parent_not_chained} were parents it did not chain up to.</p>
-<div class="stages" aria-hidden="true"><div class="s1" style="width:${pct(L.B.retrieval)}">not retrieved</div><div class="s2" style="width:${pct(L.B.extraction)}" title="dropped by extraction">extraction</div><div class="s3" style="width:${pct(L.B.solving)}">reached the solver, still blank</div></div>
+<div class="stages" aria-hidden="true"><div class="s1" style="width:${pct(L.B.retrieval)}"></div><div class="s2" style="width:${pct(L.B.extraction)}"></div><div class="s3" style="width:${pct(L.B.solving)}"></div></div>
+<div class="stagekey"><span><i class="k1"></i>not retrieved, ${L.B.retrieval}</span><span><i class="k2"></i>dropped by extraction, ${L.B.extraction}</span><span><i class="k3"></i>reached the solver, ${L.B.solving}</span></div>
 <p class="where">Dated source: the Post's publishing company appears only in a 2013 agreement; Pacifica's executive director only in a 2024 board record.</p></div>
 <div class="finding"><h3>Same evidence, different model</h3>
 <p>Given the identical dossiers, gemini-3.8-flash left ${S.C.gap_avoidable} fields blank instead of ${S.B.gap_avoidable}, and asserted a wrong value in ${S.C.errors} passes instead of ${S.B.errors}. Complete passes: ${S.C.complete} of 24 against ${S.B.complete}. Swapping the solver traded blanks for errors; it did not fill the gaps.</p>
