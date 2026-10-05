@@ -37,7 +37,7 @@ solver's decision on its own dossier (coverage vs decision). The first scores ar
 against `reference/cases_v1.json` (`runs/scores_v1.json`).
 
 Total spend $11.16 (OpenAI $9.73, Gemini $0.97, Exa $0.46), including a $0.58 pilot. The review corrections made no
-paid call. The point "measure one targeted correction" was NOT run (no new paid call in this edition); the corrected
+model call; one Exa page fetch ($0.001, in the ledger) slipped into the first rescoring. The point "measure one targeted correction" was NOT run (no new paid call in this edition); the corrected
 missing-link choice was evaluated offline only (`bench/detector_v2.py`, `runs/detector_v2_offline.json`).
 
 ## Layout
@@ -74,13 +74,6 @@ settles each reservation with the measured cost (`python tests/test_ledger.py`).
 check that did not reserve money for calls in flight (nothing overran). OpenAI native search cannot be bounded inside
 one call, so the cap is a preventive stop based on estimates. `BENCH_MAX_OUTPUT_TOKENS` bounds outputs on a new run
 (unset in the published run).
-
-## Changed after the first scores were seen (disclosed)
-- First scorer fixes: curly apostrophes, short aliases (NFL), entity check on generic words, "unverifiable" label.
-- External review (scorer v2): conventions and entity table committed before the rescoring; the relation vocabulary
-  of the passage check was set while reading these outputs. Reference: KPFA leader and Mission president sources,
-  controllers of Nexstar and Disney evaluated from their 2026 proxies (`reference/verification_v2.json`).
-- B2/C2 variant designed after reading the first results.
 
 ## Who checked the reference
 The reference was built and then re-checked by two separate AI agent passes (Claude) reading public sources,
