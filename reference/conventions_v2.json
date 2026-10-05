@@ -1,0 +1,32 @@
+{
+ "_note": "Correction a posteriori (external review, 2026-10-04), frozen and committed before the rescoring. Three separate notions per case: media_group (the operating media company the outlet belongs to), control_top (the entity at the top of the documented control chain), controller (natural person or family exercising control, or none). Scored fields: legal owner; parent; controller; leader. Parent convention, uniform: the parent answer is right when every entity it names lies on the documented chain from the media group up to the top of the control chain; a natural person or family is accepted as parent only where a primary source designates it the ultimate parent. Several parents (ESPN): the controlling branch must be named, other names must be real branches, each named branch needs its own passage. Controller of a widely held company: 'none', when its latest proxy shows no controlling holder (evaluated for Disney and Nexstar).",
+ "cases": {
+  "kfrc": {"owner": ["audacy_license"], "media_group": "audacy_inc", "control_top": "fund_policy_reform",
+           "parent_ok": ["audacy_inc", "laurel_tree", "fpr_capital", "fund_policy_reform"],
+           "controller": {"status": "none", "ids": []}, "leader": {"status": "established", "ids": ["kelli_turner"], "role": "chief executive|ceo"}},
+  "krzz": {"owner": ["krzz_licensing"], "media_group": "sbs", "control_top": "sbs", "parent_ok": ["sbs"],
+           "controller": {"status": "not_established", "ids": [], "accept_also": ["raul_alarcon"], "note": "Raúl Alarcón's voting control is documented in 2019 SEC filings only; the reorganization awaits FCC consent."},
+           "leader": {"status": "established", "ids": ["raul_alarcon"], "role": "chief executive|ceo"}},
+  "kpix": {"owner": ["cbs_broadcasting"], "media_group": "paramount_skydance", "control_top": "ellison_family",
+           "parent_ok": ["paramount_skydance", "harbor_lights", "pinnacle", "ellison_family", "david_ellison", "larry_ellison"],
+           "parent_note": "Paramount Skydance 10-Qs (May and August 2026): 'the Ellison Family is the controlling stockholder and the ultimate parent of Paramount'; the family is Lawrence J. Ellison and David Ellison.",
+           "controller": {"status": "established", "ids": ["ellison_family", "david_ellison", "larry_ellison"]},
+           "leader": {"status": "established", "ids": ["david_ellison"], "role": "chief executive|ceo"}},
+  "wfaa": {"owner": ["wfaa_tv_inc"], "media_group": "nexstar_group", "control_top": "nexstar_group", "parent_ok": ["nexstar_group"],
+           "controller": {"status": "none", "ids": [], "note": "Nexstar 2026 proxy: Vanguard 11.0%, BlackRock 10.5%, Perry A. Sook 6.1%; no controlling holder."},
+           "leader": {"status": "established", "ids": ["perry_sook"], "role": "chief executive|ceo"}},
+  "wfxp_mission": {"owner": ["mission"], "media_group": "mission", "control_top": "mission", "parent_ok": ["mission"], "self_owned": true,
+           "controller": {"status": "established", "ids": ["nancie_smith"]},
+           "leader": {"status": "established", "ids": ["dennis_thatcher"], "role": "president", "note": "Official Mission page dated 2024-01-30, the latest dated; no later change found."}},
+  "wapo": {"owner": ["wp_company"], "media_group": "wp_company", "control_top": "nash_holdings", "parent_ok": ["nash_holdings"],
+           "controller": {"status": "established", "ids": ["jeff_bezos"]},
+           "leader": {"status": "established", "ids": ["jeff_donofrio"], "role": "publisher|chief executive|ceo"}},
+  "espn": {"owner": ["espn"], "media_group": "disney", "control_top": "disney", "parent_ok": ["disney"],
+           "branches": {"disney": ["disney"], "hearst": ["hearst", "hearst_family_trust"], "nfl": ["nfl", "nfl_clubs"]}, "controlling_branch": "disney",
+           "controller": {"status": "none", "ids": [], "definition": "controller through the controlling (Disney) branch", "note": "Disney 2026 proxy: no holder above 5% except Vanguard 8.5% and BlackRock 6.9%."},
+           "leader": {"status": "established", "ids": ["jimmy_pitaro"], "role": "chairman"}},
+  "kpfa": {"owner": ["pacifica"], "media_group": "pacifica", "control_top": "pacifica", "parent_ok": ["pacifica"], "self_owned": true,
+           "controller": {"status": "none", "ids": []},
+           "leader": {"status": "established", "ids": ["stephanie_wells"], "role": "executive director"}}
+ }
+}

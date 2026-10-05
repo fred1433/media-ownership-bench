@@ -1,0 +1,201 @@
+{
+ "verified_at": "2026-10-05T01:05:26+00:00",
+ "verifier": "agent (Claude), primary sources",
+ "items": {
+  "pskY_sec_ellison": {
+   "claim": "Paramount Skydance SEC filings describe the Ellison family as 'controlling stockholder and the ultimate parent of Paramount'; identify the direct controlling stockholder and the RedBird stake.",
+   "verdict": "confirmed",
+   "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000026/R8.htm ; https://www.sec.gov/Archives/edgar/data/2041610/000204161026000054/psky-20260630.htm",
+   "doc_date": "R8.htm = 10-Q for quarter ended 2026-03-31 (filed 2026-05-04); psky-20260630.htm = 10-Q for quarter ended 2026-06-30 (filed 2026-08-04)",
+   "quote": "Following the closing of the Skydance Transactions and the NAI Transaction, NAI, which was renamed Harbor Lights Entertainment, Inc., and its subsidiaries held 100.0 % of the Paramount Skydance Corporation Class A Common Stock. Accordingly, entities controlled by the Ellison Family indirectly hold approximately 77.5 % of the Paramount Skydance Corporation Class A Common Stock through their collective approximate 77.5 % ownership interest in Harbor Lights Entertainment, Inc., and as a result the Ellison Family is the controlling stockholder and the ultimate parent of Paramount (“Ultimate Parent”). [Q2 10-Q, Related Parties:] At June 30, 2026 , the Ellison Family, the controlling stockholder of Paramount, indirectly held approximately 77.5 % of our voting Class A Common Stock through their collective approximate 77.5 % ownership interest in Harbor Lights Entertainment, Inc. (f/k/a National Amusements, Inc.) and 47.2 % of our Class A and non-voting Class B Common Stock on a combined basis. [Both 10-Qs:] For the purpose of determining the controlling ownership of Paramount, the Ellison family is comprised of Lawrence J. Ellison and David Ellison (the “Ellison Family”).",
+   "note": "Sentence identical in Q1 (R8, uses 'hold') and Q2 10-Q (uses 'held'). Direct holder of 100% of PSKY voting Class A = Harbor Lights Entertainment, Inc. (f/k/a National Amusements, Inc.) 'and its subsidiaries'. Harbor Lights is owned ~77.5% by Ellison-controlled entities and the rest by RedBird affiliates; the 10-Qs do not state RedBird's % nor name Pinnacle Media. FCC 25-43 (2025-07-24 order): 'NAI ... will be acquired by Pinnacle Media Ventures, LLC, Pinnacle Media Ventures II, LLC, and Pinnacle Media Ventures III, LLC (collectively, Pinnacle Media), entities owned and controlled by members of the Ellison family' and 'RB Tentpole LP, a fund vehicle controlled by RedBird Capital Partners ... with Pinnacle Media expected to hold approximately 77.5% of such interests and RedBird expected to hold the remaining approximately 22.5% of such interests.' FCC 25-43 also: 'David Ellison ... is the sole manager of, and holds 64.5% of the voting interests in, the Ellison Family entities that control Pinnacle Media ... The remaining 35.5% ... is held by Sayonara, LLC (Sayonara), which is ultimately controlled by Larry Ellison through a revocable voting trust.' Q2 10-Q on the pending WBD merger: 'Following the closing, the Ellison Family (as defined below) and RedBird will remain the sole holders of Paramount Class A Common Stock, representing 100 % of the voting shares of Paramount.'"
+  },
+  "kpix_licensee_chain": {
+   "claim": "CBS Broadcasting Inc. (KPIX-TV licensee) is a subsidiary of Paramount Global, itself a subsidiary of Paramount Skydance Corporation.",
+   "verdict": "confirmed",
+   "url": "https://docs.fcc.gov/public/attachments/FCC-25-43A1.txt ; https://www.sec.gov/Archives/edgar/data/2041610/000204161026000011/psky2025q4_ex21-subsidiari.htm ; https://www.sec.gov/Archives/edgar/data/2041610/000204161026000054/psky-20260630.htm",
+   "doc_date": "FCC 25-43 (2025-07); Exhibit 21 as of 2026-01-31 (10-K filed 2026-02-25); 10-Q filed 2026-08-04",
+   "quote": "[FCC 25-43 Appendix] KPIX‐TV San Francisco, CA 0000252527 CBS Broadcasting Inc. 25452 ... [FCC 25-43] we must determine whether the proposed transfer of control to Skydance of licenses and authorizations held and controlled by wholly-owned subsidiaries of Paramount will serve the public interest ... [Ex. 21] Subsidiaries of Paramount Skydance Corporation (as of January 31, 2026) ... CBS Broadcasting Inc. New York ... Paramount Global Delaware ... [10-Q] Paramount Global and Skydance became wholly- owned subsidiaries of Paramount Skydance Corporation",
+   "note": "Confirmed: CBS Broadcasting Inc. (NY) is a wholly-owned subsidiary of Paramount Global (FCC 25-43, where 'Paramount' = Paramount Global pre-closing) and appears in PSKY's subsidiary list; Paramount Global is a wholly-owned subsidiary of PSKY. Exhibit 21 is a flat list, so any intermediate holding company between Paramount Global and CBS Broadcasting Inc. is not documented here."
+  },
+  "disney_proxy_5pct": {
+   "claim": "Disney 2026 proxy: no person beneficially owns >5% except as noted; holders Vanguard and BlackRock.",
+   "verdict": "confirmed",
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000013/dis-20260122.htm",
+   "doc_date": "DEF 14A, 2026 annual meeting proxy (shares as of 2026-01-15)",
+   "quote": "Based on a review of filings with the SEC, the Company has determined that the following persons hold more than 5% of the outstanding shares of Disney common stock. Applicable percentage ownership is based on 1,771,884,175 shares outstanding as of January 15, 2026. To our knowledge, except as noted below, no person or entity is the beneficial owner of more than 5% of the voting power of the Company’s stock. Name and Address of Beneficial Owner Shares (#) Percent of Class The Vanguard Group 100 Vanguard Blvd. Malvern, PA 19355 151,434,588 1 8.5% Blackrock, Inc. 55 East 52nd Street New York, NY 10055 122,883,021 2 6.9%",
+   "note": "Only two >5% holders, both index managers (Vanguard sole voting power over no shares): no controlling person for Disney."
+  },
+  "mission_president": {
+   "claim": "Official Mission Broadcasting site names Dennis P. Thatcher as President.",
+   "verdict": "confirmed",
+   "url": "https://missionbroadcastinginc.com/2024/01/30/mission-broadcasting-and-dish-network-reach-multi-year-distribution-agreement/",
+   "doc_date": "2024-01-30 (latest dated official page found naming him)",
+   "quote": "Dennis Thatcher, President of Mission Broadcasting remarked: “We are delighted to have reached a new distribution agreement with DISH Network, and we look forward to continuing our long-standing relationship.” ... Media Contact: Dennis Thatcher President, Mission Broadcasting, Inc.",
+   "note": "Site writes 'Dennis Thatcher' (no middle initial 'P.'). Same page: 'Mission’s majority shareholder is Nancie J. Smith'. The site's homepage shows nothing more recent than 2021; the 2024-01-30 release is the latest dated confirmation; nothing found as of 2026. Nexstar 10-K FY2025 exhibit list still cites the Stock Option Agreement 'by and among Mission Broadcasting, Inc., Nancie J. Smith, Dennis Thatcher and Nexstar Broadcasting, Inc.' (shareholder agreement, does not give his title)."
+  },
+  "pacifica_wells_2026": {
+   "claim": "Making Contact page (July 2026) and pacifica.org contact page name Stephanie Wells executive director of the Pacifica Foundation.",
+   "verdict": "confirmed",
+   "url": "https://makingcontactradio.org/2026/07/pacifica-foundation-to-continue-the-legacy-of-making-contact/ ; https://www.pacifica.org/contact_home.php",
+   "doc_date": "Making Contact article published 2026-07-01 (article:published_time 2026-07-01T11:00:47+00:00); pacifica.org contact page undated, read 2026-10-04",
+   "quote": "“The Pacifica Foundation’s values and network make it a natural home for Making Contact ,” said Stephanie Wells, executive director of the Pacifica Foundation. ... Contact: Stephanie Wells Executive Director ed@pacifica.org | (818) 322-4764  ||  [pacifica.org/contact_home.php] Contact Pacifica Pacifica Foundation 2209 E Baseline Rd. Suite 300-242 Claremont, CA 91711 818-322-8154 ... Executive Director: Stephanie Wells Email: ed at pacifica.org",
+   "note": "The contact page is pacifica.org/contact_home.php (contact.php returns 404). The pacifica.org homepage source still contains commented-out 'Seeking Executive Director' and a 2021 ED application notice (old, not rendered). Homepage also links an IRS reinstatement letter file named IRS_Reinstatement_APPROVED_260813.pdf ('Pacifica Non Profit Status Affirmed'), not opened."
+  }
+ },
+ "three_notions": {
+  "kfrc": {
+   "media_group": {
+    "value": "Audacy, Inc.",
+    "source": "https://docs.fcc.gov/public/attachments/FCC-24-94A1.txt",
+    "quote": "Laurel Tree Opportunities Corporation (Laurel Tree) is expected to hold a controlling, attributable interest in the reorganized company, holding 57% or greater of the Class A New Common Stock of Reorganized Audacy.",
+    "note": "Licensee Audacy License, LLC, wholly owned within Reorganized Audacy."
+   },
+   "control_top": {
+    "value": "Fund for Policy Reform (Delaware not-for-profit charitable trust), via FPR Capital Holdings LLC and Laurel Tree Opportunities Corporation",
+    "source": "https://docs.fcc.gov/public/attachments/FCC-24-94A1.txt",
+    "quote": "the sole voting shareholder of Laurel Tree will be FPR Capital Holdings LLC (FPR Capital), a Delaware limited liability company, the sole member and manager of which is Fund for Policy Reform, a Delaware not-for-profit charitable trust.",
+    "note": "Last documented state (FCC grant 2024-09-30); not re-verified for 2026."
+   },
+   "controller": {
+    "value": "none",
+    "source": "https://docs.fcc.gov/public/attachments/FCC-24-94A1.txt",
+    "quote": "The Applicant states that The Fund for Policy Reform’s board of trustees is self-perpetuating, with no entity or individual possessing the right to appoint or remove any trustee. Rather, upon an opening in the board, the remaining trustees select the replacement.",
+    "note": "Trustees: Leonard Banchon, Maryann Canfield, Alexander Soros, Michael Vachon."
+   }
+  },
+  "krzz": {
+   "media_group": {
+    "value": "Spanish Broadcasting System, Inc. (debtor-in-possession)",
+    "source": "https://docs.fcc.gov/public/attachments/DA-26-933A1.txt",
+    "quote": "On July 16, 2026, the licensee subsidiaries of Spanish Broadcasting System, Inc. (SBS or Petitioner) filed applications ... seeking consent to their transfer of control to implement the Joint Pre-Packaged Chapter 11 Plan of Reorganization",
+    "note": "DA 26-933 released 2026-09-02; petition-to-deny date 2026-10-02, reply 2026-10-26: transfer NOT granted as of 2026-10-04."
+   },
+   "control_top": {
+    "value": "Spanish Broadcasting System, Inc. (pre-reorganization; existing stock not yet cancelled)",
+    "source": "https://docs.fcc.gov/public/attachments/DA-26-933A1.txt",
+    "quote": "Upon emergence from bankruptcy, all the existing capital stock of SBS will be cancelled ... Following the transfer of control of the licensee subsidiaries of SBS, no single person or entity, or group of commonly controlled persons or entities, will hold 50% or more of the stock or have the right to elect 50% or more of the new board of directors of Reorganized SBS.",
+    "note": "After emergence the top would be Reorganized SBS with no controlling holder; not yet the case on 2026-10-04."
+   },
+   "controller": {
+    "value": "Raúl Alarcón (last primary documentation dated 2019; presumed still valid until the plan is consummated)",
+    "source": "https://www.sec.gov/Archives/edgar/data/927720/000156459020014282/sbsaa-ex46_216.htm",
+    "quote": "Raúl Alarcón’s Majority Control Raúl Alarcón, Chairman of our Board, Chief Executive Officer and President, beneficially owns shares of common stock representing approximately 85% of the combined voting power of our outstanding shares of common stock as of December 31, 2019. As a result, Mr. Alarcón generally has the ability to control the outcome of all m[atters]",
+    "note": "SEC 10-K Ex. 4.6 filed 2020. No 2026 primary statement of his voting % found (SBS no longer files with the SEC); the 2026 RSA press release only says he continues as CEO and Chairman 'through the consummation of the restructuring'. Treat as 'established as of 2019, likely current'; a grader could reasonably also accept 'not established'."
+   }
+  },
+  "kpix": {
+   "media_group": {
+    "value": "Paramount Skydance Corporation (via Paramount Global / CBS)",
+    "source": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000054/psky-20260630.htm",
+    "quote": "Paramount Global and Skydance became wholly- owned subsidiaries of Paramount Skydance Corporation",
+    "note": "Licensee CBS Broadcasting Inc. WBD merger expected to close 2026-10-06, after target date."
+   },
+   "control_top": {
+    "value": "Harbor Lights Entertainment, Inc. (f/k/a National Amusements, Inc.), 100% of PSKY Class A; itself ~77.5% Ellison-family entities (Pinnacle Media Ventures I-III per FCC) and ~22.5% RedBird (RB Tentpole LP)",
+    "source": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000054/psky-20260630.htm ; https://docs.fcc.gov/public/attachments/FCC-25-43A1.txt",
+    "quote": "Following the closing of the Skydance Transactions and the NAI Transaction, NAI, which was renamed Harbor Lights Entertainment, Inc., and its subsidiaries held 100.0 % of the Paramount Skydance Corporation Class A Common Stock. Accordingly, entities controlled by the Ellison Family indirectly hold approximately 77.5 % of the Paramount Skydance Corporation Class A Common Stock through their collective approximate 77.5 % ownership interest in Harbor Lights Entertainment, Inc., and as a result the Ellison Family is the controlling stockholder and the ultimate parent of Paramount (“Ultimate Parent”).",
+    "note": "The filing itself calls the Ellison Family 'the ultimate parent of Paramount'; if control_top must be an entity, Harbor Lights; if natural persons allowed, the Ellison Family."
+   },
+   "controller": {
+    "value": "Ellison Family (Lawrence J. Ellison and David Ellison); David Ellison holds 64.5% of the voting interests of the Ellison entities",
+    "source": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000054/psky-20260630.htm ; https://docs.fcc.gov/public/attachments/FCC-25-43A1.txt",
+    "quote": "For the purpose of determining the controlling ownership of Paramount, the Ellison family is comprised of Lawrence J. Ellison and David Ellison (the “Ellison Family”). || [FCC 25-43] David Ellison, New Paramount’s Chairman and CEO, is the sole manager of, and holds 64.5% of the voting interests in, the Ellison Family entities that control Pinnacle Media and, thus, NAI and New Paramount."
+   }
+  },
+  "wfaa": {
+   "media_group": {
+    "value": "Nexstar Media Group, Inc. (via TEGNA Inc.; licensee WFAA-TV, Inc.)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1142417/000114241726000016/nxst-20260430.htm",
+    "quote": "we estimate that the shares requested under the 2026 Plan will be sufficient ... including the impact of our recent acquisition of TEGNA",
+    "note": "Closing also per nexstar.tv release in cases.json (S3)."
+   },
+   "control_top": {
+    "value": "Nexstar Media Group, Inc. (widely held public company)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1142417/000114241726000016/nxst-20260430.htm",
+    "quote": "Beneficial Owners of More Than 5%: The Vanguard Group (1) 3,370,415 11.0% BlackRock, Inc. (2) 3,207,431 10.5% Perry A. Sook (3) 1,862,765 6.1%",
+    "note": "2026 proxy (filed 2026-04-30); percentages computed before/around the TEGNA share effects; Vanguard figure from a 2024 13G."
+   },
+   "controller": {
+    "value": "none (largest holders are index managers at ~11% and ~10.5%; CEO Perry Sook 6.1%)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1142417/000114241726000016/nxst-20260430.htm",
+    "quote": "Beneficial Owners of More Than 5%: The Vanguard Group (1) 3,370,415 11.0% BlackRock, Inc. (2) 3,207,431 10.5% Perry A. Sook (3) 1,862,765 6.1%"
+   }
+  },
+  "wfxp_mission": {
+   "media_group": {
+    "value": "Mission Broadcasting, Inc. (licensee and owner; stations operated with Nexstar under local service agreements and consolidated by Nexstar as VIEs)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1142417/000119312526078361/nxst-20251231.htm",
+    "quote": "Of the 201 full power television stations, 37 are 100% independently owned by VIEs. We consolidate 35 of these VIEs (the “consolidated VIEs”) in our financial statements. In compliance with FCC regulations for all the parties, all VIEs maintain responsibility for and control over programming, finances, personnel and operations of their stations.",
+    "note": "Nexstar holds purchase options on Mission stations (10-Q, cases.json S4). 'Nexstar' is a plausible but legally wrong media_group."
+   },
+   "control_top": {
+    "value": "Mission Broadcasting, Inc.",
+    "source": "https://missionbroadcastinginc.com/2024/01/30/mission-broadcasting-and-dish-network-reach-multi-year-distribution-agreement/",
+    "quote": "Mission’s majority shareholder is Nancie J. Smith, who is the leading female owner of broadcast television stations in the U.S."
+   },
+   "controller": {
+    "value": "Nancie J. Smith (majority shareholder; exact 51% not found in a primary source)",
+    "source": "https://missionbroadcastinginc.com/2024/01/30/mission-broadcasting-and-dish-network-reach-multi-year-distribution-agreement/",
+    "quote": "Mission’s majority shareholder is Nancie J. Smith",
+    "note": "Dated 2024-01-30; '51%' unverified."
+   }
+  },
+  "wapo": {
+   "media_group": {
+    "value": "WP Company LLC (The Washington Post), owned by Nash Holdings LLC",
+    "source": "https://www.sec.gov/Archives/edgar/data/104889/000010488913000040/dex991.htm",
+    "quote": "On October 1, 2013, The Washington Post Company (the Company) completed the sale of WP Company LLC, Express Publications Company, LLC, El Tiempo Latino LLC, ... to Nash Holdings LLC (the Purchaser)."
+   },
+   "control_top": {
+    "value": "Nash Holdings LLC",
+    "source": "https://www.sec.gov/Archives/edgar/data/104889/000010488913000040/dex991.htm",
+    "quote": "completed the sale of WP Company LLC ... to Nash Holdings LLC (the Purchaser)",
+    "note": "2013 document; no later primary source on Nash Holdings' ownership opened."
+   },
+   "controller": {
+    "value": "Jeff Bezos (Jeffrey P. Bezos)",
+    "source": "https://www.sec.gov/Archives/edgar/data/104889/000095015713000294/ex99-1.htm",
+    "quote": "The Washington Post Company (NYSE: WPO) announced today that it has signed a contract to sell its newspaper publishing businesses, including The Washington Post newspaper, to Jeffrey P. Bezos. The purchaser is an entity that belongs to Mr. Bezos in his individual capacity and is not Amazon.com, Inc.",
+    "note": "Dated 2013-08-05; current ownership by Bezos per secondary 2026 press (cases.json S3)."
+   }
+  },
+  "espn": {
+   "media_group": {
+    "value": "The Walt Disney Company",
+    "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm",
+    "quote": "Following the NFL Transaction, the Company has an effective 72 % interest in ESPN and Hearst Corporation has an 18 % interest."
+   },
+   "control_top": {
+    "value": "The Walt Disney Company (72%; Hearst 18%, NFL 10% noncontrolling); Disney itself widely held",
+    "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm ; https://www.sec.gov/Archives/edgar/data/1744489/000174448926000013/dis-20260122.htm",
+    "quote": "On January 31, 2026, ESPN acquired NFL Network and certain other media assets owned and controlled by NFL Enterprises LLC ... in exchange for a 10 % noncontrolling interest in ESPN (the NFL Transaction). || [proxy] To our knowledge, except as noted below, no person or entity is the beneficial owner of more than 5% of the voting power of the Company’s stock.",
+    "note": "Reference in cases.json lists Disney, Hearst and NFL as 'multiple' ultimate parents; the 10-Q calls NFL's stake 'noncontrolling', which supports Disney alone as control_top."
+   },
+   "controller": {
+    "value": "none (Disney widely held: Vanguard 8.5%, BlackRock 6.9%)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000013/dis-20260122.htm",
+    "quote": "The Vanguard Group ... 8.5% Blackrock, Inc. ... 6.9%"
+   }
+  },
+  "kpfa": {
+   "media_group": {
+    "value": "Pacifica Foundation, Inc. (Pacifica Radio network)",
+    "source": "https://transition.fcc.gov/fcc-bin/fmq?call=KPFA&list=4 ; https://makingcontactradio.org/2026/07/pacifica-foundation-to-continue-the-legacy-of-making-contact/",
+    "quote": "|KPFA |94.1 MHz |FM |... |BERKELEY |CA |... |PACIFICA FOUNDATION, INC. || Pacifica’s KPFA"
+   },
+   "control_top": {
+    "value": "Pacifica Foundation, Inc. (501(c)(3) nonprofit, no shareholders)",
+    "source": "https://transition.fcc.gov/fcc-bin/fmq?call=KPFA&list=4 ; https://www.pacifica.org/contact_home.php",
+    "quote": "Contact Pacifica Pacifica Foundation 2209 E Baseline Rd. Suite 300-242 Claremont, CA 91711 ... Executive Director: Stephanie Wells",
+    "note": "Nonprofit status: pacifica.org links an IRS reinstatement letter (file dated 2026-08-13, not opened)."
+   },
+   "controller": {
+    "value": "none (nonprofit governed by the Pacifica National Board; no owner)",
+    "source": "https://www.pacifica.org/contact_home.php",
+    "quote": "Executive Director: Stephanie Wells",
+    "note": "Wells is the executive, not a controller; no person controls a membership nonprofit."
+   }
+  }
+ }
+}

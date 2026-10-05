@@ -434,7 +434,8 @@
      ],
      "evidence": [
       "S3"
-     ]
+     ],
+     "note_v2": "Paramount Skydance 10-Q (2026): 'the Ellison Family is the controlling stockholder and the ultimate parent of Paramount'. See conventions_v2.json."
     },
     "controlling_person": {
      "status": "established",
@@ -630,9 +631,10 @@
      ]
     },
     "controlling_person": {
-     "status": "not_established",
+     "status": "none",
      "names": [],
-     "evidence": []
+     "evidence": [],
+     "note_v2": "Evaluated after the review from the latest proxy: {\"value\": \"none (largest holders are index managers at ~11% and ~10.5%; CEO Perry Sook 6.1%)\", \"source\": \"https://www.sec.gov/Archives/edgar/data/1142417/000114241726000016/nxst-20260430.htm\", \"quote\": \"Beneficial Owners of More Than 5%: The Vanguard Group (1) 3,370,415 11.0% BlackRock, Inc. (2) 3,207,431 10.5% Perry A. Sook (3) 1,862,765 6.1%\"}"
     },
     "leader": {
      "name": "Perry Sook",
@@ -825,11 +827,15 @@
      "name": "Dennis Thatcher",
      "role": "President",
      "entity": "Mission Broadcasting, Inc.",
-     "as_of": "2024-03-21",
-     "status": "not_established",
+     "as_of": "2024-01-30",
+     "status": "established",
      "evidence": [
-      "S3"
-     ]
+      "S5"
+     ],
+     "aliases": [
+      "Dennis P. Thatcher"
+     ],
+     "note": "Latest dated official page; no later change found."
     },
     "uncertainty": "Licensee is Mission; Nexstar provides services under a local service agreement (Nexstar 10-K market table shows 'Erie, PA O&O LSA WJET WFXP'); Nexstar holds no equity in Mission but holds purchase options and guarantees Mission's debt, and consolidates it as a VIE. Mission's shareholding (Nancie J. Smith majority) and Dennis Thatcher's presidency are documented only as of March 2024; no 2025-2026 ownership report opened. The exact agreement types for WFXP (SSA vs JSA) are not itemized in the source opened."
    },
@@ -891,6 +897,17 @@
      "effect_date": "2026-06-30",
      "accessed": "2026-10-04",
      "quote": "In consideration of our guarantee of Mission’s senior secured credit facility, Mission has granted us purchase options to acquire the assets and assume the liabilities of each Mission station, subject to FCC consent."
+    },
+    {
+     "id": "S5",
+     "url": "https://missionbroadcastinginc.com/2024/01/30/mission-broadcasting-and-dish-network-reach-multi-year-distribution-agreement/",
+     "title": "Mission Broadcasting and DISH Network reach multi-year distribution agreement",
+     "publisher": "Mission Broadcasting, Inc.",
+     "kind": "primary",
+     "doc_date": "2024-01-30",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Media Contact: Dennis Thatcher President, Mission Broadcasting, Inc."
     }
    ],
    "reference_limits": "Mission's FCC Form 323 not opened (LMS Access Denied). Leader marked not_established for 2026-10-04 because the latest source naming Dennis Thatcher as president is dated 2024-03-21. Mission's website lists no executives."
@@ -1147,9 +1164,10 @@
      ]
     },
     "controlling_person": {
-     "status": "not_applicable",
+     "status": "none",
      "names": [],
-     "evidence": []
+     "evidence": [],
+     "note_v2": "Evaluated after the review from the latest proxy: {\"value\": \"none (Disney widely held: Vanguard 8.5%, BlackRock 6.9%)\", \"source\": \"https://www.sec.gov/Archives/edgar/data/1744489/000174448926000013/dis-20260122.htm\", \"quote\": \"The Vanguard Group ... 8.5% Blackrock, Inc. ... 6.9%\"}"
     },
     "leader": {
      "name": "Jimmy Pitaro",
@@ -1278,8 +1296,8 @@
      "as_of": "2026-07-01",
      "status": "established",
      "evidence": [
-      "S3",
-      "S4"
+      "S6",
+      "S7"
      ],
      "aliases": [
       "Stephanie D. Wells"
@@ -1357,9 +1375,31 @@
      "effect_date": null,
      "accessed": "2026-10-04",
      "quote": "the Pacifica Bylaws were changed without member approval"
+    },
+    {
+     "id": "S6",
+     "url": "https://makingcontactradio.org/2026/07/pacifica-foundation-to-continue-the-legacy-of-making-contact/",
+     "title": "Pacifica Foundation to continue the legacy of Making Contact",
+     "publisher": "Making Contact",
+     "kind": "secondary",
+     "doc_date": "2026-07-01",
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "said Stephanie Wells, executive director of the Pacifica Foundation."
+    },
+    {
+     "id": "S7",
+     "url": "https://www.pacifica.org/contact_home.php",
+     "title": "Contact Pacifica",
+     "publisher": "Pacifica Foundation",
+     "kind": "primary",
+     "doc_date": null,
+     "effect_date": null,
+     "accessed": "2026-10-04",
+     "quote": "Executive Director: Stephanie Wells"
     }
    ],
-   "reference_limits": "Pacifica Form 323-E and Form 990 after FY2021 not opened. S2 and S4 quotes are tool-extracted summaries of page fields rather than continuous sentences. No 2026 document naming the ED was found."
+   "reference_limits": "Pacifica Form 323-E and Form 990 after FY2021 not opened. S2 and S4 quotes are tool-extracted summaries of page fields rather than continuous sentences. No 2026 document naming the ED was found. Leader updated after the verification passes: Making Contact page dated 2026-07-01 and the undated pacifica.org contact page read 2026-10-04 (earlier sources: April 2025 release, October 2024 board minutes)."
   },
   {
    "id": "kblx",
