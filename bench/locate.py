@@ -1,10 +1,12 @@
 """Locate where each avoidable abstention or error of the workflow arms first becomes observable:
 retrieval (the reference answer is in no retrieved document), extraction (in a document but in no extracted claim),
 or solving (in the dossier given to the solver, which still abstained or answered wrong)."""
-import json, sys
+import json, os, sys
+from pathlib import Path as _P
+os.environ.setdefault("BENCH_CASES", str(_P(__file__).resolve().parent.parent / "reference" / "cases_v1.json"))
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from common import RUNS, PRIVATE, load_cases, norm
-from score import ADJ, names_of
+from score_v1 import ADJ, names_of
 
 def ref_names(case, field):
     r = case["reference"]; extra = ADJ.get(f"{case['id']}:{field}", {}).get("extra_aliases", []) + ADJ.get(f"{case['id']}:{field}", {}).get("accept_also", [])
@@ -26,7 +28,7 @@ def present(tokens, text):
 
 def main():
     cases = {c["id"]: c for c in load_cases()}
-    scores = json.loads((RUNS / "scores.json").read_text())["outputs"]
+    scores = json.loads((RUNS / "scores_v1.json").read_text())["outputs"]
     rows = []
     for s in scores:
         if s["arm"] not in ("B", "C", "B2", "C2"): continue
@@ -51,7 +53,7 @@ def main():
                 elif f == "ultimate_parent": reason = "parent_not_chained"
                 else: reason = "dated_source_only"                      # Post owner, KPFA leader
             rows.append({"arm": s["arm"], "case": case["id"], "run": s["run"], "field": f, "verdict": v["verdict"], "stage": stage, "reason": reason})
-    (RUNS / "locate.json").write_text(json.dumps(rows, indent=1))
+    (RUNS / "locate_v1.json").write_text(json.dumps(rows, indent=1))
     agg = {}
     for r in rows:
         agg.setdefault(r["arm"], {}).setdefault(r["stage"], 0); agg[r["arm"]][r["stage"]] += 1

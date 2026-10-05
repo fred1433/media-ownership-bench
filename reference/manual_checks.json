@@ -1,0 +1,6 @@
+[
+ {"url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000013/dis-20260122.htm",
+  "quote": "no person or entity is the beneficial owner of more than 5% of the voting power of the Company’s stock.",
+  "fetched": true, "passage_found": true, "qualifier_cut": true,
+  "how": "sec.gov refuses an anonymous script; the page was read on 2026-10-04 by the verification pass (reference/verification_v2.json, disney_proxy_5pct). The full sentence is: 'To our knowledge, except as noted below, no person or entity is the beneficial owner of more than 5% of the voting power of the Company’s stock.' The table that follows lists Vanguard (8.5%) and BlackRock (6.9%). The cited passage drops the qualifier."}
+]

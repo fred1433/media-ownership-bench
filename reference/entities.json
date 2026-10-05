@@ -1,42 +1,188 @@
 {
  "_note": "Explicit alias table (review point 4), built after the first scores were seen; every alias is listed here. A model name is split at ' — ', ' (', ';', ':' and each part is compared exactly after lower-casing and removing punctuation and accents. No suffix stripping, no substring matching.",
- "audacy_license": ["Audacy License, LLC", "Audacy License, LLC, as Debtor-in-Possession", "AUDACY LICENSE, LLC"],
- "audacy_inc": ["Audacy, Inc.", "Audacy Inc", "Audacy"],
- "laurel_tree": ["Laurel Tree Opportunities Corporation", "Laurel Tree Opportunities Corp."],
- "fpr_capital": ["FPR Capital Holdings LLC", "FPR Capital Holdings, LLC"],
- "fund_policy_reform": ["Fund for Policy Reform", "The Fund for Policy Reform", "FPR"],
- "krzz_licensing": ["KRZZ Licensing, LLC", "KRZZ LICENSING, LLC", "KRZZ Licensing, Inc."],
- "sbs": ["Spanish Broadcasting System, Inc.", "Spanish Broadcasting System", "Spanish Broadcasting System, Inc., Debtor-in-Possession", "SBS"],
- "raul_alarcon": ["Raúl Alarcón", "Raul Alarcon", "Raúl Alarcón Jr.", "Raúl Alarcón, Jr.", "Raul Alarcon Jr."],
- "cbs_broadcasting": ["CBS Broadcasting Inc.", "CBS Broadcasting, Inc.", "CBS BROADCASTING INC."],
- "paramount_global": ["Paramount Global"],
- "paramount_skydance": ["Paramount Skydance Corporation", "Paramount Skydance Corp.", "Paramount Skydance", "PSKY"],
- "harbor_lights": ["Harbor Lights Entertainment, Inc.", "Harbor Lights Entertainment"],
- "pinnacle": ["Pinnacle Media Ventures", "Pinnacle Media Ventures, LLC"],
- "ellison_family": ["Ellison family", "Ellison Family", "the Ellison family"],
- "david_ellison": ["David Ellison", "David H. Ellison"],
- "larry_ellison": ["Lawrence J. Ellison", "Larry Ellison", "Lawrence Ellison", "Lawrence J. (Larry) Ellison"],
- "paramount_ambiguous": ["Paramount"],
- "wfaa_tv_inc": ["WFAA-TV, Inc.", "WFAA-TV, INC.", "WFAA-TV Inc"],
- "tegna": ["TEGNA Inc.", "Tegna Inc.", "TEGNA"],
- "nexstar_group": ["Nexstar Media Group, Inc.", "Nexstar Media Group"],
- "nexstar_media_inc": ["Nexstar Media Inc."],
- "perry_sook": ["Perry Sook", "Perry A. Sook"],
- "mission": ["Mission Broadcasting, Inc.", "Mission Broadcasting", "MISSION BROADCASTING, INC."],
- "nancie_smith": ["Nancie J. Smith", "Nancie Smith"],
- "dennis_thatcher": ["Dennis Thatcher", "Dennis P. Thatcher"],
- "wp_company": ["WP Company LLC", "WP Company, LLC"],
- "nash_holdings": ["Nash Holdings LLC", "Nash Holdings", "Nash Holdings, LLC"],
- "jeff_bezos": ["Jeff Bezos", "Jeffrey P. Bezos", "Jeffrey Bezos"],
- "jeff_donofrio": ["Jeff D'Onofrio", "Jeff D’Onofrio"],
- "espn": ["ESPN, Inc.", "ESPN Inc.", "ESPN, LLC", "ESPN"],
- "disney": ["The Walt Disney Company", "Walt Disney Company", "Disney"],
- "hearst": ["Hearst Corporation", "Hearst Communications", "Hearst Communications, Inc.", "Hearst", "The Hearst Corporation"],
- "hearst_family_trust": ["The Hearst Family Trust", "Hearst Family Trust"],
- "nfl": ["National Football League", "NFL", "NFL Enterprises LLC"],
- "nfl_clubs": ["The 32 member clubs of the National Football League", "The NFL's 32 member clubs collectively", "National Football League member clubs collectively"],
- "jimmy_pitaro": ["Jimmy Pitaro", "James Pitaro", "James (Jimmy) Pitaro"],
- "pacifica": ["Pacifica Foundation, Inc.", "Pacifica Foundation", "The Pacifica Foundation", "PACIFICA FOUNDATION, INC."],
- "stephanie_wells": ["Stephanie Wells", "Stephanie D. Wells"],
- "kelli_turner": ["Kelli Turner", "Kelli A. Turner"]
+ "audacy_license": [
+  "Audacy License, LLC",
+  "Audacy License, LLC, as Debtor-in-Possession",
+  "AUDACY LICENSE, LLC"
+ ],
+ "audacy_inc": [
+  "Audacy, Inc.",
+  "Audacy Inc",
+  "Audacy"
+ ],
+ "laurel_tree": [
+  "Laurel Tree Opportunities Corporation",
+  "Laurel Tree Opportunities Corp."
+ ],
+ "fpr_capital": [
+  "FPR Capital Holdings LLC",
+  "FPR Capital Holdings, LLC"
+ ],
+ "fund_policy_reform": [
+  "Fund for Policy Reform",
+  "The Fund for Policy Reform",
+  "FPR"
+ ],
+ "krzz_licensing": [
+  "KRZZ Licensing, LLC",
+  "KRZZ LICENSING, LLC",
+  "KRZZ Licensing, Inc."
+ ],
+ "sbs": [
+  "Spanish Broadcasting System, Inc.",
+  "Spanish Broadcasting System",
+  "Spanish Broadcasting System, Inc., Debtor-in-Possession",
+  "SBS"
+ ],
+ "raul_alarcon": [
+  "Raúl Alarcón",
+  "Raul Alarcon",
+  "Raúl Alarcón Jr.",
+  "Raúl Alarcón, Jr.",
+  "Raul Alarcon Jr."
+ ],
+ "cbs_broadcasting": [
+  "CBS Broadcasting Inc.",
+  "CBS Broadcasting, Inc.",
+  "CBS BROADCASTING INC."
+ ],
+ "paramount_global": [
+  "Paramount Global"
+ ],
+ "paramount_skydance": [
+  "Paramount Skydance Corporation",
+  "Paramount Skydance Corp.",
+  "Paramount Skydance",
+  "PSKY"
+ ],
+ "harbor_lights": [
+  "Harbor Lights Entertainment, Inc.",
+  "Harbor Lights Entertainment"
+ ],
+ "pinnacle": [
+  "Pinnacle Media Ventures",
+  "Pinnacle Media Ventures, LLC"
+ ],
+ "ellison_family": [
+  "Ellison family",
+  "Ellison Family",
+  "the Ellison family"
+ ],
+ "david_ellison": [
+  "David Ellison",
+  "David H. Ellison"
+ ],
+ "larry_ellison": [
+  "Lawrence J. Ellison",
+  "Larry Ellison",
+  "Lawrence Ellison",
+  "Lawrence J. (Larry) Ellison"
+ ],
+ "paramount_ambiguous": [
+  "Paramount"
+ ],
+ "wfaa_tv_inc": [
+  "WFAA-TV, Inc.",
+  "WFAA-TV, INC.",
+  "WFAA-TV Inc"
+ ],
+ "tegna": [
+  "TEGNA Inc.",
+  "Tegna Inc.",
+  "TEGNA"
+ ],
+ "nexstar_group": [
+  "Nexstar Media Group, Inc.",
+  "Nexstar Media Group"
+ ],
+ "nexstar_media_inc": [
+  "Nexstar Media Inc."
+ ],
+ "perry_sook": [
+  "Perry Sook",
+  "Perry A. Sook"
+ ],
+ "mission": [
+  "Mission Broadcasting, Inc.",
+  "Mission Broadcasting",
+  "MISSION BROADCASTING, INC.",
+  "Mission"
+ ],
+ "nancie_smith": [
+  "Nancie J. Smith",
+  "Nancie Smith"
+ ],
+ "dennis_thatcher": [
+  "Dennis Thatcher",
+  "Dennis P. Thatcher"
+ ],
+ "wp_company": [
+  "WP Company LLC",
+  "WP Company, LLC"
+ ],
+ "nash_holdings": [
+  "Nash Holdings LLC",
+  "Nash Holdings",
+  "Nash Holdings, LLC"
+ ],
+ "jeff_bezos": [
+  "Jeff Bezos",
+  "Jeffrey P. Bezos",
+  "Jeffrey Bezos"
+ ],
+ "jeff_donofrio": [
+  "Jeff D'Onofrio",
+  "Jeff D’Onofrio"
+ ],
+ "espn": [
+  "ESPN, Inc.",
+  "ESPN Inc.",
+  "ESPN, LLC",
+  "ESPN"
+ ],
+ "disney": [
+  "The Walt Disney Company",
+  "Walt Disney Company",
+  "Disney"
+ ],
+ "hearst": [
+  "Hearst Corporation",
+  "Hearst Communications",
+  "Hearst Communications, Inc.",
+  "Hearst",
+  "The Hearst Corporation"
+ ],
+ "hearst_family_trust": [
+  "The Hearst Family Trust",
+  "Hearst Family Trust"
+ ],
+ "nfl": [
+  "National Football League",
+  "NFL",
+  "NFL Enterprises LLC"
+ ],
+ "nfl_clubs": [
+  "The 32 member clubs of the National Football League",
+  "The NFL's 32 member clubs collectively",
+  "National Football League member clubs collectively"
+ ],
+ "jimmy_pitaro": [
+  "Jimmy Pitaro",
+  "James Pitaro",
+  "James (Jimmy) Pitaro"
+ ],
+ "pacifica": [
+  "Pacifica Foundation, Inc.",
+  "Pacifica Foundation",
+  "The Pacifica Foundation",
+  "PACIFICA FOUNDATION, INC."
+ ],
+ "stephanie_wells": [
+  "Stephanie Wells",
+  "Stephanie D. Wells"
+ ],
+ "kelli_turner": [
+  "Kelli Turner",
+  "Kelli A. Turner"
+ ]
 }

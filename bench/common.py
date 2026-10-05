@@ -1,10 +1,12 @@
 """Shared pieces: answer schema, prompts, prices, cost ledger with a hard cap."""
-import json, os, re, threading, time, unicodedata, importlib.metadata as md
+import json, os, re, threading, time, unicodedata, uuid, importlib.metadata as md
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-RUNS = ROOT / "runs"
-PRIVATE = ROOT / "runs" / "private"   # full page texts: not published (copyright)
+# A run directory holds its own config, ledger, outputs and cache. The published run is runs/;
+# a new run goes elsewhere (BENCH_RUN_DIR or run.py --out) so it never mixes with it.
+RUNS = Path(os.environ.get("BENCH_RUN_DIR", ROOT / "runs")).resolve()
+PRIVATE = RUNS / "private"   # full page texts: not published (copyright)
 TARGET_DATE = "2026-10-04"
 CAP_USD = float(os.environ.get("BENCH_CAP_USD", "15.0"))
 
@@ -87,24 +89,37 @@ Leader definition for this question: {case['leader_definition']}"""
 
 
 class Ledger:
-    """Append-only cost ledger. Refuses a call when measured spend + reserve would pass the cap."""
-    def __init__(self, path=RUNS / "ledger.jsonl"):
-        self.path = Path(path); self.lock = threading.Lock(); self.path.parent.mkdir(parents=True, exist_ok=True)
+    """Append-only cost ledger with atomic reservations.
+    reserve() commits an estimated maximum under the lock and counts it as in flight; settle() replaces it with
+    the measured cost; release() frees it when the call failed before billing. A reservation is refused when
+    measured spend + reservations in flight + the new reservation would pass the cap. The spend is re-read
+    from the file on every reservation, so a resumed run starts from what was really spent.
+    For OpenAI native search the reservation is an estimate: the caller cannot bound the searches inside one
+    call, so the cap is a preventive stop based on an estimate, not a guaranteed maximum."""
+    def __init__(self, path=None, cap=None):
+        self.path = Path(path or RUNS / "ledger.jsonl"); self.cap = CAP_USD if cap is None else cap
+        self.lock = threading.Lock(); self.inflight = {}; self.path.parent.mkdir(parents=True, exist_ok=True)
 
     def total(self):
         if not self.path.exists(): return 0.0
         return sum(json.loads(l)["usd"] for l in self.path.read_text().splitlines() if l.strip())
 
-    def guard(self, reserve):
+    def reserve(self, amount):
         with self.lock:
-            t = self.total()
-            if t + reserve > CAP_USD:
-                raise RuntimeError(f"cost cap: spent {t:.4f} + reserve {reserve:.2f} > {CAP_USD}")
+            t = self.total(); f = sum(self.inflight.values())
+            if t + f + amount > self.cap:
+                raise RuntimeError(f"cost cap: spent {t:.4f} + in flight {f:.2f} + reservation {amount:.2f} > {self.cap}")
+            tok = uuid.uuid4().hex; self.inflight[tok] = amount
+            return tok
 
-    def add(self, **row):
+    def release(self, tok):
+        with self.lock: self.inflight.pop(tok, None)
+
+    def settle(self, tok, **row):
         row["ts"] = time.strftime("%Y-%m-%dT%H:%M:%S%z")
-        with self.lock, self.path.open("a") as f:
-            f.write(json.dumps(row) + "\n")
+        with self.lock:
+            row["reserved_usd"] = self.inflight.pop(tok, None)
+            with self.path.open("a") as f: f.write(json.dumps(row) + "\n")
 
 LEDGER = Ledger()
 

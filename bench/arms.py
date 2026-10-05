@@ -16,19 +16,23 @@ def _resp_dict(r):
     return json.loads(r.model_dump_json())
 
 
+MAX_OUT = int(os.environ["BENCH_MAX_OUTPUT_TOKENS"]) if os.environ.get("BENCH_MAX_OUTPUT_TOKENS") else None  # unset in the published run
+
+
 def call_openai(arm, case_id, run, instructions, inp, *, tools=None, effort=EFFORT, fmt=FMT, reserve=0.6, tag="final"):
-    LEDGER.guard(reserve)
+    tok = LEDGER.reserve(reserve)
     t0 = time.time(); retries = 0
     while True:
         try:
             kw = dict(model=OPENAI_MODEL, instructions=instructions, input=inp, reasoning={"effort": effort}, text=fmt)
+            if MAX_OUT: kw["max_output_tokens"] = MAX_OUT
             if tools:
                 kw["tools"] = tools; kw["include"] = ["web_search_call.action.sources"]
             r = oai.responses.create(**kw)
             break
-        except Exception as e:  # one retry on transient errors, recorded
+        except Exception as e:  # one retry on transient errors, recorded; the reservation is freed on failure
             retries += 1
-            if retries > 1: raise
+            if retries > 1: LEDGER.release(tok); raise
             time.sleep(5)
     d = _resp_dict(r)
     items = d.get("output", [])
@@ -36,7 +40,7 @@ def call_openai(arm, case_id, run, instructions, inp, *, tools=None, effort=EFFO
     actions = [((i.get("action") or {}).get("type")) for i in ws]
     usage = d.get("usage") or {}
     usd = openai_cost(usage, search_calls=len(ws))
-    LEDGER.add(provider="openai", arm=arm, case=case_id, run=run, step=tag, model_requested=OPENAI_MODEL,
+    LEDGER.settle(tok, provider="openai", arm=arm, case=case_id, run=run, step=tag, model_requested=OPENAI_MODEL,
                model_returned=d.get("model"), usage=usage, web_search_calls=len(ws), usd=usd)
     return {"text": r.output_text, "raw": d, "usage": usage, "usd": usd, "latency_s": round(time.time() - t0, 1),
             "web_search": {"tool_enabled": bool(tools), "calls_executed": len(ws), "actions": actions, "forced": False},
@@ -57,13 +61,16 @@ def arm_bare(case, run):
 
 # ---------------- B: bounded workflow ----------------
 def exa_search(query, case_id, n=5, chars=4000):
-    LEDGER.guard(0.05)
-    r = httpx.post("https://api.exa.ai/search", timeout=60, headers={"x-api-key": os.environ["EXA_API_KEY"]},
-                   json={"query": query, "numResults": n, "type": "auto",
-                         "contents": {"text": {"maxCharacters": chars}}})
-    r.raise_for_status(); d = r.json()
+    tok = LEDGER.reserve(0.05)
+    try:
+        r = httpx.post("https://api.exa.ai/search", timeout=60, headers={"x-api-key": os.environ["EXA_API_KEY"]},
+                       json={"query": query, "numResults": n, "type": "auto",
+                             "contents": {"text": {"maxCharacters": chars}}})
+        r.raise_for_status(); d = r.json()
+    except Exception:
+        LEDGER.release(tok); raise
     usd = (d.get("costDollars") or {}).get("total", 0.0)
-    LEDGER.add(provider="exa", arm="B", case=case_id, run=0, step="search", query=query, usd=usd)
+    LEDGER.settle(tok, provider="exa", arm="B", case=case_id, run=0, step="search", query=query, usd=usd)
     return [{"url": x["url"], "title": x.get("title"), "published": x.get("publishedDate"), "text": x.get("text") or ""}
             for x in d.get("results", [])]
 
@@ -215,7 +222,7 @@ def solver_input(case, claims, flags):
 
 def arm_c(case, run, dossier, arm="C"):
     """C: the exact dossier given to B's final solver, handed to another model without tools."""
-    LEDGER.guard(0.2)
+    tok = LEDGER.reserve(0.2)
     t0 = time.time(); retries = 0
     while True:
         try:
@@ -224,11 +231,11 @@ def arm_c(case, run, dossier, arm="C"):
             break
         except Exception:
             retries += 1
-            if retries > 1: raise
+            if retries > 1: LEDGER.release(tok); raise
             time.sleep(5)
     usage = r.usage_metadata.model_dump() if r.usage_metadata else {}
     usd = gemini_cost(usage)
-    LEDGER.add(provider="gemini", arm=arm, case=case["id"], run=run, step="solve", model_requested=GEMINI_MODEL,
+    LEDGER.settle(tok, provider="gemini", arm=arm, case=case["id"], run=run, step="solve", model_requested=GEMINI_MODEL,
                model_returned=r.model_version, usage={k: v for k, v in usage.items() if isinstance(v, int)}, usd=usd)
     return {"text": r.text, "usage": {k: v for k, v in usage.items() if isinstance(v, int)}, "usd": usd,
             "latency_s": round(time.time() - t0, 1), "model_returned": r.model_version, "retries": retries,

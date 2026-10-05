@@ -1,7 +1,10 @@
 """Runner. Usage: python bench/run.py [--dev] [--cases a,b] [--runs 3] [--arms A,B,C,bare]
 Writes runs/<arm>/<case>_r<n>.json. Skips outputs that already exist. Stops at the cost cap (ledger)."""
-import argparse, json, sys, time, traceback
+import argparse, json, os, sys, time, traceback
+# --out must be known before common is imported: it decides where config, ledger, outputs and cache go.
+if "--out" in sys.argv: os.environ["BENCH_RUN_DIR"] = sys.argv[sys.argv.index("--out") + 1]
 from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from common import RUNS, load_cases, LEDGER, SDK, OPENAI_MODEL, GEMINI_MODEL, EFFORT, SYSTEM, ANSWER_SCHEMA, PRICES, CAP_USD
 import arms
@@ -39,7 +42,10 @@ def work(case, runs, armset, start=1):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("--dev", action="store_true"); ap.add_argument("--cases")
     ap.add_argument("--runs", type=int, default=3); ap.add_argument("--arms", default="A,B,C,bare")
-    ap.add_argument("--workers", type=int, default=5); a = ap.parse_args()
+    ap.add_argument("--workers", type=int, default=5); ap.add_argument("--out", help="new run directory (own ledger, config, outputs, cache)")
+    ap.add_argument("--dry-run", action="store_true", help="write the run config and stop before any API call"); a = ap.parse_args()
+    if RUNS == (Path(__file__).resolve().parent.parent / "runs") and not a.dry_run and os.environ.get("BENCH_ALLOW_PUBLISHED_DIR") != "1":
+        sys.exit("refusing to write into the published runs/: pass --out <new dir>")
     cases = load_cases(include_dev=True)
     cases = [c for c in cases if c.get("dev")] if a.dev else [c for c in cases if not c.get("dev")]
     if a.cases: cases = [c for c in load_cases(True) if c["id"] in a.cases.split(",")]
@@ -49,6 +55,8 @@ if __name__ == "__main__":
         "tools": {"A": "web_search (OpenAI native)", "B": "none in-model; Exa search by fixed templates", "C": "none", "bare": "none"},
         "limits": {"B_extra_queries": 2, "B_docs_chars": 3500, "retries": 1, "timeout_s": 600},
         "cap_usd": CAP_USD, "prices": PRICES, "system_prompt": SYSTEM, "schema": ANSWER_SCHEMA}, indent=1))
+    print(f"run directory: {RUNS} | ledger: {LEDGER.path} | spent there so far: {LEDGER.total():.4f} | cap {CAP_USD}")
+    if a.dry_run: sys.exit(0)
     logs = []
     for r in range(1, a.runs + 1):   # complete passes first, so a cap stop leaves whole passes
         with ThreadPoolExecutor(a.workers) as ex:
